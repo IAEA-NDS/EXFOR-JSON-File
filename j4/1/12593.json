@@ -1,0 +1,2805 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T19:35:59+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "12593",
+        "N2": 20210420,
+        "alteration_flag": " ",
+        "transmission_identification": "1483"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "12593001",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 9,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Interference Phenomena of Slow Neutrons"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "E.Fermi",
+                "L.Marshall"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,PR,71,666,1947",
+                "code_unit": [
+                  {
+                    "unit": "J,PR,71,666,1947",
+                    "doi": "10.1103/PhysRev.71.666",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "PR",
+                        "number": null,
+                        "volume": "71",
+                        "part": null,
+                        "issue": null,
+                        "page": "666"
+                      },
+                      "date": 1947
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "#doi:10.1103/PhysRev.71.666"
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "1USAANL"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": "1USAANL"
+              },
+              "free_text": [
+                " Thermal reactor column."
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "DIFFR"
+              ],
+              "free_text": [
+                " Collimated beam of thermal neutrons emerging",
+                "from the thermal column is made monochromatic by",
+                "Bragg reflection on a Huorite crystal. It is further",
+                "collimated by passing through two very narrow cadmium",
+                "slits, 2 mm wide and about 3.5 meters apart. The",
+                "narrow monochromatic beam emerging from the second",
+                "slit falls on the mirror which can be rotated by",
+                "small angles. The reflected beam is detected by a BF3",
+                "proportional counter about 3.5 meters away and with a",
+                "cadmium entrance slit 2 mm wide. By moving the",
+                "counter across the beam, both direct and reflected",
+                "beam are detected."
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "BF3"
+              ],
+              "free_text": [
+                " Boron trifluoride neutron counter."
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Compiler's comment: Neutron energy is expressed in",
+                "angstrom. Using the Paul Scherrer institute",
+                "calculator where is E[meV] = 81.82/((Lambda/A)**2) one",
+                "can deduce if lambda=1.5 A then En=36.364 meV."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19780224,
+                "history": "C"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20210420,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: Updated to new date formats,lower",
+                "case. corrections according last EXFOR rules and",
+                "Dict. Changed reaction coding from (N,EL) to (N,THS).",
+                "Explained energy conversion from angstrom to meV. Added",
+                " doi, CF4 and H2 data. Subentries 22-24 were added."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "TEMP"
+            ],
+            "unit": [
+              "K"
+            ],
+            "value": [
+              293.15
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12593002",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "56-BA-0(N,THS)56-BA-0,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "56-BA-0(N,THS)56-BA-0,,SIG",
+                    "field": {
+                      "reaction": "56-BA-0(N,THS)56-BA-0",
+                      "target": "56-BA-0",
+                      "projectile": "N",
+                      "process": "THS",
+                      "product": "56-BA-0",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "BaSO4 crystal."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for bound state of sample."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table VII, page 676."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "WVE-LN",
+              "DATA"
+            ],
+            "unit": [
+              "ANGSTROM",
+              "B"
+            ],
+            "value": [
+              [
+                1.5,
+                8.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12593003",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "4-BE-9(N,THS)4-BE-9,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "4-BE-9(N,THS)4-BE-9,,SIG",
+                    "field": {
+                      "reaction": "4-BE-9(N,THS)4-BE-9",
+                      "target": "4-BE-9",
+                      "projectile": "N",
+                      "process": "THS",
+                      "product": "4-BE-9",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "BeO"
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for bound state of sample."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table VII, page 676."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "WVE-LN",
+              "DATA"
+            ],
+            "unit": [
+              "ANGSTROM",
+              "B"
+            ],
+            "value": [
+              [
+                1.5,
+                6.1
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12593004",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "35-BR-0(N,THS)35-BR-0,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "35-BR-0(N,THS)35-BR-0,,SIG",
+                    "field": {
+                      "reaction": "35-BR-0(N,THS)35-BR-0",
+                      "target": "35-BR-0",
+                      "projectile": "N",
+                      "process": "THS",
+                      "product": "35-BR-0",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "KBr crystal."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for bound state of sample."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table VII, page 676."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "WVE-LN",
+              "DATA-MAX"
+            ],
+            "unit": [
+              "ANGSTROM",
+              "B"
+            ],
+            "value": [
+              [
+                1.5,
+                7.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12593005",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "6-C-0(N,THS)6-C-0,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "6-C-0(N,THS)6-C-0,,SIG",
+                    "field": {
+                      "reaction": "6-C-0(N,THS)6-C-0",
+                      "target": "6-C-0",
+                      "projectile": "N",
+                      "process": "THS",
+                      "product": "6-C-0",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "CaCO3 crystal."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for bound state of sample."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table VII, page 676."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "WVE-LN",
+              "DATA"
+            ],
+            "unit": [
+              "ANGSTROM",
+              "B"
+            ],
+            "value": [
+              [
+                1.5,
+                4.8
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12593006",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "20-CA-0(N,THS)20-CA-0,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "20-CA-0(N,THS)20-CA-0,,SIG",
+                    "field": {
+                      "reaction": "20-CA-0(N,THS)20-CA-0",
+                      "target": "20-CA-0",
+                      "projectile": "N",
+                      "process": "THS",
+                      "product": "20-CA-0",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "CaF2,CaCO3 crystals."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for bound state of sample."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table VII, page 676."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "WVE-LN",
+              "DATA"
+            ],
+            "unit": [
+              "ANGSTROM",
+              "B"
+            ],
+            "value": [
+              [
+                1.5,
+                9.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12593007",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "17-CL-0(N,THS)17-CL-0,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "17-CL-0(N,THS)17-CL-0,,SIG",
+                    "field": {
+                      "reaction": "17-CL-0(N,THS)17-CL-0",
+                      "target": "17-CL-0",
+                      "projectile": "N",
+                      "process": "THS",
+                      "product": "17-CL-0",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "KCl,NaCl crystals."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for bound state of sample."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table VII, page 676."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "WVE-LN",
+              "DATA"
+            ],
+            "unit": [
+              "ANGSTROM",
+              "B"
+            ],
+            "value": [
+              [
+                1.5,
+                15.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12593008",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "29-CU-0(N,THS)29-CU-0,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "29-CU-0(N,THS)29-CU-0,,SIG",
+                    "field": {
+                      "reaction": "29-CU-0(N,THS)29-CU-0",
+                      "target": "29-CU-0",
+                      "projectile": "N",
+                      "process": "THS",
+                      "product": "29-CU-0",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table VII, page 676."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "WVE-LN",
+              "DATA"
+            ],
+            "unit": [
+              "ANGSTROM",
+              "B"
+            ],
+            "value": [
+              [
+                1.5,
+                7.2
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12593009",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "9-F-19(N,THS)9-F-19,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "9-F-19(N,THS)9-F-19,,SIG",
+                    "field": {
+                      "reaction": "9-F-19(N,THS)9-F-19",
+                      "target": "9-F-19",
+                      "projectile": "N",
+                      "process": "THS",
+                      "product": "9-F-19",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "CaF2 crystal."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for bound state of sample."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table VII, page 676."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "WVE-LN",
+              "DATA"
+            ],
+            "unit": [
+              "ANGSTROM",
+              "B"
+            ],
+            "value": [
+              [
+                1.5,
+                4.1
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12593010",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "26-FE-0(N,THS)26-FE-0,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "26-FE-0(N,THS)26-FE-0,,SIG",
+                    "field": {
+                      "reaction": "26-FE-0(N,THS)26-FE-0",
+                      "target": "26-FE-0",
+                      "projectile": "N",
+                      "process": "THS",
+                      "product": "26-FE-0",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "FeSO4,FeS2 crystals."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for bound state of sample."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table VII, page 676."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "WVE-LN",
+              "DATA"
+            ],
+            "unit": [
+              "ANGSTROM",
+              "B"
+            ],
+            "value": [
+              [
+                1.5,
+                4.1
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12593011",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "53-I-127(N,THS)53-I-127,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "53-I-127(N,THS)53-I-127,,SIG",
+                    "field": {
+                      "reaction": "53-I-127(N,THS)53-I-127",
+                      "target": "53-I-127",
+                      "projectile": "N",
+                      "process": "THS",
+                      "product": "53-I-127",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "KI crystal."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for bound state of sample."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table VII, page 676."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "WVE-LN",
+              "DATA"
+            ],
+            "unit": [
+              "ANGSTROM",
+              "B"
+            ],
+            "value": [
+              [
+                1.5,
+                1.6
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12593012",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "19-K-0(N,THS)19-K-0,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "19-K-0(N,THS)19-K-0,,SIG",
+                    "field": {
+                      "reaction": "19-K-0(N,THS)19-K-0",
+                      "target": "19-K-0",
+                      "projectile": "N",
+                      "process": "THS",
+                      "product": "19-K-0",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "KI,KCl,KBr crystals."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for bound state of sample."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table VII, page 676."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "WVE-LN",
+              "DATA"
+            ],
+            "unit": [
+              "ANGSTROM",
+              "B"
+            ],
+            "value": [
+              [
+                1.5,
+                1.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12593013",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "12-MG-0(N,THS)12-MG-0,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "12-MG-0(N,THS)12-MG-0,,SIG",
+                    "field": {
+                      "reaction": "12-MG-0(N,THS)12-MG-0",
+                      "target": "12-MG-0",
+                      "projectile": "N",
+                      "process": "THS",
+                      "product": "12-MG-0",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "MgO crystal."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for bound state of sample."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table VII, page 676."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "WVE-LN",
+              "DATA"
+            ],
+            "unit": [
+              "ANGSTROM",
+              "B"
+            ],
+            "value": [
+              [
+                1.5,
+                4.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12593014",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "25-MN-55(N,THS)25-MN-55,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "25-MN-55(N,THS)25-MN-55,,SIG",
+                    "field": {
+                      "reaction": "25-MN-55(N,THS)25-MN-55",
+                      "target": "25-MN-55",
+                      "projectile": "N",
+                      "process": "THS",
+                      "product": "25-MN-55",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "MnS2 crystal."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for bound state of sample."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table VII, page 676."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "WVE-LN",
+              "DATA"
+            ],
+            "unit": [
+              "ANGSTROM",
+              "B"
+            ],
+            "value": [
+              [
+                1.5,
+                2.4
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12593015",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "7-N-0(N,THS)7-N-0,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "7-N-0(N,THS)7-N-0,,SIG",
+                    "field": {
+                      "reaction": "7-N-0(N,THS)7-N-0",
+                      "target": "7-N-0",
+                      "projectile": "N",
+                      "process": "THS",
+                      "product": "7-N-0",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "NaNO3 crystal."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for bound state of sample."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table VII, page 676."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "WVE-LN",
+              "DATA"
+            ],
+            "unit": [
+              "ANGSTROM",
+              "B"
+            ],
+            "value": [
+              [
+                1.5,
+                8.3
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12593016",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "11-NA-23(N,THS)11-NA-23,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "11-NA-23(N,THS)11-NA-23,,SIG",
+                    "field": {
+                      "reaction": "11-NA-23(N,THS)11-NA-23",
+                      "target": "11-NA-23",
+                      "projectile": "N",
+                      "process": "THS",
+                      "product": "11-NA-23",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "NaNO3,NaCl crystals."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for bound state of sample."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table VII, page 676."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "WVE-LN",
+              "DATA"
+            ],
+            "unit": [
+              "ANGSTROM",
+              "B"
+            ],
+            "value": [
+              [
+                1.5,
+                3.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12593017",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "28-NI-0(N,THS)28-NI-0,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "28-NI-0(N,THS)28-NI-0,,SIG",
+                    "field": {
+                      "reaction": "28-NI-0(N,THS)28-NI-0",
+                      "target": "28-NI-0",
+                      "projectile": "N",
+                      "process": "THS",
+                      "product": "28-NI-0",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table VII, page 676."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "WVE-LN",
+              "DATA"
+            ],
+            "unit": [
+              "ANGSTROM",
+              "B"
+            ],
+            "value": [
+              [
+                1.5,
+                13.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12593018",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "8-O-0(N,THS)8-O-0,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "8-O-0(N,THS)8-O-0,,SIG",
+                    "field": {
+                      "reaction": "8-O-0(N,THS)8-O-0",
+                      "target": "8-O-0",
+                      "projectile": "N",
+                      "process": "THS",
+                      "product": "8-O-0",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "FeSO4,CaCO3,BaSO4,MgO,NaNO3 crystals."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for bound state of sample."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table VII, page 676."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "WVE-LN",
+              "DATA"
+            ],
+            "unit": [
+              "ANGSTROM",
+              "B"
+            ],
+            "value": [
+              [
+                1.5,
+                4.1
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12593019",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "82-PB-0(N,THS)82-PB-0,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "82-PB-0(N,THS)82-PB-0,,SIG",
+                    "field": {
+                      "reaction": "82-PB-0(N,THS)82-PB-0",
+                      "target": "82-PB-0",
+                      "projectile": "N",
+                      "process": "THS",
+                      "product": "82-PB-0",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "PbS crystal."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for bound state of sample."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table VII, page 676."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA"
+            ],
+            "unit": [
+              "MILLI-EV",
+              "B"
+            ],
+            "value": [
+              [
+                36.364,
+                10.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12593020",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "16-S-0(N,THS)16-S-0,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "16-S-0(N,THS)16-S-0,,SIG",
+                    "field": {
+                      "reaction": "16-S-0(N,THS)16-S-0",
+                      "target": "16-S-0",
+                      "projectile": "N",
+                      "process": "THS",
+                      "product": "16-S-0",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "BaSO4,PbS,FeS2,MnS2 crystals."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for bound state of sample."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table VII, page 676."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "WVE-LN",
+              "DATA"
+            ],
+            "unit": [
+              "ANGSTROM",
+              "B"
+            ],
+            "value": [
+              [
+                1.5,
+                1.1
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12593021",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "30-ZN-0(N,THS)30-ZN-0,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "30-ZN-0(N,THS)30-ZN-0,,SIG",
+                    "field": {
+                      "reaction": "30-ZN-0(N,THS)30-ZN-0",
+                      "target": "30-ZN-0",
+                      "projectile": "N",
+                      "process": "THS",
+                      "product": "30-ZN-0",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table VII, page 676."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "WVE-LN",
+              "DATA"
+            ],
+            "unit": [
+              "ANGSTROM",
+              "B"
+            ],
+            "value": [
+              [
+                1.5,
+                3.6
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12593022",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "6-C-CMP(N,THS)6-C-CMP,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "6-C-CMP(N,THS)6-C-CMP,,SIG",
+                    "field": {
+                      "reaction": "6-C-CMP(N,THS)6-C-CMP",
+                      "target": "6-C-CMP",
+                      "projectile": "N",
+                      "process": "THS",
+                      "product": "6-C-CMP",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "CF4, room temperature."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table III, page 674."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20210420,
+                "history": "C"
+              },
+              "free_text": [
+                " BP"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 5,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "WVE-LN",
+              "DATA"
+            ],
+            "unit": [
+              "ANGSTROM",
+              "B"
+            ],
+            "value": [
+              [
+                0.881,
+                19.5
+              ],
+              [
+                1.099,
+                19.0
+              ],
+              [
+                1.316,
+                21.5
+              ],
+              [
+                1.492,
+                20.8
+              ],
+              [
+                5.1,
+                41.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12593023",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "1-H-0(N,THS)1-H-0,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "1-H-0(N,THS)1-H-0,,SIG",
+                    "field": {
+                      "reaction": "1-H-0(N,THS)1-H-0",
+                      "target": "1-H-0",
+                      "projectile": "N",
+                      "process": "THS",
+                      "product": "1-H-0",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "H2, room temperature."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table IV, page 674."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20210420,
+                "history": "C"
+              },
+              "free_text": [
+                " BP"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 7,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "WVE-LN",
+              "DATA"
+            ],
+            "unit": [
+              "ANGSTROM",
+              "B"
+            ],
+            "value": [
+              [
+                0.76,
+                50.9
+              ],
+              [
+                0.93,
+                53.2
+              ],
+              [
+                1.11,
+                56.2
+              ],
+              [
+                1.46,
+                61.2
+              ],
+              [
+                1.68,
+                64.4
+              ],
+              [
+                2.24,
+                68.0
+              ],
+              [
+                5.1,
+                169.7
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12593024",
+            "N2": 20210420,
+            "alteration_flag": " ",
+            "transmission_identification": "1483"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "1-H-0(N,THS)1-H-0,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "1-H-0(N,THS)1-H-0,,SIG",
+                    "field": {
+                      "reaction": "1-H-0(N,THS)1-H-0",
+                      "target": "1-H-0",
+                      "projectile": "N",
+                      "process": "THS",
+                      "product": "1-H-0",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "H2 at 83 K (ortho-para ratio unchanged from room",
+                "temperature)."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for absorption and Doppler effect."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table V, page 674."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20210420,
+                "history": "C"
+              },
+              "free_text": [
+                " BP"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 5,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "WVE-LN",
+              "DATA"
+            ],
+            "unit": [
+              "ANGSTROM",
+              "B"
+            ],
+            "value": [
+              [
+                0.836,
+                43.0
+              ],
+              [
+                1.202,
+                51.0
+              ],
+              [
+                1.638,
+                55.0
+              ],
+              [
+                1.884,
+                56.0
+              ],
+              [
+                5.1,
+                81.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 24,
+        "N2": 0
+      }
+    }
+  ]
+}

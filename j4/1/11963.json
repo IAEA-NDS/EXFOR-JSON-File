@@ -1,0 +1,320 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T19:30:17+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "11963",
+        "N2": 20080623,
+        "alteration_flag": " ",
+        "transmission_identification": "1349"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "11963001",
+            "N2": 20080623,
+            "alteration_flag": " ",
+            "transmission_identification": "1349"
+          },
+          "BIB": {
+            "N1": 6,
+            "N2": 0
+          },
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "1USAVBT",
+                "2NEDIKO"
+              ],
+              "free_text": [
+                "",
+                "Netherlands (INST.KERNPHYS. ONDERZOEK,AMSTERDAM)"
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,PHY,30,124,1964",
+                "code_unit": [
+                  {
+                    "unit": "J,PHY,30,124,1964",
+                    "doi": "10.1016/0031-8914(64)90207-1",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "PHY",
+                        "number": null,
+                        "volume": "30",
+                        "part": null,
+                        "issue": null,
+                        "page": "124"
+                      },
+                      "date": 1964
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "H.Boyd",
+                "J.Hamilton",
+                "A.SATTLER",
+                "P.goudsmit"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "THE THERMAL-NEUTRON CAPTURE CROSS SECTION OF 108Cd AND",
+                " THE DECAY OF 109Ag(m)."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SCSRS"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19760802,
+                "history": "T"
+              },
+              "free_text": [
+                " Translated from SCISRS"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19830802,
+                "history": "A"
+              },
+              "free_text": [
+                " Converted to REACTION formalism"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20080623,
+                "history": "A"
+              },
+              "free_text": [
+                " Converted to new date formats, lower case.",
+                "            BIB updates."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "11963002",
+            "N2": 20080623,
+            "alteration_flag": " ",
+            "transmission_identification": "1349"
+          },
+          "BIB": {
+            "N1": 6,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "48-CD-108(N,G)48-CD-109,,SIG,,MXW,DERIV",
+                "code_unit": [
+                  {
+                    "unit": "48-CD-108(N,G)48-CD-109,,SIG,,MXW,DERIV",
+                    "field": {
+                      "reaction": "48-CD-108(N,G)48-CD-109",
+                      "target": "48-CD-108",
+                      "projectile": "N",
+                      "process": "G",
+                      "product": "48-CD-109",
+                      "quantity": ",SIG",
+                      "data_type": "DERIV",
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "107Ag source material obtained from Oak Ridge, where it",
+                " was produced by thermal capture in natural silver."
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "48-CD-109",
+                "half-life": {
+                  "value": 470.0,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      88.0
+                    ],
+                    "intensity": null
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Cross section obtained by comparison of intensities of",
+                " K, L, and M+N lines of the 110Ag(m) isomer with those",
+                " of the 88 keV isomer produced in the decay of 109Cd.",
+                " Calculated assuming 109Cd is produced by:",
+                "  107Ag(n,gamma)108Ag(beta-,2.4min)",
+                "  108Cd(n,gamma)109Cd(EC)109Ag(m)."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Primary error is the percentage of isomeric",
+                "  decays of 110Ag(m)."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20080623,
+                "history": "A"
+              },
+              "free_text": [
+                " Spectrum code added to REACTION."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-DUMMY",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "B",
+              "B"
+            ],
+            "value": [
+              [
+                2.53e-08,
+                24.0,
+                10.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 2,
+        "N2": 0
+      }
+    }
+  ]
+}

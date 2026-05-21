@@ -1,0 +1,678 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T19:35:12+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "12474",
+        "N2": 20220210,
+        "alteration_flag": " ",
+        "transmission_identification": "1498"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "12474001",
+            "N2": 20220210,
+            "alteration_flag": " ",
+            "transmission_identification": "1498"
+          },
+          "BIB": {
+            "N1": 9,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The neutron-induced fission cross section of U-236 as",
+                "a function of energy"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "W.Nyer"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R,LA-1258,1951",
+                "code_unit": [
+                  {
+                    "unit": "R,LA-1258,1951",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "R",
+                      "reference": {
+                        "code": "LA-",
+                        "number": "1258",
+                        "volume": null,
+                        "part": null,
+                        "issue": null,
+                        "page": null
+                      },
+                      "date": 1951
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "1USALAS"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "CCW"
+                ],
+                "institute": "1USALAS"
+              },
+              "free_text": [
+                " The Z Building Cockcroft-Walton",
+                "accelerator."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "VDG"
+                ],
+                "institute": "1USALAS"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "P-T",
+                  "D-D",
+                  "D-T"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                " For energies between 690 and 1320",
+                "keV, the VDG accelerator with the reaction (P-T) was",
+                "used. The 2.55 and 14.1 MeV neutrons by means of the",
+                "D(d,n)He3 and T(d,n)He4 reactions, respectively."
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Uranium foils prepared by John Povelites of Group",
+                "CMR-4."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "A correction of about 3% was applied for the effect",
+                "of low energy epi-cadmium neutrons in the 14.1 MeV",
+                "measurement."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19760804,
+                "history": "T"
+              },
+              "free_text": [
+                " Translated from SCISRS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19830809,
+                "history": "A"
+              },
+              "free_text": [
+                " Converted to reaction formalism."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20220210,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: Updated to new date formats, lower",
+                "case. Corrections according last EXFOR rules and",
+                "Dict. Added facility, incoming source, correction,",
+                "error analysis."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12474002",
+            "N2": 20220210,
+            "alteration_flag": " ",
+            "transmission_identification": "1498"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(92-U-236(N,F),,SIG)/(92-U-235(N,F),,SIG)",
+                "code_unit": [
+                  {
+                    "unit": "92-U-236(N,F),,SIG",
+                    "field": {
+                      "reaction": "92-U-236(N,F)",
+                      "target": "92-U-236",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  },
+                  {
+                    "unit": "92-U-235(N,F),,SIG",
+                    "field": {
+                      "reaction": "92-U-235(N,F)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)/(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The measurements consisted of determining the ratio",
+                "of the number of fissions in the 236U foil to the",
+                "number of fissions in the 235U foil when the chamber",
+                "was placed in a flux of neutrons of known energy E."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistical errors. No estimate of the errors",
+                "in the cross section due to the presence of low",
+                "energy epi-cadmium neutrons was made for any",
+                "measurement except the 14.1 MeV case. It is",
+                "believed that this error is small."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table I, page 8."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20220210,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: Changed DATA-ERR to ERR-S, added",
+                "            method."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 5,
+            "N2": 6,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "+EN-RSL",
+              "-EN-RSL",
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MEV",
+              "NO-DIM",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                0.69,
+                0.034,
+                0.034,
+                0.03,
+                0.06
+              ],
+              [
+                0.77,
+                0.035,
+                0.04,
+                0.14,
+                0.06
+              ],
+              [
+                1.0,
+                0.04,
+                0.05,
+                0.27,
+                0.05
+              ],
+              [
+                1.32,
+                0.033,
+                0.052,
+                0.52,
+                0.07
+              ],
+              [
+                2.55,
+                0.08,
+                0.08,
+                0.4,
+                0.04
+              ],
+              [
+                14.1,
+                0.1,
+                0.1,
+                0.71,
+                0.03
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12474003",
+            "N2": 20220210,
+            "alteration_flag": " ",
+            "transmission_identification": "1498"
+          },
+          "BIB": {
+            "N1": 6,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "92-U-236(N,F),,SIG",
+                "code_unit": [
+                  {
+                    "unit": "92-U-236(N,F),,SIG",
+                    "field": {
+                      "reaction": "92-U-236(N,F)",
+                      "target": "92-U-236",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": "12306004",
+                "author": "W.Nyer",
+                "reference": {
+                  "code": "R,LAMS-938,1950",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "LAMS-",
+                      "number": "938",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1950
+                  }
+                }
+              },
+              "free_text": [
+                " 235U data."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": "12514002",
+                "author": "W.Nyer",
+                "reference": {
+                  "code": "R,LA-719,1948",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "LA-",
+                      "number": "719",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1948
+                  }
+                }
+              },
+              "free_text": [
+                " 238U data."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": "12312004",
+                "author": "J.H.Williams",
+                "reference": {
+                  "code": "R,LA-520,1946",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "LA-",
+                      "number": "520",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1946
+                  }
+                }
+              },
+              "free_text": [
+                " U238/U235 data."
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Used known 235,238U cross sections to deduce 236U",
+                "cross sections."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No details on sources of uncertainties."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "12474002",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table I, page 8."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20220210,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: Changed monitor to analysis, added",
+                "            related references."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 5,
+            "N2": 6,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "+EN-RSL",
+              "-EN-RSL",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MEV",
+              "B",
+              "B"
+            ],
+            "value": [
+              [
+                0.69,
+                0.034,
+                0.034,
+                0.04,
+                0.08
+              ],
+              [
+                0.77,
+                0.035,
+                0.04,
+                0.19,
+                0.08
+              ],
+              [
+                1.0,
+                0.04,
+                0.05,
+                0.36,
+                0.07
+              ],
+              [
+                1.32,
+                0.033,
+                0.052,
+                0.69,
+                0.1
+              ],
+              [
+                2.55,
+                0.08,
+                0.08,
+                0.53,
+                0.06
+              ],
+              [
+                14.1,
+                0.1,
+                0.1,
+                1.65,
+                0.1
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 3,
+        "N2": 0
+      }
+    }
+  ]
+}

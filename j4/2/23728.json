@@ -1,0 +1,3539 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T21:21:44+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "23728",
+        "N2": 20210428,
+        "alteration_flag": " ",
+        "transmission_identification": "2300"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "23728001",
+            "N2": 20210428,
+            "alteration_flag": " ",
+            "transmission_identification": "2300"
+          },
+          "BIB": {
+            "N1": 11,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "s-wave average neutron resonance parameters of",
+                "175Lu + n"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "G.Noguere",
+                "O.Bouland",
+                "J.Heyse",
+                "S.Kopecky",
+                "C.Paradela",
+                "P.Schillebeeckx",
+                "A.Ebran",
+                "O.Roig"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "2FR CAD",
+                "2ZZZGEL",
+                "2FR BRC"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,PR/C,100,065806,2019",
+                "code_unit": [
+                  {
+                    "unit": "J,PR/C,100,065806,2019",
+                    "doi": "10.1103/PhysRevC.100.065806",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "PR/C",
+                        "number": null,
+                        "volume": "100",
+                        "part": null,
+                        "issue": null,
+                        "page": "065806"
+                      },
+                      "date": 2019
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "#doi:10.1103/PhysRevC.100.065806"
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "LINAC"
+                ],
+                "institute": "2ZZZGEL"
+              },
+              "free_text": [
+                " GELINA electron linac",
+                "- Nominal average beam energy         = 100 MeV",
+                "- Nominal average peak current        = 50 uA",
+                "- Repetition rate (pulses per second) = 800 Hz",
+                "- Pulse width of electron beam        = 2 ns"
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "PHOTO"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                "",
+                "- (g,n) on mercury-cooled depleted uranium",
+                "- Nominal neutron production intensity = 3.4E+13/sec",
+                "- Two water filled Be-containers were placed as",
+                "  moderators above and below the U target",
+                "  (14.6 cm x 21 cm x 3.9 cm) at room temperature.",
+                "- Density of moderator material         = 1 g/cm3",
+                "- Diameter of neutron beam at sample position = 10 mm",
+                "- Response function:",
+                " Normal distribution, FWHM = 2 ns",
+                " Target/moderator assembly: Numerical distribution from",
+                " MC simulations.",
+                " Detector: Analytical function defined in REFIT manual."
+              ]
+            }
+          ],
+          "INC-SPECT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Time-of-flight binning structure:",
+                "-----------------------",
+                "  Zone length bin width",
+                "   (bins)      (nsec)",
+                "-----------------------",
+                "   10240     2 ns",
+                "   4096      4 ns",
+                "   4096      8 ns",
+                "   4096      16 ns",
+                "   4096      32 ns",
+                "   4096      64 ns",
+                "   6144      128 ns",
+                "   28672     64 ns",
+                "-----------------------"
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "nuclide": "71-LU-175",
+                "field_identifier": "NAT",
+                "value": 0.974
+              },
+              "free_text": [
+                "",
+                "- Physical type: Metal",
+                "- Temperature: 20 deg-C",
+                "- Surface dimension: 2.5 x 2.5 cm",
+                "Thickness    Areal density   Filters   Energy range",
+                " (mm)           (at/b)                    (eV)",
+                "   2        (6.8+-0.2)E-3    B,Co,Na  0.1 < E < 1000.0",
+                "   2        (6.8+-0.2)E-3   Cd,Co,Na  0.1 < E < 105.0",
+                "   1        (3.4+-0.1)E-3    B,Co,Na  0.1 < E < 250.0",
+                "   1        (3.4+-0.1)E-3   Cd,Co,Na  0.1 < E < 105.0",
+                "   1        (3.4+-0.1)E-3       B,Na  0.1 < E < 250.0",
+                "   1        (3.4+-0.1)E-3      Cd,Na  0.1 < E < 105.0",
+                "   1        (3.4+-0.1)E-3    B,Co,Na  0.1 < E < 250.0",
+                "  0.15      (5.1+-1.0)E-4    B,Co,Na  0.1 < E < 55.0"
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "GLASD"
+              ],
+              "free_text": [
+                " Li-glass scintillator (152.4 mm diameter,",
+                " (6.35 mm thick) in the beam"
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "TOF"
+              ],
+              "free_text": [
+                " Flight path direction w.r.t. normal of the",
+                " moderator face viewing the flight path  = 18 deg.",
+                "  Flight path = 10.861 (2) m"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "TRN"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20210428,
+                "history": "C"
+              },
+              "free_text": [
+                " VS"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23728002",
+            "N2": 20210428,
+            "alteration_flag": " ",
+            "transmission_identification": "2300"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "71-LU-175(N,TOT),,TRN",
+                "code_unit": [
+                  {
+                    "unit": "71-LU-175(N,TOT),,TRN",
+                    "field": {
+                      "reaction": "71-LU-175(N,TOT)",
+                      "target": "71-LU-175",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",TRN",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",TRN"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "UNOBT"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Request sent to G.Noguere on 2020-03-26"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NODATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23728003",
+            "N2": 20210428,
+            "alteration_flag": " ",
+            "transmission_identification": "2300"
+          },
+          "BIB": {
+            "N1": 6,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "code": "71-LU-175(N,0),,EN",
+                "code_unit": [
+                  {
+                    "unit": "71-LU-175(N,0),,EN",
+                    "field": {
+                      "reaction": "71-LU-175(N,0)",
+                      "target": "71-LU-175",
+                      "projectile": "N",
+                      "process": "0",
+                      "product": "",
+                      "quantity": ",EN",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",EN"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "code": "71-LU-175(N,G),,WID,,RM",
+                "code_unit": [
+                  {
+                    "unit": "71-LU-175(N,G),,WID,,RM",
+                    "field": {
+                      "reaction": "71-LU-175(N,G)",
+                      "target": "71-LU-175",
+                      "projectile": "N",
+                      "process": "G",
+                      "product": "",
+                      "quantity": ",WID,,RM",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",WID,,RM"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "3",
+              "coded_information": {
+                "code": "71-LU-175(N,EL),,WID,,RM",
+                "code_unit": [
+                  {
+                    "unit": "71-LU-175(N,EL),,WID,,RM",
+                    "field": {
+                      "reaction": "71-LU-175(N,EL)",
+                      "target": "71-LU-175",
+                      "projectile": "N",
+                      "process": "EL",
+                      "product": "",
+                      "quantity": ",WID,,RM",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",WID,,RM"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": "10491005",
+                "author": "H.I.Liou+",
+                "reference": {
+                  "code": "J,PR/C,11,1231,1975",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "11",
+                      "part": null,
+                      "issue": null,
+                      "page": "1231"
+                    },
+                    "date": 1975
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " 175Lu total cross section"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": "10491007",
+                "author": "H.I.Liou+",
+                "reference": {
+                  "code": "J,PR/C,11,1231,1975",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "11",
+                      "part": null,
+                      "issue": null,
+                      "page": "1231"
+                    },
+                    "date": 1975
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " 175Lu total cross section"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": "22917003",
+                "author": "K.Wisshak+",
+                "reference": {
+                  "code": "J,PR/C,73,015807,2006",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "73",
+                      "part": null,
+                      "issue": null,
+                      "page": "015807"
+                    },
+                    "date": 2006
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Average 175Lu total cross section at 10 < E < 200 keV"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": "22917003",
+                "author": "K.Wisshak+",
+                "reference": {
+                  "code": "J,PR/C,73,015807,2006",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "73",
+                      "part": null,
+                      "issue": null,
+                      "page": "015807"
+                    },
+                    "date": 2006
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "Average 175Lu capture cross section at 3 < E < 225 keV"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": "10720005",
+                "author": "R.L.Macklin+",
+                "reference": {
+                  "code": "R,LA-7479-MS,1978",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "LA-",
+                      "number": "7479-MS",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "Average 175Lu capture cross section at 3 < E < 1900 keV"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": "22483006",
+                "author": "H.Beer+",
+                "reference": {
+                  "code": "J,PR/C,30,464,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "30",
+                      "part": null,
+                      "issue": null,
+                      "page": "464"
+                    },
+                    "date": 1984
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "Average 175Lu capture cross section at 3 < E < 225 keV"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": "14244004",
+                "author": "O.Roig+",
+                "reference": {
+                  "code": "J,PR/C,93,034602,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "93",
+                      "part": null,
+                      "issue": null,
+                      "page": "034602"
+                    },
+                    "date": 2016
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "  175Lu capture cross section at 1.0 < E < 400 eV"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": "21025004",
+                "author": "J.Brunner+",
+                "reference": {
+                  "code": "R,EIR-123,1967",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "EIR-",
+                      "number": "123",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1967
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "  natLu total cross section at E < 3.5 eV"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": "30224021",
+                "author": "R.L.Zimmerman+",
+                "reference": {
+                  "code": "J,NP/A,95,683,1967",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "95",
+                      "part": null,
+                      "issue": null,
+                      "page": "683"
+                    },
+                    "date": 1967
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "  natLu total cross section at E < 3.5 eV"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": "14018002",
+                "author": "T.E.Young",
+                "reference": {
+                  "code": "W,YOUNG,1968",
+                  "field": {
+                    "reference_type": "W",
+                    "reference": {
+                      "code": "YOUNG",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1968
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "  natLu total cross section"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": "14018005",
+                "author": "T.E.Young",
+                "reference": {
+                  "code": "W,YOUNG,1968",
+                  "field": {
+                    "reference_type": "W",
+                    "reference": {
+                      "code": "YOUNG",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1968
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "  176Lu total cross section"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": "14018005",
+                "author": "F.Widder",
+                "reference": {
+                  "code": "R,EIR-217,1975",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "EIR-",
+                      "number": "217",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1975
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "  natLu capture cross section"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": "21322009",
+                "author": "A.H.Baston+",
+                "reference": {
+                  "code": "J,JNE/A,13,35,1960",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JNE/A",
+                      "number": null,
+                      "volume": "13",
+                      "part": null,
+                      "issue": null,
+                      "page": "35"
+                    },
+                    "date": 1960
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "  176Lu total cross section"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": "12096002",
+                "author": "J.P.Roberge+",
+                "reference": {
+                  "code": "J,NSE,7,502,1960",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NSE",
+                      "number": null,
+                      "volume": "7",
+                      "part": null,
+                      "issue": null,
+                      "page": "502"
+                    },
+                    "date": 1960
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "  176Lu total cross section"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": "20437010",
+                "author": "F.Widder",
+                "reference": {
+                  "code": "R,EIR-217,1975",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "EIR-",
+                      "number": "217",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1975
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "  175Lu total cross section"
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The average radiation width of 61.3(59) meV is",
+                "imposed in the analysis when the total width of the",
+                "studied resonance cannot be extracted from the data."
+              ]
+            }
+          ],
+          "FLAG": [
+            {
+              "pointer": "",
+              "coded_information": [
+                1.0
+              ],
+              "free_text": [
+                " Average radiation width of 61.3(59) meV assigned."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information on sources of uncertainties."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table V of Phys.Rev.C100(2019)065806"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "23728002",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " transmission data"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "10491005",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " 175Lu total cross section"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "10491007",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " 175Lu total cross section"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "22917003",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                "",
+                " Average 175Lu total cross section at 10 < E < 200 keV"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "22917003",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                "",
+                "Average 175Lu capture cross section at 3 < E < 225 keV"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "10720005",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                "",
+                "Average 175Lu capture cross section at 3 < E < 1900 keV"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "22483006",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                "",
+                "Average 175Lu capture cross section at 3 < E < 225 keV"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "14244004",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                "",
+                "  175Lu capture cross section at 1.0 < E < 400 eV"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "21025004",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                "",
+                "  natLu total cross section at E < 3.5 eV"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "30224021",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                "",
+                "  natLu total cross section at E < 3.5 eV"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "14018002",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " natLu total cross section"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "14018005",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " 176Lu total cross section"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "14018005",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " natLu capture cross section"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "21322009",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " 176Lu total cross section"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "12096002",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " 176Lu total cross section"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "20437010",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " 175Lu total cross section"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 9,
+            "N2": 216,
+            "pointer": [
+              "1",
+              "1",
+              "",
+              "",
+              "2",
+              "2",
+              "3",
+              "3",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR",
+              "SPIN J",
+              "PARITY",
+              "DATA",
+              "DATA-ERR",
+              "DATA",
+              "DATA-ERR",
+              "FLAG"
+            ],
+            "unit": [
+              "EV",
+              "EV",
+              "NO-DIM",
+              "NO-DIM",
+              "MILLI-EV",
+              "MILLI-EV",
+              "MILLI-EV",
+              "MILLI-EV",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                -17.65,
+                0.0,
+                4.0,
+                1.0,
+                56.1,
+                5.0,
+                98.3,
+                5.9,
+                null
+              ],
+              [
+                2.606,
+                0.001,
+                4.0,
+                1.0,
+                59.4,
+                1.0,
+                0.21,
+                0.01,
+                null
+              ],
+              [
+                4.759,
+                0.003,
+                4.0,
+                1.0,
+                57.8,
+                1.3,
+                0.3,
+                0.01,
+                null
+              ],
+              [
+                5.198,
+                0.003,
+                3.0,
+                1.0,
+                63.4,
+                2.0,
+                1.71,
+                0.04,
+                null
+              ],
+              [
+                11.225,
+                0.006,
+                3.0,
+                1.0,
+                60.6,
+                2.4,
+                4.29,
+                1.3,
+                null
+              ],
+              [
+                13.882,
+                0.008,
+                4.0,
+                1.0,
+                57.2,
+                2.1,
+                7.19,
+                0.21,
+                null
+              ],
+              [
+                14.11,
+                0.008,
+                3.0,
+                1.0,
+                67.8,
+                3.5,
+                10.86,
+                0.33,
+                null
+              ],
+              [
+                15.328,
+                0.008,
+                4.0,
+                1.0,
+                58.4,
+                4.1,
+                1.61,
+                0.06,
+                null
+              ],
+              [
+                20.478,
+                0.011,
+                3.0,
+                1.0,
+                59.1,
+                5.4,
+                2.82,
+                0.13,
+                null
+              ],
+              [
+                23.457,
+                0.013,
+                3.0,
+                1.0,
+                63.8,
+                5.5,
+                8.12,
+                0.48,
+                null
+              ],
+              [
+                27.967,
+                0.015,
+                4.0,
+                1.0,
+                57.7,
+                8.6,
+                1.72,
+                0.07,
+                null
+              ],
+              [
+                30.148,
+                0.016,
+                4.0,
+                1.0,
+                63.5,
+                7.2,
+                7.92,
+                0.59,
+                null
+              ],
+              [
+                31.042,
+                0.017,
+                4.0,
+                1.0,
+                60.6,
+                9.6,
+                3.03,
+                0.15,
+                null
+              ],
+              [
+                36.542,
+                0.02,
+                3.0,
+                1.0,
+                60.0,
+                10.5,
+                8.62,
+                0.69,
+                null
+              ],
+              [
+                40.613,
+                0.022,
+                3.0,
+                1.0,
+                62.7,
+                9.5,
+                22.1,
+                1.2,
+                null
+              ],
+              [
+                41.15,
+                0.022,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                3.09,
+                0.18,
+                1.0
+              ],
+              [
+                49.464,
+                0.027,
+                3.0,
+                1.0,
+                69.4,
+                15.0,
+                16.1,
+                1.5,
+                null
+              ],
+              [
+                50.336,
+                0.027,
+                4.0,
+                1.0,
+                58.8,
+                15.3,
+                9.16,
+                0.87,
+                null
+              ],
+              [
+                53.612,
+                0.029,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                0.38,
+                0.02,
+                1.0
+              ],
+              [
+                56.733,
+                0.031,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                1.15,
+                0.09,
+                1.0
+              ],
+              [
+                57.083,
+                0.032,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                3.27,
+                0.22,
+                1.0
+              ],
+              [
+                61.265,
+                0.033,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                0.42,
+                0.02,
+                1.0
+              ],
+              [
+                69.555,
+                0.038,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                1.05,
+                0.04,
+                1.0
+              ],
+              [
+                70.062,
+                0.037,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                2.56,
+                0.11,
+                1.0
+              ],
+              [
+                73.746,
+                0.04,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                0.21,
+                0.04,
+                1.0
+              ],
+              [
+                81.144,
+                0.043,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                0.3,
+                0.03,
+                1.0
+              ],
+              [
+                85.613,
+                0.045,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                8.49,
+                0.51,
+                1.0
+              ],
+              [
+                86.358,
+                0.101,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                0.11,
+                0.04,
+                1.0
+              ],
+              [
+                88.224,
+                0.049,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                1.35,
+                0.1,
+                1.0
+              ],
+              [
+                88.682,
+                0.049,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                3.94,
+                0.25,
+                1.0
+              ],
+              [
+                96.854,
+                0.051,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                79.5,
+                2.8,
+                1.0
+              ],
+              [
+                98.475,
+                0.101,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                0.11,
+                0.02,
+                1.0
+              ],
+              [
+                99.897,
+                0.056,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                14.13,
+                0.71,
+                1.0
+              ],
+              [
+                101.0,
+                0.054,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                6.53,
+                0.29,
+                1.0
+              ],
+              [
+                103.13,
+                0.055,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                10.38,
+                0.61,
+                1.0
+              ],
+              [
+                107.59,
+                0.057,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                35.9,
+                2.5,
+                1.0
+              ],
+              [
+                113.07,
+                0.059,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                3.66,
+                0.15,
+                1.0
+              ],
+              [
+                115.41,
+                0.063,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                47.2,
+                3.4,
+                1.0
+              ],
+              [
+                118.9,
+                0.063,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                15.9,
+                1.0,
+                1.0
+              ],
+              [
+                119.66,
+                0.064,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                2.59,
+                0.15,
+                1.0
+              ],
+              [
+                127.64,
+                0.069,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                57.1,
+                3.1,
+                1.0
+              ],
+              [
+                129.83,
+                0.07,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                70.5,
+                4.0,
+                1.0
+              ],
+              [
+                138.17,
+                0.076,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                40.6,
+                2.7,
+                1.0
+              ],
+              [
+                143.22,
+                0.072,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                4.39,
+                0.21,
+                1.0
+              ],
+              [
+                146.55,
+                0.076,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                7.17,
+                0.35,
+                1.0
+              ],
+              [
+                148.96,
+                0.077,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                2.18,
+                0.12,
+                1.0
+              ],
+              [
+                151.28,
+                0.079,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                4.13,
+                0.21,
+                1.0
+              ],
+              [
+                155.83,
+                0.081,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                6.98,
+                0.34,
+                1.0
+              ],
+              [
+                158.78,
+                0.084,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                18.6,
+                1.1,
+                1.0
+              ],
+              [
+                164.08,
+                0.085,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                18.1,
+                1.1,
+                1.0
+              ],
+              [
+                169.53,
+                0.089,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                10.45,
+                0.45,
+                1.0
+              ],
+              [
+                171.43,
+                0.089,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                8.18,
+                0.37,
+                1.0
+              ],
+              [
+                175.14,
+                0.1,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                3.79,
+                0.26,
+                1.0
+              ],
+              [
+                175.98,
+                0.095,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                25.6,
+                2.1,
+                1.0
+              ],
+              [
+                181.09,
+                0.097,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                23.2,
+                1.5,
+                1.0
+              ],
+              [
+                185.58,
+                0.097,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                86.5,
+                5.8,
+                1.0
+              ],
+              [
+                193.22,
+                0.102,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                112.0,
+                6.5,
+                1.0
+              ],
+              [
+                196.77,
+                0.102,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                3.75,
+                0.16,
+                1.0
+              ],
+              [
+                203.19,
+                0.112,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                1.78,
+                0.16,
+                1.0
+              ],
+              [
+                204.73,
+                0.106,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                4.53,
+                0.25,
+                1.0
+              ],
+              [
+                217.55,
+                0.115,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                28.3,
+                1.9,
+                1.0
+              ],
+              [
+                223.53,
+                0.118,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                63.5,
+                4.1,
+                1.0
+              ],
+              [
+                228.29,
+                0.123,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                33.1,
+                1.0,
+                1.0
+              ],
+              [
+                229.8,
+                0.124,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                50.1,
+                3.3,
+                1.0
+              ],
+              [
+                236.58,
+                0.129,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                1.08,
+                0.16,
+                1.0
+              ],
+              [
+                243.37,
+                0.134,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                41.6,
+                2.5,
+                1.0
+              ],
+              [
+                244.56,
+                0.134,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                15.32,
+                0.44,
+                1.0
+              ],
+              [
+                251.57,
+                0.138,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                4.02,
+                0.37,
+                1.0
+              ],
+              [
+                256.08,
+                0.137,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                80.5,
+                5.7,
+                1.0
+              ],
+              [
+                261.75,
+                0.128,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                3.0,
+                0.38,
+                1.0
+              ],
+              [
+                265.34,
+                0.095,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                1.18,
+                0.17,
+                1.0
+              ],
+              [
+                267.25,
+                0.234,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                0.32,
+                0.13,
+                1.0
+              ],
+              [
+                274.22,
+                0.149,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                92.5,
+                6.6,
+                1.0
+              ],
+              [
+                278.16,
+                0.15,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                14.02,
+                0.74,
+                1.0
+              ],
+              [
+                282.74,
+                0.154,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                8.29,
+                0.54,
+                1.0
+              ],
+              [
+                289.24,
+                0.161,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                126.6,
+                4.2,
+                1.0
+              ],
+              [
+                292.06,
+                0.161,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                86.0,
+                4.5,
+                1.0
+              ],
+              [
+                295.43,
+                0.161,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                45.4,
+                2.4,
+                1.0
+              ],
+              [
+                305.36,
+                0.16,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                18.8,
+                1.2,
+                1.0
+              ],
+              [
+                308.24,
+                0.164,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                5.91,
+                0.51,
+                1.0
+              ],
+              [
+                314.62,
+                0.169,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                73.78,
+                3.8,
+                1.0
+              ],
+              [
+                317.71,
+                0.167,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                24.01,
+                0.62,
+                1.0
+              ],
+              [
+                319.02,
+                0.172,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                62.3,
+                4.5,
+                1.0
+              ],
+              [
+                323.34,
+                0.173,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                7.03,
+                0.42,
+                1.0
+              ],
+              [
+                325.01,
+                0.18,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                6.05,
+                0.51,
+                1.0
+              ],
+              [
+                330.92,
+                0.178,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                217.0,
+                12.0,
+                1.0
+              ],
+              [
+                338.94,
+                0.186,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                19.13,
+                0.97,
+                1.0
+              ],
+              [
+                341.33,
+                0.202,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                8.7,
+                0.98,
+                1.0
+              ],
+              [
+                344.19,
+                0.191,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                52.2,
+                3.0,
+                1.0
+              ],
+              [
+                348.36,
+                0.191,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                43.9,
+                2.7,
+                1.0
+              ],
+              [
+                356.54,
+                0.188,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                8.94,
+                0.66,
+                1.0
+              ],
+              [
+                359.3,
+                0.184,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                13.09,
+                0.85,
+                1.0
+              ],
+              [
+                364.84,
+                0.183,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                5.82,
+                0.66,
+                1.0
+              ],
+              [
+                367.77,
+                0.191,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                4.3,
+                0.53,
+                1.0
+              ],
+              [
+                380.2,
+                0.2,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                31.1,
+                1.6,
+                1.0
+              ],
+              [
+                383.75,
+                0.203,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                19.9,
+                1.0,
+                1.0
+              ],
+              [
+                385.9,
+                0.201,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                6.16,
+                0.58,
+                1.0
+              ],
+              [
+                392.71,
+                0.209,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                25.1,
+                1.7,
+                1.0
+              ],
+              [
+                394.08,
+                0.21,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                76.3,
+                4.0,
+                1.0
+              ],
+              [
+                399.07,
+                0.218,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                12.34,
+                0.93,
+                1.0
+              ],
+              [
+                405.8,
+                0.208,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                24.0,
+                1.4,
+                1.0
+              ],
+              [
+                407.12,
+                0.217,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                15.072,
+                0.62,
+                1.0
+              ],
+              [
+                413.64,
+                0.211,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                7.54,
+                0.47,
+                1.0
+              ],
+              [
+                419.61,
+                0.218,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                32.8,
+                1.3,
+                1.0
+              ],
+              [
+                422.94,
+                0.22,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                5.6,
+                0.3,
+                1.0
+              ],
+              [
+                428.75,
+                0.226,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                9.13,
+                0.43,
+                1.0
+              ],
+              [
+                434.9,
+                0.23,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                80.7,
+                3.2,
+                1.0
+              ],
+              [
+                439.42,
+                0.234,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                32.0,
+                1.3,
+                1.0
+              ],
+              [
+                440.82,
+                0.235,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                47.5,
+                1.2,
+                1.0
+              ],
+              [
+                444.83,
+                0.238,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                46.5,
+                1.9,
+                1.0
+              ],
+              [
+                451.7,
+                0.205,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                2.89,
+                0.38,
+                1.0
+              ],
+              [
+                455.17,
+                0.23,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                15.86,
+                0.74,
+                1.0
+              ],
+              [
+                457.76,
+                0.209,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                2.14,
+                0.42,
+                1.0
+              ],
+              [
+                467.9,
+                0.243,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                14.27,
+                0.53,
+                1.0
+              ],
+              [
+                469.63,
+                0.246,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                12.02,
+                0.45,
+                1.0
+              ],
+              [
+                474.46,
+                0.247,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                71.0,
+                2.7,
+                1.0
+              ],
+              [
+                478.43,
+                0.25,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                22.37,
+                0.82,
+                1.0
+              ],
+              [
+                485.23,
+                0.256,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                58.4,
+                1.6,
+                1.0
+              ],
+              [
+                488.65,
+                0.258,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                129.0,
+                6.0,
+                1.0
+              ],
+              [
+                495.3,
+                0.264,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                8.44,
+                0.61,
+                1.0
+              ],
+              [
+                500.79,
+                0.262,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                17.39,
+                0.76,
+                1.0
+              ],
+              [
+                505.38,
+                0.265,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                30.7,
+                1.3,
+                1.0
+              ],
+              [
+                512.63,
+                0.27,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                54.4,
+                1.9,
+                1.0
+              ],
+              [
+                515.85,
+                0.274,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                34.5,
+                1.2,
+                1.0
+              ],
+              [
+                520.71,
+                0.276,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                138.8,
+                7.8,
+                1.0
+              ],
+              [
+                522.73,
+                0.278,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                10.85,
+                0.88,
+                1.0
+              ],
+              [
+                528.81,
+                0.284,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                15.09,
+                0.68,
+                1.0
+              ],
+              [
+                537.36,
+                0.286,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                5.59,
+                0.57,
+                1.0
+              ],
+              [
+                540.76,
+                0.292,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                56.4,
+                2.3,
+                1.0
+              ],
+              [
+                545.91,
+                0.291,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                5.12,
+                0.49,
+                1.0
+              ],
+              [
+                550.06,
+                0.268,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                34.5,
+                1.5,
+                1.0
+              ],
+              [
+                552.26,
+                0.274,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                10.14,
+                0.53,
+                1.0
+              ],
+              [
+                564.46,
+                0.28,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                23.43,
+                0.9,
+                1.0
+              ],
+              [
+                567.4,
+                0.283,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                67.5,
+                2.5,
+                1.0
+              ],
+              [
+                571.89,
+                0.286,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                40.0,
+                1.5,
+                1.0
+              ],
+              [
+                579.3,
+                0.292,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                113.1,
+                8.2,
+                1.0
+              ],
+              [
+                581.13,
+                0.309,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                19.2,
+                2.0,
+                1.0
+              ],
+              [
+                588.99,
+                0.299,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                34.4,
+                1.4,
+                1.0
+              ],
+              [
+                593.87,
+                0.299,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                14.93,
+                0.75,
+                1.0
+              ],
+              [
+                598.18,
+                0.308,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                92.7,
+                3.4,
+                1.0
+              ],
+              [
+                602.75,
+                0.307,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                35.9,
+                1.6,
+                1.0
+              ],
+              [
+                606.41,
+                0.312,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                212.2,
+                9.0,
+                1.0
+              ],
+              [
+                616.06,
+                0.322,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                77.6,
+                3.3,
+                1.0
+              ],
+              [
+                622.46,
+                0.327,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                94.0,
+                3.4,
+                1.0
+              ],
+              [
+                626.5,
+                0.333,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                18.6,
+                1.5,
+                1.0
+              ],
+              [
+                628.68,
+                0.332,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                241.0,
+                11.0,
+                1.0
+              ],
+              [
+                631.49,
+                0.336,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                10.3,
+                1.1,
+                1.0
+              ],
+              [
+                634.41,
+                0.336,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                22.7,
+                1.1,
+                1.0
+              ],
+              [
+                639.99,
+                0.34,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                14.6,
+                0.81,
+                1.0
+              ],
+              [
+                650.15,
+                0.35,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                90.8,
+                3.1,
+                1.0
+              ],
+              [
+                655.46,
+                0.353,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                98.7,
+                3.1,
+                1.0
+              ],
+              [
+                658.62,
+                0.355,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                32.9,
+                1.9,
+                1.0
+              ],
+              [
+                660.15,
+                0.351,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                23.8,
+                2.1,
+                1.0
+              ],
+              [
+                668.16,
+                0.356,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                7.17,
+                0.72,
+                1.0
+              ],
+              [
+                672.6,
+                0.361,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                60.5,
+                2.2,
+                1.0
+              ],
+              [
+                678.32,
+                0.358,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                20.8,
+                1.1,
+                1.0
+              ],
+              [
+                683.05,
+                0.364,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                46.0,
+                1.8,
+                1.0
+              ],
+              [
+                687.3,
+                0.366,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                48.6,
+                1.9,
+                1.0
+              ],
+              [
+                693.83,
+                0.37,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                107.3,
+                4.9,
+                1.0
+              ],
+              [
+                698.0,
+                0.371,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                6.97,
+                0.85,
+                1.0
+              ],
+              [
+                700.26,
+                0.376,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                18.7,
+                0.12,
+                1.0
+              ],
+              [
+                706.34,
+                0.381,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                43.3,
+                2.1,
+                1.0
+              ],
+              [
+                719.18,
+                0.392,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                73.7,
+                2.8,
+                1.0
+              ],
+              [
+                725.06,
+                0.395,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                42.3,
+                1.4,
+                1.0
+              ],
+              [
+                727.3,
+                0.396,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                61.0,
+                2.6,
+                1.0
+              ],
+              [
+                737.67,
+                0.393,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                8.5,
+                1.1,
+                1.0
+              ],
+              [
+                741.08,
+                0.408,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                29.6,
+                1.4,
+                1.0
+              ],
+              [
+                751.92,
+                0.379,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                75.8,
+                3.4,
+                1.0
+              ],
+              [
+                755.17,
+                0.379,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                38.1,
+                1.7,
+                1.0
+              ],
+              [
+                760.5,
+                0.2,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                6.435,
+                0.95,
+                1.0
+              ],
+              [
+                762.73,
+                0.347,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                20.4,
+                1.5,
+                1.0
+              ],
+              [
+                767.1,
+                0.198,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                7.67,
+                0.98,
+                1.0
+              ],
+              [
+                769.55,
+                0.377,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                118.1,
+                5.8,
+                1.0
+              ],
+              [
+                775.94,
+                0.397,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                10.7,
+                0.64,
+                1.0
+              ],
+              [
+                779.06,
+                0.401,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                43.7,
+                1.8,
+                1.0
+              ],
+              [
+                784.91,
+                0.405,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                25.8,
+                1.4,
+                1.0
+              ],
+              [
+                793.22,
+                0.413,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                24.0,
+                1.4,
+                1.0
+              ],
+              [
+                796.28,
+                0.424,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                28.0,
+                1.6,
+                1.0
+              ],
+              [
+                798.4,
+                0.419,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                63.3,
+                3.2,
+                1.0
+              ],
+              [
+                802.78,
+                0.427,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                70.8,
+                2.8,
+                1.0
+              ],
+              [
+                805.07,
+                0.423,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                202.0,
+                11.0,
+                1.0
+              ],
+              [
+                819.85,
+                0.436,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                9.07,
+                0.83,
+                1.0
+              ],
+              [
+                822.71,
+                0.435,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                40.1,
+                1.4,
+                1.0
+              ],
+              [
+                826.91,
+                0.438,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                15.8,
+                0.76,
+                1.0
+              ],
+              [
+                831.48,
+                0.442,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                58.6,
+                2.1,
+                1.0
+              ],
+              [
+                834.15,
+                0.444,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                77.7,
+                2.6,
+                1.0
+              ],
+              [
+                838.39,
+                0.45,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                24.6,
+                0.86,
+                1.0
+              ],
+              [
+                841.65,
+                0.45,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                113.5,
+                4.0,
+                1.0
+              ],
+              [
+                845.56,
+                0.455,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                37.4,
+                1.3,
+                1.0
+              ],
+              [
+                857.97,
+                0.042,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                181.8,
+                9.3,
+                1.0
+              ],
+              [
+                863.38,
+                0.043,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                95.4,
+                6.8,
+                1.0
+              ],
+              [
+                864.83,
+                0.043,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                106.4,
+                8.3,
+                1.0
+              ],
+              [
+                868.17,
+                0.044,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                32.6,
+                1.9,
+                1.0
+              ],
+              [
+                876.69,
+                0.045,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                16.7,
+                1.2,
+                1.0
+              ],
+              [
+                880.06,
+                0.044,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                58.3,
+                2.9,
+                1.0
+              ],
+              [
+                886.13,
+                0.044,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                15.5,
+                1.0,
+                1.0
+              ],
+              [
+                890.75,
+                0.044,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                60.0,
+                3.1,
+                1.0
+              ],
+              [
+                895.76,
+                0.044,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                38.2,
+                2.0,
+                1.0
+              ],
+              [
+                900.04,
+                0.045,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                39.1,
+                2.7,
+                1.0
+              ],
+              [
+                905.28,
+                0.02,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                20.7,
+                2.0,
+                1.0
+              ],
+              [
+                907.33,
+                0.04,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                63.3,
+                3.8,
+                1.0
+              ],
+              [
+                911.78,
+                0.046,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                98.1,
+                4.9,
+                1.0
+              ],
+              [
+                915.54,
+                0.046,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                36.4,
+                2.3,
+                1.0
+              ],
+              [
+                924.29,
+                0.047,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                110.3,
+                5.7,
+                1.0
+              ],
+              [
+                931.11,
+                0.047,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                83.9,
+                5.1,
+                1.0
+              ],
+              [
+                933.39,
+                0.204,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                16.5,
+                1.8,
+                1.0
+              ],
+              [
+                942.25,
+                0.048,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                163.2,
+                7.4,
+                1.0
+              ],
+              [
+                946.36,
+                0.047,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                64.8,
+                2.9,
+                1.0
+              ],
+              [
+                956.75,
+                0.047,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                17.8,
+                1.7,
+                1.0
+              ],
+              [
+                962.39,
+                0.047,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                130.8,
+                7.2,
+                1.0
+              ],
+              [
+                967.11,
+                0.047,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                138.3,
+                7.2,
+                1.0
+              ],
+              [
+                970.38,
+                0.047,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                58.5,
+                3.3,
+                1.0
+              ],
+              [
+                976.47,
+                0.048,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                28.7,
+                1.8,
+                1.0
+              ],
+              [
+                986.15,
+                0.048,
+                3.0,
+                1.0,
+                61.3,
+                5.9,
+                23.5,
+                1.9,
+                1.0
+              ],
+              [
+                989.0,
+                0.048,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                17.27,
+                1.7,
+                1.0
+              ],
+              [
+                991.62,
+                0.048,
+                4.0,
+                1.0,
+                61.3,
+                5.9,
+                55.7,
+                3.2,
+                1.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 3,
+        "N2": 0
+      }
+    }
+  ]
+}

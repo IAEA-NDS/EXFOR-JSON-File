@@ -1,0 +1,866 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T21:36:15+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "30849",
+        "N2": 20210825,
+        "alteration_flag": " ",
+        "transmission_identification": "3206"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "30849001",
+            "N2": 20210825,
+            "alteration_flag": " ",
+            "transmission_identification": "3206"
+          },
+          "BIB": {
+            "N1": 16,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Neutron-induced reaction cross-sections of 93Nb with",
+                "fast neutron based on 9Be(p,n) reaction"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "H.Naik",
+                "G.N.Kim",
+                "K.Kim",
+                "M.Zaman",
+                "M.Nadeem",
+                "M.Sahid"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "3INDTRM",
+                "3KORKNU"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,NP/A,970,156,2018",
+                "code_unit": [
+                  {
+                    "unit": "J,NP/A,970,156,2018",
+                    "doi": "10.1016/j.nuclphysa.2017.11.011",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "NP/A",
+                        "number": null,
+                        "volume": "970",
+                        "part": null,
+                        "issue": null,
+                        "page": "156"
+                      },
+                      "date": 2018
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "CYCLO"
+                ],
+                "institute": "3KORKRM"
+              },
+              "free_text": [
+                " MC-50 cyclotron (KIRAMS)"
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "P-BE"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                " The neutron beam was produced from the 9Be(p,n)",
+                " reaction by impinging 25, 35, and 45 MeV proton beams",
+                " on a 5 mm thick Be target."
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Nb foil (thickness 0.05 mm, size of 0.8-1 cm x 1 cm,",
+                " weight of 40.2-54.3 mg)"
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "ACTIV"
+              ],
+              "free_text": [
+                " Irradiation for 0.5-1 hour (200 nA)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "GSPEC"
+              ],
+              "free_text": [
+                " Started after the cooling time (1.8-2.4 hour)"
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "HPGE"
+              ],
+              "free_text": [
+                " Energy resolution of 1.8 keV FWHM at 1332.5 keV",
+                " peak of 60Co and detection efficiency of 20% at 1332.5",
+                " keV relative to 7.6 cm diameter x 7.6 cm length",
+                " NaI(Tl) detector"
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "13-AL-27(N,X)11-NA-24,,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "13-AL-27(N,X)11-NA-24,,SIG",
+                      "field": {
+                        "reaction": "13-AL-27(N,X)11-NA-24",
+                        "target": "13-AL-27",
+                        "projectile": "N",
+                        "process": "X",
+                        "product": "11-NA-24",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                "",
+                " - Al foil (thickness 0.025 mm, purity > 99.99%)",
+                "The neutron fluxes from the reaction threshold to the",
+                " maximum neutron energies was calculated with the",
+                " MCNPX code.",
+                "The experimental data used to obtain the flux-weighted",
+                " average cross-section for Al(n,a)24Na reaction for",
+                " the neutron energies of 25,35 and 45 MeV are 0.04078,",
+                " 0.04996 and 0.04128 mb."
+              ]
+            }
+          ],
+          "DECAY-MON": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "nuclide": "11-NA-24",
+                "half-life": {
+                  "value": 14.959,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1368.6
+                    ],
+                    "intensity": 1.0
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": null,
+                "author": null,
+                "reference": {
+                  "code": "3,TENDL-2015,,2015",
+                  "field": {
+                    "reference_type": "3",
+                    "reference": {
+                      "code": "TENDL-",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null,
+                      "version": "2015",
+                      "material_number": null
+                    },
+                    "date": 2015
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": null,
+                "author": "R.B.Firestone+",
+                "reference": {
+                  "code": "B,FIRESTONE,,,2004",
+                  "field": {
+                    "reference_type": "B",
+                    "reference": {
+                      "code": "FIRESTONE",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": ""
+                    },
+                    "date": 2004
+                  }
+                }
+              },
+              "free_text": [
+                " WWW Version",
+                " 2.1, Decay data"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": null,
+                "author": "J.Blachot+",
+                "reference": {
+                  "code": "J,APH,6,3,1981",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "APH",
+                      "number": null,
+                      "volume": "6",
+                      "part": null,
+                      "issue": null,
+                      "page": "3"
+                    },
+                    "date": 1981
+                  }
+                }
+              },
+              "free_text": [
+                " Decay data"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total uncertainty                   (6.5-10.8%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": 5.0,
+                "maximum_value": 10.0,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistical uncertainty          (5-10%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " neutron flux estimation                   (~2%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " irradiation time                        (~0.5%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " detection efficiency                      (~3%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-4",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " half-life and gamma-ray abundance         (~2%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "APRVD"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Approved by G.N.Kim (2021-10-25)"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20210825,
+                "history": "C"
+              },
+              "free_text": [
+                " S.C.Yang"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 4,
+            "N2": 0,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "ERR-1",
+              "ERR-2",
+              "ERR-3",
+              "ERR-4"
+            ],
+            "unit": [
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              2.0,
+              0.5,
+              3.0,
+              2.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "30849002",
+            "N2": 20210825,
+            "alteration_flag": " ",
+            "transmission_identification": "3206"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "41-NB-93(N,2N)41-NB-92-M,,SIG,,SPA",
+                "code_unit": [
+                  {
+                    "unit": "41-NB-93(N,2N)41-NB-92-M,,SIG,,SPA",
+                    "field": {
+                      "reaction": "41-NB-93(N,2N)41-NB-92-M",
+                      "target": "41-NB-93",
+                      "projectile": "N",
+                      "process": "2N",
+                      "product": "41-NB-92-M",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "SPA",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "41-NB-92-M",
+                "half-life": {
+                  "value": 10.15,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      934.46
+                    ],
+                    "intensity": 0.99
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 4 of Nucl.Phys.A,970,156,2018"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 3,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-MEAN",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                14.39,
+                355.0,
+                33.7
+              ],
+              [
+                19.423,
+                301.8,
+                33.2
+              ],
+              [
+                26.392,
+                187.0,
+                13.1
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "30849003",
+            "N2": 20210825,
+            "alteration_flag": " ",
+            "transmission_identification": "3206"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "41-NB-93(N,3N)41-NB-91-M,,SIG,,SPA",
+                "code_unit": [
+                  {
+                    "unit": "41-NB-93(N,3N)41-NB-91-M,,SIG,,SPA",
+                    "field": {
+                      "reaction": "41-NB-93(N,3N)41-NB-91-M",
+                      "target": "41-NB-93",
+                      "projectile": "N",
+                      "process": "3N",
+                      "product": "41-NB-91-M",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "SPA",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "41-NB-91-M",
+                "half-life": {
+                  "value": 60.86,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1204.77
+                    ],
+                    "intensity": 0.029
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 4 of Nucl.Phys.A,970,156,2018"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 2,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-MEAN",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                22.752,
+                153.4,
+                20.0
+              ],
+              [
+                29.801,
+                170.0,
+                21.8
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "30849004",
+            "N2": 20210825,
+            "alteration_flag": " ",
+            "transmission_identification": "3206"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "41-NB-93(N,4N)41-NB-90,,SIG,,SPA",
+                "code_unit": [
+                  {
+                    "unit": "41-NB-93(N,4N)41-NB-90,,SIG,,SPA",
+                    "field": {
+                      "reaction": "41-NB-93(N,4N)41-NB-90",
+                      "target": "41-NB-93",
+                      "projectile": "N",
+                      "process": "4N",
+                      "product": "41-NB-90",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "SPA",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "41-NB-90-G",
+                "half-life": {
+                  "value": 14.6,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      141.18
+                    ],
+                    "intensity": 0.668
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1129.23
+                    ],
+                    "intensity": 0.927
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 4 of Nucl.Phys.A,970,156,2018"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-MEAN",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                33.995,
+                79.8,
+                10.9
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 4,
+        "N2": 0
+      }
+    }
+  ]
+}

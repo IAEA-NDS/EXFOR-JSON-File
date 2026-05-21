@@ -1,0 +1,919 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T20:07:24+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "14568",
+        "N2": 20190715,
+        "alteration_flag": " ",
+        "transmission_identification": "1456"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "14568001",
+            "N2": 20190715,
+            "alteration_flag": " ",
+            "transmission_identification": "1456"
+          },
+          "BIB": {
+            "N1": 11,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Measurement of the neutron capture cross section on",
+                "argon"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "V.Fischer",
+                "L.Pagani",
+                "L.Pickard",
+                "A.Couture",
+                "S.Gardiner",
+                "C.Grant",
+                "J.He",
+                "T.Johnson",
+                "E.Pantic",
+                "C.Prokop",
+                "R.Svoboda",
+                "J.Ullmann",
+                "J.Wang"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,PR/D,99,103021,2019",
+                "code_unit": [
+                  {
+                    "unit": "J,PR/D,99,103021,2019",
+                    "doi": "10.1103/PhysRevD.99.103021",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "PR/D",
+                        "number": null,
+                        "volume": "99",
+                        "part": null,
+                        "issue": null,
+                        "page": "103021"
+                      },
+                      "date": 2019
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "#doi:10.1103/PhysRevD.99.103021"
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "1USADAV",
+                "1USALAS",
+                "1USABST"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "LINAC"
+                ],
+                "institute": "1USALAS"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "BAF2"
+              ],
+              "free_text": [
+                " DANCE is located at the Los Alamos National",
+                "Laboratory. This detector is a 4pi gamma ray",
+                "calorimeter composed of an array of 160 BaF2 crystals,",
+                "each coupled to a PMT."
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The target consists of a hollow aluminum cylinder (2.9",
+                "cm long and 3 cm in diameter) sealed by two 0.0762 mm",
+                "thick Kapton windows spaced apart by 2.30+-0.05 cm.",
+                "The target volume was filled with high purity (99.999%",
+                "Ar) gaseous natural argon and pressurized (T=296.7+-1K,",
+                "p=1.0987+-0.0005 bara) above the local atmospheric",
+                "pressure throughout the data taking period. The target",
+                "is located at the center of the DANCE spectrometer."
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "TOF"
+              ],
+              "free_text": [
+                " The Argon Capture Experiment at DANCE (ACED) is",
+                "a time-of-flight (TOF) system capable of measuring",
+                "neutron energy in the thermal range to an accuracy of",
+                "a few meV. Events in DANCE are recorded in a 15 ms",
+                "acquisition window, triggered by either a beam spill or",
+                "an external pulser - provided the energy deposit is",
+                ">150 keV. Individual gamma rays are reconstructed via",
+                "a nearest neighbor clustering algorithm. The number of",
+                "reconstructed clusters provides the multiplicity of the",
+                "event; the energy of each cluster provides the",
+                "individual reconstructed gamma energy, with the summed",
+                "energy yielding the total reconstructed event energy.",
+                "Both a total energy and a cluster multiplicity cut are",
+                "applied in order to select events from neutron captures",
+                "on 40Ar."
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "3-LI-6(N,T)2-HE-4,,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "3-LI-6(N,T)2-HE-4,,SIG",
+                      "field": {
+                        "reaction": "3-LI-6(N,T)2-HE-4",
+                        "target": "3-LI-6",
+                        "projectile": "N",
+                        "process": "T",
+                        "product": "2-HE-4",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                "  Li,He were beam monitors."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "2-HE-3(N,P)1-H-3,,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "2-HE-3(N,P)1-H-3,,SIG",
+                      "field": {
+                        "reaction": "2-HE-3(N,P)1-H-3",
+                        "target": "2-HE-3",
+                        "projectile": "N",
+                        "process": "P",
+                        "product": "1-H-3",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "APRVD"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Approved by L.Pagani on July 17, 2019."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20190715,
+                "history": "C"
+              },
+              "free_text": [
+                " BP"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "14568002",
+            "N2": 20190715,
+            "alteration_flag": " ",
+            "transmission_identification": "1456"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "18-AR-40(N,G)18-AR-41,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "18-AR-40(N,G)18-AR-41,,SIG",
+                    "field": {
+                      "reaction": "18-AR-40(N,G)18-AR-41",
+                      "target": "18-AR-40",
+                      "projectile": "N",
+                      "process": "G",
+                      "product": "18-AR-41",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total error includes statistical and",
+                "systematic uncertainties."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Authors' data."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 50,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "KEV",
+              "B",
+              "B"
+            ],
+            "value": [
+              [
+                1.4791e-05,
+                0.92917,
+                0.081406
+              ],
+              [
+                1.5488e-05,
+                0.87659,
+                0.076799
+              ],
+              [
+                1.6218e-05,
+                0.86163,
+                0.075486
+              ],
+              [
+                1.6982e-05,
+                0.82708,
+                0.072459
+              ],
+              [
+                1.7783e-05,
+                0.81706,
+                0.07158
+              ],
+              [
+                1.8621e-05,
+                0.81752,
+                0.071618
+              ],
+              [
+                1.9498e-05,
+                0.79012,
+                0.069216
+              ],
+              [
+                2.0417e-05,
+                0.7718,
+                0.067611
+              ],
+              [
+                2.138e-05,
+                0.76492,
+                0.067006
+              ],
+              [
+                2.2387e-05,
+                0.74115,
+                0.064923
+              ],
+              [
+                2.3442e-05,
+                0.7248,
+                0.06349
+              ],
+              [
+                2.4547e-05,
+                0.69263,
+                0.060672
+              ],
+              [
+                2.5704e-05,
+                0.69668,
+                0.061026
+              ],
+              [
+                2.6915e-05,
+                0.67122,
+                0.058796
+              ],
+              [
+                2.8184e-05,
+                0.67029,
+                0.058714
+              ],
+              [
+                2.9512e-05,
+                0.64255,
+                0.056284
+              ],
+              [
+                3.0903e-05,
+                0.63643,
+                0.055747
+              ],
+              [
+                3.2359e-05,
+                0.6225,
+                0.054527
+              ],
+              [
+                3.3884e-05,
+                0.60488,
+                0.052983
+              ],
+              [
+                3.5481e-05,
+                0.5903,
+                0.051706
+              ],
+              [
+                3.7154e-05,
+                0.5837,
+                0.051128
+              ],
+              [
+                3.8904e-05,
+                0.56186,
+                0.049214
+              ],
+              [
+                4.0738e-05,
+                0.5499,
+                0.048167
+              ],
+              [
+                4.2658e-05,
+                0.54895,
+                0.048083
+              ],
+              [
+                4.4668e-05,
+                0.54402,
+                0.047652
+              ],
+              [
+                4.6773e-05,
+                0.52677,
+                0.046141
+              ],
+              [
+                4.8978e-05,
+                0.51622,
+                0.045217
+              ],
+              [
+                5.1286e-05,
+                0.49627,
+                0.04347
+              ],
+              [
+                5.3703e-05,
+                0.47519,
+                0.041624
+              ],
+              [
+                5.6234e-05,
+                0.4617,
+                0.040443
+              ],
+              [
+                5.8884e-05,
+                0.45914,
+                0.040219
+              ],
+              [
+                6.166e-05,
+                0.44983,
+                0.039404
+              ],
+              [
+                6.4565e-05,
+                0.44564,
+                0.039037
+              ],
+              [
+                6.7608e-05,
+                0.41601,
+                0.036442
+              ],
+              [
+                7.0795e-05,
+                0.42162,
+                0.036934
+              ],
+              [
+                7.4131e-05,
+                0.4058,
+                0.035549
+              ],
+              [
+                7.7625e-05,
+                0.39503,
+                0.034607
+              ],
+              [
+                8.1283e-05,
+                0.39556,
+                0.034654
+              ],
+              [
+                8.5114e-05,
+                0.38334,
+                0.033585
+              ],
+              [
+                8.9125e-05,
+                0.35821,
+                0.031385
+              ],
+              [
+                9.3325e-05,
+                0.36738,
+                0.032189
+              ],
+              [
+                9.7724e-05,
+                0.35353,
+                0.030977
+              ],
+              [
+                0.00010233,
+                0.34211,
+                0.029979
+              ],
+              [
+                0.00010715,
+                0.34278,
+                0.030039
+              ],
+              [
+                0.0001122,
+                0.3248,
+                0.028466
+              ],
+              [
+                0.00011749,
+                0.31557,
+                0.02766
+              ],
+              [
+                0.00012303,
+                0.31013,
+                0.027187
+              ],
+              [
+                0.00012883,
+                0.30714,
+                0.026927
+              ],
+              [
+                0.0001349,
+                0.30341,
+                0.026603
+              ],
+              [
+                0.00014125,
+                0.28477,
+                0.024974
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "14568003",
+            "N2": 20190715,
+            "alteration_flag": " ",
+            "transmission_identification": "1456"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "18-AR-40(N,G)18-AR-41,,SIG,,,DERIV",
+                "code_unit": [
+                  {
+                    "unit": "18-AR-40(N,G)18-AR-41,,SIG,,,DERIV",
+                    "field": {
+                      "reaction": "18-AR-40(N,G)18-AR-41",
+                      "target": "18-AR-40",
+                      "projectile": "N",
+                      "process": "G",
+                      "product": "18-AR-41",
+                      "quantity": ",SIG",
+                      "data_type": "DERIV",
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                " 2200 m/sec value."
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The fit of the 40Ar cross section as a function of the",
+                "neutron velocity, in the energy range 0.01-0.15 eV,",
+                "using 1/v law, yields sigmamp=670+-26(stat)+-43(sys) mb",
+                "and T=294+-36 K for the most probable cross section",
+                "and the temperature of the target. Correcting for the",
+                "average temperature of the moderator and the target,",
+                "<T>=296+-36 K, yields sigma2200=673+-26(stat)+-59(sys)",
+                "mb for the standard thermal cross section."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistical errors."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-SYS",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " The dominant systematic uncertainties are:"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " The calibration of the beam monitors 5.8%",
+                "- deduced  from the detector stability between runs",
+                "3.1%,  consistency between the monitors 2.1%."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Uncertainties in 22Na calibration procedure",
+                "4.4%."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " The efficiency to detect the gamma cascades",
+                "0.9%."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-4",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " The uncertainty in the target density 0.3%."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-5",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " the uncertainty in the target length 2.2%."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-6",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " The systematic effect of the emission of IC",
+                "electrons was assessed using BrIcc <0.5%."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The cross section is corrected (1%), in each neutron",
+                "energy bin, to account for the presence of 36Ar in",
+                "natural argon. 38Ar is also present but its",
+                "contribution is negligible."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "14568002",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " page 103021-4."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 6,
+            "N2": 0,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "ERR-1",
+              "ERR-2",
+              "ERR-3",
+              "ERR-4",
+              "ERR-5",
+              "ERR-6"
+            ],
+            "unit": [
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              5.8,
+              4.4,
+              0.9,
+              0.3,
+              2.2,
+              0.5
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "ERR-S",
+              "ERR-SYS"
+            ],
+            "unit": [
+              "EV",
+              "MB",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                0.0253,
+                672.8,
+                25.9,
+                58.9
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 3,
+        "N2": 0
+      }
+    }
+  ]
+}

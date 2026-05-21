@@ -1,0 +1,750 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T21:35:59+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "30832",
+        "N2": 20130709,
+        "alteration_flag": " ",
+        "transmission_identification": "3160"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "30832001",
+            "N2": 20130709,
+            "alteration_flag": " ",
+            "transmission_identification": "3160"
+          },
+          "BIB": {
+            "N1": 16,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Measurements of average fission neutron cross sections",
+                "for (n,p) reactions of titanium by activation method"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "M.S.Son",
+                "H.J.Kim",
+                "H.I.Bak"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "3KORKOR"
+              ],
+              "free_text": [
+                " Ewha Women's University"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "3KORSEO"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,KPS,1,51,1968",
+                "code_unit": [
+                  {
+                    "unit": "J,KPS,1,51,1968",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "KPS",
+                        "number": null,
+                        "volume": "1",
+                        "part": null,
+                        "issue": null,
+                        "page": "51"
+                      },
+                      "date": 1968
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": "3KORSEO"
+              },
+              "free_text": [
+                " Triga-Mark II reactor"
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "REAC"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                " Uranium fuel rods in the core"
+              ]
+            }
+          ],
+          "INC-SPECT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The uranium fission neutron spectrum is disturbed even",
+                "before reaching the light water moderator by the fuel",
+                "rod itself in which uranium (8% wt., 20% enriched) is",
+                "dispersed homogeneously in zirconium hydride (91% wt.",
+                "Zr, and 1% wt. H). However, taking into account the",
+                "agreement of the two values, i.e., the measured",
+                "fission neutron flux using the well accepted cross",
+                "section of 105 mb for the Ni-58(n,p)Co-58 monitor",
+                "reaction and the flux calculated by General Atomic, it",
+                "can probably be concluded that the spectrum at the",
+                "midpoint of the central thimble is not disturbed",
+                "significantly from the unmoderated fission neutron",
+                "spectrum for the average cross section measurement."
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "nuclide": "28-NI-58",
+                "field_identifier": "NAT",
+                "value": 0.679
+              },
+              "free_text": [
+                " Nickel foil: 99.99% purity,",
+                "0.11 mm thickness"
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "NAICR"
+              ],
+              "free_text": [
+                " A 3 inch x 3 inch NaI(Tl) scintillation",
+                "spectrometer.",
+                "The energy resolution of the detector checked with the",
+                "0.662 MeV gamma-ray of Cs-137 was 8.9%."
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "ACTIV"
+              ],
+              "free_text": [
+                " Irradiated for 7 hours",
+                "        at a power level of 100 kW"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "GSPEC"
+              ],
+              "free_text": [
+                " after a cooling interval of about 5 days"
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "MONIT",
+                "reaction": {
+                  "code": "28-NI-58(N,P)27-CO-58,,SIG,,FIS",
+                  "code_unit": [
+                    {
+                      "unit": "28-NI-58(N,P)27-CO-58,,SIG,,FIS",
+                      "field": {
+                        "reaction": "28-NI-58(N,P)27-CO-58",
+                        "target": "28-NI-58",
+                        "projectile": "N",
+                        "process": "P",
+                        "product": "27-CO-58",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": "FIS",
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                " 105 mb"
+              ]
+            }
+          ],
+          "DECAY-MON": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "nuclide": "27-CO-58-G",
+                "half-life": {
+                  "value": 71.3,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      805.0
+                    ],
+                    "intensity": null
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "MONIT",
+                "subentry_number": "",
+                "author": "C.E.Mellish",
+                "reference": {
+                  "code": "J,NUC,19,114,1961",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NUC",
+                      "number": null,
+                      "volume": "19",
+                      "part": null,
+                      "issue": null,
+                      "page": "114",
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 1961
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Standard error.",
+                " No information on source of uncertainties"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Data taken from publication, Table 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20130709,
+                "history": "C"
+              },
+              "free_text": [
+                " S.C.Yang"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 2,
+            "N2": 0,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "KT-DUMMY",
+              "MONIT"
+            ],
+            "unit": [
+              "MEV",
+              "MB"
+            ],
+            "value": [
+              1.32,
+              105.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "30832002",
+            "N2": 20130709,
+            "alteration_flag": " ",
+            "transmission_identification": "3160"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "22-TI-46(N,P)21-SC-46,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "22-TI-46(N,P)21-SC-46,,SIG,,FIS",
+                    "field": {
+                      "reaction": "22-TI-46(N,P)21-SC-46",
+                      "target": "22-TI-46",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "21-SC-46",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "21-SC-46-G",
+                "half-life": {
+                  "value": 84.0,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      885.0
+                    ],
+                    "intensity": null
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1119.0
+                    ],
+                    "intensity": null
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "nuclide": "22-TI-46",
+                "field_identifier": "NAT",
+                "value": 0.0793
+              },
+              "free_text": [
+                " Titanium: 95% purity,",
+                "  3.5 mm diameter, 21~46 mg weight"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                11.4,
+                0.9
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "30832003",
+            "N2": 20130709,
+            "alteration_flag": " ",
+            "transmission_identification": "3160"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "22-TI-47(N,P)21-SC-47,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "22-TI-47(N,P)21-SC-47,,SIG,,FIS",
+                    "field": {
+                      "reaction": "22-TI-47(N,P)21-SC-47",
+                      "target": "22-TI-47",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "21-SC-47",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "21-SC-47",
+                "half-life": {
+                  "value": 3.43,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      155.0
+                    ],
+                    "intensity": null
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "nuclide": "22-TI-47",
+                "field_identifier": "NAT",
+                "value": 0.0728
+              },
+              "free_text": [
+                " Titanium: 95% purity,",
+                "  3.5 mm diameter, 21~46 mg weight"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                19.7,
+                1.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "30832004",
+            "N2": 20130709,
+            "alteration_flag": " ",
+            "transmission_identification": "3160"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "22-TI-48(N,P)21-SC-48,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "22-TI-48(N,P)21-SC-48,,SIG,,FIS",
+                    "field": {
+                      "reaction": "22-TI-48(N,P)21-SC-48",
+                      "target": "22-TI-48",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "21-SC-48",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "21-SC-48",
+                "half-life": {
+                  "value": 1.82,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      990.0
+                    ],
+                    "intensity": null
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1040.0
+                    ],
+                    "intensity": null
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1314.0
+                    ],
+                    "intensity": null
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "nuclide": "22-TI-48",
+                "field_identifier": "NAT",
+                "value": 0.7394
+              },
+              "free_text": [
+                " Titanium: 95% purity,",
+                "  3.5 mm diameter, 21~46 mg weight"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                0.28,
+                0.02
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 4,
+        "N2": 0
+      }
+    }
+  ]
+}

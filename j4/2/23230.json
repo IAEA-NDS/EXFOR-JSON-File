@@ -1,0 +1,1722 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T21:08:01+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "23230",
+        "N2": 20140414,
+        "alteration_flag": " ",
+        "transmission_identification": "2238"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "23230001",
+            "N2": 20140414,
+            "alteration_flag": " ",
+            "transmission_identification": "2238"
+          },
+          "BIB": {
+            "N1": 16,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Measurement of 233U fission spectrum-averaged cross",
+                " sections for some threshold reactions"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "K.Kobayashi"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "2JPNKTO"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "C,93VAIL,720,1993",
+                "code_unit": [
+                  {
+                    "unit": "C,93VAIL,720,1993",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "C",
+                      "reference": {
+                        "code": "93VAIL",
+                        "number": null,
+                        "volume": null,
+                        "part": null,
+                        "issue": null,
+                        "page": null
+                      },
+                      "date": 1993
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                " 8th ASTM-EURATOM Symp.React.Dosim.,",
+                " August 29 -Sept.3 1993, Vail, Colorado, USA"
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": "2JPNKTO"
+              },
+              "free_text": [
+                " Heavy water thermal neutron facility"
+              ]
+            }
+          ],
+          "INC-SPECT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "U-233 fission neutron spectrum"
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Neutrons from U-233 fission foils (99.469% purity",
+                " uranium-233 oxide aluminum alloy).",
+                "Each foil is 12.7x12.7 mm2 and 1 or 2 mm in thickness.",
+                "Total amount of 233U is ~0.18 g for a 2 mm thick foil."
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "ACTIV"
+              ],
+              "free_text": [
+                " 24 to 50 hrs during 5 MW operation"
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "HPGE"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "13-AL-27(N,A)11-NA-24,,SIG,,FIS",
+                  "code_unit": [
+                    {
+                      "unit": "13-AL-27(N,A)11-NA-24,,SIG,,FIS",
+                      "field": {
+                        "reaction": "13-AL-27(N,A)11-NA-24",
+                        "target": "13-AL-27",
+                        "projectile": "N",
+                        "process": "A",
+                        "product": "11-NA-24",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": "FIS",
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                "",
+                "JENDL/D-91 cross section folded by Watt-type fission",
+                " spectrum in ENDF/B-VI:",
+                "  chi(E)~exp(-E/0.977)sinh[sqrt(2.546*E)]"
+              ]
+            }
+          ],
+          "DECAY-MON": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "nuclide": "11-NA-24",
+                "half-life": {
+                  "value": 14.659,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1369.0
+                    ],
+                    "intensity": 1.0
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": null,
+                "author": "M.Nakazawa+",
+                "reference": {
+                  "code": "R,JAERI-1325,1992",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "JAERI-",
+                      "number": "1325",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null,
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 1992
+                  }
+                }
+              },
+              "free_text": [
+                " JENDL/D-91"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total uncertainty taking account of the",
+                " correlated uncertainties between the measured data,",
+                " mainly due to error of the 27Al(n,a)24Na reference",
+                " value as well as"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": 0.1,
+                "maximum_value": 4.0,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistical errors,"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": 1.5,
+                "maximum_value": 2.0,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Detector efficiencies."
+              ]
+            }
+          ],
+          "COVARIANCE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Correlation matrix (x100) between monitor and",
+                "subentries 002 to 013.",
+                " (MON: Monitor reaction 27Al(n,a)24Na)",
+                "002 100",
+                "003  95 100",
+                "MON  97  98 100",
+                "004  96  97  98 100",
+                "005  97  97  98  98 100",
+                "006  97  97  99  98  98 100",
+                "007  93  95  96  94  94  95 100",
+                "008  94  97  97  96  96  96  96 100",
+                "009  96  98  99  98  98  98  95  97 100",
+                "010  94  96  97  94  95  96  93  96  97 199",
+                "011  83  85  86  85  85  85  85  85  86  84 100",
+                "012  95  96  97  96  96  97  94  95  98  95  84 100",
+                "013  94  95  96  96  97  96  92  94  96  94  83  94 100",
+                "SAN 002 003 MON 004 005 006 007 008 009 010 011 012 013"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 2 of 8th ASTM-EURATOM Symp.React.Dosim."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20140414,
+                "history": "C"
+              },
+              "free_text": [
+                " On"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 2,
+            "N2": 0,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "MONIT",
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              0.688,
+              0.04
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23230002",
+            "N2": 20140414,
+            "alteration_flag": " ",
+            "transmission_identification": "2238"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "12-MG-24(N,P)11-NA-24,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "12-MG-24(N,P)11-NA-24,,SIG,,FIS",
+                    "field": {
+                      "reaction": "12-MG-24(N,P)11-NA-24",
+                      "target": "12-MG-24",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "11-NA-24",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "11-NA-24",
+                "half-life": {
+                  "value": 14.659,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1369.0
+                    ],
+                    "intensity": 1.0
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "KT-DUMMY",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                1.5,
+                1.4,
+                0.084
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23230003",
+            "N2": 20140414,
+            "alteration_flag": " ",
+            "transmission_identification": "2238"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "13-AL-27(N,P)12-MG-27,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "13-AL-27(N,P)12-MG-27,,SIG,,FIS",
+                    "field": {
+                      "reaction": "13-AL-27(N,P)12-MG-27",
+                      "target": "13-AL-27",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "12-MG-27",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "12-MG-27",
+                "half-life": {
+                  "value": 9.462,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      844.0
+                    ],
+                    "intensity": 0.73
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1014.0
+                    ],
+                    "intensity": 0.291
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "KT-DUMMY",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                1.5,
+                3.87,
+                0.231
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23230004",
+            "N2": 20140414,
+            "alteration_flag": " ",
+            "transmission_identification": "2238"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "22-TI-46(N,P)21-SC-46,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "22-TI-46(N,P)21-SC-46,,SIG,,FIS",
+                    "field": {
+                      "reaction": "22-TI-46(N,P)21-SC-46",
+                      "target": "22-TI-46",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "21-SC-46",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "21-SC-46-G",
+                "half-life": {
+                  "value": 83.83,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      889.0
+                    ],
+                    "intensity": 0.99984
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1121.0
+                    ],
+                    "intensity": 0.99987
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "KT-DUMMY",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                1.5,
+                11.0,
+                0.65
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23230005",
+            "N2": 20140414,
+            "alteration_flag": " ",
+            "transmission_identification": "2238"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "22-TI-47(N,P)21-SC-47,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "22-TI-47(N,P)21-SC-47,,SIG,,FIS",
+                    "field": {
+                      "reaction": "22-TI-47(N,P)21-SC-47",
+                      "target": "22-TI-47",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "21-SC-47",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "21-SC-47",
+                "half-life": {
+                  "value": 3.341,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      159.0
+                    ],
+                    "intensity": 0.68
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "KT-DUMMY",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                1.5,
+                16.6,
+                1.01
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23230006",
+            "N2": 20140414,
+            "alteration_flag": " ",
+            "transmission_identification": "2238"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "22-TI-48(N,P)21-SC-48,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "22-TI-48(N,P)21-SC-48,,SIG,,FIS",
+                    "field": {
+                      "reaction": "22-TI-48(N,P)21-SC-48",
+                      "target": "22-TI-48",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "21-SC-48",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "21-SC-48",
+                "half-life": {
+                  "value": 1.821,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      984.0
+                    ],
+                    "intensity": 1.0
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1037.0
+                    ],
+                    "intensity": 0.975
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1312.0
+                    ],
+                    "intensity": 1.0
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "KT-DUMMY",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                1.5,
+                0.272,
+                0.0177
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23230007",
+            "N2": 20140414,
+            "alteration_flag": " ",
+            "transmission_identification": "2238"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "26-FE-54(N,P)25-MN-54,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "26-FE-54(N,P)25-MN-54,,SIG,,FIS",
+                    "field": {
+                      "reaction": "26-FE-54(N,P)25-MN-54",
+                      "target": "26-FE-54",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "25-MN-54",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "25-MN-54",
+                "half-life": {
+                  "value": 312.2,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      835.0
+                    ],
+                    "intensity": 0.99975
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "KT-DUMMY",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                1.5,
+                74.4,
+                4.24
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23230008",
+            "N2": 20140414,
+            "alteration_flag": " ",
+            "transmission_identification": "2238"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "26-FE-56(N,P)25-MN-56,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "26-FE-56(N,P)25-MN-56,,SIG,,FIS",
+                    "field": {
+                      "reaction": "26-FE-56(N,P)25-MN-56",
+                      "target": "26-FE-56",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "25-MN-56",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "25-MN-56",
+                "half-life": {
+                  "value": 2.5785,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      847.0
+                    ],
+                    "intensity": 0.989
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "KT-DUMMY",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                1.5,
+                1.04,
+                0.062
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23230009",
+            "N2": 20140414,
+            "alteration_flag": " ",
+            "transmission_identification": "2238"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "28-NI-58(N,P)27-CO-58,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "28-NI-58(N,P)27-CO-58,,SIG,,FIS",
+                    "field": {
+                      "reaction": "28-NI-58(N,P)27-CO-58",
+                      "target": "28-NI-58",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "27-CO-58",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "27-CO-58-G",
+                "half-life": {
+                  "value": 70.916,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      811.0
+                    ],
+                    "intensity": 0.995
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "KT-DUMMY",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                1.5,
+                101.0,
+                6.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23230010",
+            "N2": 20140414,
+            "alteration_flag": " ",
+            "transmission_identification": "2238"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "30-ZN-64(N,P)29-CU-64,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "30-ZN-64(N,P)29-CU-64,,SIG,,FIS",
+                    "field": {
+                      "reaction": "30-ZN-64(N,P)29-CU-64",
+                      "target": "30-ZN-64",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "29-CU-64",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "29-CU-64",
+                "half-life": {
+                  "value": 12.701,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      511.0
+                    ],
+                    "intensity": 0.358
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1346.0
+                    ],
+                    "intensity": 0.0048
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "KT-DUMMY",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                1.5,
+                33.8,
+                2.04
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23230011",
+            "N2": 20140414,
+            "alteration_flag": " ",
+            "transmission_identification": "2238"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "40-ZR-90(N,2N)40-ZR-89,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "40-ZR-90(N,2N)40-ZR-89,,SIG,,FIS",
+                    "field": {
+                      "reaction": "40-ZR-90(N,2N)40-ZR-89",
+                      "target": "40-ZR-90",
+                      "projectile": "N",
+                      "process": "2N",
+                      "product": "40-ZR-89",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "40-ZR-89-G",
+                "half-life": {
+                  "value": 3.268,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      909.0
+                    ],
+                    "intensity": 0.9901
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "KT-DUMMY",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                1.5,
+                0.0807,
+                0.0054
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23230012",
+            "N2": 20140414,
+            "alteration_flag": " ",
+            "transmission_identification": "2238"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "41-NB-93(N,2N)41-NB-92-M,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "41-NB-93(N,2N)41-NB-92-M,,SIG,,FIS",
+                    "field": {
+                      "reaction": "41-NB-93(N,2N)41-NB-92-M",
+                      "target": "41-NB-93",
+                      "projectile": "N",
+                      "process": "2N",
+                      "product": "41-NB-92-M",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "41-NB-92-M",
+                "half-life": {
+                  "value": 10.15,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      935.0
+                    ],
+                    "intensity": 0.99
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "KT-DUMMY",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                1.5,
+                0.44,
+                0.0263
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23230013",
+            "N2": 20140414,
+            "alteration_flag": " ",
+            "transmission_identification": "2238"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "49-IN-115(N,INL)49-IN-115-M,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "49-IN-115(N,INL)49-IN-115-M,,SIG,,FIS",
+                    "field": {
+                      "reaction": "49-IN-115(N,INL)49-IN-115-M",
+                      "target": "49-IN-115",
+                      "projectile": "N",
+                      "process": "INL",
+                      "product": "49-IN-115-M",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "49-IN-115-M",
+                "half-life": {
+                  "value": 4.486,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      336.0
+                    ],
+                    "intensity": 0.458
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "KT-DUMMY",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                1.5,
+                190.0,
+                11.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 13,
+        "N2": 0
+      }
+    }
+  ]
+}

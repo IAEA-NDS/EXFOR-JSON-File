@@ -1,0 +1,1567 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T19:43:06+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "13070",
+        "N2": 20201218,
+        "alteration_flag": " ",
+        "transmission_identification": "1478"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "13070001",
+            "N2": 20201218,
+            "alteration_flag": " ",
+            "transmission_identification": "1478"
+          },
+          "BIB": {
+            "N1": 10,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Cumulative yields of the heavy fragments in the",
+                "thermal-neutron fission of 241Pu"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "H.Farrar",
+                "W.B.Clarke",
+                "H.G.Thode",
+                "R.H.Tomlinson"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "1CANMCM"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,CJP,42,2063,1964",
+                "code_unit": [
+                  {
+                    "unit": "J,CJP,42,2063,1964",
+                    "doi": "10.1139/p64-191",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "CJP",
+                        "number": null,
+                        "volume": "42",
+                        "part": null,
+                        "issue": null,
+                        "page": "2063"
+                      },
+                      "date": 1964
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "#doi:10.1139/p64-191"
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": "1CANCRC"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": "1CANMCM"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "THCOL"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                " The NRX reactor,Chalk River"
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Twelve samples with weight from 18 to 400 mu-g"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "nuclide": "94-PU-241",
+                "field_identifier": "ENR",
+                "value": 0.87
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "ASEP"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for 5.5% contribution from fission of 239Pu."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19890512,
+                "history": "C"
+              },
+              "free_text": [
+                " VM"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20201218,
+                "history": "A"
+              },
+              "free_text": [
+                " OG. Converted to lower case and 4-digit",
+                "year. #doi added. STATUS, FACILITY updated. Unit in",
+                "Sub009 corrected."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "EN-DUMMY"
+            ],
+            "unit": [
+              "EV"
+            ],
+            "value": [
+              0.0253
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "13070002",
+            "N2": 20201218,
+            "alteration_flag": " ",
+            "transmission_identification": "1478"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(94-PU-241(N,F)ELEM/MASS,CUM,FY,,MXW)/(94-PU-241(N,F)54-XE-134,CUM,FY,,MXW)",
+                "code_unit": [
+                  {
+                    "unit": "94-PU-241(N,F)ELEM/MASS,CUM,FY,,MXW",
+                    "field": {
+                      "reaction": "94-PU-241(N,F)ELEM/MASS",
+                      "target": "94-PU-241",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "ELEM/MASS",
+                      "quantity": "CUM,FY",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "CUM,FY"
+                    }
+                  },
+                  {
+                    "unit": "94-PU-241(N,F)54-XE-134,CUM,FY,,MXW",
+                    "field": {
+                      "reaction": "94-PU-241(N,F)54-XE-134",
+                      "target": "94-PU-241",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "54-XE-134",
+                      "quantity": "CUM,FY",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "CUM,FY"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)/(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                ". 138Xe decreased 0.8% by B.F.Rider due to change in",
+                "  T1/2 of 138Xe from 14.0 to 14.2 minutes"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Data uncertainty is standard deviation",
+                "obtained, usually, from more than 60 mass spectrograms."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Tab.II (p.2068) in Can.J.Chem.42,2063,1964."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 5,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "ELEMENT",
+              "MASS",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "NO-DIM",
+              "NO-DIM",
+              "NO-DIM",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                54.0,
+                131.0,
+                0.385,
+                0.0014
+              ],
+              [
+                54.0,
+                132.0,
+                0.5726,
+                0.002
+              ],
+              [
+                54.0,
+                133.0,
+                0.84,
+                0.009
+              ],
+              [
+                54.0,
+                136.0,
+                0.9016,
+                0.006
+              ],
+              [
+                54.0,
+                138.0,
+                0.868,
+                0.04
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "13070003",
+            "N2": 20201218,
+            "alteration_flag": " ",
+            "transmission_identification": "1478"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(94-PU-241(N,F)ELEM/MASS,CUM,FY,,MXW)/(94-PU-241(N,F)55-CS-137,CUM,FY,,MXW)",
+                "code_unit": [
+                  {
+                    "unit": "94-PU-241(N,F)ELEM/MASS,CUM,FY,,MXW",
+                    "field": {
+                      "reaction": "94-PU-241(N,F)ELEM/MASS",
+                      "target": "94-PU-241",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "ELEM/MASS",
+                      "quantity": "CUM,FY",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "CUM,FY"
+                    }
+                  },
+                  {
+                    "unit": "94-PU-241(N,F)55-CS-137,CUM,FY,,MXW",
+                    "field": {
+                      "reaction": "94-PU-241(N,F)55-CS-137",
+                      "target": "94-PU-241",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "55-CS-137",
+                      "quantity": "CUM,FY",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "CUM,FY"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)/(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Data uncertainty is standard deviation",
+                "obtained, usually, from more than 60 mass spectrograms."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Tab.III (p.2069) in Can.J.Chem.42,2063,1964."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 2,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "ELEMENT",
+              "MASS",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "NO-DIM",
+              "NO-DIM",
+              "NO-DIM",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                55.0,
+                133.0,
+                0.9909,
+                0.007
+              ],
+              [
+                55.0,
+                135.0,
+                1.0699,
+                0.005
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "13070004",
+            "N2": 20201218,
+            "alteration_flag": " ",
+            "transmission_identification": "1478"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(94-PU-241(N,F)56-BA-140,CUM,FY,,MXW)/(94-PU-241(N,F)56-BA-138,CUM,FY,,MXW)",
+                "code_unit": [
+                  {
+                    "unit": "94-PU-241(N,F)56-BA-140,CUM,FY,,MXW",
+                    "field": {
+                      "reaction": "94-PU-241(N,F)56-BA-140",
+                      "target": "94-PU-241",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "56-BA-140",
+                      "quantity": "CUM,FY",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "CUM,FY"
+                    }
+                  },
+                  {
+                    "unit": "94-PU-241(N,F)56-BA-138,CUM,FY,,MXW",
+                    "field": {
+                      "reaction": "94-PU-241(N,F)56-BA-138",
+                      "target": "94-PU-241",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "56-BA-138",
+                      "quantity": "CUM,FY",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "CUM,FY"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)/(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Data uncertainty is standard deviation",
+                "obtained, usually, from more than 60 mass spectrograms."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Tab.IV (p.2069) in Can.J.Chem.42,2063,1964."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "NO-DIM",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                0.8471,
+                0.0036
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "13070005",
+            "N2": 20201218,
+            "alteration_flag": " ",
+            "transmission_identification": "1478"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(94-PU-241(N,F)ELEM/MASS,CUM,FY,,MXW)/(94-PU-241(N,F)58-CE-142,CUM,FY,,MXW)",
+                "code_unit": [
+                  {
+                    "unit": "94-PU-241(N,F)ELEM/MASS,CUM,FY,,MXW",
+                    "field": {
+                      "reaction": "94-PU-241(N,F)ELEM/MASS",
+                      "target": "94-PU-241",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "ELEM/MASS",
+                      "quantity": "CUM,FY",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "CUM,FY"
+                    }
+                  },
+                  {
+                    "unit": "94-PU-241(N,F)58-CE-142,CUM,FY,,MXW",
+                    "field": {
+                      "reaction": "94-PU-241(N,F)58-CE-142",
+                      "target": "94-PU-241",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "58-CE-142",
+                      "quantity": "CUM,FY",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "CUM,FY"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)/(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Data uncertainty is standard deviation",
+                "obtained, usually, from more than 60 mass spectrograms."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Tab.V (p.2070) in Can.J.Chem.42,2063,1964."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 3,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "ELEMENT",
+              "MASS",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "NO-DIM",
+              "NO-DIM",
+              "NO-DIM",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                58.0,
+                140.0,
+                1.2309,
+                0.003
+              ],
+              [
+                58.0,
+                141.0,
+                1.031,
+                0.025
+              ],
+              [
+                58.0,
+                144.0,
+                0.8667,
+                0.002
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "13070006",
+            "N2": 20201218,
+            "alteration_flag": " ",
+            "transmission_identification": "1478"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(94-PU-241(N,F)ELEM/MASS,CUM,FY,,MXW)/(94-PU-241(N,F)60-ND-145,CUM,FY,,MXW)",
+                "code_unit": [
+                  {
+                    "unit": "94-PU-241(N,F)ELEM/MASS,CUM,FY,,MXW",
+                    "field": {
+                      "reaction": "94-PU-241(N,F)ELEM/MASS",
+                      "target": "94-PU-241",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "ELEM/MASS",
+                      "quantity": "CUM,FY",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "CUM,FY"
+                    }
+                  },
+                  {
+                    "unit": "94-PU-241(N,F)60-ND-145,CUM,FY,,MXW",
+                    "field": {
+                      "reaction": "94-PU-241(N,F)60-ND-145",
+                      "target": "94-PU-241",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "60-ND-145",
+                      "quantity": "CUM,FY",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "CUM,FY"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)/(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "FLAG": [
+            {
+              "pointer": "",
+              "coded_information": [
+                1.0
+              ],
+              "free_text": [
+                " 150Nd results for two samples differed by 4.4%.",
+                " Only the value with the smaller standard deviation is",
+                " used here per Wahl, COO-1162-46 (1973)."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Data uncertainty is standard deviation",
+                "obtained, usually, from more than 60 mass spectrograms."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Tab.VI (p.2071) in Can.J.Chem.42,2063,1964."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 5,
+            "N2": 5,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "ELEMENT",
+              "MASS",
+              "DATA",
+              "DATA-ERR",
+              "FLAG"
+            ],
+            "unit": [
+              "NO-DIM",
+              "NO-DIM",
+              "NO-DIM",
+              "NO-DIM",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                60.0,
+                143.0,
+                1.4038,
+                0.01,
+                null
+              ],
+              [
+                60.0,
+                144.0,
+                1.2884,
+                0.013,
+                null
+              ],
+              [
+                60.0,
+                146.0,
+                0.8584,
+                0.006,
+                null
+              ],
+              [
+                60.0,
+                148.0,
+                0.6055,
+                0.004,
+                null
+              ],
+              [
+                60.0,
+                150.0,
+                0.378,
+                0.004,
+                1.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "13070007",
+            "N2": 20201218,
+            "alteration_flag": " ",
+            "transmission_identification": "1478"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(94-PU-241(N,F)ELEM/MASS,CUM,FY,,MXW)/(94-PU-241(N,F)62-SM-149,CUM,FY,,MXW)",
+                "code_unit": [
+                  {
+                    "unit": "94-PU-241(N,F)ELEM/MASS,CUM,FY,,MXW",
+                    "field": {
+                      "reaction": "94-PU-241(N,F)ELEM/MASS",
+                      "target": "94-PU-241",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "ELEM/MASS",
+                      "quantity": "CUM,FY",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "CUM,FY"
+                    }
+                  },
+                  {
+                    "unit": "94-PU-241(N,F)62-SM-149,CUM,FY,,MXW",
+                    "field": {
+                      "reaction": "94-PU-241(N,F)62-SM-149",
+                      "target": "94-PU-241",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "62-SM-149",
+                      "quantity": "CUM,FY",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "CUM,FY"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)/(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                ". 147Sm increased 3% by B.F.Rider due to change in",
+                "  T1/2 of 147Pm from 2.52 to 2.62 years."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Data uncertainty is standard deviation",
+                "obtained, usually, from more than 60 mass spectrograms."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Tab.VII (p.2072) in Can.J.Chem.42,2063,1964."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 4,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "ELEMENT",
+              "MASS",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "NO-DIM",
+              "NO-DIM",
+              "NO-DIM",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                62.0,
+                147.0,
+                1.554,
+                0.016
+              ],
+              [
+                62.0,
+                151.0,
+                0.6187,
+                0.004
+              ],
+              [
+                62.0,
+                152.0,
+                0.4884,
+                0.004
+              ],
+              [
+                62.0,
+                154.0,
+                0.263,
+                0.0059
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "13070008",
+            "N2": 20201218,
+            "alteration_flag": " ",
+            "transmission_identification": "1478"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(94-PU-241(N,F)55-CS-137,CUM,FY,,MXW)/(94-PU-241(N,F)60-ND-145,CUM,FY,,MXW)",
+                "code_unit": [
+                  {
+                    "unit": "94-PU-241(N,F)55-CS-137,CUM,FY,,MXW",
+                    "field": {
+                      "reaction": "94-PU-241(N,F)55-CS-137",
+                      "target": "94-PU-241",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "55-CS-137",
+                      "quantity": "CUM,FY",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "CUM,FY"
+                    }
+                  },
+                  {
+                    "unit": "94-PU-241(N,F)60-ND-145,CUM,FY,,MXW",
+                    "field": {
+                      "reaction": "94-PU-241(N,F)60-ND-145",
+                      "target": "94-PU-241",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "60-ND-145",
+                      "quantity": "CUM,FY",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "CUM,FY"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)/(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Text on p.2075 in Can.J.Chem.42,2063,1964."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Data uncertainty is standard deviation",
+                "obtained, usually, from more than 60 mass spectrograms."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20201219,
+                "history": "A"
+              },
+              "free_text": [
+                " OG. Unit in DATA-ERR corrected: NO-DIM",
+                "replaced by PER-CENT. STATUS added."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "NO-DIM",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                2.09,
+                5.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "13070009",
+            "N2": 20201218,
+            "alteration_flag": " ",
+            "transmission_identification": "1478"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "94-PU-241(N,F)MASS,CHN,FY,,MXW",
+                "code_unit": [
+                  {
+                    "unit": "94-PU-241(N,F)MASS,CHN,FY,,MXW",
+                    "field": {
+                      "reaction": "94-PU-241(N,F)MASS",
+                      "target": "94-PU-241",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "MASS",
+                      "quantity": "CHN,FY",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "CHN,FY"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Relative yields normalized to 100%"
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Assumed yields: 120 - 130 = 3.962",
+                "                139 = 6.302",
+                "                155 - 165 = 0.927"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "13070002",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "13070003",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "13070004",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "13070005",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "13070006",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "13070007",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Tab.IX (p.2074) in Can.J.Chem.42,2063,1964."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20201218,
+                "history": "A"
+              },
+              "free_text": [
+                " OG. STATUS updated."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 23,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "MASS",
+              "DATA"
+            ],
+            "unit": [
+              "NO-DIM",
+              "PC/FIS"
+            ],
+            "value": [
+              [
+                131.0,
+                3.005
+              ],
+              [
+                132.0,
+                4.47
+              ],
+              [
+                133.0,
+                6.557
+              ],
+              [
+                134.0,
+                7.806
+              ],
+              [
+                135.0,
+                7.08
+              ],
+              [
+                136.0,
+                7.038
+              ],
+              [
+                137.0,
+                6.617
+              ],
+              [
+                138.0,
+                6.826
+              ],
+              [
+                140.0,
+                5.783
+              ],
+              [
+                141.0,
+                4.844
+              ],
+              [
+                142.0,
+                4.698
+              ],
+              [
+                143.0,
+                4.436
+              ],
+              [
+                144.0,
+                4.072
+              ],
+              [
+                145.0,
+                3.16
+              ],
+              [
+                146.0,
+                2.713
+              ],
+              [
+                147.0,
+                2.326
+              ],
+              [
+                148.0,
+                1.914
+              ],
+              [
+                149.0,
+                1.55
+              ],
+              [
+                150.0,
+                1.235
+              ],
+              [
+                151.0,
+                0.959
+              ],
+              [
+                152.0,
+                0.757
+              ],
+              [
+                153.0,
+                0.559
+              ],
+              [
+                154.0,
+                0.408
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 9,
+        "N2": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,1082 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T21:08:00+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "23226",
+        "N2": 20190301,
+        "alteration_flag": " ",
+        "transmission_identification": "2277"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "23226001",
+            "N2": 20190301,
+            "alteration_flag": " ",
+            "transmission_identification": "2277"
+          },
+          "BIB": {
+            "N1": 9,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Spectrum-integrated helium generation cross sections",
+                " for 6Li and 10B in the Sigma-Sigma and fission cavity",
+                " standard neutron fields"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "B.M.Oliver",
+                "H.Farrar IV",
+                "E.P.Lippincott",
+                "A.Fabry"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "1USAAI",
+                "1USAHED",
+                "2BLGMOL"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "C,82GAITHERS,2,889,1982",
+                "code_unit": [
+                  {
+                    "unit": "C,82GAITHERS,2,889,1982",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "C",
+                      "reference": {
+                        "code": "82GAITHERS",
+                        "number": null,
+                        "volume": "2",
+                        "part": null,
+                        "issue": null,
+                        "page": "889"
+                      },
+                      "date": 1982
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": "2BLGMOL"
+              },
+              "free_text": [
+                " BR1 reactor"
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "HE-AC"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "- Neutron perturbations due to neutron self-shielding",
+                "   and flux depression, neutron flux gradients over",
+                "   the irradiation assemblies, and assembly scattering",
+                "- Subtraction of the small epithermal helium;",
+                "   contribution by placement of samples 30 cm above",
+                "   and below the central region of Cd tube not wrapped",
+                "   by U235 (for fission cavity measurements);",
+                "- Subtraction of 19F helium production for 6LiF sample",
+                "  (23 mb for fission cavity, 5 mb for Sigma-Sigma)."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " random plus systematic (1 sigma)"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20140218,
+                "history": "C"
+              },
+              "free_text": [
+                " On"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20190301,
+                "history": "A"
+              },
+              "free_text": [
+                " On. 004 and 005 added."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23226002",
+            "N2": 20190301,
+            "alteration_flag": " ",
+            "transmission_identification": "2277"
+          },
+          "BIB": {
+            "N1": 7,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "5-B-10(N,X)2-HE-4,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "5-B-10(N,X)2-HE-4,,SIG,,FIS",
+                    "field": {
+                      "reaction": "5-B-10(N,X)2-HE-4",
+                      "target": "5-B-10",
+                      "projectile": "N",
+                      "process": "X",
+                      "product": "2-HE-4",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "28-NI-58(N,P)27-CO-58,,SIG,,FIS",
+                  "code_unit": [
+                    {
+                      "unit": "28-NI-58(N,P)27-CO-58,,SIG,,FIS",
+                      "field": {
+                        "reaction": "28-NI-58(N,P)27-CO-58",
+                        "target": "28-NI-58",
+                        "projectile": "N",
+                        "process": "P",
+                        "product": "27-CO-58",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": "FIS",
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": null,
+                "author": "A.Fabry+",
+                "reference": {
+                  "code": "S,IAEA-208,233,1978",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "IAEA-",
+                      "number": "208",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "233",
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INC-SPECT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "235U fission spectrum"
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The following samples were in an Al cylindrical box",
+                " (8 mm OD, 46 mm long):",
+                " - Encapsulated enriched (93.0%) boron-10",
+                " - Bare natural (19.8%) boron crystal",
+                " - Encapsulated enriched (99.1%) 6LiF",
+                " - Bare enriched (99.1%) 6LiF crystals",
+                "Three such Al boxes were at three locations (+30 cm,",
+                " 0 cm, -30 cm) of 1 m Cd tube (10 mm OD, 8 mm ID).",
+                "The central 6.8-cm section of the Cd tube was wrapped",
+                " by 0.1-mm-thick enriched (93%) 235U foil."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 3 of Proc. 4th ASTM-EURATOM Symp. p889"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20190301,
+                "history": "U"
+              },
+              "free_text": [
+                " On. SAMPLE and INC-SPECT moved from 001"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "KT-DUMMY",
+              "DATA",
+              "DATA-ERR",
+              "MONIT"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                1.32,
+                541.0,
+                24.0,
+                108.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23226003",
+            "N2": 20190301,
+            "alteration_flag": " ",
+            "transmission_identification": "2277"
+          },
+          "BIB": {
+            "N1": 7,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "3-LI-6(N,T)2-HE-4,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "3-LI-6(N,T)2-HE-4,,SIG,,FIS",
+                    "field": {
+                      "reaction": "3-LI-6(N,T)2-HE-4",
+                      "target": "3-LI-6",
+                      "projectile": "N",
+                      "process": "T",
+                      "product": "2-HE-4",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "28-NI-58(N,P)27-CO-58,,SIG,,FIS",
+                  "code_unit": [
+                    {
+                      "unit": "28-NI-58(N,P)27-CO-58,,SIG,,FIS",
+                      "field": {
+                        "reaction": "28-NI-58(N,P)27-CO-58",
+                        "target": "28-NI-58",
+                        "projectile": "N",
+                        "process": "P",
+                        "product": "27-CO-58",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": "FIS",
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": null,
+                "author": "A.Fabry+",
+                "reference": {
+                  "code": "S,IAEA-208,233,1978",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "IAEA-",
+                      "number": "208",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "233",
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INC-SPECT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "235U fission spectrum"
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The following samples were in an Al cylindrical box",
+                " (8 mm OD, 46 mm long):",
+                " - Encapsulated enriched (93.0%) boron-10",
+                " - Bare natural (19.8%) boron crystal",
+                " - Encapsulated enriched (99.1%) 6LiF",
+                " - Bare enriched (99.1%) 6LiF crystals",
+                "Three such Al boxes were at three locations (+30 cm,",
+                " 0 cm, -30 cm) of 1 m Cd tube (10 mm OD, 8 mm ID).",
+                "The central 6.8-cm section of the Cd tube was wrapped",
+                " by 0.1-mm-thick enriched (93%) 235U foil."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 3 of Proc. 4th ASTM-EURATOM Symp. p889"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20190301,
+                "history": "U"
+              },
+              "free_text": [
+                " On. SAMPLE and INC-SPECT moved from 001"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "KT-DUMMY",
+              "DATA",
+              "DATA-ERR",
+              "MONIT"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                1.32,
+                456.0,
+                20.0,
+                108.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23226004",
+            "N2": 20190301,
+            "alteration_flag": " ",
+            "transmission_identification": "2277"
+          },
+          "BIB": {
+            "N1": 9,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "5-B-10(N,X)2-HE-4,,SIG,,SPA",
+                "code_unit": [
+                  {
+                    "unit": "5-B-10(N,X)2-HE-4,,SIG,,SPA",
+                    "field": {
+                      "reaction": "5-B-10(N,X)2-HE-4",
+                      "target": "5-B-10",
+                      "projectile": "N",
+                      "process": "X",
+                      "product": "2-HE-4",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "SPA",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "28-NI-58(N,P)27-CO-58,,SIG,,SPA",
+                  "code_unit": [
+                    {
+                      "unit": "28-NI-58(N,P)27-CO-58,,SIG,,SPA",
+                      "field": {
+                        "reaction": "28-NI-58(N,P)27-CO-58",
+                        "target": "28-NI-58",
+                        "projectile": "N",
+                        "process": "P",
+                        "product": "27-CO-58",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": "SPA",
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": null,
+                "author": "A.Fabry+",
+                "reference": {
+                  "code": "S,IAEA-208,233,1978",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "IAEA-",
+                      "number": "208",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "233",
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INC-SPECT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Sigma-Sigma neutron reference spectrum"
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": null,
+                "author": "J.Grundl+",
+                "reference": {
+                  "code": "S,IAEA-208,(1),53,1978",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "IAEA-",
+                      "number": "208",
+                      "volume": "(1)",
+                      "part": null,
+                      "issue": null,
+                      "page": "53"
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                " Table II-B",
+                " Average energy = 0.76 MeV",
+                " Median energy  =  400 keV",
+                " E(P=0.95)      =   20 keV",
+                " E(P=0.05)      =  2.9 MeV",
+                "where",
+                " Fraction of spectrum below E(P=0.95) or above",
+                "  E(P=0.05) is 5%."
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "By compiler (2019-03-01):",
+                " A neutron spectrum of the Sigma-Sigma facility is",
+                " available in the IRDF-2002 (standard spectra)."
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The following samples were irradiated together:",
+                " - Encapsulated enriched (93%) boron-10",
+                " - Bare enriched (93%) boron-10 crystal",
+                " - Bare natural boron crystal",
+                " - Encapsulated enriched (99.1%) 6LiF",
+                " - Bare enriched (99.1%) 6LiF crystals"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 3 of Proc. 4th ASTM-EURATOM Symp. p889"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20190301,
+                "history": "C"
+              },
+              "free_text": [
+                " On"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-DUMMY",
+              "DATA",
+              "DATA-ERR",
+              "MONIT"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                0.76,
+                1695.0,
+                71.0,
+                26.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23226005",
+            "N2": 20190301,
+            "alteration_flag": " ",
+            "transmission_identification": "2277"
+          },
+          "BIB": {
+            "N1": 9,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "3-LI-6(N,T)2-HE-4,,SIG,,SPA",
+                "code_unit": [
+                  {
+                    "unit": "3-LI-6(N,T)2-HE-4,,SIG,,SPA",
+                    "field": {
+                      "reaction": "3-LI-6(N,T)2-HE-4",
+                      "target": "3-LI-6",
+                      "projectile": "N",
+                      "process": "T",
+                      "product": "2-HE-4",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "SPA",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "28-NI-58(N,P)27-CO-58,,SIG,,SPA",
+                  "code_unit": [
+                    {
+                      "unit": "28-NI-58(N,P)27-CO-58,,SIG,,SPA",
+                      "field": {
+                        "reaction": "28-NI-58(N,P)27-CO-58",
+                        "target": "28-NI-58",
+                        "projectile": "N",
+                        "process": "P",
+                        "product": "27-CO-58",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": "SPA",
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": null,
+                "author": "A.Fabry+",
+                "reference": {
+                  "code": "S,IAEA-208,233,1978",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "IAEA-",
+                      "number": "208",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "233",
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INC-SPECT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Sigma-Sigma neutron reference spectrum"
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": null,
+                "author": "J.Grundl+",
+                "reference": {
+                  "code": "S,IAEA-208,(1),53,1978",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "IAEA-",
+                      "number": "208",
+                      "volume": "(1)",
+                      "part": null,
+                      "issue": null,
+                      "page": "53"
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                " Table II-B",
+                " Average energy = 0.76 MeV",
+                " Median energy  =  400 keV",
+                " E(P=0.95)      =   20 keV",
+                " E(P=0.05)      =  2.9 MeV",
+                "where",
+                " Fraction of spectrum below E(P=0.95) or above",
+                "  E(P=0.05) is 5%."
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "By compiler (2019-03-01):",
+                " A neutron spectrum of the Sigma-Sigma facility is",
+                " available in the IRDF-2002 (standard spectra)."
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The following samples were irradiated together:",
+                " - Encapsulated enriched (93%) boron-10",
+                " - Bare enriched (93%) boron-10 crystal",
+                " - Bare natural boron crystal",
+                " - Encapsulated enriched (99.1%) 6LiF",
+                " - Bare enriched (99.1%) 6LiF crystals"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 3 of Proc. 4th ASTM-EURATOM Symp. p889"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20190301,
+                "history": "C"
+              },
+              "free_text": [
+                " On"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-DUMMY",
+              "DATA",
+              "DATA-ERR",
+              "MONIT"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                0.76,
+                931.0,
+                35.0,
+                26.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 5,
+        "N2": 0
+      }
+    }
+  ]
+}

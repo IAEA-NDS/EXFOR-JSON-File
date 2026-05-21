@@ -1,0 +1,826 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-21T00:17:22+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "L0051",
+        "N2": 19970129,
+        "alteration_flag": " ",
+        "transmission_identification": "0000"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "L0051001",
+            "N2": 19970129,
+            "alteration_flag": " ",
+            "transmission_identification": "0000"
+          },
+          "BIB": {
+            "N1": 13,
+            "N2": 0
+          },
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "1USALRL"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,PR/C,22,2273,8012",
+                "code_unit": [
+                  {
+                    "unit": "J,PR/C,22,2273,8012",
+                    "doi": "10.1103/PhysRevC.22.2273",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "PR/C",
+                        "number": null,
+                        "volume": "22",
+                        "part": null,
+                        "issue": null,
+                        "page": "2273"
+                      },
+                      "date": 198012
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "B.L.BERMAN",
+                "D.D.FAUL",
+                "P.MEYER",
+                "D.L.OLSON"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Photoneutron cross sections for He4."
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "LINAC"
+                ],
+                "institute": "1USALRL"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "QMPH",
+                  "ARAD"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                " Positron annihilation in flight.",
+                "Photon energy resolution is typical for livermore",
+                " facility experiments."
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The 5.55-mole helium gas sample was contained at a",
+                " pressure of 30.61 mpa (about 300 atm)."
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "BF3"
+              ],
+              "free_text": [
+                " An efficient paraffin-and-BF3-tube neutron 4pi",
+                " detector."
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "EXTB"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "After the recorded neutron events were corrected for",
+                " pileup in the detector, the neutron backgrounds",
+                " (annihilation target removed) were substracted for",
+                " both the positron and electron measurements.",
+                "Because the energy spectrum of the annihilation-plus-",
+                " Bremsstrahlung radiation differs from that of purely",
+                " Bremsstrahlung photons, a measured correction was",
+                " applied to the ion-chamber (beam monitor) response to",
+                " normalize the electron data to the positron data.",
+                "The normalized electron data then were substracted from",
+                " the positron data, leaving the neutron counts which",
+                " result only from the annihilation radiation.",
+                "The measured sample-blank data, normalized to equal",
+                " photon flux, were substracted from the target data to",
+                " give the net target results.",
+                "After a small correction for the neutron multiplicity",
+                " in each ring, the data were corrected for the energy-",
+                " dependent efficiency of the neutron detector using the",
+                " ring-ratio result for each energy.",
+                "The data were converted to photoneutron cross sections",
+                " by applying the measured ion-chamber response per",
+                " photon, the known number of target nuclei in the beam",
+                " and a small correction for the photon attenuation in",
+                " the sample.",
+                "A multiplicity analysis of the number of neutrons",
+                " recordered in each beam burst allows the (gamma,n) and",
+                " (gamma,2n) yields to be extracted simultaneously and",
+                " independently."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistical errors only."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " There are several possible sources of",
+                " systematic errors:",
+                " - uncertainty in the photon flux calibration: no",
+                "   greater than 5% at 22 MeV, but rises to about 10%",
+                "   at 45 MeV.",
+                " - uncertainty in the neutron-detector efficiency",
+                "   >3% for neutrons of 2 MeV (E(gamma) about 23 MeV),",
+                "   rising to about 5% for E(n) = 14 MeV, and, perhaps,",
+                "   to 8% for E(n) = 18 MeV (E(gamma) about 45 MeV).",
+                " - uncertaintiy arising from the Bremsstrahlung yield",
+                "   substraction: never more than 2% of the yield, WHIC",
+                "   translates into about 10% of the cross section at",
+                "   35 MeV.",
+                " - uncertainty arising from the sample-blank yield:",
+                "   could be as much as 15% above 42 MeV.",
+                "The data points at 25.3, 26.3 MeV, and, perhaps, at",
+                " 28.3 MeV, have systematic uncertainties as large as",
+                " 15%."
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Results agree with earlier monoenergetic-photon and",
+                " certain photoneutron time-of-flight (liquid-sample)",
+                " results at the lower energies, and consequently",
+                " disagree with the results of other experiments at",
+                " these energies. At the higher energies, however, the",
+                " present results are essentially in agreement with all",
+                " previous results."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 891207,
+                "history": "C"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "DATA-ERR2"
+            ],
+            "unit": [
+              "PER-CENT"
+            ],
+            "value": [
+              15.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "L0051002",
+            "N2": 19970129,
+            "alteration_flag": " ",
+            "transmission_identification": "0000"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(2-HE-4(G,N)2-HE-3,,SIG)+(2-HE-4(G,N+P)1-H-2,,SIG)",
+                "code_unit": [
+                  {
+                    "unit": "2-HE-4(G,N)2-HE-3,,SIG",
+                    "field": {
+                      "reaction": "2-HE-4(G,N)2-HE-3",
+                      "target": "2-HE-4",
+                      "projectile": "G",
+                      "process": "N",
+                      "product": "2-HE-3",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  },
+                  {
+                    "unit": "2-HE-4(G,N+P)1-H-2,,SIG",
+                    "field": {
+                      "reaction": "2-HE-4(G,N+P)1-H-2",
+                      "target": "2-HE-4",
+                      "projectile": "G",
+                      "process": "N+P",
+                      "product": "1-H-2",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)+(%))"
+              },
+              "free_text": [
+                "",
+                "Threshold of the reaction (gamma,n+p) is 26.1 MeV."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Converted from Berman compilation."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 19,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "DATA-ERR1"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                18.305,
+                0.02,
+                0.05
+              ],
+              [
+                20.304,
+                0.08,
+                0.05
+              ],
+              [
+                21.291,
+                0.29,
+                0.05
+              ],
+              [
+                22.303,
+                0.55,
+                0.05
+              ],
+              [
+                23.291,
+                0.82,
+                0.07
+              ],
+              [
+                24.302,
+                1.09,
+                0.06
+              ],
+              [
+                25.29,
+                1.09,
+                0.06
+              ],
+              [
+                26.301,
+                1.0,
+                0.07
+              ],
+              [
+                28.301,
+                1.05,
+                0.07
+              ],
+              [
+                29.288,
+                0.88,
+                0.09
+              ],
+              [
+                30.3,
+                1.02,
+                0.1
+              ],
+              [
+                31.312,
+                1.06,
+                0.11
+              ],
+              [
+                32.299,
+                0.98,
+                0.11
+              ],
+              [
+                33.311,
+                1.2,
+                0.11
+              ],
+              [
+                35.31,
+                1.07,
+                0.15
+              ],
+              [
+                38.296,
+                0.78,
+                0.2
+              ],
+              [
+                41.307,
+                0.86,
+                0.23
+              ],
+              [
+                44.293,
+                0.77,
+                0.26
+              ],
+              [
+                47.304,
+                0.62,
+                0.29
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "L0051003",
+            "N2": 19970129,
+            "alteration_flag": " ",
+            "transmission_identification": "0000"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(2-HE-4(G,N)2-HE-3,,INT)+(2-HE-4(G,N+P)1-H-2,,INT)",
+                "code_unit": [
+                  {
+                    "unit": "2-HE-4(G,N)2-HE-3,,INT",
+                    "field": {
+                      "reaction": "2-HE-4(G,N)2-HE-3",
+                      "target": "2-HE-4",
+                      "projectile": "G",
+                      "process": "N",
+                      "product": "2-HE-3",
+                      "quantity": ",INT",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",INT"
+                    }
+                  },
+                  {
+                    "unit": "2-HE-4(G,N+P)1-H-2,,INT",
+                    "field": {
+                      "reaction": "2-HE-4(G,N+P)1-H-2",
+                      "target": "2-HE-4",
+                      "projectile": "G",
+                      "process": "N+P",
+                      "product": "1-H-2",
+                      "quantity": ",INT",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",INT"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)+(%))"
+              },
+              "free_text": [
+                "",
+                "Threshold of the reaction (gamma,n+p) is 26.1 MeV."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "L0051002",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Data taken from text in article"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 2,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-MIN",
+              "EN-MAX",
+              "DATA",
+              "DATA-ERR1"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB*MEV",
+              "MB*MEV"
+            ],
+            "value": [
+              [
+                20.6,
+                31.4,
+                9.0,
+                1.0
+              ],
+              [
+                20.6,
+                47.3,
+                23.1,
+                1.6
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "L0051004",
+            "N2": 19970129,
+            "alteration_flag": " ",
+            "transmission_identification": "0000"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(8-O-16(G,N)8-O-15,,SIG)+(8-O-16(G,N+P)7-N-14,,SIG)",
+                "code_unit": [
+                  {
+                    "unit": "8-O-16(G,N)8-O-15,,SIG",
+                    "field": {
+                      "reaction": "8-O-16(G,N)8-O-15",
+                      "target": "8-O-16",
+                      "projectile": "G",
+                      "process": "N",
+                      "product": "8-O-15",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  },
+                  {
+                    "unit": "8-O-16(G,N+P)7-N-14,,SIG",
+                    "field": {
+                      "reaction": "8-O-16(G,N+P)7-N-14",
+                      "target": "8-O-16",
+                      "projectile": "G",
+                      "process": "N+P",
+                      "product": "7-N-14",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)+(%))"
+              },
+              "free_text": [
+                "",
+                "Threshold of the reaction (gamma,n+p) is 23 MeV."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Data read from curve in article"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 21,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "DATA-ERR1"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                15.3,
+                0.05,
+                0.05
+              ],
+              [
+                17.0,
+                0.6,
+                0.1
+              ],
+              [
+                17.1,
+                1.1,
+                0.1
+              ],
+              [
+                17.2,
+                1.6,
+                0.1
+              ],
+              [
+                17.3,
+                1.7,
+                0.1
+              ],
+              [
+                17.4,
+                1.5,
+                0.1
+              ],
+              [
+                17.5,
+                1.0,
+                0.05
+              ],
+              [
+                17.6,
+                0.95,
+                0.05
+              ],
+              [
+                17.7,
+                0.9,
+                0.1
+              ],
+              [
+                21.9,
+                7.1,
+                0.1
+              ],
+              [
+                22.1,
+                8.05,
+                0.05
+              ],
+              [
+                22.3,
+                8.3,
+                0.1
+              ],
+              [
+                22.5,
+                7.4,
+                0.15
+              ],
+              [
+                22.7,
+                5.3,
+                0.15
+              ],
+              [
+                24.0,
+                7.05,
+                0.15
+              ],
+              [
+                24.1,
+                8.0,
+                0.1
+              ],
+              [
+                24.3,
+                7.15,
+                0.15
+              ],
+              [
+                24.5,
+                6.2,
+                0.1
+              ],
+              [
+                24.7,
+                6.0,
+                0.1
+              ],
+              [
+                27.3,
+                3.8,
+                0.1
+              ],
+              [
+                28.9,
+                2.3,
+                0.1
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 4,
+        "N2": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,1227 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T21:42:47+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "31828",
+        "N2": 20200911,
+        "alteration_flag": " ",
+        "transmission_identification": "3197"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "31828001",
+            "N2": 20200911,
+            "alteration_flag": " ",
+            "transmission_identification": "3197"
+          },
+          "BIB": {
+            "N1": 15,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Constraining high energy tail of 235U(nth,f) prompt",
+                " fission neutron spectrum"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "M.Schulc",
+                "M.Kostal",
+                "J.Simon",
+                "F.Brijar",
+                "T.Czakoj",
+                "J.P.Maly"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "3CZRUJV"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,ARI,166,109313,2020",
+                "code_unit": [
+                  {
+                    "unit": "J,ARI,166,109313,2020",
+                    "doi": "10.1016/j.apradiso.2020.109313",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "ARI",
+                        "number": null,
+                        "volume": "166",
+                        "part": null,
+                        "issue": null,
+                        "page": "109313"
+                      },
+                      "date": 2020
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": "3CZRUJV"
+              },
+              "free_text": [
+                " LVR-15 light water research reactor"
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "REAC"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                " Channel H6 with constant power around 8.5 MW"
+              ]
+            }
+          ],
+          "INC-SPECT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Mixture of 235U(91.85%), 239Pu(8.02%) and 238U(0.13%)",
+                " prompt fission neutrons"
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Foils wrapped into an Al cover and placed in an Al",
+                " capsule"
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "HPGE"
+              ],
+              "free_text": [
+                " ORTEC GEM35P4. The detector efficiency was",
+                " calculated via a well-defined MCNP6 model."
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "28-NI-58(N,P)27-CO-58,,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "28-NI-58(N,P)27-CO-58,,SIG",
+                      "field": {
+                        "reaction": "28-NI-58(N,P)27-CO-58",
+                        "target": "28-NI-58",
+                        "projectile": "N",
+                        "process": "P",
+                        "product": "27-CO-58",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-MON": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "nuclide": "27-CO-58-G",
+                "half-life": {
+                  "value": 70.86,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      810.759
+                    ],
+                    "intensity": 0.9945
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      863.951
+                    ],
+                    "intensity": 0.00686
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1674.725
+                    ],
+                    "intensity": 0.00517
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for 239Pu(n,f) prompt fission neutron",
+                " contribution by using the IRDFF-II cross section and",
+                " JEFF-3.3 or ENDF/B-VIII.0 the prompt fission neutron",
+                " spectrum."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total uncertianty originated mainly from",
+                "                239Pu prompt fission neutron spectrum,"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": 1.0,
+                "maximum_value": 7.1,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Count rates                 (1.0-7.1%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                "         Detector efficiency calibration (1.9%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                "         Fule composition                (2.0%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "APRVD"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Proof-read by Martin Schulc (2020-09-14)"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20200911,
+                "history": "C"
+              },
+              "free_text": [
+                " On"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 2,
+            "N2": 0,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "ERR-2",
+              "ERR-3"
+            ],
+            "unit": [
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              1.9,
+              2.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31828002",
+            "N2": 20200911,
+            "alteration_flag": " ",
+            "transmission_identification": "3197"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "code": "79-AU-197(N,2N)79-AU-196,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "79-AU-197(N,2N)79-AU-196,,SIG,,FIS",
+                    "field": {
+                      "reaction": "79-AU-197(N,2N)79-AU-196",
+                      "target": "79-AU-197",
+                      "projectile": "N",
+                      "process": "2N",
+                      "product": "79-AU-196",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " 239Pu(n,f) neutron correction with JEFF-3.3 PFNS"
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "code": "79-AU-197(N,2N)79-AU-196,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "79-AU-197(N,2N)79-AU-196,,SIG,,FIS",
+                    "field": {
+                      "reaction": "79-AU-197(N,2N)79-AU-196",
+                      "target": "79-AU-197",
+                      "projectile": "N",
+                      "process": "2N",
+                      "product": "79-AU-196",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " 239Pu(n,f) neutron correction with ENDF-B/VIII.0 PFNS"
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "79-AU-196-G",
+                "half-life": {
+                  "value": 6.183,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      355.73
+                    ],
+                    "intensity": 0.87
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "ACTIV"
+              ],
+              "free_text": [
+                " tirr=36 h 1 min, tcool=88.29 d, tmeas= 7.2 h"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Tables 3+4 of Appl.Radiat.Isot.166(2020)109313"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 5,
+            "N2": 1,
+            "pointer": [
+              "",
+              "1",
+              "1",
+              "2",
+              "2"
+            ],
+            "heading": [
+              "KT-DUMMY",
+              "DATA",
+              "ERR-T",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "PER-CENT",
+              "MB",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                1.32,
+                3.19,
+                5.8,
+                3.19,
+                5.8
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31828003",
+            "N2": 20200911,
+            "alteration_flag": " ",
+            "transmission_identification": "3197"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "code": "25-MN-55(N,2N)25-MN-54,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "25-MN-55(N,2N)25-MN-54,,SIG,,FIS",
+                    "field": {
+                      "reaction": "25-MN-55(N,2N)25-MN-54",
+                      "target": "25-MN-55",
+                      "projectile": "N",
+                      "process": "2N",
+                      "product": "25-MN-54",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " 239Pu(n,f) neutron correction with JEFF-3.3 PFNS"
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "code": "25-MN-55(N,2N)25-MN-54,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "25-MN-55(N,2N)25-MN-54,,SIG,,FIS",
+                    "field": {
+                      "reaction": "25-MN-55(N,2N)25-MN-54",
+                      "target": "25-MN-55",
+                      "projectile": "N",
+                      "process": "2N",
+                      "product": "25-MN-54",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " 239Pu(n,f) neutron correction with ENDF-B/VIII.0 PFNS"
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "25-MN-54",
+                "half-life": {
+                  "value": 312.3,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      834.8
+                    ],
+                    "intensity": 0.99976
+                  }
+                ]
+              },
+              "free_text": [
+                ")"
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "ACTIV"
+              ],
+              "free_text": [
+                " tirr=36 h 1 min, tcool=86.20 d, tmeas= 5.53 min"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Tables 3+4 of Appl.Radiat.Isot.166(2020)109313"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 5,
+            "N2": 1,
+            "pointer": [
+              "",
+              "1",
+              "1",
+              "2",
+              "2"
+            ],
+            "heading": [
+              "KT-DUMMY",
+              "DATA",
+              "ERR-T",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "PER-CENT",
+              "MB",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                1.32,
+                0.245,
+                3.8,
+                0.249,
+                3.8
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31828004",
+            "N2": 20200911,
+            "alteration_flag": " ",
+            "transmission_identification": "3197"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "code": "83-BI-209(N,3N)83-BI-207,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "83-BI-209(N,3N)83-BI-207,,SIG,,FIS",
+                    "field": {
+                      "reaction": "83-BI-209(N,3N)83-BI-207",
+                      "target": "83-BI-209",
+                      "projectile": "N",
+                      "process": "3N",
+                      "product": "83-BI-207",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " 239Pu(n,f) neutron correction with JEFF-3.3 PFNS"
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "code": "83-BI-209(N,3N)83-BI-207,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "83-BI-209(N,3N)83-BI-207,,SIG,,FIS",
+                    "field": {
+                      "reaction": "83-BI-209(N,3N)83-BI-207",
+                      "target": "83-BI-209",
+                      "projectile": "N",
+                      "process": "3N",
+                      "product": "83-BI-207",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " 239Pu(n,f) neutron correction with ENDF-B/VIII.0 PFNS"
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "83-BI-207",
+                "half-life": {
+                  "value": 31.55,
+                  "unit": "YR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      569.702
+                    ],
+                    "intensity": 0.9775
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1063.656
+                    ],
+                    "intensity": 0.745
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "ACTIV"
+              ],
+              "free_text": [
+                " tirr=36 h 1 min, tcool=88.06 d, tmeas= 1.58 h"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Tables 3+4 of Appl.Radiat.Isot.166(2020)109313"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 5,
+            "N2": 1,
+            "pointer": [
+              "",
+              "1",
+              "1",
+              "2",
+              "2"
+            ],
+            "heading": [
+              "KT-DUMMY",
+              "DATA",
+              "ERR-T",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "PER-CENT",
+              "MB",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                1.32,
+                0.00834,
+                5.8,
+                0.00871,
+                5.8
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31828005",
+            "N2": 20200911,
+            "alteration_flag": " ",
+            "transmission_identification": "3197"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "code": "83-BI-209(N,4N)83-BI-206,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "83-BI-209(N,4N)83-BI-206,,SIG,,FIS",
+                    "field": {
+                      "reaction": "83-BI-209(N,4N)83-BI-206",
+                      "target": "83-BI-209",
+                      "projectile": "N",
+                      "process": "4N",
+                      "product": "83-BI-206",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " 239Pu(n,f) neutron correction with JEFF-3.3 PFNS"
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "code": "83-BI-209(N,4N)83-BI-206,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "83-BI-209(N,4N)83-BI-206,,SIG,,FIS",
+                    "field": {
+                      "reaction": "83-BI-209(N,4N)83-BI-206",
+                      "target": "83-BI-209",
+                      "projectile": "N",
+                      "process": "4N",
+                      "product": "83-BI-206",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " 239Pu(n,f) neutron correction with ENDF-B/VIII.0 PFNS"
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "83-BI-206",
+                "half-life": {
+                  "value": 6.243,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1718.7
+                    ],
+                    "intensity": 0.319
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "ACTIV"
+              ],
+              "free_text": [
+                " tirr=36 h 1 min, tcool=5.94 d, tmeas= 6.24 d"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Tables 3+4 of Appl.Radiat.Isot.166(2020)109313"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 5,
+            "N2": 1,
+            "pointer": [
+              "",
+              "1",
+              "1",
+              "2",
+              "2"
+            ],
+            "heading": [
+              "KT-DUMMY",
+              "DATA",
+              "ERR-T",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "PER-CENT",
+              "MB",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                1.32,
+                6.5e-06,
+                9.1,
+                7.52e-06,
+                9.1
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31828006",
+            "N2": 20200911,
+            "alteration_flag": " ",
+            "transmission_identification": "3197"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "code": "79-AU-197(N,3N)79-AU-195,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "79-AU-197(N,3N)79-AU-195,,SIG,,FIS",
+                    "field": {
+                      "reaction": "79-AU-197(N,3N)79-AU-195",
+                      "target": "79-AU-197",
+                      "projectile": "N",
+                      "process": "3N",
+                      "product": "79-AU-195",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " 239Pu(n,f) neutron correction with JEFF-3.3 PFNS"
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "code": "79-AU-197(N,3N)79-AU-195,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "79-AU-197(N,3N)79-AU-195,,SIG,,FIS",
+                    "field": {
+                      "reaction": "79-AU-197(N,3N)79-AU-195",
+                      "target": "79-AU-197",
+                      "projectile": "N",
+                      "process": "3N",
+                      "product": "79-AU-195",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " 239Pu(n,f) neutron correction with ENDF-B/VIII.0 PFNS"
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "79-AU-195-G",
+                "half-life": {
+                  "value": 186.01,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      98.857
+                    ],
+                    "intensity": 0.1121
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "ACTIV"
+              ],
+              "free_text": [
+                " tirr=36 h 1 min, tcool=208.02 d, tmeas= 10.94 d"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 5 of Appl.Radiat.Isot.166(2020)109313"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 5,
+            "N2": 1,
+            "pointer": [
+              "",
+              "1",
+              "1",
+              "2",
+              "2"
+            ],
+            "heading": [
+              "KT-DUMMY",
+              "DATA",
+              "ERR-T",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "PER-CENT",
+              "MB",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                1.32,
+                0.0088,
+                6.7,
+                0.0091,
+                6.7
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 6,
+        "N2": 0
+      }
+    }
+  ]
+}

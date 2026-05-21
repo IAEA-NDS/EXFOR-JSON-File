@@ -1,0 +1,795 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T19:49:53+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "13654",
+        "N2": 20120714,
+        "alteration_flag": " ",
+        "transmission_identification": "1384"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "13654001",
+            "N2": 20120714,
+            "alteration_flag": " ",
+            "transmission_identification": "1384"
+          },
+          "BIB": {
+            "N1": 10,
+            "N2": 0
+          },
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "1USAANL"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,PR,131,1203,196308",
+                "code_unit": [
+                  {
+                    "unit": "J,PR,131,1203,196308",
+                    "doi": "10.1103/PhysRev.131.1203",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "PR",
+                        "number": null,
+                        "volume": "131",
+                        "part": null,
+                        "issue": null,
+                        "page": "1203"
+                      },
+                      "date": 196308
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "A.M.Friedman",
+                "J.W.Meadows",
+                "A.B.Smith",
+                "P.R.Fields",
+                "J.Milsted",
+                "J.F.Whalen"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Fission fragment kinetic energies of Cf-246, Cf-248,",
+                " and Cf-254"
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "SI"
+              ],
+              "free_text": [
+                " Silicon diffuse junction detectors."
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "98-CF-252(0,F),,AKE,HF",
+                  "code_unit": [
+                    {
+                      "unit": "98-CF-252(0,F),,AKE,HF",
+                      "field": {
+                        "reaction": "98-CF-252(0,F)",
+                        "target": "98-CF-252",
+                        "projectile": "0",
+                        "process": "F",
+                        "product": "",
+                        "quantity": ",AKE,HF",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",AKE,*"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "98-CF-252(0,F),,AKE,LF",
+                  "code_unit": [
+                    {
+                      "unit": "98-CF-252(0,F),,AKE,LF",
+                      "field": {
+                        "reaction": "98-CF-252(0,F)",
+                        "target": "98-CF-252",
+                        "projectile": "0",
+                        "process": "F",
+                        "product": "",
+                        "quantity": ",AKE,LF",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",AKE,*"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Not corrected for kinetic energy carried off by",
+                " neutrons (unknown)."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Source of uncertainty not given."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Data taken from Table 1 in J,PR,131,1203,1963"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19970627,
+                "history": "C"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20120711,
+                "history": "A"
+              },
+              "free_text": [
+                " SD:Updated to new date formats.",
+                "SF7 were swapped between REACTIONs 1,2 in Subents 2-4.",
+                "SF5=SEC was added in all REACTION codes in Subents 2-4"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 4,
+            "N2": 0,
+            "pointer": [
+              "1",
+              "1",
+              "2",
+              "2"
+            ],
+            "heading": [
+              "MONIT",
+              "MONIT-ERR",
+              "MONIT",
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MEV",
+              "MEV"
+            ],
+            "value": [
+              79.8,
+              1.0,
+              104.7,
+              1.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "13654002",
+            "N2": 20120714,
+            "alteration_flag": " ",
+            "transmission_identification": "1384"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "code": "98-CF-246(0,F),SEC,AKE,HF",
+                "code_unit": [
+                  {
+                    "unit": "98-CF-246(0,F),SEC,AKE,HF",
+                    "field": {
+                      "reaction": "98-CF-246(0,F)",
+                      "target": "98-CF-246",
+                      "projectile": "0",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "SEC,AKE,HF",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "SEC,AKE,*F"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "code": "98-CF-246(0,F),SEC,AKE,LF",
+                "code_unit": [
+                  {
+                    "unit": "98-CF-246(0,F),SEC,AKE,LF",
+                    "field": {
+                      "reaction": "98-CF-246(0,F)",
+                      "target": "98-CF-246",
+                      "projectile": "0",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "SEC,AKE,LF",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "SEC,AKE,*F"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "3",
+              "coded_information": {
+                "code": "98-CF-246(0,F),SEC,AKE,LF+HF",
+                "code_unit": [
+                  {
+                    "unit": "98-CF-246(0,F),SEC,AKE,LF+HF",
+                    "field": {
+                      "reaction": "98-CF-246(0,F)",
+                      "target": "98-CF-246",
+                      "projectile": "0",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "SEC,AKE,LF+HF",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "SEC,AKE,LF+HF"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Prepared by irradiating curium containing 98% 244Cm",
+                " and 2% 246Cm with 41-MeV helium ions.  The californium",
+                " was isolated from the curium by a series of ionic",
+                " exchange columns.  Californium oxide volatilized onto",
+                " a quartz plate in a vacuum evaporator.",
+                "Initially 99.5% of the spontaneous fission events were",
+                " due to 246Cm."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20120711,
+                "history": "A"
+              },
+              "free_text": [
+                " SD:SF7 was swapped between REACTIONs 1,2.",
+                "            SF5=SEC was added in all REACTION codes"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 1,
+            "pointer": [
+              "1",
+              "1",
+              "2",
+              "2",
+              "3",
+              "3"
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR",
+              "DATA",
+              "DATA-ERR",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MEV",
+              "MEV",
+              "MEV",
+              "MEV"
+            ],
+            "value": [
+              [
+                84.8,
+                1.3,
+                110.8,
+                1.5,
+                195.6,
+                2.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "13654003",
+            "N2": 20120714,
+            "alteration_flag": " ",
+            "transmission_identification": "1384"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "code": "98-CF-248(0,F),SEC,AKE,HF",
+                "code_unit": [
+                  {
+                    "unit": "98-CF-248(0,F),SEC,AKE,HF",
+                    "field": {
+                      "reaction": "98-CF-248(0,F)",
+                      "target": "98-CF-248",
+                      "projectile": "0",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "SEC,AKE,HF",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "SEC,AKE,*F"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "code": "98-CF-248(0,F),SEC,AKE,LF",
+                "code_unit": [
+                  {
+                    "unit": "98-CF-248(0,F),SEC,AKE,LF",
+                    "field": {
+                      "reaction": "98-CF-248(0,F)",
+                      "target": "98-CF-248",
+                      "projectile": "0",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "SEC,AKE,LF",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "SEC,AKE,*F"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "3",
+              "coded_information": {
+                "code": "98-CF-248(0,F),SEC,AKE,LF+HF",
+                "code_unit": [
+                  {
+                    "unit": "98-CF-248(0,F),SEC,AKE,LF+HF",
+                    "field": {
+                      "reaction": "98-CF-248(0,F)",
+                      "target": "98-CF-248",
+                      "projectile": "0",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "SEC,AKE,LF+HF",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "SEC,AKE,LF+HF"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Prepared by irradiating curium containing 98% 244Cm",
+                " and 2% 246Cm with 41-MeV helium ions.  The californium",
+                " was isolated from the curium by a series of ionic",
+                " exchange columns.  Californium oxide volatilized onto",
+                " a quartz plate in a vacuum evaporator.",
+                "After about 30 days essentially all spontaneous fission",
+                " were due to 248Cm."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20120711,
+                "history": "A"
+              },
+              "free_text": [
+                " SD:SF7 was swapped between REACTIONs 1,2.",
+                "            SF5=SEC was added in all REACTION codes"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 1,
+            "pointer": [
+              "1",
+              "1",
+              "2",
+              "2",
+              "3",
+              "3"
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR",
+              "DATA",
+              "DATA-ERR",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MEV",
+              "MEV",
+              "MEV",
+              "MEV"
+            ],
+            "value": [
+              [
+                81.6,
+                0.9,
+                107.1,
+                0.8,
+                188.7,
+                1.3
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "13654004",
+            "N2": 20120714,
+            "alteration_flag": " ",
+            "transmission_identification": "1384"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "code": "98-CF-254(0,F),SEC,AKE,HF",
+                "code_unit": [
+                  {
+                    "unit": "98-CF-254(0,F),SEC,AKE,HF",
+                    "field": {
+                      "reaction": "98-CF-254(0,F)",
+                      "target": "98-CF-254",
+                      "projectile": "0",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "SEC,AKE,HF",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "SEC,AKE,*F"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "code": "98-CF-254(0,F),SEC,AKE,LF",
+                "code_unit": [
+                  {
+                    "unit": "98-CF-254(0,F),SEC,AKE,LF",
+                    "field": {
+                      "reaction": "98-CF-254(0,F)",
+                      "target": "98-CF-254",
+                      "projectile": "0",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "SEC,AKE,LF",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "SEC,AKE,*F"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "3",
+              "coded_information": {
+                "code": "98-CF-254(0,F),SEC,AKE,LF+HF",
+                "code_unit": [
+                  {
+                    "unit": "98-CF-254(0,F),SEC,AKE,LF+HF",
+                    "field": {
+                      "reaction": "98-CF-254(0,F)",
+                      "target": "98-CF-254",
+                      "projectile": "0",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "SEC,AKE,LF+HF",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "SEC,AKE,LF+HF"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Produced from electron-capture decay of 254Es sample.",
+                " Californium separated in Argonne isotope separator.",
+                " 250Cf contaminant made a negligible contribution to",
+                " the total fissions.",
+                "Separated 254Cf collected on aluminium.  Sample",
+                " contained 1 spontaneous fission per minute."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20120711,
+                "history": "A"
+              },
+              "free_text": [
+                " SD:SF7 was swapped between REACTIONs 1,2.",
+                "            SF5=SEC was added in all REACTION codes"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 1,
+            "pointer": [
+              "1",
+              "1",
+              "2",
+              "2",
+              "3",
+              "3"
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR",
+              "DATA",
+              "DATA-ERR",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MEV",
+              "MEV",
+              "MEV",
+              "MEV"
+            ],
+            "value": [
+              [
+                83.0,
+                2.0,
+                103.1,
+                2.0,
+                186.1,
+                2.8
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 4,
+        "N2": 0
+      }
+    }
+  ]
+}

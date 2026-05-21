@@ -1,0 +1,1354 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T21:58:15+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "40980",
+        "N2": 20230303,
+        "alteration_flag": " ",
+        "transmission_identification": "4212"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "40980001",
+            "N2": 20230303,
+            "alteration_flag": " ",
+            "transmission_identification": "4212"
+          },
+          "BIB": {
+            "N1": 10,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Study of the neutron-tritium interaction in the",
+                "medium neutron energy range"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "A.L.Kirilyuk",
+                "A.V.Grebnev",
+                "P.N.Vorona",
+                "N.L.Gnidak"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "C,87KIEV,2,298,1987",
+                "code_unit": [
+                  {
+                    "unit": "C,87KIEV,2,298,1987",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "C",
+                      "reference": {
+                        "code": "87KIEV",
+                        "number": null,
+                        "volume": "2",
+                        "part": null,
+                        "issue": null,
+                        "page": "298"
+                      },
+                      "date": 1987
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                " Data are given"
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "4UKRIJD"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "6-C-12(N,TOT),,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "6-C-12(N,TOT),,SIG",
+                      "field": {
+                        "reaction": "6-C-12(N,TOT)",
+                        "target": "6-C-12",
+                        "projectile": "N",
+                        "process": "TOT",
+                        "product": "",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": "4UKRIJD"
+              },
+              "free_text": [
+                " Reactor WWR-M"
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "FNB"
+              ],
+              "free_text": [
+                " Filters",
+                "- Sc (2keV): 85 cm Sc + 6cm Al + 3cm Co + 0.6cm V +",
+                "0.2cm Ti + 0.2 g/cm2 B(4)C.",
+                "- Si (145keV) : 156cm Si + 0.2 g/cm2 B(4)C ."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "TOF",
+                "TRN"
+              ],
+              "free_text": [
+                " Resolution 0.9 microsec/m, 500 time channels,",
+                "energy range 0.024 - 60 eV."
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "PROPC"
+              ],
+              "free_text": [
+                " Proportional counters filled with He-3",
+                "        and methane"
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Background ~7% st 2 keV, 0.7% at 145 keV ."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19890829,
+                "history": "C"
+              },
+              "free_text": [
+                " Compiled at the centre - CJD"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20130125,
+                "history": "A"
+              },
+              "free_text": [
+                " M.M. Upper -> lower case correction.",
+                " Dates were corrected for 4-digits year.",
+                " BIB information was updated.",
+                "  SIG,,RAW -> TRN (transmission).",
+                " Subents 009, 010 were added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20180129,
+                "history": "A"
+              },
+              "free_text": [
+                " M.M. Thickness was added in COMMON block of",
+                "Subents 009,010 . BIB information was added in METHOD,",
+                "CORRECTION."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20230303,
+                "history": "A"
+              },
+              "free_text": [
+                " Subent 010 was corrected.",
+                " Minor correction in all Subents.",
+                " ERR-ANALYS was corrected.",
+                " Subents were merged according to recommendation of",
+                " N.Otsuka (NDS,IAEA):",
+                " 003,005 in 003, 006-007,009-010 in 006."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40980002",
+            "N2": 20230303,
+            "alteration_flag": " ",
+            "transmission_identification": "4212"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "6-C-12(N,TOT),,SIG",
+                "code_unit": [
+                  {
+                    "unit": "6-C-12(N,TOT),,SIG",
+                    "field": {
+                      "reaction": "6-C-12(N,TOT)",
+                      "target": "6-C-12",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "A",
+                "subentry_number": "40729002",
+                "author": "V.P.Vertebnyj+",
+                "reference": {
+                  "code": "J,YK,,(1/36),32,1980",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "YK",
+                      "number": null,
+                      "volume": "",
+                      "part": null,
+                      "issue": "1/36",
+                      "page": "32"
+                    },
+                    "date": 1980
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Authors' other measurement."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total error"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Text, page 300 of C,87KIEV,2,298,1987 ."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20180129,
+                "history": "A"
+              },
+              "free_text": [
+                " M.M. REL-REF was added."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "KEV",
+              "B",
+              "B"
+            ],
+            "value": [
+              [
+                2.0,
+                4.737,
+                0.008
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40980003",
+            "N2": 20230303,
+            "alteration_flag": " ",
+            "transmission_identification": "4212"
+          },
+          "BIB": {
+            "N1": 6,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "code": "1-H-1(N,TOT),,TRN",
+                "code_unit": [
+                  {
+                    "unit": "1-H-1(N,TOT),,TRN",
+                    "field": {
+                      "reaction": "1-H-1(N,TOT)",
+                      "target": "1-H-1",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",TRN",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",TRN"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "code": "1-H-1(N,TOT),,SIG",
+                "code_unit": [
+                  {
+                    "unit": "1-H-1(N,TOT),,SIG",
+                    "field": {
+                      "reaction": "1-H-1(N,TOT)",
+                      "target": "1-H-1",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Hydrogen-saturated scandium .",
+                " H-1 content is not given ."
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Of compiler M.M. EN-RSL-FW=0.65 keV at 2 keV is absent",
+                "in C,87KIEV,2,298,1987. May be, it's received from",
+                "authors."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total error"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 1 of C,87KIEV,2,298,1987 ."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20230303,
+                "history": "A"
+              },
+              "free_text": [
+                " Subents 003, 005 were merged."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 7,
+            "pointer": [
+              "",
+              "1",
+              "1",
+              "1",
+              "2",
+              "2"
+            ],
+            "heading": [
+              "EN",
+              "THICKNESS",
+              "DATA",
+              "DATA-ERR",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "KEV",
+              "ATOMS/B",
+              "NO-DIM",
+              "NO-DIM",
+              "B",
+              "B"
+            ],
+            "value": [
+              [
+                2.0,
+                0.0065068,
+                0.8751,
+                0.00046,
+                20.441,
+                0.082
+              ],
+              [
+                2.0,
+                0.013883,
+                0.7545,
+                0.00046,
+                20.233,
+                0.04
+              ],
+              [
+                2.0,
+                0.013884,
+                0.75265,
+                0.00072,
+                20.333,
+                0.071
+              ],
+              [
+                2.0,
+                0.056831,
+                0.3177,
+                0.00043,
+                20.121,
+                0.024
+              ],
+              [
+                145.0,
+                0.0065068,
+                0.92822,
+                0.00056,
+                11.189,
+                0.091
+              ],
+              [
+                145.0,
+                0.013883,
+                0.85102,
+                0.00098,
+                11.074,
+                0.079
+              ],
+              [
+                145.0,
+                0.056831,
+                0.52622,
+                0.00061,
+                11.083,
+                0.02
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40980004",
+            "N2": 20230303,
+            "alteration_flag": " ",
+            "transmission_identification": "4212"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "1-H-1(N,TOT),,SIG,,AV",
+                "code_unit": [
+                  {
+                    "unit": "1-H-1(N,TOT),,SIG,,AV",
+                    "field": {
+                      "reaction": "1-H-1(N,TOT)",
+                      "target": "1-H-1",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "AV",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Data were obtained by statistical averaging of several",
+                " runs."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total error"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "40980003",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Thickness-dependent C-S"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Text, page 300 of C,87KIEV,2,298,1987 ."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20230303,
+                "history": "A"
+              },
+              "free_text": [
+                " AV was added in SF8"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 2,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "KEV",
+              "B",
+              "B"
+            ],
+            "value": [
+              [
+                2.0,
+                20.18,
+                0.02
+              ],
+              [
+                145.0,
+                11.09,
+                0.02
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "NOSUBENT": {
+            "N1": "40980005",
+            "N2": 20230303,
+            "transmission_identification": "4212"
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40980006",
+            "N2": 20230303,
+            "alteration_flag": " ",
+            "transmission_identification": "4212"
+          },
+          "BIB": {
+            "N1": 7,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "code": "1-H-3(N,TOT),,TRN",
+                "code_unit": [
+                  {
+                    "unit": "1-H-3(N,TOT),,TRN",
+                    "field": {
+                      "reaction": "1-H-3(N,TOT)",
+                      "target": "1-H-3",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",TRN",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",TRN"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "code": "1-H-3(N,TOT),,SIG",
+                "code_unit": [
+                  {
+                    "unit": "1-H-3(N,TOT),,SIG",
+                    "field": {
+                      "reaction": "1-H-3(N,TOT)",
+                      "target": "1-H-3",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Tritium-saturated scandium to the level of",
+                " saturation 1.656 .",
+                " Sample 1 : thickness 15 mm - (0.024025+-0.00016) 1/b,",
+                " Sample 2 : thickness 15 mm - (0.038606+-0.00026) 1/b,",
+                " Sample 4 : thickness 5 mm - (0.013147+-0.00009) 1/b."
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Of compiler M.M. Thickness of several samples used was",
+                "calculated as sum of thicknesses for corresponding",
+                "samples 1, 2, 4 ( see Flag 12, 14, 124)."
+              ]
+            }
+          ],
+          "FLAG": [
+            {
+              "pointer": "",
+              "coded_information": [
+                4.0
+              ],
+              "free_text": [
+                "  Sample 4"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                1.0
+              ],
+              "free_text": [
+                "  Sample 1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                2.0
+              ],
+              "free_text": [
+                "  Sample 2"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                12.0
+              ],
+              "free_text": [
+                " Sample 1 + Sample 2"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                14.0
+              ],
+              "free_text": [
+                " Sample 1 + Sample 4"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                124.0
+              ],
+              "free_text": [
+                " Sample 1 + Sample 2 + Sample 4"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total error"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistical error"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 2 of C,87KIEV,2,298,1987 .",
+                " Thickness values - in text, page 300."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20230303,
+                "history": "A"
+              },
+              "free_text": [
+                " Subents were merged :",
+                "           006-007,009-010 in 006."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 8,
+            "N2": 9,
+            "pointer": [
+              "",
+              "1",
+              "1",
+              "1",
+              "2",
+              "2",
+              "2",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "THICKNESS",
+              "DATA",
+              "ERR-T",
+              "DATA",
+              "ERR-T",
+              "ERR-S",
+              "FLAG"
+            ],
+            "unit": [
+              "KEV",
+              "ATOMS/B",
+              "NO-DIM",
+              "NO-DIM",
+              "B",
+              "B",
+              "B",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                2.0,
+                0.013147,
+                0.97566,
+                0.00046,
+                1.733,
+                0.042,
+                0.034,
+                4.0
+              ],
+              [
+                2.0,
+                0.024025,
+                0.95655,
+                0.00053,
+                1.776,
+                0.031,
+                0.023,
+                1.0
+              ],
+              [
+                2.0,
+                0.024025,
+                0.95489,
+                0.0006,
+                1.817,
+                0.034,
+                0.025,
+                1.0
+              ],
+              [
+                2.0,
+                0.062631,
+                0.89233,
+                0.00067,
+                1.748,
+                0.024,
+                0.011,
+                12.0
+              ],
+              [
+                2.0,
+                0.075778,
+                0.86503,
+                0.0005,
+                1.77,
+                0.023,
+                0.007,
+                124.0
+              ],
+              [
+                145.0,
+                0.024025,
+                0.9521,
+                0.00049,
+                1.925,
+                0.025,
+                0.021,
+                1.0
+              ],
+              [
+                145.0,
+                0.037172,
+                0.93035,
+                0.00041,
+                1.772,
+                0.017,
+                0.014,
+                14.0
+              ],
+              [
+                145.0,
+                0.038606,
+                0.9345,
+                0.00059,
+                1.647,
+                0.021,
+                0.016,
+                2.0
+              ],
+              [
+                145.0,
+                0.075778,
+                0.86752,
+                0.00092,
+                1.74,
+                0.019,
+                0.011,
+                124.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "NOSUBENT": {
+            "N1": "40980007",
+            "N2": 20230303,
+            "transmission_identification": "4212"
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40980008",
+            "N2": 20230303,
+            "alteration_flag": " ",
+            "transmission_identification": "4212"
+          },
+          "BIB": {
+            "N1": 6,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "1-H-3(N,TOT),,SIG,,AV",
+                "code_unit": [
+                  {
+                    "unit": "1-H-3(N,TOT),,SIG,,AV",
+                    "field": {
+                      "reaction": "1-H-3(N,TOT)",
+                      "target": "1-H-3",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "AV",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "A",
+                "subentry_number": "10945001",
+                "author": "T.W.Phillips+",
+                "reference": {
+                  "code": "J,PR/C,22,384,1980",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "22",
+                      "part": null,
+                      "issue": null,
+                      "page": "384"
+                    },
+                    "date": 1980
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "  1.70+-0.03 barn"
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Data were obtained by statistical averaging of several",
+                " runs:"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total error"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "40980006",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Thickness-dependent C-S"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Text, page 302 of C,87KIEV,2,298,1987 ."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20180129,
+                "history": "A"
+              },
+              "free_text": [
+                " M.M. REL-REF was added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20230303,
+                "history": "A"
+              },
+              "free_text": [
+                " AV was added in SF8"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 2,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "KEV",
+              "B",
+              "B"
+            ],
+            "value": [
+              [
+                2.0,
+                1.76,
+                0.01
+              ],
+              [
+                145.0,
+                1.77,
+                0.05
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "NOSUBENT": {
+            "N1": "40980009",
+            "N2": 20230303,
+            "transmission_identification": "4212"
+          }
+        },
+        {
+          "NOSUBENT": {
+            "N1": "40980010",
+            "N2": 20230303,
+            "transmission_identification": "4212"
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 10,
+        "N2": 0
+      }
+    }
+  ]
+}

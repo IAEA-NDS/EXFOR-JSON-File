@@ -1,0 +1,509 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T19:45:38+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "13350",
+        "N2": 20210511,
+        "alteration_flag": " ",
+        "transmission_identification": "1484"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "13350001",
+            "N2": 20210511,
+            "alteration_flag": " ",
+            "transmission_identification": "1484"
+          },
+          "BIB": {
+            "N1": 7,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The uranium-235 fast fission yield of technetium-99"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "R.J.Meyer",
+                "R.D.Oldham",
+                "R.J.Popek",
+                "J.Williams"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "1USAANL"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "P,ANL-6900,337,1964",
+                "code_unit": [
+                  {
+                    "unit": "P,ANL-6900,337,1964",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "P",
+                      "reference": {
+                        "code": "ANL-",
+                        "number": "6900",
+                        "volume": null,
+                        "part": null,
+                        "issue": null,
+                        "page": "337"
+                      },
+                      "date": 1964
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": "1USAANL"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Fuel sample"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19891120,
+                "history": "C"
+              },
+              "free_text": [
+                " VM"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20210511,
+                "history": "A"
+              },
+              "free_text": [
+                " OG. Converted to lower case and 4-digit",
+                "year. STATUS, ERR-ANALYS updated. Sub003 added."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "EN-DUMMY"
+            ],
+            "unit": [
+              "EV"
+            ],
+            "value": [
+              500000.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "13350002",
+            "N2": 20210511,
+            "alteration_flag": " ",
+            "transmission_identification": "1484"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(92-U-235(N,F)55-CS-137,CUM,FY,,FST)/(92-U-235(N,F)43-TC-99,CUM,FY,,FST)",
+                "code_unit": [
+                  {
+                    "unit": "92-U-235(N,F)55-CS-137,CUM,FY,,FST",
+                    "field": {
+                      "reaction": "92-U-235(N,F)55-CS-137",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "55-CS-137",
+                      "quantity": "CUM,FY",
+                      "data_type": null,
+                      "general_quantity_modifier": "FST",
+                      "quantity_236": "CUM,FY"
+                    }
+                  },
+                  {
+                    "unit": "92-U-235(N,F)43-TC-99,CUM,FY,,FST",
+                    "field": {
+                      "reaction": "92-U-235(N,F)43-TC-99",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "43-TC-99",
+                      "quantity": "CUM,FY",
+                      "data_type": null,
+                      "general_quantity_modifier": "FST",
+                      "quantity_236": "CUM,FY"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)/(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information on sources of uncertainties"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Text on p.338 in P,ANL-6900,337,1964."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "NO-DIM",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                1.08,
+                0.01
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "13350003",
+            "N2": 20210511,
+            "alteration_flag": " ",
+            "transmission_identification": "1484"
+          },
+          "BIB": {
+            "N1": 7,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "92-U-235(N,F)43-TC-99,CUM,FY,,FST",
+                "code_unit": [
+                  {
+                    "unit": "92-U-235(N,F)43-TC-99,CUM,FY,,FST",
+                    "field": {
+                      "reaction": "92-U-235(N,F)43-TC-99",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "43-TC-99",
+                      "quantity": "CUM,FY",
+                      "data_type": null,
+                      "general_quantity_modifier": "FST",
+                      "quantity_236": "CUM,FY"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "92-U-235(N,F)55-CS-137,CUM,FY,,FST",
+                  "code_unit": [
+                    {
+                      "unit": "92-U-235(N,F)55-CS-137,CUM,FY,,FST",
+                      "field": {
+                        "reaction": "92-U-235(N,F)55-CS-137",
+                        "target": "92-U-235",
+                        "projectile": "N",
+                        "process": "F",
+                        "product": "55-CS-137",
+                        "quantity": "CUM,FY",
+                        "data_type": null,
+                        "general_quantity_modifier": "FST",
+                        "quantity_236": "CUM,FY"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": "13435002",
+                "author": "P.Kafalas+",
+                "reference": {
+                  "code": "J,JIN,4,239,1957",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JIN",
+                      "number": null,
+                      "volume": "4",
+                      "part": null,
+                      "issue": null,
+                      "page": "239",
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 1957
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": "13435002",
+                "author": "P.Kafalas+",
+                "reference": {
+                  "code": "J,JIN,5,92,1957",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JIN",
+                      "number": null,
+                      "volume": "5",
+                      "part": null,
+                      "issue": null,
+                      "page": "92",
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 1957
+                  }
+                }
+              },
+              "free_text": [
+                " Erratum"
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "42-MO-99",
+                "half-life": {
+                  "value": 67.0,
+                  "unit": "HR"
+                },
+                "radiation": []
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "No information on uncertainties"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Text on p.337 in P,ANL-6900,337,1964."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20210511,
+                "history": "C"
+              },
+              "free_text": [
+                " OG."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 1,
+            "N2": 1,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "DATA"
+            ],
+            "unit": [
+              "PC/FIS"
+            ],
+            "value": [
+              [
+                5.2
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 3,
+        "N2": 0
+      }
+    }
+  ]
+}

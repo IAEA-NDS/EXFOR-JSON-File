@@ -1,0 +1,590 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T21:45:09+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "32700",
+        "N2": 20120816,
+        "alteration_flag": " ",
+        "transmission_identification": "3157"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "32700001",
+            "N2": 20120816,
+            "alteration_flag": " ",
+            "transmission_identification": "3157"
+          },
+          "BIB": {
+            "N1": 15,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Short lived fission products yield measurement for",
+                "239Pu(nth, f)"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "Liu Shilong",
+                "Yang Yi",
+                "Feng Jing"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "3CPRAEP"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,HFH,34,(2),88,2012",
+                "code_unit": [
+                  {
+                    "unit": "J,HFH,34,(2),88,2012",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "HFH",
+                        "number": null,
+                        "volume": "34",
+                        "part": null,
+                        "issue": "2",
+                        "page": "88"
+                      },
+                      "date": 2012
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": "3CPRAEP"
+              },
+              "free_text": [
+                " 35 kW Miniature Neutron Source Reactor."
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "nuclide": "94-PU-239",
+                "field_identifier": "ENR",
+                "value": 0.758
+              },
+              "free_text": [
+                " Liquid sample are included 239Pu,",
+                " 238Pu and 240Pu, and the mass abundances are 75.8%,",
+                "23.4% and 0.8%, respectively. Due to small fission",
+                "cross sections, the effects of 238-Pu and 240-Pu in",
+                "sample is small."
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "RELFY",
+                "GSPEC"
+              ],
+              "free_text": [
+                " Relative measurements of fission",
+                "products 88Rb, 95Y, 101Mo, 101Tc 138Cs and 142La at",
+                "thermal neutron induced."
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "HPGE"
+              ],
+              "free_text": [
+                "",
+                " 1) The volume of HPGe detector is 110 cm3.",
+                " 2) The relative efficiency is around 40%."
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "94-PU-239(N,F)40-ZR-97,CUM,FY",
+                  "code_unit": [
+                    {
+                      "unit": "94-PU-239(N,F)40-ZR-97,CUM,FY",
+                      "field": {
+                        "reaction": "94-PU-239(N,F)40-ZR-97",
+                        "target": "94-PU-239",
+                        "projectile": "N",
+                        "process": "F",
+                        "product": "40-ZR-97",
+                        "quantity": "CUM,FY",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": "CUM,FY"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Decay gamma spectrum area was determined with SPAN",
+                "code, and fission yield was calculated by FYAUTOLS",
+                "code."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "To subtract the contamination from interfere nuclides,",
+                "the half-life analysis method was adopted."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total uncertainty of measurement mainly due to",
+                "monitor data, gamma counting statistics. Uncertainty",
+                "due to decay data is excluded."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "MONIT-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Uncertainty of the reference nuclei",
+                "fission yield of 97Zr."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": 2.0,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Uncertainty of efficiency of HPGe is less",
+                "than 2.0%."
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "37-RB-88",
+                "half-life": {
+                  "value": 17.78,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1836.0
+                    ],
+                    "intensity": 0.214
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "39-Y-95",
+                "half-life": {
+                  "value": 10.3,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      954.0
+                    ],
+                    "intensity": 0.158
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "42-MO-101",
+                "half-life": {
+                  "value": 14.84,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      2032.1
+                    ],
+                    "intensity": 0.0694
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "43-TC-101",
+                "half-life": {
+                  "value": 14.22,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      306.8
+                    ],
+                    "intensity": 0.88
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "55-CS-138-G",
+                "half-life": {
+                  "value": 32.17,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1435.9
+                    ],
+                    "intensity": 0.763
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "57-LA-142",
+                "half-life": {
+                  "value": 90.85,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      641.3
+                    ],
+                    "intensity": 0.474
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Data were taken from Table 3 at page 91 in",
+                "J,HFH,34,(2),88,2012."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20120816,
+                "history": "C"
+              },
+              "free_text": [
+                " Compiled by Guochang CHEN (CNDC)"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 3,
+            "N2": 0,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-DUMMY",
+              "MONIT",
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "EV",
+              "PC/FIS",
+              "PC/FIS"
+            ],
+            "value": [
+              0.0253,
+              5.304,
+              0.069
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "32700002",
+            "N2": 20120816,
+            "alteration_flag": " ",
+            "transmission_identification": "3157"
+          },
+          "BIB": {
+            "N1": 1,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "94-PU-239(N,F)ELEM/MASS,CUM,FY",
+                "code_unit": [
+                  {
+                    "unit": "94-PU-239(N,F)ELEM/MASS,CUM,FY",
+                    "field": {
+                      "reaction": "94-PU-239(N,F)ELEM/MASS",
+                      "target": "94-PU-239",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "ELEM/MASS",
+                      "quantity": "CUM,FY",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "CUM,FY"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 5,
+            "N2": 6,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "ELEMENT",
+              "MASS",
+              "ISOMER",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "NO-DIM",
+              "NO-DIM",
+              "NO-DIM",
+              "PC/FIS",
+              "PC/FIS"
+            ],
+            "value": [
+              [
+                37.0,
+                88.0,
+                null,
+                1.32,
+                0.05
+              ],
+              [
+                39.0,
+                95.0,
+                null,
+                4.69,
+                0.22
+              ],
+              [
+                42.0,
+                101.0,
+                null,
+                6.13,
+                0.32
+              ],
+              [
+                43.0,
+                101.0,
+                null,
+                6.1,
+                0.22
+              ],
+              [
+                55.0,
+                138.0,
+                0.0,
+                6.24,
+                0.24
+              ],
+              [
+                57.0,
+                142.0,
+                null,
+                4.74,
+                0.17
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 2,
+        "N2": 0
+      }
+    }
+  ]
+}

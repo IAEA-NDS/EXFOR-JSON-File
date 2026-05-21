@@ -1,0 +1,480 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T21:56:46+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "40783",
+        "N2": 20231113,
+        "alteration_flag": " ",
+        "transmission_identification": "4216"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "40783001",
+            "N2": 20231113,
+            "alteration_flag": " ",
+            "transmission_identification": "4216"
+          },
+          "BIB": {
+            "N1": 7,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Average number of neutrons emitted in the fission of",
+                " Th229 by thermal neutrons"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "V.I.Lebedev",
+                "V.I.Kalashnikova"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,JET,8,370,1959",
+                "code_unit": [
+                  {
+                    "unit": "J,JET,8,370,1959",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "JET",
+                        "number": null,
+                        "volume": "8",
+                        "part": null,
+                        "issue": null,
+                        "page": "370"
+                      },
+                      "date": 1959
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                " Engl.translation of ZET,35,535,1958"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,ZET,35,535,1958",
+                "code_unit": [
+                  {
+                    "unit": "J,ZET,35,535,1958",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "ZET",
+                        "number": null,
+                        "volume": "35",
+                        "part": null,
+                        "issue": null,
+                        "page": "535"
+                      },
+                      "date": 1958
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                " Issue 2."
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "4RUSKUR"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": "4RUSKUR"
+              },
+              "free_text": [
+                " RFT reactor"
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "FISCH"
+              ],
+              "free_text": [
+                " For fission fragments"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "BF3"
+              ],
+              "free_text": [
+                "   For neutron detection"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19840806,
+                "history": "T"
+              },
+              "free_text": [
+                " CONVERTED FROM ENTRY 80229"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20231113,
+                "history": "A"
+              },
+              "free_text": [
+                " 4CCPCCP -> 4RUSKUR ( as in CINDA).",
+                " Upper -> lower case correction.",
+                " Dates were corrected for 4-digits year.",
+                "  Units were corrected: NO-DIM -> PRT/FIS"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40783002",
+            "N2": 20231113,
+            "alteration_flag": " ",
+            "transmission_identification": "4216"
+          },
+          "BIB": {
+            "N1": 9,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "code": "90-TH-229(N,F),PR,NU,,MXW",
+                "code_unit": [
+                  {
+                    "unit": "90-TH-229(N,F),PR,NU,,MXW",
+                    "field": {
+                      "reaction": "90-TH-229(N,F)",
+                      "target": "90-TH-229",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "PR,NU",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "PR,NU"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "code": "(90-TH-229(N,F),PR,NU,,MXW)/(92-U-235(N,F),,NU)",
+                "code_unit": [
+                  {
+                    "unit": "90-TH-229(N,F),PR,NU,,MXW",
+                    "field": {
+                      "reaction": "90-TH-229(N,F)",
+                      "target": "90-TH-229",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "PR,NU",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "PR,NU"
+                    }
+                  },
+                  {
+                    "unit": "92-U-235(N,F),,NU",
+                    "field": {
+                      "reaction": "92-U-235(N,F)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": ",NU",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",NU"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)/(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INC-SPECT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Thermal spectrum"
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " 1.5 mg weight, Th-229 ~ 10.% as spot of 20 mm diameter",
+                " 0.5 mg/cm2 thickness, on thin platinum foil."
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "COINC"
+              ],
+              "free_text": [
+                "    Coincidence of particles"
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "92-U-235(N,F),,NU",
+                  "code_unit": [
+                    {
+                      "unit": "92-U-235(N,F),,NU",
+                      "field": {
+                        "reaction": "92-U-235(N,F)",
+                        "target": "92-U-235",
+                        "projectile": "N",
+                        "process": "F",
+                        "product": "",
+                        "quantity": ",NU",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",NU"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": null,
+                "author": "D.J.Hughes+",
+                "reference": {
+                  "code": "R,BNL-325,(1),1957",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "BNL-",
+                      "number": "325",
+                      "volume": "(1)",
+                      "part": null,
+                      "issue": null,
+                      "page": null,
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 1957
+                  }
+                }
+              },
+              "free_text": [
+                " Suppl.1."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Type of uncertainty is not explained in the",
+                "article."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "V.I.Lebedev+",
+                "reference": {
+                  "code": "J,JET,8,370,1959",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JET",
+                      "number": null,
+                      "volume": "8",
+                      "part": null,
+                      "issue": null,
+                      "page": "370"
+                    },
+                    "date": 1959
+                  }
+                }
+              },
+              "free_text": [
+                " Text on page 370"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20231113,
+                "history": "A"
+              },
+              "free_text": [
+                " Ratio NU(Th229)/NU(U235) was added."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 7,
+            "N2": 1,
+            "pointer": [
+              "",
+              "1",
+              "1",
+              "1",
+              "1",
+              "2",
+              "2"
+            ],
+            "heading": [
+              "EN-DUMMY",
+              "DATA",
+              "DATA-ERR",
+              "MONIT",
+              "MONIT-ERR",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "EV",
+              "PRT/FIS",
+              "PRT/FIS",
+              "PRT/FIS",
+              "PRT/FIS",
+              "NO-DIM",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                0.0253,
+                2.13,
+                0.03,
+                2.47,
+                0.03,
+                0.864,
+                0.008
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 2,
+        "N2": 0
+      }
+    }
+  ]
+}

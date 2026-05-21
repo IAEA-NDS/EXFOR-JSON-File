@@ -1,0 +1,886 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T20:26:04+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "20792",
+        "N2": 20230202,
+        "alteration_flag": " ",
+        "transmission_identification": "2313"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "20792001",
+            "N2": 20230202,
+            "alteration_flag": " ",
+            "transmission_identification": "2313"
+          },
+          "BIB": {
+            "N1": 11,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Fission spectrum averaged cross section for the",
+                " Th-232(n,f) reaction"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "K.Kobayashi"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "2JPNKTO"
+              ],
+              "free_text": [
+                " Kyoto university research reactor institute."
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,ANE,4,177,1977",
+                "code_unit": [
+                  {
+                    "unit": "J,ANE,4,177,1977",
+                    "doi": "10.1016/0306-4549(77)90063-9",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "ANE",
+                        "number": null,
+                        "volume": "4",
+                        "part": null,
+                        "issue": null,
+                        "page": "177"
+                      },
+                      "date": 1977
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                " Final publication."
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": "2JPNKTO"
+              },
+              "free_text": [
+                " Beam port E-3 of KUR reactor."
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "REAC"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INC-SPECT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Fast neutron spectrum has been confirmed to",
+                " be equivalent to that of 235U fission neutrons."
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "28-NI-58(N,P)27-CO-58,,SIG,,FIS",
+                  "code_unit": [
+                    {
+                      "unit": "28-NI-58(N,P)27-CO-58,,SIG,,FIS",
+                      "field": {
+                        "reaction": "28-NI-58(N,P)27-CO-58",
+                        "target": "28-NI-58",
+                        "projectile": "N",
+                        "process": "P",
+                        "product": "27-CO-58",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": "FIS",
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total error"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": 3.0,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Uncertainty in flux normalization"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": null,
+                "maximum_value": 3.5,
+                "correlation_property": null
+              },
+              "free_text": [
+                " other systematic errors"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 1 from Annals of Nucl.Energy,4(1977)177"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19781204,
+                "history": "C"
+              },
+              "free_text": [
+                " PDJ."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19801112,
+                "history": "A"
+              },
+              "free_text": [
+                " G.C. Monitor reaction string corrected."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20211220,
+                "history": "A"
+              },
+              "free_text": [
+                " SD:Updated to new date formats,lower case.",
+                "MONITOR reaction updated (-G+M from SF4 and /SUM from",
+                "SF6 deleted)."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20230202,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Corrections in Subent 003."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              102.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "20792002",
+            "N2": 20211220,
+            "alteration_flag": " ",
+            "transmission_identification": "2306"
+          },
+          "BIB": {
+            "N1": 9,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "90-TH-232(N,F),,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "90-TH-232(N,F),,SIG,,FIS",
+                    "field": {
+                      "reaction": "90-TH-232(N,F)",
+                      "target": "90-TH-232",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Thorium electrodeposited onto a stainless steel plate",
+                " thickness 20 to 30 ug/cm2 from alpha monitoring."
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "FISCH"
+              ],
+              "free_text": [
+                " Fission chamber with a silicon detector"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "SI"
+              ],
+              "free_text": [
+                " silicon detector"
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Average cross section derived from combining",
+                " the counting rates for fission fragments and decay",
+                " alphas to eliminate detector efficiency."
+              ]
+            }
+          ],
+          "PART-DET": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "FF"
+              ],
+              "free_text": [
+                " Fission fragments."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Anisotropy of fission fragment distributions",
+                " corrected using Monte Carlo calculation and data",
+                " from REFS (see REL-REF)."
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "M",
+                "subentry_number": null,
+                "author": "S.Lo Nigro+",
+                "reference": {
+                  "code": "J,NP/A,118,461,1968",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "118",
+                      "part": null,
+                      "issue": null,
+                      "page": "461"
+                    },
+                    "date": 1968
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "M",
+                "subentry_number": null,
+                "author": "S.Lo Nigro+",
+                "reference": {
+                  "code": "J,NP/A,96,617,1967",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "96",
+                      "part": null,
+                      "issue": null,
+                      "page": "617"
+                    },
+                    "date": 1967
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "M",
+                "subentry_number": null,
+                "author": "V.Emma+",
+                "reference": {
+                  "code": "J,NP/A,199,186,1973",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "199",
+                      "part": null,
+                      "issue": null,
+                      "page": "186"
+                    },
+                    "date": 1973
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "M",
+                "subentry_number": "13709001",
+                "author": "R.L.Henkel+",
+                "reference": {
+                  "code": "J,PR,103,1292,1956",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "103",
+                      "part": null,
+                      "issue": null,
+                      "page": "1292"
+                    },
+                    "date": 1956
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "  resulting correction 14.17%."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": 1.5,
+                "maximum_value": 2.5,
+                "correlation_property": null
+              },
+              "free_text": [
+                "  Statistical error"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " geometrical uncertainty"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19801112,
+                "history": "A"
+              },
+              "free_text": [
+                " G.C., Data headings changed."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20211220,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-DUMMY",
+              "DATA",
+              "ERR-T",
+              "ERR-2"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                1.5,
+                77.4,
+                3.7,
+                1.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "20792003",
+            "N2": 20230202,
+            "alteration_flag": " ",
+            "transmission_identification": "2313"
+          },
+          "BIB": {
+            "N1": 10,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "90-TH-232(N,F),,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "90-TH-232(N,F),,SIG,,FIS",
+                    "field": {
+                      "reaction": "90-TH-232(N,F)",
+                      "target": "90-TH-232",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Commercial thorium foils. Impurities checked by",
+                " thermal neutrons contributed about 1.5% to",
+                " Th fission cross section."
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "ACTIV"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "PLATE"
+              ],
+              "free_text": [
+                " Fission plate irradiated simultaneously",
+                " with monitor"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "GELI"
+              ],
+              "free_text": [
+                " induced activity detected with GeLi detector.",
+                " 30cc calibrated with standard sources.",
+                " Activities of 140-La and 140-Ba were measured."
+              ]
+            }
+          ],
+          "ASSUMED": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ASSUM",
+                "reaction": {
+                  "code": "90-TH-232(N,F)56-BA-140,CUM,FY",
+                  "code_unit": [
+                    {
+                      "unit": "90-TH-232(N,F)56-BA-140,CUM,FY",
+                      "field": {
+                        "reaction": "90-TH-232(N,F)56-BA-140",
+                        "target": "90-TH-232",
+                        "projectile": "N",
+                        "process": "F",
+                        "product": "56-BA-140",
+                        "quantity": "CUM,FY",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": "CUM,FY"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": null,
+                "author": "M.E.Meek+",
+                "reference": {
+                  "code": "R,NEDO-12154,46,1972",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "NEDO-",
+                      "number": "12154",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "46"
+                    },
+                    "date": 1972
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Average cross section from activity and known",
+                " 140-La and 140-Ba fission yields and decay",
+                " parameters."
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "57-LA-140",
+                "half-life": null,
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": null,
+                    "intensity": null
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "56-BA-140",
+                "half-life": null,
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": null,
+                    "intensity": null
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistical error"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19801112,
+                "history": "A"
+              },
+              "free_text": [
+                " G.C. Data headings changed."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20211220,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20230202,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: ASSUMED and REL-REF added."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 5,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-DUMMY",
+              "DATA",
+              "ERR-T",
+              "ERR-S",
+              "ASSUM"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB",
+              "PER-CENT",
+              "PC/FIS"
+            ],
+            "value": [
+              [
+                1.5,
+                78.1,
+                3.9,
+                2.0,
+                7.91
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 3,
+        "N2": 0
+      }
+    }
+  ]
+}

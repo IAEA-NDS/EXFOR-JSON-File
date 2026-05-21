@@ -1,0 +1,2675 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T21:57:12+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "40847",
+        "N2": 20231226,
+        "alteration_flag": " ",
+        "transmission_identification": "4216"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "40847001",
+            "N2": 20231226,
+            "alteration_flag": " ",
+            "transmission_identification": "4216"
+          },
+          "BIB": {
+            "N1": 10,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Integral total cross sections of interaction of",
+                " Cf-252 fission spectrum neutrons with atom nuclei",
+                " included in the constructional materials"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "B.Ya.Guzhovskiy",
+                "V.P.Gorelov",
+                "V.S.Rudnev",
+                "G.G.Farafontov"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(C,83KIEV,3,49,1983)=(R,INDC(CCP)-235,(3),49,1983)",
+                "code_unit": [
+                  {
+                    "unit": "C,83KIEV,3,49,1983",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "C",
+                      "reference": {
+                        "code": "83KIEV",
+                        "number": null,
+                        "volume": "3",
+                        "part": null,
+                        "issue": null,
+                        "page": "49"
+                      },
+                      "date": 1983
+                    }
+                  },
+                  {
+                    "unit": "R,INDC(CCP)-235,(3),49,1983",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "R",
+                      "reference": {
+                        "code": "INDC(CCP)-",
+                        "number": "235",
+                        "volume": "(3)",
+                        "part": null,
+                        "issue": null,
+                        "page": "49"
+                      },
+                      "date": 1983
+                    }
+                  }
+                ],
+                "unit_combination": "((%)=(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "4RUSKUR"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "CF252"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                " 3.E+8 n/sec, diameter 0.8 mm, height 8 mm."
+              ]
+            }
+          ],
+          "INC-SPECT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Cf-252 fission spectrum was approximated by the",
+                " Maxwell curve, temperature is 1.42 MeV"
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "TRN"
+              ],
+              "free_text": [
+                " Transmission and extrapolation on zero thickness"
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "LONGC"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Stat. error for one-sigma ( uncertainty at the",
+                "probability level 0.95 given in the Table of the",
+                "article was divided by factor 2.)"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19850410,
+                "history": "C"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20231226,
+                "history": "A"
+              },
+              "free_text": [
+                " TITLE was corrected as given in the article",
+                " Ref. INDC(CCP)-235,(3),49,1983 was added.",
+                " REACTION code SF1 was corrected in Subent 009.",
+                " Uncertainties values ( given in the article for",
+                "probability 0.95) were divided by factor 2 to obtain",
+                "one-sigma uncertainty.",
+                " Upper -> lower case correction .",
+                " Dates were corrected for 4-digits year."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "KT"
+            ],
+            "unit": [
+              "MEV"
+            ],
+            "value": [
+              1.42
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40847002",
+            "N2": 20231226,
+            "alteration_flag": " ",
+            "transmission_identification": "4216"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "1-H-1(N,TOT),,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "1-H-1(N,TOT),,SIG,,FIS",
+                    "field": {
+                      "reaction": "1-H-1(N,TOT)",
+                      "target": "1-H-1",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " SIGMA calculated from data for C, CH, CH2, H20"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.Ya.Guzhovskiy+",
+                "reference": {
+                  "code": "R,INDC(CCP)-235,(3),49,1983",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "49"
+                    },
+                    "date": 1983
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table on page 53."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "40847005",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " C"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "40847006",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " CH"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "40847007",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " CH2"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "40847008",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Water"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                3843.0,
+                17.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40847003",
+            "N2": 20231226,
+            "alteration_flag": " ",
+            "transmission_identification": "4216"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "1-H-2(N,TOT),,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "1-H-2(N,TOT),,SIG,,FIS",
+                    "field": {
+                      "reaction": "1-H-2(N,TOT)",
+                      "target": "1-H-2",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " SIGMA calculated from data for C, CH, CH2, D20"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.Ya.Guzhovskiy+",
+                "reference": {
+                  "code": "R,INDC(CCP)-235,(3),49,1983",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "49"
+                    },
+                    "date": 1983
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table on page 53."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "40847005",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " C"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "40847006",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " CH"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "40847007",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " CH2"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "40847008",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Water"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "40847009",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Heavy water"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                2583.0,
+                23.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40847004",
+            "N2": 20231226,
+            "alteration_flag": " ",
+            "transmission_identification": "4216"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "8-O-16(N,TOT),,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "8-O-16(N,TOT),,SIG,,FIS",
+                    "field": {
+                      "reaction": "8-O-16(N,TOT)",
+                      "target": "8-O-16",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " SIGMA calculated from data for C, CH,CH2, D2O,H2O"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.Ya.Guzhovskiy+",
+                "reference": {
+                  "code": "R,INDC(CCP)-235,(3),49,1983",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "49"
+                    },
+                    "date": 1983
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table on page 53."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "40847005",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " C"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "40847006",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " CH"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "40847007",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " CH2"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "40847008",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Water"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "40847009",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Heavy water"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                2471.0,
+                54.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40847005",
+            "N2": 20231226,
+            "alteration_flag": " ",
+            "transmission_identification": "4216"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "6-C-12(N,TOT),,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "6-C-12(N,TOT),,SIG,,FIS",
+                    "field": {
+                      "reaction": "6-C-12(N,TOT)",
+                      "target": "6-C-12",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.Ya.Guzhovskiy+",
+                "reference": {
+                  "code": "R,INDC(CCP)-235,(3),49,1983",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "49"
+                    },
+                    "date": 1983
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table on page 53."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                2340.0,
+                7.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40847006",
+            "N2": 20231226,
+            "alteration_flag": " ",
+            "transmission_identification": "4216"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "1-H-CXX(N,TOT),,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "1-H-CXX(N,TOT),,SIG,,FIS",
+                    "field": {
+                      "reaction": "1-H-CXX(N,TOT)",
+                      "target": "1-H-CXX",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " CH-Sample"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.Ya.Guzhovskiy+",
+                "reference": {
+                  "code": "R,INDC(CCP)-235,(3),49,1983",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "49"
+                    },
+                    "date": 1983
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table on page 53."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                6183.0,
+                27.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40847007",
+            "N2": 20231226,
+            "alteration_flag": " ",
+            "transmission_identification": "4216"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "1-H-CXX(N,TOT),,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "1-H-CXX(N,TOT),,SIG,,FIS",
+                    "field": {
+                      "reaction": "1-H-CXX(N,TOT)",
+                      "target": "1-H-CXX",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " CH2"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.Ya.Guzhovskiy+",
+                "reference": {
+                  "code": "R,INDC(CCP)-235,(3),49,1983",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "49"
+                    },
+                    "date": 1983
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table on page 53."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                10025.0,
+                42.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40847008",
+            "N2": 20231226,
+            "alteration_flag": " ",
+            "transmission_identification": "4216"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "1-H-WTR(N,TOT),,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "1-H-WTR(N,TOT),,SIG,,FIS",
+                    "field": {
+                      "reaction": "1-H-WTR(N,TOT)",
+                      "target": "1-H-WTR",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.Ya.Guzhovskiy+",
+                "reference": {
+                  "code": "R,INDC(CCP)-235,(3),49,1983",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "49"
+                    },
+                    "date": 1983
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table on page 53."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                10156.0,
+                41.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40847009",
+            "N2": 20231226,
+            "alteration_flag": " ",
+            "transmission_identification": "4216"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "1-H-D2O(N,TOT),,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "1-H-D2O(N,TOT),,SIG,,FIS",
+                    "field": {
+                      "reaction": "1-H-D2O(N,TOT)",
+                      "target": "1-H-D2O",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " D(2)O - heavy water"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.Ya.Guzhovskiy+",
+                "reference": {
+                  "code": "R,INDC(CCP)-235,(3),49,1983",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "49"
+                    },
+                    "date": 1983
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table on page 53."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20231226,
+                "history": "A"
+              },
+              "free_text": [
+                " SF1 : 1-H-2 -> 1-D-D2O, SAMPLE was added."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                7637.0,
+                19.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40847010",
+            "N2": 20231226,
+            "alteration_flag": " ",
+            "transmission_identification": "4216"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "5-B-10(N,TOT),,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "5-B-10(N,TOT),,SIG,,FIS",
+                    "field": {
+                      "reaction": "5-B-10(N,TOT)",
+                      "target": "5-B-10",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.Ya.Guzhovskiy+",
+                "reference": {
+                  "code": "R,INDC(CCP)-235,(3),49,1983",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "49"
+                    },
+                    "date": 1983
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table on page 53."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "B",
+              "B"
+            ],
+            "value": [
+              [
+                2458.0,
+                42.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40847011",
+            "N2": 20231226,
+            "alteration_flag": " ",
+            "transmission_identification": "4216"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "5-B-11(N,TOT),,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "5-B-11(N,TOT),,SIG,,FIS",
+                    "field": {
+                      "reaction": "5-B-11(N,TOT)",
+                      "target": "5-B-11",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.Ya.Guzhovskiy+",
+                "reference": {
+                  "code": "R,INDC(CCP)-235,(3),49,1983",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "49"
+                    },
+                    "date": 1983
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table on page 53."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                2340.0,
+                5.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40847012",
+            "N2": 20231226,
+            "alteration_flag": " ",
+            "transmission_identification": "4216"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "5-B-0(N,TOT),,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "5-B-0(N,TOT),,SIG,,FIS",
+                    "field": {
+                      "reaction": "5-B-0(N,TOT)",
+                      "target": "5-B-0",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.Ya.Guzhovskiy+",
+                "reference": {
+                  "code": "R,INDC(CCP)-235,(3),49,1983",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "49"
+                    },
+                    "date": 1983
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table on page 53."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                2425.0,
+                10.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40847013",
+            "N2": 20231226,
+            "alteration_flag": " ",
+            "transmission_identification": "4216"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "13-AL-27(N,TOT),,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "13-AL-27(N,TOT),,SIG,,FIS",
+                    "field": {
+                      "reaction": "13-AL-27(N,TOT)",
+                      "target": "13-AL-27",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.Ya.Guzhovskiy+",
+                "reference": {
+                  "code": "R,INDC(CCP)-235,(3),49,1983",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "49"
+                    },
+                    "date": 1983
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table on page 53."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                3158.0,
+                8.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40847014",
+            "N2": 20231226,
+            "alteration_flag": " ",
+            "transmission_identification": "4216"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "22-TI-0(N,TOT),,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "22-TI-0(N,TOT),,SIG,,FIS",
+                    "field": {
+                      "reaction": "22-TI-0(N,TOT)",
+                      "target": "22-TI-0",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.Ya.Guzhovskiy+",
+                "reference": {
+                  "code": "R,INDC(CCP)-235,(3),49,1983",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "49"
+                    },
+                    "date": 1983
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table on page 53."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                3343.0,
+                11.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40847015",
+            "N2": 20231226,
+            "alteration_flag": " ",
+            "transmission_identification": "4216"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "26-FE-0(N,TOT),,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "26-FE-0(N,TOT),,SIG,,FIS",
+                    "field": {
+                      "reaction": "26-FE-0(N,TOT)",
+                      "target": "26-FE-0",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.Ya.Guzhovskiy+",
+                "reference": {
+                  "code": "R,INDC(CCP)-235,(3),49,1983",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "49"
+                    },
+                    "date": 1983
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table on page 53."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                3269.0,
+                10.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40847016",
+            "N2": 20231226,
+            "alteration_flag": " ",
+            "transmission_identification": "4216"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "28-NI-0(N,TOT),,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "28-NI-0(N,TOT),,SIG,,FIS",
+                    "field": {
+                      "reaction": "28-NI-0(N,TOT)",
+                      "target": "28-NI-0",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.Ya.Guzhovskiy+",
+                "reference": {
+                  "code": "R,INDC(CCP)-235,(3),49,1983",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "49"
+                    },
+                    "date": 1983
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table on page 53."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                3449.0,
+                13.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40847017",
+            "N2": 20231226,
+            "alteration_flag": " ",
+            "transmission_identification": "4216"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "29-CU-0(N,TOT),,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "29-CU-0(N,TOT),,SIG,,FIS",
+                    "field": {
+                      "reaction": "29-CU-0(N,TOT)",
+                      "target": "29-CU-0",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.Ya.Guzhovskiy+",
+                "reference": {
+                  "code": "R,INDC(CCP)-235,(3),49,1983",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "49"
+                    },
+                    "date": 1983
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table on page 53."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                3491.0,
+                9.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40847018",
+            "N2": 20231226,
+            "alteration_flag": " ",
+            "transmission_identification": "4216"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "42-MO-0(N,TOT),,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "42-MO-0(N,TOT),,SIG,,FIS",
+                    "field": {
+                      "reaction": "42-MO-0(N,TOT)",
+                      "target": "42-MO-0",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.Ya.Guzhovskiy+",
+                "reference": {
+                  "code": "R,INDC(CCP)-235,(3),49,1983",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "49"
+                    },
+                    "date": 1983
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table on page 53."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                5768.0,
+                15.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40847019",
+            "N2": 20231226,
+            "alteration_flag": " ",
+            "transmission_identification": "4216"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "48-CD-0(N,TOT),,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "48-CD-0(N,TOT),,SIG,,FIS",
+                    "field": {
+                      "reaction": "48-CD-0(N,TOT)",
+                      "target": "48-CD-0",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.Ya.Guzhovskiy+",
+                "reference": {
+                  "code": "R,INDC(CCP)-235,(3),49,1983",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "49"
+                    },
+                    "date": 1983
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table on page 53."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                5879.0,
+                11.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40847020",
+            "N2": 20231226,
+            "alteration_flag": " ",
+            "transmission_identification": "4216"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "74-W-0(N,TOT),,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "74-W-0(N,TOT),,SIG,,FIS",
+                    "field": {
+                      "reaction": "74-W-0(N,TOT)",
+                      "target": "74-W-0",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.Ya.Guzhovskiy+",
+                "reference": {
+                  "code": "R,INDC(CCP)-235,(3),49,1983",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "49"
+                    },
+                    "date": 1983
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table on page 53."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                6866.0,
+                6.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40847021",
+            "N2": 20231226,
+            "alteration_flag": " ",
+            "transmission_identification": "4216"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "82-PB-0(N,TOT),,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "82-PB-0(N,TOT),,SIG,,FIS",
+                    "field": {
+                      "reaction": "82-PB-0(N,TOT)",
+                      "target": "82-PB-0",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.Ya.Guzhovskiy+",
+                "reference": {
+                  "code": "R,INDC(CCP)-235,(3),49,1983",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "49"
+                    },
+                    "date": 1983
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table on page 53."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                6400.0,
+                22.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 21,
+        "N2": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,1546 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T23:12:37+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "D0995",
+        "N2": 20220902,
+        "alteration_flag": " ",
+        "transmission_identification": "D137"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "D0995001",
+            "N2": 20220902,
+            "alteration_flag": " ",
+            "transmission_identification": "D137"
+          },
+          "BIB": {
+            "N1": 15,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The activation cross section measurements of",
+                " proton-induced reactions on Li and Ta in the energy",
+                " region 12.5-34 MeV"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "E.Simeckova",
+                "M.Majerle",
+                "M.Stefanik",
+                "J.Mrazek",
+                "J.Novak",
+                "T.Magna"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "3CZRUJF"
+              ],
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "3CZRCZR"
+              ],
+              "free_text": [
+                " Czech Geological Survey, Prague"
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,NP/A,1016,122310,2021",
+                "code_unit": [
+                  {
+                    "unit": "J,NP/A,1016,122310,2021",
+                    "doi": "10.1016/j.nuclphysa.2021.122310",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "NP/A",
+                        "number": null,
+                        "volume": "1016",
+                        "part": null,
+                        "issue": null,
+                        "page": "122310"
+                      },
+                      "date": 2021
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "CYCLO"
+                ],
+                "institute": "3CZRUJF"
+              },
+              "free_text": [
+                " U-120M cyclotron"
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "1st run (Ep=34.41 MeV):",
+                " Four natLi foils (550 um declared thickness, 92.67%",
+                " of 7Li) interleaved by natCu foils (25 um declared",
+                " thickness, 99.9% pure) serving as monitors of proton",
+                " flux and energy, and natTa foils (50 um declared",
+                " thickness, 99.9% pure) serving as proton energy",
+                " degraders.",
+                "2nd run (Ep=25.08 MeV):",
+                " 7Li foil (~500 um thick) followed by the stack",
+                " identical to the one used in the 1st run.",
+                "3rd run (Ep=19.16 MeV):",
+                " 7Li foil (~500 um thick) followed by the stack",
+                " identical to the one used in the 1st run but without",
+                " Ta foils."
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "STTA"
+              ],
+              "free_text": [
+                " The energy of reaction in subsequent foils was",
+                " calculated by using SRIM 2008 code."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "ACTIV"
+              ],
+              "free_text": [
+                " Irradiated for",
+                " 1st run: 2860.9 sec with Imean=0.0986 uA;",
+                " 2nd run: 2963.9 sec with Imean=0.101 uA;",
+                " 3rd run: 2310.0 sec with Imean=0.109 uA."
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "HPGE"
+              ],
+              "free_text": [
+                " Two calibrated HPGe detectors of 50% efficiency"
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "29-CU-0(P,X)30-ZN-62,,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "29-CU-0(P,X)30-ZN-62,,SIG",
+                      "field": {
+                        "reaction": "29-CU-0(P,X)30-ZN-62",
+                        "target": "29-CU-0",
+                        "projectile": "P",
+                        "process": "X",
+                        "product": "30-ZN-62",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-MON": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "nuclide": "30-ZN-62",
+                "half-life": {
+                  "value": 9.193,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      596.56
+                    ],
+                    "intensity": 0.26
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      548.35
+                    ],
+                    "intensity": 0.1534
+                  }
+                ]
+              },
+              "free_text": [
+                "",
+                " E.Simeckova(2022-01-12): 9.193 min in the article",
+                " should read 9.193 hr."
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": null,
+                "author": "A.Hermanne+",
+                "reference": {
+                  "code": "J,NDS,148,338,2018",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NDS",
+                      "number": null,
+                      "volume": "148",
+                      "part": null,
+                      "issue": null,
+                      "page": "338",
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 2018
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INC-SPECT": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "EN-RSL-HW"
+              ],
+              "free_text": [
+                " Thickness of each foil. The initial beam",
+                " energy uncertainty (100-200 keV) and spread (~200 keV",
+                " FWHM) are not included."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total uncertainty"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": 0.5,
+                "maximum_value": 5.0,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistics in peak fitting (0.5-5%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                "        Detector efficiency            (2%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": 2.0,
+                "maximum_value": 3.0,
+                "correlation_property": null
+              },
+              "free_text": [
+                "  Charge measurement           (2-3%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "APRVD"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Proof-read by Eva Simeckova (2021-11-08)"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20211101,
+                "history": "C"
+              },
+              "free_text": [
+                " On"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20220902,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Revision in 005"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "ERR-1"
+            ],
+            "unit": [
+              "PER-CENT"
+            ],
+            "value": [
+              2.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "D0995002",
+            "N2": 20211101,
+            "alteration_flag": " ",
+            "transmission_identification": "D135"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "3-LI-7(P,N)4-BE-7,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "3-LI-7(P,N)4-BE-7,,SIG",
+                    "field": {
+                      "reaction": "3-LI-7(P,N)4-BE-7",
+                      "target": "3-LI-7",
+                      "projectile": "P",
+                      "process": "N",
+                      "product": "4-BE-7",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "4-BE-7",
+                "half-life": {
+                  "value": 53.22,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      477.6035
+                    ],
+                    "intensity": 0.1044
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Number of 7Li atoms (10%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 4 of Nucl.Phys.A1016(2021)122310"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "ERR-3"
+            ],
+            "unit": [
+              "PER-CENT"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 14,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                12.76,
+                0.42,
+                47.3,
+                5.1
+              ],
+              [
+                14.05,
+                0.39,
+                44.0,
+                4.7
+              ],
+              [
+                15.25,
+                0.36,
+                40.2,
+                4.3
+              ],
+              [
+                16.09,
+                0.35,
+                36.8,
+                3.9
+              ],
+              [
+                16.39,
+                0.34,
+                36.1,
+                3.8
+              ],
+              [
+                17.46,
+                0.32,
+                37.9,
+                4.1
+              ],
+              [
+                18.48,
+                0.31,
+                35.4,
+                3.8
+              ],
+              [
+                19.19,
+                0.3,
+                32.4,
+                3.5
+              ],
+              [
+                21.98,
+                0.27,
+                30.5,
+                3.3
+              ],
+              [
+                24.52,
+                0.25,
+                25.0,
+                2.7
+              ],
+              [
+                27.62,
+                0.24,
+                26.8,
+                2.9
+              ],
+              [
+                29.85,
+                0.23,
+                24.3,
+                2.7
+              ],
+              [
+                31.96,
+                0.22,
+                22.6,
+                2.4
+              ],
+              [
+                33.96,
+                0.21,
+                21.7,
+                2.3
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "D0995003",
+            "N2": 20211101,
+            "alteration_flag": " ",
+            "transmission_identification": "D135"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "73-TA-181(P,X)73-TA-180-G,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "73-TA-181(P,X)73-TA-180-G,,SIG",
+                    "field": {
+                      "reaction": "73-TA-181(P,X)73-TA-180-G",
+                      "target": "73-TA-181",
+                      "projectile": "P",
+                      "process": "X",
+                      "product": "73-TA-180-G",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "By the authors:",
+                " The 180mTa decay contribution to 180gTa production",
+                " was several orders of magnitude below the direct",
+                " 180gTa production."
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "73-TA-180-G",
+                "half-life": {
+                  "value": 8.154,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      103.6
+                    ],
+                    "intensity": 0.00864
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Foil thickness  (2%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 5 of Nucl.Phys.A1016(2021)122310"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "ERR-3"
+            ],
+            "unit": [
+              "PER-CENT"
+            ],
+            "value": [
+              2.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 15,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                15.17,
+                0.58,
+                4.09,
+                0.26
+              ],
+              [
+                16.97,
+                0.54,
+                10.5,
+                5.7
+              ],
+              [
+                18.4,
+                0.5,
+                19.6,
+                1.2
+              ],
+              [
+                19.97,
+                0.47,
+                30.2,
+                2.1
+              ],
+              [
+                21.25,
+                0.46,
+                42.2,
+                2.0
+              ],
+              [
+                22.68,
+                0.44,
+                47.4,
+                3.3
+              ],
+              [
+                23.86,
+                0.42,
+                54.7,
+                4.0
+              ],
+              [
+                25.91,
+                0.4,
+                75.9,
+                3.2
+              ],
+              [
+                26.99,
+                0.39,
+                83.7,
+                4.0
+              ],
+              [
+                28.24,
+                0.38,
+                82.2,
+                5.6
+              ],
+              [
+                29.25,
+                0.36,
+                88.4,
+                4.2
+              ],
+              [
+                30.43,
+                0.35,
+                86.7,
+                4.2
+              ],
+              [
+                31.39,
+                0.35,
+                88.5,
+                3.7
+              ],
+              [
+                32.51,
+                0.34,
+                90.9,
+                5.0
+              ],
+              [
+                33.42,
+                0.33,
+                87.9,
+                3.7
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "D0995004",
+            "N2": 20211101,
+            "alteration_flag": " ",
+            "transmission_identification": "D135"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "73-TA-181(P,4N)74-W-178,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "73-TA-181(P,4N)74-W-178,,SIG",
+                    "field": {
+                      "reaction": "73-TA-181(P,4N)74-W-178",
+                      "target": "73-TA-181",
+                      "projectile": "P",
+                      "process": "4N",
+                      "product": "74-W-178",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "74-W-178",
+                "half-life": {
+                  "value": 21.6,
+                  "unit": "D"
+                },
+                "radiation": []
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "73-TA-178-M",
+                "half-life": {
+                  "value": 9.31,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1350.55
+                    ],
+                    "intensity": 0.01176
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1340.85
+                    ],
+                    "intensity": 0.010272
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "RAD-DET": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "73-TA-178-M",
+                "radiation_type": [
+                  "DG"
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Foil thickness  (2%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 5 of Nucl.Phys.A1016(2021)122310"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "ERR-3"
+            ],
+            "unit": [
+              "PER-CENT"
+            ],
+            "value": [
+              2.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 8,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                25.91,
+                0.4,
+                33.7,
+                1.4
+              ],
+              [
+                26.99,
+                0.39,
+                133.0,
+                8.0
+              ],
+              [
+                28.24,
+                0.38,
+                221.0,
+                9.0
+              ],
+              [
+                29.25,
+                0.36,
+                394.0,
+                17.0
+              ],
+              [
+                30.43,
+                0.35,
+                481.0,
+                20.0
+              ],
+              [
+                31.39,
+                0.35,
+                611.0,
+                26.0
+              ],
+              [
+                32.51,
+                0.34,
+                735.0,
+                34.0
+              ],
+              [
+                33.42,
+                0.33,
+                838.0,
+                35.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "D0995005",
+            "N2": 20220902,
+            "alteration_flag": " ",
+            "transmission_identification": "D137"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "73-TA-181(P,X)73-TA-178-G+M2,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "73-TA-181(P,X)73-TA-178-G+M2,,SIG",
+                    "field": {
+                      "reaction": "73-TA-181(P,X)73-TA-178-G+M2",
+                      "target": "73-TA-181",
+                      "projectile": "P",
+                      "process": "X",
+                      "product": "73-TA-178-G+M2",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "73-TA-178-G",
+                "half-life": {
+                  "value": 2.36,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      426.355
+                    ],
+                    "intensity": 0.974
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      325.555
+                    ],
+                    "intensity": 0.941
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Foil thickness  (2%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 5 of Nucl.Phys.A1016(2021)122310"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20220902,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. REACTION: SF4: M->G+M2, DECAY-DATA:M->G",
+                "replaced."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "ERR-3"
+            ],
+            "unit": [
+              "PER-CENT"
+            ],
+            "value": [
+              2.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 9,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                22.68,
+                0.44,
+                0.018,
+                0.002
+              ],
+              [
+                23.86,
+                0.42,
+                0.07,
+                0.004
+              ],
+              [
+                26.99,
+                0.39,
+                0.59,
+                0.04
+              ],
+              [
+                28.24,
+                0.38,
+                0.92,
+                0.12
+              ],
+              [
+                29.25,
+                0.36,
+                1.12,
+                0.07
+              ],
+              [
+                30.43,
+                0.35,
+                1.59,
+                0.09
+              ],
+              [
+                31.39,
+                0.35,
+                1.92,
+                0.08
+              ],
+              [
+                32.51,
+                0.34,
+                2.86,
+                0.12
+              ],
+              [
+                33.42,
+                0.33,
+                4.15,
+                0.27
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "D0995006",
+            "N2": 20211101,
+            "alteration_flag": " ",
+            "transmission_identification": "D135"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "73-TA-181(P,X)72-HF-175,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "73-TA-181(P,X)72-HF-175,,SIG",
+                    "field": {
+                      "reaction": "73-TA-181(P,X)72-HF-175",
+                      "target": "73-TA-181",
+                      "projectile": "P",
+                      "process": "X",
+                      "product": "72-HF-175",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "72-HF-175",
+                "half-life": {
+                  "value": 70.0,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      343.4
+                    ],
+                    "intensity": 0.84
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Foil thickness  (2%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 5 of Nucl.Phys.A1016(2021)122310"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "ERR-3"
+            ],
+            "unit": [
+              "PER-CENT"
+            ],
+            "value": [
+              2.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 4,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                30.43,
+                0.35,
+                0.057,
+                0.006
+              ],
+              [
+                31.39,
+                0.35,
+                0.105,
+                0.007
+              ],
+              [
+                32.51,
+                0.34,
+                0.266,
+                0.024
+              ],
+              [
+                33.42,
+                0.33,
+                0.615,
+                0.048
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 6,
+        "N2": 0
+      }
+    }
+  ]
+}

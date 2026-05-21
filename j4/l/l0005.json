@@ -1,0 +1,2781 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-21T00:16:41+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "L0005",
+        "N2": 20141016,
+        "alteration_flag": " ",
+        "transmission_identification": "L025"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "L0005001",
+            "N2": 20141016,
+            "alteration_flag": " ",
+            "transmission_identification": "L025"
+          },
+          "BIB": {
+            "N1": 10,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Photoneutron cross sections of Tb159 and O16"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "R.L.Bramblett",
+                "J.T.Caldwell",
+                "R.R.Harvey",
+                "S.C.Fultz"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,PR,133,B869,1964",
+                "code_unit": [
+                  {
+                    "unit": "J,PR,133,B869,1964",
+                    "doi": "10.1103/PhysRev.133.B869",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "PR",
+                        "number": null,
+                        "volume": "133",
+                        "part": null,
+                        "issue": null,
+                        "page": "B869"
+                      },
+                      "date": 1964
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "#doi:10.1103/PhysRev.133.B869"
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "1USALRL"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "LINAC"
+                ],
+                "institute": "1USALRL"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "QMPH"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                " Positron annihilation"
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "PROPC"
+              ],
+              "free_text": [
+                " Paraffin moderator with BF3 counters"
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "RINGR"
+              ],
+              "free_text": [
+                " The paraffin cube has a 3-in.-diameter hole",
+                "drilled through the central axis for beam passage and",
+                "placement of samples. Each ring of tubes has a",
+                "different moderation thickness for neutron",
+                "originating along the central axis. The ratio of",
+                "neutrons detected in any one ring to those detected",
+                "in any other ring is a monotonic function of neutron",
+                "energy."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No details on source of uncertainties."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19780511,
+                "history": "T"
+              },
+              "free_text": [
+                " Converted from Berman compilation."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19891201,
+                "history": "A"
+              },
+              "free_text": [
+                " BIB updated"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20021110,
+                "history": "A"
+              },
+              "free_text": [
+                " corrected by V.Varlamov: dates corrected",
+                "from two to four digits including that in reference",
+                "and history, reaction in l0005003 renamed ((g,xn)",
+                "instead of (g,Sn)), L0005006 added",
+                " ((g,Sn) = (g,xn) - (g,2n))."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20071012,
+                "history": "A"
+              },
+              "free_text": [
+                " corrected by V.Varlamov: reference, inc-",
+                "source, lowercase."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20141016,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: Corrected author names and subentries",
+                "status, added doi, REL-REF and other information."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "L0005002",
+            "N2": 20141028,
+            "alteration_flag": " ",
+            "transmission_identification": "L025"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(8-O-16(G,N)8-O-15,,SIG)+(8-O-16(G,N+P)7-N-14,,SIG)",
+                "code_unit": [
+                  {
+                    "unit": "8-O-16(G,N)8-O-15,,SIG",
+                    "field": {
+                      "reaction": "8-O-16(G,N)8-O-15",
+                      "target": "8-O-16",
+                      "projectile": "G",
+                      "process": "N",
+                      "product": "8-O-15",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  },
+                  {
+                    "unit": "8-O-16(G,N+P)7-N-14,,SIG",
+                    "field": {
+                      "reaction": "8-O-16(G,N+P)7-N-14",
+                      "target": "8-O-16",
+                      "projectile": "G",
+                      "process": "N+P",
+                      "product": "7-N-14",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)+(%))"
+              },
+              "free_text": [
+                "",
+                "The threshold of (gamma,n+p) reaction is 23.0 MeV."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "BERMN"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Data above 20.7 MeV superseded by",
+                "Phys.Rev.Lett.15,976 (1965); See data set L0036."
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "O",
+                "subentry_number": "L0036001",
+                "author": "J.T.Caldwell+",
+                "reference": {
+                  "code": "J,PRL,15,(25),976,1965",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PRL",
+                      "number": null,
+                      "volume": "15",
+                      "part": null,
+                      "issue": "25",
+                      "page": "976"
+                    },
+                    "date": 1965
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19950329,
+                "history": "A"
+              },
+              "free_text": [
+                " Reaction substituted."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 56,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                15.83,
+                0.03,
+                0.1
+              ],
+              [
+                15.907,
+                0.08,
+                0.08
+              ],
+              [
+                15.985,
+                0.09,
+                0.09
+              ],
+              [
+                16.062,
+                0.09,
+                0.09
+              ],
+              [
+                16.14,
+                0.16,
+                0.08
+              ],
+              [
+                16.217,
+                0.25,
+                0.09
+              ],
+              [
+                16.294,
+                0.16,
+                0.09
+              ],
+              [
+                16.372,
+                0.11,
+                0.09
+              ],
+              [
+                16.449,
+                0.04,
+                0.09
+              ],
+              [
+                16.527,
+                0.16,
+                0.09
+              ],
+              [
+                16.604,
+                0.03,
+                0.08
+              ],
+              [
+                16.682,
+                0.06,
+                0.1
+              ],
+              [
+                16.759,
+                0.05,
+                0.09
+              ],
+              [
+                16.836,
+                0.22,
+                0.1
+              ],
+              [
+                16.914,
+                0.22,
+                0.1
+              ],
+              [
+                16.991,
+                0.35,
+                0.1
+              ],
+              [
+                17.069,
+                0.37,
+                0.1
+              ],
+              [
+                17.146,
+                0.87,
+                0.1
+              ],
+              [
+                17.224,
+                1.43,
+                0.1
+              ],
+              [
+                17.301,
+                1.85,
+                0.1
+              ],
+              [
+                17.378,
+                1.74,
+                0.09
+              ],
+              [
+                17.456,
+                1.54,
+                0.1
+              ],
+              [
+                17.533,
+                1.33,
+                0.09
+              ],
+              [
+                17.611,
+                1.08,
+                0.08
+              ],
+              [
+                17.688,
+                0.89,
+                0.08
+              ],
+              [
+                17.765,
+                0.81,
+                0.1
+              ],
+              [
+                17.843,
+                0.61,
+                0.08
+              ],
+              [
+                17.92,
+                0.52,
+                0.09
+              ],
+              [
+                17.998,
+                0.38,
+                0.09
+              ],
+              [
+                18.075,
+                0.35,
+                0.09
+              ],
+              [
+                18.153,
+                0.35,
+                0.09
+              ],
+              [
+                18.23,
+                0.36,
+                0.1
+              ],
+              [
+                18.307,
+                0.34,
+                0.08
+              ],
+              [
+                18.462,
+                0.41,
+                0.07
+              ],
+              [
+                18.617,
+                0.64,
+                0.08
+              ],
+              [
+                18.772,
+                0.82,
+                0.08
+              ],
+              [
+                18.849,
+                0.95,
+                0.09
+              ],
+              [
+                18.888,
+                1.14,
+                0.09
+              ],
+              [
+                18.927,
+                1.34,
+                0.09
+              ],
+              [
+                19.004,
+                1.19,
+                0.1
+              ],
+              [
+                19.082,
+                1.46,
+                0.09
+              ],
+              [
+                19.159,
+                1.55,
+                0.14
+              ],
+              [
+                19.237,
+                1.56,
+                0.11
+              ],
+              [
+                19.314,
+                1.43,
+                0.12
+              ],
+              [
+                19.391,
+                1.43,
+                0.09
+              ],
+              [
+                19.469,
+                1.58,
+                0.09
+              ],
+              [
+                19.546,
+                1.6,
+                0.09
+              ],
+              [
+                19.624,
+                1.31,
+                0.08
+              ],
+              [
+                19.701,
+                1.05,
+                0.07
+              ],
+              [
+                19.779,
+                0.95,
+                0.08
+              ],
+              [
+                19.856,
+                0.63,
+                0.09
+              ],
+              [
+                20.011,
+                0.5,
+                0.08
+              ],
+              [
+                20.166,
+                0.57,
+                0.1
+              ],
+              [
+                20.321,
+                0.63,
+                0.09
+              ],
+              [
+                20.475,
+                0.87,
+                0.1
+              ],
+              [
+                20.63,
+                1.16,
+                0.1
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "L0005003",
+            "N2": 20141028,
+            "alteration_flag": " ",
+            "transmission_identification": "L025"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "65-TB-159(G,X)0-NN-1,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "65-TB-159(G,X)0-NN-1,,SIG",
+                    "field": {
+                      "reaction": "65-TB-159(G,X)0-NN-1",
+                      "target": "65-TB-159",
+                      "projectile": "G",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "The sum: (g,n)+(g,n+p)+2(g,2n)+2(g,2n+p)+3(g,3n).",
+                "The threshold of (gamma,3n) reaction is 23.6 MeV."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "BERMN"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19891205,
+                "history": "A"
+              },
+              "free_text": [
+                " Data replaced."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20021110,
+                "history": "A"
+              },
+              "free_text": [
+                " Data renamed: (g,xn) instead of (g,Sn)."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 95,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                8.633,
+                12.0,
+                4.0
+              ],
+              [
+                8.788,
+                31.0,
+                8.0
+              ],
+              [
+                9.097,
+                29.0,
+                8.0
+              ],
+              [
+                9.407,
+                42.0,
+                7.0
+              ],
+              [
+                9.562,
+                43.0,
+                8.0
+              ],
+              [
+                9.717,
+                47.0,
+                6.0
+              ],
+              [
+                9.872,
+                50.0,
+                9.0
+              ],
+              [
+                10.026,
+                56.0,
+                5.0
+              ],
+              [
+                10.104,
+                73.0,
+                6.0
+              ],
+              [
+                10.181,
+                79.0,
+                5.0
+              ],
+              [
+                10.336,
+                85.0,
+                6.0
+              ],
+              [
+                10.491,
+                88.0,
+                7.0
+              ],
+              [
+                10.646,
+                100.0,
+                6.0
+              ],
+              [
+                10.801,
+                102.0,
+                7.0
+              ],
+              [
+                10.955,
+                124.0,
+                5.0
+              ],
+              [
+                11.11,
+                136.0,
+                8.0
+              ],
+              [
+                11.265,
+                161.0,
+                8.0
+              ],
+              [
+                11.42,
+                178.0,
+                10.0
+              ],
+              [
+                11.575,
+                199.0,
+                9.0
+              ],
+              [
+                11.73,
+                211.0,
+                11.0
+              ],
+              [
+                11.885,
+                215.0,
+                8.0
+              ],
+              [
+                12.039,
+                232.0,
+                9.0
+              ],
+              [
+                12.194,
+                249.0,
+                13.0
+              ],
+              [
+                12.349,
+                259.0,
+                14.0
+              ],
+              [
+                12.504,
+                236.0,
+                12.0
+              ],
+              [
+                12.659,
+                231.0,
+                10.0
+              ],
+              [
+                12.814,
+                233.0,
+                9.0
+              ],
+              [
+                12.969,
+                227.0,
+                11.0
+              ],
+              [
+                13.123,
+                230.0,
+                8.0
+              ],
+              [
+                13.278,
+                231.0,
+                8.0
+              ],
+              [
+                13.433,
+                215.0,
+                9.0
+              ],
+              [
+                13.588,
+                205.0,
+                7.0
+              ],
+              [
+                13.743,
+                214.0,
+                8.0
+              ],
+              [
+                13.898,
+                214.0,
+                9.0
+              ],
+              [
+                14.052,
+                225.0,
+                10.0
+              ],
+              [
+                14.207,
+                221.1,
+                7.0
+              ],
+              [
+                14.362,
+                225.0,
+                8.0
+              ],
+              [
+                14.517,
+                214.0,
+                10.0
+              ],
+              [
+                14.672,
+                232.1,
+                10.0
+              ],
+              [
+                14.827,
+                231.0,
+                12.0
+              ],
+              [
+                14.982,
+                243.0,
+                10.0
+              ],
+              [
+                15.136,
+                254.0,
+                11.0
+              ],
+              [
+                15.291,
+                269.0,
+                11.0
+              ],
+              [
+                15.446,
+                282.0,
+                13.0
+              ],
+              [
+                15.601,
+                276.0,
+                11.0
+              ],
+              [
+                15.756,
+                302.0,
+                11.0
+              ],
+              [
+                15.911,
+                304.0,
+                8.0
+              ],
+              [
+                16.066,
+                317.0,
+                13.0
+              ],
+              [
+                16.22,
+                318.0,
+                9.0
+              ],
+              [
+                16.375,
+                323.0,
+                14.0
+              ],
+              [
+                16.53,
+                319.0,
+                11.0
+              ],
+              [
+                16.685,
+                331.0,
+                17.0
+              ],
+              [
+                16.84,
+                325.0,
+                14.0
+              ],
+              [
+                16.995,
+                311.0,
+                11.0
+              ],
+              [
+                17.149,
+                325.0,
+                10.0
+              ],
+              [
+                17.304,
+                317.0,
+                13.0
+              ],
+              [
+                17.459,
+                298.0,
+                11.0
+              ],
+              [
+                17.614,
+                292.0,
+                13.0
+              ],
+              [
+                17.769,
+                285.0,
+                11.0
+              ],
+              [
+                17.924,
+                257.0,
+                12.0
+              ],
+              [
+                18.079,
+                273.0,
+                12.0
+              ],
+              [
+                18.233,
+                258.0,
+                13.0
+              ],
+              [
+                18.388,
+                255.0,
+                13.0
+              ],
+              [
+                18.543,
+                211.0,
+                13.0
+              ],
+              [
+                18.698,
+                227.0,
+                13.0
+              ],
+              [
+                19.008,
+                206.0,
+                13.0
+              ],
+              [
+                19.317,
+                175.0,
+                14.0
+              ],
+              [
+                19.627,
+                180.0,
+                13.0
+              ],
+              [
+                19.937,
+                165.0,
+                14.0
+              ],
+              [
+                20.246,
+                158.0,
+                13.0
+              ],
+              [
+                20.556,
+                153.0,
+                13.0
+              ],
+              [
+                20.866,
+                152.0,
+                13.0
+              ],
+              [
+                21.176,
+                123.0,
+                14.0
+              ],
+              [
+                21.485,
+                139.0,
+                16.0
+              ],
+              [
+                21.795,
+                126.0,
+                13.0
+              ],
+              [
+                22.105,
+                120.0,
+                13.0
+              ],
+              [
+                22.414,
+                136.0,
+                16.0
+              ],
+              [
+                22.724,
+                122.0,
+                12.0
+              ],
+              [
+                23.034,
+                144.0,
+                14.0
+              ],
+              [
+                23.343,
+                121.0,
+                14.0
+              ],
+              [
+                23.653,
+                135.0,
+                14.0
+              ],
+              [
+                23.963,
+                147.0,
+                13.0
+              ],
+              [
+                24.273,
+                75.0,
+                16.0
+              ],
+              [
+                24.582,
+                102.0,
+                14.0
+              ],
+              [
+                24.892,
+                105.0,
+                14.0
+              ],
+              [
+                25.202,
+                84.0,
+                16.0
+              ],
+              [
+                25.511,
+                95.0,
+                16.0
+              ],
+              [
+                25.821,
+                87.0,
+                18.0
+              ],
+              [
+                26.131,
+                72.0,
+                16.0
+              ],
+              [
+                26.44,
+                75.0,
+                20.0
+              ],
+              [
+                26.75,
+                78.0,
+                21.0
+              ],
+              [
+                27.06,
+                78.0,
+                22.0
+              ],
+              [
+                27.37,
+                34.0,
+                24.0
+              ],
+              [
+                27.679,
+                16.0,
+                19.0
+              ],
+              [
+                27.989,
+                65.0,
+                25.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "L0005004",
+            "N2": 20141028,
+            "alteration_flag": " ",
+            "transmission_identification": "L025"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(65-TB-159(G,N)65-TB-158,,SIG)+(65-TB-159(G,N+P)64-GD-157,,SIG)",
+                "code_unit": [
+                  {
+                    "unit": "65-TB-159(G,N)65-TB-158,,SIG",
+                    "field": {
+                      "reaction": "65-TB-159(G,N)65-TB-158",
+                      "target": "65-TB-159",
+                      "projectile": "G",
+                      "process": "N",
+                      "product": "65-TB-158",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  },
+                  {
+                    "unit": "65-TB-159(G,N+P)64-GD-157,,SIG",
+                    "field": {
+                      "reaction": "65-TB-159(G,N+P)64-GD-157",
+                      "target": "65-TB-159",
+                      "projectile": "G",
+                      "process": "N+P",
+                      "product": "64-GD-157",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)+(%))"
+              },
+              "free_text": [
+                "",
+                "The threshold of (gamma,n+p) reaction is 14.0 MeV."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "BERMN"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 78,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                8.633,
+                12.0,
+                4.0
+              ],
+              [
+                8.788,
+                31.0,
+                8.0
+              ],
+              [
+                9.097,
+                29.0,
+                8.0
+              ],
+              [
+                9.407,
+                42.0,
+                7.0
+              ],
+              [
+                9.562,
+                43.0,
+                8.0
+              ],
+              [
+                9.717,
+                47.0,
+                6.0
+              ],
+              [
+                9.872,
+                50.0,
+                9.0
+              ],
+              [
+                10.026,
+                56.0,
+                5.0
+              ],
+              [
+                10.104,
+                73.0,
+                6.0
+              ],
+              [
+                10.181,
+                79.0,
+                5.0
+              ],
+              [
+                10.336,
+                85.0,
+                6.0
+              ],
+              [
+                10.491,
+                88.0,
+                7.0
+              ],
+              [
+                10.646,
+                100.0,
+                6.0
+              ],
+              [
+                10.801,
+                102.0,
+                7.0
+              ],
+              [
+                10.955,
+                124.0,
+                5.0
+              ],
+              [
+                11.11,
+                136.0,
+                8.0
+              ],
+              [
+                11.265,
+                161.0,
+                8.0
+              ],
+              [
+                11.42,
+                178.0,
+                10.0
+              ],
+              [
+                11.575,
+                199.0,
+                9.0
+              ],
+              [
+                11.73,
+                211.0,
+                11.0
+              ],
+              [
+                11.885,
+                215.0,
+                8.0
+              ],
+              [
+                12.039,
+                232.0,
+                9.0
+              ],
+              [
+                12.194,
+                249.0,
+                13.0
+              ],
+              [
+                12.349,
+                259.0,
+                14.0
+              ],
+              [
+                12.504,
+                236.0,
+                12.0
+              ],
+              [
+                12.659,
+                231.0,
+                10.0
+              ],
+              [
+                12.814,
+                233.0,
+                9.0
+              ],
+              [
+                12.969,
+                227.0,
+                11.0
+              ],
+              [
+                13.123,
+                230.0,
+                8.0
+              ],
+              [
+                13.278,
+                231.0,
+                8.0
+              ],
+              [
+                13.433,
+                215.0,
+                9.0
+              ],
+              [
+                13.588,
+                205.0,
+                7.0
+              ],
+              [
+                13.743,
+                214.0,
+                8.0
+              ],
+              [
+                13.898,
+                214.0,
+                9.0
+              ],
+              [
+                14.052,
+                222.0,
+                9.0
+              ],
+              [
+                14.207,
+                221.0,
+                7.0
+              ],
+              [
+                14.362,
+                223.0,
+                8.0
+              ],
+              [
+                14.517,
+                219.0,
+                7.0
+              ],
+              [
+                14.672,
+                232.0,
+                10.0
+              ],
+              [
+                14.827,
+                233.0,
+                10.0
+              ],
+              [
+                14.982,
+                237.0,
+                9.0
+              ],
+              [
+                15.136,
+                251.0,
+                9.0
+              ],
+              [
+                15.291,
+                249.0,
+                10.0
+              ],
+              [
+                15.446,
+                246.0,
+                14.0
+              ],
+              [
+                15.601,
+                212.0,
+                10.0
+              ],
+              [
+                15.756,
+                217.0,
+                15.0
+              ],
+              [
+                15.911,
+                178.0,
+                9.0
+              ],
+              [
+                16.066,
+                204.0,
+                16.0
+              ],
+              [
+                16.22,
+                117.0,
+                8.0
+              ],
+              [
+                16.375,
+                109.0,
+                10.0
+              ],
+              [
+                16.53,
+                117.0,
+                13.0
+              ],
+              [
+                16.685,
+                94.0,
+                12.0
+              ],
+              [
+                16.84,
+                88.0,
+                10.0
+              ],
+              [
+                16.995,
+                55.0,
+                13.0
+              ],
+              [
+                17.149,
+                59.0,
+                12.0
+              ],
+              [
+                17.304,
+                27.0,
+                12.0
+              ],
+              [
+                17.459,
+                22.0,
+                12.0
+              ],
+              [
+                17.614,
+                2.0,
+                11.0
+              ],
+              [
+                17.769,
+                3.0,
+                12.0
+              ],
+              [
+                17.924,
+                9.0,
+                13.0
+              ],
+              [
+                18.079,
+                35.0,
+                12.0
+              ],
+              [
+                18.233,
+                8.0,
+                12.0
+              ],
+              [
+                18.388,
+                9.0,
+                15.0
+              ],
+              [
+                18.543,
+                -1.0,
+                14.0
+              ],
+              [
+                18.698,
+                7.0,
+                13.0
+              ],
+              [
+                19.008,
+                -11.0,
+                12.0
+              ],
+              [
+                19.317,
+                -8.0,
+                18.0
+              ],
+              [
+                19.937,
+                -11.0,
+                15.0
+              ],
+              [
+                20.556,
+                14.0,
+                14.0
+              ],
+              [
+                21.176,
+                4.0,
+                12.0
+              ],
+              [
+                21.795,
+                7.0,
+                13.0
+              ],
+              [
+                22.414,
+                5.0,
+                16.0
+              ],
+              [
+                23.034,
+                2.0,
+                16.0
+              ],
+              [
+                23.653,
+                -5.0,
+                16.0
+              ],
+              [
+                24.273,
+                6.0,
+                14.0
+              ],
+              [
+                24.892,
+                9.0,
+                20.0
+              ],
+              [
+                25.511,
+                3.0,
+                16.0
+              ],
+              [
+                26.131,
+                -16.0,
+                20.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "L0005005",
+            "N2": 20141028,
+            "alteration_flag": " ",
+            "transmission_identification": "L025"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(65-TB-159(G,2N)65-TB-157,,SIG)+(65-TB-159(G,2N+P)64-GD-156,,SIG)",
+                "code_unit": [
+                  {
+                    "unit": "65-TB-159(G,2N)65-TB-157,,SIG",
+                    "field": {
+                      "reaction": "65-TB-159(G,2N)65-TB-157",
+                      "target": "65-TB-159",
+                      "projectile": "G",
+                      "process": "2N",
+                      "product": "65-TB-157",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  },
+                  {
+                    "unit": "65-TB-159(G,2N+P)64-GD-156,,SIG",
+                    "field": {
+                      "reaction": "65-TB-159(G,2N+P)64-GD-156",
+                      "target": "65-TB-159",
+                      "projectile": "G",
+                      "process": "2N+P",
+                      "product": "64-GD-156",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)+(%))"
+              },
+              "free_text": [
+                "",
+                "The threshold of (gamma,2n+p) reaction is 20.3 MeV."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "BERMN"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 61,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                14.052,
+                3.0,
+                4.0
+              ],
+              [
+                14.207,
+                0.1,
+                2.0
+              ],
+              [
+                14.362,
+                2.0,
+                2.0
+              ],
+              [
+                14.517,
+                -5.0,
+                7.0
+              ],
+              [
+                14.672,
+                0.1,
+                3.0
+              ],
+              [
+                14.827,
+                -2.0,
+                6.0
+              ],
+              [
+                14.982,
+                3.0,
+                4.0
+              ],
+              [
+                15.136,
+                1.0,
+                4.0
+              ],
+              [
+                15.291,
+                10.0,
+                4.0
+              ],
+              [
+                15.446,
+                18.0,
+                6.0
+              ],
+              [
+                15.601,
+                32.0,
+                5.0
+              ],
+              [
+                15.756,
+                43.0,
+                8.0
+              ],
+              [
+                15.911,
+                63.0,
+                5.0
+              ],
+              [
+                16.066,
+                57.0,
+                9.0
+              ],
+              [
+                16.22,
+                99.0,
+                5.0
+              ],
+              [
+                16.375,
+                107.0,
+                7.0
+              ],
+              [
+                16.53,
+                101.0,
+                8.0
+              ],
+              [
+                16.685,
+                130.0,
+                11.0
+              ],
+              [
+                16.84,
+                119.0,
+                8.0
+              ],
+              [
+                16.995,
+                128.0,
+                7.0
+              ],
+              [
+                17.149,
+                133.0,
+                6.0
+              ],
+              [
+                17.304,
+                145.0,
+                10.0
+              ],
+              [
+                17.459,
+                138.0,
+                8.0
+              ],
+              [
+                17.614,
+                145.0,
+                10.0
+              ],
+              [
+                17.769,
+                141.0,
+                8.0
+              ],
+              [
+                17.924,
+                124.0,
+                9.0
+              ],
+              [
+                18.079,
+                119.0,
+                9.0
+              ],
+              [
+                18.233,
+                125.0,
+                10.0
+              ],
+              [
+                18.388,
+                123.0,
+                10.0
+              ],
+              [
+                18.543,
+                106.0,
+                9.0
+              ],
+              [
+                18.698,
+                110.0,
+                9.0
+              ],
+              [
+                19.008,
+                108.0,
+                10.0
+              ],
+              [
+                19.317,
+                83.0,
+                10.0
+              ],
+              [
+                19.627,
+                103.0,
+                10.0
+              ],
+              [
+                19.937,
+                87.0,
+                10.0
+              ],
+              [
+                20.246,
+                76.0,
+                10.0
+              ],
+              [
+                20.556,
+                68.0,
+                10.0
+              ],
+              [
+                20.866,
+                66.0,
+                10.0
+              ],
+              [
+                21.176,
+                60.0,
+                10.0
+              ],
+              [
+                21.485,
+                75.0,
+                11.0
+              ],
+              [
+                21.795,
+                54.0,
+                9.0
+              ],
+              [
+                22.105,
+                55.0,
+                9.0
+              ],
+              [
+                22.414,
+                61.0,
+                11.0
+              ],
+              [
+                22.724,
+                55.0,
+                9.0
+              ],
+              [
+                23.034,
+                52.0,
+                10.0
+              ],
+              [
+                23.343,
+                51.0,
+                10.0
+              ],
+              [
+                23.653,
+                45.0,
+                10.0
+              ],
+              [
+                23.963,
+                76.0,
+                8.0
+              ],
+              [
+                24.273,
+                32.0,
+                11.0
+              ],
+              [
+                24.582,
+                37.0,
+                10.0
+              ],
+              [
+                24.892,
+                34.0,
+                10.0
+              ],
+              [
+                25.202,
+                29.0,
+                11.0
+              ],
+              [
+                25.511,
+                48.0,
+                11.0
+              ],
+              [
+                25.821,
+                39.0,
+                13.0
+              ],
+              [
+                26.131,
+                42.0,
+                12.0
+              ],
+              [
+                26.44,
+                44.0,
+                11.0
+              ],
+              [
+                26.75,
+                57.0,
+                10.0
+              ],
+              [
+                27.06,
+                50.0,
+                14.0
+              ],
+              [
+                27.37,
+                35.0,
+                14.0
+              ],
+              [
+                27.679,
+                32.0,
+                11.0
+              ],
+              [
+                27.989,
+                44.0,
+                14.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "L0005006",
+            "N2": 20141028,
+            "alteration_flag": " ",
+            "transmission_identification": "L025"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "65-TB-159(G,X)0-NN-1,UNW,SIG",
+                "code_unit": [
+                  {
+                    "unit": "65-TB-159(G,X)0-NN-1,UNW,SIG",
+                    "field": {
+                      "reaction": "65-TB-159(G,X)0-NN-1",
+                      "target": "65-TB-159",
+                      "projectile": "G",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": "UNW,SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "UNW,SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "The sum: (g,n)+(g,n+p)+(g,2n)+(g,2n+p)+(g,3n).",
+                "The threshold of (gamma,3n) reaction is 23.6 MeV."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20021110,
+                "history": "C"
+              },
+              "free_text": [
+                " Data added: (g,Sn) obtained as difference",
+                "between (g,xn) and (g,2n) reaction cross sections."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "BERMN"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "L0005003",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " (G,xn) reaction cross section."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "L0005005",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " (G,2n) reaction cross section."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 95,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                8.633,
+                12.0,
+                4.0
+              ],
+              [
+                8.788,
+                31.0,
+                8.0
+              ],
+              [
+                9.097,
+                29.0,
+                8.0
+              ],
+              [
+                9.407,
+                42.0,
+                7.0
+              ],
+              [
+                9.562,
+                43.0,
+                8.0
+              ],
+              [
+                9.717,
+                47.0,
+                6.0
+              ],
+              [
+                9.872,
+                50.0,
+                9.0
+              ],
+              [
+                10.026,
+                56.0,
+                5.0
+              ],
+              [
+                10.104,
+                73.0,
+                6.0
+              ],
+              [
+                10.181,
+                79.0,
+                5.0
+              ],
+              [
+                10.336,
+                85.0,
+                6.0
+              ],
+              [
+                10.491,
+                88.0,
+                7.0
+              ],
+              [
+                10.646,
+                100.0,
+                6.0
+              ],
+              [
+                10.801,
+                102.0,
+                7.0
+              ],
+              [
+                10.955,
+                124.0,
+                5.0
+              ],
+              [
+                11.11,
+                136.0,
+                8.0
+              ],
+              [
+                11.265,
+                161.0,
+                8.0
+              ],
+              [
+                11.42,
+                178.0,
+                10.0
+              ],
+              [
+                11.575,
+                199.0,
+                9.0
+              ],
+              [
+                11.73,
+                211.0,
+                11.0
+              ],
+              [
+                11.885,
+                215.0,
+                8.0
+              ],
+              [
+                12.039,
+                232.0,
+                9.0
+              ],
+              [
+                12.194,
+                249.0,
+                13.0
+              ],
+              [
+                12.349,
+                259.0,
+                14.0
+              ],
+              [
+                12.504,
+                236.0,
+                12.0
+              ],
+              [
+                12.659,
+                231.0,
+                10.0
+              ],
+              [
+                12.814,
+                233.0,
+                9.0
+              ],
+              [
+                12.969,
+                227.0,
+                11.0
+              ],
+              [
+                13.123,
+                230.0,
+                8.0
+              ],
+              [
+                13.278,
+                231.0,
+                8.0
+              ],
+              [
+                13.433,
+                215.0,
+                9.0
+              ],
+              [
+                13.588,
+                205.0,
+                7.0
+              ],
+              [
+                13.743,
+                214.0,
+                8.0
+              ],
+              [
+                13.898,
+                214.0,
+                9.0
+              ],
+              [
+                14.052,
+                222.0,
+                11.0
+              ],
+              [
+                14.207,
+                221.0,
+                8.0
+              ],
+              [
+                14.362,
+                223.0,
+                9.0
+              ],
+              [
+                14.517,
+                219.0,
+                12.0
+              ],
+              [
+                14.672,
+                232.0,
+                11.0
+              ],
+              [
+                14.827,
+                233.0,
+                14.0
+              ],
+              [
+                14.982,
+                241.0,
+                13.0
+              ],
+              [
+                15.136,
+                253.0,
+                12.0
+              ],
+              [
+                15.291,
+                259.0,
+                12.0
+              ],
+              [
+                15.446,
+                264.0,
+                15.0
+              ],
+              [
+                15.601,
+                244.0,
+                14.0
+              ],
+              [
+                15.756,
+                259.0,
+                14.0
+              ],
+              [
+                15.911,
+                241.0,
+                10.0
+              ],
+              [
+                16.066,
+                260.0,
+                16.0
+              ],
+              [
+                16.22,
+                219.0,
+                11.0
+              ],
+              [
+                16.375,
+                216.0,
+                16.0
+              ],
+              [
+                16.53,
+                218.0,
+                13.0
+              ],
+              [
+                16.685,
+                201.0,
+                20.0
+              ],
+              [
+                16.84,
+                206.0,
+                17.0
+              ],
+              [
+                16.995,
+                183.0,
+                13.0
+              ],
+              [
+                17.149,
+                192.0,
+                13.0
+              ],
+              [
+                17.304,
+                172.0,
+                16.0
+              ],
+              [
+                17.459,
+                160.0,
+                14.0
+              ],
+              [
+                17.614,
+                147.0,
+                15.0
+              ],
+              [
+                17.769,
+                144.0,
+                13.0
+              ],
+              [
+                17.924,
+                133.0,
+                15.0
+              ],
+              [
+                18.079,
+                154.0,
+                15.0
+              ],
+              [
+                18.233,
+                133.0,
+                16.0
+              ],
+              [
+                18.388,
+                132.0,
+                15.0
+              ],
+              [
+                18.543,
+                105.0,
+                16.0
+              ],
+              [
+                18.698,
+                117.0,
+                15.0
+              ],
+              [
+                19.008,
+                98.0,
+                16.0
+              ],
+              [
+                19.317,
+                92.0,
+                17.0
+              ],
+              [
+                19.627,
+                77.0,
+                16.0
+              ],
+              [
+                19.937,
+                78.0,
+                16.0
+              ],
+              [
+                20.246,
+                82.0,
+                16.0
+              ],
+              [
+                20.556,
+                85.0,
+                16.0
+              ],
+              [
+                20.866,
+                86.0,
+                16.0
+              ],
+              [
+                21.176,
+                63.0,
+                17.0
+              ],
+              [
+                21.485,
+                64.0,
+                16.0
+              ],
+              [
+                21.795,
+                72.0,
+                16.0
+              ],
+              [
+                22.105,
+                65.0,
+                16.0
+              ],
+              [
+                22.414,
+                75.0,
+                18.0
+              ],
+              [
+                22.724,
+                67.0,
+                14.0
+              ],
+              [
+                23.034,
+                92.0,
+                16.0
+              ],
+              [
+                23.343,
+                70.0,
+                16.0
+              ],
+              [
+                23.653,
+                90.0,
+                16.0
+              ],
+              [
+                23.963,
+                71.0,
+                15.0
+              ],
+              [
+                24.273,
+                43.0,
+                17.0
+              ],
+              [
+                24.582,
+                65.0,
+                16.0
+              ],
+              [
+                24.892,
+                71.0,
+                16.0
+              ],
+              [
+                25.202,
+                55.0,
+                18.0
+              ],
+              [
+                25.511,
+                47.0,
+                18.0
+              ],
+              [
+                25.821,
+                48.0,
+                20.0
+              ],
+              [
+                26.131,
+                30.0,
+                18.0
+              ],
+              [
+                26.44,
+                31.0,
+                24.0
+              ],
+              [
+                26.75,
+                21.0,
+                25.0
+              ],
+              [
+                27.06,
+                28.0,
+                26.0
+              ],
+              [
+                27.37,
+                -1.0,
+                27.0
+              ],
+              [
+                27.679,
+                -16.0,
+                22.0
+              ],
+              [
+                27.989,
+                21.0,
+                28.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 6,
+        "N2": 0
+      }
+    }
+  ]
+}

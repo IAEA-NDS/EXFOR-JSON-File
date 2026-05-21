@@ -1,0 +1,1317 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T22:04:24+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "41670",
+        "N2": 20190603,
+        "alteration_flag": " ",
+        "transmission_identification": "4183"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "41670001",
+            "N2": 20190603,
+            "alteration_flag": " ",
+            "transmission_identification": "4183"
+          },
+          "BIB": {
+            "N1": 9,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Total neutron cross section of Th-230 AT (0.02-50) eV"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "S.M.Kalebin",
+                "R.N.Ivanov",
+                "P.N.Palei",
+                "Z.K.Karalova",
+                "G.M.Kukavadze",
+                "Z.I.Pyzhova",
+                "N.P.Shibaeva",
+                "G.V.Rukolaine"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "4RUSITE"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "C,66PARIS,1,71,1966",
+                "code_unit": [
+                  {
+                    "unit": "C,66PARIS,1,71,1966",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "C",
+                      "reference": {
+                        "code": "66PARIS",
+                        "number": null,
+                        "volume": "1",
+                        "part": null,
+                        "issue": null,
+                        "page": "71"
+                      },
+                      "date": 1966
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                " Prelim.results for 6 resonances.",
+                "In Russian"
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Oxide ThO(2) .",
+                " Content relative to Th total weight,%  :",
+                "Th-230 - 55.0+-0.2, Th-232 - 41.0 +-0.2,",
+                "Nd - 0.07+-0.015, La < 0.014, Ce < 0.5, Pr < 0.004,",
+                "Sm < 0.04, Eu < 0.01, Gd < 0.02, Hf < 0.06, Zr < 3.00.",
+                "Thermal region - 0.096 cm2 square,",
+                "                1.93E+21 at/cm2 thickness.",
+                "Epithermal region - 1.72E+21 at/cm2 and 1.83E+20 at/cm2",
+                "                    thickness."
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": "4RUSITE"
+              },
+              "free_text": [
+                "     Heavy-water  reactor"
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "REAC"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                "     Heavy-water  reactor"
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Of compiler.",
+                "Data presented on Fig.3 of 66PARIS,1,71,1966 look",
+                "like data in Subent 40093.002 ."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20190603,
+                "history": "C"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "41670002",
+            "N2": 20190603,
+            "alteration_flag": " ",
+            "transmission_identification": "4183"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "90-TH-230(N,EL)90-TH-230,,SIG,,,DERIV",
+                "code_unit": [
+                  {
+                    "unit": "90-TH-230(N,EL)90-TH-230,,SIG,,,DERIV",
+                    "field": {
+                      "reaction": "90-TH-230(N,EL)90-TH-230",
+                      "target": "90-TH-230",
+                      "projectile": "N",
+                      "process": "EL",
+                      "product": "90-TH-230",
+                      "quantity": ",SIG",
+                      "data_type": "DERIV",
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Extrapolation of measured total CS ( time dependent)",
+                "to zero by straight line SIGt(E)=(13+097*E**-0.5) barn"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Type of error is not explained in the",
+                "           article."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Text, page 73 of",
+                "     Conf.Proc.66PARIS,v.1,p.71,1966"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-DUMMY",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "EV",
+              "B",
+              "B"
+            ],
+            "value": [
+              [
+                0.025,
+                13.0,
+                3.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "41670003",
+            "N2": 20190603,
+            "alteration_flag": " ",
+            "transmission_identification": "4183"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "90-TH-230(N,TOT),,SIG",
+                "code_unit": [
+                  {
+                    "unit": "90-TH-230(N,TOT),,SIG",
+                    "field": {
+                      "reaction": "90-TH-230(N,TOT)",
+                      "target": "90-TH-230",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "TOF"
+              ],
+              "free_text": [
+                "  50 m TOF base., resolution 0.03 microsec/m ."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "TRN"
+              ],
+              "free_text": [
+                "      Transmission"
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Extrapolation of measured total CS"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Type of error is not explained in the",
+                "           article."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Text, page 73 of",
+                "     Conf.Proc.66PARIS,v.1,p.71,1966"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "EV",
+              "B",
+              "B"
+            ],
+            "value": [
+              [
+                0.025,
+                70.0,
+                3.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "41670004",
+            "N2": 20190603,
+            "alteration_flag": " ",
+            "transmission_identification": "4183"
+          },
+          "BIB": {
+            "N1": 7,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "90-TH-230(N,TOT),,SIG,,SPA",
+                "code_unit": [
+                  {
+                    "unit": "90-TH-230(N,TOT),,SIG,,SPA",
+                    "field": {
+                      "reaction": "90-TH-230(N,TOT)",
+                      "target": "90-TH-230",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "SPA",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "CHOPF"
+                ],
+                "institute": "4RUSITE"
+              },
+              "free_text": [
+                "    Neutron chopper"
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "TOF"
+              ],
+              "free_text": [
+                "  50 m TOF base., resolution 0.03 microsec/m ."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "TRN"
+              ],
+              "free_text": [
+                "      Transmission"
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Averaged by spectrum of mechanical chopper in region",
+                "separated by cadmium filter . See Fig.2 for mechanical",
+                "chopper transmission function."
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Of authors. Calculated average CS using formula (2) an",
+                "point-wise CS measured by TOF method is 56,5 b."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Type of error is not explained in the",
+                "           article."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Text, page 73 of",
+                "     Conf.Proc.66PARIS,v.1,p.71,1966"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-DUMMY",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "EV",
+              "B",
+              "B"
+            ],
+            "value": [
+              [
+                0.025,
+                55.0,
+                1.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "41670005",
+            "N2": 20190603,
+            "alteration_flag": " ",
+            "transmission_identification": "4183"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "code": "90-TH-230(N,0),,EN",
+                "code_unit": [
+                  {
+                    "unit": "90-TH-230(N,0),,EN",
+                    "field": {
+                      "reaction": "90-TH-230(N,0)",
+                      "target": "90-TH-230",
+                      "projectile": "N",
+                      "process": "0",
+                      "product": "",
+                      "quantity": ",EN",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",EN"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "code": "90-TH-230(N,G),,WID",
+                "code_unit": [
+                  {
+                    "unit": "90-TH-230(N,G),,WID",
+                    "field": {
+                      "reaction": "90-TH-230(N,G)",
+                      "target": "90-TH-230",
+                      "projectile": "N",
+                      "process": "G",
+                      "product": "",
+                      "quantity": ",WID",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",WID"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "3",
+              "coded_information": {
+                "code": "90-TH-230(N,EL),,WID",
+                "code_unit": [
+                  {
+                    "unit": "90-TH-230(N,EL),,WID",
+                    "field": {
+                      "reaction": "90-TH-230(N,EL)",
+                      "target": "90-TH-230",
+                      "projectile": "N",
+                      "process": "EL",
+                      "product": "",
+                      "quantity": ",WID",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",WID"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "AREA"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Of authors.",
+                "Resonances 1.107+-0.006, 2.39+-0.008, 7.8+-0.05 eV",
+                "belong to Hf ."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistical error"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 2  of",
+                "     Conf.Proc.66PARIS,v.1,p.71,196"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "COREL"
+                ],
+                "subentry_number": "40093004",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " In 40093 - measurement with",
+                "other sample (see explanation on page 298 of",
+                "Sov.J.At.En.,v.24,p.296,1968 )"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 6,
+            "pointer": [
+              "1",
+              "1",
+              "2",
+              "2",
+              "3",
+              "3"
+            ],
+            "heading": [
+              "DATA",
+              "ERR-S",
+              "DATA",
+              "ERR-S",
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "EV",
+              "EV",
+              "MILLI-EV",
+              "MILLI-EV",
+              "MILLI-EV",
+              "MILLI-EV"
+            ],
+            "value": [
+              [
+                1.431,
+                0.007,
+                27.8,
+                2.0,
+                0.19,
+                0.01
+              ],
+              [
+                17.4,
+                0.08,
+                23.1,
+                4.0,
+                5.1,
+                0.6
+              ],
+              [
+                24.0,
+                0.12,
+                26.8,
+                8.0,
+                4.6,
+                0.8
+              ],
+              [
+                31.9,
+                0.2,
+                21.0,
+                8.0,
+                1.4,
+                0.25
+              ],
+              [
+                39.2,
+                0.3,
+                27.0,
+                10.0,
+                3.2,
+                0.8
+              ],
+              [
+                47.5,
+                0.35,
+                26.0,
+                11.0,
+                2.2,
+                0.8
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "41670006",
+            "N2": 20190603,
+            "alteration_flag": " ",
+            "transmission_identification": "4183"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "90-TH-230(N,EL),,WID/RED",
+                "code_unit": [
+                  {
+                    "unit": "90-TH-230(N,EL),,WID/RED",
+                    "field": {
+                      "reaction": "90-TH-230(N,EL)",
+                      "target": "90-TH-230",
+                      "projectile": "N",
+                      "process": "EL",
+                      "product": "",
+                      "quantity": ",WID/RED",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",WID/RED"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "AREA"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Of authors.",
+                "Resonances 1.107+-0.006, 2.39+-0.008, 7.8+-0.05 eV",
+                "belong to Hf ."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistical error"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 2 of",
+                "     Conf.Proc.66PARIS,v.1,p.71,1966"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "COREL"
+                ],
+                "subentry_number": "40093003",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " In 40093 - measurement with",
+                "other sample (see explanation on page 298 of",
+                "Sov.J.At.En.,v.24,p.296,1968 )"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MOMENTUM L"
+            ],
+            "unit": [
+              "NO-DIM"
+            ],
+            "value": [
+              0.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 6,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-RES",
+              "EN-RES-ERR",
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "EV",
+              "EV",
+              "MILLI-EV",
+              "MILLI-EV"
+            ],
+            "value": [
+              [
+                1.431,
+                0.007,
+                0.000159,
+                1e-05
+              ],
+              [
+                17.4,
+                0.08,
+                0.00122,
+                5e-05
+              ],
+              [
+                24.0,
+                0.12,
+                0.00094,
+                0.00016
+              ],
+              [
+                31.9,
+                0.2,
+                0.00025,
+                4e-05
+              ],
+              [
+                39.2,
+                0.3,
+                0.00051,
+                0.00012
+              ],
+              [
+                47.5,
+                0.35,
+                0.00032,
+                0.00012
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "41670007",
+            "N2": 20190603,
+            "alteration_flag": " ",
+            "transmission_identification": "4183"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "90-TH-230(N,EL),,STF",
+                "code_unit": [
+                  {
+                    "unit": "90-TH-230(N,EL),,STF",
+                    "field": {
+                      "reaction": "90-TH-230(N,EL)",
+                      "target": "90-TH-230",
+                      "projectile": "N",
+                      "process": "EL",
+                      "product": "",
+                      "quantity": ",STF",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",STF"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Derived by resonance parameters."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Text, page 77 of",
+                "     Conf.Proc.66PARIS,v.1,p.71,1966"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 3,
+            "N2": 0,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-RES-MIN",
+              "EN-RES-MAX",
+              "MOMENTUM L"
+            ],
+            "unit": [
+              "EV",
+              "EV",
+              "NO-DIM"
+            ],
+            "value": [
+              1.431,
+              47.5,
+              0.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 1,
+            "N2": 1,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "DATA"
+            ],
+            "unit": [
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                6e-05
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "41670008",
+            "N2": 20190603,
+            "alteration_flag": " ",
+            "transmission_identification": "4183"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "90-TH-230(N,0),,D",
+                "code_unit": [
+                  {
+                    "unit": "90-TH-230(N,0),,D",
+                    "field": {
+                      "reaction": "90-TH-230(N,0)",
+                      "target": "90-TH-230",
+                      "projectile": "N",
+                      "process": "0",
+                      "product": "",
+                      "quantity": ",D",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",D"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Derived by resonance parameters."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Text, page 77 of",
+                "     Conf.Proc.66PARIS,v.1,p.71,1966"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 2,
+            "N2": 0,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-RES-MIN",
+              "EN-RES-MAX"
+            ],
+            "unit": [
+              "EV",
+              "EV"
+            ],
+            "value": [
+              1.431,
+              47.5
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 1,
+            "N2": 1,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "DATA"
+            ],
+            "unit": [
+              "EV"
+            ],
+            "value": [
+              [
+                9.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 8,
+        "N2": 0
+      }
+    }
+  ]
+}

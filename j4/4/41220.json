@@ -1,0 +1,854 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T21:59:59+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "41220",
+        "N2": 20241212,
+        "alteration_flag": " ",
+        "transmission_identification": "4221"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "41220001",
+            "N2": 20241212,
+            "alteration_flag": " ",
+            "transmission_identification": "4221"
+          },
+          "BIB": {
+            "N1": 8,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Determination of the absorption cross section and of",
+                " the radiative capture cross section of uranium-233",
+                " for pile neutrons"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "G.M.Kukavadse",
+                "L.L.Goldin",
+                "M.P.Anikina",
+                "B.W.Ershler"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "C,55GENEVA,4,230,1955",
+                "code_unit": [
+                  {
+                    "unit": "C,55GENEVA,4,230,1955",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "C",
+                      "reference": {
+                        "code": "55GENEVA",
+                        "number": null,
+                        "volume": "4",
+                        "part": null,
+                        "issue": null,
+                        "page": "230"
+                      },
+                      "date": 1955
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "  Original paper in Russian",
+                "  was printed by USSR Academy of Sciences, 'Doklady",
+                "  sovetckoy delegatsii na mezhdunarodnoy konferentsii",
+                "  po mirnomu ispol'zovaniyu atomnoy energii', Geneve,",
+                "  1955, vol.2, 'Fizicheskie Issledovaniya', page 115",
+                "  Moscow 1955"
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "4RUSITE"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "SPECM"
+                ],
+                "institute": null
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INC-SPECT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Thermal reactor spectrum"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Errors are not specified"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19960926,
+                "history": "C"
+              },
+              "free_text": [
+                "  *  *  Compiled and converted in the",
+                "                 CJD-centre  *  *"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20241212,
+                "history": "U"
+              },
+              "free_text": [
+                " M.M. Upper -> lower case correction.",
+                " Dates were corrected for 4-digits year.",
+                " STATUS information was updated."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "41220002",
+            "N2": 20241212,
+            "alteration_flag": " ",
+            "transmission_identification": "4221"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(92-U-233(N,G)92-U-234,,SIG,,SPA)/(92-U-233(N,ABS),,SIG,,SPA)",
+                "code_unit": [
+                  {
+                    "unit": "92-U-233(N,G)92-U-234,,SIG,,SPA",
+                    "field": {
+                      "reaction": "92-U-233(N,G)92-U-234",
+                      "target": "92-U-233",
+                      "projectile": "N",
+                      "process": "G",
+                      "product": "92-U-234",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "SPA",
+                      "quantity_236": ",SIG"
+                    }
+                  },
+                  {
+                    "unit": "92-U-233(N,ABS),,SIG,,SPA",
+                    "field": {
+                      "reaction": "92-U-233(N,ABS)",
+                      "target": "92-U-233",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "SPA",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)/(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Absolute measurements"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "G.M.Kukavadse",
+                "reference": {
+                  "code": "C,55GENEVA,4,230,1955",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "55GENEVA",
+                      "number": null,
+                      "volume": "4",
+                      "part": null,
+                      "issue": null,
+                      "page": "230"
+                    },
+                    "date": 1955
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Text page 232."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19960926,
+                "history": "T"
+              },
+              "free_text": [
+                "  *  *  Converted from SUBENT 80333002",
+                "                 in the CJD-centre  *  *"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-DUMMY",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "EV",
+              "NO-DIM",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                0.0253,
+                0.087,
+                0.003
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "41220003",
+            "N2": 20241212,
+            "alteration_flag": " ",
+            "transmission_identification": "4221"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "92-U-233(N,ABS),,ALF,,MXW",
+                "code_unit": [
+                  {
+                    "unit": "92-U-233(N,ABS),,ALF,,MXW",
+                    "field": {
+                      "reaction": "92-U-233(N,ABS)",
+                      "target": "92-U-233",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ALF",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": ",ALF"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "ASEP"
+              ],
+              "free_text": [
+                " Mass spectrometric and isotopic dilution",
+                " analysis, as well as alpha-counting. Integrated",
+                " flux monitored by change in isotope ratio of Li",
+                " sample irradiated with U-233."
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "3-LI-6(N,ABS),,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "3-LI-6(N,ABS),,SIG",
+                      "field": {
+                        "reaction": "3-LI-6(N,ABS)",
+                        "target": "3-LI-6",
+                        "projectile": "N",
+                        "process": "ABS",
+                        "product": "",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SCSRS"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Source of data is not clear."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19960926,
+                "history": "T"
+              },
+              "free_text": [
+                "  *  *  Converted from SUBENT 80333005",
+                "                 in the CJD-centre  *  *"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-DUMMY",
+              "DATA",
+              "DATA-ERR",
+              "MONIT"
+            ],
+            "unit": [
+              "EV",
+              "NO-DIM",
+              "NO-DIM",
+              "B"
+            ],
+            "value": [
+              [
+                0.0253,
+                0.095,
+                0.003,
+                930.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "41220004",
+            "N2": 20241212,
+            "alteration_flag": " ",
+            "transmission_identification": "4221"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "92-U-233(N,G)92-U-234,,SIG,,SPA",
+                "code_unit": [
+                  {
+                    "unit": "92-U-233(N,G)92-U-234,,SIG,,SPA",
+                    "field": {
+                      "reaction": "92-U-233(N,G)92-U-234",
+                      "target": "92-U-233",
+                      "projectile": "N",
+                      "process": "G",
+                      "product": "92-U-234",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "SPA",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "79-AU-197(N,G)79-AU-198,,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "79-AU-197(N,G)79-AU-198,,SIG",
+                      "field": {
+                        "reaction": "79-AU-197(N,G)79-AU-198",
+                        "target": "79-AU-197",
+                        "projectile": "N",
+                        "process": "G",
+                        "product": "79-AU-198",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SCSRS"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Source of data is not clear."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "41220002",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Calculated from measured ratio to",
+                " absorption."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19960926,
+                "history": "T"
+              },
+              "free_text": [
+                "  *  *  Converted from SUBENT 80333006",
+                "                 in the CJD-centre  *  *"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20241212,
+                "history": "A"
+              },
+              "free_text": [
+                " \"DEP,41216002\" -> \"DEP,41220002\" (in 41216",
+                " Am-241 data)"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-DUMMY",
+              "DATA",
+              "DATA-ERR",
+              "MONIT"
+            ],
+            "unit": [
+              "EV",
+              "B",
+              "B",
+              "B"
+            ],
+            "value": [
+              [
+                0.0253,
+                50.0,
+                2.0,
+                98.8
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "41220005",
+            "N2": 20241212,
+            "alteration_flag": " ",
+            "transmission_identification": "4221"
+          },
+          "BIB": {
+            "N1": 6,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "92-U-233(N,ABS),,SIG,,SPA",
+                "code_unit": [
+                  {
+                    "unit": "92-U-233(N,ABS),,SIG,,SPA",
+                    "field": {
+                      "reaction": "92-U-233(N,ABS)",
+                      "target": "92-U-233",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "SPA",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "BURN"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "3-LI-6(N,ABS),,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "3-LI-6(N,ABS),,SIG",
+                      "field": {
+                        "reaction": "3-LI-6(N,ABS)",
+                        "target": "3-LI-6",
+                        "projectile": "N",
+                        "process": "ABS",
+                        "product": "",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Cross section was determined by measured ratio of",
+                " U capture cross-section to Li6 absorption cross",
+                " section - 0.73 (without self-shielding),",
+                "           0.66+-0.03 (with self-shielding correction)."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "G.M.Kukavadse",
+                "reference": {
+                  "code": "C,55GENEVA,4,230,1955",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "55GENEVA",
+                      "number": null,
+                      "volume": "4",
+                      "part": null,
+                      "issue": null,
+                      "page": "230"
+                    },
+                    "date": 1955
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Text page 232."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19960926,
+                "history": "T"
+              },
+              "free_text": [
+                "  *  *  Converted from SUBENT 80333007",
+                "                 in the CJD-centre  *  *"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-DUMMY",
+              "DATA",
+              "DATA-ERR",
+              "MONIT"
+            ],
+            "unit": [
+              "EV",
+              "B",
+              "B",
+              "B"
+            ],
+            "value": [
+              [
+                0.0253,
+                615.0,
+                30.0,
+                930.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 5,
+        "N2": 0
+      }
+    }
+  ]
+}

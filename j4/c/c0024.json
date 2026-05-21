@@ -1,0 +1,903 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T22:23:04+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "C0024",
+        "N2": 20181107,
+        "alteration_flag": " ",
+        "transmission_identification": "C181"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "C0024001",
+            "N2": 20181107,
+            "alteration_flag": " ",
+            "transmission_identification": "C181"
+          },
+          "BIB": {
+            "N1": 8,
+            "N2": 0
+          },
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "2UK OXF"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,PR,81,602,1951",
+                "code_unit": [
+                  {
+                    "unit": "J,PR,81,602,1951",
+                    "doi": "10.1103/PhysRev.81.602",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "PR",
+                        "number": null,
+                        "volume": "81",
+                        "part": null,
+                        "issue": null,
+                        "page": "602"
+                      },
+                      "date": 1951
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "K.G.McNeill",
+                "G.M.Keyser"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The Relative Probabilities and Absolute Cross Sections",
+                " of the D-D Reactions"
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "ACCEL"
+                ],
+                "institute": "2UK OXF"
+              },
+              "free_text": [
+                " Philip's type generator."
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "D gas target."
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "PROPC"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19960227,
+                "history": "C"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20020213,
+                "history": "A"
+              },
+              "free_text": [
+                " Converted to new date formats."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20180821,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. Data corrections in subs.3,4.",
+                "  ERR-ANALYS, STATUS updated."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "C0024002",
+            "N2": 20181107,
+            "alteration_flag": " ",
+            "transmission_identification": "C181"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(1-H-2(D,N)2-HE-3,,DA)/(1-H-2(D,P)1-H-3,,DA)",
+                "code_unit": [
+                  {
+                    "unit": "1-H-2(D,N)2-HE-3,,DA",
+                    "field": {
+                      "reaction": "1-H-2(D,N)2-HE-3",
+                      "target": "1-H-2",
+                      "projectile": "D",
+                      "process": "N",
+                      "product": "2-HE-3",
+                      "quantity": ",DA",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",DA"
+                    }
+                  },
+                  {
+                    "unit": "1-H-2(D,P)1-H-3,,DA",
+                    "field": {
+                      "reaction": "1-H-2(D,P)1-H-3",
+                      "target": "1-H-2",
+                      "projectile": "D",
+                      "process": "P",
+                      "product": "1-H-3",
+                      "quantity": ",DA",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",DA"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)/(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistical uncertainty"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-SYS",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Additional 2.7% uncertainty due to:",
+                ". reading of pressure (0.5%),",
+                ". thermocouple emf (0.5%),",
+                ". inaccuracy of beam voltage effect on",
+                "  . determination of current from calorimeter readings",
+                "    (1.5%),",
+                "  . branching ratio values (0.2%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table I, Phys.Rev.81,602(1951)"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 2,
+            "N2": 0,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "ANG",
+              "ERR-SYS"
+            ],
+            "unit": [
+              "ADEG",
+              "PER-CENT"
+            ],
+            "value": [
+              90.0,
+              2.7
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 4,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "KEV",
+              "NO-DIM",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                120.0,
+                0.95,
+                0.04
+              ],
+              [
+                140.0,
+                1.0,
+                0.07
+              ],
+              [
+                160.0,
+                1.0,
+                0.04
+              ],
+              [
+                250.0,
+                1.06,
+                0.04
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "C0024003",
+            "N2": 20181107,
+            "alteration_flag": " ",
+            "transmission_identification": "C181"
+          },
+          "BIB": {
+            "N1": 6,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "code": "1-H-2(D,N)2-HE-3,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "1-H-2(D,N)2-HE-3,,SIG",
+                    "field": {
+                      "reaction": "1-H-2(D,N)2-HE-3",
+                      "target": "1-H-2",
+                      "projectile": "D",
+                      "process": "N",
+                      "product": "2-HE-3",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "code": "1-H-2(D,P)1-H-3,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "1-H-2(D,P)1-H-3,,SIG",
+                    "field": {
+                      "reaction": "1-H-2(D,P)1-H-3",
+                      "target": "1-H-2",
+                      "projectile": "D",
+                      "process": "P",
+                      "product": "1-H-3",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "4PI1A"
+              ],
+              "free_text": [
+                "  Calculated from branching ratio for (d,n)",
+                " and (d,p) branches, assuming angular anisotropy",
+                " given."
+              ]
+            }
+          ],
+          "ASSUMED": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ASSUM",
+                "reaction": {
+                  "code": "(1-H-2(D,N)2-HE-3,,POL/DA,,ASY)=(1-H-2(D,P)1-H-3,,POL/DA,,ASY)",
+                  "code_unit": [
+                    {
+                      "unit": "1-H-2(D,N)2-HE-3,,POL/DA,,ASY",
+                      "field": {
+                        "reaction": "1-H-2(D,N)2-HE-3",
+                        "target": "1-H-2",
+                        "projectile": "D",
+                        "process": "N",
+                        "product": "2-HE-3",
+                        "quantity": ",POL/DA,,ASY",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",POL/DA,,ASY"
+                      }
+                    },
+                    {
+                      "unit": "1-H-2(D,P)1-H-3,,POL/DA,,ASY",
+                      "field": {
+                        "reaction": "1-H-2(D,P)1-H-3",
+                        "target": "1-H-2",
+                        "projectile": "D",
+                        "process": "P",
+                        "product": "1-H-3",
+                        "quantity": ",POL/DA,,ASY",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",POL/DA,,ASY"
+                      }
+                    }
+                  ],
+                  "unit_combination": "((%)=(%))"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-SYS",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Systematic uncertainty of up to 20% due to:",
+                ". geometric error (10%),",
+                ". calibration and reading of McLeod gauge (3.5%),",
+                ". current measurement uncertainty (4.5%),",
+                ". estimation of deuterium content of gas target (0.5%),",
+                ". energy uncertainty (1.5%)."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistical uncertainty"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "C0024002",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table II, Phys.Rev.81,602(1951)"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20020213,
+                "history": "A"
+              },
+              "free_text": [
+                " Assumed reaction corrected."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20180821,
+                "history": "A"
+              },
+              "free_text": [
+                " Num.value for REACTION 2 at 250 keV corr."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "ERR-SYS"
+            ],
+            "unit": [
+              "PER-CENT"
+            ],
+            "value": [
+              20.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 5,
+            "N2": 5,
+            "pointer": [
+              "",
+              "1",
+              "2",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "DATA",
+              "ERR-S",
+              "ASSUM"
+            ],
+            "unit": [
+              "KEV",
+              "B",
+              "B",
+              "PER-CENT",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                120.0,
+                0.019,
+                0.02,
+                3.0,
+                0.55
+              ],
+              [
+                140.0,
+                0.026,
+                0.026,
+                5.0,
+                0.63
+              ],
+              [
+                160.0,
+                0.026,
+                0.026,
+                3.0,
+                0.7
+              ],
+              [
+                250.0,
+                0.038,
+                0.036,
+                3.0,
+                1.0
+              ],
+              [
+                300.0,
+                null,
+                0.049,
+                6.0,
+                1.18
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "C0024004",
+            "N2": 20181107,
+            "alteration_flag": " ",
+            "transmission_identification": "C181"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "code": "1-H-2(D,N)2-HE-3,,DA",
+                "code_unit": [
+                  {
+                    "unit": "1-H-2(D,N)2-HE-3,,DA",
+                    "field": {
+                      "reaction": "1-H-2(D,N)2-HE-3",
+                      "target": "1-H-2",
+                      "projectile": "D",
+                      "process": "N",
+                      "product": "2-HE-3",
+                      "quantity": ",DA",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",DA"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "code": "1-H-2(D,P)1-H-3,,DA",
+                "code_unit": [
+                  {
+                    "unit": "1-H-2(D,P)1-H-3,,DA",
+                    "field": {
+                      "reaction": "1-H-2(D,P)1-H-3",
+                      "target": "1-H-2",
+                      "projectile": "D",
+                      "process": "P",
+                      "product": "1-H-3",
+                      "quantity": ",DA",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",DA"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Calculated from branching ratio for (d,n) and (d,p)",
+                " branches."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-SYS",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Systematic uncertainty of up to 20% due to:",
+                ". geometric error (10%),",
+                ". calibration and reading of McLeod gauge (3.5%),",
+                ". current measurement uncertainty (4.5%),",
+                ". estimation of deuterium content of gas target (0.5%),",
+                ". energy uncertainty (1.5%)."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistical uncertainty"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "C0024002",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table III, Phys.Rev.81,602(1951)"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19980305,
+                "history": "C"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20181104,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. Data units corrected to B/SR."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 2,
+            "N2": 0,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "ANG",
+              "ERR-SYS"
+            ],
+            "unit": [
+              "ADEG",
+              "PER-CENT"
+            ],
+            "value": [
+              90.0,
+              20.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 5,
+            "pointer": [
+              "",
+              "1",
+              "2",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "DATA",
+              "ERR-S"
+            ],
+            "unit": [
+              "KEV",
+              "B/SR",
+              "B/SR",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                120.0,
+                0.0012,
+                0.0013,
+                3.0
+              ],
+              [
+                140.0,
+                0.0017,
+                0.0017,
+                5.0
+              ],
+              [
+                160.0,
+                0.0016,
+                0.0016,
+                3.0
+              ],
+              [
+                250.0,
+                0.0022,
+                0.0021,
+                3.0
+              ],
+              [
+                300.0,
+                null,
+                0.0023,
+                6.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 4,
+        "N2": 0
+      }
+    }
+  ]
+}

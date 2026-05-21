@@ -1,0 +1,3163 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T21:42:54+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "31842",
+        "N2": 20211208,
+        "alteration_flag": " ",
+        "transmission_identification": "3206"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "31842001",
+            "N2": 20211208,
+            "alteration_flag": " ",
+            "transmission_identification": "3206"
+          },
+          "BIB": {
+            "N1": 14,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Activation cross-section measurement of fast",
+                " neutron-induced reactions in Al, Au, Bi, Co, F, Na,",
+                " and Y"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "J.Jarosik",
+                "V.Wagner",
+                "M.Majerle",
+                "P.Chudoba",
+                "N.Burianova",
+                "M.Stefanik"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,NIM/B,511,64,2022",
+                "code_unit": [
+                  {
+                    "unit": "J,NIM/B,511,64,2022",
+                    "doi": "10.1016/j.nimb.2021.10.018",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "NIM/B",
+                        "number": null,
+                        "volume": "511",
+                        "part": null,
+                        "issue": null,
+                        "page": "64"
+                      },
+                      "date": 2022
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "3CZRUJF",
+                "3CZRCTI",
+                "3CZRCHU"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "ISOCY"
+                ],
+                "institute": "3CZRUJF"
+              },
+              "free_text": [
+                " U-120M isochronous cyclotron"
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "P-LI7"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                " protons (20-35 MeV) on Li target (2 mm) and",
+                " C beam stopper (10 mm)"
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "F:",
+                " NaF powder encapsulated with 16 mm in diameter and",
+                " 2 mm in thickness.",
+                "Others:",
+                " High purity (>99.9%) thin foils (25 x 25 mm,",
+                " 0.1-1.0 mm thick, 0.2-1.8 g)"
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "HPGE"
+              ],
+              "free_text": [
+                " HPGe detector, relative efficiency of 30%,",
+                " energy resolution of 1.8 keV (FWHM) at 1332 keV",
+                " calibrated by a measurement and MCNPX calculation"
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "ACTIV"
+              ],
+              "free_text": [
+                " Irradiated for 10 hours"
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "3-LI-7(P,N)4-BE-7,,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "3-LI-7(P,N)4-BE-7,,SIG",
+                      "field": {
+                        "reaction": "3-LI-7(P,N)4-BE-7",
+                        "target": "3-LI-7",
+                        "projectile": "P",
+                        "process": "N",
+                        "product": "4-BE-7",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for",
+                " - gamma self-absorption",
+                " - beam instability (very small or negligible)",
+                " - true cascade coincidences",
+                " - square-emitter correction",
+                "   (geometric transformation of efficiency from",
+                "    point- to square-source)",
+                " - low-energy neutron",
+                "   (by excitation function calculated by TALYS 1.95",
+                "    and 7Li(p,n) neutron spectrum calculated by",
+                "    MCNPX+JENDL-4.0 and MCNPX+LA150H library)"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total uncertainty propagated from",
+                "        - gamma self-absorption        (tenths %)",
+                "        - beam instability             (tenths %)",
+                "        - gamma intensity        (tenths % to 1%)",
+                "        - decay constant (hundredths to tenths %)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - true cascade correction            (2%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - square-emitter correction          (5%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - peak efficiency                    (2%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-4",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - number of peak neutrons            (7%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-5",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - low energy neutron correction",
+                " (uncertainty estimated by standard deviation of",
+                "  correction factors from 6 level density models",
+                "  and two 7Li(p,n) data libraries.)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "APRVD"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Proof-read by Jiri Jarosik (2021-12-14)"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20211208,
+                "history": "C"
+              },
+              "free_text": [
+                " On"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 4,
+            "N2": 0,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "ERR-1",
+              "ERR-2",
+              "ERR-3",
+              "ERR-4"
+            ],
+            "unit": [
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              2.0,
+              5.0,
+              2.0,
+              7.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31842002",
+            "N2": 20211208,
+            "alteration_flag": " ",
+            "transmission_identification": "3206"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "27-CO-59(N,2N)27-CO-58-G,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "27-CO-59(N,2N)27-CO-58-G,,SIG",
+                    "field": {
+                      "reaction": "27-CO-59(N,2N)27-CO-58-G",
+                      "target": "27-CO-59",
+                      "projectile": "N",
+                      "process": "2N",
+                      "product": "27-CO-58-G",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "27-CO-58-G",
+                "half-life": {
+                  "value": 70.86,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      810.7593
+                    ],
+                    "intensity": 0.9945
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "DECAY"
+              ],
+              "free_text": [
+                " Separation of 58gCo and 58mCo contribution"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - gamma peak area                (0.1-7%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 5 of Nucl.Instrum.Meth.B511(2022)64"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "COREL"
+                ],
+                "subentry_number": "31842003",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " 59Co(n,2n)58mCo cross section"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA",
+              "ERR-T",
+              "ERR-5",
+              "ERR-S"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                17.5,
+                1.0,
+                307.0,
+                28.0,
+                1.9,
+                0.14
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31842003",
+            "N2": 20211208,
+            "alteration_flag": " ",
+            "transmission_identification": "3206"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "27-CO-59(N,2N)27-CO-58-M,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "27-CO-59(N,2N)27-CO-58-M,,SIG",
+                    "field": {
+                      "reaction": "27-CO-59(N,2N)27-CO-58-M",
+                      "target": "27-CO-59",
+                      "projectile": "N",
+                      "process": "2N",
+                      "product": "27-CO-58-M",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "27-CO-58-G",
+                "half-life": {
+                  "value": 70.86,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      810.7593
+                    ],
+                    "intensity": 0.9945
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "DECAY"
+              ],
+              "free_text": [
+                " Separation of 58gCo and 58mCo contribution"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 5 of Nucl.Instrum.Meth.B511(2022)64"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "COREL"
+                ],
+                "subentry_number": "31842002",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " 59Co(n,2n)58gCo cross section"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 5,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA",
+              "ERR-T",
+              "ERR-5"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                17.5,
+                1.0,
+                480.0,
+                40.0,
+                2.2
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31842004",
+            "N2": 20211208,
+            "alteration_flag": " ",
+            "transmission_identification": "3206"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "27-CO-59(N,P)26-FE-59,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "27-CO-59(N,P)26-FE-59,,SIG",
+                    "field": {
+                      "reaction": "27-CO-59(N,P)26-FE-59",
+                      "target": "27-CO-59",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "26-FE-59",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "26-FE-59",
+                "half-life": {
+                  "value": 44.49,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1099.245
+                    ],
+                    "intensity": 0.565
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1291.59
+                    ],
+                    "intensity": 0.432
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - gamma peak area                (0.1-7%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 5 of Nucl.Instrum.Meth.B511(2022)64"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA",
+              "ERR-T",
+              "ERR-5",
+              "ERR-S"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                17.5,
+                1.0,
+                28.4,
+                2.9,
+                4.6,
+                0.2
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31842005",
+            "N2": 20211208,
+            "alteration_flag": " ",
+            "transmission_identification": "3206"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "27-CO-59(N,A)25-MN-56,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "27-CO-59(N,A)25-MN-56,,SIG",
+                    "field": {
+                      "reaction": "27-CO-59(N,A)25-MN-56",
+                      "target": "27-CO-59",
+                      "projectile": "N",
+                      "process": "A",
+                      "product": "25-MN-56",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "25-MN-56",
+                "half-life": {
+                  "value": 2.5789,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      846.7638
+                    ],
+                    "intensity": 0.9885
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - gamma peak area                (0.1-7%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 5 of Nucl.Instrum.Meth.B511(2022)64"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA",
+              "ERR-T",
+              "ERR-5",
+              "ERR-S"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                17.5,
+                1.0,
+                20.8,
+                2.2,
+                5.2,
+                0.32
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31842006",
+            "N2": 20211208,
+            "alteration_flag": " ",
+            "transmission_identification": "3206"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "39-Y-89(N,2N)39-Y-88,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "39-Y-89(N,2N)39-Y-88,,SIG",
+                    "field": {
+                      "reaction": "39-Y-89(N,2N)39-Y-88",
+                      "target": "39-Y-89",
+                      "projectile": "N",
+                      "process": "2N",
+                      "product": "39-Y-88",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "39-Y-88",
+                "half-life": {
+                  "value": 106.626,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      898.042
+                    ],
+                    "intensity": 0.937
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1836.063
+                    ],
+                    "intensity": 0.992
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - gamma peak area                (0.1-7%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 6 of Nucl.Instrum.Meth.B511(2022)64"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 3,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA",
+              "ERR-T",
+              "ERR-5",
+              "ERR-S"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                17.5,
+                1.0,
+                1120.0,
+                100.0,
+                1.2,
+                0.22
+              ],
+              [
+                19.8,
+                0.9,
+                1110.0,
+                110.0,
+                4.8,
+                0.18
+              ],
+              [
+                27.5,
+                0.7,
+                580.0,
+                90.0,
+                13.1,
+                0.06
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31842007",
+            "N2": 20211208,
+            "alteration_flag": " ",
+            "transmission_identification": "3206"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "39-Y-89(N,3N)39-Y-87-G,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "39-Y-89(N,3N)39-Y-87-G,,SIG",
+                    "field": {
+                      "reaction": "39-Y-89(N,3N)39-Y-87-G",
+                      "target": "39-Y-89",
+                      "projectile": "N",
+                      "process": "3N",
+                      "product": "39-Y-87-G",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "39-Y-87-G",
+                "half-life": {
+                  "value": 79.8,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      484.805
+                    ],
+                    "intensity": 0.898
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for 87mY decay contribution"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - gamma peak area                (0.1-7%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 6 of Nucl.Instrum.Meth.B511(2022)64"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "31842008",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " 88Y(n,3n)87mY cross section"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA",
+              "ERR-T",
+              "ERR-5",
+              "ERR-S"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                27.5,
+                0.7,
+                110.0,
+                10.0,
+                0.4,
+                0.03
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31842008",
+            "N2": 20211208,
+            "alteration_flag": " ",
+            "transmission_identification": "3206"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "39-Y-89(N,3N)39-Y-87-M,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "39-Y-89(N,3N)39-Y-87-M,,SIG",
+                    "field": {
+                      "reaction": "39-Y-89(N,3N)39-Y-87-M",
+                      "target": "39-Y-89",
+                      "projectile": "N",
+                      "process": "3N",
+                      "product": "39-Y-87-M",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "39-Y-87-M",
+                "half-life": {
+                  "value": 13.37,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      380.79
+                    ],
+                    "intensity": 0.7805
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - gamma peak area                (0.1-7%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 6 of Nucl.Instrum.Meth.B511(2022)64"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA",
+              "ERR-T",
+              "ERR-5",
+              "ERR-S"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                27.5,
+                0.7,
+                318.0,
+                29.0,
+                0.4,
+                0.06
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31842009",
+            "N2": 20211208,
+            "alteration_flag": " ",
+            "transmission_identification": "3206"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "11-NA-23(N,2N)11-NA-22,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "11-NA-23(N,2N)11-NA-22,,SIG",
+                    "field": {
+                      "reaction": "11-NA-23(N,2N)11-NA-22",
+                      "target": "11-NA-23",
+                      "projectile": "N",
+                      "process": "2N",
+                      "product": "11-NA-22",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "11-NA-22",
+                "half-life": {
+                  "value": 2.6018,
+                  "unit": "YR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1274.537
+                    ],
+                    "intensity": 0.9994
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - gamma peak area                (0.1-7%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 6 of Nucl.Instrum.Meth.B511(2022)64"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA",
+              "ERR-T",
+              "ERR-5",
+              "ERR-S"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                17.5,
+                1.0,
+                95.0,
+                9.0,
+                0.6,
+                1.44
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31842010",
+            "N2": 20211208,
+            "alteration_flag": " ",
+            "transmission_identification": "3206"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "79-AU-197(N,2N)79-AU-196-G+M1,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "79-AU-197(N,2N)79-AU-196-G+M1,,SIG",
+                    "field": {
+                      "reaction": "79-AU-197(N,2N)79-AU-196-G+M1",
+                      "target": "79-AU-197",
+                      "projectile": "N",
+                      "process": "2N",
+                      "product": "79-AU-196-G+M1",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "79-AU-196-G",
+                "half-life": {
+                  "value": 6.1669,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      355.73
+                    ],
+                    "intensity": 0.87
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - gamma peak area                (0.1-7%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 7 of Nucl.Instrum.Meth.B511(2022)64"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 3,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA",
+              "ERR-T",
+              "ERR-5",
+              "ERR-S"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                17.5,
+                1.0,
+                1500.0,
+                170.0,
+                5.9,
+                0.04
+              ],
+              [
+                19.8,
+                0.9,
+                710.0,
+                90.0,
+                8.2,
+                0.07
+              ],
+              [
+                27.5,
+                0.7,
+                350.0,
+                50.0,
+                12.2,
+                0.03
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31842011",
+            "N2": 20211208,
+            "alteration_flag": " ",
+            "transmission_identification": "3206"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "79-AU-197(N,2N)79-AU-196-M2,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "79-AU-197(N,2N)79-AU-196-M2,,SIG",
+                    "field": {
+                      "reaction": "79-AU-197(N,2N)79-AU-196-M2",
+                      "target": "79-AU-197",
+                      "projectile": "N",
+                      "process": "2N",
+                      "product": "79-AU-196-M2",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "79-AU-196-M2",
+                "half-life": {
+                  "value": 9.6,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      147.81
+                    ],
+                    "intensity": 0.43
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      188.27
+                    ],
+                    "intensity": 0.34
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - gamma peak area                (0.1-7%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 7 of Nucl.Instrum.Meth.B511(2022)64"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 3,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA",
+              "ERR-T",
+              "ERR-5",
+              "ERR-S"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                17.5,
+                1.0,
+                211.0,
+                20.0,
+                2.1,
+                0.24
+              ],
+              [
+                19.8,
+                0.9,
+                147.0,
+                18.0,
+                8.0,
+                0.29
+              ],
+              [
+                27.5,
+                0.7,
+                67.0,
+                11.0,
+                13.2,
+                0.16
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31842012",
+            "N2": 20211208,
+            "alteration_flag": " ",
+            "transmission_identification": "3206"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "79-AU-197(N,3N)79-AU-195,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "79-AU-197(N,3N)79-AU-195,,SIG",
+                    "field": {
+                      "reaction": "79-AU-197(N,3N)79-AU-195",
+                      "target": "79-AU-197",
+                      "projectile": "N",
+                      "process": "3N",
+                      "product": "79-AU-195",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "79-AU-195-G",
+                "half-life": {
+                  "value": 186.01,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      129.735
+                    ],
+                    "intensity": 0.0084
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - gamma peak area                (0.1-7%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 7 of Nucl.Instrum.Meth.B511(2022)64"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 3,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA",
+              "ERR-T",
+              "ERR-5",
+              "ERR-S"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                17.5,
+                1.0,
+                320.0,
+                30.0,
+                0.1,
+                6.09
+              ],
+              [
+                19.8,
+                0.9,
+                1420.0,
+                140.0,
+                1.8,
+                4.08
+              ],
+              [
+                27.5,
+                0.7,
+                1540.0,
+                170.0,
+                6.5,
+                0.44
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31842013",
+            "N2": 20211208,
+            "alteration_flag": " ",
+            "transmission_identification": "3206"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "79-AU-197(N,4N)79-AU-194,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "79-AU-197(N,4N)79-AU-194,,SIG",
+                    "field": {
+                      "reaction": "79-AU-197(N,4N)79-AU-194",
+                      "target": "79-AU-197",
+                      "projectile": "N",
+                      "process": "4N",
+                      "product": "79-AU-194",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "79-AU-194-G",
+                "half-life": {
+                  "value": 38.02,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      328.464
+                    ],
+                    "intensity": 0.604
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - gamma peak area                (0.1-7%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 7 of Nucl.Instrum.Meth.B511(2022)64"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA",
+              "ERR-T",
+              "ERR-5",
+              "ERR-S"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                27.5,
+                0.7,
+                280.0,
+                25.0,
+                0.1,
+                0.11
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31842014",
+            "N2": 20211208,
+            "alteration_flag": " ",
+            "transmission_identification": "3206"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "83-BI-209(N,3N)83-BI-207,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "83-BI-209(N,3N)83-BI-207,,SIG",
+                    "field": {
+                      "reaction": "83-BI-209(N,3N)83-BI-207",
+                      "target": "83-BI-209",
+                      "projectile": "N",
+                      "process": "3N",
+                      "product": "83-BI-207",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "83-BI-207",
+                "half-life": {
+                  "value": 31.55,
+                  "unit": "YR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      569.698
+                    ],
+                    "intensity": 0.9775
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1063.656
+                    ],
+                    "intensity": 0.745
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - gamma peak area                (0.1-7%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 8 of Nucl.Instrum.Meth.B511(2022)64"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 3,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA",
+              "ERR-T",
+              "ERR-5",
+              "ERR-S"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                17.5,
+                1.0,
+                470.0,
+                40.0,
+                0.1,
+                0.94
+              ],
+              [
+                19.8,
+                0.9,
+                1360.0,
+                130.0,
+                2.1,
+                0.41
+              ],
+              [
+                27.5,
+                0.7,
+                1400.0,
+                160.0,
+                7.3,
+                0.11
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31842015",
+            "N2": 20211208,
+            "alteration_flag": " ",
+            "transmission_identification": "3206"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "83-BI-209(N,4N)83-BI-206,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "83-BI-209(N,4N)83-BI-206,,SIG",
+                    "field": {
+                      "reaction": "83-BI-209(N,4N)83-BI-206",
+                      "target": "83-BI-209",
+                      "projectile": "N",
+                      "process": "4N",
+                      "product": "83-BI-206",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "83-BI-206",
+                "half-life": {
+                  "value": 6.243,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      516.18
+                    ],
+                    "intensity": 0.408
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      803.1
+                    ],
+                    "intensity": 0.99
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      881.01
+                    ],
+                    "intensity": 0.662
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - gamma peak area                (0.1-7%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 8 of Nucl.Instrum.Meth.B511(2022)64"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA",
+              "ERR-T",
+              "ERR-5",
+              "ERR-S"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                27.5,
+                0.7,
+                420.0,
+                40.0,
+                0.1,
+                0.04
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31842016",
+            "N2": 20211208,
+            "alteration_flag": " ",
+            "transmission_identification": "3206"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "13-AL-27(N,P)12-MG-27,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "13-AL-27(N,P)12-MG-27,,SIG",
+                    "field": {
+                      "reaction": "13-AL-27(N,P)12-MG-27",
+                      "target": "13-AL-27",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "12-MG-27",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "12-MG-27",
+                "half-life": {
+                  "value": 9.458,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      843.76
+                    ],
+                    "intensity": 0.718
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1014.52
+                    ],
+                    "intensity": 0.282
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - gamma peak area                (0.1-7%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 8 of Nucl.Instrum.Meth.B511(2022)64"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 3,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA",
+              "ERR-T",
+              "ERR-5",
+              "ERR-S"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                17.5,
+                1.0,
+                25.0,
+                3.0,
+                8.6,
+                1.46
+              ],
+              [
+                19.8,
+                0.9,
+                19.0,
+                3.0,
+                12.1,
+                3.61
+              ],
+              [
+                27.5,
+                0.7,
+                12.5,
+                2.2,
+                15.0,
+                1.22
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31842017",
+            "N2": 20211208,
+            "alteration_flag": " ",
+            "transmission_identification": "3206"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "13-AL-27(N,A)11-NA-24,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "13-AL-27(N,A)11-NA-24,,SIG",
+                    "field": {
+                      "reaction": "13-AL-27(N,A)11-NA-24",
+                      "target": "13-AL-27",
+                      "projectile": "N",
+                      "process": "A",
+                      "product": "11-NA-24",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "11-NA-24",
+                "half-life": {
+                  "value": 14.997,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1368.626
+                    ],
+                    "intensity": 0.999936
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - gamma peak area                (0.1-7%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 8 of Nucl.Instrum.Meth.B511(2022)64"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 3,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA",
+              "ERR-T",
+              "ERR-5",
+              "ERR-S"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                17.5,
+                1.0,
+                63.0,
+                6.0,
+                5.2,
+                0.33
+              ],
+              [
+                19.8,
+                0.9,
+                35.0,
+                4.0,
+                7.9,
+                0.39
+              ],
+              [
+                27.5,
+                0.7,
+                12.6,
+                1.7,
+                10.1,
+                0.33
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31842018",
+            "N2": 20211208,
+            "alteration_flag": " ",
+            "transmission_identification": "3206"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "9-F-19(N,2N)9-F-18,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "9-F-19(N,2N)9-F-18,,SIG",
+                    "field": {
+                      "reaction": "9-F-19(N,2N)9-F-18",
+                      "target": "9-F-19",
+                      "projectile": "N",
+                      "process": "2N",
+                      "product": "9-F-18",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "9-F-18",
+                "half-life": {
+                  "value": 109.77,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "AR"
+                    ],
+                    "energy": null,
+                    "intensity": 0.9673
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - gamma peak area                (0.1-7%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 9 of Nucl.Instrum.Meth.B511(2022)64"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA",
+              "ERR-T",
+              "ERR-5",
+              "ERR-S"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                17.5,
+                1.0,
+                105.0,
+                11.0,
+                1.0,
+                4.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 18,
+        "N2": 0
+      }
+    }
+  ]
+}

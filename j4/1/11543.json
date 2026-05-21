@@ -1,0 +1,810 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T19:26:55+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "11543",
+        "N2": 20200419,
+        "alteration_flag": " ",
+        "transmission_identification": "1466"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "11543001",
+            "N2": 20200419,
+            "alteration_flag": " ",
+            "transmission_identification": "1466"
+          },
+          "BIB": {
+            "N1": 10,
+            "N2": 0
+          },
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "1CANCRC"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,CJC,41,123,1963",
+                "code_unit": [
+                  {
+                    "unit": "J,CJC,41,123,1963",
+                    "doi": "10.1139/v63-016",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "CJC",
+                        "number": null,
+                        "volume": "41",
+                        "part": null,
+                        "issue": null,
+                        "page": "123"
+                      },
+                      "date": 1963
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "D.C.Santry",
+                "J.P.Butler"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The S32(n,p)P32 reaction as a fast-neutron flux",
+                "monitor."
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "ACCEL"
+                ],
+                "institute": "1CANCRC"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "PROPC"
+              ],
+              "free_text": [
+                " End-window beta proportional counter"
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": "11571001",
+                "author": "L.Allen Jr+",
+                "reference": {
+                  "code": "J,PR,107,1363,1957",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "107",
+                      "part": null,
+                      "issue": null,
+                      "page": "1363",
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 1957
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Monitor values cited by Santry et al. do not precisely",
+                " match tabulated values of Allen et al.",
+                " (Note by compiler)"
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "15-P-32",
+                "half-life": {
+                  "value": 14.22,
+                  "unit": "D"
+                },
+                "radiation": []
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table IV, Can.J.Phys.41,123,1963"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19760715,
+                "history": "T"
+              },
+              "free_text": [
+                " Translated from SCISRS"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19830412,
+                "history": "A"
+              },
+              "free_text": [
+                " Converted to reaction formalism"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20200416,
+                "history": "U"
+              },
+              "free_text": [
+                " OS. Added FACILITY, DETECTOR, MONIT-REF,",
+                " ERR-ANALYS, converted to lower case, minor BIB changes"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "11543002",
+            "N2": 20200419,
+            "alteration_flag": " ",
+            "transmission_identification": "1466"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "16-S-32(N,P)15-P-32,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "16-S-32(N,P)15-P-32,,SIG",
+                    "field": {
+                      "reaction": "16-S-32(N,P)15-P-32",
+                      "target": "16-S-32",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "15-P-32",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "D-T"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "ACTIV"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "16-S-32(N,P)15-P-32,,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "16-S-32(N,P)15-P-32,,SIG",
+                      "field": {
+                        "reaction": "16-S-32(N,P)15-P-32",
+                        "target": "16-S-32",
+                        "projectile": "N",
+                        "process": "P",
+                        "product": "15-P-32",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                "",
+                " normalized to 226 mb at 14.50 MeV."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Quoted error includes the following sources",
+                " of uncertainties (but excludes any uncertainty in the",
+                " monitor cross section):"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": 1.0,
+                "maximum_value": 3.0,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Counting statistics"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": 5.0,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Corrections for activities produced by",
+                " external neutrons"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Burning of sulphur disks"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Irradiation geometry"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-4",
+                "minimum_value": 3.5,
+                "maximum_value": 5.0,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Relative flux intensity values"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 4,
+            "N2": 0,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-NRM",
+              "MONIT",
+              "ERR-2",
+              "ERR-3"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              14.5,
+              226.0,
+              1.4,
+              2.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 13,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "B",
+              "B"
+            ],
+            "value": [
+              [
+                12.53,
+                0.26,
+                0.324,
+                0.015
+              ],
+              [
+                12.6,
+                0.5,
+                0.321,
+                0.015
+              ],
+              [
+                13.58,
+                0.06,
+                0.277,
+                0.006
+              ],
+              [
+                13.89,
+                0.08,
+                0.263,
+                0.006
+              ],
+              [
+                14.24,
+                0.08,
+                0.235,
+                0.005
+              ],
+              [
+                14.68,
+                0.06,
+                0.219,
+                0.005
+              ],
+              [
+                14.76,
+                0.06,
+                0.216,
+                0.005
+              ],
+              [
+                16.6,
+                0.6,
+                0.13,
+                0.006
+              ],
+              [
+                17.5,
+                1.0,
+                0.123,
+                0.006
+              ],
+              [
+                18.5,
+                0.5,
+                0.095,
+                0.004
+              ],
+              [
+                19.2,
+                0.8,
+                0.088,
+                0.007
+              ],
+              [
+                19.8,
+                0.3,
+                0.087,
+                0.005
+              ],
+              [
+                20.3,
+                0.3,
+                0.068,
+                0.005
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "11543003",
+            "N2": 20200419,
+            "alteration_flag": " ",
+            "transmission_identification": "1466"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "16-S-32(N,P)15-P-32,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "16-S-32(N,P)15-P-32,,SIG",
+                    "field": {
+                      "reaction": "16-S-32(N,P)15-P-32",
+                      "target": "16-S-32",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "15-P-32",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "D-D"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "ACTIV"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "16-S-32(N,P)15-P-32,,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "16-S-32(N,P)15-P-32,,SIG",
+                      "field": {
+                        "reaction": "16-S-32(N,P)15-P-32",
+                        "target": "16-S-32",
+                        "projectile": "N",
+                        "process": "P",
+                        "product": "15-P-32",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                "",
+                " relative to S-32(np) =",
+                "             339 mb at 7.18+-0.48 MeV.",
+                "             342 mb at 7.53+-0.51 MeV.",
+                "             345 mb at 7.88+-0.54 MeV."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Quoted error includes the following sources",
+                " of uncertainties (but excludes any uncertainty in the",
+                " monitor cross section):"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": 1.0,
+                "maximum_value": 3.0,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Counting statistics"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": 5.0,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Corrections for activities produced by",
+                " external neutrons"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Burning of sulphur disks"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Irradiation geometry"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-4",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Relative flux intensity values"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 3,
+            "N2": 0,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "ERR-2",
+              "ERR-3",
+              "ERR-4"
+            ],
+            "unit": [
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              1.4,
+              2.0,
+              1.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 3,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                10.4,
+                0.05,
+                422.0,
+                25.0
+              ],
+              [
+                11.0,
+                0.04,
+                371.0,
+                22.0
+              ],
+              [
+                11.6,
+                0.04,
+                422.0,
+                24.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 3,
+        "N2": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T19:34:26+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "12347",
+        "N2": 20230707,
+        "alteration_flag": " ",
+        "transmission_identification": "1507"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "12347001",
+            "N2": 20230707,
+            "alteration_flag": " ",
+            "transmission_identification": "1507"
+          },
+          "BIB": {
+            "N1": 7,
+            "N2": 0
+          },
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "1CANCRC"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R,CRP-378,1948",
+                "code_unit": [
+                  {
+                    "unit": "R,CRP-378,1948",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "R",
+                      "reference": {
+                        "code": "CRP-",
+                        "number": "378",
+                        "volume": null,
+                        "part": null,
+                        "issue": null,
+                        "page": null
+                      },
+                      "date": 1948
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "A.J.Cruikshank",
+                "D.J.Littler",
+                "A.G.Ward"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "a determination of eta(thermal) of U233."
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "OSCIP"
+                ],
+                "institute": "1CANCRC"
+              },
+              "free_text": [
+                " Pile oscillator"
+              ]
+            }
+          ],
+          "INC-SPECT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Thermal spectrum"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19760804,
+                "history": "T"
+              },
+              "free_text": [
+                " Translated from SCISRS"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19820519,
+                "history": "A"
+              },
+              "free_text": [
+                " Converted to REACTION formalism"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20230706,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. Data units and STATUS corrected,",
+                " converted to lower and upper case, added SAMPLE,",
+                " ERR-ANALYS"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12347002",
+            "N2": 20230707,
+            "alteration_flag": " ",
+            "transmission_identification": "1507"
+          },
+          "BIB": {
+            "N1": 6,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "92-U-233(N,ABS),,ETA,,MXW",
+                "code_unit": [
+                  {
+                    "unit": "92-U-233(N,ABS),,ETA,,MXW",
+                    "field": {
+                      "reaction": "92-U-233(N,ABS)",
+                      "target": "92-U-233",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ETA",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": ",ETA"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Several samples, size of the order of 40 mg U-233"
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "5-B-0(N,ABS),,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "5-B-0(N,ABS),,SIG",
+                      "field": {
+                        "reaction": "5-B-0(N,ABS)",
+                        "target": "5-B-0",
+                        "projectile": "N",
+                        "process": "ABS",
+                        "product": "",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Uncertainty given is dominated by the error",
+                "in the resonance escape probability"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "A.J.Cruikshank+",
+                "reference": {
+                  "code": "R,CRP-378,1948",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "CRP-",
+                      "number": "378",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1948
+                  }
+                }
+              },
+              "free_text": [
+                " Text on p.78"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20230706,
+                "history": "A"
+              },
+              "free_text": [
+                "  Data units changed to PRT/REAC"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-DUMMY",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "PRT/REAC",
+              "PRT/REAC"
+            ],
+            "value": [
+              [
+                2.53e-08,
+                2.38,
+                0.08
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 2,
+        "N2": 0
+      }
+    }
+  ]
+}

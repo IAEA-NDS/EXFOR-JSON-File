@@ -1,0 +1,1292 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T21:11:06+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "23311",
+        "N2": 20230219,
+        "alteration_flag": " ",
+        "transmission_identification": "2316"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "23311001",
+            "N2": 20230219,
+            "alteration_flag": " ",
+            "transmission_identification": "2316"
+          },
+          "BIB": {
+            "N1": 12,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Harwell pile oscillator measurements on the relative",
+                " neutron yields of uranium 233, uranium 235 and",
+                " plutonium 239"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "M.J.Cabell",
+                "H.Rose",
+                "R.B.Tattersall"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "2UK HAR"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(R,AERE-R-4946,1965)=(R,TNCC(UK)-77,1960)",
+                "code_unit": [
+                  {
+                    "unit": "R,AERE-R-4946,1965",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "R",
+                      "reference": {
+                        "code": "AERE-R-",
+                        "number": "4946",
+                        "volume": null,
+                        "part": null,
+                        "issue": null,
+                        "page": null
+                      },
+                      "date": 1965
+                    }
+                  },
+                  {
+                    "unit": "R,TNCC(UK)-77,1960",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "R",
+                      "reference": {
+                        "code": "TNCC(UK)-",
+                        "number": "77",
+                        "volume": null,
+                        "part": null,
+                        "issue": null,
+                        "page": null
+                      },
+                      "date": 1960
+                    }
+                  }
+                ],
+                "unit_combination": "((%)=(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "C,58GENEVA,16,34,1958",
+                "code_unit": [
+                  {
+                    "unit": "C,58GENEVA,16,34,1958",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "C",
+                      "reference": {
+                        "code": "58GENEVA",
+                        "number": null,
+                        "volume": "16",
+                        "part": null,
+                        "issue": null,
+                        "page": "34"
+                      },
+                      "date": 1958
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                " Preliminary values tabulated"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R,AERE-R/R-2457,1958",
+                "code_unit": [
+                  {
+                    "unit": "R,AERE-R/R-2457,1958",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "R",
+                      "reference": {
+                        "code": "AERE-R/R-",
+                        "number": "2457",
+                        "volume": null,
+                        "part": null,
+                        "issue": null,
+                        "page": null
+                      },
+                      "date": 1958
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                " Preliminary values tabulated"
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "OSCIP"
+                ],
+                "institute": "2UK HAR"
+              },
+              "free_text": [
+                " installed in reactors Dimple and Gleep"
+              ]
+            }
+          ],
+          "INC-SPECT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Dimple: T=20 deg-C and virtually a pure Maxwellian",
+                " (epithermal index r<0.001)",
+                "Gleep: T=66+/-5 deg-C and epithermal index",
+                " r=0.042+/-0.002 (the latter being measured by Cd",
+                " ratio of thin Au foils)."
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Solution in D2O in polythene bottles (~2.5 cm diam,",
+                " 30 cm long, ~150 ml).",
+                "Impurity contributions were calculated from the",
+                " chemical and mass analyses of the solutions."
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "<eta(x)/eta(y)>=[1-sig(eff,x)/sig(abs,x)]/",
+                "                [1-sig(eff,y)/sig(abs,y)],",
+                " where x and y are 233U, 235U or 239Pu, and the",
+                " absorption cross sections are taken from BNL-325.",
+                " <...> means ratio in the reactor., which is converted",
+                " to the 2200 m/s ratio:",
+                "eta(x)/eta(y)=<eta(x)/eta(y)>*",
+                "         [(g(abs,x)+r*s(abs,x))/(g(fis,x)+r*s(fis,x))]/",
+                "         [(g(abs,y)+r*s(abs,y))/(g(fis,y)+r*s(fis,y))],",
+                " where g and r are the Westcott's g-factor and",
+                " epithermal index, respectively."
+              ]
+            }
+          ],
+          "ASSUMED": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ASSUM1",
+                "reaction": {
+                  "code": "92-U-233(N,ABS),,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "92-U-233(N,ABS),,SIG",
+                      "field": {
+                        "reaction": "92-U-233(N,ABS)",
+                        "target": "92-U-233",
+                        "projectile": "N",
+                        "process": "ABS",
+                        "product": "",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                " 233U(nth,abs) = 578+/-4 b"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ASSUM2",
+                "reaction": {
+                  "code": "92-U-235(N,ABS),,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "92-U-235(N,ABS),,SIG",
+                      "field": {
+                        "reaction": "92-U-235(N,ABS)",
+                        "target": "92-U-235",
+                        "projectile": "N",
+                        "process": "ABS",
+                        "product": "",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                " 233U(nth,abs) = 683+/-3 b"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ASSUM3",
+                "reaction": {
+                  "code": "94-PU-239(N,ABS),,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "94-PU-239(N,ABS),,SIG",
+                      "field": {
+                        "reaction": "94-PU-239(N,ABS)",
+                        "target": "94-PU-239",
+                        "projectile": "N",
+                        "process": "ABS",
+                        "product": "",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                "239Pu(nth,abs)=1028+/-8 b"
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": null,
+                "author": "D.J.Hughes+",
+                "reference": {
+                  "code": "R,BNL-325,1960",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "BNL-",
+                      "number": "325",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1960
+                  }
+                }
+              },
+              "free_text": [
+                " 2nd ed. Supplement No.1",
+                " 2200 m/s absorption cross sections given"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": null,
+                "author": "C.H.Westcott",
+                "reference": {
+                  "code": "R,CRRP-787,1958",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "CRRP-",
+                      "number": "787",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1958
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " g-factors given"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Standard deviation considering due to",
+                " - Pile oscillator measurements (~1%)",
+                " - Chemical determination of fissile material mass",
+                " - Boron cross section (0.5%)",
+                " - Absorption cross sections",
+                "See Eq.(I.2.5) for the error propagation to the eta",
+                " ratio."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20160921,
+                "history": "C"
+              },
+              "free_text": [
+                " On"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20230219,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Ref. AERE-R/R-2457 added."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 6,
+            "N2": 0,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "ASSUM1",
+              "ASSUM1-ERR",
+              "ASSUM2",
+              "ASSUM2-ERR",
+              "ASSUM3",
+              "ASSUM3-ERR"
+            ],
+            "unit": [
+              "B",
+              "B",
+              "B",
+              "B",
+              "B",
+              "B"
+            ],
+            "value": [
+              578.0,
+              4.0,
+              683.0,
+              3.0,
+              1028.0,
+              8.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23311002",
+            "N2": 20160921,
+            "alteration_flag": " ",
+            "transmission_identification": "2256"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(92-U-233(N,ABS),,ETA,,MXW)/(92-U-235(N,ABS),,ETA,,MXW)",
+                "code_unit": [
+                  {
+                    "unit": "92-U-233(N,ABS),,ETA,,MXW",
+                    "field": {
+                      "reaction": "92-U-233(N,ABS)",
+                      "target": "92-U-233",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ETA",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": ",ETA"
+                    }
+                  },
+                  {
+                    "unit": "92-U-235(N,ABS),,ETA,,MXW",
+                    "field": {
+                      "reaction": "92-U-235(N,ABS)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ETA",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": ",ETA"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)/(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table X (Dimple) of AERE-R-4946 (1965)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "COREL"
+                ],
+                "subentry_number": "23311003",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Result from Gleep reactor"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "KT-K",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "DEG-C",
+              "NO-DIM",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                20.0,
+                1.102,
+                0.02
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23311003",
+            "N2": 20160921,
+            "alteration_flag": " ",
+            "transmission_identification": "2256"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(92-U-233(N,ABS),,ETA,,SPA)/(92-U-235(N,ABS),,ETA,,SPA)",
+                "code_unit": [
+                  {
+                    "unit": "92-U-233(N,ABS),,ETA,,SPA",
+                    "field": {
+                      "reaction": "92-U-233(N,ABS)",
+                      "target": "92-U-233",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ETA",
+                      "data_type": null,
+                      "general_quantity_modifier": "SPA",
+                      "quantity_236": ",ETA"
+                    }
+                  },
+                  {
+                    "unit": "92-U-235(N,ABS),,ETA,,SPA",
+                    "field": {
+                      "reaction": "92-U-235(N,ABS)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ETA",
+                      "data_type": null,
+                      "general_quantity_modifier": "SPA",
+                      "quantity_236": ",ETA"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)/(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table X (Gleep) of AERE-R-4946 (1965)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "COREL"
+                ],
+                "subentry_number": "23311002",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Result from Dimple reactor"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "KT-K",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "DEG-C",
+              "NO-DIM",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                66.0,
+                1.106,
+                0.018
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23311004",
+            "N2": 20160921,
+            "alteration_flag": " ",
+            "transmission_identification": "2256"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(94-PU-239(N,ABS),,ETA,,MXW)/(92-U-235(N,ABS),,ETA,,MXW)",
+                "code_unit": [
+                  {
+                    "unit": "94-PU-239(N,ABS),,ETA,,MXW",
+                    "field": {
+                      "reaction": "94-PU-239(N,ABS)",
+                      "target": "94-PU-239",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ETA",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": ",ETA"
+                    }
+                  },
+                  {
+                    "unit": "92-U-235(N,ABS),,ETA,,MXW",
+                    "field": {
+                      "reaction": "92-U-235(N,ABS)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ETA",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": ",ETA"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)/(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table X (Dimple) of AERE-R-4946 (1965)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "COREL"
+                ],
+                "subentry_number": "23311005",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Result from Gleep reactor"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "KT-K",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "DEG-C",
+              "NO-DIM",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                20.0,
+                0.977,
+                0.016
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23311005",
+            "N2": 20160921,
+            "alteration_flag": " ",
+            "transmission_identification": "2256"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(94-PU-239(N,ABS),,ETA,,SPA)/(92-U-235(N,ABS),,ETA,,SPA)",
+                "code_unit": [
+                  {
+                    "unit": "94-PU-239(N,ABS),,ETA,,SPA",
+                    "field": {
+                      "reaction": "94-PU-239(N,ABS)",
+                      "target": "94-PU-239",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ETA",
+                      "data_type": null,
+                      "general_quantity_modifier": "SPA",
+                      "quantity_236": ",ETA"
+                    }
+                  },
+                  {
+                    "unit": "92-U-235(N,ABS),,ETA,,SPA",
+                    "field": {
+                      "reaction": "92-U-235(N,ABS)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ETA",
+                      "data_type": null,
+                      "general_quantity_modifier": "SPA",
+                      "quantity_236": ",ETA"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)/(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table X (Gleep) of AERE-R-4946 (1965)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "COREL"
+                ],
+                "subentry_number": "23311004",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Result from Dimple reactor"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "KT-K",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "DEG-C",
+              "NO-DIM",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                66.0,
+                0.963,
+                0.013
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23311006",
+            "N2": 20160921,
+            "alteration_flag": " ",
+            "transmission_identification": "2256"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(92-U-233(N,ABS),,ETA)/(92-U-235(N,ABS),,ETA)",
+                "code_unit": [
+                  {
+                    "unit": "92-U-233(N,ABS),,ETA",
+                    "field": {
+                      "reaction": "92-U-233(N,ABS)",
+                      "target": "92-U-233",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ETA",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",ETA"
+                    }
+                  },
+                  {
+                    "unit": "92-U-235(N,ABS),,ETA",
+                    "field": {
+                      "reaction": "92-U-235(N,ABS)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ETA",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",ETA"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)/(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Average of two 2200 m/s values:",
+                " 1.099+/-0.020 (Dimple)",
+                " 1.105+/-0.018 (Gleep)",
+                "converted from their reactor values."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "No allowance has been made for errors in the",
+                " conversion factor from reactor values to the",
+                " 2200 m/s values."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table XI of AERE-R-4946 (1965)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "23311002",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Reactor value from Dimple"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "23311003",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Reactor value from Gleep"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "EV",
+              "NO-DIM",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                0.0253,
+                1.102,
+                0.014
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23311007",
+            "N2": 20160921,
+            "alteration_flag": " ",
+            "transmission_identification": "2256"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(94-PU-239(N,ABS),,ETA)/(92-U-235(N,ABS),,ETA)",
+                "code_unit": [
+                  {
+                    "unit": "94-PU-239(N,ABS),,ETA",
+                    "field": {
+                      "reaction": "94-PU-239(N,ABS)",
+                      "target": "94-PU-239",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ETA",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",ETA"
+                    }
+                  },
+                  {
+                    "unit": "92-U-235(N,ABS),,ETA",
+                    "field": {
+                      "reaction": "92-U-235(N,ABS)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ETA",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",ETA"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)/(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Average of two 2200 m/s values:",
+                " 0.999+/-0.016 (Dimple)",
+                " 1.013+/-0.014 (Gleep)",
+                "converted from their reactor values."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "No allowance has been made for errors in the",
+                " conversion factor from reactor values to the",
+                " 2200 m/s values."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table XI of AERE-R-4946 (1965)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "23311004",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Reactor value from Dimple"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "23311005",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Reactor value from Gleep"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "EV",
+              "NO-DIM",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                0.0253,
+                1.006,
+                0.011
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 7,
+        "N2": 0
+      }
+    }
+  ]
+}

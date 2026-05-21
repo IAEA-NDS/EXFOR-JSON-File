@@ -1,0 +1,753 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T21:14:36+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "23397",
+        "N2": 20190502,
+        "alteration_flag": " ",
+        "transmission_identification": "2281"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "23397001",
+            "N2": 20190502,
+            "alteration_flag": " ",
+            "transmission_identification": "2281"
+          },
+          "BIB": {
+            "N1": 15,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Measurements of uranium nuclide capture cross section",
+                " and total collision cross section"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "K.Hanatani"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "2JPNKTO"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "T,HANATANI,19450911",
+                "code_unit": [
+                  {
+                    "unit": "T,HANATANI,19450911",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "T",
+                      "reference": {
+                        "code": "HANATANI",
+                        "number": null,
+                        "volume": null,
+                        "part": null,
+                        "issue": null,
+                        "page": null
+                      },
+                      "date": 19450911
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "Thesis submitted to Kyoto Imperial University"
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "RA-BE"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                " 50 mg Ra+Be in a cylindrical case filled by",
+                " paraffin (20 cm diam.)."
+              ]
+            }
+          ],
+          "INC-SPECT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Fraction of thermalized neutrons is about 90%.",
+                " Epithermal neutrons were removed by Cd foil."
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "U3O8 (1762 g) and Pb (2000 g) in an iron case (0.5 mm",
+                " thick). 529 cm2."
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "IOCH"
+              ],
+              "free_text": [
+                " BCl3 gas (848 cm3) for detection of thermal",
+                " neutrons at 70 cm from the front of the neutron",
+                " source case"
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "TRN"
+              ],
+              "free_text": [
+                " Transmissions were measured for U3O8 and Pb",
+                " samples irradiated at two locations -",
+                " (1) 30 cm upstream side from the ionization chamber,",
+                " (2) just before the ionization chamber."
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Measured effective total cross section at samle",
+                " position 1 (sig1) and 2 (sig2) were related with the",
+                " capture cross section (sigc) and scattering cross",
+                " section (sigs) as follows:",
+                "  sig1(U3O8)=sigc(U3O8)+k1*sigs(U3O8),",
+                "  sig2(U3O8)=sigc(U3O8)+k2*sigs(U3O8),",
+                "  sig1(Pb)=k*k1*sigs(Pb),",
+                "  sig2(Pb)=k*k2*sigs(Pb),",
+                " with k=k1=1 assumed according to the the experimental",
+                " geometrical condition (sigc(Pb)~0 assumed).",
+                " From these equations, sigc(U3O8), sigs(U3O8), sigs(Pb)",
+                "  as well as k2 were determined."
+              ]
+            }
+          ],
+          "ASSUMED": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ASSUM1",
+                "reaction": {
+                  "code": "8-O-16(N,G)8-O-17,,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "8-O-16(N,G)8-O-17,,SIG",
+                      "field": {
+                        "reaction": "8-O-16(N,G)8-O-17",
+                        "target": "8-O-16",
+                        "projectile": "N",
+                        "process": "G",
+                        "product": "8-O-17",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ASSUM2",
+                "reaction": {
+                  "code": "8-O-16(N,TOT),,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "8-O-16(N,TOT),,SIG",
+                      "field": {
+                        "reaction": "8-O-16(N,TOT)",
+                        "target": "8-O-16",
+                        "projectile": "N",
+                        "process": "TOT",
+                        "product": "",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": null,
+                "author": "M.Kikuchi",
+                "reference": {
+                  "code": "J,JMJ,18,188,1936",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JMJ",
+                      "number": null,
+                      "volume": "18",
+                      "part": null,
+                      "issue": null,
+                      "page": "188"
+                    },
+                    "date": 1936
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Oxygen capture cross section"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": "12634009",
+                "author": "J.R.Dunning+",
+                "reference": {
+                  "code": "J,PR,48,265,1935",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": null,
+                      "page": "265"
+                    },
+                    "date": 1935
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Oxygen total cross section"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information on the source of uncertainty"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table in the thesis"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20180815,
+                "history": "C"
+              },
+              "free_text": [
+                " On"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20190502,
+                "history": "A"
+              },
+              "free_text": [
+                " On. Major revisions in 002-005."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 2,
+            "N2": 0,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "ASSUM1",
+              "ASSUM2"
+            ],
+            "unit": [
+              "B",
+              "B"
+            ],
+            "value": [
+              0.1,
+              3.3
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23397002",
+            "N2": 20190502,
+            "alteration_flag": " ",
+            "transmission_identification": "2281"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "92-U-0(N,EL)92-U-0,,SIG,,SPA",
+                "code_unit": [
+                  {
+                    "unit": "92-U-0(N,EL)92-U-0,,SIG,,SPA",
+                    "field": {
+                      "reaction": "92-U-0(N,EL)92-U-0",
+                      "target": "92-U-0",
+                      "projectile": "N",
+                      "process": "EL",
+                      "product": "92-U-0",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "SPA",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20190502,
+                "history": "A"
+              },
+              "free_text": [
+                " On. MEV -> EV"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-DUMMY",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "EV",
+              "B",
+              "B"
+            ],
+            "value": [
+              [
+                0.0253,
+                18.5,
+                2.1
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23397003",
+            "N2": 20190502,
+            "alteration_flag": " ",
+            "transmission_identification": "2281"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "92-U-0(N,G),,SIG,,SPA",
+                "code_unit": [
+                  {
+                    "unit": "92-U-0(N,G),,SIG,,SPA",
+                    "field": {
+                      "reaction": "92-U-0(N,G)",
+                      "target": "92-U-0",
+                      "projectile": "N",
+                      "process": "G",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "SPA",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20190502,
+                "history": "A"
+              },
+              "free_text": [
+                " On. MEV -> EV"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-DUMMY",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "EV",
+              "B",
+              "B"
+            ],
+            "value": [
+              [
+                0.0253,
+                4.0,
+                2.1
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23397004",
+            "N2": 20190502,
+            "alteration_flag": " ",
+            "transmission_identification": "2281"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "92-U-0(N,TOT),,SIG,,SPA",
+                "code_unit": [
+                  {
+                    "unit": "92-U-0(N,TOT),,SIG,,SPA",
+                    "field": {
+                      "reaction": "92-U-0(N,TOT)",
+                      "target": "92-U-0",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "SPA",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20190502,
+                "history": "A"
+              },
+              "free_text": [
+                " On. MEV -> EV"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-DUMMY",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "EV",
+              "B",
+              "B"
+            ],
+            "value": [
+              [
+                0.0253,
+                22.5,
+                0.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23397005",
+            "N2": 20190502,
+            "alteration_flag": " ",
+            "transmission_identification": "2281"
+          },
+          "BIB": {
+            "N1": 2,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "82-PB-0(N,TOT),,SIG,,SPA",
+                "code_unit": [
+                  {
+                    "unit": "82-PB-0(N,TOT),,SIG,,SPA",
+                    "field": {
+                      "reaction": "82-PB-0(N,TOT)",
+                      "target": "82-PB-0",
+                      "projectile": "N",
+                      "process": "TOT",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "SPA",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20190502,
+                "history": "A"
+              },
+              "free_text": [
+                " On. MEV -> EV"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-DUMMY",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "EV",
+              "B",
+              "B"
+            ],
+            "value": [
+              [
+                0.0253,
+                11.4,
+                0.2
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 5,
+        "N2": 0
+      }
+    }
+  ]
+}

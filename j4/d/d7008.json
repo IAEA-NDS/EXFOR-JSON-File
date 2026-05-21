@@ -1,0 +1,773 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T23:27:30+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "D7008",
+        "N2": 20141204,
+        "alteration_flag": " ",
+        "transmission_identification": "D098"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "D7008001",
+            "N2": 20141204,
+            "alteration_flag": " ",
+            "transmission_identification": "D098"
+          },
+          "BIB": {
+            "N1": 14,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Measurement of activation cross sections of erbium",
+                "irradiated by proton beam"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "T.Y.Song",
+                "J.W.Kim",
+                "H.I.Kim",
+                "C.W.Lee",
+                "Y.O.Lee",
+                "S.C.Yang",
+                "K.S.Kim",
+                "G.N.Kim"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "3KORKAE",
+                "3KORKNU"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,NDS,119,249,2014",
+                "code_unit": [
+                  {
+                    "unit": "J,NDS,119,249,2014",
+                    "doi": "10.1016/j.nds.2014.08.068",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "NDS",
+                        "number": null,
+                        "volume": "119",
+                        "part": null,
+                        "issue": null,
+                        "page": "249"
+                      },
+                      "date": 2014
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "CYCLO"
+                ],
+                "institute": "3KORKRM"
+              },
+              "free_text": [
+                " MC-50 cyclotron (KIRAMS)"
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Natural Erbium (Er)",
+                "- Thickness: 22.44+/-0.02 micro-meter",
+                "- Area: 1.1 x 1.1 cm"
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "ACTIV"
+              ],
+              "free_text": [
+                " Irradiation for 1 hour"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "STTA"
+              ],
+              "free_text": [
+                " Conventional stacked-foil activation technique"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "GSPEC"
+              ],
+              "free_text": [
+                " Started after the cooling time (~1 day)"
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "HPGE"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "29-CU-0(P,X)30-ZN-62,,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "29-CU-0(P,X)30-ZN-62,,SIG",
+                      "field": {
+                        "reaction": "29-CU-0(P,X)30-ZN-62",
+                        "target": "29-CU-0",
+                        "projectile": "P",
+                        "process": "X",
+                        "product": "30-ZN-62",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                "",
+                "- Cu foils (50 micro-meter thickness)",
+                "The authors determined the proton flux at 16 Cu foil,",
+                " and adopted their average <phi> as the proton flux.",
+                "The Cu(p,x)62Zn cross sections adopted to derive",
+                " proton flux from the gamma count at each foil",
+                " tabulated below:",
+                " --------------------",
+                "  Ep(MeV)   sigma(mb)",
+                " --------------------",
+                "  44.65        12.41",
+                "  43.27        12.42",
+                "  41.90        12.60",
+                "  40.52        12.78",
+                "  39.08        13.14",
+                "  37.58        13.80",
+                "  36.03        15.31",
+                "  34.46        17.99",
+                "  32.85        22.89",
+                "  31.13        31.17",
+                "  29.36        42.79",
+                "  27.52        56.52",
+                "  25.54        69.10",
+                "  23.44        73.71",
+                "  21.19        67.22",
+                "  18.77        51.05",
+                " --------------------"
+              ]
+            }
+          ],
+          "DECAY-MON": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "nuclide": "30-ZN-62",
+                "half-life": {
+                  "value": 9.193,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      596.56
+                    ],
+                    "intensity": 0.26
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": null,
+                "author": "S.M.Qaim+",
+                "reference": {
+                  "code": "R,IAEA-NDS-1211,2001",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "IAEA-NDS-",
+                      "number": "1211",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null,
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 2001
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total uncertainty: 8-11%"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "APRVD"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Approved by G.N.Kim (2014-12-29)"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20141204,
+                "history": "C"
+              },
+              "free_text": [
+                " S.C.Yang"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "D7008002",
+            "N2": 20141204,
+            "alteration_flag": " ",
+            "transmission_identification": "D098"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "68-ER-0(P,X)69-TM-165,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "68-ER-0(P,X)69-TM-165,,SIG",
+                    "field": {
+                      "reaction": "68-ER-0(P,X)69-TM-165",
+                      "target": "68-ER-0",
+                      "projectile": "P",
+                      "process": "X",
+                      "product": "69-TM-165",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "69-TM-165",
+                "half-life": {
+                  "value": 30.06,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      242.917
+                    ],
+                    "intensity": 0.355
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Taken from Table 2 of J,NDS,119,249,2014"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 16,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-ERR",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                44.9,
+                0.1,
+                224.0,
+                19.0
+              ],
+              [
+                43.6,
+                0.2,
+                271.0,
+                23.0
+              ],
+              [
+                42.2,
+                0.2,
+                305.0,
+                26.0
+              ],
+              [
+                40.8,
+                0.2,
+                336.0,
+                29.0
+              ],
+              [
+                39.4,
+                0.3,
+                359.0,
+                31.0
+              ],
+              [
+                37.9,
+                0.3,
+                379.0,
+                33.0
+              ],
+              [
+                36.3,
+                0.3,
+                384.0,
+                33.0
+              ],
+              [
+                34.8,
+                0.4,
+                389.0,
+                34.0
+              ],
+              [
+                33.2,
+                0.4,
+                387.0,
+                33.0
+              ],
+              [
+                31.5,
+                0.4,
+                386.0,
+                33.0
+              ],
+              [
+                29.7,
+                0.5,
+                365.0,
+                32.0
+              ],
+              [
+                27.9,
+                0.5,
+                358.0,
+                31.0
+              ],
+              [
+                25.9,
+                0.6,
+                385.0,
+                33.0
+              ],
+              [
+                23.9,
+                0.6,
+                455.0,
+                39.0
+              ],
+              [
+                21.7,
+                0.7,
+                466.0,
+                40.0
+              ],
+              [
+                19.3,
+                0.7,
+                358.0,
+                31.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "D7008003",
+            "N2": 20141204,
+            "alteration_flag": " ",
+            "transmission_identification": "D098"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "68-ER-0(P,X)69-TM-166,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "68-ER-0(P,X)69-TM-166,,SIG",
+                    "field": {
+                      "reaction": "68-ER-0(P,X)69-TM-166",
+                      "target": "68-ER-0",
+                      "projectile": "P",
+                      "process": "X",
+                      "product": "69-TM-166",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "69-TM-166-G",
+                "half-life": {
+                  "value": 7.7,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      778.814
+                    ],
+                    "intensity": 0.191
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Taken from Table 2 of J,NDS,119,249,2014"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 16,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-ERR",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                44.9,
+                0.1,
+                163.0,
+                17.0
+              ],
+              [
+                43.6,
+                0.2,
+                167.0,
+                18.0
+              ],
+              [
+                42.2,
+                0.2,
+                148.0,
+                16.0
+              ],
+              [
+                40.8,
+                0.2,
+                143.0,
+                15.0
+              ],
+              [
+                39.4,
+                0.3,
+                120.0,
+                13.0
+              ],
+              [
+                37.9,
+                0.3,
+                115.0,
+                12.0
+              ],
+              [
+                36.3,
+                0.3,
+                124.0,
+                13.0
+              ],
+              [
+                34.8,
+                0.4,
+                139.0,
+                15.0
+              ],
+              [
+                33.2,
+                0.4,
+                178.0,
+                19.0
+              ],
+              [
+                31.5,
+                0.4,
+                246.0,
+                26.0
+              ],
+              [
+                29.7,
+                0.5,
+                295.0,
+                31.0
+              ],
+              [
+                27.9,
+                0.5,
+                334.0,
+                35.0
+              ],
+              [
+                25.9,
+                0.6,
+                327.0,
+                35.0
+              ],
+              [
+                23.9,
+                0.6,
+                325.0,
+                34.0
+              ],
+              [
+                21.7,
+                0.7,
+                282.0,
+                30.0
+              ],
+              [
+                19.3,
+                0.7,
+                234.0,
+                25.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 3,
+        "N2": 0
+      }
+    }
+  ]
+}

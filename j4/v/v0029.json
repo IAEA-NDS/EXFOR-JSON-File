@@ -1,0 +1,4641 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-21T01:12:45+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "V0029",
+        "N2": 20110131,
+        "alteration_flag": " ",
+        "transmission_identification": "V028"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "V0029001",
+            "N2": 20110131,
+            "alteration_flag": " ",
+            "transmission_identification": "V028"
+          },
+          "BIB": {
+            "N1": 9,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "A simultaneous evaluation of some important cross-",
+                " sections at 14.70 MeV - Al27(n,a), Fe56(n,p),",
+                " Cu63(n,2n), Cu65(n,2n), Au197(n,2n), Nb93(n,2n),",
+                " S32(n,p) and h1(n,n)"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "J.G.Hayes",
+                "T.B.Ryves"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "2UK NPL"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,ANE,8,469,1981",
+                "code_unit": [
+                  {
+                    "unit": "J,ANE,8,469,1981",
+                    "doi": "10.1016/0306-4549(81)90115-8",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "ANE",
+                        "number": null,
+                        "volume": "8",
+                        "part": null,
+                        "issue": null,
+                        "page": "469"
+                      },
+                      "date": 1981
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The results are normalized to the associated particle",
+                " measurements."
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Method of weighted least-squares was used in the",
+                " evaluation.",
+                "** Principal points of this evaluation",
+                " (1.) Simultaneous evaluations, in which a group of",
+                "  cross-sections are considered, together with their",
+                "  correlation.",
+                " (2.) Ratio of cross sections is employed to avoid the",
+                "  absolute measurement of neutron fluence rate.",
+                "  All activation cross-sections are in fact measured as",
+                "  ratios relative to some monitor (standard) cross-",
+                "  sections. All results were firstly adjusted to a",
+                "  neutron energy of 14.70 MeV.",
+                " (3.) The cross-sections are determined in a known",
+                "  neutron fluence which may be determined either by a",
+                "  proton recoil telescope, or by a plastic scintillator",
+                "  or by the associated particle technique (in case of",
+                "  D-T neutron source). The associated particle",
+                "  technique is absolute.",
+                " (4.) The mathematical treatment follows that of Hayes",
+                "  and Axton, Metrologia 6(1969)21.",
+                "** Results",
+                " The results are mostly in agreement within the errors",
+                "  with several other evaluation.",
+                " The ENDF/B-V ratio of the 2 most commonly used",
+                "  standard cross-sections, Al-27(n,a) and Fe-56(n,p),",
+                "  was 7.5% higher than the ratio of this results.",
+                "** Selection of papers",
+                " About 70 from more than 100 original papers on",
+                "  activation cross section measurement around 14 MeV",
+                "  have been included in the evaluation(except H(n,n)H).",
+                "  Nearly all papers prior to 1960 were arbitrarily",
+                "  excluded. The following tables shows the out-lines",
+                "  of the data selection, correlation and the results.",
+                "  (All reference abbreviations are explained in each",
+                "   subentries.)",
+                "  The cross-section data are given as follows,",
+                "------------------------------------------------------",
+                " Reaction        Code  T(1/2)    Assumed shape",
+                "                 No.             (14.1-14.9 MeV)",
+                "------------------------------------------------------",
+                " Al27(n,a)Na24    2   15.03H      Vonach+(1970)",
+                " Fe56(n,p)Mn56    3    2.579H     -13.3MB/(MEV)",
+                " Cu63(n,2n)Cu62   4    9.74M      Simons+(1970)",
+                " Cu65(n,2n)Cu64   5   12.701H     Mannhart+(1975)",
+                " Au197(n,2n)Au196 6    6.183D     flat",
+                " Nb93(n,2n)Nb92m  7   10.15D      flat",
+                " S32(n,p)P32      8   14.28D      -48MB/(MEV).",
+                " H1(n,n)H1        9     ---       Gammel (1963)",
+                " Associated                       -----",
+                "   particle",
+                "------------------------------------------------------",
+                "** The cross-section ratios used in this evaluation",
+                " (Detail of reference-name is given in each subentry,",
+                " code no.of reaction cross-section is above-mentioned.",
+                " Ratios relative to monitor (standard) cross-sections",
+                " References (percent uncertainties in parentheses)",
+                "-------------------------------------------------------",
+                "Code No 1    2    3    4    5    6    7    8    9 Note",
+                "-------------------------------------------------------",
+                "57AL1   -    -    -    -    -    -   220   -    S",
+                "                                     (5)",
+                "78AN1   S    -    -    -  19.72  -    -    -    -",
+                "                          (6.9)",
+                "64AR1  104   -    -    -    -    -    -    -    S  (A)",
+                "       (2.3)",
+                "69BA2   S  0.936  -    -    -    -    -    -    - (A,I)",
+                "            (3)",
+                "69BA1   S  0.943  -  8.12 17.5   -  1.767  -    -",
+                "            (4)       (6)  (5)       (5)",
+                "75BA1   S    -    -    -  19.16  -    -    -    -",
+                "                          (2.9)",
+                "62BO1   -    S  5.58 10.23  -    -    -    -    -",
+                " 61PO1          (7.7) (7.6)",
+                "70BO1   -    -    -    -    -  0.742  -    S    -",
+                "                               (5.9)",
+                "69BO1 111.6  -    -    -    -    -    -    -    S",
+                "       (4)",
+                "63BU1 0.524 0.494 -   4.81  -   2.01  S    -    -",
+                " 63SA1 (4.2) (4)      (3)       (4.2)",
+                " 64SA1",
+                " 65SA1",
+                " 74SA1",
+                "69CR1  121   -  603   1033  -    -    -    -    S",
+                "       (5)      (4.6) (5.6)",
+                "68CU1 0.125 0.112 -    S    -    -    -    -    -",
+                "       (9)  (7)",
+                "60DE1   -    -  0.846  -    -    -    -    S    -",
+                "                 (5)",
+                "68DI1   S    -    -    -  20.81  -    -    -    -",
+                "                          (3.9)",
+                "62GA1 0.172 0.158 -    -    -    -    -    S    -",
+                "       (10) (9.3)",
+                "62GL1   -    -    S    -    -  0.901  -    -    -",
+                "                               (8.5)",
+                "62GL2   -    -    S   1.87  -    -    -    -    -  (A)",
+                "                      (2)",
+                "65GR1   -    -   554   -    -    -    -    -    S  (B)",
+                "                (2.2)",
+                "79LU1  116.3 -    -    -    -    -    -    -    S",
+                "       (2.6)",
+                "66HE1 1.074  S    -    -    -    -   2.29  -    -  (C)",
+                " 63HE1 (2)                           (6)",
+                "78HU1   S    -    -    -    -   4.43  -    -    -",
+                "                                (7.7)",
+                "70HU1   -    S    -    -    -   4.25  -    -    -",
+                "                                (6.7)",
+                "76HU1   -  108.8  -    -    -    -    -    -    S  (D)",
+                "           (0.79)",
+                "64LE1   -    -   564   -    -    -    -    -    S  (E)",
+                "                 (10)",
+                "69LE1   -  0.1046 -    S    -    -  0.229  -    -",
+                "            (3)                      (13)",
+                "65LI1   -  0.1689 -    -    -    -    -    S    -  (D)",
+                " 74LI1     (0.93)",
+                " 75LI1",
+                "65PA1 0.1845 -  0.976 1.61 3.01 0.655 -    S    -  (F)",
+                " 65LI1 (5.7)    (6.9) (6.9) (5.4) (4.8)",
+                " 65PA2",
+                " 70PA1",
+                " 75PA1",
+                "74MA1   -    -    -    S   2.17  -    -    -    -",
+                "                           (7)",
+                "67MI1 0.235  -    S    -    -    -    -    -    -",
+                "      (7.7)",
+                "72MO1   S    -  4.06  8.75  -    -    -    -    -  (E)",
+                "                (3.5) (3)",
+                "65NA1   -    S    -   8.98  -    -    -    -    -",
+                "                      (8)",
+                "72NE1   S    -    -    -  18.93 4.06  -    -    -",
+                " 78NE1                    (4.6) (2.8)",
+                "64BO1 112.0 105.0 511 1036  -    -   215   -    S",
+                " 67PA1(3.6) (4.8) (3) (3.5)          (2.8)",
+                "61PR1 116.4  -    -   989  2380  -    -    -    S  (G)",
+                " 61BA1 (5)           (6.3) (8.9)",
+                "72QU1   S    -    -  8.12 18.73 4.23  -    -    -  (K)",
+                " 71QU1              (4.1) (10.3)(7.5)",
+                "66RI1   S    -    -    -    -   3.97  -    -    -",
+                "                                (5)",
+                "73RO1 1.069  S    -   9.80  -    -  1.985 6.04  - (B,H)",
+                " 73RO2(0.63)          (1.7)         (1.2) (0.63)",
+                "78RY1 1.040  S  5.01  8.89 19.83 4.14 -   6.15  -",
+                " 78RY2(0.77)    (1.2) (1.1) (3) (2.4)     (0.77)",
+                " 81RY1",
+                " 81RY2",
+                "61SA1   -    -   549   -    -    -    -    -    S",
+                "                (4.5)",
+                "71SA1 112.7  -    -    -    -    -    -    -    S",
+                "       (8)",
+                "70SC1   S    -    -    -    -    -  2.018  -    -",
+                "                                    (5.3)",
+                "74SH1   -  111.5  -    -    -    -    -    -    S  (D)",
+                " 77RA1     (1.2)",
+                "62ST1 1.039  S    -    -    -    -    -    -    -  (J)",
+                "      (2.7)",
+                "79SW1 113.5  -    -    -    -    -    -    -    S",
+                "      (1.6)",
+                "77TE1   -  110.8  -    -    -    -    -    -    S  (D)",
+                " 77KU1     (1.05)",
+                "81TH1   -    -    -    -    -    -    -  658.5  S",
+                "                                         (1.4)",
+                "66VA1   S    -    -    -    -   4.05  -    -    -",
+                "                                (5)",
+                "70VO1 112.0 -    -    -    -    -    -    -    S",
+                "      (0.6)",
+                "68VO1   S  0.897  -  8.17  19.3  -    -    -    -",
+                " 75MA1     (1.7)    (0.84) (1.6)",
+                "60WE1   -    -    S   2.02  -    -    -    -    -",
+                "                     (8.4)",
+                "81WI1 111.1  -    -    -    -    -    -    -    S",
+                "      (0.9)",
+                "-------------------------------------------------------",
+                "Notes",
+                "  A. H result excluded.",
+                "  B. E(n)=14.70 MeV, not as quoted in the paper",
+                "  C. Associated particle result excluded.",
+                "  D. See Ryves and Axton.Proc.Knoxville Conf.(1979)980.",
+                "  E. half-life not given.",
+                "  F. Fe result superseded.",
+                "  G. Uncertainty not given.",
+                "  H. H result corrected for use of relativistic",
+                "     kinematics. Fe result corrected for foil counting,",
+                "     1+K=1.016.",
+                "  I. S result excluded.",
+                "  J. Nb result excluded.",
+                "  K. Cu-63 result excluded,because rel to Al(n,p) by",
+                "     S.M.Qaim (priv.comm.1981).",
+                " For H(n,w)H from proton recoil telescope measurements",
+                "  before 1973, a correction of 2.8% was made (see",
+                "  Thomas and Axton,Nucl.Instrum.Meth.174(1980)321).",
+                " Cu-62 half-life was corrected to 9.74m. Cu-64 branch-",
+                "  ing ratios of I(beta+)=17.9%. and I(beta-)=37.1%",
+                "  were used, except for Ryves et al.,Metrologia 14",
+                "  (1978)127. Nb and Au corrections have been discussed",
+                "  by Philis et al.,CEA-R-4676(1976),CEA-R-4826(1977).",
+                "** Following activation measurements (since 1960) are",
+                " excluded from evaluation. (Detail of references is",
+                " given in each subentry. Reaction (monitor) code is",
+                " same as before.",
+                "-------------------------------------------------------",
+                " Reference  Measured Standard Unc. Comments",
+                "            reac.    (MONIT)  (%)",
+                "-------------------------------------------------------",
+                "Basu+(1966)       6   Q       8.  Few details",
+                "Bormann+(1963)    4   1       Q   Graphical result",
+                "Bormann+(1969)   3,4  PL      7.  Cu63 result high",
+                "Bramlitt+(1962)   6   1      18.  Large error",
+                "Carter(1966)      6   Q       Q   No details",
+                "Cevolani+(1962)   3   9       7.  Cu62 half-life 10.1m",
+                "Chatterjee+(1967) 3   PL     10.  Few details",
+                "Chittenden+(1961) 2   1,3    10.  Result high",
+                "Cross+(1962)      2   1      10.  Result low",
+                "Csikai+(1963)     1   LN      Q    -------",
+                "Depraz+(1960)   1,2,4 3    8-12.  Results divergent",
+                "Dressler+(1978)   1   2       5.  Ratio high",
+                "Dyer+(1972)       2   SINP    9.  E(n) low: Q",
+                "Ferguson+(1960)   3   LINT    9.  Result low",
+                "Garg(1979)        2   3      10.  Result high",
+                "Hankla+(1972)     5   1,2     8.  E(n) above Au(n,3n)",
+                "                                   threshold 14.8 MeV:Q",
+                "Jeronymo+(1963)   1   PL     10.  Large error",
+                "Lebowitz+(1970)   1   FN2N   18.   -------",
+                "Levkovskii(1964)  7   Q      18.  Summary account",
+                "Liskien+(1965)    2   TL      6.  Superseded Liskien'79",
+                "Lu Wen-Deh+(1970) 6   2       5.  Result high",
+                "McCrary+(1960)   3,4  Q      10.  Result high,",
+                "                                   see Bychkov+(1980)",
+                "Molla+(1977)      2   1,ASNN  7.  Result low",
+                "Rayburn(1961)     4   3       8.  Cu64 half-life 13.6m",
+                "Schmitt+(1961)    1   UNF     7.    -------",
+                "Singh(1970)       2   Q       Q   Summary. Result high",
+                "Strain+(1965)     4   1,3     Q    -------",
+                "Strohal+(1962)    6   2       6.  Result low",
+                "Tewes+(1960)    1,5,6 TL     20.  Large error",
+                "Vonach+(1959)     6   1      15.  Large error",
+                "-------------------------------------------------------",
+                "Notes",
+                "  Q. Question or questionable",
+                "  PL Plastic counter",
+                "  TL Telescope",
+                "  LN Long counter",
+                "  SINP Si28(n,p)",
+                "  LINT Li6(n,t)",
+                "  FN2N F(n,2n)",
+                "  ASNN As(n,2n)",
+                "  UNF  U238(n,f)",
+                "** The distribution of ratio measurements in the",
+                " evaluation is given as follows, (the code of reaction",
+                " cross-section is same as before.)",
+                "-------------------------------------------------------",
+                " x-section   1    2    3    4    5    6    7    8    9",
+                "-------------------------------------------------------",
+                "     1            7.   2.   5.   7.   5.   3.   2.  10.",
+                "     2                 2.   5.   1.   2.   3.   4.   4.",
+                "     3                      2.   0.   1.   0.   2.   5.",
+                "     4                           1.   0.   2.   1.   3.",
+                "     5                                0.   0.   1.   1.",
+                "     6                                     1.   2.   0.",
+                "     7                                          0.   2.",
+                "     8                                               1.",
+                "     9                                               -",
+                "-------------------------------------------------------",
+                "** The results of this evaluation at 14.70 MeV and the",
+                " variance-covariance matrix for the results are as",
+                " follows, (variances given in (%)**2 .)",
+                "-------------------------------------------------------",
+                " Reaction     Code x-sec           Unc.(%)",
+                "              No.  (MB)   Least-sq. Syst.  Total",
+                "-------------------------------------------------------",
+                "Al27(n,a)Na24    1  113.3   0.6             0.6",
+                "Fe56(n,p)Mn56    2  108.1   0.6             0.6",
+                "Cu63(n,2n)Cu62   3  544.    1.3      0.2    1.3",
+                "Cu65(n,2n)Cu64   4  986.    1.2     +1.0   +1.6",
+                "                                    -2.5   -2.8",
+                "Au197(n,2n)Au196 5 2164.    1.7      0.1    1.7",
+                "Nb93(n,2n)Nb92m  6  449.    1.9             1.9",
+                "S32(n,p)P32      7  215.    1.4             1.4",
+                "H1(n,n)H1        8  653.    0.8      1.0    1.3",
+                "-------------------------------------------------------",
+                " Variance-covariance matrix",
+                "-------------------------------------------------------",
+                "Al27(n,a)Na24   0.32 0.19 0.16 0.19 0.30 0.26 0.21 0.19",
+                "Fe56(n,p)Mn56        0.36 0.24 0.27 0.22 0.26 0.27 0.31",
+                "Cu63(n,2n)Cu62            1.65 0.86 0.18 0.25 0.34 0.27",
+                "Cu65(n,2n)Cu64                 1.60 0.22 0.32 0.39 0.26",
+                "Au197(n,2n)Au196                    2.82 0.50 0.23 0.21",
+                "Nb93(n,2n)Nb92m                          3.60 0.31 0.26",
+                "S32(n,p)P32                                   2.12 0.23",
+                "H1(n,n)H1                                          0.64",
+                "-------------------------------------------------------"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "1 sigma uncertainties are given."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 6 of J,ANE,8,469,1981"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19820129,
+                "history": "C"
+              },
+              "free_text": [
+                " KO."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19871116,
+                "history": "A"
+              },
+              "free_text": [
+                " DG. Superseded by EXFOR V0043"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20110131,
+                "history": "U"
+              },
+              "free_text": [
+                " On. Upper to lower cases, 4 digits year"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "EN"
+            ],
+            "unit": [
+              "MEV"
+            ],
+            "value": [
+              14.7
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "V0029002",
+            "N2": 20110131,
+            "alteration_flag": " ",
+            "transmission_identification": "V028"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "13-AL-27(N,A)11-NA-24,,SIG,,,EVAL",
+                "code_unit": [
+                  {
+                    "unit": "13-AL-27(N,A)11-NA-24,,SIG,,,EVAL",
+                    "field": {
+                      "reaction": "13-AL-27(N,A)11-NA-24",
+                      "target": "13-AL-27",
+                      "projectile": "N",
+                      "process": "A",
+                      "product": "11-NA-24",
+                      "quantity": ",SIG",
+                      "data_type": "EVAL",
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "80078002",
+                "author": "P.M.Aron+",
+                "reference": {
+                  "code": "J,AE,16,370,1964",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "AE",
+                      "number": null,
+                      "volume": "16",
+                      "part": null,
+                      "issue": null,
+                      "page": "370"
+                    },
+                    "date": 1964
+                  }
+                }
+              },
+              "free_text": [
+                "          =78AR1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "21250002",
+                "author": "P.Boschung+",
+                "reference": {
+                  "code": "J,HPA,42,252,196904",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "HPA",
+                      "number": null,
+                      "volume": "42",
+                      "part": null,
+                      "issue": null,
+                      "page": "252"
+                    },
+                    "date": 196904
+                  }
+                }
+              },
+              "free_text": [
+                "     =69BO1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "11457007",
+                "author": "J.Butler+",
+                "reference": {
+                  "code": "J,CJP,41,372,1963",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CJP",
+                      "number": null,
+                      "volume": "41",
+                      "part": null,
+                      "issue": null,
+                      "page": "372"
+                    },
+                    "date": 1963
+                  }
+                }
+              },
+              "free_text": [
+                "         =63BU1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20930005",
+                "author": "D.Crumpton+",
+                "reference": {
+                  "code": "J,JIN,31,1,196901",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JIN",
+                      "number": null,
+                      "volume": "31",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 196901
+                  }
+                }
+              },
+              "free_text": [
+                "       =69CR1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20890003",
+                "author": "P.Cuzzocrea+",
+                "reference": {
+                  "code": "J,NC/B,54,53,196803",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NC/B",
+                      "number": null,
+                      "volume": "54",
+                      "part": null,
+                      "issue": null,
+                      "page": "53"
+                    },
+                    "date": 196803
+                  }
+                }
+              },
+              "free_text": [
+                "    =68CU1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "11494003",
+                "author": "F.Gabbard+",
+                "reference": {
+                  "code": "J,PR,128,1276,1962",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "128",
+                      "part": null,
+                      "issue": null,
+                      "page": "1276"
+                    },
+                    "date": 1962
+                  }
+                }
+              },
+              "free_text": [
+                "       =62GA1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "30523001",
+                "author": "Lu Han-Lin+",
+                "reference": {
+                  "code": "J,PHE,3,(1),88,197901",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PHE",
+                      "number": null,
+                      "volume": "3",
+                      "part": null,
+                      "issue": "1",
+                      "page": "88"
+                    },
+                    "date": 197901
+                  }
+                }
+              },
+              "free_text": [
+                "   =79LU1",
+                " in the text,the author's name is inversely taken."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "21372002",
+                "author": "J.D.Hemmingway+",
+                "reference": {
+                  "code": "J,PRS/A,292,180,1966",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PRS/A",
+                      "number": null,
+                      "volume": "292",
+                      "part": null,
+                      "issue": null,
+                      "page": "180"
+                    },
+                    "date": 1966
+                  }
+                }
+              },
+              "free_text": [
+                "=66HE1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20378003",
+                "author": "A.Paulsen+",
+                "reference": {
+                  "code": "J,JNE/AB,19,907,196511",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JNE/AB",
+                      "number": null,
+                      "volume": "19",
+                      "part": null,
+                      "issue": null,
+                      "page": "907"
+                    },
+                    "date": 196511
+                  }
+                }
+              },
+              "free_text": [
+                "   =65PA1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "21345002",
+                "author": "B.Minetti+",
+                "reference": {
+                  "code": "J,ZP,199,275,196701",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ZP",
+                      "number": null,
+                      "volume": "199",
+                      "part": null,
+                      "issue": null,
+                      "page": "275"
+                    },
+                    "date": 196701
+                  }
+                }
+              },
+              "free_text": [
+                "      =67MI1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20888002",
+                "author": "G.C.Bonazzola+",
+                "reference": {
+                  "code": "J,NP,51,337,196402",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "51",
+                      "part": null,
+                      "issue": null,
+                      "page": "337"
+                    },
+                    "date": 196402
+                  }
+                }
+              },
+              "free_text": [
+                "   =64BO1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "11462002",
+                "author": "B.P.Bayhurst+",
+                "reference": {
+                  "code": "J,JIN,23,173,1961",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JIN",
+                      "number": null,
+                      "volume": "23",
+                      "part": null,
+                      "issue": null,
+                      "page": "173"
+                    },
+                    "date": 1961
+                  }
+                }
+              },
+              "free_text": [
+                "     =61BA1",
+                " in the Ref.of the text 61BA1 is dropped."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20798002",
+                "author": "J.C.Robertson+",
+                "reference": {
+                  "code": "J,JNE,27,139,197303",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JNE",
+                      "number": null,
+                      "volume": "27",
+                      "part": null,
+                      "issue": null,
+                      "page": "139"
+                    },
+                    "date": 197303
+                  }
+                }
+              },
+              "free_text": [
+                "  =73RO1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": null,
+                "author": "J.C.Robertson+",
+                "reference": {
+                  "code": "J,JNE,27,531,1973",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JNE",
+                      "number": null,
+                      "volume": "27",
+                      "part": null,
+                      "issue": null,
+                      "page": "531"
+                    },
+                    "date": 1973
+                  }
+                }
+              },
+              "free_text": [
+                "            =73RO2"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20867006",
+                "author": "T.B.Ryves+",
+                "reference": {
+                  "code": "J,JP/G,4,(11),1783,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JP/G",
+                      "number": null,
+                      "volume": "4",
+                      "part": null,
+                      "issue": "11",
+                      "page": "1783"
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                "  =78RY2"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "10186002",
+                "author": "G.N.Salaita",
+                "reference": {
+                  "code": "J,NP/A,170,193,197107",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "170",
+                      "part": null,
+                      "issue": null,
+                      "page": "193"
+                    },
+                    "date": 197107
+                  }
+                }
+              },
+              "free_text": [
+                "   =71SA1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "30008029",
+                "author": "P.Strohal+",
+                "reference": {
+                  "code": "J,NP,30,49,196202",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "30",
+                      "part": null,
+                      "issue": null,
+                      "page": "49"
+                    },
+                    "date": 196202
+                  }
+                }
+              },
+              "free_text": [
+                "        =62ST1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20986009",
+                "author": "M.T.Swinhoe",
+                "reference": {
+                  "code": "C,79KNOX,246,197910",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "79KNOX",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 197910
+                  }
+                }
+              },
+              "free_text": [
+                "     =79SW1",
+                " and report AERE-PR/NP26,P.39(1979)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20111001",
+                "author": "H.Vonach+",
+                "reference": {
+                  "code": "J,ZP,237,155,197009",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ZP",
+                      "number": null,
+                      "volume": "237",
+                      "part": null,
+                      "issue": null,
+                      "page": "155"
+                    },
+                    "date": 197009
+                  }
+                }
+              },
+              "free_text": [
+                "       =70VO1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": null,
+                "author": "G.Winkler+",
+                "reference": {
+                  "code": "W,WINKLER,1981",
+                  "field": {
+                    "reference_type": "W",
+                    "reference": {
+                      "code": "WINKLER",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1981
+                  }
+                }
+              },
+              "free_text": [
+                " Check req'd       =81WI1",
+                " * Following activation measurements are excluded",
+                "   from the evaluation, the reasons of which are",
+                "   mentioned in subentry .001. Marked with N."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "30118004",
+                "author": "J.Csikai+",
+                "reference": {
+                  "code": "J,NP,46,141,196307",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "46",
+                      "part": null,
+                      "issue": null,
+                      "page": "141"
+                    },
+                    "date": 196307
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "21419004",
+                "author": "M.J.Depraz+",
+                "reference": {
+                  "code": "J,JPR,21,377,196005",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JPR",
+                      "number": null,
+                      "volume": "21",
+                      "part": null,
+                      "issue": null,
+                      "page": "377"
+                    },
+                    "date": 196005
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "30479002",
+                "author": "U.Garuska+",
+                "reference": {
+                  "code": "P,INR-1773/I/PL/A,16,1978",
+                  "field": {
+                    "reference_type": "P",
+                    "reference": {
+                      "code": "INR-",
+                      "number": "1773/I/PL/A",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "16"
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " and J.Dresler et al.,77GAUSSIG Conf.,ZFK-376,51(1978)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "20922002",
+                "author": "J.M.Jeronymo+",
+                "reference": {
+                  "code": "J,NP,47,157,1963",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "47",
+                      "part": null,
+                      "issue": null,
+                      "page": "157"
+                    },
+                    "date": 1963
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "10116002",
+                "author": "J.Lebowitz+",
+                "reference": {
+                  "code": "J,NC/A,65,675,1970",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NC/A",
+                      "number": null,
+                      "volume": "65",
+                      "part": null,
+                      "issue": null,
+                      "page": "675"
+                    },
+                    "date": 1970
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "11530003",
+                "author": "H.W.Schmitt+",
+                "reference": {
+                  "code": "J,PR,121,827,1961",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "121",
+                      "part": null,
+                      "issue": null,
+                      "page": "827"
+                    },
+                    "date": 1961
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "11504003",
+                "author": "H.A.Tewes+",
+                "reference": {
+                  "code": "R,UCRL-6028-T,196006",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "UCRL-",
+                      "number": "6028-T",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 196006
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Other evaluations are",
+                " ENDF/B-V                               116.8       mb",
+                " Spaepen(1969),Tech.Rep.IAEA-107        114.        mb",
+                " Tagesen,Vonach(1981),Phys.Data,13,No.3,113.1+/-0.5 mb",
+                " The ENDF value is 3% higher than this work."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "V0043002",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Superseded by EXFOR V0043.002"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20110131,
+                "history": "U"
+              },
+              "free_text": [
+                " On. Upper to lower cases, 4 digits year"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NODATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "V0029003",
+            "N2": 20110131,
+            "alteration_flag": " ",
+            "transmission_identification": "V028"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "26-FE-56(N,P)25-MN-56,,SIG,,,EVAL",
+                "code_unit": [
+                  {
+                    "unit": "26-FE-56(N,P)25-MN-56,,SIG,,,EVAL",
+                    "field": {
+                      "reaction": "26-FE-56(N,P)25-MN-56",
+                      "target": "26-FE-56",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "25-MN-56",
+                      "quantity": ",SIG",
+                      "data_type": "EVAL",
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "10022010",
+                "author": "R.C.Barrall+",
+                "reference": {
+                  "code": "R,AFWL-TR-68-134,1969",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "AFWL-TR-",
+                      "number": "68-134",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1969
+                  }
+                }
+              },
+              "free_text": [
+                "  =69BA2"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "10031005",
+                "author": "R.C.Barrall+",
+                "reference": {
+                  "code": "J,NP/A,138,387,196912",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "138",
+                      "part": null,
+                      "issue": null,
+                      "page": "387"
+                    },
+                    "date": 196912
+                  }
+                }
+              },
+              "free_text": [
+                "  =69BA1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "11701001",
+                "author": "D.C.Santry+",
+                "reference": {
+                  "code": "J,CJP,42,1030,1964",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CJP",
+                      "number": null,
+                      "volume": "42",
+                      "part": null,
+                      "issue": null,
+                      "page": "1030"
+                    },
+                    "date": 1964
+                  }
+                }
+              },
+              "free_text": [
+                "      =64SA1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20890004",
+                "author": "P.Cuzzocrea+",
+                "reference": {
+                  "code": "J,NC/B,54,53,196803",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NC/B",
+                      "number": null,
+                      "volume": "54",
+                      "part": null,
+                      "issue": null,
+                      "page": "53"
+                    },
+                    "date": 196803
+                  }
+                }
+              },
+              "free_text": [
+                "    =68CU1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "11494009",
+                "author": "F.Gabbard+",
+                "reference": {
+                  "code": "J,PR,128,1276,1962",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "128",
+                      "part": null,
+                      "issue": null,
+                      "page": "1276"
+                    },
+                    "date": 1962
+                  }
+                }
+              },
+              "free_text": [
+                "       =62GA1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": null,
+                "author": "V.D.Huynh",
+                "reference": {
+                  "code": "R,BIPM-76/2,1976",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "BIPM-",
+                      "number": "76/2",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1976
+                  }
+                }
+              },
+              "free_text": [
+                "                  =76HU1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "40223010",
+                "author": "V.Levkovskii+",
+                "reference": {
+                  "code": "J,SNP,8,4,196901",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "8",
+                      "part": null,
+                      "issue": null,
+                      "page": "4"
+                    },
+                    "date": 196901
+                  }
+                }
+              },
+              "free_text": [
+                "      =69LE1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20377002",
+                "author": "H.Liskien+",
+                "reference": {
+                  "code": "J,JNE,19,73,196502",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JNE",
+                      "number": null,
+                      "volume": "19",
+                      "part": null,
+                      "issue": null,
+                      "page": "73"
+                    },
+                    "date": 196502
+                  }
+                }
+              },
+              "free_text": [
+                "       =65LI1",
+                " H.Liskien,A.Paulsen,int.rep.CBNM-VG-1(1974)     =74LI1",
+                " H.Liskien,A.Paulsen,int.rep.CBNM-VG-6(1975)     =75LI1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20888004",
+                "author": "G.C.Bonazzola+",
+                "reference": {
+                  "code": "J,NP,51,337,196402",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "51",
+                      "part": null,
+                      "issue": null,
+                      "page": "337"
+                    },
+                    "date": 196402
+                  }
+                }
+              },
+              "free_text": [
+                "   =64BO1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": null,
+                "author": "Z.A.Ramendik+",
+                "reference": {
+                  "code": "J,SJA,42,152,197708",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SJA",
+                      "number": null,
+                      "volume": "42",
+                      "part": null,
+                      "issue": null,
+                      "page": "152"
+                    },
+                    "date": 197708
+                  }
+                }
+              },
+              "free_text": [
+                "           =77RA1",
+                " V.T.Shchebolev et al.,Metrologie 8(1974)61      =74SH1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20993002",
+                "author": "K.Kudo",
+                "reference": {
+                  "code": "J,NIM,141,325,197703",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM",
+                      "number": null,
+                      "volume": "141",
+                      "part": null,
+                      "issue": null,
+                      "page": "325"
+                    },
+                    "date": 197703
+                  }
+                }
+              },
+              "free_text": [
+                "         =77KU1",
+                " E.Teranishi et al. Bull.Electrotec.Lab.41(77)693=77TE1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20815001",
+                "author": "H.Vonach+",
+                "reference": {
+                  "code": "C,68WASH,2,885,196803",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "68WASH",
+                      "number": null,
+                      "volume": "2",
+                      "part": null,
+                      "issue": null,
+                      "page": "885"
+                    },
+                    "date": 196803
+                  }
+                }
+              },
+              "free_text": [
+                "     =68VO1",
+                " * Following activation measurements are excluded",
+                "   from the evaluation, the reasons of which are",
+                "   mentioned in subentry .001. Marked with N."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "11718005",
+                "author": "D.M.Chittenden+",
+                "reference": {
+                  "code": "J,PR,122,860,1961",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "122",
+                      "part": null,
+                      "issue": null,
+                      "page": "860"
+                    },
+                    "date": 1961
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "11696001",
+                "author": "W.G.Cross+",
+                "reference": {
+                  "code": "P,EANDC(CAN)-16,1,1963",
+                  "field": {
+                    "reference_type": "P",
+                    "reference": {
+                      "code": "EANDC(CAN)-",
+                      "number": "16",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 1963
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " and report PR-P-53,7(1962) Chalk River."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "21419006",
+                "author": "M.J.Depraz+",
+                "reference": {
+                  "code": "J,JPR,21,377,1960",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JPR",
+                      "number": null,
+                      "volume": "21",
+                      "part": null,
+                      "issue": null,
+                      "page": "377"
+                    },
+                    "date": 1960
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "10289002",
+                "author": "N.C.Dyer+",
+                "reference": {
+                  "code": "J,JIN,34,1119,197204",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JIN",
+                      "number": null,
+                      "volume": "34",
+                      "part": null,
+                      "issue": null,
+                      "page": "1119"
+                    },
+                    "date": 197204
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " in the text (Table2), it is miscoded as 1, which is to",
+                " be 2."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "30531006",
+                "author": "K.C.Garg+",
+                "reference": {
+                  "code": "J,IPA,17,385,197906",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "IPA",
+                      "number": null,
+                      "volume": "17",
+                      "part": null,
+                      "issue": null,
+                      "page": "385"
+                    },
+                    "date": 197906
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "20377002",
+                "author": "H.Liskien+",
+                "reference": {
+                  "code": "J,JNE,19,73,196502",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JNE",
+                      "number": null,
+                      "volume": "19",
+                      "part": null,
+                      "issue": null,
+                      "page": "73"
+                    },
+                    "date": 196502
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "20554006",
+                "author": "S.M.Qaim+",
+                "reference": {
+                  "code": "C,71CANT,,121,1971",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "71CANT",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "121"
+                    },
+                    "date": 1971
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " and N.Molla,S.M.Qaim,Nucl.Phys,A283(1977)269."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "10309004",
+                "author": "J.J.Singh",
+                "reference": {
+                  "code": "J,ANS,15,147,197206",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ANS",
+                      "number": null,
+                      "volume": "15",
+                      "part": null,
+                      "issue": null,
+                      "page": "147"
+                    },
+                    "date": 197206
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " in the text (Table 2), Singh(1970) should be read as",
+                " Singh (1972)."
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Other evaluations are,",
+                " ENDF/B-V                              103.6       mb",
+                " Bychkov+(1980),Report INDC(CCP)-146   108.        mb",
+                " Zolotarev+(1980),Report INDC(CCP)-147 109.45      mb",
+                " Ryves,Axton(1979),79KNOX Conf,P.980,  109.2+/-1.0 mb",
+                " The ENDF value is 4% lower than this work."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "V0043003",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Superseded by EXFOR V0043.003"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20110131,
+                "history": "U"
+              },
+              "free_text": [
+                " On. Upper to lower cases, 4 digits year"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NODATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "V0029004",
+            "N2": 20110131,
+            "alteration_flag": " ",
+            "transmission_identification": "V028"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "29-CU-63(N,2N)29-CU-62,,SIG,,,EVAL",
+                "code_unit": [
+                  {
+                    "unit": "29-CU-63(N,2N)29-CU-62,,SIG,,,EVAL",
+                    "field": {
+                      "reaction": "29-CU-63(N,2N)29-CU-62",
+                      "target": "29-CU-63",
+                      "projectile": "N",
+                      "process": "2N",
+                      "product": "29-CU-62",
+                      "quantity": ",SIG",
+                      "data_type": "EVAL",
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "21339006",
+                "author": "M.Bormann+",
+                "reference": {
+                  "code": "J,ZP,166,477,196202",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ZP",
+                      "number": null,
+                      "volume": "166",
+                      "part": null,
+                      "issue": null,
+                      "page": "477"
+                    },
+                    "date": 196202
+                  }
+                }
+              },
+              "free_text": [
+                "      =62BO1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "21352008",
+                "author": "H.Pollehn+",
+                "reference": {
+                  "code": "J,ZN/A,16,227,1961",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ZN/A",
+                      "number": null,
+                      "volume": "16",
+                      "part": null,
+                      "issue": null,
+                      "page": "227"
+                    },
+                    "date": 1961
+                  }
+                }
+              },
+              "free_text": [
+                "       =61PO1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20930002",
+                "author": "D.Crumpton+",
+                "reference": {
+                  "code": "J,JIN,31,1,196901",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JIN",
+                      "number": null,
+                      "volume": "31",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 196901
+                  }
+                }
+              },
+              "free_text": [
+                "       =69CR1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "11411003",
+                "author": "A.J.de Jejuren+",
+                "reference": {
+                  "code": "J,PR,120,901,1960",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "120",
+                      "part": null,
+                      "issue": null,
+                      "page": "901"
+                    },
+                    "date": 1960
+                  }
+                }
+              },
+              "free_text": [
+                "   =60DE1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20106001",
+                "author": "B.Grimeland",
+                "reference": {
+                  "code": "J,PR/B,137,878,196502",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/B",
+                      "number": null,
+                      "volume": "137",
+                      "part": null,
+                      "issue": null,
+                      "page": "878"
+                    },
+                    "date": 196502
+                  }
+                }
+              },
+              "free_text": [
+                "   =65GR1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "21401002",
+                "author": "J.Letessir+",
+                "reference": {
+                  "code": "J,CR,259,4620,196412",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CR",
+                      "number": null,
+                      "volume": "259",
+                      "part": null,
+                      "issue": null,
+                      "page": "4620"
+                    },
+                    "date": 196412
+                  }
+                }
+              },
+              "free_text": [
+                "    =64LE1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20377004",
+                "author": "H.Liskien+",
+                "reference": {
+                  "code": "J,JNE,19,73,196502",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JNE",
+                      "number": null,
+                      "volume": "19",
+                      "part": null,
+                      "issue": null,
+                      "page": "73"
+                    },
+                    "date": 196502
+                  }
+                }
+              },
+              "free_text": [
+                "       =65LI1",
+                " H.Liskien,A.Paulsen,int.rep.CBNM-VG-1(1974)     =74LI1",
+                " H.Liskien,A.Paulsen,int.rep.CBNM-VG-6(1975)     =75LI1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "21509003",
+                "author": "R.Mogharrab+",
+                "reference": {
+                  "code": "J,AKE,19,107,197204",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "AKE",
+                      "number": null,
+                      "volume": "19",
+                      "part": null,
+                      "issue": null,
+                      "page": "107"
+                    },
+                    "date": 197204
+                  }
+                }
+              },
+              "free_text": [
+                "    =72MO1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": null,
+                "author": "A.Pasquarelli",
+                "reference": {
+                  "code": "J,NP/A,93,218,196703",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "93",
+                      "part": null,
+                      "issue": null,
+                      "page": "218"
+                    },
+                    "date": 196703
+                  }
+                }
+              },
+              "free_text": [
+                "          =67PA1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20772001",
+                "author": "T.B.Ryves+",
+                "reference": {
+                  "code": "J,MET,14,(3),127,197806",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "MET",
+                      "number": null,
+                      "volume": "14",
+                      "part": null,
+                      "issue": "3",
+                      "page": "127"
+                    },
+                    "date": 197806
+                  }
+                }
+              },
+              "free_text": [
+                "  =78RY1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20329003",
+                "author": "M.Sakisaka+",
+                "reference": {
+                  "code": "J,JPJ,16,1869,196110",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JPJ",
+                      "number": null,
+                      "volume": "16",
+                      "part": null,
+                      "issue": null,
+                      "page": "1869"
+                    },
+                    "date": 196110
+                  }
+                }
+              },
+              "free_text": [
+                "    =61SA1",
+                " * Following activation measurements are excluded",
+                "   from the evaluation, the reasons of which are",
+                "   mentioned in subentry .001. Marked with N."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "20835004",
+                "author": "M.Bormann+",
+                "reference": {
+                  "code": "J,NP/A,130,195,1969",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "130",
+                      "part": null,
+                      "issue": null,
+                      "page": "195"
+                    },
+                    "date": 1969
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "21266007",
+                "author": "M.Cevolani+",
+                "reference": {
+                  "code": "J,NC,26,1328,1962",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NC",
+                      "number": null,
+                      "volume": "26",
+                      "part": null,
+                      "issue": null,
+                      "page": "1328"
+                    },
+                    "date": 1962
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "30061003",
+                "author": "Chatterjee+",
+                "reference": {
+                  "code": "P,BARC-305,30,1967",
+                  "field": {
+                    "reference_type": "P",
+                    "reference": {
+                      "code": "BARC-",
+                      "number": "305",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "30"
+                    },
+                    "date": 1967
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "11356004",
+                "author": "J.M.Fergusson+",
+                "reference": {
+                  "code": "J,PR,118,228,1960",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "118",
+                      "part": null,
+                      "issue": null,
+                      "page": "228"
+                    },
+                    "date": 1960
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "11268004",
+                "author": "J.H.McCrary+",
+                "reference": {
+                  "code": "J,BAP,5,246(HA5),1960",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAP",
+                      "number": null,
+                      "volume": "5",
+                      "part": null,
+                      "issue": null,
+                      "page": "246(HA5)"
+                    },
+                    "date": 1960
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Other evaluations are,",
+                " UKNDL                                      616.     mb",
+                " JENDL                                      527.     mb",
+                " Body,Csikai(1973), Atom.Energy Rev.11,153, 558+/-11 mb",
+                " Bychkov+(1980),Report INDC(CCP)-146        557.     mb",
+                " Tagesen+(1979),Phys.Data,13,1              543+/-5  mb"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "V0043004",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Superseded by EXFOR V0043.004"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20110131,
+                "history": "U"
+              },
+              "free_text": [
+                " On. Upper to lower cases, 4 digits year"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NODATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "V0029005",
+            "N2": 20110131,
+            "alteration_flag": " ",
+            "transmission_identification": "V028"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "29-CU-65(N,2N)29-CU-64,,SIG,,,EVAL",
+                "code_unit": [
+                  {
+                    "unit": "29-CU-65(N,2N)29-CU-64,,SIG,,,EVAL",
+                    "field": {
+                      "reaction": "29-CU-65(N,2N)29-CU-64",
+                      "target": "29-CU-65",
+                      "projectile": "N",
+                      "process": "2N",
+                      "product": "29-CU-64",
+                      "quantity": ",SIG",
+                      "data_type": "EVAL",
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "10022015",
+                "author": "R.C.Barrall+",
+                "reference": {
+                  "code": "R,AFWL-TR-68-134,1969",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "AFWL-TR-",
+                      "number": "68-134",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1969
+                  }
+                }
+              },
+              "free_text": [
+                "  =69BA1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "21352009",
+                "author": "H.Pollehn+",
+                "reference": {
+                  "code": "J,ZN/A,16,227,1961",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ZN/A",
+                      "number": null,
+                      "volume": "16",
+                      "part": null,
+                      "issue": null,
+                      "page": "227"
+                    },
+                    "date": 1961
+                  }
+                }
+              },
+              "free_text": [
+                "       =61PO1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "11776001",
+                "author": "D.C.Santry+",
+                "reference": {
+                  "code": "J,CJP,44,1183,1965",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CJP",
+                      "number": null,
+                      "volume": "44",
+                      "part": null,
+                      "issue": null,
+                      "page": "1183"
+                    },
+                    "date": 1965
+                  }
+                }
+              },
+              "free_text": [
+                "      =65SA1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20930003",
+                "author": "D.Crumpton+",
+                "reference": {
+                  "code": "J,JIN,31,1,196901",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JIN",
+                      "number": null,
+                      "volume": "31",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 196901
+                  }
+                }
+              },
+              "free_text": [
+                "       =69CR1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "31107001",
+                "author": "R.N.Glover+",
+                "reference": {
+                  "code": "J,NP,29,309,1962",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "29",
+                      "part": null,
+                      "issue": null,
+                      "page": "309"
+                    },
+                    "date": 1962
+                  }
+                }
+              },
+              "free_text": [
+                "        =62GL2"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20386003",
+                "author": "A.Paulsen+",
+                "reference": {
+                  "code": "J,NUK,7,117,196503",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NUK",
+                      "number": null,
+                      "volume": "7",
+                      "part": null,
+                      "issue": null,
+                      "page": "117"
+                    },
+                    "date": 196503
+                  }
+                }
+              },
+              "free_text": [
+                "       =65PA2",
+                " H.Liskien,A.Paulsen,Int.Rep.CBNM-VG-1(1974)     =74LI1",
+                " H.Liskien,A.Paulsen,Int.Rep.CBNM-VG-6(1975)     =75LI1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "21509004",
+                "author": "R.Mogharrab+",
+                "reference": {
+                  "code": "J,AKE,19,107,197204",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "AKE",
+                      "number": null,
+                      "volume": "19",
+                      "part": null,
+                      "issue": null,
+                      "page": "107"
+                    },
+                    "date": 197204
+                  }
+                }
+              },
+              "free_text": [
+                "    =72MO1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20198001",
+                "author": "W.Nagel",
+                "reference": {
+                  "code": "T,NAGEL,196612",
+                  "field": {
+                    "reference_type": "T",
+                    "reference": {
+                      "code": "NAGEL",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 196612
+                  }
+                }
+              },
+              "free_text": [
+                "              =65NA1",
+                " and W.Nagel and A.H.W.Aten, Physica,31(1965)1091"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20888006",
+                "author": "G.C.Bonazzola+",
+                "reference": {
+                  "code": "J,NP,51,337,196402",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "51",
+                      "part": null,
+                      "issue": null,
+                      "page": "337"
+                    },
+                    "date": 196402
+                  }
+                }
+              },
+              "free_text": [
+                "   =64BO1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "11645007",
+                "author": "R.J.Prestwood+",
+                "reference": {
+                  "code": "J,PR,121,1438,196103",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "121",
+                      "part": null,
+                      "issue": null,
+                      "page": "1438"
+                    },
+                    "date": 196103
+                  }
+                }
+              },
+              "free_text": [
+                " =60PR1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20536009",
+                "author": "S.M.Qaim",
+                "reference": {
+                  "code": "J,NP/A,185,614,197205",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "185",
+                      "part": null,
+                      "issue": null,
+                      "page": "614"
+                    },
+                    "date": 197205
+                  }
+                }
+              },
+              "free_text": [
+                "      =72QU1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20799015",
+                "author": "J.C.Robertson+",
+                "reference": {
+                  "code": "J,JNE,27,531,197308",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JNE",
+                      "number": null,
+                      "volume": "27",
+                      "part": null,
+                      "issue": null,
+                      "page": "531"
+                    },
+                    "date": 197308
+                  }
+                }
+              },
+              "free_text": [
+                "  =73RO2"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20772001",
+                "author": "T.B.Ryves+",
+                "reference": {
+                  "code": "J,MET,14,(3),127,197806",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "MET",
+                      "number": null,
+                      "volume": "14",
+                      "part": null,
+                      "issue": "3",
+                      "page": "127"
+                    },
+                    "date": 197806
+                  }
+                }
+              },
+              "free_text": [
+                "  =78RY1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20815001",
+                "author": "H.Vonach+",
+                "reference": {
+                  "code": "C,68WASH,2,885,196803",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "68WASH",
+                      "number": null,
+                      "volume": "2",
+                      "part": null,
+                      "issue": null,
+                      "page": "885"
+                    },
+                    "date": 196803
+                  }
+                }
+              },
+              "free_text": [
+                "     =68VO1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20611001",
+                "author": "W.Mannhart+",
+                "reference": {
+                  "code": "J,ZP/A,272,279,197503",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ZP/A",
+                      "number": null,
+                      "volume": "272",
+                      "part": null,
+                      "issue": null,
+                      "page": "279"
+                    },
+                    "date": 197503
+                  }
+                }
+              },
+              "free_text": [
+                "   =75MA1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "31039005",
+                "author": "E.Weigold",
+                "reference": {
+                  "code": "J,AUJ,13,186,1960",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "AUJ",
+                      "number": null,
+                      "volume": "13",
+                      "part": null,
+                      "issue": null,
+                      "page": "186"
+                    },
+                    "date": 1960
+                  }
+                }
+              },
+              "free_text": [
+                "         =60WE1",
+                " * Following activation measurements are excluded",
+                "   from the evaluation, the reasons of which are",
+                "   mentioned in subentry .001. Marked with N."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "21343004",
+                "author": "M.Bormann+",
+                "reference": {
+                  "code": "J,ZP,174,1,1963",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ZP",
+                      "number": null,
+                      "volume": "174",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 1963
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "20835005",
+                "author": "M.Bormann+",
+                "reference": {
+                  "code": "J,NP/A,130,195,1969",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "130",
+                      "part": null,
+                      "issue": null,
+                      "page": "195"
+                    },
+                    "date": 1969
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "21419007",
+                "author": "M.J.Depraz+",
+                "reference": {
+                  "code": "J,JPR,21,377,196005",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JPR",
+                      "number": null,
+                      "volume": "21",
+                      "part": null,
+                      "issue": null,
+                      "page": "377"
+                    },
+                    "date": 196005
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "11268005",
+                "author": "J.H.McCrary+",
+                "reference": {
+                  "code": "J,BAP,5,246(HA5),1960",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAP",
+                      "number": null,
+                      "volume": "5",
+                      "part": null,
+                      "issue": null,
+                      "page": "246(HA5)"
+                    },
+                    "date": 1960
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "11328013",
+                "author": "L.A.Rayburn",
+                "reference": {
+                  "code": "J,PR,122,168,1961",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "122",
+                      "part": null,
+                      "issue": null,
+                      "page": "168"
+                    },
+                    "date": 1961
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "11263026",
+                "author": "J.E.Strain+",
+                "reference": {
+                  "code": "R,ORNL-3672,1965",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "ORNL-",
+                      "number": "3672",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1965
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Other evaluations are,",
+                " ENDF/B-V                                   926.    mb",
+                " UKNDL                                      989.    mb",
+                " JENDL                                      951.    mb",
+                " Body,Csikai(1973),Atom.Energy Rev.11,153,  971+/-5 mb",
+                " Bychkov+(1980),Report INDC(CCP)-146        997.    mb",
+                "For the Cu-65(n,2n) cross-section, there is a current",
+                " large uncertainty due to the Cu-64 decay-scheme",
+                " branching, which must be clarified before a reliable",
+                " result can be determined."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "V0043005",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Superseded by EXFOR V0043.005"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20110131,
+                "history": "U"
+              },
+              "free_text": [
+                " On. Upper to lower cases, 4 digits year"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NODATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "V0029006",
+            "N2": 20110131,
+            "alteration_flag": " ",
+            "transmission_identification": "V028"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "79-AU-197(N,2N)79-AU-196,,SIG,,,EVAL",
+                "code_unit": [
+                  {
+                    "unit": "79-AU-197(N,2N)79-AU-196,,SIG,,,EVAL",
+                    "field": {
+                      "reaction": "79-AU-197(N,2N)79-AU-196",
+                      "target": "79-AU-197",
+                      "projectile": "N",
+                      "process": "2N",
+                      "product": "79-AU-196",
+                      "quantity": ",SIG",
+                      "data_type": "EVAL",
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20842005",
+                "author": "P.Andersson+",
+                "reference": {
+                  "code": "R,LUNF-D6-3021,197811",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "LUNF-D6-",
+                      "number": "3021",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 197811
+                  }
+                }
+              },
+              "free_text": [
+                "  =78AN1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "10022022",
+                "author": "R.C.Barall+",
+                "reference": {
+                  "code": "R,AFWL-TR-68-134,1969",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "AFWL-TR-",
+                      "number": "68-134",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1969
+                  }
+                }
+              },
+              "free_text": [
+                "   =69BA1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "10536054",
+                "author": "B.P.Bayhurst+",
+                "reference": {
+                  "code": "J,PR/C,12,451,197508",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "12",
+                      "part": null,
+                      "issue": null,
+                      "page": "451"
+                    },
+                    "date": 197508
+                  }
+                }
+              },
+              "free_text": [
+                "  =75BA1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20802017",
+                "author": "W.Dilg+",
+                "reference": {
+                  "code": "J,NP/A,118,9,196809",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "118",
+                      "part": null,
+                      "issue": null,
+                      "page": "9"
+                    },
+                    "date": 196809
+                  }
+                }
+              },
+              "free_text": [
+                "         =68DI1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20486005",
+                "author": "A.Paulsen+",
+                "reference": {
+                  "code": "J,AKE,26,34,197508",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "AKE",
+                      "number": null,
+                      "volume": "26",
+                      "part": null,
+                      "issue": null,
+                      "page": "34"
+                    },
+                    "date": 197508
+                  }
+                }
+              },
+              "free_text": [
+                "       =75PA1",
+                " H.Liskien,A.Paulsen,INT.REP.CBNM-VG-1(1974)     =74LI1",
+                " H.Liskien,A.Paulsen,INT.REP.CBNM-VG-6(1975)     =75LI1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "40136020",
+                "author": "G.N.Maslov+",
+                "reference": {
+                  "code": "R,YK-9,50,1972",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "YK-",
+                      "number": "9",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "50"
+                    },
+                    "date": 1972
+                  }
+                }
+              },
+              "free_text": [
+                "          =74MA1",
+                " and report INDC(CCP)-42/U,P.10(1974). Engl.Translation"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "10312009",
+                "author": "D.R.Nethaway",
+                "reference": {
+                  "code": "J,NP/A,190,635,1972",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "190",
+                      "part": null,
+                      "issue": null,
+                      "page": "635"
+                    },
+                    "date": 1972
+                  }
+                }
+              },
+              "free_text": [
+                "    =72NE1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "11645026",
+                "author": "R.J.Prestwood+",
+                "reference": {
+                  "code": "J,PR,121,1438,196103",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "121",
+                      "part": null,
+                      "issue": null,
+                      "page": "1438"
+                    },
+                    "date": 196103
+                  }
+                }
+              },
+              "free_text": [
+                " =61PR1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20536031",
+                "author": "S.M.Qaim",
+                "reference": {
+                  "code": "J,NP/A,185,614,197205",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "185",
+                      "part": null,
+                      "issue": null,
+                      "page": "614"
+                    },
+                    "date": 197205
+                  }
+                }
+              },
+              "free_text": [
+                "      =72QU1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": null,
+                "author": "T.B.Ryves+",
+                "reference": {
+                  "code": "J,JP/G,7,(2),115,1981",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JP/G",
+                      "number": null,
+                      "volume": "7",
+                      "part": null,
+                      "issue": "2",
+                      "page": "115"
+                    },
+                    "date": 1981
+                  }
+                }
+              },
+              "free_text": [
+                "            =81RY1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20815001",
+                "author": "H.Vonach+",
+                "reference": {
+                  "code": "C,68WASH,2,885,196803",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "68WASH",
+                      "number": null,
+                      "volume": "2",
+                      "part": null,
+                      "issue": null,
+                      "page": "885"
+                    },
+                    "date": 196803
+                  }
+                }
+              },
+              "free_text": [
+                "     =68VO1",
+                " * Following activation measurements are excluded",
+                "   from the evaluation, the reasons of which are",
+                "   mentioned in subentry .001. Marked with N."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "10244008",
+                "author": "A.K.Hankla+",
+                "reference": {
+                  "code": "J,NP/A,180,157,1972",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "180",
+                      "part": null,
+                      "issue": null,
+                      "page": "157"
+                    },
+                    "date": 1972
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "11504017",
+                "author": "H.A.Tewes+",
+                "reference": {
+                  "code": "R,UCRL-6028-T,196006",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "UCRL-",
+                      "number": "6028-T",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 196006
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The results of other evaluations are,",
+                " ENDF/B-V                                       2202.mb",
+                " Philis,Bersillon(1977),report CEA-R-4826, 2238+224  mb",
+                "                                               -336  mb",
+                " Body,Csikai(1973),Atom.Energy Rev.11,153, 2109+/-110mb",
+                " Bychkov et al.(1980),report INDC(CCP)-146,2274.     mb"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "V0043006",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Superseded by EXFOR V0043.006"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20110131,
+                "history": "U"
+              },
+              "free_text": [
+                " On. Upper to lower cases, 4 digits year"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NODATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "V0029007",
+            "N2": 20110131,
+            "alteration_flag": " ",
+            "transmission_identification": "V028"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "41-NB-93(N,2N)41-NB-92-M,,SIG,,,EVAL",
+                "code_unit": [
+                  {
+                    "unit": "41-NB-93(N,2N)41-NB-92-M,,SIG,,,EVAL",
+                    "field": {
+                      "reaction": "41-NB-93(N,2N)41-NB-92-M",
+                      "target": "41-NB-93",
+                      "projectile": "N",
+                      "process": "2N",
+                      "product": "41-NB-92-M",
+                      "quantity": ",SIG",
+                      "data_type": "EVAL",
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20830002",
+                "author": "M.Borman+",
+                "reference": {
+                  "code": "J,NP/A,157,481,197011",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "157",
+                      "part": null,
+                      "issue": null,
+                      "page": "481"
+                    },
+                    "date": 197011
+                  }
+                }
+              },
+              "free_text": [
+                "     =70BO1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "10420003",
+                "author": "D.C.Santry+",
+                "reference": {
+                  "code": "P,PR-CMA-27,14,197401",
+                  "field": {
+                    "reference_type": "P",
+                    "reference": {
+                      "code": "PR-CMA-",
+                      "number": "27",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "14"
+                    },
+                    "date": 197401
+                  }
+                }
+              },
+              "free_text": [
+                "   =74SA1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "80238003",
+                "author": "V.L.Glagolev+",
+                "reference": {
+                  "code": "J,ZET,40,743,1961",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ZET",
+                      "number": null,
+                      "volume": "40",
+                      "part": null,
+                      "issue": null,
+                      "page": "743"
+                    },
+                    "date": 1961
+                  }
+                }
+              },
+              "free_text": [
+                "     =62GL1",
+                " and JETP,13(1961)520, English translation."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "10836003",
+                "author": "C.G.Hudson+",
+                "reference": {
+                  "code": "J,ANE,5,589,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ANE",
+                      "number": null,
+                      "volume": "5",
+                      "part": null,
+                      "issue": null,
+                      "page": "589"
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                "        =78HU1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "10088019",
+                "author": "I.Husain+",
+                "reference": {
+                  "code": "J,PR/C,1,1233,197004",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "1",
+                      "part": null,
+                      "issue": null,
+                      "page": "1233"
+                    },
+                    "date": 197004
+                  }
+                }
+              },
+              "free_text": [
+                "      =70HU1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20393002",
+                "author": "A.Paulsen+",
+                "reference": {
+                  "code": "J,ZP,238,23,197009",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ZP",
+                      "number": null,
+                      "volume": "238",
+                      "part": null,
+                      "issue": null,
+                      "page": "23"
+                    },
+                    "date": 197009
+                  }
+                }
+              },
+              "free_text": [
+                "       =70PA1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "10709001",
+                "author": "D.R.Nethaway+",
+                "reference": {
+                  "code": "J,JIN,40,1285,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JIN",
+                      "number": null,
+                      "volume": "40",
+                      "part": null,
+                      "issue": null,
+                      "page": "1285"
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                "    =78NE1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20554011",
+                "author": "S.M.Qaim+",
+                "reference": {
+                  "code": "C,71CANT,,121,197109",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "71CANT",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "121"
+                    },
+                    "date": 197109
+                  }
+                }
+              },
+              "free_text": [
+                "      =71QU1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20033012",
+                "author": "R.Rieder+",
+                "reference": {
+                  "code": "J,APA,23,42,196605",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "APA",
+                      "number": null,
+                      "volume": "23",
+                      "part": null,
+                      "issue": null,
+                      "page": "42"
+                    },
+                    "date": 196605
+                  }
+                }
+              },
+              "free_text": [
+                "        =66RI1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": null,
+                "author": "T.B.Ryves+",
+                "reference": {
+                  "code": "J,JP/G,7,(4),529,1981",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JP/G",
+                      "number": null,
+                      "volume": "7",
+                      "part": null,
+                      "issue": "4",
+                      "page": "529"
+                    },
+                    "date": 1981
+                  }
+                }
+              },
+              "free_text": [
+                "            =81RY1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20347005",
+                "author": "D.G.Vallis",
+                "reference": {
+                  "code": "R,AWRE-O-76/66,196612",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "AWRE-O-",
+                      "number": "76/66",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 196612
+                  }
+                }
+              },
+              "free_text": [
+                "    =66VA1",
+                " * Following activation measurements are excluded",
+                "   from the evaluation, the reasons of which are",
+                "   mentioned in subentry .001. Marked with N."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": null,
+                "author": "D.Basu+",
+                "reference": {
+                  "code": "C,66BOMBAY,,209,196602",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "66BOMBAY",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "209"
+                    },
+                    "date": 196602
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "11590001",
+                "author": "E.T.Bramlitt+",
+                "reference": {
+                  "code": "J,PR,131,2649,1963",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "131",
+                      "part": null,
+                      "issue": null,
+                      "page": "2649"
+                    },
+                    "date": 1963
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": null,
+                "author": "P.Carter",
+                "reference": {
+                  "code": "C,66WASH,,682,196603",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "66WASH",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "682"
+                    },
+                    "date": 196603
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "10497005",
+                "author": "W.D.Lu+",
+                "reference": {
+                  "code": "J,PR/C,1,350,197001",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "1",
+                      "part": null,
+                      "issue": null,
+                      "page": "350"
+                    },
+                    "date": 197001
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "30008014",
+                "author": "P.Strohal+",
+                "reference": {
+                  "code": "J,NP,30,49,196202",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "30",
+                      "part": null,
+                      "issue": null,
+                      "page": "49"
+                    },
+                    "date": 196202
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "11504010",
+                "author": "H.A.Tewes+",
+                "reference": {
+                  "code": "R,UCRL-6028-T,196006",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "UCRL-",
+                      "number": "6028-T",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 196006
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "20087006",
+                "author": "H.Vonach+",
+                "reference": {
+                  "code": "J,OSA,96,120,195903",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "OSA",
+                      "number": null,
+                      "volume": "96",
+                      "part": null,
+                      "issue": null,
+                      "page": "120"
+                    },
+                    "date": 195903
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " In the text (Table 2), it is miscoded as 7, which is",
+                " to be 6."
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The result of other evaluation is,",
+                " Philis et al.,(1975), Report CEA-R-4676, 483+48-87 mb"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "V0043007",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Superseded by EXFOR V0043.007"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20110131,
+                "history": "U"
+              },
+              "free_text": [
+                " On. Upper to lower cases, 4 digits year"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NODATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "V0029008",
+            "N2": 20110131,
+            "alteration_flag": " ",
+            "transmission_identification": "V028"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "16-S-32(N,P)15-P-32,,SIG,,,EVAL",
+                "code_unit": [
+                  {
+                    "unit": "16-S-32(N,P)15-P-32,,SIG,,,EVAL",
+                    "field": {
+                      "reaction": "16-S-32(N,P)15-P-32",
+                      "target": "16-S-32",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "15-P-32",
+                      "quantity": ",SIG",
+                      "data_type": "EVAL",
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "11571001",
+                "author": "L.Allen+",
+                "reference": {
+                  "code": "J,PR,107,1363,195709",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "107",
+                      "part": null,
+                      "issue": null,
+                      "page": "1363"
+                    },
+                    "date": 195709
+                  }
+                }
+              },
+              "free_text": [
+                "       =57AL1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "10022006",
+                "author": "R.C.Barrall+",
+                "reference": {
+                  "code": "R,AFWL-TR-68-134,1969",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "AFWL-TR-",
+                      "number": "68-134",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1969
+                  }
+                }
+              },
+              "free_text": [
+                "  =69BA1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": null,
+                "author": "J.D.Hemmingway",
+                "reference": {
+                  "code": "R,AERE-X/PR-2491,6,1963",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "AERE-X/PR-",
+                      "number": "2491",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "6"
+                    },
+                    "date": 1963
+                  }
+                }
+              },
+              "free_text": [
+                "      =63HE1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "40223011",
+                "author": "V.Levkovskii+",
+                "reference": {
+                  "code": "J,YF,8,(1),7,196807",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "YF",
+                      "number": null,
+                      "volume": "8",
+                      "part": null,
+                      "issue": "1",
+                      "page": "7"
+                    },
+                    "date": 196807
+                  }
+                }
+              },
+              "free_text": [
+                "   =69LE1",
+                " and Soviet J.Nucl.PhyS.8(1969)4, English translation"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20889017",
+                "author": "A.Pasquarelli",
+                "reference": {
+                  "code": "J,NP/A,93,218,196703",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "93",
+                      "part": null,
+                      "issue": null,
+                      "page": "218"
+                    },
+                    "date": 196703
+                  }
+                }
+              },
+              "free_text": [
+                "  =67PA1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": "20799010",
+                "author": "J.C.Robertson+",
+                "reference": {
+                  "code": "J,JNE,27,531,197308",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JNE",
+                      "number": null,
+                      "volume": "27",
+                      "part": null,
+                      "issue": null,
+                      "page": "531"
+                    },
+                    "date": 197308
+                  }
+                }
+              },
+              "free_text": [
+                "  =73RO2"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": null,
+                "author": "W.Schantl",
+                "reference": {
+                  "code": "T,SCHANTL,1970",
+                  "field": {
+                    "reference_type": "T",
+                    "reference": {
+                      "code": "SCHANTL",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1970
+                  }
+                }
+              },
+              "free_text": [
+                "                    =70SC1",
+                " * Following activation measurements are excluded",
+                "   from the evaluation, the reasons of which are",
+                "   mentioned in subentry .001. Marked with N."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "80250002",
+                "author": "V.N.Levkovskii",
+                "reference": {
+                  "code": "J,ZET,45,305,1963",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ZET",
+                      "number": null,
+                      "volume": "45",
+                      "part": null,
+                      "issue": null,
+                      "page": "305"
+                    },
+                    "date": 1963
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " and JETP,18(1964)213, English translation."
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The results of other evaluations are,",
+                " ENDF/B-IV                           219.mb,",
+                " Spaepen(1969),Tech.Report IAEA-107, 223.mb."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "V0043008",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Superseded by EXFOR V0043.008"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20110131,
+                "history": "U"
+              },
+              "free_text": [
+                " On. Upper to lower cases, 4 digits year"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NODATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "V0029009",
+            "N2": 20110131,
+            "alteration_flag": " ",
+            "transmission_identification": "V028"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "1-H-1(N,EL)1-H-1,,SIG,,,EVAL",
+                "code_unit": [
+                  {
+                    "unit": "1-H-1(N,EL)1-H-1,,SIG,,,EVAL",
+                    "field": {
+                      "reaction": "1-H-1(N,EL)1-H-1",
+                      "target": "1-H-1",
+                      "projectile": "N",
+                      "process": "EL",
+                      "product": "1-H-1",
+                      "quantity": ",SIG",
+                      "data_type": "EVAL",
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": null,
+                "author": "J.C.Robertson+",
+                "reference": {
+                  "code": "J,JNE,27,139,1973",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JNE",
+                      "number": null,
+                      "volume": "27",
+                      "part": null,
+                      "issue": null,
+                      "page": "139"
+                    },
+                    "date": 1973
+                  }
+                }
+              },
+              "free_text": [
+                "            =73RO1",
+                " Gammel's value(0.658 b) is corrected by Hopkins-Breit.",
+                "   J.L.Gammel,Fast Neutron Physics (ed.Marion,Fowler),",
+                "    Wiley,New York (1963).",
+                "   J.C.Hopkins and G.Breit,Nucl.Data Tabl,A9(1971)137."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": null,
+                "author": "T.B.Ryves+",
+                "reference": {
+                  "code": "J,MET,14,(3),127,197806",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "MET",
+                      "number": null,
+                      "volume": "14",
+                      "part": null,
+                      "issue": "3",
+                      "page": "127"
+                    },
+                    "date": 197806
+                  }
+                }
+              },
+              "free_text": [
+                "          =78RY1",
+                " Halperns-Breit's data are re-evaluated for use of",
+                "  relativistic kinematics.(Correction of the cross-",
+                "  section by 1% AT 20 MeV)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "E",
+                "subentry_number": null,
+                "author": "D.J.Thomas+",
+                "reference": {
+                  "code": "J,NIM,179,397,1981",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM",
+                      "number": null,
+                      "volume": "179",
+                      "part": null,
+                      "issue": null,
+                      "page": "397"
+                    },
+                    "date": 1981
+                  }
+                }
+              },
+              "free_text": [
+                "              =81TH1",
+                " Explicit cross-section values are not given in the",
+                "  above-mentioned related references."
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The results of other evaluations are,",
+                "  ENDF/B-IV          661.1 mb,",
+                "  GAMMEL(1963),IBID. 661.3 mb."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "V0043009",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Superseded by EXFOR V0043.009"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20110131,
+                "history": "U"
+              },
+              "free_text": [
+                " On. Upper to lower cases, 4 digits year"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NODATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 9,
+        "N2": 0
+      }
+    }
+  ]
+}

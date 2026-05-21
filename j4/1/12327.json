@@ -1,0 +1,975 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T19:34:05+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "12327",
+        "N2": 20230707,
+        "alteration_flag": " ",
+        "transmission_identification": "1507"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "12327001",
+            "N2": 20230707,
+            "alteration_flag": " ",
+            "transmission_identification": "1507"
+          },
+          "BIB": {
+            "N1": 10,
+            "N2": 0
+          },
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "1USAKAP"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,NSE,3,758,1958",
+                "code_unit": [
+                  {
+                    "unit": "J,NSE,3,758,1958",
+                    "doi": "10.13182/NSE58-A25509",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "NSE",
+                        "number": null,
+                        "volume": "3",
+                        "part": null,
+                        "issue": null,
+                        "page": "758"
+                      },
+                      "date": 1958
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "#doi:10.13182/NSE58-A25509"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "E.Gaerttner",
+                "M.Jones",
+                "D.McMillan",
+                "J.Sampson",
+                "T.Snyder"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Subcadmium in-pile etas and absorption cross sections",
+                "of U233, Pu239 and Pu241"
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": "1USAKAP"
+              },
+              "free_text": [
+                " U235-graphite reactor, TTR."
+              ]
+            }
+          ],
+          "INC-SPECT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Subcadmium reactor spectrum."
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "REAC"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Samples of U and Pu were deposited on ceramic disks,",
+                "1.96 inches in diam. and 0.035 inches thick."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Indicated errors do not include:",
+                "- Suppression of the 0.3 eV resonance in the Pu",
+                "isotopes due to the flux dip effect, and",
+                "- variation of self-shielding in the fission material"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19760804,
+                "history": "T"
+              },
+              "free_text": [
+                " Translated from SCISRS"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19841005,
+                "history": "A"
+              },
+              "free_text": [
+                " Converted to reaction formalism"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19860603,
+                "history": "A"
+              },
+              "free_text": [
+                " BIB update."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20230705,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. Data units and STATUS corrected,",
+                " added SAMPLE, ERR-ANALYS, converted to lower and upper",
+                " case"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12327002",
+            "N2": 20230707,
+            "alteration_flag": " ",
+            "transmission_identification": "1507"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "code": "(92-U-233(N,ABS),,ETA,,MXW)/(92-U-235(N,ABS),,ETA,,MXW)",
+                "code_unit": [
+                  {
+                    "unit": "92-U-233(N,ABS),,ETA,,MXW",
+                    "field": {
+                      "reaction": "92-U-233(N,ABS)",
+                      "target": "92-U-233",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ETA",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": ",ETA"
+                    }
+                  },
+                  {
+                    "unit": "92-U-235(N,ABS),,ETA,,MXW",
+                    "field": {
+                      "reaction": "92-U-235(N,ABS)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ETA",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": ",ETA"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)/(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "code": "92-U-233(N,ABS),,ETA,,MXW",
+                "code_unit": [
+                  {
+                    "unit": "92-U-233(N,ABS),,ETA,,MXW",
+                    "field": {
+                      "reaction": "92-U-233(N,ABS)",
+                      "target": "92-U-233",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ETA",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": ",ETA"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Composition in no.of atoms/cm2 (x 10**19):",
+                "U233 sample:  U-233   4.37",
+                "              U-234   0.030",
+                "              U-238   0.017",
+                "              U-235   0.004",
+                "U-235 sample: U-235   3.68"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "E.Gaerttner+",
+                "reference": {
+                  "code": "J,NSE,3,758,1958",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NSE",
+                      "number": null,
+                      "volume": "3",
+                      "part": null,
+                      "issue": null,
+                      "page": "758"
+                    },
+                    "date": 1958
+                  }
+                }
+              },
+              "free_text": [
+                " Table IV"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20230705,
+                "history": "A"
+              },
+              "free_text": [
+                " ETA units changed to PRT/REAC"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 5,
+            "N2": 1,
+            "pointer": [
+              "",
+              "1",
+              "1",
+              "2",
+              "2"
+            ],
+            "heading": [
+              "EN-DUMMY",
+              "DATA",
+              "DATA-ERR",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "NO-DIM",
+              "PER-CENT",
+              "PRT/REAC",
+              "PRT/REAC"
+            ],
+            "value": [
+              [
+                2.53e-08,
+                1.078,
+                1.2,
+                2.231,
+                0.034
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12327003",
+            "N2": 20230707,
+            "alteration_flag": " ",
+            "transmission_identification": "1507"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "94-PU-239(N,ABS),,ETA",
+                "code_unit": [
+                  {
+                    "unit": "94-PU-239(N,ABS),,ETA",
+                    "field": {
+                      "reaction": "94-PU-239(N,ABS)",
+                      "target": "94-PU-239",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ETA",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",ETA"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Composition in no.of atoms/cm2 (x 10**19):",
+                "Pu239 sample:  Pu-239   2.104",
+                "               Pu-240   0.117",
+                "               Pu-241   0.0085",
+                "               Pu-242   0.0023",
+                "U-235 sample:  U-235    3.68"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "12327004",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " From measured ratio to U-235 in thermal",
+                "               spectrum"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "E.Gaerttner+",
+                "reference": {
+                  "code": "J,NSE,3,758,1958",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NSE",
+                      "number": null,
+                      "volume": "3",
+                      "part": null,
+                      "issue": null,
+                      "page": "758"
+                    },
+                    "date": 1958
+                  }
+                }
+              },
+              "free_text": [
+                " Text on p.768"
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "92-U-235(N,ABS),,ETA",
+                  "code_unit": [
+                    {
+                      "unit": "92-U-235(N,ABS),,ETA",
+                      "field": {
+                        "reaction": "92-U-235(N,ABS)",
+                        "target": "92-U-235",
+                        "projectile": "N",
+                        "process": "ABS",
+                        "product": "",
+                        "quantity": ",ETA",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",ETA"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19860603,
+                "history": "A"
+              },
+              "free_text": [
+                " Data units corrected."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20230705,
+                "history": "A"
+              },
+              "free_text": [
+                " ETA units changed to PRT/REAC"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 5,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "DATA-ERR",
+              "MONIT",
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "PRT/REAC",
+              "PRT/REAC",
+              "PRT/REAC",
+              "PRT/REAC"
+            ],
+            "value": [
+              [
+                2.53e-08,
+                2.025,
+                0.024,
+                2.07,
+                0.02
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12327004",
+            "N2": 20230707,
+            "alteration_flag": " ",
+            "transmission_identification": "1507"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "code": "(94-PU-239(N,ABS),,ETA,,MXW)/(92-U-235(N,ABS),,ETA,,MXW)",
+                "code_unit": [
+                  {
+                    "unit": "94-PU-239(N,ABS),,ETA,,MXW",
+                    "field": {
+                      "reaction": "94-PU-239(N,ABS)",
+                      "target": "94-PU-239",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ETA",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": ",ETA"
+                    }
+                  },
+                  {
+                    "unit": "92-U-235(N,ABS),,ETA,,MXW",
+                    "field": {
+                      "reaction": "92-U-235(N,ABS)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ETA",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": ",ETA"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)/(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "code": "94-PU-239(N,ABS),,ETA,,MXW",
+                "code_unit": [
+                  {
+                    "unit": "94-PU-239(N,ABS),,ETA,,MXW",
+                    "field": {
+                      "reaction": "94-PU-239(N,ABS)",
+                      "target": "94-PU-239",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ETA",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": ",ETA"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Composition in no.of atoms/cm2 (x 10**19):",
+                "Pu239 sample:  Pu-239   2.104",
+                "               Pu-240   0.117",
+                "               Pu-241   0.0085",
+                "               Pu-242   0.0023",
+                "U-235 sample:  U-235    3.68"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "E.Gaerttner+",
+                "reference": {
+                  "code": "J,NSE,3,758,1958",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NSE",
+                      "number": null,
+                      "volume": "3",
+                      "part": null,
+                      "issue": null,
+                      "page": "758"
+                    },
+                    "date": 1958
+                  }
+                }
+              },
+              "free_text": [
+                " Table IV"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20230705,
+                "history": "A"
+              },
+              "free_text": [
+                " ETA units changed to PRT/REAC"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 5,
+            "N2": 1,
+            "pointer": [
+              "",
+              "1",
+              "1",
+              "2",
+              "2"
+            ],
+            "heading": [
+              "EN-DUMMY",
+              "DATA",
+              "DATA-ERR",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "NO-DIM",
+              "PER-CENT",
+              "PRT/REAC",
+              "PRT/REAC"
+            ],
+            "value": [
+              [
+                2.53e-08,
+                0.931,
+                0.7,
+                1.927,
+                0.024
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12327005",
+            "N2": 20230707,
+            "alteration_flag": " ",
+            "transmission_identification": "1507"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "code": "(94-PU-241(N,ABS),,ETA,,MXW)/(92-U-235(N,ABS),,ETA,,MXW)",
+                "code_unit": [
+                  {
+                    "unit": "94-PU-241(N,ABS),,ETA,,MXW",
+                    "field": {
+                      "reaction": "94-PU-241(N,ABS)",
+                      "target": "94-PU-241",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ETA",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": ",ETA"
+                    }
+                  },
+                  {
+                    "unit": "92-U-235(N,ABS),,ETA,,MXW",
+                    "field": {
+                      "reaction": "92-U-235(N,ABS)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ETA",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": ",ETA"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)/(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "code": "94-PU-241(N,ABS),,ETA,,MXW",
+                "code_unit": [
+                  {
+                    "unit": "94-PU-241(N,ABS),,ETA,,MXW",
+                    "field": {
+                      "reaction": "94-PU-241(N,ABS)",
+                      "target": "94-PU-241",
+                      "projectile": "N",
+                      "process": "ABS",
+                      "product": "",
+                      "quantity": ",ETA",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": ",ETA"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Composition in no.of atoms/cm2 (x 10**19):",
+                "Pu239 sample:  Pu-241   0.8807",
+                "               Pu-239   0.4207",
+                "               Pu-240   0.02808",
+                "U-235 sample:  U-235    3.68"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "E.Gaerttner+",
+                "reference": {
+                  "code": "J,NSE,3,758,1958",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NSE",
+                      "number": null,
+                      "volume": "3",
+                      "part": null,
+                      "issue": null,
+                      "page": "758"
+                    },
+                    "date": 1958
+                  }
+                }
+              },
+              "free_text": [
+                " Table IV"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20230705,
+                "history": "A"
+              },
+              "free_text": [
+                " ETA units changed to PRT/REAC"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 5,
+            "N2": 1,
+            "pointer": [
+              "",
+              "1",
+              "1",
+              "2",
+              "2"
+            ],
+            "heading": [
+              "EN-DUMMY",
+              "DATA",
+              "DATA-ERR",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "NO-DIM",
+              "PER-CENT",
+              "PRT/REAC",
+              "PRT/REAC"
+            ],
+            "value": [
+              [
+                2.53e-08,
+                1.069,
+                2.9,
+                2.213,
+                0.07
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 5,
+        "N2": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,4731 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T21:40:55+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "31692",
+        "N2": 20160929,
+        "alteration_flag": " ",
+        "transmission_identification": "3175"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "31692001",
+            "N2": 20160929,
+            "alteration_flag": " ",
+            "transmission_identification": "3175"
+          },
+          "BIB": {
+            "N1": 15,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The 235U(n,f) prompt fission neutron spectrum at 100 K",
+                " input neutron energy"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "N.Kornilov",
+                "F.-J.Hambsch",
+                "I.Fabry",
+                "S.Oberstedt",
+                "T.Belgya",
+                "Z.Kis",
+                "L.Szentmiklosi",
+                "S.Simakov"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "1USAOHO",
+                "2ZZZGEL",
+                "3HUNII",
+                "2GERKFK"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,NSE,165,117,2010",
+                "code_unit": [
+                  {
+                    "unit": "J,NSE,165,117,2010",
+                    "doi": "10.13182/NSE09-25",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "NSE",
+                        "number": null,
+                        "volume": "165",
+                        "part": null,
+                        "issue": null,
+                        "page": "117"
+                      },
+                      "date": 2010
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "  Main reference"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "S,AIP-1175,249,2009",
+                "code_unit": [
+                  {
+                    "unit": "S,AIP-1175,249,2009",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "S",
+                      "reference": {
+                        "code": "AIP-",
+                        "number": "1175",
+                        "volume": null,
+                        "part": null,
+                        "issue": null,
+                        "page": "249"
+                      },
+                      "date": 2009
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                " Parameters of the PFNS given.",
+                "  PFNS as a ratio to Maxwellian with average",
+                "  energy = 1.988 MeV given on graphs."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,NSE,168,73,2011",
+                "code_unit": [
+                  {
+                    "unit": "J,NSE,168,73,2011",
+                    "doi": "10.13182/NSE10-83",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "NSE",
+                        "number": null,
+                        "volume": "168",
+                        "part": null,
+                        "issue": null,
+                        "page": "73"
+                      },
+                      "date": 2011
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                " Absolute PFNS ratio 252Cf/235U"
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": "3HUNKFI"
+              },
+              "free_text": [
+                " Cold-neutron prompt gamma activation",
+                " analysis facility"
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "REAC"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                " Cold-neutron at 100 K incident neutron energy.",
+                "The neutron flux was ~5E+07 1/cm2/s, and the actual",
+                " beam dimension at the measuring station was",
+                " ~2x2.5 cm2."
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "nuclide": "92-U-235",
+                "field_identifier": "ENR",
+                "value": 0.977
+              },
+              "free_text": [
+                " 235UF4 (97.7% enrichment in 235U,",
+                " 30 mm diam.) layer of 112 ug/cm2 thickness evaporated",
+                " onto a Au-coated (40 ug/cm2) thin (24 ug/cm2)",
+                " polyimide foil",
+                "A 252Cf layer (10 mm diam.) was placed in the same",
+                " chamber but shifted by 5 cm from the U layer and out",
+                " of the neutron beam."
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "SCIN"
+              ],
+              "free_text": [
+                " Three identical organic NE213-equivalent",
+                " scintillators LS301 (101.6 mm, h=50.8 mm) coupled to",
+                " XP4312 photomultiplier tubes.",
+                "Detectors were placed at different angles relative to",
+                " the neutron beam, and at slightly different flight",
+                " paths L:",
+                " Detector 1: angle1 =  72 deg, L1 = 298.1 cm;",
+                " Detector 2: angle2 = 102 deg, L2 = 282.8 cm;",
+                " Detector 3: angle3 = 132 deg, L3 = 301.1 cm."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "FISCH"
+              ],
+              "free_text": [
+                " Made of stainless steel (diameter D=180 mm,",
+                " height H=145 mm, wall thickness=0.5 mm).",
+                "Counting efficiency 98%."
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "TOF"
+              ],
+              "free_text": [
+                " Time resolution FWHM = 1.7 ns for U and 2.1 ns",
+                " for Cf.",
+                "Time channel width was measured with accuracy <0.1%",
+                " to 0.1178 ns and 0.1150 ns for U and Cf channels.",
+                "The gamma-ray suppression factor was about 200."
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The experimental prompt fission neutron spectrum was",
+                " normalized to unity, and the average secondary neutron",
+                " energy was calculated.",
+                "A Maxwellian spectrum was fitted in the energy range",
+                " of 0.7 to 1.5 MeV and 9 to 11MeV to the measured",
+                " spectrum, and an extrapolation to zero and to 20 MeV",
+                " was performed."
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "98-CF-252(0,F),PR,NU/DE",
+                  "code_unit": [
+                    {
+                      "unit": "98-CF-252(0,F),PR,NU/DE",
+                      "field": {
+                        "reaction": "98-CF-252(0,F)",
+                        "target": "98-CF-252",
+                        "projectile": "0",
+                        "process": "F",
+                        "product": "",
+                        "quantity": "PR,NU/DE",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": "PR,NU/DE"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                "",
+                "Comment by N. Kornilov (2011-03-11):",
+                "Mannhart's evaluation fitted by Maxwellian distribution",
+                " (T=1.42MeV) multiplied by power expression",
+                " sum(i=1,7) N*sqrt(E)*exp(-E/T)*(ai*E**i) (i=0,7)",
+                " with",
+                " a0= 9.62240E-01, a1= 3.99740E-02, a2=-1.44500E-03,",
+                " a3=-3.18750E-03, a4= 6.17640E-04, a5=-4.86040E-05,",
+                " a6= 1.77680E-06, a7=-2.49540E-08,",
+                " T=1.4200E+00, N=6.6684E-01"
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": "V0101002",
+                "author": "W.Mannhart",
+                "reference": {
+                  "code": "S,IAEA-TECDOC-410,158,1987",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "IAEA-TECDOC-",
+                      "number": "410",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "158",
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 1987
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Mannhart's evaluation"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": null,
+                "author": "N.V.Kornilov",
+                "reference": {
+                  "code": "J,NSE,169,290,2011",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NSE",
+                      "number": null,
+                      "volume": "169",
+                      "part": null,
+                      "issue": null,
+                      "page": "290",
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 2011
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Fitting coefficients given"
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The correction factors for multiple scattering and",
+                " attenuation were calculated with the MCNP code as a",
+                " ratio of a neutron spectrum emitted from the source",
+                " surrounded by the real chamber to a spectrum",
+                " calculated without chamber materials.",
+                "The neutron spectra were calculated separately for the",
+                " U and Cf sources.",
+                "The ratio of the correction factors of Cf to U was",
+                " determined.",
+                "The experimental data were multiplied by these",
+                " functions to cancel the contribution of the",
+                " scattered neutrons on the fission chamber materials.",
+                "Time-independent and time-correlated background was",
+                " subtracted."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "APRVD"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Approved by N.Kornilov (2011-07-14)"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20100520,
+                "history": "C"
+              },
+              "free_text": [
+                " VS"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20110111,
+                "history": "A"
+              },
+              "free_text": [
+                " On. STATUS and ERR-ANALYS moved to 002"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20110714,
+                "history": "A"
+              },
+              "free_text": [
+                " VS References AIP-1175,249,2010 and  NSE,",
+                " 168,73,2011 added. Absolute ratio of 252Cf to 235U",
+                " PFNS added in  SUBENT 006."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20130708,
+                "history": "U"
+              },
+              "free_text": [
+                " On. FACILITY: 3HUNII -> 3HUNKFI"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20140722,
+                "history": "U"
+              },
+              "free_text": [
+                " On. MONITOR revised. MONIT-REF added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20160927,
+                "history": "U"
+              },
+              "free_text": [
+                " VS. Reference AIP-1175 2010->2009."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "KT-K"
+            ],
+            "unit": [
+              "K"
+            ],
+            "value": [
+              100.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31692002",
+            "N2": 20110111,
+            "alteration_flag": " ",
+            "transmission_identification": "3148"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "92-U-235(N,F),PR,NU/DE,,NPD/MXW",
+                "code_unit": [
+                  {
+                    "unit": "92-U-235(N,F),PR,NU/DE,,NPD/MXW",
+                    "field": {
+                      "reaction": "92-U-235(N,F)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "PR,NU/DE,,NPD",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "PR,NU/DE,,NPD"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " Average spectrum based on the three detector spectra"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " The total uncertainties were estimated from the",
+                "        following partial uncertainties:"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " The statistical error for one detector"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "MONIT-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " The uncertainty of the Cf standard"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Systematic  uncertainties due to shift of the",
+                "        zero time (+-2channels)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Systematic  uncertainties due to shift of the",
+                "        flight path 0.5 cm"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Systematic  uncertainties due to shift of the",
+                "        channel width 0.1%."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 3 and text of J,NSE,165,117,2010"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "31692005",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Spectra for three detectors"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20110111,
+                "history": "A"
+              },
+              "free_text": [
+                " On. ERR-ANALYS moved from 001, MXW added"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 8,
+            "N2": 112,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "E",
+              "DATA",
+              "ERR-T",
+              "ERR-S",
+              "MONIT-ERR",
+              "ERR-1",
+              "ERR-2",
+              "ERR-3"
+            ],
+            "unit": [
+              "MEV",
+              "1/MEV",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                0.7,
+                0.357417,
+                1.8,
+                0.5,
+                1.7,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.8,
+                0.356987,
+                1.7,
+                0.3,
+                1.7,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.9,
+                0.353764,
+                1.6,
+                0.3,
+                1.6,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                0.346116,
+                1.5,
+                0.3,
+                1.5,
+                0.0,
+                0.1,
+                0.0
+              ],
+              [
+                1.1,
+                0.335848,
+                1.2,
+                0.3,
+                1.2,
+                0.1,
+                0.1,
+                0.1
+              ],
+              [
+                1.2,
+                0.330266,
+                1.2,
+                0.3,
+                1.2,
+                0.1,
+                0.1,
+                0.1
+              ],
+              [
+                1.3,
+                0.317927,
+                1.2,
+                0.3,
+                1.2,
+                0.1,
+                0.1,
+                0.1
+              ],
+              [
+                1.4,
+                0.30549,
+                1.3,
+                0.3,
+                1.2,
+                0.1,
+                0.2,
+                0.1
+              ],
+              [
+                1.5,
+                0.295665,
+                1.3,
+                0.3,
+                1.2,
+                0.1,
+                0.2,
+                0.1
+              ],
+              [
+                1.6,
+                0.28552,
+                1.3,
+                0.3,
+                1.2,
+                0.2,
+                0.2,
+                0.1
+              ],
+              [
+                1.7,
+                0.273825,
+                1.3,
+                0.3,
+                1.2,
+                0.2,
+                0.2,
+                0.1
+              ],
+              [
+                1.8,
+                0.260643,
+                1.3,
+                0.3,
+                1.2,
+                0.2,
+                0.2,
+                0.1
+              ],
+              [
+                1.9,
+                0.249482,
+                1.3,
+                0.3,
+                1.2,
+                0.2,
+                0.3,
+                0.2
+              ],
+              [
+                2.0,
+                0.238831,
+                1.3,
+                0.4,
+                1.2,
+                0.2,
+                0.3,
+                0.2
+              ],
+              [
+                2.1,
+                0.226406,
+                1.3,
+                0.4,
+                1.2,
+                0.3,
+                0.3,
+                0.2
+              ],
+              [
+                2.2,
+                0.215138,
+                1.3,
+                0.4,
+                1.2,
+                0.3,
+                0.3,
+                0.2
+              ],
+              [
+                2.3,
+                0.203569,
+                1.3,
+                0.4,
+                1.2,
+                0.3,
+                0.3,
+                0.2
+              ],
+              [
+                2.4,
+                0.194639,
+                1.4,
+                0.4,
+                1.2,
+                0.3,
+                0.4,
+                0.2
+              ],
+              [
+                2.5,
+                0.184269,
+                1.4,
+                0.4,
+                1.2,
+                0.4,
+                0.4,
+                0.2
+              ],
+              [
+                2.6,
+                0.173786,
+                1.4,
+                0.4,
+                1.2,
+                0.4,
+                0.4,
+                0.3
+              ],
+              [
+                2.7,
+                0.163929,
+                1.4,
+                0.5,
+                1.2,
+                0.4,
+                0.4,
+                0.3
+              ],
+              [
+                2.8,
+                0.156018,
+                1.5,
+                0.5,
+                1.2,
+                0.5,
+                0.5,
+                0.3
+              ],
+              [
+                2.9,
+                0.14461,
+                1.5,
+                0.5,
+                1.2,
+                0.5,
+                0.5,
+                0.3
+              ],
+              [
+                3.0,
+                0.138017,
+                1.5,
+                0.5,
+                1.2,
+                0.5,
+                0.5,
+                0.3
+              ],
+              [
+                3.1,
+                0.132063,
+                1.5,
+                0.5,
+                1.2,
+                0.5,
+                0.5,
+                0.3
+              ],
+              [
+                3.2,
+                0.1226,
+                1.6,
+                0.6,
+                1.2,
+                0.6,
+                0.5,
+                0.3
+              ],
+              [
+                3.3,
+                0.115102,
+                1.6,
+                0.6,
+                1.2,
+                0.6,
+                0.6,
+                0.3
+              ],
+              [
+                3.4,
+                0.108014,
+                1.6,
+                0.6,
+                1.2,
+                0.6,
+                0.6,
+                0.3
+              ],
+              [
+                3.5,
+                0.102317,
+                1.7,
+                0.7,
+                1.2,
+                0.7,
+                0.6,
+                0.4
+              ],
+              [
+                3.6,
+                0.0953697,
+                1.7,
+                0.7,
+                1.2,
+                0.7,
+                0.6,
+                0.4
+              ],
+              [
+                3.7,
+                0.0897708,
+                1.8,
+                0.7,
+                1.2,
+                0.8,
+                0.6,
+                0.4
+              ],
+              [
+                3.8,
+                0.0837001,
+                1.8,
+                0.7,
+                1.2,
+                0.8,
+                0.7,
+                0.4
+              ],
+              [
+                3.9,
+                0.0776392,
+                1.8,
+                0.8,
+                1.2,
+                0.8,
+                0.7,
+                0.4
+              ],
+              [
+                4.0,
+                0.073007,
+                1.9,
+                0.8,
+                1.2,
+                0.9,
+                0.7,
+                0.4
+              ],
+              [
+                4.1,
+                0.0690418,
+                2.0,
+                0.9,
+                1.3,
+                0.9,
+                0.7,
+                0.4
+              ],
+              [
+                4.2,
+                0.0650629,
+                2.1,
+                1.0,
+                1.3,
+                0.9,
+                0.7,
+                0.5
+              ],
+              [
+                4.3,
+                0.0598605,
+                2.2,
+                1.1,
+                1.3,
+                1.0,
+                0.8,
+                0.5
+              ],
+              [
+                4.4,
+                0.0567961,
+                2.2,
+                1.1,
+                1.3,
+                1.0,
+                0.8,
+                0.5
+              ],
+              [
+                4.5,
+                0.0534921,
+                2.4,
+                1.2,
+                1.4,
+                1.1,
+                0.9,
+                0.5
+              ],
+              [
+                4.6,
+                0.049835,
+                2.3,
+                1.0,
+                1.4,
+                1.1,
+                0.9,
+                0.5
+              ],
+              [
+                4.7,
+                0.0463185,
+                2.4,
+                1.2,
+                1.4,
+                1.1,
+                0.9,
+                0.5
+              ],
+              [
+                4.8,
+                0.0433314,
+                2.5,
+                1.3,
+                1.4,
+                1.2,
+                0.9,
+                0.5
+              ],
+              [
+                4.9,
+                0.0402959,
+                2.5,
+                1.3,
+                1.4,
+                1.2,
+                0.9,
+                0.5
+              ],
+              [
+                5.0,
+                0.0369947,
+                2.4,
+                1.2,
+                1.4,
+                1.2,
+                0.9,
+                0.5
+              ],
+              [
+                5.1,
+                0.0340869,
+                2.5,
+                1.0,
+                1.5,
+                1.3,
+                1.0,
+                0.6
+              ],
+              [
+                5.2,
+                0.0322506,
+                2.6,
+                1.0,
+                1.5,
+                1.4,
+                1.0,
+                0.6
+              ],
+              [
+                5.3,
+                0.029867,
+                2.6,
+                1.1,
+                1.5,
+                1.4,
+                1.0,
+                0.6
+              ],
+              [
+                5.4,
+                0.0274606,
+                2.6,
+                1.1,
+                1.5,
+                1.4,
+                1.0,
+                0.6
+              ],
+              [
+                5.5,
+                0.026236,
+                2.7,
+                1.2,
+                1.5,
+                1.5,
+                1.0,
+                0.6
+              ],
+              [
+                5.6,
+                0.0241894,
+                2.7,
+                1.2,
+                1.5,
+                1.5,
+                1.0,
+                0.6
+              ],
+              [
+                5.7,
+                0.0230378,
+                2.8,
+                1.2,
+                1.5,
+                1.6,
+                1.1,
+                0.6
+              ],
+              [
+                5.8,
+                0.0215183,
+                2.8,
+                1.3,
+                1.5,
+                1.6,
+                1.1,
+                0.6
+              ],
+              [
+                5.9,
+                0.0202001,
+                3.0,
+                1.3,
+                1.6,
+                1.7,
+                1.1,
+                0.6
+              ],
+              [
+                6.0,
+                0.0183687,
+                3.0,
+                1.4,
+                1.6,
+                1.7,
+                1.1,
+                0.7
+              ],
+              [
+                6.1,
+                0.0170343,
+                3.1,
+                1.5,
+                1.6,
+                1.8,
+                1.1,
+                0.7
+              ],
+              [
+                6.2,
+                0.0159145,
+                3.2,
+                1.5,
+                1.6,
+                1.8,
+                1.2,
+                0.7
+              ],
+              [
+                6.3,
+                0.0149535,
+                3.3,
+                1.6,
+                1.6,
+                1.9,
+                1.2,
+                0.7
+              ],
+              [
+                6.4,
+                0.0138986,
+                3.3,
+                1.7,
+                1.6,
+                1.9,
+                1.2,
+                0.7
+              ],
+              [
+                6.5,
+                0.0130345,
+                3.4,
+                1.7,
+                1.6,
+                2.0,
+                1.2,
+                0.7
+              ],
+              [
+                6.6,
+                0.0119165,
+                3.5,
+                1.8,
+                1.7,
+                2.0,
+                1.2,
+                0.8
+              ],
+              [
+                6.7,
+                0.0113091,
+                3.6,
+                1.9,
+                1.7,
+                2.1,
+                1.3,
+                0.7
+              ],
+              [
+                6.8,
+                0.0107435,
+                3.7,
+                2.0,
+                1.7,
+                2.1,
+                1.3,
+                0.8
+              ],
+              [
+                6.9,
+                0.00972144,
+                3.8,
+                2.1,
+                1.8,
+                2.2,
+                1.3,
+                0.8
+              ],
+              [
+                7.0,
+                0.0089195,
+                3.9,
+                2.2,
+                1.8,
+                2.2,
+                1.3,
+                0.8
+              ],
+              [
+                7.1,
+                0.00848056,
+                4.0,
+                2.2,
+                1.8,
+                2.3,
+                1.3,
+                0.8
+              ],
+              [
+                7.2,
+                0.00798577,
+                4.1,
+                2.3,
+                1.8,
+                2.3,
+                1.4,
+                0.8
+              ],
+              [
+                7.3,
+                0.00725898,
+                4.2,
+                2.5,
+                1.8,
+                2.4,
+                1.4,
+                0.9
+              ],
+              [
+                7.4,
+                0.00671013,
+                4.3,
+                2.6,
+                1.8,
+                2.4,
+                1.4,
+                0.8
+              ],
+              [
+                7.5,
+                0.00598286,
+                4.4,
+                2.7,
+                1.8,
+                2.5,
+                1.4,
+                0.9
+              ],
+              [
+                7.6,
+                0.00591121,
+                4.5,
+                2.8,
+                1.9,
+                2.5,
+                1.4,
+                0.9
+              ],
+              [
+                7.7,
+                0.00545201,
+                4.7,
+                2.9,
+                1.9,
+                2.6,
+                1.5,
+                0.9
+              ],
+              [
+                7.8,
+                0.00509092,
+                4.8,
+                3.0,
+                1.9,
+                2.6,
+                1.5,
+                0.9
+              ],
+              [
+                7.9,
+                0.00457645,
+                4.9,
+                3.2,
+                1.9,
+                2.7,
+                1.5,
+                0.9
+              ],
+              [
+                8.0,
+                0.00435975,
+                5.1,
+                3.3,
+                2.1,
+                2.7,
+                1.5,
+                0.9
+              ],
+              [
+                8.1,
+                0.00423643,
+                5.2,
+                3.4,
+                2.1,
+                2.8,
+                1.5,
+                1.0
+              ],
+              [
+                8.2,
+                0.00366813,
+                5.5,
+                3.7,
+                2.1,
+                2.9,
+                1.6,
+                0.9
+              ],
+              [
+                8.3,
+                0.00364082,
+                5.5,
+                3.7,
+                2.1,
+                2.9,
+                1.6,
+                1.0
+              ],
+              [
+                8.4,
+                0.00322232,
+                5.7,
+                4.0,
+                2.1,
+                3.0,
+                1.6,
+                0.9
+              ],
+              [
+                8.5,
+                0.00293253,
+                6.0,
+                4.3,
+                2.2,
+                3.0,
+                1.6,
+                1.0
+              ],
+              [
+                8.6,
+                0.00284038,
+                6.1,
+                4.3,
+                2.2,
+                3.1,
+                1.6,
+                1.0
+              ],
+              [
+                8.7,
+                0.00262969,
+                6.3,
+                4.6,
+                2.2,
+                3.2,
+                1.7,
+                0.9
+              ],
+              [
+                8.8,
+                0.00242219,
+                6.5,
+                4.8,
+                2.2,
+                3.2,
+                1.7,
+                1.0
+              ],
+              [
+                8.9,
+                0.00221048,
+                6.8,
+                5.1,
+                2.2,
+                3.3,
+                1.7,
+                1.0
+              ],
+              [
+                9.0,
+                0.00195535,
+                7.1,
+                5.5,
+                2.2,
+                3.3,
+                1.7,
+                1.0
+              ],
+              [
+                9.1,
+                0.00202409,
+                7.1,
+                5.4,
+                2.3,
+                3.4,
+                1.7,
+                1.0
+              ],
+              [
+                9.2,
+                0.00174792,
+                7.6,
+                6.0,
+                2.3,
+                3.5,
+                1.8,
+                1.1
+              ],
+              [
+                9.3,
+                0.00184417,
+                7.4,
+                5.9,
+                2.3,
+                3.5,
+                1.8,
+                1.1
+              ],
+              [
+                9.4,
+                0.00167714,
+                7.8,
+                6.1,
+                2.5,
+                3.6,
+                1.8,
+                1.0
+              ],
+              [
+                9.5,
+                0.0015019,
+                8.2,
+                6.6,
+                2.5,
+                3.6,
+                1.8,
+                1.0
+              ],
+              [
+                9.6,
+                0.00142822,
+                8.5,
+                6.9,
+                2.5,
+                3.7,
+                1.8,
+                1.1
+              ],
+              [
+                9.7,
+                0.0013426,
+                8.8,
+                7.2,
+                2.6,
+                3.8,
+                1.9,
+                1.1
+              ],
+              [
+                9.8,
+                0.00116071,
+                9.5,
+                8.0,
+                2.6,
+                3.8,
+                1.9,
+                1.2
+              ],
+              [
+                9.9,
+                0.00096451,
+                10.5,
+                9.1,
+                2.6,
+                3.9,
+                1.9,
+                1.1
+              ],
+              [
+                10.0,
+                0.000957887,
+                10.5,
+                9.1,
+                2.7,
+                3.9,
+                1.9,
+                1.2
+              ],
+              [
+                10.1,
+                0.000892867,
+                11.0,
+                9.7,
+                2.7,
+                4.0,
+                1.9,
+                1.1
+              ],
+              [
+                10.2,
+                0.000855777,
+                11.4,
+                10.0,
+                2.7,
+                4.1,
+                2.0,
+                1.2
+              ],
+              [
+                10.3,
+                0.000972308,
+                12.0,
+                10.7,
+                2.8,
+                4.1,
+                2.0,
+                1.2
+              ],
+              [
+                10.4,
+                0.000731997,
+                12.6,
+                11.3,
+                2.8,
+                4.2,
+                2.0,
+                1.2
+              ],
+              [
+                10.5,
+                0.000636731,
+                13.7,
+                12.5,
+                2.8,
+                4.3,
+                2.0,
+                1.1
+              ],
+              [
+                10.6,
+                0.000705891,
+                14.0,
+                12.9,
+                2.9,
+                4.3,
+                2.0,
+                1.2
+              ],
+              [
+                10.7,
+                0.000590681,
+                14.6,
+                13.4,
+                2.9,
+                4.4,
+                2.0,
+                1.2
+              ],
+              [
+                10.8,
+                0.000462798,
+                16.0,
+                14.9,
+                2.9,
+                4.5,
+                2.1,
+                1.2
+              ],
+              [
+                10.9,
+                0.000537325,
+                16.6,
+                15.5,
+                2.9,
+                4.5,
+                2.1,
+                1.3
+              ],
+              [
+                11.0,
+                0.000590958,
+                17.0,
+                15.9,
+                2.9,
+                4.6,
+                2.1,
+                1.3
+              ],
+              [
+                11.1,
+                0.00050911,
+                17.2,
+                16.1,
+                3.0,
+                4.7,
+                2.1,
+                1.3
+              ],
+              [
+                11.2,
+                0.000535378,
+                17.3,
+                16.2,
+                3.1,
+                4.7,
+                2.1,
+                1.3
+              ],
+              [
+                11.3,
+                0.000471756,
+                17.5,
+                16.3,
+                3.2,
+                4.8,
+                2.2,
+                1.4
+              ],
+              [
+                11.4,
+                0.000332743,
+                20.0,
+                18.9,
+                3.4,
+                4.9,
+                2.2,
+                1.4
+              ],
+              [
+                11.5,
+                0.000535104,
+                20.0,
+                19.0,
+                3.5,
+                5.0,
+                2.2,
+                1.4
+              ],
+              [
+                11.6,
+                0.000344137,
+                23.0,
+                22.0,
+                3.5,
+                5.0,
+                2.3,
+                1.5
+              ],
+              [
+                11.7,
+                0.00038719,
+                23.0,
+                22.0,
+                3.5,
+                5.1,
+                2.3,
+                1.5
+              ],
+              [
+                11.8,
+                0.000311606,
+                25.0,
+                24.0,
+                3.6,
+                5.2,
+                2.3,
+                1.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31692003",
+            "N2": 20110111,
+            "alteration_flag": " ",
+            "transmission_identification": "3148"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "code": "92-U-235(N,F)0-NN-1,PR,KE,,MXW",
+                "code_unit": [
+                  {
+                    "unit": "92-U-235(N,F)0-NN-1,PR,KE,,MXW",
+                    "field": {
+                      "reaction": "92-U-235(N,F)0-NN-1",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "0-NN-1",
+                      "quantity": "PR,KE",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "PR,KE"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " Value for detector #1 (72 deg)"
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "code": "92-U-235(N,F)0-NN-1,PR,KE,,MXW",
+                "code_unit": [
+                  {
+                    "unit": "92-U-235(N,F)0-NN-1,PR,KE,,MXW",
+                    "field": {
+                      "reaction": "92-U-235(N,F)0-NN-1",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "0-NN-1",
+                      "quantity": "PR,KE",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "PR,KE"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " Value for detector #2 (102 deg)"
+              ]
+            },
+            {
+              "pointer": "3",
+              "coded_information": {
+                "code": "92-U-235(N,F)0-NN-1,PR,KE,,MXW",
+                "code_unit": [
+                  {
+                    "unit": "92-U-235(N,F)0-NN-1,PR,KE,,MXW",
+                    "field": {
+                      "reaction": "92-U-235(N,F)0-NN-1",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "0-NN-1",
+                      "quantity": "PR,KE",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "PR,KE"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " Value for detector #3 (132 deg)"
+              ]
+            },
+            {
+              "pointer": "4",
+              "coded_information": {
+                "code": "92-U-235(N,F)0-NN-1,PR,KE,,MXW",
+                "code_unit": [
+                  {
+                    "unit": "92-U-235(N,F)0-NN-1,PR,KE,,MXW",
+                    "field": {
+                      "reaction": "92-U-235(N,F)0-NN-1",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "0-NN-1",
+                      "quantity": "PR,KE",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "PR,KE"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " Average for 3 detectors"
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "INTED"
+              ],
+              "free_text": [
+                " Integration of neutron spectra"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "4",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No source of uncertainty given"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 2 and text of J,NSE,165,117,2010"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "31692002",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " 235U(n,f) PFNS probability distribution"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20110111,
+                "history": "A"
+              },
+              "free_text": [
+                " On. Data for 3 detectors added, MXW added"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 5,
+            "N2": 1,
+            "pointer": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "4"
+            ],
+            "heading": [
+              "DATA",
+              "DATA",
+              "DATA",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MEV",
+              "MEV",
+              "MEV"
+            ],
+            "value": [
+              [
+                1.987,
+                1.99,
+                1.987,
+                1.988,
+                0.01
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31692004",
+            "N2": 20110111,
+            "alteration_flag": " ",
+            "transmission_identification": "3148"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "code": "92-U-235(N,F),PR,NU,,MXW",
+                "code_unit": [
+                  {
+                    "unit": "92-U-235(N,F),PR,NU,,MXW",
+                    "field": {
+                      "reaction": "92-U-235(N,F)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "PR,NU",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "PR,NU"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " Value for detector #1 (72 deg)"
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "code": "92-U-235(N,F),PR,NU,,MXW",
+                "code_unit": [
+                  {
+                    "unit": "92-U-235(N,F),PR,NU,,MXW",
+                    "field": {
+                      "reaction": "92-U-235(N,F)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "PR,NU",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "PR,NU"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " Value for detector #2 (102 deg)"
+              ]
+            },
+            {
+              "pointer": "3",
+              "coded_information": {
+                "code": "92-U-235(N,F),PR,NU,,MXW",
+                "code_unit": [
+                  {
+                    "unit": "92-U-235(N,F),PR,NU,,MXW",
+                    "field": {
+                      "reaction": "92-U-235(N,F)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "PR,NU",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "PR,NU"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " Value for detector #3 (132 deg)"
+              ]
+            },
+            {
+              "pointer": "4",
+              "coded_information": {
+                "code": "92-U-235(N,F),PR,NU,,MXW",
+                "code_unit": [
+                  {
+                    "unit": "92-U-235(N,F),PR,NU,,MXW",
+                    "field": {
+                      "reaction": "92-U-235(N,F)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "PR,NU",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "PR,NU"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " Average for 3 detectors"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "4",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No source of uncertainty given"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 2 and text of J,NSE,165,117,2010"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20110111,
+                "history": "A"
+              },
+              "free_text": [
+                " On. Data for 3 detectors added, MXW added"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 5,
+            "N2": 1,
+            "pointer": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "4"
+            ],
+            "heading": [
+              "DATA",
+              "DATA",
+              "DATA",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "PRT/FIS",
+              "PRT/FIS",
+              "PRT/FIS",
+              "PRT/FIS",
+              "PRT/FIS"
+            ],
+            "value": [
+              [
+                2.491,
+                2.548,
+                2.378,
+                2.47,
+                0.08
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31692005",
+            "N2": 20110111,
+            "alteration_flag": " ",
+            "transmission_identification": "3148"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "code": "92-U-235(N,F),PR,NU/DE,,NPD/MXW",
+                "code_unit": [
+                  {
+                    "unit": "92-U-235(N,F),PR,NU/DE,,NPD/MXW",
+                    "field": {
+                      "reaction": "92-U-235(N,F)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "PR,NU/DE,,NPD",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "PR,NU/DE,,NPD"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " Value for detector #1 (72 deg)"
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "code": "92-U-235(N,F),PR,NU/DE,,NPD/MXW",
+                "code_unit": [
+                  {
+                    "unit": "92-U-235(N,F),PR,NU/DE,,NPD/MXW",
+                    "field": {
+                      "reaction": "92-U-235(N,F)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "PR,NU/DE,,NPD",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "PR,NU/DE,,NPD"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " Value for detector #2 (102 deg)"
+              ]
+            },
+            {
+              "pointer": "3",
+              "coded_information": {
+                "code": "92-U-235(N,F),PR,NU/DE,,NPD/MXW",
+                "code_unit": [
+                  {
+                    "unit": "92-U-235(N,F),PR,NU/DE,,NPD/MXW",
+                    "field": {
+                      "reaction": "92-U-235(N,F)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "PR,NU/DE,,NPD",
+                      "data_type": null,
+                      "general_quantity_modifier": "MXW",
+                      "quantity_236": "PR,NU/DE,,NPD"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " Value for detector #3 (132 deg)"
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "INTED"
+              ],
+              "free_text": [
+                " Integration of neutron spectra"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " The total uncertainties were estimated from the",
+                "        following partial uncertainties:"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " The uncertainty of the Cf standard,"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Systematic  uncertainties due to shift of the",
+                "        zero time (+-2channels)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Systematic  uncertainties due to shift of the",
+                "        flight path 0.5 cm"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-4",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Systematic  uncertainties due to shift of the",
+                "        channel width 0.1%."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Data received from N.Kornilov"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "31692002",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " 235U(n,f) PFNS probability distribution"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20110111,
+                "history": "R"
+              },
+              "free_text": [
+                " On"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20110111,
+                "history": "C"
+              },
+              "free_text": [
+                " On"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 11,
+            "N2": 112,
+            "pointer": [
+              "",
+              "1",
+              "1",
+              "2",
+              "2",
+              "3",
+              "3",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "E",
+              "DATA",
+              "ERR-T",
+              "DATA",
+              "ERR-T",
+              "DATA",
+              "ERR-T",
+              "ERR-1",
+              "ERR-2",
+              "ERR-3",
+              "ERR-4"
+            ],
+            "unit": [
+              "MEV",
+              "1/MEV",
+              "PER-CENT",
+              "1/MEV",
+              "PER-CENT",
+              "1/MEV",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                0.7,
+                0.3624,
+                1.812,
+                0.3535,
+                1.906,
+                0.3564,
+                1.901,
+                1.7,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.8,
+                0.3542,
+                1.777,
+                0.3593,
+                1.809,
+                0.3574,
+                1.814,
+                1.7,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.9,
+                0.3538,
+                1.671,
+                0.3549,
+                1.682,
+                0.3525,
+                1.694,
+                1.6,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                0.3454,
+                1.576,
+                0.3467,
+                1.581,
+                0.3463,
+                1.591,
+                1.5,
+                0.0,
+                0.1,
+                0.0
+              ],
+              [
+                1.1,
+                0.3344,
+                1.302,
+                0.3365,
+                1.302,
+                0.3366,
+                1.313,
+                1.2,
+                0.1,
+                0.1,
+                0.1
+              ],
+              [
+                1.2,
+                0.3255,
+                1.304,
+                0.3318,
+                1.302,
+                0.3336,
+                1.318,
+                1.2,
+                0.1,
+                0.1,
+                0.1
+              ],
+              [
+                1.3,
+                0.3157,
+                1.311,
+                0.3226,
+                1.307,
+                0.3155,
+                1.323,
+                1.2,
+                0.1,
+                0.1,
+                0.1
+              ],
+              [
+                1.4,
+                0.3027,
+                1.321,
+                0.3095,
+                1.317,
+                0.3043,
+                1.335,
+                1.2,
+                0.1,
+                0.2,
+                0.1
+              ],
+              [
+                1.5,
+                0.293,
+                1.328,
+                0.2963,
+                1.325,
+                0.2976,
+                1.342,
+                1.2,
+                0.1,
+                0.2,
+                0.1
+              ],
+              [
+                1.6,
+                0.2858,
+                1.35,
+                0.2846,
+                1.339,
+                0.2861,
+                1.365,
+                1.2,
+                0.2,
+                0.2,
+                0.1
+              ],
+              [
+                1.7,
+                0.2721,
+                1.355,
+                0.2726,
+                1.355,
+                0.2768,
+                1.359,
+                1.2,
+                0.2,
+                0.2,
+                0.1
+              ],
+              [
+                1.8,
+                0.2612,
+                1.351,
+                0.2578,
+                1.351,
+                0.2629,
+                1.378,
+                1.2,
+                0.2,
+                0.2,
+                0.1
+              ],
+              [
+                1.9,
+                0.2483,
+                1.403,
+                0.249,
+                1.392,
+                0.2512,
+                1.403,
+                1.2,
+                0.2,
+                0.3,
+                0.2
+              ],
+              [
+                2.0,
+                0.2399,
+                1.401,
+                0.2374,
+                1.403,
+                0.2392,
+                1.435,
+                1.2,
+                0.2,
+                0.3,
+                0.2
+              ],
+              [
+                2.1,
+                0.2273,
+                1.432,
+                0.2239,
+                1.42,
+                0.228,
+                1.431,
+                1.2,
+                0.3,
+                0.3,
+                0.2
+              ],
+              [
+                2.2,
+                0.2146,
+                1.454,
+                0.2161,
+                1.439,
+                0.2147,
+                1.472,
+                1.2,
+                0.3,
+                0.3,
+                0.2
+              ],
+              [
+                2.3,
+                0.2033,
+                1.454,
+                0.2042,
+                1.437,
+                0.2032,
+                1.473,
+                1.2,
+                0.3,
+                0.3,
+                0.2
+              ],
+              [
+                2.4,
+                0.1955,
+                1.479,
+                0.1933,
+                1.489,
+                0.1951,
+                1.497,
+                1.2,
+                0.3,
+                0.4,
+                0.2
+              ],
+              [
+                2.5,
+                0.184,
+                1.53,
+                0.1858,
+                1.514,
+                0.183,
+                1.552,
+                1.2,
+                0.4,
+                0.4,
+                0.2
+              ],
+              [
+                2.6,
+                0.1749,
+                1.548,
+                0.1734,
+                1.567,
+                0.173,
+                1.571,
+                1.2,
+                0.4,
+                0.4,
+                0.3
+              ],
+              [
+                2.7,
+                0.1642,
+                1.593,
+                0.1632,
+                1.533,
+                0.1645,
+                1.62,
+                1.2,
+                0.4,
+                0.4,
+                0.3
+              ],
+              [
+                2.8,
+                0.1561,
+                1.653,
+                0.1555,
+                1.696,
+                0.1565,
+                1.631,
+                1.2,
+                0.5,
+                0.5,
+                0.3
+              ],
+              [
+                2.9,
+                0.1448,
+                1.655,
+                0.1443,
+                1.638,
+                0.1448,
+                1.677,
+                1.2,
+                0.5,
+                0.5,
+                0.3
+              ],
+              [
+                3.0,
+                0.1372,
+                1.665,
+                0.1393,
+                1.702,
+                0.1376,
+                1.767,
+                1.2,
+                0.5,
+                0.5,
+                0.3
+              ],
+              [
+                3.1,
+                0.1321,
+                1.736,
+                0.1315,
+                1.642,
+                0.1326,
+                1.694,
+                1.2,
+                0.5,
+                0.5,
+                0.3
+              ],
+              [
+                3.2,
+                0.1228,
+                1.7,
+                0.1218,
+                1.739,
+                0.1232,
+                1.8,
+                1.2,
+                0.6,
+                0.5,
+                0.3
+              ],
+              [
+                3.3,
+                0.1155,
+                1.806,
+                0.1151,
+                1.912,
+                0.1147,
+                1.846,
+                1.2,
+                0.6,
+                0.6,
+                0.3
+              ],
+              [
+                3.4,
+                0.1087,
+                1.959,
+                0.1066,
+                1.798,
+                0.1087,
+                1.857,
+                1.2,
+                0.6,
+                0.6,
+                0.3
+              ],
+              [
+                3.5,
+                0.1037,
+                1.89,
+                0.1011,
+                1.977,
+                0.1021,
+                2.066,
+                1.2,
+                0.7,
+                0.6,
+                0.4
+              ],
+              [
+                3.6,
+                0.09688,
+                2.019,
+                0.09528,
+                1.868,
+                0.09395,
+                1.935,
+                1.2,
+                0.7,
+                0.6,
+                0.4
+              ],
+              [
+                3.7,
+                0.08984,
+                1.944,
+                0.09033,
+                2.039,
+                0.08914,
+                2.137,
+                1.2,
+                0.8,
+                0.6,
+                0.4
+              ],
+              [
+                3.8,
+                0.08358,
+                2.126,
+                0.08456,
+                2.085,
+                0.08296,
+                2.027,
+                1.2,
+                0.8,
+                0.7,
+                0.4
+              ],
+              [
+                3.9,
+                0.07738,
+                2.145,
+                0.07801,
+                2.099,
+                0.07753,
+                2.185,
+                1.2,
+                0.8,
+                0.7,
+                0.4
+              ],
+              [
+                4.0,
+                0.07347,
+                2.203,
+                0.07359,
+                2.158,
+                0.07196,
+                2.261,
+                1.2,
+                0.9,
+                0.7,
+                0.4
+              ],
+              [
+                4.1,
+                0.06745,
+                2.271,
+                0.07003,
+                2.588,
+                0.06965,
+                2.337,
+                1.3,
+                0.9,
+                0.7,
+                0.4
+              ],
+              [
+                4.2,
+                0.06353,
+                2.37,
+                0.0655,
+                2.315,
+                0.06616,
+                2.843,
+                1.3,
+                0.9,
+                0.7,
+                0.5
+              ],
+              [
+                4.3,
+                0.06034,
+                2.864,
+                0.05971,
+                2.401,
+                0.05954,
+                2.498,
+                1.3,
+                1.0,
+                0.8,
+                0.5
+              ],
+              [
+                4.4,
+                0.05645,
+                2.482,
+                0.05696,
+                2.768,
+                0.05698,
+                2.534,
+                1.3,
+                1.0,
+                0.8,
+                0.5
+              ],
+              [
+                4.5,
+                0.05388,
+                2.933,
+                0.05315,
+                2.843,
+                0.05345,
+                3.009,
+                1.4,
+                1.1,
+                0.9,
+                0.5
+              ],
+              [
+                4.6,
+                0.04981,
+                2.548,
+                0.04931,
+                2.503,
+                0.05039,
+                3.028,
+                1.4,
+                1.1,
+                0.9,
+                0.5
+              ],
+              [
+                4.7,
+                0.0469,
+                3.028,
+                0.04671,
+                2.896,
+                0.04535,
+                2.677,
+                1.4,
+                1.1,
+                0.9,
+                0.5
+              ],
+              [
+                4.8,
+                0.04462,
+                3.118,
+                0.04233,
+                3.017,
+                0.04304,
+                3.233,
+                1.4,
+                1.2,
+                0.9,
+                0.5
+              ],
+              [
+                4.9,
+                0.04006,
+                3.064,
+                0.0392,
+                3.072,
+                0.04163,
+                3.281,
+                1.4,
+                1.2,
+                0.9,
+                0.5
+              ],
+              [
+                5.0,
+                0.0376,
+                2.751,
+                0.03598,
+                2.724,
+                0.0374,
+                2.823,
+                1.4,
+                1.2,
+                0.9,
+                0.5
+              ],
+              [
+                5.1,
+                0.0345,
+                2.818,
+                0.03368,
+                2.782,
+                0.03408,
+                2.9,
+                1.5,
+                1.3,
+                1.0,
+                0.6
+              ],
+              [
+                5.2,
+                0.03223,
+                2.938,
+                0.03219,
+                2.889,
+                0.03233,
+                3.015,
+                1.5,
+                1.4,
+                1.0,
+                0.6
+              ],
+              [
+                5.3,
+                0.03014,
+                2.978,
+                0.03016,
+                2.93,
+                0.0293,
+                3.086,
+                1.5,
+                1.4,
+                1.0,
+                0.6
+              ],
+              [
+                5.4,
+                0.02722,
+                3.042,
+                0.02768,
+                2.982,
+                0.02748,
+                3.135,
+                1.5,
+                1.4,
+                1.0,
+                0.6
+              ],
+              [
+                5.5,
+                0.02628,
+                3.118,
+                0.02618,
+                3.07,
+                0.02624,
+                3.222,
+                1.5,
+                1.5,
+                1.0,
+                0.6
+              ],
+              [
+                5.6,
+                0.02352,
+                3.202,
+                0.02451,
+                3.115,
+                0.02454,
+                3.274,
+                1.5,
+                1.5,
+                1.0,
+                0.6
+              ],
+              [
+                5.7,
+                0.02374,
+                3.284,
+                0.02247,
+                3.26,
+                0.0229,
+                3.407,
+                1.5,
+                1.6,
+                1.1,
+                0.6
+              ],
+              [
+                5.8,
+                0.0219,
+                3.348,
+                0.02109,
+                3.31,
+                0.02157,
+                3.467,
+                1.5,
+                1.6,
+                1.1,
+                0.6
+              ],
+              [
+                5.9,
+                0.02031,
+                3.508,
+                0.02009,
+                3.448,
+                0.02019,
+                3.62,
+                1.6,
+                1.7,
+                1.1,
+                0.6
+              ],
+              [
+                6.0,
+                0.01793,
+                3.631,
+                0.01901,
+                3.518,
+                0.01816,
+                3.742,
+                1.6,
+                1.7,
+                1.1,
+                0.7
+              ],
+              [
+                6.1,
+                0.0172,
+                3.722,
+                0.0178,
+                3.626,
+                0.0161,
+                3.917,
+                1.6,
+                1.8,
+                1.1,
+                0.7
+              ],
+              [
+                6.2,
+                0.0165,
+                3.802,
+                0.01597,
+                3.756,
+                0.01527,
+                4.017,
+                1.6,
+                1.8,
+                1.2,
+                0.7
+              ],
+              [
+                6.3,
+                0.01441,
+                3.993,
+                0.01548,
+                3.844,
+                0.01497,
+                4.095,
+                1.6,
+                1.9,
+                1.2,
+                0.7
+              ],
+              [
+                6.4,
+                0.01324,
+                4.095,
+                0.01416,
+                3.936,
+                0.0143,
+                4.153,
+                1.6,
+                1.9,
+                1.2,
+                0.7
+              ],
+              [
+                6.5,
+                0.01312,
+                4.162,
+                0.01312,
+                4.07,
+                0.01286,
+                4.343,
+                1.6,
+                2.0,
+                1.2,
+                0.7
+              ],
+              [
+                6.6,
+                0.012,
+                4.328,
+                0.01203,
+                4.228,
+                0.01172,
+                4.523,
+                1.7,
+                2.0,
+                1.2,
+                0.8
+              ],
+              [
+                6.7,
+                0.01116,
+                4.483,
+                0.01129,
+                4.369,
+                0.01148,
+                4.622,
+                1.7,
+                2.1,
+                1.3,
+                0.7
+              ],
+              [
+                6.8,
+                0.01078,
+                4.558,
+                0.01094,
+                4.431,
+                0.01052,
+                4.788,
+                1.7,
+                2.1,
+                1.3,
+                0.8
+              ],
+              [
+                6.9,
+                0.009529,
+                4.819,
+                0.009588,
+                4.689,
+                0.01005,
+                4.946,
+                1.8,
+                2.2,
+                1.3,
+                0.8
+              ],
+              [
+                7.0,
+                0.009195,
+                4.876,
+                0.009503,
+                4.72,
+                0.00806,
+                5.338,
+                1.8,
+                2.2,
+                1.3,
+                0.8
+              ],
+              [
+                7.1,
+                0.008456,
+                5.052,
+                0.008767,
+                4.893,
+                0.008218,
+                5.34,
+                1.8,
+                2.3,
+                1.3,
+                0.8
+              ],
+              [
+                7.2,
+                0.00799,
+                5.17,
+                0.007683,
+                5.131,
+                0.008284,
+                5.367,
+                1.8,
+                2.3,
+                1.4,
+                0.8
+              ],
+              [
+                7.3,
+                0.007056,
+                5.452,
+                0.0073,
+                5.276,
+                0.007421,
+                5.648,
+                1.8,
+                2.4,
+                1.4,
+                0.9
+              ],
+              [
+                7.4,
+                0.006555,
+                5.581,
+                0.006945,
+                5.361,
+                0.00663,
+                5.875,
+                1.8,
+                2.4,
+                1.4,
+                0.8
+              ],
+              [
+                7.5,
+                0.006408,
+                5.686,
+                0.005851,
+                5.753,
+                0.005689,
+                6.291,
+                1.8,
+                2.5,
+                1.4,
+                0.9
+              ],
+              [
+                7.6,
+                0.005621,
+                5.985,
+                0.006214,
+                5.684,
+                0.005899,
+                6.229,
+                1.9,
+                2.5,
+                1.4,
+                0.9
+              ],
+              [
+                7.7,
+                0.005534,
+                6.091,
+                0.005195,
+                6.137,
+                0.005626,
+                6.418,
+                1.9,
+                2.6,
+                1.5,
+                0.9
+              ],
+              [
+                7.8,
+                0.004877,
+                6.404,
+                0.005324,
+                6.102,
+                0.005073,
+                6.694,
+                1.9,
+                2.6,
+                1.5,
+                0.9
+              ],
+              [
+                7.9,
+                0.004649,
+                6.585,
+                0.004703,
+                6.448,
+                0.004377,
+                7.181,
+                1.9,
+                2.7,
+                1.5,
+                0.9
+              ],
+              [
+                8.0,
+                0.004291,
+                6.862,
+                0.00492,
+                6.441,
+                0.003868,
+                7.65,
+                2.1,
+                2.7,
+                1.5,
+                0.9
+              ],
+              [
+                8.1,
+                0.004295,
+                6.951,
+                0.004332,
+                6.809,
+                0.004082,
+                7.516,
+                2.1,
+                2.8,
+                1.5,
+                1.0
+              ],
+              [
+                8.2,
+                0.004111,
+                7.156,
+                0.003599,
+                7.358,
+                0.003295,
+                8.348,
+                2.1,
+                2.9,
+                1.6,
+                0.9
+              ],
+              [
+                8.3,
+                0.003608,
+                7.553,
+                0.003948,
+                7.13,
+                0.003366,
+                8.298,
+                2.1,
+                2.9,
+                1.6,
+                1.0
+              ],
+              [
+                8.4,
+                0.003298,
+                7.877,
+                0.00323,
+                7.765,
+                0.003139,
+                8.623,
+                2.1,
+                3.0,
+                1.6,
+                0.9
+              ],
+              [
+                8.5,
+                0.002835,
+                8.443,
+                0.003117,
+                7.939,
+                0.002846,
+                9.05,
+                2.2,
+                3.0,
+                1.6,
+                1.0
+              ],
+              [
+                8.6,
+                0.002737,
+                8.631,
+                0.003046,
+                8.073,
+                0.002738,
+                9.257,
+                2.2,
+                3.1,
+                1.6,
+                1.0
+              ],
+              [
+                8.7,
+                0.002567,
+                8.939,
+                0.002942,
+                8.26,
+                0.002381,
+                10.024,
+                2.2,
+                3.2,
+                1.7,
+                0.9
+              ],
+              [
+                8.8,
+                0.002457,
+                9.148,
+                0.002392,
+                9.077,
+                0.002418,
+                10.008,
+                2.2,
+                3.2,
+                1.7,
+                1.0
+              ],
+              [
+                8.9,
+                0.002243,
+                9.588,
+                0.002294,
+                9.311,
+                0.002095,
+                10.898,
+                2.2,
+                3.3,
+                1.7,
+                1.0
+              ],
+              [
+                9.0,
+                0.001989,
+                10.157,
+                0.001993,
+                9.976,
+                0.001883,
+                11.582,
+                2.2,
+                3.3,
+                1.7,
+                1.0
+              ],
+              [
+                9.1,
+                0.002232,
+                9.729,
+                0.00208,
+                9.857,
+                0.00176,
+                12.024,
+                2.3,
+                3.4,
+                1.7,
+                1.0
+              ],
+              [
+                9.2,
+                0.001806,
+                10.811,
+                0.001765,
+                10.77,
+                0.001674,
+                12.441,
+                2.3,
+                3.5,
+                1.8,
+                1.1
+              ],
+              [
+                9.3,
+                0.00185,
+                10.726,
+                0.002,
+                10.163,
+                0.001682,
+                12.463,
+                2.3,
+                3.5,
+                1.8,
+                1.1
+              ],
+              [
+                9.4,
+                0.001536,
+                11.834,
+                0.001755,
+                10.93,
+                0.001741,
+                12.311,
+                2.5,
+                3.6,
+                1.8,
+                1.0
+              ],
+              [
+                9.5,
+                0.001384,
+                12.503,
+                0.001583,
+                11.546,
+                0.001539,
+                13.416,
+                2.5,
+                3.6,
+                1.8,
+                1.0
+              ],
+              [
+                9.6,
+                0.00158,
+                11.802,
+                0.001362,
+                12.58,
+                0.001343,
+                14.672,
+                2.5,
+                3.7,
+                1.8,
+                1.1
+              ],
+              [
+                9.7,
+                0.001331,
+                12.944,
+                0.001281,
+                13.084,
+                0.001415,
+                14.287,
+                2.6,
+                3.8,
+                1.9,
+                1.1
+              ],
+              [
+                9.8,
+                0.0009536,
+                15.54,
+                0.001174,
+                13.789,
+                0.001355,
+                14.737,
+                2.6,
+                3.8,
+                1.9,
+                1.2
+              ],
+              [
+                9.9,
+                0.001042,
+                14.876,
+                0.001062,
+                14.667,
+                0.0007896,
+                21.376,
+                2.6,
+                3.9,
+                1.9,
+                1.1
+              ],
+              [
+                10.0,
+                0.0007821,
+                17.608,
+                0.00109,
+                14.514,
+                0.001001,
+                18.088,
+                2.7,
+                3.9,
+                1.9,
+                1.2
+              ],
+              [
+                10.1,
+                0.0007293,
+                18.437,
+                0.0009388,
+                15.907,
+                0.001011,
+                18.054,
+                2.7,
+                4.0,
+                1.9,
+                1.1
+              ],
+              [
+                10.2,
+                0.0006917,
+                19.153,
+                0.0008874,
+                16.554,
+                0.0009883,
+                18.428,
+                2.7,
+                4.1,
+                2.0,
+                1.2
+              ],
+              [
+                10.3,
+                0.0009894,
+                15.697,
+                0.001001,
+                15.479,
+                0.0009261,
+                19.353,
+                2.8,
+                4.1,
+                2.0,
+                1.2
+              ],
+              [
+                10.4,
+                0.0007303,
+                18.858,
+                0.0006602,
+                20.123,
+                0.0008055,
+                21.431,
+                2.8,
+                4.2,
+                2.0,
+                1.2
+              ],
+              [
+                10.5,
+                0.0007124,
+                19.128,
+                0.0005499,
+                22.87,
+                0.0006479,
+                25.25,
+                2.8,
+                4.3,
+                2.0,
+                1.1
+              ],
+              [
+                10.6,
+                0.0006299,
+                20.733,
+                0.0006427,
+                20.662,
+                0.0008451,
+                20.913,
+                2.9,
+                4.3,
+                2.0,
+                1.2
+              ],
+              [
+                10.7,
+                0.0007429,
+                18.931,
+                0.0004671,
+                25.841,
+                0.000562,
+                28.463,
+                2.9,
+                4.4,
+                2.0,
+                1.2
+              ],
+              [
+                10.8,
+                0.0004514,
+                25.979,
+                0.0004335,
+                27.645,
+                0.0005036,
+                31.02,
+                2.9,
+                4.5,
+                2.1,
+                1.2
+              ],
+              [
+                10.9,
+                0.0003774,
+                30.23,
+                0.0006804,
+                20.179,
+                0.0005542,
+                28.877,
+                2.9,
+                4.5,
+                2.1,
+                1.3
+              ],
+              [
+                11.0,
+                0.0006942,
+                20.065,
+                0.000593,
+                22.193,
+                0.0004857,
+                32.216,
+                2.9,
+                4.6,
+                2.1,
+                1.3
+              ],
+              [
+                11.1,
+                0.0006797,
+                20.317,
+                0.0006179,
+                21.701,
+                0.0002296,
+                64.373,
+                3.0,
+                4.7,
+                2.1,
+                1.3
+              ],
+              [
+                11.2,
+                0.0003526,
+                31.293,
+                0.0006157,
+                21.848,
+                0.0006378,
+                26.641,
+                3.1,
+                4.7,
+                2.1,
+                1.3
+              ],
+              [
+                11.3,
+                0.0004645,
+                26.146,
+                0.0003305,
+                34.242,
+                0.0006203,
+                27.151,
+                3.2,
+                4.8,
+                2.2,
+                1.4
+              ],
+              [
+                11.4,
+                0.0003364,
+                32.794,
+                0.0003353,
+                34.332,
+                0.0003265,
+                45.576,
+                3.4,
+                4.9,
+                2.2,
+                1.4
+              ],
+              [
+                11.5,
+                0.0004242,
+                28.283,
+                0.0005413,
+                24.246,
+                0.0006398,
+                26.72,
+                3.5,
+                5.0,
+                2.2,
+                1.4
+              ],
+              [
+                11.6,
+                0.0002395,
+                42.679,
+                0.0003669,
+                32.246,
+                0.000426,
+                36.737,
+                3.5,
+                5.0,
+                2.3,
+                1.5
+              ],
+              [
+                11.7,
+                0.0004496,
+                27.379,
+                0.0004362,
+                28.484,
+                0.0002758,
+                53.233,
+                3.5,
+                5.1,
+                2.3,
+                1.5
+              ],
+              [
+                11.8,
+                0.0002527,
+                42.514,
+                0.0004443,
+                28.531,
+                0.0002378,
+                61.395,
+                3.6,
+                5.2,
+                2.3,
+                1.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "31692006",
+            "N2": 20130708,
+            "alteration_flag": " ",
+            "transmission_identification": "3160"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(98-CF-252(0,F),PR,NU/DE)/(92-U-235(N,F),PR,NU/DE)",
+                "code_unit": [
+                  {
+                    "unit": "98-CF-252(0,F),PR,NU/DE",
+                    "field": {
+                      "reaction": "98-CF-252(0,F)",
+                      "target": "98-CF-252",
+                      "projectile": "0",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "PR,NU/DE",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "PR,NU/DE"
+                    }
+                  },
+                  {
+                    "unit": "92-U-235(N,F),PR,NU/DE",
+                    "field": {
+                      "reaction": "92-U-235(N,F)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "PR,NU/DE",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "PR,NU/DE"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)/(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Ratio of the spectra for each detector without any",
+                "additional normalization to the total integral and",
+                "without correction for neutron detector efficiency."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrections were applied for: neutron scattering in",
+                "environment, random coincidence, the total amount of",
+                "fission events."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table I of Nucl.Sci.Eng.168(2011)73"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20130708,
+                "history": "A"
+              },
+              "free_text": [
+                " On. NO-DIM -> PER-CENT"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 112,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "E",
+              "DATA",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "NO-DIM",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                0.7,
+                1.436,
+                0.5
+              ],
+              [
+                0.8,
+                1.437,
+                0.3
+              ],
+              [
+                0.9,
+                1.438,
+                0.3
+              ],
+              [
+                1.0,
+                1.449,
+                0.3
+              ],
+              [
+                1.1,
+                1.464,
+                0.3
+              ],
+              [
+                1.2,
+                1.453,
+                0.3
+              ],
+              [
+                1.3,
+                1.468,
+                0.3
+              ],
+              [
+                1.4,
+                1.481,
+                0.4
+              ],
+              [
+                1.5,
+                1.48,
+                0.4
+              ],
+              [
+                1.6,
+                1.478,
+                0.4
+              ],
+              [
+                1.7,
+                1.483,
+                0.4
+              ],
+              [
+                1.8,
+                1.497,
+                0.4
+              ],
+              [
+                1.9,
+                1.5,
+                0.5
+              ],
+              [
+                2.0,
+                1.5,
+                0.5
+              ],
+              [
+                2.1,
+                1.513,
+                0.6
+              ],
+              [
+                2.2,
+                1.52,
+                0.6
+              ],
+              [
+                2.3,
+                1.532,
+                0.6
+              ],
+              [
+                2.4,
+                1.526,
+                0.7
+              ],
+              [
+                2.5,
+                1.534,
+                0.7
+              ],
+              [
+                2.6,
+                1.546,
+                0.8
+              ],
+              [
+                2.7,
+                1.557,
+                0.8
+              ],
+              [
+                2.8,
+                1.552,
+                0.9
+              ],
+              [
+                2.9,
+                1.588,
+                0.9
+              ],
+              [
+                3.0,
+                1.576,
+                0.9
+              ],
+              [
+                3.1,
+                1.56,
+                0.9
+              ],
+              [
+                3.2,
+                1.59,
+                1.0
+              ],
+              [
+                3.3,
+                1.601,
+                1.1
+              ],
+              [
+                3.4,
+                1.613,
+                1.1
+              ],
+              [
+                3.5,
+                1.608,
+                1.2
+              ],
+              [
+                3.6,
+                1.628,
+                1.2
+              ],
+              [
+                3.7,
+                1.632,
+                1.3
+              ],
+              [
+                3.8,
+                1.651,
+                1.4
+              ],
+              [
+                3.9,
+                1.678,
+                1.4
+              ],
+              [
+                4.0,
+                1.681,
+                1.5
+              ],
+              [
+                4.1,
+                1.674,
+                1.5
+              ],
+              [
+                4.2,
+                1.673,
+                1.6
+              ],
+              [
+                4.3,
+                1.711,
+                1.7
+              ],
+              [
+                4.4,
+                1.696,
+                1.7
+              ],
+              [
+                4.5,
+                1.694,
+                1.9
+              ],
+              [
+                4.6,
+                1.71,
+                1.8
+              ],
+              [
+                4.7,
+                1.728,
+                1.9
+              ],
+              [
+                4.8,
+                1.736,
+                2.1
+              ],
+              [
+                4.9,
+                1.754,
+                2.1
+              ],
+              [
+                5.0,
+                1.794,
+                1.9
+              ],
+              [
+                5.1,
+                1.827,
+                2.0
+              ],
+              [
+                5.2,
+                1.812,
+                2.1
+              ],
+              [
+                5.3,
+                1.835,
+                2.1
+              ],
+              [
+                5.4,
+                1.873,
+                2.1
+              ],
+              [
+                5.5,
+                1.839,
+                2.2
+              ],
+              [
+                5.6,
+                1.871,
+                2.2
+              ],
+              [
+                5.7,
+                1.842,
+                2.4
+              ],
+              [
+                5.8,
+                1.849,
+                2.4
+              ],
+              [
+                5.9,
+                1.845,
+                2.5
+              ],
+              [
+                6.0,
+                1.901,
+                2.6
+              ],
+              [
+                6.1,
+                1.919,
+                2.7
+              ],
+              [
+                6.2,
+                1.925,
+                2.7
+              ],
+              [
+                6.3,
+                1.92,
+                2.8
+              ],
+              [
+                6.4,
+                1.936,
+                2.9
+              ],
+              [
+                6.5,
+                1.932,
+                3.0
+              ],
+              [
+                6.6,
+                1.979,
+                3.1
+              ],
+              [
+                6.7,
+                1.954,
+                3.2
+              ],
+              [
+                6.8,
+                1.924,
+                3.2
+              ],
+              [
+                6.9,
+                1.993,
+                3.4
+              ],
+              [
+                7.0,
+                2.028,
+                3.4
+              ],
+              [
+                7.1,
+                1.999,
+                3.6
+              ],
+              [
+                7.2,
+                1.99,
+                3.6
+              ],
+              [
+                7.3,
+                2.047,
+                3.8
+              ],
+              [
+                7.4,
+                2.071,
+                3.9
+              ],
+              [
+                7.5,
+                2.174,
+                4.1
+              ],
+              [
+                7.6,
+                2.059,
+                4.1
+              ],
+              [
+                7.7,
+                2.091,
+                4.3
+              ],
+              [
+                7.8,
+                2.093,
+                4.4
+              ],
+              [
+                7.9,
+                2.177,
+                4.6
+              ],
+              [
+                8.0,
+                2.134,
+                4.6
+              ],
+              [
+                8.1,
+                2.059,
+                4.8
+              ],
+              [
+                8.2,
+                2.223,
+                5.0
+              ],
+              [
+                8.3,
+                2.095,
+                5.1
+              ],
+              [
+                8.4,
+                2.217,
+                5.3
+              ],
+              [
+                8.5,
+                2.278,
+                5.5
+              ],
+              [
+                8.6,
+                2.199,
+                5.6
+              ],
+              [
+                8.7,
+                2.219,
+                5.9
+              ],
+              [
+                8.8,
+                2.259,
+                6.1
+              ],
+              [
+                8.9,
+                2.313,
+                6.4
+              ],
+              [
+                9.0,
+                2.447,
+                6.7
+              ],
+              [
+                9.1,
+                2.208,
+                6.7
+              ],
+              [
+                9.2,
+                2.395,
+                7.2
+              ],
+              [
+                9.3,
+                2.12,
+                7.1
+              ],
+              [
+                9.4,
+                2.185,
+                7.4
+              ],
+              [
+                9.5,
+                2.282,
+                7.8
+              ],
+              [
+                9.6,
+                2.243,
+                8.1
+              ],
+              [
+                9.7,
+                2.236,
+                8.4
+              ],
+              [
+                9.8,
+                2.422,
+                9.1
+              ],
+              [
+                9.9,
+                2.709,
+                10.1
+              ],
+              [
+                10.0,
+                2.56,
+                10.2
+              ],
+              [
+                10.1,
+                2.573,
+                10.6
+              ],
+              [
+                10.2,
+                2.512,
+                11.0
+              ],
+              [
+                10.3,
+                2.061,
+                10.3
+              ],
+              [
+                10.4,
+                2.569,
+                12.2
+              ],
+              [
+                10.5,
+                2.759,
+                13.4
+              ],
+              [
+                10.6,
+                2.333,
+                12.6
+              ],
+              [
+                10.7,
+                2.6,
+                14.2
+              ],
+              [
+                10.8,
+                3.106,
+                16.9
+              ],
+              [
+                10.9,
+                2.493,
+                15.2
+              ],
+              [
+                11.0,
+                2.117,
+                14.4
+              ],
+              [
+                11.1,
+                2.281,
+                16.1
+              ],
+              [
+                11.2,
+                2.052,
+                15.5
+              ],
+              [
+                11.3,
+                2.189,
+                17.1
+              ],
+              [
+                11.4,
+                2.88,
+                20.0
+              ],
+              [
+                11.5,
+                1.68,
+                20.0
+              ],
+              [
+                11.6,
+                2.442,
+                23.0
+              ],
+              [
+                11.7,
+                2.012,
+                23.0
+              ],
+              [
+                11.8,
+                2.334,
+                25.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 6,
+        "N2": 0
+      }
+    }
+  ]
+}

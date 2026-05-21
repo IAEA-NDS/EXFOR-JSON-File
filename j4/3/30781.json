@@ -1,0 +1,777 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T21:35:33+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "30781",
+        "N2": 20220202,
+        "alteration_flag": " ",
+        "transmission_identification": "3207"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "30781001",
+            "N2": 20220202,
+            "alteration_flag": " ",
+            "transmission_identification": "3207"
+          },
+          "BIB": {
+            "N1": 19,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Neutron capture cross section measurement of 232Th in",
+                "the energy range of 400-950 keV"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "R.P.Anand",
+                "H.M.Jain",
+                "S.Kailas",
+                "S.K.Gupta",
+                "V.S.Ramamurthy"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "3INDTRM"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,ANE,16,87,1989",
+                "code_unit": [
+                  {
+                    "unit": "J,ANE,16,87,1989",
+                    "doi": "10.1016/0306-4549(89)90032-7",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "ANE",
+                        "number": null,
+                        "volume": "16",
+                        "part": null,
+                        "issue": null,
+                        "page": "87"
+                      },
+                      "date": 1989
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(J,RE,93,189,1986)=(C,85SANTA,1,525,1985)",
+                "code_unit": [
+                  {
+                    "unit": "J,RE,93,189,1986",
+                    "doi": "10.1080/00337578608207449",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "RE",
+                        "number": null,
+                        "volume": "93",
+                        "part": null,
+                        "issue": null,
+                        "page": "189"
+                      },
+                      "date": 1986
+                    }
+                  },
+                  {
+                    "unit": "C,85SANTA,1,525,1985",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "C",
+                      "reference": {
+                        "code": "85SANTA",
+                        "number": null,
+                        "volume": "1",
+                        "part": null,
+                        "issue": null,
+                        "page": "525"
+                      },
+                      "date": 1985
+                    }
+                  }
+                ],
+                "unit_combination": "((%)=(%))"
+              },
+              "free_text": [
+                "",
+                " Prelim. of the ANE article"
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "VDG"
+                ],
+                "institute": "3INDTRM"
+              },
+              "free_text": [
+                " 5.5 MeV accelerator"
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "- The Th-oxide target in form of discs (~14 mm diam.,",
+                " 2 mm thick).",
+                "- Two thin Au foils (0.013 mm thick, ~14 mm diam.)"
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "P-LI7"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "GELI"
+              ],
+              "free_text": [
+                " 100 cm3"
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "ACTIV"
+              ],
+              "free_text": [
+                "",
+                "- Activation method was employed in which the gammas",
+                "  emitted from the decay of the Th-233 were measured.",
+                "- The cross sections were measured relative to the",
+                "  neutron capture cross sections of Au-197."
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The photopeak area of 459 keV g-ray was extracted with",
+                " the computer code SAMPO, which fits each gamma-ray",
+                " with Gaussian + two exponentials.",
+                "The fitting parameters for the code were determined by",
+                " using standard monoenerg. gamma-sources."
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "MONIT1",
+                "reaction": {
+                  "code": "(90-TH-232(N,G)90-TH-233,,SIG,,MXW)/(79-AU-197(N,G)79-AU-198,,SIG,,MXW)",
+                  "code_unit": [
+                    {
+                      "unit": "90-TH-232(N,G)90-TH-233,,SIG,,MXW",
+                      "field": {
+                        "reaction": "90-TH-232(N,G)90-TH-233",
+                        "target": "90-TH-232",
+                        "projectile": "N",
+                        "process": "G",
+                        "product": "90-TH-233",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": "MXW",
+                        "quantity_236": ",SIG"
+                      }
+                    },
+                    {
+                      "unit": "79-AU-197(N,G)79-AU-198,,SIG,,MXW",
+                      "field": {
+                        "reaction": "79-AU-197(N,G)79-AU-198",
+                        "target": "79-AU-197",
+                        "projectile": "N",
+                        "process": "G",
+                        "product": "79-AU-198",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": "MXW",
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "((%)/(%))"
+                }
+              },
+              "free_text": [
+                "",
+                "The ratio of the capture cross section of Th and Au at",
+                " thermal neutron energy was used as monitor.",
+                "The values of the thermal neutron capture cross section",
+                "used were: 7.40 +/- 0.08 barn for Th-232",
+                "           98.8 +/- 0.3  barn for Au-197"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "MONIT2",
+                "reaction": {
+                  "code": "79-AU-197(N,G)79-AU-198,,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "79-AU-197(N,G)79-AU-198,,SIG",
+                      "field": {
+                        "reaction": "79-AU-197(N,G)79-AU-198",
+                        "target": "79-AU-197",
+                        "projectile": "N",
+                        "process": "G",
+                        "product": "79-AU-198",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "MONIT1",
+                "subentry_number": "",
+                "author": null,
+                "reference": {
+                  "code": "R,BNL-325,(1),1973",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "BNL-",
+                      "number": "325",
+                      "volume": "(1)",
+                      "part": null,
+                      "issue": null,
+                      "page": null,
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 1973
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "MONIT2",
+                "subentry_number": "",
+                "author": null,
+                "reference": {
+                  "code": "R,IAEA-227,1983",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "IAEA-",
+                      "number": "227",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null,
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 1983
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "  The capture cross sections of 197-Au in the keV",
+                "  energy range were taken from standard cross sections",
+                "  recommended by IAEA."
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "90-TH-233",
+                "half-life": {
+                  "value": 22.3,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      459.0
+                    ],
+                    "intensity": null
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-MON": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "nuclide": "79-AU-198-G",
+                "half-life": {
+                  "value": 2.7,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      412.0
+                    ],
+                    "intensity": null
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Measured cross sections were corrected for:",
+                "1. Multiple scattering and self-shielding effects:",
+                "  ---------------------------------------------------",
+                "    En (keV)       C1                    C2",
+                "  ---------------------------------------------------",
+                " Thermal maxw      0.97230               1.0562",
+                "     425           0.99995               1.0295",
+                "     480           0.99995               1.0305",
+                "     535           0.99995               1.0310",
+                "     590           0.99995               1.0313",
+                "     615           0.99995               1.0316",
+                "     645           0.99996               1.0319",
+                "     690           0.99996               1.0321",
+                "     740           0.99996               1.0325",
+                "     845           0.99996               1.0333",
+                "     950           0.99997               1.0338",
+                "  ------------ --------------------------------------",
+                "   C1: Self-shielding + multiple scattering correction",
+                "       factor for Al-foils",
+                "   C2: Multiple scattering correction factor for Th-",
+                "       pellet",
+                "2. The effect of the variation of neutron flux as a",
+                "   function of time was taken into consideration.",
+                "   This correction factor was found to be less than 6%.",
+                "3. Second group of neutrons due Ep > 2.4 MeV the",
+                "   estimated error due to this  corr  < +/- 1%.",
+                "4. The average energy and the spread of the neutron",
+                "   beam for Li target thickness. The neutron spread",
+                "   due this was calcu. to be varying from +/-15 to",
+                "   +/- 25 keV",
+                "5. The energy spread due to the angular spread of",
+                "   neutrons. This was estimated to be about +/- 17 keV."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Overall uncertainty was estimated (5-6%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": 1.0,
+                "maximum_value": 4.0,
+                "correlation_property": null
+              },
+              "free_text": [
+                " The statistical and fitting error in the",
+                " determining the photopeak areas of the 459 and 412 keV",
+                " gammas by SAMPO:                     (2-4%) for keV",
+                "                                     (<1%)for thermal"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": 2.0,
+                "correlation_property": null
+              },
+              "free_text": [
+                " The uncertainty due the self-shielding and",
+                " multiple scattering                           (<2%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": 1.0,
+                "correlation_property": null
+              },
+              "free_text": [
+                " The uncertainty on the thermal capture",
+                " cross sections of 232-Th and 197-Au:          (<1%)"
+              ]
+            }
+          ],
+          "CRITIQUE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The present measurements are in good agreement with the",
+                " other recent measurements and deviations are within",
+                " experimental errors up to En=740keV."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 2 of Ann. Nucl. Energy, 16 (1989) 87"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19880411,
+                "history": "C"
+              },
+              "free_text": [
+                " TMK"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19890412,
+                "history": "A"
+              },
+              "free_text": [
+                " VOF.-Complete revision."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20090725,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Updated to new date formats,lower case.",
+                " Units and data in COMMON section were corrected,",
+                " energy was added. Cosmetic changes and codes for",
+                " partial uncertainties were added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20120703,
+                "history": "U"
+              },
+              "free_text": [
+                " On. ANALYSIS: Code AREA deleted"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20220202,
+                "history": "A"
+              },
+              "free_text": [
+                " VT ERR-ANALYS: corrected"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 2,
+            "N2": 0,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-NRM",
+              "MONIT1"
+            ],
+            "unit": [
+              "EV",
+              "NO-DIM"
+            ],
+            "value": [
+              0.0253,
+              0.0749
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "30781002",
+            "N2": 20220202,
+            "alteration_flag": " ",
+            "transmission_identification": "3207"
+          },
+          "BIB": {
+            "N1": 1,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "90-TH-232(N,G)90-TH-233,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "90-TH-232(N,G)90-TH-233,,SIG",
+                    "field": {
+                      "reaction": "90-TH-232(N,G)90-TH-233",
+                      "target": "90-TH-232",
+                      "projectile": "N",
+                      "process": "G",
+                      "product": "90-TH-233",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 5,
+            "N2": 10,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL",
+              "DATA",
+              "ERR-T",
+              "MONIT2"
+            ],
+            "unit": [
+              "KEV",
+              "KEV",
+              "MB",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                425.0,
+                35.0,
+                150.0,
+                8.0,
+                151.4
+              ],
+              [
+                480.0,
+                35.0,
+                151.0,
+                8.0,
+                138.0
+              ],
+              [
+                535.0,
+                35.0,
+                166.0,
+                9.0,
+                127.0
+              ],
+              [
+                590.0,
+                35.0,
+                160.0,
+                9.0,
+                118.0
+              ],
+              [
+                615.0,
+                45.0,
+                150.0,
+                8.0,
+                115.0
+              ],
+              [
+                645.0,
+                35.0,
+                167.0,
+                9.0,
+                108.8
+              ],
+              [
+                690.0,
+                45.0,
+                164.0,
+                9.0,
+                102.4
+              ],
+              [
+                740.0,
+                45.0,
+                170.0,
+                9.0,
+                96.4
+              ],
+              [
+                845.0,
+                45.0,
+                175.0,
+                9.0,
+                87.6
+              ],
+              [
+                950.0,
+                45.0,
+                162.0,
+                9.0,
+                84.2
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 2,
+        "N2": 0
+      }
+    }
+  ]
+}

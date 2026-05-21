@@ -1,0 +1,2218 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T20:47:41+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "22216",
+        "N2": 20140808,
+        "alteration_flag": " ",
+        "transmission_identification": "2240"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "22216001",
+            "N2": 20140808,
+            "alteration_flag": " ",
+            "transmission_identification": "2240"
+          },
+          "BIB": {
+            "N1": 17,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Measurements of U-235 fission spectrum-averaged cross",
+                "  sections and neutron spectrum adjusted with the",
+                "  activation data"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "K.Kobayashi",
+                "T.Kobayashi"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "2JPNKTO"
+              ],
+              "free_text": [
+                " Research Reactor Institute"
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R,KURRI-AR-25,21,1992",
+                "code_unit": [
+                  {
+                    "unit": "R,KURRI-AR-25,21,1992",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "R",
+                      "reference": {
+                        "code": "KURRI-AR-",
+                        "number": "25",
+                        "volume": null,
+                        "part": null,
+                        "issue": null,
+                        "page": "21"
+                      },
+                      "date": 1992
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(P,NEANDC(J)-155,52,1990)=(P,INDC(JPN)-142,52,1990)",
+                "code_unit": [
+                  {
+                    "unit": "P,NEANDC(J)-155,52,1990",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "P",
+                      "reference": {
+                        "code": "NEANDC(J)-",
+                        "number": "155",
+                        "volume": null,
+                        "part": null,
+                        "issue": null,
+                        "page": "52"
+                      },
+                      "date": 1990
+                    }
+                  },
+                  {
+                    "unit": "P,INDC(JPN)-142,52,1990",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "P",
+                      "reference": {
+                        "code": "INDC(JPN)-",
+                        "number": "142",
+                        "volume": null,
+                        "part": null,
+                        "issue": null,
+                        "page": "52"
+                      },
+                      "date": 1990
+                    }
+                  }
+                ],
+                "unit_combination": "((%)=(%))"
+              },
+              "free_text": [
+                "",
+                " Same data given"
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": "2JPNKTO"
+              },
+              "free_text": [
+                " KUR with heavy-water neutron facility.",
+                " The fission converter was mounted in a cubic concrete-",
+                " shielded room, 2.4 m from the reactor core. The space",
+                " in between was occupied by a large heavy water tank",
+                " and a bismuth window."
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Thermal neutrons on a large fission plate, 31.3 cm in",
+                "  diameter and 1.1 cm thick, made of 90% U235 enriched",
+                "  UO2-Al cermet plate clad by Al.",
+                " Total amount of uranium is about 1.1 kg.",
+                " The fast neutron flux attains to 1.8E+9 n/cm2/sec at",
+                "  5 MW KUR power."
+              ]
+            }
+          ],
+          "INC-SPECT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Fission neutron spectrum.",
+                " The scattered neutrons were evaluated by Monte Carlo",
+                "  calculations, using MCNP.",
+                " Spectra from MCNP are given in Table 5 of",
+                "  R,KURRI-AR-25,21,1992 for the following 3 cases:",
+                "  - On the surface of the plate;",
+                "  - At 10 cm away from the plate",
+                "  - At 20 cm away from the plate"
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Natural sample used (K.Kobayashi, 2010-12-07)"
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "ACTIV"
+              ],
+              "free_text": [
+                " Foils of different isotopes activated in",
+                " the fission converter field"
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "MONIT",
+                "reaction": {
+                  "code": "13-AL-27(N,A)11-NA-24-G,,SIG,,FIS",
+                  "code_unit": [
+                    {
+                      "unit": "13-AL-27(N,A)11-NA-24-G,,SIG,,FIS",
+                      "field": {
+                        "reaction": "13-AL-27(N,A)11-NA-24-G",
+                        "target": "13-AL-27",
+                        "projectile": "N",
+                        "process": "A",
+                        "product": "11-NA-24-G",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": "FIS",
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-MON": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "nuclide": "11-NA-24",
+                "half-life": {
+                  "value": 15.02,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1369.0
+                    ],
+                    "intensity": 1.0
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "MONIT",
+                "subentry_number": "22020004",
+                "author": "W.Mannhart+",
+                "reference": {
+                  "code": "C,84GEESTH,2,813,1984",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "84GEESTH",
+                      "number": null,
+                      "volume": "2",
+                      "part": null,
+                      "issue": null,
+                      "page": "813",
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 1984
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "M",
+                "subentry_number": null,
+                "author": "K.Kobayashi+",
+                "reference": {
+                  "code": "S,EUR-6813,(2),1004,1980",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "EUR-",
+                      "number": "6813",
+                      "volume": "(2)",
+                      "part": null,
+                      "issue": null,
+                      "page": "1004"
+                    },
+                    "date": 1980
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Specification of sample foils and other techniques",
+                " such as the method of radioactivity measurement"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "M",
+                "subentry_number": null,
+                "author": "K.Kobayashi+",
+                "reference": {
+                  "code": "J,NST,19,341,1982",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NST",
+                      "number": null,
+                      "volume": "19",
+                      "part": null,
+                      "issue": null,
+                      "page": "341"
+                    },
+                    "date": 1982
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Specification of sample foils and other techniques",
+                " such as the method of radioactivity measurement"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": null,
+                "author": "C.M.Lederer",
+                "reference": {
+                  "code": "B,LEDERER-7,,1978",
+                  "field": {
+                    "reference_type": "B",
+                    "reference": {
+                      "code": "LEDERER-7",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Nuclear properties of the foils and decay data"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Deduced by taking into account correlations",
+                " between data."
+              ]
+            }
+          ],
+          "COVARIANCE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Correlation between subentries (Mo:Monitor)",
+                "  (Table 1,R,KURRI-AR-25,21,1992)",
+                " Mo 100",
+                "  2 74 100",
+                "  3 67  72 100",
+                "  4 69  77  80 100",
+                "  5 62  67  71  74 100",
+                "  6 63  69  68  72  62 100",
+                "  7 64  70  69  73  64  71 100",
+                "  8 71  78  77  82  71  73  75 100",
+                "  9 55  59  58  61  54  55  56  63 100",
+                " 10 65  73  72  82  66  68  69  78  59 100",
+                " 11 67  70  71  73  66  67  67  75  57  70 100",
+                " 12 65  71  70  74  65  66  67  76  57  71  69 100",
+                " 13 65  65  64  70  59  60  61  68  52  65  64  62 100",
+                "    Mo   2   3   4   5   6   7   8   9  10  11  12  13"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 3 of R,KURRI-AR-25,21,1992"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "APRVD"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Proofread by Katsuhei Kobayashi (2010-11-12)"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19930116,
+                "history": "C"
+              },
+              "free_text": [
+                " N.O."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19930329,
+                "history": "E"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19961205,
+                "history": "U"
+              },
+              "free_text": [
+                "  + +   Corrected by S.Maev",
+                "  .EN-DUMMY, MONIT, MONIT-ERR put in SUBENT 001",
+                "  .STATUS information specified                 + +"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20101105,
+                "history": "A"
+              },
+              "free_text": [
+                " On. REFERENCE: R,KURRI-AR-25,21,1992 added"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20140808,
+                "history": "A"
+              },
+              "free_text": [
+                " On. REACTION of 008 and 009 updated."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 3,
+            "N2": 0,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-DUMMY",
+              "MONIT",
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              1.5,
+              0.706,
+              0.028
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "22216002",
+            "N2": 20101112,
+            "alteration_flag": " ",
+            "transmission_identification": "2224"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "13-AL-27(N,P)12-MG-27,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "13-AL-27(N,P)12-MG-27,,SIG,,FIS",
+                    "field": {
+                      "reaction": "13-AL-27(N,P)12-MG-27",
+                      "target": "13-AL-27",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "12-MG-27",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "12-MG-27",
+                "half-life": {
+                  "value": 9.46,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      844.0
+                    ],
+                    "intensity": 0.73
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19930329,
+                "history": "E"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19961205,
+                "history": "U"
+              },
+              "free_text": [
+                " * * STATUS keyword, EN-DUMMY, MONIT,",
+                "              MONIT-ERR headings moved to subent 001"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20101105,
+                "history": "A"
+              },
+              "free_text": [
+                " On. DECAY-DATA added"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                3.81,
+                0.209
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "22216003",
+            "N2": 20101112,
+            "alteration_flag": " ",
+            "transmission_identification": "2224"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "22-TI-46(N,P)21-SC-46-G,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "22-TI-46(N,P)21-SC-46-G,,SIG,,FIS",
+                    "field": {
+                      "reaction": "22-TI-46(N,P)21-SC-46-G",
+                      "target": "22-TI-46",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "21-SC-46-G",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "21-SC-46-G",
+                "half-life": {
+                  "value": 83.8,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      889.0
+                    ],
+                    "intensity": 1.0
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19930329,
+                "history": "E"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19961205,
+                "history": "U"
+              },
+              "free_text": [
+                " * * STATUS keyword, EN-DUMMY, MONIT,",
+                "              MONIT-ERR headings moved to subent 001"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20101105,
+                "history": "A"
+              },
+              "free_text": [
+                " On. DECAY-DATA added"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                11.7,
+                0.695
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "22216004",
+            "N2": 20101112,
+            "alteration_flag": " ",
+            "transmission_identification": "2224"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "22-TI-47(N,P)21-SC-47,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "22-TI-47(N,P)21-SC-47,,SIG,,FIS",
+                    "field": {
+                      "reaction": "22-TI-47(N,P)21-SC-47",
+                      "target": "22-TI-47",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "21-SC-47",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "21-SC-47",
+                "half-life": {
+                  "value": 3.422,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      159.0
+                    ],
+                    "intensity": 0.685
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19930329,
+                "history": "E"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19961205,
+                "history": "U"
+              },
+              "free_text": [
+                " * * STATUS keyword, EN-DUMMY, MONIT,",
+                "              MONIT-ERR headings moved to subent 001"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20101105,
+                "history": "A"
+              },
+              "free_text": [
+                " On. DECAY-DATA added"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                18.15,
+                1.07
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "22216005",
+            "N2": 20101112,
+            "alteration_flag": " ",
+            "transmission_identification": "2224"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "22-TI-48(N,P)21-SC-48,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "22-TI-48(N,P)21-SC-48,,SIG,,FIS",
+                    "field": {
+                      "reaction": "22-TI-48(N,P)21-SC-48",
+                      "target": "22-TI-48",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "21-SC-48",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "21-SC-48",
+                "half-life": {
+                  "value": 43.67,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      983.0
+                    ],
+                    "intensity": 1.0
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19930329,
+                "history": "E"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19961205,
+                "history": "U"
+              },
+              "free_text": [
+                " * * STATUS keyword, EN-DUMMY, MONIT,",
+                "              MONIT-ERR headings moved to subent 001"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20101105,
+                "history": "A"
+              },
+              "free_text": [
+                " On. DECAY-DATA added"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                0.302,
+                0.0193
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "22216006",
+            "N2": 20101112,
+            "alteration_flag": " ",
+            "transmission_identification": "2224"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "26-FE-54(N,P)25-MN-54,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "26-FE-54(N,P)25-MN-54,,SIG,,FIS",
+                    "field": {
+                      "reaction": "26-FE-54(N,P)25-MN-54",
+                      "target": "26-FE-54",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "25-MN-54",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "25-MN-54",
+                "half-life": {
+                  "value": 312.2,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      835.0
+                    ],
+                    "intensity": 1.0
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19930329,
+                "history": "E"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19961205,
+                "history": "U"
+              },
+              "free_text": [
+                " * * STATUS keyword, EN-DUMMY, MONIT,",
+                "              MONIT-ERR headings moved to subent 001"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20101105,
+                "history": "A"
+              },
+              "free_text": [
+                " On. DECAY-DATA added"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                76.6,
+                5.01
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "22216007",
+            "N2": 20101112,
+            "alteration_flag": " ",
+            "transmission_identification": "2224"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "26-FE-56(N,P)25-MN-56,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "26-FE-56(N,P)25-MN-56,,SIG,,FIS",
+                    "field": {
+                      "reaction": "26-FE-56(N,P)25-MN-56",
+                      "target": "26-FE-56",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "25-MN-56",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "25-MN-56",
+                "half-life": {
+                  "value": 2.579,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      847.0
+                    ],
+                    "intensity": 0.989
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19930329,
+                "history": "E"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19961205,
+                "history": "U"
+              },
+              "free_text": [
+                " * * STATUS keyword, EN-DUMMY, MONIT,",
+                "              MONIT-ERR headings moved to subent 001"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20101105,
+                "history": "A"
+              },
+              "free_text": [
+                " On. DECAY-DATA added"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                1.034,
+                0.0655
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "22216008",
+            "N2": 20140808,
+            "alteration_flag": " ",
+            "transmission_identification": "2240"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "28-NI-58(N,P)27-CO-58,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "28-NI-58(N,P)27-CO-58,,SIG,,FIS",
+                    "field": {
+                      "reaction": "28-NI-58(N,P)27-CO-58",
+                      "target": "28-NI-58",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "27-CO-58",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "27-CO-58-G",
+                "half-life": {
+                  "value": 70.79,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      811.0
+                    ],
+                    "intensity": 0.994
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19930329,
+                "history": "E"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19961205,
+                "history": "U"
+              },
+              "free_text": [
+                " * * STATUS keyword, EN-DUMMY, MONIT,",
+                "              MONIT-ERR headings moved to subent 001"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20101105,
+                "history": "A"
+              },
+              "free_text": [
+                " On. DECAY-DATA added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20140808,
+                "history": "A"
+              },
+              "free_text": [
+                " On. REACTION(SF4): -G removed."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                105.0,
+                6.02
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "22216009",
+            "N2": 20140808,
+            "alteration_flag": " ",
+            "transmission_identification": "2240"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "40-ZR-90(N,2N)40-ZR-89-G,M+,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "40-ZR-90(N,2N)40-ZR-89-G,M+,SIG,,FIS",
+                    "field": {
+                      "reaction": "40-ZR-90(N,2N)40-ZR-89-G",
+                      "target": "40-ZR-90",
+                      "projectile": "N",
+                      "process": "2N",
+                      "product": "40-ZR-89-G",
+                      "quantity": "M+,SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": "M+,SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "40-ZR-89-G",
+                "half-life": {
+                  "value": 78.4,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      909.0
+                    ],
+                    "intensity": 0.999
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19930329,
+                "history": "E"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19961205,
+                "history": "U"
+              },
+              "free_text": [
+                " * * STATUS keyword, EN-DUMMY, MONIT,",
+                "              MONIT-ERR headings moved to subent 001"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20101105,
+                "history": "A"
+              },
+              "free_text": [
+                " On. DECAY-DATA added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20140808,
+                "history": "A"
+              },
+              "free_text": [
+                " On. REACTION(SF5): M+ added."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                0.08599,
+                0.0065
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "22216010",
+            "N2": 20101112,
+            "alteration_flag": " ",
+            "transmission_identification": "2224"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "49-IN-115(N,INL)49-IN-115-M,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "49-IN-115(N,INL)49-IN-115-M,,SIG,,FIS",
+                    "field": {
+                      "reaction": "49-IN-115(N,INL)49-IN-115-M",
+                      "target": "49-IN-115",
+                      "projectile": "N",
+                      "process": "INL",
+                      "product": "49-IN-115-M",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "49-IN-115-M",
+                "half-life": {
+                  "value": 4.486,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      336.0
+                    ],
+                    "intensity": 0.459
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19930329,
+                "history": "E"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19961205,
+                "history": "U"
+              },
+              "free_text": [
+                " * * STATUS keyword, EN-DUMMY, MONIT,",
+                "              MONIT-ERR headings moved to subent 001"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20101105,
+                "history": "A"
+              },
+              "free_text": [
+                " On. DECAY-DATA added"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                189.5,
+                11.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "22216011",
+            "N2": 20101112,
+            "alteration_flag": " ",
+            "transmission_identification": "2224"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "30-ZN-64(N,P)29-CU-64,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "30-ZN-64(N,P)29-CU-64,,SIG,,FIS",
+                    "field": {
+                      "reaction": "30-ZN-64(N,P)29-CU-64",
+                      "target": "30-ZN-64",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "29-CU-64",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "29-CU-64",
+                "half-life": {
+                  "value": 12.7,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      511.0
+                    ],
+                    "intensity": 0.358
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19930329,
+                "history": "E"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19961205,
+                "history": "U"
+              },
+              "free_text": [
+                " * * STATUS keyword, EN-DUMMY, MONIT,",
+                "              MONIT-ERR headings moved to subent 001"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20101105,
+                "history": "A"
+              },
+              "free_text": [
+                " On. DECAY-DATA added"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                31.68,
+                1.83
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "22216012",
+            "N2": 20101112,
+            "alteration_flag": " ",
+            "transmission_identification": "2224"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "41-NB-93(N,2N)41-NB-92-M,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "41-NB-93(N,2N)41-NB-92-M,,SIG,,FIS",
+                    "field": {
+                      "reaction": "41-NB-93(N,2N)41-NB-92-M",
+                      "target": "41-NB-93",
+                      "projectile": "N",
+                      "process": "2N",
+                      "product": "41-NB-92-M",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "41-NB-92-M",
+                "half-life": {
+                  "value": 10.15,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      934.0
+                    ],
+                    "intensity": 0.992
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19930329,
+                "history": "E"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19961205,
+                "history": "U"
+              },
+              "free_text": [
+                " * * STATUS keyword, EN-DUMMY, MONIT,",
+                "              MONIT-ERR headings moved to subent 001"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20101105,
+                "history": "A"
+              },
+              "free_text": [
+                " On. DECAY-DATA added"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                0.4796,
+                0.0293
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "22216013",
+            "N2": 20101112,
+            "alteration_flag": " ",
+            "transmission_identification": "2224"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "45-RH-103(N,INL)45-RH-103-M,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "45-RH-103(N,INL)45-RH-103-M,,SIG,,FIS",
+                    "field": {
+                      "reaction": "45-RH-103(N,INL)45-RH-103-M",
+                      "target": "45-RH-103",
+                      "projectile": "N",
+                      "process": "INL",
+                      "product": "45-RH-103-M",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "45-RH-103-M",
+                "half-life": {
+                  "value": 56.1,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      40.0
+                    ],
+                    "intensity": 0.0007
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19930329,
+                "history": "E"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19961205,
+                "history": "U"
+              },
+              "free_text": [
+                " * * STATUS keyword, EN-DUMMY, MONIT,",
+                "              MONIT-ERR headings moved to subent 001"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20101105,
+                "history": "A"
+              },
+              "free_text": [
+                " On. DECAY-DATA added"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                673.5,
+                52.2
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 13,
+        "N2": 0
+      }
+    }
+  ]
+}

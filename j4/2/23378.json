@@ -1,0 +1,1520 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T21:14:28+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "23378",
+        "N2": 20180812,
+        "alteration_flag": " ",
+        "transmission_identification": "2269"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "23378001",
+            "N2": 20180812,
+            "alteration_flag": " ",
+            "transmission_identification": "2269"
+          },
+          "BIB": {
+            "N1": 16,
+            "N2": 0
+          },
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "2GERKLN"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,RRL,18,259,1974",
+                "code_unit": [
+                  {
+                    "unit": "J,RRL,18,259,1974",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "RRL",
+                        "number": null,
+                        "volume": "18",
+                        "part": null,
+                        "issue": null,
+                        "page": "259"
+                      },
+                      "date": 1974
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "  Issue 5"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "H.F.Aly",
+                "U.Herpers"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " The thermal neutron capture cross section and",
+                " resonance integral of actinium-227"
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "89-AC-228",
+                "half-life": {
+                  "value": 6.13,
+                  "unit": "HR"
+                },
+                "radiation": []
+              },
+              "free_text": [
+                " 6.14+-0.02 hr measured."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "90-TH-227",
+                "half-life": null,
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      236.0
+                    ],
+                    "intensity": 0.1035
+                  }
+                ]
+              },
+              "free_text": [
+                " 236 keV photopeak of Ac-227",
+                "daughter was used to determine the Ac-227 amount."
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": null,
+                "author": "G.Erdtmann+",
+                "reference": {
+                  "code": "R,JUEL-1003-Ac,1973",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "JUEL-",
+                      "number": "1003-Ac",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1973
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Branching ratios."
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " 8.E-9 g of Ac-227.",
+                " Gold 5.11E-7 g as monitor."
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": "2GERJUL"
+              },
+              "free_text": [
+                " FRJ-I reactor in Juelich"
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "REAC"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                " Irradiation at the core of FRJ-I reactor.",
+                "Neutron flux ~6.E+13 n/cm2/sec ."
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "ACTIV"
+              ],
+              "free_text": [
+                " Subsequent irradiations of sample and monitor",
+                "with and without Cd at the same position. Cd thickness",
+                "0.99 mm - cutoff energy ~ 0.5 eV ."
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "GELI"
+              ],
+              "free_text": [
+                " Ge(Li)-detector coupled with TRIDAC 4096 channel",
+                "analyzer. Resolution 2.9 keV for 1332 keV gamma-line of",
+                "Co-60 . Accuracy 2 % for the relative efficiency and",
+                "5 % for absolute measurements."
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Westcott convention formula was used:",
+                "<SIG>=SIG0*(g+r*sqrt(T/T0)*S0), where",
+                "<SIG> - effective cross section,",
+                "SIG0 - thermal cross section,",
+                "g - factor related to deviation of SIG0 from 1/v law",
+                "in thermal region,",
+                "r*sqrt(T/T0) - epithermal index,",
+                "S0 - representative of deviation of SIG0 from 1/v law i",
+                "epithermal energy .",
+                " For Ac-227 g=1. was assumed."
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "MONIT1",
+                "reaction": {
+                  "code": "79-AU-197(N,G)79-AU-198,,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "79-AU-197(N,G)79-AU-198,,SIG",
+                      "field": {
+                        "reaction": "79-AU-197(N,G)79-AU-198",
+                        "target": "79-AU-197",
+                        "projectile": "N",
+                        "process": "G",
+                        "product": "79-AU-198",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                "",
+                " Thermal cross section = 98.8 b ,",
+                " g-factor 1.005, S0 17.0 for Au ;",
+                " epithermal index was calculated as:",
+                " g/(Cd*(S0+1/k)-S0), where k=2.393, Cd- cadmium ratio",
+                "for Au."
+              ]
+            }
+          ],
+          "DECAY-MON": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "nuclide": "79-AU-198",
+                "half-life": null,
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      412.0
+                    ],
+                    "intensity": 0.9553
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Type of error is not explained in the",
+                "article.",
+                "  Uncertainty of number of Ac-227 atoms < 1. % ."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20180812,
+                "history": "C"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT1"
+            ],
+            "unit": [
+              "B"
+            ],
+            "value": [
+              98.8
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23378002",
+            "N2": 20180812,
+            "alteration_flag": " ",
+            "transmission_identification": "2269"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "89-AC-227(N,G)89-AC-228,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "89-AC-227(N,G)89-AC-228,,SIG",
+                    "field": {
+                      "reaction": "89-AC-227(N,G)89-AC-228",
+                      "target": "89-AC-227",
+                      "projectile": "N",
+                      "process": "G",
+                      "product": "89-AC-228",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "D",
+                "subentry_number": null,
+                "author": "R.K.Sjoblom+",
+                "reference": {
+                  "code": "R,ANL-5263,1954",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "ANL-",
+                      "number": "5263",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1954
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " 529+-50 b (activation)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "D",
+                "subentry_number": null,
+                "author": "H.W.Kirby+",
+                "reference": {
+                  "code": "J,PR,102,1140,1956",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "102",
+                      "part": null,
+                      "issue": null,
+                      "page": "1140"
+                    },
+                    "date": 1956
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " 446+-45 b (activation), 513+-36 b (absorption)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "D",
+                "subentry_number": null,
+                "author": "M.J.Cabell",
+                "reference": {
+                  "code": "J,CJC,37,1094,1959",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CJC",
+                      "number": null,
+                      "volume": "37",
+                      "part": null,
+                      "issue": null,
+                      "page": "1094"
+                    },
+                    "date": 1959
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " 814+-13 b (activation, published),",
+                " 892+-14 b (activation, recalculated by newer data:",
+                " 3.63E-6 1/hr instead of 3.66E-6 1/hr for Ac-227 ,",
+                " 1.542E-3 1/hr instead of 1.59E-3 1/hr for Th-227,",
+                " cobalt monitor - SIG 38.0 b instead of 36.5 b,",
+                "                  S0 1.60 instead of 0.9753,",
+                "                  I0 69.9 instead of 48.6 b."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Tables 1,2 of J.Radiochem.Radioanal.Lett.,",
+                "v.18,is.5,p.259,1974"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "23378005",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Directly measured data"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "EV",
+              "B",
+              "B"
+            ],
+            "value": [
+              [
+                0.0253,
+                1020.0,
+                39.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23378003",
+            "N2": 20180812,
+            "alteration_flag": " ",
+            "transmission_identification": "2269"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "89-AC-227(N,G)89-AC-228,,RI",
+                "code_unit": [
+                  {
+                    "unit": "89-AC-227(N,G)89-AC-228,,RI",
+                    "field": {
+                      "reaction": "89-AC-227(N,G)89-AC-228",
+                      "target": "89-AC-227",
+                      "projectile": "N",
+                      "process": "G",
+                      "product": "89-AC-228",
+                      "quantity": ",RI",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",RI"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "D",
+                "subentry_number": null,
+                "author": "M.J.Cabell",
+                "reference": {
+                  "code": "J,CJC,37,1094,1959",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CJC",
+                      "number": null,
+                      "volume": "37",
+                      "part": null,
+                      "issue": null,
+                      "page": "1094"
+                    },
+                    "date": 1959
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " 1177+-9 b (activation, published),",
+                " 1657+-16 b (activation, recalculated by newer data:",
+                " 3.63E-6 1/hr instead of 3.66E-6 1/hr for Ac-227 ,",
+                " 1.542E-3 1/hr instead of 1.59E-3 1/hr for Th-227,",
+                " cobalt monitor - SIG 38.0 b instead of 36.5 b,",
+                "                  S0 1.60 instead of 0.9753,",
+                "                  I0 69.9 instead of 48.6 b."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Tables 1,2 of J.Radiochem.Radioanal.Lett.,",
+                "v.18,is.5,p.259,1974"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "23378006",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Directly measured data"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-MIN",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "EV",
+              "B",
+              "B"
+            ],
+            "value": [
+              [
+                0.5,
+                2279.0,
+                105.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23378004",
+            "N2": 20180812,
+            "alteration_flag": " ",
+            "transmission_identification": "2269"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "89-AC-227(N,G)89-AC-228,,RI,,RNV",
+                "code_unit": [
+                  {
+                    "unit": "89-AC-227(N,G)89-AC-228,,RI,,RNV",
+                    "field": {
+                      "reaction": "89-AC-227(N,G)89-AC-228",
+                      "target": "89-AC-227",
+                      "projectile": "N",
+                      "process": "G",
+                      "product": "89-AC-228",
+                      "quantity": ",RI,,RNV",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",RI,,RNV"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "Without 1/v contribution"
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "D",
+                "subentry_number": null,
+                "author": "M.J.Cabell",
+                "reference": {
+                  "code": "J,CJC,37,1094,1959",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CJC",
+                      "number": null,
+                      "volume": "37",
+                      "part": null,
+                      "issue": null,
+                      "page": "1094"
+                    },
+                    "date": 1959
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "  821+-16 b (activation, published),",
+                " 1410+-28 b (activation, recalculated by newer data:",
+                " 3.63E-6 1/hr instead of 3.66E-6 1/hr for Ac-227 ,",
+                " 1.542E-3 1/hr instead of 1.59E-3 1/hr for Th-227,",
+                " cobalt monitor - SIG 38.0 b instead of 36.5 b,",
+                "                  S0 1.60 instead of 0.9753,",
+                "                  I0 69.9 instead of 48.6 b."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Tables 1,2 of J.Radiochem.Radioanal.Lett.,",
+                "v.18,is.5,p.259,1974"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "23378007",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Directly measured data"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-MIN",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "EV",
+              "B",
+              "B"
+            ],
+            "value": [
+              [
+                0.5,
+                1889.0,
+                197.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23378005",
+            "N2": 20180812,
+            "alteration_flag": " ",
+            "transmission_identification": "2269"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "89-AC-227(N,G)89-AC-228,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "89-AC-227(N,G)89-AC-228,,SIG",
+                    "field": {
+                      "reaction": "89-AC-227(N,G)89-AC-228",
+                      "target": "89-AC-227",
+                      "projectile": "N",
+                      "process": "G",
+                      "product": "89-AC-228",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": 1.0,
+                "nuclide": "89-AC-228",
+                "half-life": null,
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      911.2
+                    ],
+                    "intensity": 0.22
+                  }
+                ]
+              },
+              "free_text": [
+                "",
+                "   Three measurements : 1014, 1030, 1034 b"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": 2.0,
+                "nuclide": "89-AC-228",
+                "half-life": null,
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      964.4,
+                      968.8
+                    ],
+                    "intensity": 0.17
+                  }
+                ]
+              },
+              "free_text": [
+                "",
+                "   Three measurements : 1093, 1019, 1055 b"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": 3.0,
+                "nuclide": "89-AC-228",
+                "half-life": null,
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1588.3
+                    ],
+                    "intensity": 0.026
+                  }
+                ]
+              },
+              "free_text": [
+                "",
+                "   Three measurements :  923, 1001, 1007 b"
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Mean of three measurements for each Ac-228 photopeak"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 1 of J.Radiochem.Radioanal.Lett.,",
+                "v.18,is.5,p.259,1974"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "EN"
+            ],
+            "unit": [
+              "EV"
+            ],
+            "value": [
+              0.0253
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 3,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR",
+              "DECAY-FLAG"
+            ],
+            "unit": [
+              "B",
+              "B",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                1026.0,
+                10.0,
+                1.0
+              ],
+              [
+                1056.0,
+                36.0,
+                2.0
+              ],
+              [
+                977.0,
+                42.0,
+                3.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23378006",
+            "N2": 20180812,
+            "alteration_flag": " ",
+            "transmission_identification": "2269"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "89-AC-227(N,G)89-AC-228,,RI",
+                "code_unit": [
+                  {
+                    "unit": "89-AC-227(N,G)89-AC-228,,RI",
+                    "field": {
+                      "reaction": "89-AC-227(N,G)89-AC-228",
+                      "target": "89-AC-227",
+                      "projectile": "N",
+                      "process": "G",
+                      "product": "89-AC-228",
+                      "quantity": ",RI",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",RI"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "MONIT2",
+                "reaction": {
+                  "code": "79-AU-197(N,G)79-AU-198,,RI",
+                  "code_unit": [
+                    {
+                      "unit": "79-AU-197(N,G)79-AU-198,,RI",
+                      "field": {
+                        "reaction": "79-AU-197(N,G)79-AU-198",
+                        "target": "79-AU-197",
+                        "projectile": "N",
+                        "process": "G",
+                        "product": "79-AU-198",
+                        "quantity": ",RI",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",RI"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                " 1558. b"
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": 1.0,
+                "nuclide": "89-AC-228",
+                "half-life": null,
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      911.2
+                    ],
+                    "intensity": 0.22
+                  }
+                ]
+              },
+              "free_text": [
+                "",
+                "   Three measurements : 2346, 2380, 2323 b"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": 2.0,
+                "nuclide": "89-AC-228",
+                "half-life": null,
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      964.4,
+                      968.8
+                    ],
+                    "intensity": 0.17
+                  }
+                ]
+              },
+              "free_text": [
+                "",
+                "   Three measurements : 2540, 2242, 2264 b"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": 3.0,
+                "nuclide": "89-AC-228",
+                "half-life": null,
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1588.3
+                    ],
+                    "intensity": 0.026
+                  }
+                ]
+              },
+              "free_text": [
+                "",
+                "   Three measurements : 2149, 2126, 2140 b"
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Mean of three measurements for each Ac-228 photopeak"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 1 of J.Radiochem.Radioanal.Lett.,",
+                "v.18,is.5,p.259,1974"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 2,
+            "N2": 0,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-MIN",
+              "MONIT2"
+            ],
+            "unit": [
+              "EV",
+              "B"
+            ],
+            "value": [
+              0.5,
+              1558.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 3,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR",
+              "DECAY-FLAG"
+            ],
+            "unit": [
+              "B",
+              "B",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                2349.0,
+                29.0,
+                1.0
+              ],
+              [
+                2349.0,
+                149.0,
+                2.0
+              ],
+              [
+                2138.0,
+                12.0,
+                3.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "23378007",
+            "N2": 20180812,
+            "alteration_flag": " ",
+            "transmission_identification": "2269"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "89-AC-227(N,G)89-AC-228,,RI,,RNV",
+                "code_unit": [
+                  {
+                    "unit": "89-AC-227(N,G)89-AC-228,,RI,,RNV",
+                    "field": {
+                      "reaction": "89-AC-227(N,G)89-AC-228",
+                      "target": "89-AC-227",
+                      "projectile": "N",
+                      "process": "G",
+                      "product": "89-AC-228",
+                      "quantity": ",RI,,RNV",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",RI,,RNV"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "Without 1/v contribution"
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": 1.0,
+                "nuclide": "89-AC-228",
+                "half-life": null,
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      911.2
+                    ],
+                    "intensity": 0.22
+                  }
+                ]
+              },
+              "free_text": [
+                "",
+                "   Three measurements : 2007, 1967, 1906 b"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": 2.0,
+                "nuclide": "89-AC-228",
+                "half-life": null,
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      964.4,
+                      968.8
+                    ],
+                    "intensity": 0.17
+                  }
+                ]
+              },
+              "free_text": [
+                "",
+                "   Three measurements : 2176, 1835, 1819 b"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": 3.0,
+                "nuclide": "89-AC-228",
+                "half-life": null,
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1588.3
+                    ],
+                    "intensity": 0.026
+                  }
+                ]
+              },
+              "free_text": [
+                "",
+                "   Three measurements : 1837, 1720, 1731 b"
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Mean of three measurements for each Ac-228 photopeak",
+                " Reduced resonance integral I0' was calculated using",
+                "relation :",
+                "S0=2/sqrt(PI)*IO'/SIG0"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 1 of J.Radiochem.Radioanal.Lett.,",
+                "v.18,is.5,p.259,1974"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "EN-MIN"
+            ],
+            "unit": [
+              "EV"
+            ],
+            "value": [
+              0.5
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 3,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR",
+              "DECAY-FLAG"
+            ],
+            "unit": [
+              "B",
+              "B",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                1960.0,
+                46.0,
+                1.0
+              ],
+              [
+                1943.0,
+                179.0,
+                2.0
+              ],
+              [
+                1763.0,
+                59.0,
+                3.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 7,
+        "N2": 0
+      }
+    }
+  ]
+}

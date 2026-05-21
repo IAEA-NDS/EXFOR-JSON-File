@@ -1,0 +1,1586 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-21T00:14:12+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "G3134",
+        "N2": 20190508,
+        "alteration_flag": " ",
+        "transmission_identification": "G044"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "G3134001",
+            "N2": 20190508,
+            "alteration_flag": " ",
+            "transmission_identification": "G044"
+          },
+          "BIB": {
+            "N1": 16,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Determination of flux-weighted average cross-sections",
+                "of natPb(g,xn), 208Pb(g,xn), and 209Bi(g,xn) reactions",
+                "using bremsstrahlung end-point energies of 50-70 MeV"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "H.Naik",
+                "G.N.Kim",
+                "K.Kim",
+                "M.Zaman",
+                "M.Shahid",
+                "Y.R.Kang",
+                "M.W.Lee",
+                "S.G.Shin",
+                "M.H.Cho"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "3INDTRM",
+                "3KORKNU",
+                "3KORDRM",
+                "3KORPUE"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,EPJ/A,52,339,2016",
+                "code_unit": [
+                  {
+                    "unit": "J,EPJ/A,52,339,2016",
+                    "doi": "10.1140/epja/i2016-16339-y",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "EPJ/A",
+                        "number": null,
+                        "volume": "52",
+                        "part": null,
+                        "issue": null,
+                        "page": "339"
+                      },
+                      "date": 2016
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "LINAC"
+                ],
+                "institute": "3KORPUE"
+              },
+              "free_text": [
+                " Pohang Accelerator Laboratory (PAL)"
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "BRST"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                " Pulsed electron beam on thin tungsten target",
+                " (size 10 cm x 10 cm, thickness 0.1 mm)"
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Natural Pb foil (purity: 99.999%, thickness: ~0.3 mm,",
+                " size: 10 mm x 10 mm, mass: 330.3 - 335.3 mg)"
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "ACTIV"
+              ],
+              "free_text": [
+                " Irradiated for 1.55 - 2 h with the end-point",
+                " bremsstrahlung energies of 50, 60 and 70 MeV",
+                " (beam current: 10-20 mA, repetition rate: 3.75 Hz,",
+                "  pulse width: 1.5 micro-sec)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "GSPEC"
+              ],
+              "free_text": [
+                " Started after the cooling time of 35 - 40 min"
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "HPGE"
+              ],
+              "free_text": [
+                " Energy resolution of 1.8 keV FWHM at 1332.5 keV",
+                " peak of 60Co, and detection efficiency of 20% at",
+                " 1332.5 keV relative to a 3 inch diameter and 3 inch",
+                " length NaI(Tl) detector"
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "13-AL-27(G,X)11-NA-24,,SIG,,BRA",
+                  "code_unit": [
+                    {
+                      "unit": "13-AL-27(G,X)11-NA-24,,SIG,,BRA",
+                      "field": {
+                        "reaction": "13-AL-27(G,X)11-NA-24",
+                        "target": "13-AL-27",
+                        "projectile": "G",
+                        "process": "X",
+                        "product": "11-NA-24",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": "BRA",
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                "",
+                " - Al foil (purity > 99.99%, thickness: 0.025 mm)",
+                " The ratio of the photon flux above the monitor",
+                " threshold and the flux above the natPb(g,xn),",
+                " 208Pb(g,xn) and 209Bi(g,xn) reactions threshold was",
+                " calculated by GEANT4 code."
+              ]
+            }
+          ],
+          "DECAY-MON": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "nuclide": "11-NA-24",
+                "half-life": {
+                  "value": 14.959,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1368.6
+                    ],
+                    "intensity": 1.0
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": null,
+                "author": "V.Di Napoli+",
+                "reference": {
+                  "code": "J,NCL,1,835,1971",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NCL",
+                      "number": null,
+                      "volume": "1",
+                      "part": null,
+                      "issue": null,
+                      "page": "835",
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 1971
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": null,
+                "author": "J.Blachot+",
+                "reference": {
+                  "code": "J,APH,6,3,1981",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "APH",
+                      "number": null,
+                      "volume": "6",
+                      "part": null,
+                      "issue": null,
+                      "page": "3"
+                    },
+                    "date": 1981
+                  }
+                }
+              },
+              "free_text": [
+                " Decay data"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": null,
+                "author": "R.B.Firestone+",
+                "reference": {
+                  "code": "B,FIRESTONE,,,2004",
+                  "field": {
+                    "reference_type": "B",
+                    "reference": {
+                      "code": "FIRESTONE",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": ""
+                    },
+                    "date": 2004
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " WWW Version 2.1, Decay data"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "O",
+                "subentry_number": "G0019001",
+                "author": "H.Naik+",
+                "reference": {
+                  "code": "J,EPJ/A,41,323,2009",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "EPJ/A",
+                      "number": null,
+                      "volume": "41",
+                      "part": null,
+                      "issue": null,
+                      "page": "323"
+                    },
+                    "date": 2009
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " 209Bi data sets originally published in 2009"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "O",
+                "subentry_number": "G3105001",
+                "author": "H.Naik+",
+                "reference": {
+                  "code": "J,NIM/B,269,1417,2011",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "269",
+                      "part": null,
+                      "issue": null,
+                      "page": "1417"
+                    },
+                    "date": 2011
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " 208Pb and 209Bi data sets originally published in 2011"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total uncertainty                 (17.3-18.4%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": 2.0,
+                "maximum_value": 15.0,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistical uncertainty         (2-15%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " photon flux estimation                   (~2%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " irradiation time                       (~0.5%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " detection efficiency calibration         (~3%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-4",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " half-life and gamma-ray abundance        (~2%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-5",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " normalized percentage of yield            (5%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "APRVD"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Approved by G.N.Kim (2019-06-10)"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20190508,
+                "history": "C"
+              },
+              "free_text": [
+                " S.C.Yang"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 5,
+            "N2": 0,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "ERR-1",
+              "ERR-2",
+              "ERR-3",
+              "ERR-4",
+              "ERR-5"
+            ],
+            "unit": [
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              2.0,
+              0.5,
+              3.0,
+              2.0,
+              5.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "G3134002",
+            "N2": 20190508,
+            "alteration_flag": " ",
+            "transmission_identification": "G044"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "82-PB-0(G,X)82-PB-204-M,,SIG,,BRA",
+                "code_unit": [
+                  {
+                    "unit": "82-PB-0(G,X)82-PB-204-M,,SIG,,BRA",
+                    "field": {
+                      "reaction": "82-PB-0(G,X)82-PB-204-M",
+                      "target": "82-PB-0",
+                      "projectile": "G",
+                      "process": "X",
+                      "product": "82-PB-204-M",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "BRA",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "82-PB-204-M",
+                "half-life": {
+                  "value": 67.2,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      374.72
+                    ],
+                    "intensity": 0.89
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      899.15
+                    ],
+                    "intensity": 0.99
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      911.78
+                    ],
+                    "intensity": 0.9069
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 4 of Eur.Phys.J.A52,339,2016"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 3,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-MAX",
+              "DATA",
+              "ERR-T",
+              "MONIT"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                50.0,
+                0.433,
+                0.027,
+                0.068
+              ],
+              [
+                60.0,
+                0.488,
+                0.031,
+                0.116
+              ],
+              [
+                70.0,
+                0.606,
+                0.032,
+                0.155
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "G3134003",
+            "N2": 20190508,
+            "alteration_flag": " ",
+            "transmission_identification": "G044"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "82-PB-0(G,X)82-PB-203,,SIG,,BRA",
+                "code_unit": [
+                  {
+                    "unit": "82-PB-0(G,X)82-PB-203,,SIG,,BRA",
+                    "field": {
+                      "reaction": "82-PB-0(G,X)82-PB-203",
+                      "target": "82-PB-0",
+                      "projectile": "G",
+                      "process": "X",
+                      "product": "82-PB-203",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "BRA",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "82-PB-203-G",
+                "half-life": {
+                  "value": 51.87,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      279.2
+                    ],
+                    "intensity": 0.81
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      401.32
+                    ],
+                    "intensity": 0.0353
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 4 of Eur.Phys.J.A52,339,2016"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 3,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-MAX",
+              "DATA",
+              "ERR-T",
+              "MONIT"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                50.0,
+                10.628,
+                0.613,
+                0.068
+              ],
+              [
+                60.0,
+                11.168,
+                0.596,
+                0.116
+              ],
+              [
+                70.0,
+                10.979,
+                0.972,
+                0.155
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "G3134004",
+            "N2": 20190508,
+            "alteration_flag": " ",
+            "transmission_identification": "G044"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "82-PB-0(G,X)82-PB-202-M,,SIG,,BRA",
+                "code_unit": [
+                  {
+                    "unit": "82-PB-0(G,X)82-PB-202-M,,SIG,,BRA",
+                    "field": {
+                      "reaction": "82-PB-0(G,X)82-PB-202-M",
+                      "target": "82-PB-0",
+                      "projectile": "G",
+                      "process": "X",
+                      "product": "82-PB-202-M",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "BRA",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "82-PB-202-M",
+                "half-life": {
+                  "value": 3.53,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      422.18
+                    ],
+                    "intensity": 0.86
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      459.72
+                    ],
+                    "intensity": 0.086
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      657.49
+                    ],
+                    "intensity": 0.324
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      786.99
+                    ],
+                    "intensity": 0.5
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      960.7
+                    ],
+                    "intensity": 0.92
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 4 of Eur.Phys.J.A52,339,2016"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 3,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-MAX",
+              "DATA",
+              "ERR-T",
+              "MONIT"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                50.0,
+                0.118,
+                0.025,
+                0.068
+              ],
+              [
+                60.0,
+                0.212,
+                0.036,
+                0.116
+              ],
+              [
+                70.0,
+                0.33,
+                0.046,
+                0.155
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "G3134005",
+            "N2": 20190508,
+            "alteration_flag": " ",
+            "transmission_identification": "G044"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "82-PB-0(G,X)82-PB-201,,SIG,,BRA",
+                "code_unit": [
+                  {
+                    "unit": "82-PB-0(G,X)82-PB-201,,SIG,,BRA",
+                    "field": {
+                      "reaction": "82-PB-0(G,X)82-PB-201",
+                      "target": "82-PB-0",
+                      "projectile": "G",
+                      "process": "X",
+                      "product": "82-PB-201",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "BRA",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "82-PB-201-G",
+                "half-life": {
+                  "value": 9.33,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      331.19
+                    ],
+                    "intensity": 0.79
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 4 of Eur.Phys.J.A52,339,2016"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 3,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-MAX",
+              "DATA",
+              "ERR-T",
+              "MONIT"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                50.0,
+                0.299,
+                0.029,
+                0.068
+              ],
+              [
+                60.0,
+                0.947,
+                0.061,
+                0.116
+              ],
+              [
+                70.0,
+                1.836,
+                0.101,
+                0.155
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "G3134006",
+            "N2": 20190508,
+            "alteration_flag": " ",
+            "transmission_identification": "G044"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "82-PB-0(G,X)82-PB-200,,SIG,,BRA",
+                "code_unit": [
+                  {
+                    "unit": "82-PB-0(G,X)82-PB-200,,SIG,,BRA",
+                    "field": {
+                      "reaction": "82-PB-0(G,X)82-PB-200",
+                      "target": "82-PB-0",
+                      "projectile": "G",
+                      "process": "X",
+                      "product": "82-PB-200",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "BRA",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "82-PB-200",
+                "half-life": {
+                  "value": 21.5,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      147.63
+                    ],
+                    "intensity": 0.377
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 4 of Eur.Phys.J.A52,339,2016"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 3,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-MAX",
+              "DATA",
+              "ERR-T",
+              "MONIT"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                50.0,
+                0.118,
+                0.023,
+                0.068
+              ],
+              [
+                60.0,
+                0.21,
+                0.029,
+                0.116
+              ],
+              [
+                70.0,
+                0.689,
+                0.047,
+                0.155
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "G3134007",
+            "N2": 20190508,
+            "alteration_flag": " ",
+            "transmission_identification": "G044"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "82-PB-0(G,X)82-PB-199-G,M+,SIG,,BRA",
+                "code_unit": [
+                  {
+                    "unit": "82-PB-0(G,X)82-PB-199-G,M+,SIG,,BRA",
+                    "field": {
+                      "reaction": "82-PB-0(G,X)82-PB-199-G",
+                      "target": "82-PB-0",
+                      "projectile": "G",
+                      "process": "X",
+                      "product": "82-PB-199-G",
+                      "quantity": "M+,SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "BRA",
+                      "quantity_236": "M+,SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "82-PB-199-G",
+                "half-life": {
+                  "value": 90.0,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      366.9
+                    ],
+                    "intensity": 0.442
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 4 of Eur.Phys.J.A52,339,2016"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 3,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-MAX",
+              "DATA",
+              "ERR-T",
+              "MONIT"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                50.0,
+                0.049,
+                0.01,
+                0.068
+              ],
+              [
+                60.0,
+                0.11,
+                0.012,
+                0.116
+              ],
+              [
+                70.0,
+                0.368,
+                0.019,
+                0.155
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "G3134008",
+            "N2": 20190508,
+            "alteration_flag": " ",
+            "transmission_identification": "G044"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "82-PB-0(G,X)82-PB-198,,SIG,,BRA",
+                "code_unit": [
+                  {
+                    "unit": "82-PB-0(G,X)82-PB-198,,SIG,,BRA",
+                    "field": {
+                      "reaction": "82-PB-0(G,X)82-PB-198",
+                      "target": "82-PB-0",
+                      "projectile": "G",
+                      "process": "X",
+                      "product": "82-PB-198",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "BRA",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "82-PB-198",
+                "half-life": {
+                  "value": 2.4,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      242.8
+                    ],
+                    "intensity": 0.45
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table 4 of Eur.Phys.J.A52,339,2016"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 2,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-MAX",
+              "DATA",
+              "ERR-T",
+              "MONIT"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                60.0,
+                0.039,
+                0.002,
+                0.116
+              ],
+              [
+                70.0,
+                0.098,
+                0.011,
+                0.155
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 8,
+        "N2": 0
+      }
+    }
+  ]
+}

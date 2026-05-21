@@ -1,0 +1,758 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T19:34:53+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "12419",
+        "N2": 20180521,
+        "alteration_flag": " ",
+        "transmission_identification": "1441"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "12419001",
+            "N2": 20180521,
+            "alteration_flag": " ",
+            "transmission_identification": "1441"
+          },
+          "BIB": {
+            "N1": 8,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Energy Dependence of Prompt nu bar for",
+                "Neutron-Induced Fission of U235"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "J.W.Meadows",
+                "J.F.Whalen"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,PR,126,197,1962",
+                "code_unit": [
+                  {
+                    "unit": "J,PR,126,197,1962",
+                    "doi": "10.1103/PhysRev.126.197",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "PR",
+                        "number": null,
+                        "volume": "126",
+                        "part": null,
+                        "issue": null,
+                        "page": "197"
+                      },
+                      "date": 1962
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "#doi:10.1103/PhysRev.126.197"
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "1USAANL"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "VDG"
+                ],
+                "institute": "1USAANL"
+              },
+              "free_text": [
+                " electrostatic accelerator."
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "P-LI7"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                " Beam of neutrons from a Li7(p,n)Be7 source."
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "FISCT",
+                "COINC"
+              ],
+              "free_text": [
+                " The method used involved the",
+                "measurement of coincidences between a fission counter",
+                "and a neutron detector. In order to avoid the",
+                "possibility of a change in the accidental rate or in",
+                "the efficiency of the neutron detector, measurements",
+                "of U235, Cf252 and the accidentals were made",
+                "simultaneously. Two fission pulse ionization chambers",
+                "were placed in a common container. In each of the",
+                "chambers the fissionable material was spread over",
+                "nine foils having a diameter of 6.5 cm. The U235",
+                "chamber contained ~80 mg of material while the Cf252",
+                "chamber contained enough material to give ~300",
+                "fissions per minute. The two chambers were separated",
+                "by a bare foil and 2 cm of the counter gas."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19760804,
+                "history": "T"
+              },
+              "free_text": [
+                " Translated from SCISRS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19820519,
+                "history": "A"
+              },
+              "free_text": [
+                " Converted to reaction formalism"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20180521,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: Updated to new date formats, lower",
+                "case, doi, experiment description, separated 252Cf",
+                "into a separate measurement. Sub.5 added."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12419002",
+            "N2": 20180521,
+            "alteration_flag": " ",
+            "transmission_identification": "1441"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "code": "(92-U-235(N,F),PR,NU)/(98-CF-252(0,F),PR,NU)",
+                "code_unit": [
+                  {
+                    "unit": "92-U-235(N,F),PR,NU",
+                    "field": {
+                      "reaction": "92-U-235(N,F)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "PR,NU",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "PR,NU"
+                    }
+                  },
+                  {
+                    "unit": "98-CF-252(0,F),PR,NU",
+                    "field": {
+                      "reaction": "98-CF-252(0,F)",
+                      "target": "98-CF-252",
+                      "projectile": "0",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "PR,NU",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "PR,NU"
+                    }
+                  }
+                ],
+                "unit_combination": "((%)/(%))"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "code": "92-U-235(N,F),PR,NU",
+                "code_unit": [
+                  {
+                    "unit": "92-U-235(N,F),PR,NU",
+                    "field": {
+                      "reaction": "92-U-235(N,F)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "PR,NU",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "PR,NU"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "2",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Relative error, no details on sources."
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total error, no details on sources."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "A series of six corrections for the U235/Cf252 ratio:",
+                "second neutron group, thermal neutron induced fission,",
+                "analyzer dead time, asymmetry of the neutron detector,",
+                "energy dependence of the neutron detector, fission",
+                "fragment angular distributions."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table I, page 199."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 5,
+            "N2": 6,
+            "pointer": [
+              "",
+              "1",
+              "2",
+              "2",
+              "2"
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "DATA",
+              "ERR-1",
+              "ERR-T"
+            ],
+            "unit": [
+              "MEV",
+              "NO-DIM",
+              "PRT/FIS",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                0.03,
+                0.6449,
+                2.421,
+                1.04,
+                1.61
+              ],
+              [
+                0.2,
+                0.6491,
+                2.436,
+                0.66,
+                1.4
+              ],
+              [
+                0.62,
+                0.658,
+                2.47,
+                0.78,
+                1.46
+              ],
+              [
+                1.11,
+                0.6713,
+                2.52,
+                0.72,
+                1.42
+              ],
+              [
+                1.58,
+                0.687,
+                2.58,
+                0.76,
+                1.45
+              ],
+              [
+                1.76,
+                0.686,
+                2.575,
+                0.8,
+                1.47
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12419003",
+            "N2": 19820519,
+            "alteration_flag": " ",
+            "transmission_identification": "0000"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "92-U-235(N,F),PR,NU",
+                "code_unit": [
+                  {
+                    "unit": "92-U-235(N,F),PR,NU",
+                    "field": {
+                      "reaction": "92-U-235(N,F)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "PR,NU",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "PR,NU"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "SEE 12419,2 FOR DATA"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 800507,
+                "history": "A"
+              },
+              "free_text": [
+                " DATA DELETED"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NODATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12419004",
+            "N2": 19820519,
+            "alteration_flag": " ",
+            "transmission_identification": "0000"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "92-U-235(N,F),PR,NU",
+                "code_unit": [
+                  {
+                    "unit": "92-U-235(N,F),PR,NU",
+                    "field": {
+                      "reaction": "92-U-235(N,F)",
+                      "target": "92-U-235",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "PR,NU",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "PR,NU"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "C,61VIENNA,,125,6108",
+                "code_unit": [
+                  {
+                    "unit": "C,61VIENNA,,125,6108",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "C",
+                      "reference": {
+                        "code": "61VIENNA",
+                        "number": null,
+                        "volume": null,
+                        "part": null,
+                        "issue": null,
+                        "page": "125"
+                      },
+                      "date": 196108
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "PROPC"
+              ],
+              "free_text": [
+                " ROW OF BF3 COUNTERS EMBEDDED IN POLYETHYLENE."
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "92-U-235(N,F),PR,NU",
+                  "code_unit": [
+                    {
+                      "unit": "92-U-235(N,F),PR,NU",
+                      "field": {
+                        "reaction": "92-U-235(N,F)",
+                        "target": "92-U-235",
+                        "projectile": "N",
+                        "process": "F",
+                        "product": "",
+                        "quantity": "PR,NU",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": "PR,NU"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                "",
+                " RELATIVE TO U-235 THERMAL NU(PROMPT)",
+                " =2.42."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NODATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "12419005",
+            "N2": 20180521,
+            "alteration_flag": " ",
+            "transmission_identification": "1441"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "98-CF-252(0,F),PR,NU",
+                "code_unit": [
+                  {
+                    "unit": "98-CF-252(0,F),PR,NU",
+                    "field": {
+                      "reaction": "98-CF-252(0,F)",
+                      "target": "98-CF-252",
+                      "projectile": "0",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "PR,NU",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "PR,NU"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No details on sources."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Table I, page 199."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20180521,
+                "history": "C"
+              },
+              "free_text": [
+                " BP"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "PRT/FIS",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                3.754,
+                1.27
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 5,
+        "N2": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,597 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-20T20:07:04+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "14529",
+        "N2": 20210311,
+        "alteration_flag": " ",
+        "transmission_identification": "1478"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "14529001",
+            "N2": 20210311,
+            "alteration_flag": " ",
+            "transmission_identification": "1478"
+          },
+          "BIB": {
+            "N1": 14,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "A measurement of the prompt fission neutron energy",
+                " spectrum for 235U(n,f) and the neutron-induced",
+                " fission cross section for 238U(n,f)"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "Z.W.Miller"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "1USAKTY"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "T,MILLER,2015",
+                "code_unit": [
+                  {
+                    "unit": "T,MILLER,2015",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "T",
+                      "reference": {
+                        "code": "MILLER",
+                        "number": null,
+                        "volume": null,
+                        "part": null,
+                        "issue": null,
+                        "page": null
+                      },
+                      "date": 2015
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " Ph.D thesis submitted to University of Kentucky",
+                " https://uknowledge.uky.edu/physastron-etds/29/"
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "LINAC"
+                ],
+                "institute": "1USALAS"
+              },
+              "free_text": [
+                " Weapons Neutron Research facility (WNR)",
+                " of Los Alamos Neutron Science Center (LANSCE)"
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "SPALL"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                "  800 MeV protons on W target"
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Ionization chamber housed 3 deposits of target",
+                " material.",
+                "Each foil is 0.0013 inch steel plate and each 238U",
+                " deposit was approx. 55 mg.",
+                "The active site for each foil is a circle with",
+                " diameter of 13.3 cm."
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "IOCH"
+              ],
+              "free_text": [
+                " Parallel plate ionization chamber.",
+                "The chamber was filled with P10 gas, which is 90% Ar",
+                " and 10% methane at a pressure of 68 kPa.",
+                "Time resolution of detector was of the order of 1 ns."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "TELES",
+                "CSICR",
+                "SCIN"
+              ],
+              "free_text": [
+                "",
+                "Placed at 16, 24, 30, 36, 42 and 48 deg relative to",
+                " beam direction for charged particle detection."
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "TOF"
+              ],
+              "free_text": [
+                " Measurement was performed on target 4 flight",
+                " path 15R.",
+                "The proton beam was pulsed and divided into 625 us",
+                " long macropulses, which were subsequently subdivided",
+                " into 1.8 us micropulses, micropulse width was 0.2 ns."
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Normalized to 238U(n,f) cross section of the ENDF/B-VII",
+                " standards sub-library submitted by A.D. Carlson, 2007"
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "1-H-1(N,EL)1-H-1,,DA",
+                  "code_unit": [
+                    {
+                      "unit": "1-H-1(N,EL)1-H-1,,DA",
+                      "field": {
+                        "reaction": "1-H-1(N,EL)1-H-1",
+                        "target": "1-H-1",
+                        "projectile": "N",
+                        "process": "EL",
+                        "product": "1-H-1",
+                        "quantity": ",DA",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",DA"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "MONIT",
+                "reaction": {
+                  "code": "92-U-238(N,F),,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "92-U-238(N,F),,SIG",
+                      "field": {
+                        "reaction": "92-U-238(N,F)",
+                        "target": "92-U-238",
+                        "projectile": "N",
+                        "process": "F",
+                        "product": "",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": null,
+                "author": "A.D.Carlson+",
+                "reference": {
+                  "code": "3,ENDF/B-VII,,2007",
+                  "field": {
+                    "reference_type": "3",
+                    "reference": {
+                      "code": "ENDF/B-",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null,
+                      "version": "VII",
+                      "material_number": null
+                    },
+                    "date": 2007
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for dead time"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20190205,
+                "history": "C"
+              },
+              "free_text": [
+                " Compiled by S.H."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20210311,
+                "history": "A"
+              },
+              "free_text": [
+                " On. Important alterations in 002. Some BIB",
+                " keywords moved from 002 to 001."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "14529002",
+            "N2": 20210311,
+            "alteration_flag": " ",
+            "transmission_identification": "1478"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "92-U-238(N,F),,SIG",
+                "code_unit": [
+                  {
+                    "unit": "92-U-238(N,F),,SIG",
+                    "field": {
+                      "reaction": "92-U-238(N,F)",
+                      "target": "92-U-238",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-SYS",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total systematic uncertainty including",
+                "  - uncertainty in reference cross section",
+                "  - yield summation uncertainty",
+                "  - data acquisition dead time",
+                "  all added in quadrature"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total uncertainty obtained by adding",
+                " systematic uncertainty and statistical uncertainty",
+                " but excluding the error from the normalization point"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "MONIT-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Error from the normalization point"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Data taken from tab.4.6 of the reference"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20210311,
+                "history": "A"
+              },
+              "free_text": [
+                " On. ERR-T -> DATA-ERR. ERR-ANALYS updated."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 5,
+            "N2": 0,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-RSL",
+              "EN-NRM",
+              "MONIT",
+              "MONIT-ERR",
+              "ERR-SYS"
+            ],
+            "unit": [
+              "PER-CENT",
+              "MEV",
+              "B",
+              "B",
+              "PER-CENT"
+            ],
+            "value": [
+              2.5,
+              130.0,
+              1.33,
+              0.0548,
+              3.6
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 18,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "B",
+              "B"
+            ],
+            "value": [
+              [
+                130.0,
+                1.33,
+                0.0666
+              ],
+              [
+                140.0,
+                1.3251,
+                0.0669
+              ],
+              [
+                150.0,
+                1.3369,
+                0.068
+              ],
+              [
+                160.0,
+                1.2548,
+                0.0639
+              ],
+              [
+                170.0,
+                1.3191,
+                0.068
+              ],
+              [
+                180.0,
+                1.2399,
+                0.0642
+              ],
+              [
+                190.0,
+                1.2348,
+                0.0644
+              ],
+              [
+                200.0,
+                1.2833,
+                0.0675
+              ],
+              [
+                210.0,
+                1.2337,
+                0.0652
+              ],
+              [
+                220.0,
+                1.2279,
+                0.0658
+              ],
+              [
+                230.0,
+                1.2008,
+                0.0643
+              ],
+              [
+                240.0,
+                1.1883,
+                0.0642
+              ],
+              [
+                250.0,
+                1.2317,
+                0.0669
+              ],
+              [
+                260.0,
+                1.2343,
+                0.0676
+              ],
+              [
+                270.0,
+                1.2364,
+                0.068
+              ],
+              [
+                280.0,
+                1.2054,
+                0.0666
+              ],
+              [
+                290.0,
+                1.1432,
+                0.0634
+              ],
+              [
+                300.0,
+                1.2075,
+                0.0675
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 2,
+        "N2": 0
+      }
+    }
+  ]
+}
