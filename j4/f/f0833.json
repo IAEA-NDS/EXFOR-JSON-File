@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:01:55+0000",
+  "time_stamp": "2026-05-22T20:34:03+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F0833",
-        "N2": 20130523,
+        "N2": 20251227,
         "alteration_flag": " ",
-        "transmission_identification": "F051"
+        "transmission_identification": "F107"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F0833001",
-            "N2": 20130523,
+            "N2": 20251227,
             "alteration_flag": " ",
-            "transmission_identification": "F051"
+            "transmission_identification": "F107"
           },
           "BIB": {
             "N1": 7,
@@ -104,17 +104,22 @@
           "SAMPLE": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "nuclide": "28-NI-61",
+                "field_identifier": "ENR",
+                "value": 0.8884
+              },
               "free_text": [
-                "The target was prepared by vacuum evaporation of",
-                "elemental Ni, enriched to 88.84% in 61Ni, from a",
-                "previously outgassed tungsten boat, on to an outgassed",
-                "tantalum backing. The backing was weighed before and",
-                "after the evaporation to give a measurement of target",
-                "thickness. Target thickness was determined also from",
-                "alpha-particle back-scattering measurements at an angle",
-                "of 145 degr. The adopted thickness value was",
-                " (7.3+ -0.4)*10**18 atoms of 61Ni cm**(-2)."
+                " The target was prepared by",
+                "vacuum evaporation of elemental Ni, enriched to",
+                "88.84% in 61Ni, from a previously outgassed tungsten",
+                "boat, on to an outgassed tantalum backing. The",
+                "backing was weighed before and after the evaporation",
+                "to give a measurement of target thickness. Target",
+                "thickness was determined also from alpha-particle",
+                "back-scattering measurements at an angle of 145 degr.",
+                "The adopted thickness value was",
+                "  (7.3+ -0.4)*10**18 atoms of 61Ni cm**(-2) ."
               ]
             }
           ],
@@ -136,9 +141,19 @@
                 "history": "A"
               },
               "free_text": [
-                "SAMPLE in sub 001 was corrected. FACILITY",
+                " SAMPLE in sub 001 was corrected. FACILITY",
                 "was corrected. Data in sub 004 were redigitized. Data",
                 "format in sub 002-004 was changed."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251227,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents."
               ]
             }
           ],
@@ -158,12 +173,12 @@
         {
           "SUBENT": {
             "N1": "F0833002",
-            "N2": 20130617,
+            "N2": 20251227,
             "alteration_flag": " ",
-            "transmission_identification": "F051"
+            "transmission_identification": "F107"
           },
           "BIB": {
-            "N1": 7,
+            "N1": 8,
             "N2": 0
           },
           "REACTION": [
@@ -237,7 +252,7 @@
                 "GELI"
               ],
               "free_text": [
-                " The 125 cm3 (GELI) detector was located 3 cm",
+                " The 125 cm3 Ge(Li) detector was located 3 cm",
                 "from the target in the 0 degr. direction."
               ]
             }
@@ -246,15 +261,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "ACTIV"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "ACTIV",
                 "BCINT"
               ],
               "free_text": [
@@ -266,53 +273,62 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "The absolute uncertainty in the cross",
-                "section scale is 10%, the main contributors being",
-                "detection efficiency 7%, target thickness 5%, and beam",
-                "current integration 4%."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
                 "heading": "ERR-S",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                " Error bars reflect statistical uncertainties",
-                "only."
+                " Statistical uncertainty"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "EN-ERR-DIG",
+                "heading": "ERR-1",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                " Energy digitizing error"
+                " Uncertainty in the cross section scale,",
+                "the main contributors being:"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "ERR-DIG",
+                "heading": "ERR-2",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                " Data digitizing error"
+                " Uncertainty in the detection efficiency,"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Uncertainty in the target thickness 5%,"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-4",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Uncertainty in the beam current integration 4%."
               ]
             }
           ],
@@ -324,8 +340,22 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "C.I.W.Tingwell+",
+                "reference": {
+                  "code": "J,NP/A,480,162,1988",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "480",
+                      "part": null,
+                      "issue": null,
+                      "page": "162"
+                    },
+                    "date": 1988
+                  }
+                }
               },
               "free_text": [
                 " Fig.2"
@@ -346,32 +376,56 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251227,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated. DATA-ERR -> ERR-1."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
           "COMMON": {
-            "N1": 3,
+            "N1": 6,
             "N2": 0,
             "pointer": [
+              "",
+              "",
+              "",
               "",
               "",
               ""
             ],
             "heading": [
-              "DATA-ERR",
+              "ERR-1",
               "EN-ERR-DIG",
-              "ERR-DIG"
+              "ERR-DIG",
+              "ERR-2",
+              "ERR-3",
+              "ERR-4"
             ],
             "unit": [
               "PER-CENT",
               "MEV",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
               "PER-CENT"
             ],
             "value": [
               10.0,
               0.002,
-              0.007
+              0.7,
+              7.0,
+              5.0,
+              4.0
             ]
           },
           "ENDCOMMON": {
@@ -576,12 +630,12 @@
         {
           "SUBENT": {
             "N1": "F0833003",
-            "N2": 20130617,
+            "N2": 20251227,
             "alteration_flag": " ",
-            "transmission_identification": "F051"
+            "transmission_identification": "F107"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
@@ -665,41 +719,75 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
+                "heading": "ERR-1",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                "The absolute uncertainty in the cross",
-                "section scale is 11%, the main contributors being 61Cu",
-                "branching ratios 5%, gamma-ray detection efficiency 5%,",
-                "neutron detection efficiency 6%, target thickness 5%,",
-                "and beam current integration 4%."
+                " Uncertainty in the cross section scale,",
+                "the main contributors being:"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "EN-ERR-DIG",
+                "heading": "ERR-2",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                " Energy digitizing error"
+                " Uncertainty in the 61Cu branching ratios,"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "ERR-DIG",
+                "heading": "ERR-3",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                " Data digitizing error"
+                " Uncertainty in the gamma-ray detection",
+                "        efficiency,"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-4",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Uncertainty in the neutron detection efficiency"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-5",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Uncertainty in the target thickness,"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-6",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Uncertainty in the beam current integration."
               ]
             }
           ],
@@ -711,8 +799,22 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "C.I.W.Tingwell+",
+                "reference": {
+                  "code": "J,NP/A,480,162,1988",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "480",
+                      "part": null,
+                      "issue": null,
+                      "page": "162"
+                    },
+                    "date": 1988
+                  }
+                }
               },
               "free_text": [
                 " Fig.3"
@@ -733,32 +835,64 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251227,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated. DATA-ERR -> ERR-1."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
           "COMMON": {
-            "N1": 3,
+            "N1": 8,
             "N2": 0,
             "pointer": [
+              "",
+              "",
+              "",
+              "",
+              "",
               "",
               "",
               ""
             ],
             "heading": [
-              "DATA-ERR",
+              "ERR-1",
               "EN-ERR-DIG",
-              "ERR-DIG"
+              "ERR-DIG",
+              "ERR-2",
+              "ERR-3",
+              "ERR-4",
+              "ERR-5",
+              "ERR-6"
             ],
             "unit": [
               "PER-CENT",
               "MEV",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
               "PER-CENT"
             ],
             "value": [
               11.0,
               0.001,
-              0.005
+              0.5,
+              5.0,
+              5.0,
+              6.0,
+              5.0,
+              4.0
             ]
           },
           "ENDCOMMON": {
@@ -927,12 +1061,12 @@
         {
           "SUBENT": {
             "N1": "F0833004",
-            "N2": 20130523,
+            "N2": 20251227,
             "alteration_flag": " ",
-            "transmission_identification": "F051"
+            "transmission_identification": "F107"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -993,53 +1127,62 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "The absolute uncertainty in the cross",
-                "section scale is 10%, the main contributors being",
-                "detection efficiency 7%, target thickness 5%, and beam",
-                "current integration 4%."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
                 "heading": "ERR-S",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                " Error bars reflect statistical uncertainties",
-                "only."
+                " Statistical uncertainty"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "EN-ERR-DIG",
+                "heading": "ERR-1",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                " Energy digitizing error"
+                " Uncertainty in the cross section scale is 10%,",
+                " the main contributors being"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "ERR-DIG",
+                "heading": "ERR-2",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                " Data digitizing error"
+                " Uncertainty in the detection efficiency 7%,"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Uncertainty in the target thickness 5%,"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-4",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Uncertainty in the beam current integration 4%."
               ]
             }
           ],
@@ -1051,11 +1194,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "C.I.W.Tingwell+",
+                "reference": {
+                  "code": "J,NP/A,480,162,1988",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "480",
+                      "part": null,
+                      "issue": null,
+                      "page": "162"
+                    },
+                    "date": 1988
+                  }
+                }
               },
               "free_text": [
-                " Fig. 4"
+                " Fig.4"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251227,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -1064,27 +1233,39 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 3,
+            "N1": 6,
             "N2": 0,
             "pointer": [
+              "",
+              "",
+              "",
               "",
               "",
               ""
             ],
             "heading": [
-              "DATA-ERR",
+              "ERR-1",
               "EN-ERR-DIG",
-              "ERR-DIG"
+              "ERR-DIG",
+              "ERR-2",
+              "ERR-3",
+              "ERR-4"
             ],
             "unit": [
               "PER-CENT",
               "MEV",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
               "PER-CENT"
             ],
             "value": [
               10.0,
               0.002,
-              0.009
+              0.9,
+              7.0,
+              5.0,
+              4.0
             ]
           },
           "ENDCOMMON": {
@@ -2939,22 +3120,22 @@
         {
           "SUBENT": {
             "N1": "F0833005",
-            "N2": 20070618,
+            "N2": 20251227,
             "alteration_flag": " ",
-            "transmission_identification": "F028"
+            "transmission_identification": "F107"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "28-NI-61(P,G)29-CU-62,,SGV,,,CALC",
+                "code": "28-NI-61(P,G)29-CU-62,,SGV,,,DERIV",
                 "code_unit": [
                   {
-                    "unit": "28-NI-61(P,G)29-CU-62,,SGV,,,CALC",
+                    "unit": "28-NI-61(P,G)29-CU-62,,SGV,,,DERIV",
                     "field": {
                       "reaction": "28-NI-61(P,G)29-CU-62",
                       "target": "28-NI-61",
@@ -2962,7 +3143,7 @@
                       "process": "G",
                       "product": "29-CU-62",
                       "quantity": ",SGV",
-                      "data_type": "CALC",
+                      "data_type": "DERIV",
                       "general_quantity_modifier": null,
                       "quantity_236": ",SGV"
                     }
@@ -2975,7 +3156,7 @@
               ]
             }
           ],
-          "COMMENT": [
+          "ANALYSIS": [
             {
               "pointer": "",
               "coded_information": null,
@@ -2987,7 +3168,7 @@
                 "required for energies outside the experimental range,",
                 "these were calculated by means of HAUSER*4 using the",
                 "Sevior parameters and reduced by factors of 1.19 for",
-                "the (p,g) reaction."
+                "the (p,gamma) reaction."
               ]
             }
           ],
@@ -3001,7 +3182,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Combined errors of the reaction rates."
+                " No information about source of uncertainty"
               ]
             }
           ],
@@ -3013,11 +3194,38 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "C.I.W.Tingwell+",
+                "reference": {
+                  "code": "J,NP/A,480,162,1988",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "480",
+                      "part": null,
+                      "issue": null,
+                      "page": "162"
+                    },
+                    "date": 1988
+                  }
+                }
               },
               "free_text": [
                 " Tbl.1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251227,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: SF9=CALC -> DERIV in REACTION code.",
+                "COMMENT -> ANALYSIS."
               ]
             }
           ],
@@ -3159,22 +3367,22 @@
         {
           "SUBENT": {
             "N1": "F0833006",
-            "N2": 20070618,
+            "N2": 20251227,
             "alteration_flag": " ",
-            "transmission_identification": "F028"
+            "transmission_identification": "F107"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "28-NI-61(P,N)29-CU-61,,SGV,,,CALC",
+                "code": "28-NI-61(P,N)29-CU-61,,SGV,,,DERIV",
                 "code_unit": [
                   {
-                    "unit": "28-NI-61(P,N)29-CU-61,,SGV,,,CALC",
+                    "unit": "28-NI-61(P,N)29-CU-61,,SGV,,,DERIV",
                     "field": {
                       "reaction": "28-NI-61(P,N)29-CU-61",
                       "target": "28-NI-61",
@@ -3182,7 +3390,7 @@
                       "process": "N",
                       "product": "29-CU-61",
                       "quantity": ",SGV",
-                      "data_type": "CALC",
+                      "data_type": "DERIV",
                       "general_quantity_modifier": null,
                       "quantity_236": ",SGV"
                     }
@@ -3195,7 +3403,7 @@
               ]
             }
           ],
-          "COMMENT": [
+          "ANALYSIS": [
             {
               "pointer": "",
               "coded_information": null,
@@ -3221,7 +3429,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Combined errors of the reaction rates."
+                " No information about source of uncertainty"
               ]
             }
           ],
@@ -3233,11 +3441,38 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "C.I.W.Tingwell+",
+                "reference": {
+                  "code": "J,NP/A,480,162,1988",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "480",
+                      "part": null,
+                      "issue": null,
+                      "page": "162"
+                    },
+                    "date": 1988
+                  }
+                }
               },
               "free_text": [
                 " Tbl.1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251227,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: SF9=CALC -> DERIV in REACTION code.",
+                "COMMENT -> ANALYSIS."
               ]
             }
           ],
@@ -3379,12 +3614,12 @@
         {
           "SUBENT": {
             "N1": "F0833007",
-            "N2": 20130617,
+            "N2": 20251227,
             "alteration_flag": " ",
-            "transmission_identification": "F051"
+            "transmission_identification": "F107"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
@@ -3464,40 +3699,50 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
+                "heading": "ERR-1",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                "The absolute uncertainty in the cross",
-                "section scale is 10%, the main contributors being",
-                "detection efficiency 7%, target thickness 5%, and beam",
-                "current integration 4%."
+                " Uncertainty in the cross section scale,",
+                "the main contributors being:"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "EN-ERR-DIG",
+                "heading": "ERR-2",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                " Energy digitizing error"
+                " Uncertainty in the detection efficiency,"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "ERR-DIG",
+                "heading": "ERR-3",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                " Data digitizing error"
+                " Uncertainty in the target thickness,"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-4",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Uncertainty in the beam current integration."
               ]
             }
           ],
@@ -3509,8 +3754,22 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "C.I.W.Tingwell+",
+                "reference": {
+                  "code": "J,NP/A,480,162,1988",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "480",
+                      "part": null,
+                      "issue": null,
+                      "page": "162"
+                    },
+                    "date": 1988
+                  }
+                }
               },
               "free_text": [
                 " Fig.2"
@@ -3531,32 +3790,56 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251227,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
           "COMMON": {
-            "N1": 3,
+            "N1": 6,
             "N2": 0,
             "pointer": [
+              "",
+              "",
+              "",
               "",
               "",
               ""
             ],
             "heading": [
-              "DATA-ERR",
+              "ERR-1",
               "EN-ERR-DIG",
-              "ERR-DIG"
+              "ERR-DIG",
+              "ERR-2",
+              "ERR-3",
+              "ERR-4"
             ],
             "unit": [
               "PER-CENT",
               "MEV",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
               "PER-CENT"
             ],
             "value": [
               10.0,
               0.002,
-              0.007
+              0.7,
+              7.0,
+              5.0,
+              4.0
             ]
           },
           "ENDCOMMON": {
@@ -3797,12 +4080,12 @@
         {
           "SUBENT": {
             "N1": "F0833008",
-            "N2": 20130617,
+            "N2": 20251227,
             "alteration_flag": " ",
-            "transmission_identification": "F051"
+            "transmission_identification": "F107"
           },
           "BIB": {
-            "N1": 7,
+            "N1": 8,
             "N2": 0
           },
           "REACTION": [
@@ -3903,41 +4186,75 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
+                "heading": "ERR-1",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                "The absolute uncertainty in the cross",
-                "section scale is 11%, the main contributors being 61Cu",
-                "branching ratios 5%, gamma-ray detection efficiency 5%,",
-                "neutron detection efficiency 6%, target thickness 5%,",
-                "and beam current integration 4%."
+                " Uncertainty in the cross section scale,",
+                "the main contributors being:"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "EN-ERR-DIG",
+                "heading": "ERR-2",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                " Energy digitizing error"
+                " Uncertainty in the 61Cu branching ratios,"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "ERR-DIG",
+                "heading": "ERR-3",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                " Data digitizing error"
+                " Uncertainty in the gamma-ray detection",
+                "        efficiency,"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-4",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Uncertainty in the neutron detection efficiency"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-5",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Uncertainty in the target thickness,"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-6",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Uncertainty in the beam current integration."
               ]
             }
           ],
@@ -3949,11 +4266,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "C.I.W.Tingwell+",
+                "reference": {
+                  "code": "J,NP/A,480,162,1988",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "480",
+                      "part": null,
+                      "issue": null,
+                      "page": "162"
+                    },
+                    "date": 1988
+                  }
+                }
               },
               "free_text": [
-                "Fig.3"
+                " Fig.3"
               ]
             },
             {
@@ -3971,32 +4302,64 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251227,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
           "COMMON": {
-            "N1": 3,
+            "N1": 8,
             "N2": 0,
             "pointer": [
+              "",
+              "",
+              "",
+              "",
+              "",
               "",
               "",
               ""
             ],
             "heading": [
-              "DATA-ERR",
+              "ERR-1",
               "EN-ERR-DIG",
-              "ERR-DIG"
+              "ERR-DIG",
+              "ERR-2",
+              "ERR-3",
+              "ERR-4",
+              "ERR-5",
+              "ERR-6"
             ],
             "unit": [
               "PER-CENT",
               "MEV",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
               "PER-CENT"
             ],
             "value": [
               11.0,
               0.001,
-              0.005
+              0.5,
+              5.0,
+              5.0,
+              6.0,
+              5.0,
+              4.0
             ]
           },
           "ENDCOMMON": {
@@ -4005,7 +4368,7 @@
           },
           "DATA": {
             "N1": 2,
-            "N2": 38,
+            "N2": 37,
             "pointer": [
               "",
               ""
@@ -4021,103 +4384,99 @@
             "value": [
               [
                 3.118,
-                6.9179
+                6.918
               ],
               [
                 3.169,
-                9.7907
+                9.791
               ],
               [
                 3.217,
-                10.055
+                10.05
               ],
               [
                 3.241,
-                14.359
+                14.36
               ],
               [
                 3.292,
-                15.977
+                15.98
               ],
               [
                 3.342,
-                17.621
+                17.62
               ],
               [
                 3.433,
-                21.243
+                21.24
               ],
               [
                 3.473,
-                19.781
+                19.78
               ],
               [
                 3.513,
-                18.094
+                18.09
               ],
               [
                 3.554,
-                20.679
+                20.68
               ],
               [
                 3.592,
-                25.154
+                25.15
               ],
               [
                 3.634,
-                27.496
+                27.5
               ],
               [
                 3.673,
-                39.615
+                39.62
               ],
               [
                 3.713,
-                35.597
+                35.6
               ],
               [
                 3.753,
-                32.273
+                32.27
               ],
               [
                 3.794,
-                37.547
+                37.55
               ],
               [
                 3.834,
-                34.345
+                34.34
               ],
               [
                 3.874,
-                43.293
+                43.29
               ],
               [
                 3.915,
-                41.405
+                41.41
               ],
               [
                 3.959,
-                36.224
+                36.22
               ],
               [
                 3.997,
-                38.211
+                38.21
               ],
               [
                 4.038,
-                46.068
-              ],
-              [
-                4.038,
-                46.068
+                46.07
               ],
               [
                 4.076,
-                49.911
+                49.91
               ],
               [
                 4.118,
-                60.174
+                60.17
               ],
               [
                 4.159,
@@ -4125,7 +4484,7 @@
               ],
               [
                 4.197,
-                54.551
+                54.55
               ],
               [
                 4.239,
@@ -4133,43 +4492,43 @@
               ],
               [
                 4.278,
-                58.574
+                58.57
               ],
               [
                 4.318,
-                58.571
+                58.57
               ],
               [
                 4.358,
-                61.783
+                61.78
               ],
               [
                 4.396,
-                66.936
+                66.94
               ],
               [
                 4.439,
-                70.607
+                70.61
               ],
               [
                 4.477,
-                75.817
+                75.82
               ],
               [
                 4.517,
-                73.814
+                73.81
               ],
               [
                 4.558,
-                79.262
+                79.26
               ],
               [
                 4.598,
-                85.111
+                85.11
               ],
               [
                 4.638,
-                93.035
+                93.03
               ]
             ]
           },

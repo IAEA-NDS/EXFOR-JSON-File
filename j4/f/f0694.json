@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:59:57+0000",
+  "time_stamp": "2026-05-22T20:33:50+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F0694",
-        "N2": 20110808,
+        "N2": 20251224,
         "alteration_flag": " ",
-        "transmission_identification": "F042"
+        "transmission_identification": "F107"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F0694001",
-            "N2": 20110808,
+            "N2": 20251224,
             "alteration_flag": " ",
-            "transmission_identification": "F042"
+            "transmission_identification": "F107"
           },
           "BIB": {
-            "N1": 14,
+            "N1": 13,
             "N2": 0
           },
           "TITLE": [
@@ -27,7 +27,7 @@
               "coded_information": null,
               "free_text": [
                 "Energy-dependent coherence width of 28Si at excitation",
-                "energies between 22 and 33 MeV."
+                "energies between 22 and 33 MeV"
               ]
             }
           ],
@@ -49,15 +49,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "2NEDGRN"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "2NEDRUG",
                 "1USAORL"
               ],
               "free_text": [
@@ -122,6 +114,33 @@
                 " Experimental",
                 "arrangement was described."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "O",
+                "subentry_number": "F0646001",
+                "author": "A.G.Drentje+",
+                "reference": {
+                  "code": "J,PL/B,32,356,1970",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PL/B",
+                      "number": null,
+                      "volume": "32",
+                      "part": null,
+                      "issue": null,
+                      "page": "356"
+                    },
+                    "date": 1970
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "  - Partial differential cross sections presented."
+              ]
             }
           ],
           "FACILITY": [
@@ -131,10 +150,10 @@
                 "facility": [
                   "CYCLO"
                 ],
-                "institute": "2NEDGRN"
+                "institute": "2NEDRUG"
               },
               "free_text": [
-                "Philips prototype 30 MeV AVF-cyclotron."
+                " Philips prototype 30 MeV AVF-cyclotron."
               ]
             }
           ],
@@ -144,15 +163,6 @@
               "coded_information": null,
               "free_text": [
                 "Target of MG-24 was used."
-              ]
-            }
-          ],
-          "INC-SOURCE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Alpha-particle beam."
               ]
             }
           ],
@@ -213,7 +223,8 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Uncertainty in resonance width."
+                " Uncertainty in resonance width. No source",
+                "of uncertainty is given."
               ]
             }
           ],
@@ -236,6 +247,16 @@
               },
               "free_text": [
                 " SD: space from author's name deleted."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251224,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents."
               ]
             }
           ],
@@ -271,12 +292,12 @@
         {
           "SUBENT": {
             "N1": "F0694002",
-            "N2": 20050524,
+            "N2": 20251224,
             "alteration_flag": " ",
-            "transmission_identification": "F021"
+            "transmission_identification": "F107"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -339,8 +360,8 @@
               "coded_information": null,
               "free_text": [
                 "DATA2 is a mean value of an averaged value of width",
-                "from normal autocorrelation functions,an averaged value",
-                "of width from autocorrelation functions of",
+                "from normal autocorrelation functions, an averaged",
+                "value of width from autocorrelation functions of",
                 "trend-reduced excitation functions and an averaged",
                 "value from a number of maxima in the excitation",
                 "functions."
@@ -355,11 +376,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.D.A.Roeders+",
+                "reference": {
+                  "code": "J,NCL,2,209,1969",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NCL",
+                      "number": null,
+                      "volume": "2",
+                      "part": null,
+                      "issue": null,
+                      "page": "209"
+                    },
+                    "date": 1969
+                  }
+                }
               },
               "free_text": [
                 " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251224,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],

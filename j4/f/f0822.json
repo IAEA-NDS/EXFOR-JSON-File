@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:01:47+0000",
+  "time_stamp": "2026-05-22T20:34:02+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F0822",
-        "N2": 20070313,
+        "N2": 20251227,
         "alteration_flag": " ",
-        "transmission_identification": "F028"
+        "transmission_identification": "F107"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F0822001",
-            "N2": 20070313,
+            "N2": 20251227,
             "alteration_flag": " ",
-            "transmission_identification": "F028"
+            "transmission_identification": "F107"
           },
           "BIB": {
-            "N1": 10,
+            "N1": 9,
             "N2": 0
           },
           "TITLE": [
@@ -26,8 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Elastic and inelastic scattering of 30 MeV a-particles",
-                "on even isotopes of palladium."
+                "Elastic and inelastic scattering of 30 MeV",
+                "alpha-particles on even isotopes of palladium"
               ]
             }
           ],
@@ -111,20 +111,9 @@
                 "SI"
               ],
               "free_text": [
-                "The angular distributions were measured with three",
+                " The angular distributions were measured with three",
                 "detectors, mounted on a coolable turntable, in the",
                 "angular range 10-120 degr."
-              ]
-            }
-          ],
-          "ANALYSIS": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "WSP"
-              ],
-              "free_text": [
-                ""
               ]
             }
           ],
@@ -133,12 +122,12 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Self-supporting target foils with thickness of 300-700",
-                "mu-g/cm2, which were fabricated from isotopically",
+                "Self-supporting target foils with thickness of",
+                "300-700 ug/cm2, which were fabricated from isotopically",
                 "enriched material, have been used.",
                 "                     Enrichment (in %)",
                 "        102Pd 104Pd 105Pd 106Pd 108Pd 110Pd Thickness",
-                "                                             mu-g/cm2",
+                "                                              ug/cm2",
                 "104Pd   0.15  95.25 2.64  1.23  0.54  0.19     318",
                 "106Pd   <0.02 0.13  0.79  98.48 0.48  0.12     694",
                 "108Pd   <0.01 0.07  0.27  0.95  98.35 0.36     639",
@@ -158,30 +147,6 @@
                 "contaminations and background fluctuations contribute",
                 "as well."
               ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ANG-ERR-D",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Angle digitizing error"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Data digitizing error"
-              ]
             }
           ],
           "HISTORY": [
@@ -193,6 +158,16 @@
               },
               "free_text": [
                 ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251227,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents."
               ]
             }
           ],
@@ -217,7 +192,7 @@
             ],
             "value": [
               30.5,
-              0.01
+              1.0
             ]
           },
           "ENDCOMMON": {
@@ -232,12 +207,12 @@
         {
           "SUBENT": {
             "N1": "F0822002",
-            "N2": 20070606,
+            "N2": 20251227,
             "alteration_flag": " ",
-            "transmission_identification": "F028"
+            "transmission_identification": "F107"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -268,6 +243,21 @@
               ]
             }
           ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "nuclide": "46-PD-104",
+                "field_identifier": "ENR",
+                "value": 0.9525
+              },
+              "free_text": [
+                " Self-supporting foil",
+                "with thickness of 318 ug/cm2, which was fabricated",
+                "from isotopically enriched material."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -276,11 +266,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.Riech+",
+                "reference": {
+                  "code": "J,NP/A,542,61,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "542",
+                      "part": null,
+                      "issue": null,
+                      "page": "61"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
                 " Fig.4"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251227,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -301,7 +317,7 @@
               "ADEG"
             ],
             "value": [
-              0.028
+              0.03
             ]
           },
           "ENDCOMMON": {
@@ -317,7 +333,7 @@
             ],
             "heading": [
               "ANG-CM",
-              "DATA-CM"
+              "DATA"
             ],
             "unit": [
               "ADEG",
@@ -325,91 +341,91 @@
             ],
             "value": [
               [
-                10.222,
+                10.22,
                 0.9659
               ],
               [
-                12.892,
+                12.89,
                 0.9992
               ],
               [
-                20.781,
-                1.0693
+                20.78,
+                1.069
               ],
               [
-                23.329,
-                1.0158
+                23.33,
+                1.016
               ],
               [
-                28.425,
+                28.43,
                 0.686
               ],
               [
-                31.095,
+                31.09,
                 0.5883
               ],
               [
-                33.764,
+                33.76,
                 0.4793
               ],
               [
-                36.433,
+                36.43,
                 0.3711
               ],
               [
-                38.981,
+                38.98,
                 0.2873
               ],
               [
-                41.529,
+                41.53,
                 0.2683
               ],
               [
-                44.077,
+                44.08,
                 0.2262
               ],
               [
-                46.625,
+                46.63,
                 0.1608
               ],
               [
-                49.172,
+                49.17,
                 0.1163
               ],
               [
-                51.842,
+                51.84,
                 0.1123
               ],
               [
-                54.391,
+                54.39,
                 0.1049
               ],
               [
-                56.938,
+                56.94,
                 0.0812
               ],
               [
-                59.364,
+                59.36,
                 0.0521
               ],
               [
-                61.912,
+                61.91,
                 0.0425
               ],
               [
-                64.339,
+                64.34,
                 0.0447
               ],
               [
-                66.888,
+                66.89,
                 0.0432
               ],
               [
-                69.314,
+                69.31,
                 0.0297
               ],
               [
-                71.861,
+                71.86,
                 0.0178
               ],
               [
@@ -417,27 +433,27 @@
                 0.0145
               ],
               [
-                77.201,
+                77.2,
                 0.0169
               ],
               [
-                79.628,
+                79.63,
                 0.0178
               ],
               [
-                82.176,
+                82.18,
                 0.0135
               ],
               [
-                84.723,
+                84.72,
                 0.0081
               ],
               [
-                87.149,
+                87.15,
                 0.0054
               ],
               [
-                89.698,
+                89.7,
                 0.0062
               ]
             ]
@@ -454,12 +470,12 @@
         {
           "SUBENT": {
             "N1": "F0822003",
-            "N2": 20070606,
+            "N2": 20251227,
             "alteration_flag": " ",
-            "transmission_identification": "F028"
+            "transmission_identification": "F107"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -500,7 +516,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error from the graphic bars"
+                " No information about source of uncertainty"
               ]
             }
           ],
@@ -512,11 +528,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.Riech+",
+                "reference": {
+                  "code": "J,NP/A,542,61,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "542",
+                      "part": null,
+                      "issue": null,
+                      "page": "61"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
                 " Fig.6"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251227,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -946,12 +988,12 @@
         {
           "SUBENT": {
             "N1": "F0822004",
-            "N2": 20070606,
+            "N2": 20251227,
             "alteration_flag": " ",
-            "transmission_identification": "F028"
+            "transmission_identification": "F107"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -982,6 +1024,21 @@
               ]
             }
           ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "nuclide": "46-PD-106",
+                "field_identifier": "ENR",
+                "value": 0.9848
+              },
+              "free_text": [
+                " Self-supporting foil",
+                "with thickness of 694 ug/cm2, which was fabricated",
+                "from isotopically enriched material."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -990,11 +1047,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.Riech+",
+                "reference": {
+                  "code": "J,NP/A,542,61,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "542",
+                      "part": null,
+                      "issue": null,
+                      "page": "61"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
-                "Fig.4"
+                " Fig.4"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251227,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -1015,7 +1098,7 @@
               "ADEG"
             ],
             "value": [
-              0.049
+              0.05
             ]
           },
           "ENDCOMMON": {
@@ -1031,7 +1114,7 @@
             ],
             "heading": [
               "ANG-CM",
-              "DATA-CM"
+              "DATA"
             ],
             "unit": [
               "ADEG",
@@ -1039,39 +1122,39 @@
             ],
             "value": [
               [
-                10.208,
+                10.21,
                 0.9574
               ],
               [
-                12.878,
-                1.0428
+                12.88,
+                1.043
               ],
               [
-                15.549,
-                1.1754
+                15.55,
+                1.175
               ],
               [
-                18.097,
-                1.1356
+                18.1,
+                1.136
               ],
               [
-                20.767,
-                1.0786
+                20.77,
+                1.079
               ],
               [
-                23.315,
+                23.32,
                 0.99
               ],
               [
-                25.863,
+                25.86,
                 0.82
               ],
               [
-                28.411,
+                28.41,
                 0.6676
               ],
               [
-                30.959,
+                30.96,
                 0.5821
               ],
               [
@@ -1079,39 +1162,39 @@
                 0.4659
               ],
               [
-                36.297,
+                36.3,
                 0.3482
               ],
               [
-                38.967,
+                38.97,
                 0.2787
               ],
               [
-                41.515,
+                41.52,
                 0.2692
               ],
               [
-                44.063,
+                44.06,
                 0.223
               ],
               [
-                46.611,
+                46.61,
                 0.1583
               ],
               [
-                49.158,
+                49.16,
                 0.1204
               ],
               [
-                51.707,
+                51.71,
                 0.1124
               ],
               [
-                54.255,
+                54.26,
                 0.1032
               ],
               [
-                56.924,
+                56.92,
                 0.0771
               ],
               [
@@ -1119,15 +1202,15 @@
                 0.052
               ],
               [
-                61.898,
+                61.9,
                 0.0431
               ],
               [
-                64.325,
+                64.33,
                 0.0446
               ],
               [
-                66.874,
+                66.87,
                 0.0409
               ],
               [
@@ -1135,47 +1218,47 @@
                 0.0306
               ],
               [
-                71.847,
+                71.85,
                 0.0186
               ],
               [
-                74.516,
+                74.52,
                 0.0157
               ],
               [
-                77.065,
+                77.06,
                 0.0174
               ],
               [
-                79.614,
+                79.61,
                 0.0162
               ],
               [
-                82.161,
+                82.16,
                 0.0123
               ],
               [
-                84.587,
+                84.59,
                 0.0078
               ],
               [
-                87.135,
+                87.14,
                 0.0055
               ],
               [
-                89.562,
+                89.56,
                 0.0064
               ],
               [
-                94.538,
+                94.54,
                 0.0056
               ],
               [
-                97.085,
+                97.08,
                 0.0037
               ],
               [
-                99.632,
+                99.63,
                 0.0021
               ]
             ]
@@ -1192,12 +1275,12 @@
         {
           "SUBENT": {
             "N1": "F0822005",
-            "N2": 20070606,
+            "N2": 20251227,
             "alteration_flag": " ",
-            "transmission_identification": "F028"
+            "transmission_identification": "F107"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1228,6 +1311,21 @@
               ]
             }
           ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "nuclide": "46-PD-106",
+                "field_identifier": "ENR",
+                "value": 0.9848
+              },
+              "free_text": [
+                " Self-supporting foil",
+                "with thickness of 694 ug/cm2, which was fabricated",
+                "from isotopically enriched material."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -1236,11 +1334,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.Riech+",
+                "reference": {
+                  "code": "J,NP/A,542,61,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "542",
+                      "part": null,
+                      "issue": null,
+                      "page": "61"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
                 " Fig.7"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251227,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -1261,7 +1385,7 @@
               "ADEG"
             ],
             "value": [
-              0.044
+              0.04
             ]
           },
           "ENDCOMMON": {
@@ -1289,78 +1413,78 @@
             "value": [
               [
                 0.512,
-                26.168,
-                22.263
+                26.17,
+                22.26
               ],
               [
                 0.512,
-                28.755,
-                17.247
+                28.75,
+                17.25
               ],
               [
                 0.512,
-                31.227,
-                8.4416
+                31.23,
+                8.442
               ],
               [
                 0.512,
-                33.815,
-                12.064
+                33.81,
+                12.06
               ],
               [
                 0.512,
-                36.403,
-                14.239
+                36.4,
+                14.24
               ],
               [
                 0.512,
-                39.101,
-                10.617
+                39.1,
+                10.62
               ],
               [
                 0.512,
-                41.574,
-                5.3305
+                41.57,
+                5.33
               ],
               [
                 0.512,
                 44.16,
-                4.6916
+                4.692
               ],
               [
                 0.512,
-                46.636,
-                6.2108
+                46.64,
+                6.211
               ],
               [
                 0.512,
-                49.223,
-                5.6076
+                49.22,
+                5.608
               ],
               [
                 0.512,
-                51.695,
+                51.7,
                 3.118
               ],
               [
                 0.512,
-                54.281,
-                1.7785
+                54.28,
+                1.778
               ],
               [
                 0.512,
-                57.093,
-                2.0725
+                57.09,
+                2.072
               ],
               [
                 0.512,
-                59.794,
+                59.79,
                 2.415
               ],
               [
                 0.512,
-                62.267,
-                1.8472
+                62.27,
+                1.847
               ],
               [
                 0.512,
@@ -1369,22 +1493,22 @@
               ],
               [
                 0.512,
-                67.325,
+                67.33,
                 0.5711
               ],
               [
                 0.512,
-                69.688,
+                69.69,
                 0.7277
               ],
               [
                 0.512,
-                72.051,
+                72.05,
                 0.8699
               ],
               [
                 0.512,
-                74.637,
+                74.64,
                 0.6826
               ],
               [
@@ -1394,7 +1518,7 @@
               ],
               [
                 0.512,
-                79.695,
+                79.69,
                 0.1955
               ],
               [
@@ -1404,7 +1528,7 @@
               ],
               [
                 0.512,
-                84.645,
+                84.64,
                 0.2829
               ],
               [
@@ -1414,177 +1538,177 @@
               ],
               [
                 0.512,
-                89.592,
+                89.59,
                 0.1514
               ],
               [
                 0.512,
-                94.763,
+                94.76,
                 0.0574
               ],
               [
                 0.512,
-                97.351,
+                97.35,
                 0.077
               ],
               [
                 0.512,
-                99.827,
+                99.83,
                 0.092
               ],
               [
                 2.084,
-                12.761,
-                9.4153
+                12.76,
+                9.415
               ],
               [
                 2.084,
-                15.573,
-                9.9047
+                15.57,
+                9.905
               ],
               [
                 2.084,
-                18.271,
-                5.9589
+                18.27,
+                5.959
               ],
               [
                 2.084,
-                26.252,
-                1.2333
+                26.25,
+                1.233
               ],
               [
                 2.084,
-                31.317,
-                3.2372
+                31.32,
+                3.237
               ],
               [
                 2.084,
-                33.791,
-                2.5753
+                33.79,
+                2.575
               ],
               [
                 2.084,
                 36.49,
-                1.8275
+                1.827
               ],
               [
                 2.084,
-                38.965,
-                2.0227
+                38.97,
+                2.023
               ],
               [
                 2.084,
-                41.553,
+                41.55,
                 2.542
               ],
               [
                 2.084,
-                44.139,
-                2.2103
+                44.14,
+                2.21
               ],
               [
                 2.084,
-                46.612,
-                1.3468
+                46.61,
+                1.347
               ],
               [
                 2.084,
-                49.086,
+                49.09,
                 0.9436
               ],
               [
                 2.084,
-                51.674,
-                1.0989
+                51.67,
+                1.099
               ],
               [
                 2.084,
-                54.373,
-                1.1128
+                54.37,
+                1.113
               ],
               [
                 2.084,
-                57.072,
+                57.07,
                 0.8308
               ],
               [
                 2.084,
-                59.658,
+                59.66,
                 0.5394
               ],
               [
                 2.084,
-                62.244,
+                62.24,
                 0.4184
               ],
               [
                 2.084,
-                64.831,
+                64.83,
                 0.4401
               ],
               [
                 2.084,
-                67.306,
+                67.31,
                 0.429
               ],
               [
                 2.084,
-                69.667,
+                69.67,
                 0.3244
               ],
               [
                 2.084,
-                72.028,
+                72.03,
                 0.2106
               ],
               [
                 2.084,
-                74.501,
+                74.5,
                 0.1457
               ],
               [
                 2.084,
-                77.089,
+                77.09,
                 0.1533
               ],
               [
                 2.084,
-                79.564,
+                79.56,
                 0.1654
               ],
               [
                 2.084,
-                82.037,
+                82.04,
                 0.1283
               ],
               [
                 2.084,
-                84.511,
+                84.51,
                 0.0983
               ],
               [
                 2.084,
-                87.097,
+                87.1,
                 0.0569
               ],
               [
                 2.084,
-                89.571,
+                89.57,
                 0.0555
               ],
               [
                 2.084,
-                94.633,
+                94.63,
                 0.0548
               ],
               [
                 2.084,
-                97.219,
+                97.22,
                 0.0414
               ],
               [
                 2.084,
-                99.692,
+                99.69,
                 0.0234
               ]
             ]
@@ -1601,12 +1725,12 @@
         {
           "SUBENT": {
             "N1": "F0822006",
-            "N2": 20070606,
+            "N2": 20251227,
             "alteration_flag": " ",
-            "transmission_identification": "F028"
+            "transmission_identification": "F107"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1637,6 +1761,21 @@
               ]
             }
           ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "nuclide": "46-PD-108",
+                "field_identifier": "ENR",
+                "value": 0.9835
+              },
+              "free_text": [
+                " Self-supporting foil",
+                "with thickness of 639 ug/cm2, which was fabricated",
+                "from isotopically enriched material."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -1645,11 +1784,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.Riech+",
+                "reference": {
+                  "code": "J,NP/A,542,61,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "542",
+                      "part": null,
+                      "issue": null,
+                      "page": "61"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
                 " Fig.4"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251227,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -1686,7 +1851,7 @@
             ],
             "heading": [
               "ANG-CM",
-              "DATA-CM"
+              "DATA"
             ],
             "unit": [
               "ADEG",
@@ -1694,59 +1859,59 @@
             ],
             "value": [
               [
-                10.187,
+                10.19,
                 1.058
               ],
               [
-                12.857,
+                12.86,
                 1.076
               ],
               [
-                15.527,
-                1.1324
+                15.53,
+                1.132
               ],
               [
-                18.075,
-                1.0943
+                18.07,
+                1.094
               ],
               [
-                20.745,
-                1.1516
+                20.75,
+                1.152
               ],
               [
-                23.294,
-                1.0573
+                23.29,
+                1.057
               ],
               [
-                25.841,
+                25.84,
                 0.7911
               ],
               [
-                28.389,
+                28.39,
                 0.6446
               ],
               [
-                30.938,
+                30.94,
                 0.602
               ],
               [
-                33.607,
+                33.61,
                 0.4741
               ],
               [
-                36.276,
+                36.28,
                 0.3313
               ],
               [
-                38.946,
+                38.95,
                 0.2746
               ],
               [
-                41.494,
+                41.49,
                 0.2437
               ],
               [
-                44.042,
+                44.04,
                 0.1952
               ],
               [
@@ -1754,43 +1919,43 @@
                 0.1341
               ],
               [
-                49.138,
+                49.14,
                 0.1112
               ],
               [
-                51.686,
+                51.69,
                 0.1021
               ],
               [
-                54.234,
+                54.23,
                 0.0906
               ],
               [
-                61.635,
+                61.63,
                 0.0399
               ],
               [
-                64.305,
+                64.31,
                 0.0399
               ],
               [
-                66.732,
+                66.73,
                 0.0325
               ],
               [
-                69.158,
+                69.16,
                 0.0216
               ],
               [
-                74.375,
+                74.38,
                 0.0141
               ],
               [
-                76.924,
+                76.92,
                 0.0151
               ],
               [
-                79.594,
+                79.59,
                 0.0127
               ],
               [
@@ -1798,23 +1963,23 @@
                 0.0084
               ],
               [
-                84.567,
+                84.57,
                 0.0055
               ],
               [
-                87.116,
+                87.12,
                 0.0051
               ],
               [
-                89.664,
+                89.66,
                 0.0054
               ],
               [
-                92.092,
+                92.09,
                 0.0052
               ],
               [
-                94.518,
+                94.52,
                 0.0037
               ],
               [
@@ -1839,12 +2004,12 @@
         {
           "SUBENT": {
             "N1": "F0822007",
-            "N2": 20070606,
+            "N2": 20251227,
             "alteration_flag": " ",
-            "transmission_identification": "F028"
+            "transmission_identification": "F107"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1875,6 +2040,21 @@
               ]
             }
           ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "nuclide": "46-PD-108",
+                "field_identifier": "ENR",
+                "value": 0.9835
+              },
+              "free_text": [
+                " Self-supporting foil",
+                "with thickness of 639 ug/cm2, which was fabricated",
+                "from isotopically enriched material."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -1883,11 +2063,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.Riech+",
+                "reference": {
+                  "code": "J,NP/A,542,61,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "542",
+                      "part": null,
+                      "issue": null,
+                      "page": "61"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
-                "Fig.8"
+                " Fig.8"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251227,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -1936,97 +2142,97 @@
             "value": [
               [
                 0.434,
-                12.885,
+                12.88,
                 52.55
               ],
               [
                 0.434,
-                15.584,
-                7.0616
+                15.58,
+                7.062
               ],
               [
                 0.434,
-                18.162,
-                21.997
+                18.16,
+                22.0
               ],
               [
                 0.434,
-                20.634,
-                7.9126
+                20.63,
+                7.913
               ],
               [
                 0.434,
-                23.101,
-                17.309
+                23.1,
+                17.31
               ],
               [
                 0.434,
-                25.793,
-                28.681
+                25.79,
+                28.68
               ],
               [
                 0.434,
-                28.376,
-                18.911
+                28.38,
+                18.91
               ],
               [
                 0.434,
-                31.071,
-                10.582
+                31.07,
+                10.58
               ],
               [
                 0.434,
-                33.651,
+                33.65,
                 15.07
               ],
               [
                 0.434,
-                36.232,
-                16.885
+                36.23,
+                16.89
               ],
               [
                 0.434,
-                38.703,
-                11.274
+                38.7,
+                11.27
               ],
               [
                 0.434,
-                41.286,
-                5.7026
+                41.29,
+                5.703
               ],
               [
                 0.434,
-                43.867,
-                5.8489
+                43.87,
+                5.849
               ],
               [
                 0.434,
-                46.448,
-                7.6251
+                46.45,
+                7.625
               ],
               [
                 0.434,
                 49.03,
-                5.6325
+                5.633
               ],
               [
                 0.434,
-                51.613,
-                2.9965
+                51.61,
+                2.997
               ],
               [
                 0.434,
-                54.195,
+                54.2,
                 2.052
               ],
               [
                 0.434,
-                61.715,
-                1.7419
+                61.72,
+                1.742
               ],
               [
                 0.434,
-                64.299,
+                64.3,
                 0.87
               ],
               [
@@ -2036,52 +2242,52 @@
               ],
               [
                 0.434,
-                69.461,
+                69.46,
                 0.9506
               ],
               [
                 0.434,
-                74.625,
+                74.63,
                 0.5666
               ],
               [
                 0.434,
-                77.096,
+                77.1,
                 0.283
               ],
               [
                 0.434,
-                79.566,
+                79.57,
                 0.2227
               ],
               [
                 0.434,
-                82.034,
+                82.03,
                 0.276
               ],
               [
                 0.434,
-                84.503,
+                84.5,
                 0.3092
               ],
               [
                 0.434,
-                87.085,
+                87.08,
                 0.2256
               ],
               [
                 0.434,
-                89.668,
+                89.67,
                 0.1311
               ],
               [
                 0.434,
-                92.139,
+                92.14,
                 0.0663
               ],
               [
                 0.434,
-                94.608,
+                94.61,
                 0.0743
               ],
               [
@@ -2096,92 +2302,92 @@
               ],
               [
                 2.047,
-                10.426,
+                10.43,
                 6.287
               ],
               [
                 2.047,
-                15.587,
-                8.6219
+                15.59,
+                8.622
               ],
               [
                 2.047,
-                18.171,
-                4.8246
+                18.17,
+                4.825
               ],
               [
                 2.047,
-                20.642,
-                2.5668
+                20.64,
+                2.567
               ],
               [
                 2.047,
-                23.227,
+                23.23,
                 0.9233
               ],
               [
                 2.047,
-                25.807,
-                1.5891
+                25.81,
+                1.589
               ],
               [
                 2.047,
-                31.079,
-                3.2231
+                31.08,
+                3.223
               ],
               [
                 2.047,
                 33.55,
-                2.1795
+                2.179
               ],
               [
                 2.047,
-                36.133,
-                1.1165
+                36.13,
+                1.117
               ],
               [
                 2.047,
-                38.713,
-                1.8269
+                38.71,
+                1.827
               ],
               [
                 2.047,
-                41.294,
-                2.0992
+                41.29,
+                2.099
               ],
               [
                 2.047,
-                43.876,
+                43.88,
                 1.631
               ],
               [
                 2.047,
-                46.459,
+                46.46,
                 0.997
               ],
               [
                 2.047,
-                49.153,
+                49.15,
                 0.8789
               ],
               [
                 2.047,
-                51.622,
+                51.62,
                 0.8901
               ],
               [
                 2.047,
-                54.204,
+                54.2,
                 0.8358
               ],
               [
                 2.047,
-                61.727,
+                61.73,
                 0.3455
               ],
               [
                 2.047,
-                64.308,
+                64.31,
                 0.3499
               ],
               [
@@ -2191,52 +2397,52 @@
               ],
               [
                 2.047,
-                69.472,
+                69.47,
                 0.2222
               ],
               [
                 2.047,
-                74.525,
+                74.53,
                 0.1259
               ],
               [
                 2.047,
-                77.106,
+                77.11,
                 0.1308
               ],
               [
                 2.047,
-                79.688,
+                79.69,
                 0.1168
               ],
               [
                 2.047,
-                82.046,
+                82.05,
                 0.0896
               ],
               [
                 2.047,
-                84.629,
+                84.63,
                 0.0576
               ],
               [
                 2.047,
-                87.099,
+                87.1,
                 0.0425
               ],
               [
                 2.047,
-                89.681,
+                89.68,
                 0.0361
               ],
               [
                 2.047,
-                92.149,
+                92.15,
                 0.0405
               ],
               [
                 2.047,
-                94.619,
+                94.62,
                 0.0335
               ],
               [
@@ -2263,12 +2469,12 @@
         {
           "SUBENT": {
             "N1": "F0822008",
-            "N2": 20070606,
+            "N2": 20251227,
             "alteration_flag": " ",
-            "transmission_identification": "F028"
+            "transmission_identification": "F107"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -2299,6 +2505,21 @@
               ]
             }
           ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "nuclide": "46-PD-110",
+                "field_identifier": "ENR",
+                "value": 0.9835
+              },
+              "free_text": [
+                " Self-supporting foil",
+                "with thickness of 530 ug/cm2, which was fabricated",
+                "from isotopically enriched material."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -2307,11 +2528,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.Riech+",
+                "reference": {
+                  "code": "J,NP/A,542,61,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "542",
+                      "part": null,
+                      "issue": null,
+                      "page": "61"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
                 " Fig.4"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251227,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -2332,7 +2579,7 @@
               "ADEG"
             ],
             "value": [
-              0.029
+              0.03
             ]
           },
           "ENDCOMMON": {
@@ -2348,7 +2595,7 @@
             ],
             "heading": [
               "ANG-CM",
-              "DATA-CM"
+              "DATA"
             ],
             "unit": [
               "ADEG",
@@ -2360,35 +2607,35 @@
                 0.9675
               ],
               [
-                15.521,
-                1.1464
+                15.52,
+                1.146
               ],
               [
-                18.069,
+                18.07,
                 1.127
               ],
               [
-                20.739,
-                1.0708
+                20.74,
+                1.071
               ],
               [
-                23.287,
+                23.29,
                 0.967
               ],
               [
-                25.835,
+                25.84,
                 0.8021
               ],
               [
-                28.383,
+                28.38,
                 0.6541
               ],
               [
-                30.931,
+                30.93,
                 0.5613
               ],
               [
-                33.601,
+                33.6,
                 0.4578
               ],
               [
@@ -2396,51 +2643,51 @@
                 0.3488
               ],
               [
-                38.939,
+                38.94,
                 0.2845
               ],
               [
-                41.487,
+                41.49,
                 0.2526
               ],
               [
-                44.035,
+                44.03,
                 0.1991
               ],
               [
-                46.583,
+                46.58,
                 0.1442
               ],
               [
-                49.131,
+                49.13,
                 0.1137
               ],
               [
-                51.679,
+                51.68,
                 0.1062
               ],
               [
-                54.227,
+                54.23,
                 0.0896
               ],
               [
-                56.775,
+                56.77,
                 0.066
               ],
               [
-                59.201,
+                59.2,
                 0.0462
               ],
               [
-                61.628,
+                61.63,
                 0.0417
               ],
               [
-                64.297,
+                64.3,
                 0.0403
               ],
               [
-                66.603,
+                66.6,
                 0.0329
               ],
               [
@@ -2448,51 +2695,51 @@
                 0.0211
               ],
               [
-                71.697,
+                71.7,
                 0.0148
               ],
               [
-                74.367,
+                74.37,
                 0.0138
               ],
               [
-                76.916,
+                76.92,
                 0.0143
               ],
               [
-                79.464,
+                79.46,
                 0.0117
               ],
               [
-                82.011,
+                82.01,
                 0.0083
               ],
               [
-                84.437,
+                84.44,
                 0.0055
               ],
               [
-                86.985,
+                86.98,
                 0.0049
               ],
               [
-                89.534,
+                89.53,
                 0.0052
               ],
               [
-                91.961,
+                91.96,
                 0.0047
               ],
               [
-                94.387,
+                94.39,
                 0.0035
               ],
               [
-                96.934,
+                96.93,
                 0.0021
               ],
               [
-                99.482,
+                99.48,
                 0.0017
               ],
               [
@@ -2541,12 +2788,12 @@
         {
           "SUBENT": {
             "N1": "F0822009",
-            "N2": 20070606,
+            "N2": 20251227,
             "alteration_flag": " ",
-            "transmission_identification": "F028"
+            "transmission_identification": "F107"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -2577,6 +2824,21 @@
               ]
             }
           ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "nuclide": "46-PD-110",
+                "field_identifier": "ENR",
+                "value": 0.9835
+              },
+              "free_text": [
+                " Self-supporting foil",
+                "with thickness of 530 ug/cm2, which was fabricated",
+                "from isotopically enriched material."
+              ]
+            }
+          ],
           "ERR-ANALYS": [
             {
               "pointer": "",
@@ -2587,7 +2849,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error from the graphic bars"
+                " No information about source of uncertainty"
               ]
             }
           ],
@@ -2599,11 +2861,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.Riech+",
+                "reference": {
+                  "code": "J,NP/A,542,61,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "542",
+                      "part": null,
+                      "issue": null,
+                      "page": "61"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
                 " Fig.9"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251227,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -2624,7 +2912,7 @@
               "ADEG"
             ],
             "value": [
-              0.015
+              0.02
             ]
           },
           "ENDCOMMON": {
@@ -2655,193 +2943,193 @@
             "value": [
               [
                 0.374,
-                15.616,
-                14.054,
+                15.62,
+                14.05,
                 null
               ],
               [
                 0.374,
-                18.325,
-                13.882,
+                18.32,
+                13.88,
                 null
               ],
               [
                 0.374,
-                20.923,
-                11.483,
+                20.92,
+                11.48,
                 null
               ],
               [
                 0.374,
-                23.517,
-                14.248,
+                23.52,
+                14.25,
                 null
               ],
               [
                 0.374,
-                26.106,
-                26.187,
+                26.11,
+                26.19,
                 null
               ],
               [
                 0.374,
-                28.706,
+                28.71,
                 18.14,
                 null
               ],
               [
                 0.374,
-                31.196,
-                9.6293,
+                31.2,
+                9.629,
                 null
               ],
               [
                 0.374,
-                33.787,
+                33.79,
                 14.45,
                 null
               ],
               [
                 0.374,
-                36.493,
-                19.102,
+                36.49,
+                19.1,
                 null
               ],
               [
                 0.374,
-                39.093,
-                12.901,
+                39.09,
+                12.9,
                 null
               ],
               [
                 0.374,
-                41.696,
-                6.8485,
+                41.7,
+                6.848,
                 null
               ],
               [
                 0.374,
-                44.065,
-                7.2988,
+                44.06,
+                7.299,
                 null
               ],
               [
                 0.374,
-                46.661,
-                7.7789,
+                46.66,
+                7.779,
                 null
               ],
               [
                 0.374,
-                49.146,
-                6.2733,
+                49.15,
+                6.273,
                 null
               ],
               [
                 0.374,
-                51.636,
-                3.3301,
+                51.64,
+                3.33,
                 null
               ],
               [
                 0.374,
-                54.235,
+                54.23,
                 2.489,
                 null
               ],
               [
                 0.374,
-                56.829,
-                2.7907,
+                56.83,
+                2.791,
                 null
               ],
               [
                 0.374,
-                59.538,
-                2.8273,
+                59.54,
+                2.827,
                 null
               ],
               [
                 0.374,
-                62.026,
-                1.8382,
+                62.03,
+                1.838,
                 null
               ],
               [
                 0.374,
-                64.515,
+                64.52,
                 0.9882,
                 null
               ],
               [
                 0.374,
-                67.112,
+                67.11,
                 0.8599,
                 null
               ],
               [
                 0.374,
-                69.593,
-                1.0806,
+                69.59,
+                1.081,
                 null
               ],
               [
                 0.374,
-                72.077,
+                72.08,
                 0.9523,
                 null
               ],
               [
                 0.374,
-                74.565,
+                74.56,
                 0.6192,
                 null
               ],
               [
                 0.374,
-                77.168,
+                77.17,
                 0.3205,
                 null
               ],
               [
                 0.374,
-                79.766,
+                79.77,
                 0.2651,
                 null
               ],
               [
                 0.374,
-                82.247,
+                82.25,
                 0.3087,
                 null
               ],
               [
                 0.374,
-                84.843,
+                84.84,
                 0.3128,
                 null
               ],
               [
                 0.374,
-                87.329,
+                87.33,
                 0.2338,
                 null
               ],
               [
                 0.374,
-                89.706,
+                89.71,
                 0.121,
                 null
               ],
               [
                 0.374,
-                92.193,
+                92.19,
                 0.0849,
                 null
               ],
               [
                 0.374,
-                94.788,
+                94.79,
                 0.0928,
                 null
               ],
@@ -2853,7 +3141,7 @@
               ],
               [
                 0.374,
-                99.868,
+                99.87,
                 0.086,
                 null
               ],
@@ -2907,73 +3195,73 @@
               ],
               [
                 2.038,
-                33.647,
-                1.4123,
+                33.65,
+                1.412,
                 null
               ],
               [
                 2.038,
-                36.245,
-                1.0695,
+                36.24,
+                1.069,
                 null
               ],
               [
                 2.038,
-                38.951,
-                1.4678,
+                38.95,
+                1.468,
                 null
               ],
               [
                 2.038,
-                41.433,
-                1.7089,
+                41.43,
+                1.709,
                 null
               ],
               [
                 2.038,
-                43.918,
-                1.3105,
+                43.92,
+                1.311,
                 null
               ],
               [
                 2.038,
-                46.406,
+                46.41,
                 0.8105,
                 null
               ],
               [
                 2.038,
-                49.116,
+                49.12,
                 0.6457,
                 null
               ],
               [
                 2.038,
-                51.485,
+                51.48,
                 0.7613,
                 null
               ],
               [
                 2.038,
-                54.082,
+                54.08,
                 0.646,
                 null
               ],
               [
                 2.038,
-                56.682,
+                56.68,
                 0.4421,
                 null
               ],
               [
                 2.038,
-                59.281,
+                59.28,
                 0.284,
                 null
               ],
               [
                 2.038,
-                61.877,
+                61.88,
                 0.3065,
                 null
               ],
@@ -2985,31 +3273,31 @@
               ],
               [
                 2.038,
-                66.957,
+                66.96,
                 0.2505,
                 null
               ],
               [
                 2.038,
-                69.444,
+                69.44,
                 0.163,
                 null
               ],
               [
                 2.038,
-                71.931,
+                71.93,
                 0.106,
                 null
               ],
               [
                 2.038,
-                74.528,
+                74.53,
                 0.0971,
                 null
               ],
               [
                 2.038,
-                77.123,
+                77.12,
                 0.1008,
                 null
               ],
@@ -3021,7 +3309,7 @@
               ],
               [
                 2.038,
-                82.093,
+                82.09,
                 0.0673,
                 null
               ],
@@ -3033,37 +3321,37 @@
               ],
               [
                 2.038,
-                87.178,
+                87.18,
                 0.0323,
                 null
               ],
               [
                 2.038,
-                89.663,
+                89.66,
                 0.0278,
                 null
               ],
               [
                 2.038,
-                92.031,
+                92.03,
                 0.0328,
                 null
               ],
               [
                 2.038,
-                94.515,
+                94.52,
                 0.0292,
                 null
               ],
               [
                 2.038,
-                97.114,
+                97.11,
                 0.0213,
                 null
               ],
               [
                 2.038,
-                99.714,
+                99.71,
                 0.013,
                 null
               ],
