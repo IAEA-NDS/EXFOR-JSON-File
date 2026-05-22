@@ -1,31 +1,43 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:43:14+0000",
+  "time_stamp": "2026-05-22T20:45:55+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "13084",
-        "N2": 20250601,
+        "N2": 20260115,
         "alteration_flag": " ",
-        "transmission_identification": "1520"
+        "transmission_identification": "1526"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "13084001",
-            "N2": 20250601,
+            "N2": 20260115,
             "alteration_flag": " ",
-            "transmission_identification": "1520"
+            "transmission_identification": "1526"
           },
           "BIB": {
             "N1": 7,
             "N2": 0
           },
-          "INSTITUTE": [
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Nuclear Charge Distribution in Fission: Fractional",
+                "Yields of Krypton and Xenon Isotopes from Thermal",
+                "Neutron Fission of U233 and Pu239 and from 14-MeV",
+                "Neutron Fission of U235 and U238"
+              ]
+            }
+          ],
+          "AUTHOR": [
             {
               "pointer": "",
               "coded_information": [
-                "1USALAS"
+                "K.Wolfsberg"
               ],
               "free_text": [
                 ""
@@ -59,30 +71,18 @@
               },
               "free_text": [
                 "",
-                "#doi:10.1103/PhysRev.137.B929"
+                "#doi:10.1103/physrev.137.B929"
               ]
             }
           ],
-          "AUTHOR": [
+          "INSTITUTE": [
             {
               "pointer": "",
               "coded_information": [
-                "K.Wolfsberg"
+                "1USALAS"
               ],
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "TITLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Nuclear charge distribution in fission: fractional",
-                "yields of krypton and xenon isotopes from thermal",
-                "neutron fission of U-233 and Pu-239 and from 14-MeV",
-                "neutron fission of U-235 and U-238"
               ]
             }
           ],
@@ -129,7 +129,7 @@
                 "history": "A"
               },
               "free_text": [
-                " DR Reference corrected to follow APS format"
+                " DR reference corrected to follow APS format"
               ]
             },
             {
@@ -140,7 +140,18 @@
               },
               "free_text": [
                 " OS. REACTION corrected in subs.5,6, Data",
-                " correction in sub.2, STATUS changed"
+                "correction in sub.2, STATUS changed."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260115,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: Corrected uncertainties in subentries",
+                "5 and 6."
               ]
             }
           ],
@@ -770,12 +781,12 @@
         {
           "SUBENT": {
             "N1": "13084005",
-            "N2": 20250601,
+            "N2": 20260115,
             "alteration_flag": " ",
-            "transmission_identification": "1520"
+            "transmission_identification": "1526"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -834,6 +845,16 @@
               ]
             }
           ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrections were made for the fissions of other",
+                "isotopes in each material."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -873,7 +894,18 @@
                 "history": "A"
               },
               "free_text": [
-                " REACTION corrected"
+                " Reaction corrected"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260115,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: Implemented unsymmetrical",
+                "uncertainties, corrected 92Kr value, added CORRECTION."
               ]
             }
           ],
@@ -902,9 +934,10 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 4,
+            "N1": 5,
             "N2": 7,
             "pointer": [
+              "",
               "",
               "",
               "",
@@ -914,9 +947,11 @@
               "ELEMENT",
               "MASS",
               "DATA",
-              "DATA-ERR"
+              "+DATA-ERR",
+              "-DATA-ERR"
             ],
             "unit": [
+              "NO-DIM",
               "NO-DIM",
               "NO-DIM",
               "NO-DIM",
@@ -927,43 +962,50 @@
                 36.0,
                 91.0,
                 0.36,
-                0.02
+                0.2,
+                0.1
               ],
               [
                 36.0,
                 92.0,
-                0.00156,
-                0.00011
+                0.156,
+                0.013,
+                0.005
               ],
               [
                 36.0,
                 93.0,
                 0.039,
-                0.004
+                0.005,
+                0.002
               ],
               [
                 54.0,
                 138.0,
                 0.75,
+                0.02,
                 0.02
               ],
               [
                 54.0,
                 139.0,
                 0.429,
+                0.009,
                 0.009
               ],
               [
                 54.0,
                 140.0,
                 0.204,
-                0.008
+                0.008,
+                0.006
               ],
               [
                 54.0,
                 141.0,
                 0.056,
-                0.004
+                0.006,
+                0.002
               ]
             ]
           },
@@ -979,12 +1021,12 @@
         {
           "SUBENT": {
             "N1": "13084006",
-            "N2": 20250601,
+            "N2": 20260115,
             "alteration_flag": " ",
-            "transmission_identification": "1520"
+            "transmission_identification": "1526"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
@@ -1043,6 +1085,16 @@
               ]
             }
           ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrections were made for the fissions of other",
+                "isotopes in each material."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -1074,6 +1126,18 @@
               ]
             }
           ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Compiler's comment: Total 238U fission yields add up",
+                "to 400%. These numbers must be treated as the",
+                "fractional cumulative yield % as written in the table",
+                "caption."
+              ]
+            }
+          ],
           "HISTORY": [
             {
               "pointer": "",
@@ -1082,7 +1146,18 @@
                 "history": "A"
               },
               "free_text": [
-                " REACTION corrected"
+                " Reaction corrected"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260115,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: Implemented unsymmetrical",
+                "uncertainties, added CORRECTION."
               ]
             }
           ],
@@ -1111,9 +1186,10 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 4,
+            "N1": 5,
             "N2": 7,
             "pointer": [
+              "",
               "",
               "",
               "",
@@ -1123,9 +1199,11 @@
               "ELEMENT",
               "MASS",
               "DATA",
-              "DATA-ERR"
+              "+DATA-ERR",
+              "-DATA-ERR"
             ],
             "unit": [
+              "NO-DIM",
               "NO-DIM",
               "NO-DIM",
               "NO-DIM",
@@ -1136,43 +1214,50 @@
                 36.0,
                 91.0,
                 0.65,
-                0.02
+                0.02,
+                0.01
               ],
               [
                 36.0,
                 92.0,
                 0.44,
-                0.02
+                0.03,
+                0.01
               ],
               [
                 36.0,
                 93.0,
                 0.164,
-                0.013
+                0.016,
+                0.005
               ],
               [
                 54.0,
                 138.0,
                 0.94,
+                0.02,
                 0.02
               ],
               [
                 54.0,
                 139.0,
                 0.805,
+                0.006,
                 0.006
               ],
               [
                 54.0,
                 140.0,
                 0.611,
-                0.012
+                0.014,
+                0.008
               ],
               [
                 54.0,
                 141.0,
                 0.29,
-                0.02
+                0.03,
+                0.01
               ]
             ]
           },

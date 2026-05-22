@@ -1,31 +1,42 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:41:49+0000",
+  "time_stamp": "2026-05-22T20:45:54+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "12970",
-        "N2": 19861006,
+        "N2": 20260311,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "1526"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "12970001",
-            "N2": 19861006,
+            "N2": 20260311,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1526"
           },
           "BIB": {
-            "N1": 13,
+            "N1": 15,
             "N2": 0
           },
-          "INSTITUTE": [
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Production of no-carrier added 67Cu"
+              ]
+            }
+          ],
+          "AUTHOR": [
             {
               "pointer": "",
               "coded_information": [
-                "1USABNL"
+                "S.Mirzadeh",
+                "L.F.Mausner",
+                "S.C.Srivastava"
               ],
               "free_text": [
                 ""
@@ -36,10 +47,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,ARI,37,29,8601",
+                "code": "J,ARI,37,29,1986",
                 "code_unit": [
                   {
-                    "unit": "J,ARI,37,29,8601",
+                    "unit": "J,ARI,37,29,1986",
                     "doi": "10.1016/0883-2889(86)90192-9",
                     "field": {
                       "reference_type": "J",
@@ -51,36 +62,54 @@
                         "issue": null,
                         "page": "29"
                       },
-                      "date": 198601
+                      "date": 1986
                     }
                   }
                 ],
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1016/0883-2889(86)90192-9"
               ]
             }
           ],
-          "AUTHOR": [
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "O",
+                "subentry_number": "C3102001",
+                "author": "S.Mirzadeh+",
+                "reference": {
+                  "code": "J,ARI,37,29,1986",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "37",
+                      "part": null,
+                      "issue": null,
+                      "page": "29"
+                    },
+                    "date": 1986
+                  }
+                }
+              },
+              "free_text": [
+                " Proton data."
+              ]
+            }
+          ],
+          "INSTITUTE": [
             {
               "pointer": "",
               "coded_information": [
-                "S.MIRZADEH",
-                "L.F.MAUSNER",
-                "S.C.SRIVASTAVA"
+                "1USABNL"
               ],
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "TITLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "PRODUCTION OF NO-CARRIER ADDED 67CU"
               ]
             }
           ],
@@ -91,10 +120,10 @@
                 "facility": [
                   "REAC"
                 ],
-                "institute": null
+                "institute": "1USABNL"
               },
               "free_text": [
-                " BNL-HIGH FLUX BEAM REACTOR,HFBR"
+                " BNL-HIgh Flux Beam Reactor, HFBR."
               ]
             }
           ],
@@ -112,6 +141,32 @@
               ]
             }
           ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "GELI"
+              ],
+              "free_text": [
+                " 50 cc detector."
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "nuclide": "30-ZN-67",
+                "field_identifier": "ENR",
+                "value": 0.932
+              },
+              "free_text": [
+                " The Zn target as 67ZnO (with",
+                "enrichment of 93.2%, obtained from ORNL) encapsulated",
+                "in a quartz tube."
+              ]
+            }
+          ],
           "METHOD": [
             {
               "pointer": "",
@@ -119,7 +174,12 @@
                 "ACTIV"
               ],
               "free_text": [
-                ""
+                " Copper-67 was produced by irradiation of 67Zn",
+                "in a nuclear reactor, in-core and core-edge, of the",
+                "BNL High Flux Beam Reactor for periods ranging from a",
+                "few hours to several days. Activities were measured",
+                "with a calibrated Ge gamma-ray detector connected to",
+                "a 4096 channel analyzer."
               ]
             }
           ],
@@ -212,23 +272,17 @@
               ]
             }
           ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "GELI"
-              ],
-              "free_text": [
-                " 50 CC DETECTOR"
-              ]
-            }
-          ],
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
               "free_text": [
-                "NO INFORMATION AVAILABLE"
+                " No information available."
               ]
             }
           ],
@@ -282,7 +336,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "NO REPLY TO AUTHOR PROOF."
+                "No reply to author proof."
               ]
             }
           ],
@@ -290,11 +344,23 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 861001,
+                "date": 19861001,
                 "history": "C"
               },
               "free_text": [
                 ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260120,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: Updated entry, changed EN-DUMMY to",
+                "            EN-MIN to reflect fast neutrons, added",
+                "            SAMPLE."
               ]
             }
           ],
@@ -350,12 +416,12 @@
         {
           "SUBENT": {
             "N1": "12970002",
-            "N2": 19861006,
+            "N2": 20260311,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1526"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -391,8 +457,51 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "THERMAL FLUX IS 1.95, FLUX GREATER THAN 1 MEV IS 3.0 IN",
-                "UNITS OF TEN TO THE 14 NEUTRONS/SEC/CM/CM"
+                "Thermal flux is 1.95, flux greater than 1 MeV is 3.0 in",
+                " units of ten to the 14 neutrons/sec/cm/cm"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "S.Mirzadeh+",
+                "reference": {
+                  "code": "J,ARI,37,29,1986",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "37",
+                      "part": null,
+                      "issue": null,
+                      "page": "29"
+                    },
+                    "date": 1986
+                  }
+                }
+              },
+              "free_text": [
+                " Table 5"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260120,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: Changed EN-DUMMY to EN-MIN to reflect",
+                "fast neutrons."
               ]
             }
           ],
@@ -413,7 +522,7 @@
               ""
             ],
             "heading": [
-              "EN-DUMMY",
+              "EN-MIN",
               "DATA",
               "DATA-ERR"
             ],
@@ -442,12 +551,12 @@
         {
           "SUBENT": {
             "N1": "12970003",
-            "N2": 19861006,
+            "N2": 20260311,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1526"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -483,8 +592,51 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "THERMAL FLUX IS 8.25, FLUX GREATER THAN 1 MEV IS .64 IN",
-                "UNITS OF TEN TO THE 14 NEUTRONS/SEC/CM/CM"
+                "Thermal flux is 8.25, flux greater than 1 MeV is .64 in",
+                " units of ten to the 14 neutrons/sec/cm/cm"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "S.Mirzadeh+",
+                "reference": {
+                  "code": "J,ARI,37,29,1986",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "37",
+                      "part": null,
+                      "issue": null,
+                      "page": "29"
+                    },
+                    "date": 1986
+                  }
+                }
+              },
+              "free_text": [
+                " Table 5"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260120,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: Changed EN-DUMMY to EN-MIN to reflect",
+                "fast neutrons."
               ]
             }
           ],
@@ -505,7 +657,7 @@
               ""
             ],
             "heading": [
-              "EN-DUMMY",
+              "EN-MIN",
               "DATA",
               "DATA-ERR"
             ],

@@ -1,31 +1,52 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:55:54+0000",
+  "time_stamp": "2026-05-22T20:45:55+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "13997",
-        "N2": 20050518,
+        "N2": 20260121,
         "alteration_flag": " ",
-        "transmission_identification": "1340"
+        "transmission_identification": "1526"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "13997001",
-            "N2": 20050518,
+            "N2": 20260121,
             "alteration_flag": " ",
-            "transmission_identification": "1340"
+            "transmission_identification": "1526"
           },
           "BIB": {
             "N1": 9,
             "N2": 0
           },
-          "INSTITUTE": [
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "48Ti(n,xnp alpha gamma) reaction cross sections",
+                "using spallation neutrons for En=1-20 MeV"
+              ]
+            }
+          ],
+          "AUTHOR": [
             {
               "pointer": "",
               "coded_information": [
-                "1USALRL"
+                "D.Dashdorj",
+                "G.E.Mitchell",
+                "P.E.Garrett",
+                "U.Agvaanluvsan",
+                "J.A.Becker",
+                "L.A.Bernstein",
+                "J.R.Cooper",
+                "R.D.Hoffman",
+                "W.Younes",
+                "N.Devlin",
+                "N.Fotiades",
+                "R.O.Nelson"
               ],
               "free_text": [
                 ""
@@ -36,10 +57,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "R,UCRL-TR-209474,,2005",
+                "code": "R,UCRL-TR-209474,2005",
                 "code_unit": [
                   {
-                    "unit": "R,UCRL-TR-209474,,2005",
+                    "unit": "R,UCRL-TR-209474,2005",
                     "doi": null,
                     "field": {
                       "reference_type": "R",
@@ -49,7 +70,7 @@
                         "volume": null,
                         "part": null,
                         "issue": null,
-                        "page": ""
+                        "page": null
                       },
                       "date": 2005
                     }
@@ -86,39 +107,19 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1063/1.1945183"
               ]
             }
           ],
-          "AUTHOR": [
+          "INSTITUTE": [
             {
               "pointer": "",
               "coded_information": [
-                "D.Dashdorj",
-                "G.E.Mitchell",
-                "P.E.Garrett",
-                "U.Agvaanluvsan",
-                "J.A.Becker",
-                "L.A.Bernstein",
-                "J.R.Cooper",
-                "R.D.Hoffman",
-                "W.Younes",
-                "N.Devlin",
-                "N.Fotiades",
-                "R.O.Nelson"
+                "1USALRL"
               ],
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "TITLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "48Ti (n,xnp alpha gamma) reaction cross sections using",
-                " spallation neutrons for En=1-20 MeV"
               ]
             }
           ],
@@ -143,7 +144,7 @@
                 "GE-IN"
               ],
               "free_text": [
-                " Geanie detector array, 11 Compton-suppressed",
+                " GEANIE detector array, 11 Compton-suppressed",
                 " planar germanium detectors and 14 coaxial Ge",
                 " detectors (9 Compton-suppressed and 5 unsuppressed)."
               ]
@@ -163,10 +164,14 @@
           "SAMPLE": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "nuclide": "22-TI-48",
+                "field_identifier": "ENR",
+                "value": 0.9981
+              },
               "free_text": [
-                "3.3 grams of TiO2 in form of disks, 2.4 cm diameter,",
-                " enriched to 99.81 % in 48Ti"
+                " 3.3 grams of TiO2 in form of",
+                "disks, 2.4 cm diameter, enriched to 99.81 % in 48Ti"
               ]
             }
           ],
@@ -200,6 +205,18 @@
               "free_text": [
                 " DR Page corrected for second reference"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260121,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: This entry was superseded by the entry",
+                "            #14162 after consultation with Prof. L.A.",
+                "            Bernstein."
+              ]
             }
           ],
           "ENDBIB": {
@@ -218,12 +235,12 @@
         {
           "SUBENT": {
             "N1": "13997002",
-            "N2": 20050518,
+            "N2": 20260121,
             "alteration_flag": " ",
-            "transmission_identification": "1335"
+            "transmission_identification": "1526"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -258,7 +275,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
+                "heading": "ERR-T",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
@@ -283,9 +300,114 @@
           "STATUS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "D.Dashdorj+",
+                "reference": {
+                  "code": "R,UCRL-TR-209474,2005",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "UCRL-TR-",
+                      "number": "209474",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 2005
+                  }
+                }
+              },
               "free_text": [
-                "Data taken from Tables 8 to 73"
+                " Tables 8-73"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "14162002",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "14162003",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "14162004",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "14162005",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "14162120",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260121,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: This subentry was superseded by the",
+                "           entry #14162 after consultation with",
+                "           Prof. L.A.Bernstein."
               ]
             }
           ],
@@ -314,7 +436,7 @@
               "EN-ERR",
               "DATA",
               "ERR-S",
-              "DATA-ERR"
+              "ERR-T"
             ],
             "unit": [
               "KEV",
@@ -33307,12 +33429,12 @@
         {
           "SUBENT": {
             "N1": "13997003",
-            "N2": 20050518,
+            "N2": 20260121,
             "alteration_flag": " ",
-            "transmission_identification": "1335"
+            "transmission_identification": "1526"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -33347,7 +33469,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
+                "heading": "ERR-T",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
@@ -33372,9 +33494,100 @@
           "STATUS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "D.Dashdorj+",
+                "reference": {
+                  "code": "R,UCRL-TR-209474,2005",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "UCRL-TR-",
+                      "number": "209474",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 2005
+                  }
+                }
+              },
               "free_text": [
-                "Data taken from Tables 74 to 93"
+                " Tables 74-93"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "14162006",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "14162007",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "14162008",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "14162121",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260121,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: This subentry was superseded by the",
+                "           entry #14162 after consultation with",
+                "           Prof. L.A.Bernstein."
               ]
             }
           ],
@@ -33403,7 +33616,7 @@
               "EN-ERR",
               "DATA",
               "ERR-S",
-              "DATA-ERR"
+              "ERR-T"
             ],
             "unit": [
               "KEV",
@@ -34628,12 +34841,12 @@
         {
           "SUBENT": {
             "N1": "13997004",
-            "N2": 20050518,
+            "N2": 20260121,
             "alteration_flag": " ",
-            "transmission_identification": "1335"
+            "transmission_identification": "1526"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -34668,7 +34881,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
+                "heading": "ERR-T",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
@@ -34693,9 +34906,114 @@
           "STATUS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "D.Dashdorj+",
+                "reference": {
+                  "code": "R,UCRL-TR-209474,2005",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "UCRL-TR-",
+                      "number": "209474",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 2005
+                  }
+                }
+              },
               "free_text": [
-                "Data taken from Tables 94 to 98"
+                " Tables 94-98"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "14162014",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "14162015",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "14162016",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "14162017",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "14162122",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260121,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: This subentry was superseded by the",
+                "           entry #14162 after consultation with",
+                "           Prof. L.A.Bernstein."
               ]
             }
           ],
@@ -34724,7 +35042,7 @@
               "EN-ERR",
               "DATA",
               "ERR-S",
-              "DATA-ERR"
+              "ERR-T"
             ],
             "unit": [
               "KEV",
@@ -36989,12 +37307,12 @@
         {
           "SUBENT": {
             "N1": "13997005",
-            "N2": 20050518,
+            "N2": 20260121,
             "alteration_flag": " ",
-            "transmission_identification": "1335"
+            "transmission_identification": "1526"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -37029,7 +37347,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
+                "heading": "ERR-T",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
@@ -37054,9 +37372,58 @@
           "STATUS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "D.Dashdorj+",
+                "reference": {
+                  "code": "R,UCRL-TR-209474,2005",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "UCRL-TR-",
+                      "number": "209474",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 2005
+                  }
+                }
+              },
               "free_text": [
-                "Data taken from Table 99"
+                " Table - 99"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "14162119",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260121,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: This subentry was superseded by the",
+                "           entry #14162 after consultation with",
+                "           Prof. L.A.Bernstein."
               ]
             }
           ],
@@ -37099,7 +37466,7 @@
               "EN-ERR",
               "DATA",
               "ERR-S",
-              "DATA-ERR"
+              "ERR-T"
             ],
             "unit": [
               "MEV",
