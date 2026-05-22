@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:27:50+0000",
+  "time_stamp": "2026-05-22T21:06:52+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "11645",
-        "N2": 19840731,
+        "N2": 20260219,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "1527"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "11645001",
-            "N2": 19840731,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 9,
+            "N1": 12,
             "N2": 0
           },
           "INSTITUTE": [
@@ -36,10 +36,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,PR,121,1438,6103",
+                "code": "J,PR,121,1438,1961",
                 "code_unit": [
                   {
-                    "unit": "J,PR,121,1438,6103",
+                    "unit": "J,PR,121,1438,1961",
                     "doi": "10.1103/PhysRev.121.1438",
                     "field": {
                       "reference_type": "J",
@@ -51,14 +51,15 @@
                         "issue": null,
                         "page": "1438"
                       },
-                      "date": 196103
+                      "date": 1961
                     }
                   }
                 ],
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1103/PhysRev.121.1438"
               ]
             }
           ],
@@ -66,8 +67,8 @@
             {
               "pointer": "",
               "coded_information": [
-                "R.J.PRESTWOOD",
-                "B.P.BAYHURST"
+                "R.J.Prestwood",
+                "B.P.Bayhurst"
               ],
               "free_text": [
                 ""
@@ -79,8 +80,34 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                " (N,2N) EXCITATION FUNCTIONS OF SEVERAL NUCLEI FROM",
-                "12.0 TO 19.8 MEV."
+                " (n,2n) excitation functions of several nuclei from",
+                "12.0 to 19.8 MeV."
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "CCW"
+                ],
+                "institute": "1USALAS"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "VDG"
+                ],
+                "institute": "1USALAS"
+              },
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -94,7 +121,7 @@
                 "reaction": null
               },
               "free_text": [
-                " T(D,N) SOURCE"
+                " T(d,n) source"
               ]
             }
           ],
@@ -136,9 +163,51 @@
                 }
               },
               "free_text": [
-                "",
-                " U-238 FISSION OF SMITH,B.AM.PHY.SOC.2,",
-                " 196,(1957)."
+                ""
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": "12316001",
+                "author": "R.K.Smith+",
+                "reference": {
+                  "code": "J,BAP,2,196(K4),1957",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAP",
+                      "number": null,
+                      "volume": "2",
+                      "part": null,
+                      "issue": null,
+                      "page": "196(K4)",
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 1957
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Combination of absolute and relative errors"
               ]
             }
           ],
@@ -147,14 +216,28 @@
               "pointer": "",
               "coded_information": {
                 "status": [
-                  "SCSRS"
+                  "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "R.J.Prestwood+",
+                "reference": {
+                  "code": "J,PR,121,1438,1961",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "121",
+                      "part": null,
+                      "issue": null,
+                      "page": "1438"
+                    },
+                    "date": 1961
+                  }
+                }
               },
               "free_text": [
-                ""
+                " Table 1"
               ]
             }
           ],
@@ -162,31 +245,43 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 760730,
+                "date": 19760730,
                 "history": "T"
               },
               "free_text": [
-                " TRANSLATED FROM SCISRS"
+                " Translated from SCISRS"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "date": 830829,
+                "date": 19830829,
                 "history": "A"
               },
               "free_text": [
-                " CONVERTED TO REACTION FORMALISM"
+                " Converted to reaction formalism"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "date": 840731,
+                "date": 19840731,
                 "history": "A"
               },
               "free_text": [
-                " BIB CORRECTIONS."
+                " BIB corrections."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260203,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. DECAY-DATA modified in subs.2,16,17,20,",
+                " STATUS updated, MONIT-REF, FACILITY, ERR-ANALYS added,",
+                " converted to lower and upper case"
               ]
             }
           ],
@@ -206,12 +301,12 @@
         {
           "SUBENT": {
             "N1": "11645002",
-            "N2": 19830829,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -247,7 +342,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "21-SC-44-M1",
+                "nuclide": "21-SC-44-M",
                 "half-life": {
                   "value": 2.44,
                   "unit": "D"
@@ -264,6 +359,18 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260203,
+                "history": "U"
+              },
+              "free_text": [
+                " DECAY-DATA: M1 -> M"
               ]
             }
           ],
@@ -2118,9 +2225,9 @@
         {
           "SUBENT": {
             "N1": "11645013",
-            "N2": 19830829,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
             "N1": 2,
@@ -2175,8 +2282,8 @@
                 ]
               },
               "free_text": [
-                " GAMMA EFFICIENCY UNKNOWN",
-                "Y-88 HALF-LIFE = 104 DAYS TAKEN FROM REV.MOD.PHYS.30,",
+                " Gamma efficiency unknown",
+                "Y-88 half-life = 104 days taken from Rev.Mod.Phys.30,",
                 " 585 (1958)."
               ]
             }
@@ -2516,9 +2623,9 @@
         {
           "SUBENT": {
             "N1": "11645015",
-            "N2": 19840731,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
             "N1": 2,
@@ -2573,8 +2680,8 @@
                 ]
               },
               "free_text": [
-                " GAMMA EFFICIENCIES UNKNOWN",
-                "NB-92 HALF-LIFE = 10.1 DAYS TAKEN FROM REV.MOD.PHYS.30,",
+                " Gamma efficiencies unknown",
+                "Nb-92 half-life = 10.1 days taken from Rev.Mod.Phys.30,",
                 " 585 (1958)."
               ]
             }
@@ -2683,12 +2790,12 @@
         {
           "SUBENT": {
             "N1": "11645016",
-            "N2": 19830829,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -2724,7 +2831,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "47-AG-106-M1",
+                "nuclide": "47-AG-106-M",
                 "half-life": {
                   "value": 8.2,
                   "unit": "D"
@@ -2741,7 +2848,19 @@
               },
               "free_text": [
                 "",
-                " HALF-LIVES TAKEN FROM REV.MOD.PHYS.30,585(1958)"
+                " Half-lives taken from Rev.Mod.Phys.30,585(1958)"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260203,
+                "history": "U"
+              },
+              "free_text": [
+                " DECAY-DATA: M1 -> M"
               ]
             }
           ],
@@ -2879,12 +2998,12 @@
         {
           "SUBENT": {
             "N1": "11645017",
-            "N2": 19830829,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -2920,7 +3039,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "48-CD-115-M1",
+                "nuclide": "48-CD-115-M",
                 "half-life": {
                   "value": 43.0,
                   "unit": "D"
@@ -2937,6 +3056,18 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260203,
+                "history": "U"
+              },
+              "free_text": [
+                " DECAY-DATA: M1 -> M"
               ]
             }
           ],
@@ -3245,9 +3376,9 @@
         {
           "SUBENT": {
             "N1": "11645019",
-            "N2": 19830829,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
             "N1": 2,
@@ -3293,7 +3424,7 @@
                 "reference": null
               },
               "free_text": [
-                "  SUM OF MEASURED VALUES FOR GROUND"
+                "  Sum of measured values for ground"
               ]
             },
             {
@@ -3307,7 +3438,7 @@
                 "reference": null
               },
               "free_text": [
-                "   AND METASTABLE STATES."
+                "   and metastable states."
               ]
             }
           ],
@@ -3433,12 +3564,12 @@
         {
           "SUBENT": {
             "N1": "11645020",
-            "N2": 19830829,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -3474,7 +3605,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "49-IN-114-M1",
+                "nuclide": "49-IN-114-M",
                 "half-life": {
                   "value": 50.0,
                   "unit": "D"
@@ -3491,6 +3622,18 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260203,
+                "history": "U"
+              },
+              "free_text": [
+                " DECAY-DATA: M1 -> M"
               ]
             }
           ],
@@ -3622,12 +3765,12 @@
         {
           "SUBENT": {
             "N1": "11645021",
-            "N2": 19830829,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -3663,7 +3806,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "49-IN-111",
+                "nuclide": "49-IN-111-G",
                 "half-life": {
                   "value": 2.81,
                   "unit": "D"
@@ -3679,9 +3822,21 @@
                 ]
               },
               "free_text": [
-                " GAMMA EFFICIENCIES UNKNOWN",
-                "IN-111 HALF-LIFE =2.81 DAYS TAKEN FROM REV.MOD.PHYS.30,",
+                " Gamma efficiencies unknown",
+                "In-111 half-life =2.81 days taken from Rev.Mod.Phys.30,",
                 " 585 (1958)."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260203,
+                "history": "U"
+              },
+              "free_text": [
+                " DECAY-DATA: -G added"
               ]
             }
           ],
@@ -3807,12 +3962,12 @@
         {
           "SUBENT": {
             "N1": "11645022",
-            "N2": 19830829,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -3848,7 +4003,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "51-SB-120",
+                "nuclide": "51-SB-120-M",
                 "half-life": {
                   "value": 5.8,
                   "unit": "D"
@@ -3864,8 +4019,20 @@
                 ]
               },
               "free_text": [
-                "  GAMMA EFFICIENCIES UNKNOWN",
-                " HALF-LIVES TAKEN FROM REV.MOD.PHYS.30,585(1958)"
+                "  Gamma efficiencies unknown",
+                " Half-lives taken from Rev.Mod.Phys.30,585(1958)"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260203,
+                "history": "A"
+              },
+              "free_text": [
+                " DECAY-DATA: -M added"
               ]
             }
           ],
@@ -4003,12 +4170,12 @@
         {
           "SUBENT": {
             "N1": "11645023",
-            "N2": 19830829,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -4044,7 +4211,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "51-SB-122",
+                "nuclide": "51-SB-122-G",
                 "half-life": {
                   "value": 2.8,
                   "unit": "D"
@@ -4060,9 +4227,21 @@
                 ]
               },
               "free_text": [
-                " GAMMA EFFICIENCIES UNKNOWN",
-                "SB-122 HALF-LIFE = 2.80 DAYS TAKEN FROM REV.MOD.PHYS.",
+                " Gamma efficiencies unknown",
+                "Sb-122 half-life = 2.80 days taken from Rev.Mod.Phys.",
                 " 30,585 (1958)."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260203,
+                "history": "U"
+              },
+              "free_text": [
+                " DECAY-DATA: -G added"
               ]
             }
           ],
@@ -4200,9 +4379,9 @@
         {
           "SUBENT": {
             "N1": "11645024",
-            "N2": 19860818,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
             "N1": 3,
@@ -4265,11 +4444,11 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 860818,
+                "date": 19860818,
                 "history": "A"
               },
               "free_text": [
-                " REACTION CORRECTED."
+                " Reaction corrected."
               ]
             }
           ],
@@ -4365,9 +4544,9 @@
         {
           "SUBENT": {
             "N1": "11645025",
-            "N2": 19860818,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
             "N1": 3,
@@ -4430,11 +4609,11 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 860818,
+                "date": 19860818,
                 "history": "A"
               },
               "free_text": [
-                " REACTION CORRECTED."
+                " Reaction corrected."
               ]
             }
           ],

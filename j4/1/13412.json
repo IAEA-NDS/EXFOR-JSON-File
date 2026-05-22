@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:46:00+0000",
+  "time_stamp": "2026-05-22T21:06:59+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "13412",
-        "N2": 19891220,
+        "N2": 20260219,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "1527"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "13412001",
-            "N2": 19891220,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 7,
+            "N1": 8,
             "N2": 0
           },
           "INSTITUTE": [
@@ -36,10 +36,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "B,RCS,2,905(128),51",
+                "code": "B,RCS,2,905,1951",
                 "code_unit": [
                   {
-                    "unit": "B,RCS,2,905(128),51",
+                    "unit": "B,RCS,2,905,1951",
                     "doi": null,
                     "field": {
                       "reference_type": "B",
@@ -49,7 +49,7 @@
                         "volume": "2",
                         "part": null,
                         "issue": null,
-                        "page": "905(128)"
+                        "page": "905"
                       },
                       "date": 1951
                     }
@@ -64,10 +64,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "P,CC-2310,140,4501",
+                "code": "P,CC-2310,140,1945",
                 "code_unit": [
                   {
-                    "unit": "P,CC-2310,140,4501",
+                    "unit": "P,CC-2310,140,1945",
                     "doi": null,
                     "field": {
                       "reference_type": "P",
@@ -79,7 +79,7 @@
                         "issue": null,
                         "page": "140"
                       },
-                      "date": 194501
+                      "date": 1945
                     }
                   }
                 ],
@@ -94,7 +94,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "R.P.METCALF"
+                "R.P.Metcalf"
               ],
               "free_text": [
                 ""
@@ -106,8 +106,22 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "CD117 AND IN117; HALF-LIVES, RADIATIONS, AND FISSION",
-                " YIELD"
+                "Cd117 and In117; half-lives, radiations, and fission",
+                " yield"
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": "1USAANL"
+              },
+              "free_text": [
+                " Heavy Water Pile"
               ]
             }
           ],
@@ -115,7 +129,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "RCHEM"
+                "CHSEP"
               ],
               "free_text": [
                 ""
@@ -127,14 +141,28 @@
               "pointer": "",
               "coded_information": {
                 "status": [
-                  "RIDER"
+                  "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "R.P.Metcalf",
+                "reference": {
+                  "code": "B,RCS,2,905,1951",
+                  "field": {
+                    "reference_type": "B",
+                    "reference": {
+                      "code": "RCS",
+                      "number": null,
+                      "volume": "2",
+                      "part": null,
+                      "issue": null,
+                      "page": "905"
+                    },
+                    "date": 1951
+                  }
+                }
               },
               "free_text": [
-                ""
+                "  p.905"
               ]
             }
           ],
@@ -142,11 +170,22 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 891226,
+                "date": 19891226,
                 "history": "C"
               },
               "free_text": [
                 " VM"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260217,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. STATUS updated, minor BIB updates,",
+                " converted to lower and upper case"
               ]
             }
           ],

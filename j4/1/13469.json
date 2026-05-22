@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:46:28+0000",
+  "time_stamp": "2026-05-22T21:07:00+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "13469",
-        "N2": 20180411,
+        "N2": 20260219,
         "alteration_flag": " ",
-        "transmission_identification": "1440"
+        "transmission_identification": "1527"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "13469001",
-            "N2": 20180411,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "1440"
+            "transmission_identification": "1527"
           },
           "BIB": {
             "N1": 11,
@@ -150,10 +150,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "W.J.Maeck",
+                "reference": {
+                  "code": "R,ICP-1050-II,1977",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "ICP-",
+                      "number": "1050-II",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1977
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data taken from the report."
               ]
             }
@@ -177,8 +192,18 @@
               },
               "free_text": [
                 " BP: Updated to new date formats,lower case.",
-                "     corrections according last EXFOR rules and Dict.",
+                "     Corrections according last EXFOR rules and Dict.",
                 "           Updated samples."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260218,
+                "history": "U"
+              },
+              "free_text": [
+                " OS. Correction in sub.4"
               ]
             }
           ],
@@ -1122,12 +1147,12 @@
         {
           "SUBENT": {
             "N1": "13469004",
-            "N2": 20180411,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "1440"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -1172,13 +1197,21 @@
           "SAMPLE": [
             {
               "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Enriched 241Pu oxide samples.",
+                "238Pu (<0.009%)"
+              ]
+            },
+            {
+              "pointer": "",
               "coded_information": {
                 "nuclide": "94-PU-239",
                 "field_identifier": "ENR",
                 "value": 0.00062
               },
               "free_text": [
-                " Enriched 241Pu oxide samples."
+                ""
               ]
             },
             {
@@ -1195,7 +1228,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "nuclide": "954-PU-241",
+                "nuclide": "94-PU-241",
                 "field_identifier": "ENR",
                 "value": 0.94636
               },
@@ -1211,8 +1244,7 @@
                 "value": 0.0152
               },
               "free_text": [
-                "",
-                "238Pu (<0.009%)"
+                ""
               ]
             }
           ],
@@ -1237,6 +1269,18 @@
                 "     111 = 0.57+-0.10",
                 "     112 = 0.29+-0.05",
                 " 113-119 = 0.38+-0.09"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260218,
+                "history": "U"
+              },
+              "free_text": [
+                " Correction in SAMPLE code"
               ]
             }
           ],

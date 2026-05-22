@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:31:23+0000",
+  "time_stamp": "2026-05-22T21:06:54+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "12067",
-        "N2": 19830802,
+        "N2": 20260219,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "1527"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "12067001",
-            "N2": 19830802,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
             "N1": 9,
@@ -36,10 +36,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,PR,76,300,4907",
+                "code": "J,PR,76,300(1),1949",
                 "code_unit": [
                   {
-                    "unit": "J,PR,76,300,4907",
+                    "unit": "J,PR,76,300(1),1949",
                     "doi": null,
                     "field": {
                       "reference_type": "J",
@@ -49,9 +49,9 @@
                         "volume": "76",
                         "part": null,
                         "issue": null,
-                        "page": "300"
+                        "page": "300(1)"
                       },
-                      "date": 194907
+                      "date": 1949
                     }
                   }
                 ],
@@ -66,8 +66,8 @@
             {
               "pointer": "",
               "coded_information": [
-                "D.C.HESS",
-                "M.G.INGHRAM"
+                "D.C.Hess Jr",
+                "M.G.Inghram"
               ],
               "free_text": [
                 ""
@@ -79,7 +79,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "SLOW NEUTRON CROSS SECTIONS OF THE NEODYMIUM ISOTOPES."
+                "Slow neutron cross sections of the neodymium isotopes."
               ]
             }
           ],
@@ -88,7 +88,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "REACTOR SPECTRUM"
+                "Reactor spectrum"
               ]
             }
           ],
@@ -99,10 +99,10 @@
                 "facility": [
                   "SPECM"
                 ],
-                "institute": null
+                "institute": "1USAANL"
               },
               "free_text": [
-                " MASS SPECTROMETER"
+                " Mass spectrometer"
               ]
             }
           ],
@@ -142,14 +142,28 @@
               "pointer": "",
               "coded_information": {
                 "status": [
-                  "SCSRS"
+                  "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "D.C.Hess Jr+",
+                "reference": {
+                  "code": "J,PR,76,300(1),1949",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "76",
+                      "part": null,
+                      "issue": null,
+                      "page": "300(1)"
+                    },
+                    "date": 1949
+                  }
+                }
               },
               "free_text": [
-                ""
+                " Table I"
               ]
             }
           ],
@@ -157,21 +171,32 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 760802,
+                "date": 19760802,
                 "history": "T"
               },
               "free_text": [
-                " TRANSLATED FROM SCISRS"
+                " Translated from SCISRS"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "date": 830802,
+                "date": 19830802,
                 "history": "A"
               },
               "free_text": [
-                " CONVERTED TO REACTION FORMALISM"
+                " Converted to reaction formalism"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260208,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. Correction in sub.2, STATUS, REFERENCE",
+                "updated, BIB changes, converted to lower and upper case"
               ]
             }
           ],
@@ -207,12 +232,12 @@
         {
           "SUBENT": {
             "N1": "12067002",
-            "N2": 19830802,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -240,6 +265,32 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No Information on Sources of uncertainty"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260208,
+                "history": "A"
+              },
+              "free_text": [
+                " ERR-ANALYS added"
               ]
             }
           ],

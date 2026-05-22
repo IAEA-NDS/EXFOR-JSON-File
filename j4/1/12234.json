@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:33:00+0000",
+  "time_stamp": "2026-05-22T21:06:54+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "12234",
-        "N2": 19840821,
+        "N2": 20260219,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "1527"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "12234001",
-            "N2": 19840821,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "INSTITUTE": [
@@ -36,10 +36,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "P,WASH-745,7,5711",
+                "code": "P,WASH-745,7,1958",
                 "code_unit": [
                   {
-                    "unit": "P,WASH-745,7,5711",
+                    "unit": "P,WASH-745,7,1958",
                     "doi": null,
                     "field": {
                       "reference_type": "P",
@@ -51,7 +51,7 @@
                         "issue": null,
                         "page": "7"
                       },
-                      "date": 195711
+                      "date": 1958
                     }
                   }
                 ],
@@ -66,9 +66,9 @@
             {
               "pointer": "",
               "coded_information": [
-                "C.KIMBALL",
-                "J.E.MONAHAN",
-                "F.P.MOORING"
+                "C.Kimball",
+                "J.E.Monahan",
+                "F.P.Mooring"
               ],
               "free_text": [
                 ""
@@ -80,8 +80,22 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "A NEW METHOD FOR MEASURING ABSORPTION CROSS SECTIONS",
-                " FOR FAST NEUTRONS."
+                "a new method for measuring absorption cross sections",
+                " for fast neutrons."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No Information on Sources of uncertainty"
               ]
             }
           ],
@@ -90,14 +104,28 @@
               "pointer": "",
               "coded_information": {
                 "status": [
-                  "SCSRS"
+                  "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "C.Kimball+",
+                "reference": {
+                  "code": "P,WASH-745,7,1958",
+                  "field": {
+                    "reference_type": "P",
+                    "reference": {
+                      "code": "WASH-",
+                      "number": "745",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "7"
+                    },
+                    "date": 1958
+                  }
+                }
               },
               "free_text": [
-                ""
+                "  p.7"
               ]
             }
           ],
@@ -105,21 +133,32 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 760803,
+                "date": 19760803,
                 "history": "T"
               },
               "free_text": [
-                " TRANSLATED FROM SCISRS"
+                " Translated from SCISRS"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "date": 840821,
+                "date": 19840821,
                 "history": "A"
               },
               "free_text": [
-                " CONVERTED TO REACTION FORMALISM"
+                " Converted to reaction formalism"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260208,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. REFERENCE date, STATUS changed,",
+                " ERR-ANALYS added, converted to lower and upper case"
               ]
             }
           ],

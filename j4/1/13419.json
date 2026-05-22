@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:46:02+0000",
+  "time_stamp": "2026-05-22T21:06:59+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "13419",
-        "N2": 19891220,
+        "N2": 20260219,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "1527"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "13419001",
-            "N2": 19891220,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 7,
+            "N1": 8,
             "N2": 0
           },
           "INSTITUTE": [
@@ -36,10 +36,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "B,RCS,2,1139(170),51",
+                "code": "B,RCS,2,1139,1951",
                 "code_unit": [
                   {
-                    "unit": "B,RCS,2,1139(170),51",
+                    "unit": "B,RCS,2,1139,1951",
                     "doi": null,
                     "field": {
                       "reference_type": "B",
@@ -49,7 +49,7 @@
                         "volume": "2",
                         "part": null,
                         "issue": null,
-                        "page": "1139(170)"
+                        "page": "1139"
                       },
                       "date": 1951
                     }
@@ -64,10 +64,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "P,CC-2310,201,4501",
+                "code": "P,CC-2310,201,1945",
                 "code_unit": [
                   {
-                    "unit": "P,CC-2310,201,4501",
+                    "unit": "P,CC-2310,201,1945",
                     "doi": null,
                     "field": {
                       "reference_type": "P",
@@ -79,7 +79,7 @@
                         "issue": null,
                         "page": "201"
                       },
-                      "date": 194501
+                      "date": 1945
                     }
                   }
                 ],
@@ -94,7 +94,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "N.SUGARMAN"
+                "N.Sugarman"
               ],
               "free_text": [
                 ""
@@ -106,7 +106,21 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "INDEPENDENT FISSION YIELD OF 40H LA140 IN FISSION"
+                "Independent fission yield of 40H LA140 in fission"
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": "1USAORL"
+              },
+              "free_text": [
+                " Clinton pile"
               ]
             }
           ],
@@ -114,7 +128,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "RCHEM"
+                "CHSEP"
               ],
               "free_text": [
                 ""
@@ -126,14 +140,28 @@
               "pointer": "",
               "coded_information": {
                 "status": [
-                  "RIDER"
+                  "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "N.Sugarman",
+                "reference": {
+                  "code": "B,RCS,2,1139,1951",
+                  "field": {
+                    "reference_type": "B",
+                    "reference": {
+                      "code": "RCS",
+                      "number": null,
+                      "volume": "2",
+                      "part": null,
+                      "issue": null,
+                      "page": "1139"
+                    },
+                    "date": 1951
+                  }
+                }
               },
               "free_text": [
-                ""
+                "  p.1143"
               ]
             }
           ],
@@ -141,11 +169,22 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 891226,
+                "date": 19891226,
                 "history": "C"
               },
               "free_text": [
                 " VM"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260218,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. STATUS updated, FACILITY added, minor",
+                " BIB updates, converted to lower and upper case"
               ]
             }
           ],

@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:36:21+0000",
+  "time_stamp": "2026-05-22T21:06:55+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "12634",
-        "N2": 20050714,
+        "N2": 20260219,
         "alteration_flag": " ",
-        "transmission_identification": "1336"
+        "transmission_identification": "1527"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "12634001",
-            "N2": 20050714,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "1336"
+            "transmission_identification": "1527"
           },
           "BIB": {
             "N1": 11,
@@ -58,7 +58,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1103/PhysRev.48.265"
               ]
             }
           ],
@@ -129,20 +130,47 @@
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": 10.0,
+                "maximum_value": 25.0,
+                "correlation_property": null
+              },
               "free_text": [
-                "Errors are of the order of 10 percent for lower",
-                "cross sections and about 25 percent for the larger",
-                "cross sections."
+                " Errors are of the order of 10% for",
+                "lower cross sections and about 25% for the larger cross",
+                "sections."
               ]
             }
           ],
           "STATUS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "J.R.Dunning+",
+                "reference": {
+                  "code": "J,PR,48,265,1935",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": null,
+                      "page": "265"
+                    },
+                    "date": 1935
+                  }
+                }
+              },
               "free_text": [
-                "Data taken from Table IV of the journal article."
+                "",
+                " Data taken from Table IV of the journal article"
               ]
             }
           ],
@@ -175,6 +203,17 @@
               },
               "free_text": [
                 " DR Format updated and reference corrected"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260209,
+                "history": "A"
+              },
+              "free_text": [
+                " Correction in subs.43,46,63,69,71,",
+                " ERR-ANALYS updated, BIB updates"
               ]
             }
           ],
@@ -3794,22 +3833,22 @@
         {
           "SUBENT": {
             "N1": "12634043",
-            "N2": 19840531,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "1336"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "50-SN-0(N,TOT),,SIG,,MXW",
+                "code": "50-SN-0(N,TOT),,SIG,,SPA",
                 "code_unit": [
                   {
-                    "unit": "50-SN-0(N,TOT),,SIG,,MXW",
+                    "unit": "50-SN-0(N,TOT),,SIG,,SPA",
                     "field": {
                       "reaction": "50-SN-0(N,TOT)",
                       "target": "50-SN-0",
@@ -3818,7 +3857,7 @@
                       "product": "",
                       "quantity": ",SIG",
                       "data_type": null,
-                      "general_quantity_modifier": "MXW",
+                      "general_quantity_modifier": "SPA",
                       "quantity_236": ",SIG"
                     }
                   }
@@ -3836,6 +3875,18 @@
               "coded_information": null,
               "free_text": [
                 "Natural Sn sample."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260209,
+                "history": "A"
+              },
+              "free_text": [
+                " REACTION SF8: MXW -> SPA"
               ]
             }
           ],
@@ -4059,22 +4110,22 @@
         {
           "SUBENT": {
             "N1": "12634046",
-            "N2": 19840531,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "1336"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "53-I-127(N,TOT),,SIG,,MXW",
+                "code": "53-I-127(N,TOT),,SIG,,SPA",
                 "code_unit": [
                   {
-                    "unit": "53-I-127(N,TOT),,SIG,,MXW",
+                    "unit": "53-I-127(N,TOT),,SIG,,SPA",
                     "field": {
                       "reaction": "53-I-127(N,TOT)",
                       "target": "53-I-127",
@@ -4083,7 +4134,7 @@
                       "product": "",
                       "quantity": ",SIG",
                       "data_type": null,
-                      "general_quantity_modifier": "MXW",
+                      "general_quantity_modifier": "SPA",
                       "quantity_236": ",SIG"
                     }
                   }
@@ -4101,6 +4152,18 @@
               "coded_information": null,
               "free_text": [
                 "Natural I sample."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260209,
+                "history": "A"
+              },
+              "free_text": [
+                " REACTION SF8: MXW -> SPA"
               ]
             }
           ],
@@ -5610,22 +5673,22 @@
         {
           "SUBENT": {
             "N1": "12634063",
-            "N2": 19840531,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "1336"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "74-W-0(N,TOT),,SIG,,MXW",
+                "code": "74-W-0(N,TOT),,SIG,,SPA",
                 "code_unit": [
                   {
-                    "unit": "74-W-0(N,TOT),,SIG,,MXW",
+                    "unit": "74-W-0(N,TOT),,SIG,,SPA",
                     "field": {
                       "reaction": "74-W-0(N,TOT)",
                       "target": "74-W-0",
@@ -5634,7 +5697,7 @@
                       "product": "",
                       "quantity": ",SIG",
                       "data_type": null,
-                      "general_quantity_modifier": "MXW",
+                      "general_quantity_modifier": "SPA",
                       "quantity_236": ",SIG"
                     }
                   }
@@ -5652,6 +5715,18 @@
               "coded_information": null,
               "free_text": [
                 "Natural W sample."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260209,
+                "history": "A"
+              },
+              "free_text": [
+                " REACTION SF8: MXW -> SPA"
               ]
             }
           ],
@@ -6136,22 +6211,22 @@
         {
           "SUBENT": {
             "N1": "12634069",
-            "N2": 19840531,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "1336"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "80-HG-0(N,TOT),,SIG,,MXW",
+                "code": "80-HG-0(N,TOT),,SIG,,SPA",
                 "code_unit": [
                   {
-                    "unit": "80-HG-0(N,TOT),,SIG,,MXW",
+                    "unit": "80-HG-0(N,TOT),,SIG,,SPA",
                     "field": {
                       "reaction": "80-HG-0(N,TOT)",
                       "target": "80-HG-0",
@@ -6160,7 +6235,7 @@
                       "product": "",
                       "quantity": ",SIG",
                       "data_type": null,
-                      "general_quantity_modifier": "MXW",
+                      "general_quantity_modifier": "SPA",
                       "quantity_236": ",SIG"
                     }
                   }
@@ -6178,6 +6253,18 @@
               "coded_information": null,
               "free_text": [
                 "Compound HgO sample."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260209,
+                "history": "A"
+              },
+              "free_text": [
+                " REACTION SF8: MXW -> SPA"
               ]
             }
           ],
@@ -6314,22 +6401,22 @@
         {
           "SUBENT": {
             "N1": "12634071",
-            "N2": 19840531,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "1336"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "82-PB-0(N,TOT),,SIG,,MXW",
+                "code": "82-PB-0(N,TOT),,SIG,,SPA",
                 "code_unit": [
                   {
-                    "unit": "82-PB-0(N,TOT),,SIG,,MXW",
+                    "unit": "82-PB-0(N,TOT),,SIG,,SPA",
                     "field": {
                       "reaction": "82-PB-0(N,TOT)",
                       "target": "82-PB-0",
@@ -6338,7 +6425,7 @@
                       "product": "",
                       "quantity": ",SIG",
                       "data_type": null,
-                      "general_quantity_modifier": "MXW",
+                      "general_quantity_modifier": "SPA",
                       "quantity_236": ",SIG"
                     }
                   }
@@ -6356,6 +6443,18 @@
               "coded_information": null,
               "free_text": [
                 "Natural Pb sample."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260209,
+                "history": "A"
+              },
+              "free_text": [
+                " REACTION SF8: MXW -> SPA"
               ]
             }
           ],

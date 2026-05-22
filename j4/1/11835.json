@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:29:15+0000",
+  "time_stamp": "2026-05-22T21:06:53+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "11835",
-        "N2": 20080417,
+        "N2": 20260219,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "1527"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "11835001",
-            "N2": 20080417,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
             "N1": 12,
@@ -58,7 +58,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                "   Data superseded"
+                "   Data superseded",
+                "#doi:10.1103/PhysRev.133.B378"
               ]
             },
             {
@@ -135,7 +136,7 @@
                 "reaction": null
               },
               "free_text": [
-                " 7Li(p,n) source"
+                ""
               ]
             }
           ],
@@ -157,7 +158,7 @@
                 "ACTIV"
               ],
               "free_text": [
-                " Activation"
+                ""
               ]
             }
           ],
@@ -216,9 +217,16 @@
           "STATUS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
               "free_text": [
-                "Renormalized data received from Cox, May 1966."
+                " Renormalized data received from Cox, May 1966."
               ]
             }
           ],
@@ -284,6 +292,16 @@
                 " SD NDS: isomeric state for 73-TA-182-M",
                 "isotope at SUBENT 006 was changed on 73-TA-182-M2",
                 "according to EXFOR reaction formalism."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260208,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. Correction in Sub.10, BIB updates"
               ]
             }
           ],
@@ -2071,12 +2089,12 @@
         {
           "SUBENT": {
             "N1": "11835010",
-            "N2": 20080417,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -2113,16 +2131,16 @@
               "coded_information": {
                 "heading": "MONIT2",
                 "reaction": {
-                  "code": "73-TA-181(N,G)73-TA-182-M,,SIG",
+                  "code": "73-TA-181(N,G)73-TA-182-M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "73-TA-181(N,G)73-TA-182-M,,SIG",
+                      "unit": "73-TA-181(N,G)73-TA-182-M2,,SIG",
                       "field": {
-                        "reaction": "73-TA-181(N,G)73-TA-182-M",
+                        "reaction": "73-TA-181(N,G)73-TA-182-M2",
                         "target": "73-TA-181",
                         "projectile": "N",
                         "process": "G",
-                        "product": "73-TA-182-M",
+                        "product": "73-TA-182-M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -2152,6 +2170,18 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260208,
+                "history": "A"
+              },
+              "free_text": [
+                " MONITOR SF4: M -> M2"
               ]
             }
           ],

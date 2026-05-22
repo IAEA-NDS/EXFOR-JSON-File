@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:26:53+0000",
+  "time_stamp": "2026-05-22T21:06:47+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "11536",
-        "N2": 19860502,
+        "N2": 20260219,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "1527"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "11536001",
-            "N2": 19860502,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
             "N1": 11,
@@ -36,10 +36,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "T,CLATOR,69",
+                "code": "T,CLATOR,1969",
                 "code_unit": [
                   {
-                    "unit": "T,CLATOR,69",
+                    "unit": "T,CLATOR,1969",
                     "doi": null,
                     "field": {
                       "reference_type": "T",
@@ -64,10 +64,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,DA/B,30,2850,6912",
+                "code": "J,DA/B,30,2850,1969",
                 "code_unit": [
                   {
-                    "unit": "J,DA/B,30,2850,6912",
+                    "unit": "J,DA/B,30,2850,1969",
                     "doi": null,
                     "field": {
                       "reference_type": "J",
@@ -79,7 +79,7 @@
                         "issue": null,
                         "page": "2850"
                       },
-                      "date": 196912
+                      "date": 1969
                     }
                   }
                 ],
@@ -95,7 +95,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "NEUTRON INDUCED REACTIONS BETWEEN 14.4 AND 16.7 MEV."
+                "Neutron induced reactions between 14.4 and 16.7 MeV."
               ]
             }
           ],
@@ -103,7 +103,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "I.G.CLATOR"
+                "I.G.Clator"
               ],
               "free_text": [
                 ""
@@ -117,7 +117,7 @@
                 "facility": [
                   "VDG"
                 ],
-                "institute": null
+                "institute": "1USAWVU"
               },
               "free_text": [
                 ""
@@ -165,19 +165,57 @@
                 "ACTIV"
               ],
               "free_text": [
-                ". MIXED POWDERS."
+                ". Mixed powders."
               ]
             }
           ],
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
               "free_text": [
-                "UNCERTAINTY GIVEN INCLUDES",
-                " - CALIBRATION OF DETECTOR             (1 PERCENT)",
-                " - POSITIONING OF SAMPLE AROUND TARGET (5 PERCENT)",
-                " - ENERGY SPREAD IN NEUTRON FLUX       (5 PERCENT)"
+                " Uncertainty given includes"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - calibration of detector             (1%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - positioning of sample around target (5%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " - energy spread in neutron flux       (5%)"
               ]
             }
           ],
@@ -201,31 +239,43 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 760715,
+                "date": 19760715,
                 "history": "T"
               },
               "free_text": [
-                " TRANSLATED FROM SCISRS"
+                " Translated from SCISRS"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "date": 830412,
+                "date": 19830412,
                 "history": "A"
               },
               "free_text": [
-                " CONVERTED TO REACTION FORMALISM"
+                " Converted to reaction formalism"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "date": 860502,
+                "date": 19860502,
                 "history": "A"
               },
               "free_text": [
-                " BIB UPDATE, MONITOR ADDED TO DATA."
+                " BIB update, monitor added to data."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260202,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. Minor correction in sub.2, ERR-ANALYS",
+                " codes added, minor BIB updates, converted to lower",
+                " and upper case"
               ]
             }
           ],
@@ -233,7 +283,31 @@
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 3,
+            "N2": 0,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "ERR-1",
+              "ERR-2",
+              "ERR-3"
+            ],
+            "unit": [
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              1.0,
+              5.0,
+              5.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -245,12 +319,12 @@
         {
           "SUBENT": {
             "N1": "11536002",
-            "N2": 19860502,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -286,7 +360,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "11-NA-24-G",
+                "nuclide": "11-NA-24",
                 "half-life": {
                   "value": 15.0,
                   "unit": "HR"
@@ -363,6 +437,18 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260202,
+                "history": "A"
+              },
+              "free_text": [
+                " DECAY-DATA: Isomer code deleted"
               ]
             }
           ],
@@ -812,9 +898,9 @@
         {
           "SUBENT": {
             "N1": "11536005",
-            "N2": 19870116,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
             "N1": 5,
@@ -937,11 +1023,11 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 870116,
+                "date": 19870116,
                 "history": "A"
               },
               "free_text": [
-                " REACTION PRODUCT, DECAY-DATA CORRECTED."
+                " Reaction product, decay-data corrected."
               ]
             }
           ],
@@ -1391,9 +1477,9 @@
         {
           "SUBENT": {
             "N1": "11536008",
-            "N2": 19860502,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
             "N1": 5,
@@ -1516,7 +1602,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 860502,
+                "date": 19860502,
                 "history": "C"
               },
               "free_text": [

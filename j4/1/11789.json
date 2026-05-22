@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:28:52+0000",
+  "time_stamp": "2026-05-22T21:06:52+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "11789",
-        "N2": 20120820,
+        "N2": 20260219,
         "alteration_flag": " ",
-        "transmission_identification": "1385"
+        "transmission_identification": "1527"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "11789001",
-            "N2": 20120820,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "1385"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 7,
+            "N1": 8,
             "N2": 0
           },
           "INSTITUTE": [
@@ -45,10 +45,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "P,A-ARK-59,2,196001",
+                "code": "P,A-ARK-59,2,1960",
                 "code_unit": [
                   {
-                    "unit": "P,A-ARK-59,2,196001",
+                    "unit": "P,A-ARK-59,2,1960",
                     "doi": null,
                     "field": {
                       "reference_type": "P",
@@ -60,7 +60,7 @@
                         "issue": null,
                         "page": "2"
                       },
-                      "date": 196001
+                      "date": 1960
                     }
                   }
                 ],
@@ -91,7 +91,21 @@
                 "ACTIV"
               ],
               "free_text": [
-                " Activation"
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No Information on Sources of uncertainties"
               ]
             }
           ],
@@ -103,10 +117,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "I.L.Preiss+",
+                "reference": {
+                  "code": "P,A-ARK-59,2,1960",
+                  "field": {
+                    "reference_type": "P",
+                    "reference": {
+                      "code": "A-ARK-",
+                      "number": "59",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "2"
+                    },
+                    "date": 1960
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data from the text of A-ARK-59,2,1960"
               ]
             }
@@ -152,6 +181,17 @@
                 " SD: Ref. was corrected (ARK-60 => ARK-59).",
                 "        Title added."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260203,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. ERR-ANALYS added, REACTION and",
+                " DECAY-DATA in sub.2 corrected, sub.3 added"
+              ]
             }
           ],
           "ENDBIB": {
@@ -170,9 +210,9 @@
         {
           "SUBENT": {
             "N1": "11789002",
-            "N2": 20120820,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "1385"
+            "transmission_identification": "1527"
           },
           "BIB": {
             "N1": 3,
@@ -182,16 +222,16 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "29-CU-65(N,A)27-CO-62,,SIG",
+                "code": "29-CU-65(N,A)27-CO-62-M,,SIG",
                 "code_unit": [
                   {
-                    "unit": "29-CU-65(N,A)27-CO-62,,SIG",
+                    "unit": "29-CU-65(N,A)27-CO-62-M,,SIG",
                     "field": {
-                      "reaction": "29-CU-65(N,A)27-CO-62",
+                      "reaction": "29-CU-65(N,A)27-CO-62-M",
                       "target": "29-CU-65",
                       "projectile": "N",
                       "process": "A",
-                      "product": "27-CO-62",
+                      "product": "27-CO-62-M",
                       "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
@@ -202,7 +242,9 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                " Reaction product given as Co-62g in the Report",
+                " (see DECAY-DATA)"
               ]
             }
           ],
@@ -227,30 +269,9 @@
                 ]
               },
               "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "27-CO-62-G",
-                "half-life": {
-                  "value": 1.45,
-                  "unit": "HR"
-                },
-                "radiation": [
-                  {
-                    "radiation_type": [
-                      "B"
-                    ],
-                    "energy": null,
-                    "intensity": null
-                  }
-                ]
-              },
-              "free_text": [
-                ""
+                "",
+                " Compiler's comment: This half-life is attributed to",
+                " Co-62g in the report."
               ]
             }
           ],
@@ -263,6 +284,19 @@
               },
               "free_text": [
                 " REACTION product, DECAY DATA corrected."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260203,
+                "history": "A"
+              },
+              "free_text": [
+                " REACTION SF4: -M added;",
+                " DECAY-DATA: Half-life of Co-62g deleted",
+                " (not given for this nuclide in the report),",
+                " compiler's comment added."
               ]
             }
           ],
@@ -308,10 +342,129 @@
             "N1": 0,
             "N2": 0
           }
+        },
+        {
+          "SUBENT": {
+            "N1": "11789003",
+            "N2": 20260219,
+            "alteration_flag": " ",
+            "transmission_identification": "1527"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "29-CU-65(N,P)28-NI-65,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "29-CU-65(N,P)28-NI-65,,SIG",
+                    "field": {
+                      "reaction": "29-CU-65(N,P)28-NI-65",
+                      "target": "29-CU-65",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "28-NI-65",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "28-NI-65",
+                "half-life": {
+                  "value": 2.56,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "B"
+                    ],
+                    "energy": null,
+                    "intensity": null
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260203,
+                "history": "C"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                14.8,
+                27.0,
+                5.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
         }
       ],
       "ENDENTRY": {
-        "N1": 2,
+        "N1": 3,
         "N2": 0
       }
     }

@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:36:13+0000",
+  "time_stamp": "2026-05-22T21:06:55+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "12613",
-        "N2": 19830808,
+        "N2": 20260219,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "1527"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "12613001",
-            "N2": 19830808,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 13,
+            "N1": 15,
             "N2": 0
           },
           "INSTITUTE": [
@@ -36,10 +36,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,JIN,7,194,58",
+                "code": "J,JIN,7,194,1958",
                 "code_unit": [
                   {
-                    "unit": "J,JIN,7,194,58",
+                    "unit": "J,JIN,7,194,1958",
                     "doi": "10.1016/0022-1902(58)80068-8",
                     "field": {
                       "reference_type": "J",
@@ -58,7 +58,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1016/0022-1902(58)80068-8"
               ]
             }
           ],
@@ -66,8 +67,8 @@
             {
               "pointer": "",
               "coded_information": [
-                "S.KATCOFF",
-                "D.WILLIAMS"
+                "S.Katcoff",
+                "D.Williams"
               ],
               "free_text": [
                 ""
@@ -79,18 +80,35 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "NEUTRON ACTIVATION CROSS-SECTIONS OF RU-96 AND RU-102."
+                "Neutron activation cross-sections of Ru-96 and Ru-102."
               ]
             }
           ],
-          "N-SOURCE": [
+          "FACILITY": [
             {
               "pointer": "",
-              "coded_information": [
-                "REAC"
-              ],
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": "1USABNL"
+              },
               "free_text": [
-                " BROOKHAVEN REACTOR"
+                ""
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "REAC"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                " Brookhaven reactor"
               ]
             }
           ],
@@ -99,7 +117,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "PILE SPECTRUM"
+                "Pile spectrum"
               ]
             }
           ],
@@ -108,8 +126,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "CORRECTIONS FOR FAST AND EPITHERMAL NEUTRONS BY MEANS",
-                " OF CADMIUM COVERS."
+                "Corrections for fast and EPITHERMAL neutrons by means",
+                " of cadmium covers."
               ]
             }
           ],
@@ -120,7 +138,7 @@
                 "PROPC"
               ],
               "free_text": [
-                " ARGON-FILLED PROPORTIONAL COUNTER"
+                " Argon-filled proportional counter"
               ]
             },
             {
@@ -129,7 +147,7 @@
                 "NAICR"
               ],
               "free_text": [
-                " SODIUM-IODIDE CRYSTAL WITH"
+                " Sodium-iodide crystal with"
               ]
             },
             {
@@ -138,7 +156,7 @@
                 "SCIN"
               ],
               "free_text": [
-                " SCINTILLATION SPECTROMETER"
+                " Scintillation spectrometer"
               ]
             }
           ],
@@ -149,8 +167,8 @@
                 "COINC"
               ],
               "free_text": [
-                " SODIUM-22 CALIBRATED BY MEANS OF BETA-GAMMA",
-                " COINCIDENCE COUNTING"
+                " Sodium-22 calibrated by means of beta-gamma",
+                " coincidence counting"
               ]
             }
           ],
@@ -213,9 +231,44 @@
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
               "free_text": [
-                "ABSOLUTE ERROR APPROXIMATELY 15 PERCENT"
+                " Absolute error approximately 15%"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "S.Katcoff+",
+                "reference": {
+                  "code": "J,JIN,7,194,1958",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JIN",
+                      "number": null,
+                      "volume": "7",
+                      "part": null,
+                      "issue": null,
+                      "page": "194"
+                    },
+                    "date": 1958
+                  }
+                }
+              },
+              "free_text": [
+                " Table 2"
               ]
             }
           ],
@@ -223,7 +276,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 780501,
+                "date": 19780501,
                 "history": "C"
               },
               "free_text": [
@@ -233,11 +286,22 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 830808,
+                "date": 19830808,
                 "history": "A"
               },
               "free_text": [
-                " DECAY-DATA CORRECTED."
+                " Decay-data corrected."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260208,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. Correction in sub.3, STATUS, FACILITY,",
+                "DATA-ERR added, converted to lower and upper case"
               ]
             }
           ],
@@ -246,19 +310,23 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0,
             "pointer": [
+              "",
               ""
             ],
             "heading": [
-              "EN-DUMMY"
+              "EN-DUMMY",
+              "DATA-ERR"
             ],
             "unit": [
-              "EV"
+              "EV",
+              "PER-CENT"
             ],
             "value": [
-              0.0253
+              0.0253,
+              15.0
             ]
           },
           "ENDCOMMON": {
@@ -372,12 +440,12 @@
         {
           "SUBENT": {
             "N1": "12613003",
-            "N2": 19780525,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -413,7 +481,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "44-RU-103-G",
+                "nuclide": "44-RU-103",
                 "half-life": {
                   "value": 39.7,
                   "unit": "D"
@@ -455,6 +523,18 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260208,
+                "history": "A"
+              },
+              "free_text": [
+                " DECAY-DATA: Deleted -G in RU-103"
               ]
             }
           ],

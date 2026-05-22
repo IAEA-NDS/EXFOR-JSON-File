@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:46:06+0000",
+  "time_stamp": "2026-05-22T21:07:00+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "13433",
-        "N2": 19900207,
+        "N2": 20260219,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "1527"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "13433001",
-            "N2": 19900207,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
             "N1": 9,
@@ -36,10 +36,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "P,ANL-5789,80,5712",
+                "code": "P,ANL-5789,80,1957",
                 "code_unit": [
                   {
-                    "unit": "P,ANL-5789,80,5712",
+                    "unit": "P,ANL-5789,80,1957",
                     "doi": null,
                     "field": {
                       "reference_type": "P",
@@ -51,7 +51,7 @@
                         "issue": null,
                         "page": "80"
                       },
-                      "date": 195712
+                      "date": 1957
                     }
                   }
                 ],
@@ -66,9 +66,9 @@
             {
               "pointer": "",
               "coded_information": [
-                "C.E.CROUTHAMEL",
-                "P.KAFALAS",
-                "D.STUPEGIA"
+                "C.E.Crouthamel",
+                "P.Kafalas",
+                "D.Stupegia"
               ],
               "free_text": [
                 ""
@@ -80,7 +80,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "FISSION YIELD DETERMINATION FOT PLUTONIUM-239"
+                "Fission yield determination for plutonium-239"
               ]
             }
           ],
@@ -91,7 +91,7 @@
                 "facility": [
                   "REAC"
                 ],
-                "institute": null
+                "institute": "1USAANL"
               },
               "free_text": [
                 " CP-5"
@@ -103,7 +103,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "THERMAL FLUX"
+                "Thermal flux"
               ]
             }
           ],
@@ -111,7 +111,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "RCHEM"
+                "CHSEP"
               ],
               "free_text": [
                 ""
@@ -123,14 +123,28 @@
               "pointer": "",
               "coded_information": {
                 "status": [
-                  "RIDER"
+                  "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "C.E.Crouthamel+",
+                "reference": {
+                  "code": "P,ANL-5789,80,1957",
+                  "field": {
+                    "reference_type": "P",
+                    "reference": {
+                      "code": "ANL-",
+                      "number": "5789",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "80"
+                    },
+                    "date": 1957
+                  }
+                }
               },
               "free_text": [
-                ""
+                " p.81"
               ]
             }
           ],
@@ -138,11 +152,22 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 900111,
+                "date": 19900111,
                 "history": "C"
               },
               "free_text": [
                 " VM"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260218,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. Major correction in sub.2, STATUS",
+                " updated, minor BIB corrections"
               ]
             }
           ],
@@ -162,12 +187,12 @@
         {
           "SUBENT": {
             "N1": "13433002",
-            "N2": 19900207,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -198,6 +223,32 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No Information on Sources of uncertainty"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260218,
+                "history": "A"
+              },
+              "free_text": [
+                " EN-DUMMY corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
@@ -220,13 +271,13 @@
               "DATA-ERR"
             ],
             "unit": [
-              "MEV",
+              "EV",
               "PC/FIS",
               "PC/FIS"
             ],
             "value": [
               [
-                1.0,
+                0.0253,
                 5.31,
                 0.15
               ]

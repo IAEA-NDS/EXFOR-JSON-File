@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:26:07+0000",
+  "time_stamp": "2026-05-22T21:06:46+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "11439",
-        "N2": 19820813,
+        "N2": 20260219,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "1527"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "11439001",
-            "N2": 19820813,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 9,
             "N2": 0
           },
           "INSTITUTE": [
@@ -36,22 +36,22 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "C,68WASH,2,695(E-5),6803",
+                "code": "C,68WASH,,695,1968",
                 "code_unit": [
                   {
-                    "unit": "C,68WASH,2,695(E-5),6803",
+                    "unit": "C,68WASH,,695,1968",
                     "doi": null,
                     "field": {
                       "reference_type": "C",
                       "reference": {
                         "code": "68WASH",
                         "number": null,
-                        "volume": "2",
+                        "volume": null,
                         "part": null,
                         "issue": null,
-                        "page": "695(E-5)"
+                        "page": "695"
                       },
-                      "date": 196803
+                      "date": 1968
                     }
                   }
                 ],
@@ -66,11 +66,11 @@
             {
               "pointer": "",
               "coded_information": [
-                "S.J.FRIESENHAHN",
-                "W.M.LOPEZ",
-                "F.H.FROEHNER",
-                "A.D.CARLSON",
-                "D.C.COSTELLO"
+                "S.J.Friesenhahn",
+                "W.M.Lopez",
+                "F.H.Froehner",
+                "A.D.Carlson",
+                "D.C.Costello"
               ],
               "free_text": [
                 ""
@@ -82,7 +82,46 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "RADIATION WIDTH OF THE 2.85 KEV LEVEL IN NA-23."
+                "Radiation width of the 2.85 keV level in Na-23."
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "LINAC"
+                ],
+                "institute": "1USAGA"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "SCIN"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information on details of uncertainties"
               ]
             }
           ],
@@ -91,14 +130,28 @@
               "pointer": "",
               "coded_information": {
                 "status": [
-                  "SCSRS"
+                  "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.J.Friesenhahn+",
+                "reference": {
+                  "code": "C,68WASH,,695,1968",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "68WASH",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "695"
+                    },
+                    "date": 1968
+                  }
+                }
               },
               "free_text": [
-                ""
+                " Table 1"
               ]
             }
           ],
@@ -106,21 +159,33 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 761016,
+                "date": 19761016,
                 "history": "T"
               },
               "free_text": [
-                " TRANSLATED FROM SCISRS"
+                " Translated from SCISRS"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "date": 820813,
+                "date": 19820813,
                 "history": "A"
               },
               "free_text": [
-                " CONVERTED TO REACTION FORMALISM"
+                " Converted to reaction formalism"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260201,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. FACILITY, DETECTOR, ERR-ANALYS added,",
+                " STATUS updated, minor BIB corrections, converted to",
+                " lower and upper case"
               ]
             }
           ],
@@ -140,9 +205,9 @@
         {
           "SUBENT": {
             "N1": "11439002",
-            "N2": 19820813,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1527"
           },
           "BIB": {
             "N1": 3,
@@ -183,7 +248,7 @@
                 "AREA"
               ],
               "free_text": [
-                "     AREA ANALYSIS"
+                ""
               ]
             }
           ],
@@ -192,7 +257,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "PRELIMINARY. AVERAGE FROM MEASUREMENTS ON SAMPLES."
+                "Preliminary. Average from measurements on samples."
               ]
             }
           ],

@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:39:30+0000",
+  "time_stamp": "2026-05-22T21:06:56+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "12813",
-        "N2": 20190508,
+        "N2": 20260219,
         "alteration_flag": " ",
-        "transmission_identification": "1451"
+        "transmission_identification": "1527"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "12813001",
-            "N2": 20190508,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "1451"
+            "transmission_identification": "1527"
           },
           "BIB": {
             "N1": 13,
@@ -321,6 +321,16 @@
                 " OG. 3rd reference was added.",
                 "                #NSR was added. #doi was added"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260209,
+                "history": "U"
+              },
+              "free_text": [
+                " OS. Minor correction in subs.2,4"
+              ]
             }
           ],
           "ENDBIB": {
@@ -359,9 +369,9 @@
         {
           "SUBENT": {
             "N1": "12813002",
-            "N2": 20101025,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "1367"
+            "transmission_identification": "1527"
           },
           "BIB": {
             "N1": 5,
@@ -371,50 +381,25 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "(92-U-235(N,F)ELEM/MASS,CUM,FY,,MXW)/(92-U-235(N,F)MASS,CHN,FY,,MXW)",
+                "code": "92-U-235(N,F)ELEM/MASS,CUM,FY,,FRC/MXW",
                 "code_unit": [
                   {
-                    "unit": "92-U-235(N,F)ELEM/MASS,CUM,FY,,MXW",
+                    "unit": "92-U-235(N,F)ELEM/MASS,CUM,FY,,FRC/MXW",
                     "field": {
                       "reaction": "92-U-235(N,F)ELEM/MASS",
                       "target": "92-U-235",
                       "projectile": "N",
                       "process": "F",
                       "product": "ELEM/MASS",
-                      "quantity": "CUM,FY",
+                      "quantity": "CUM,FY,,FRC",
                       "data_type": null,
                       "general_quantity_modifier": "MXW",
-                      "quantity_236": "CUM,FY"
-                    }
-                  },
-                  {
-                    "unit": "92-U-235(N,F)MASS,CHN,FY,,MXW",
-                    "field": {
-                      "reaction": "92-U-235(N,F)MASS",
-                      "target": "92-U-235",
-                      "projectile": "N",
-                      "process": "F",
-                      "product": "MASS",
-                      "quantity": "CHN,FY",
-                      "data_type": null,
-                      "general_quantity_modifier": "MXW",
-                      "quantity_236": "CHN,FY"
+                      "quantity_236": "CUM,FY,,FRC"
                     }
                   }
                 ],
-                "unit_combination": "((%)/(%))"
+                "unit_combination": "(%)"
               },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "RESULT": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "FRCUM"
-              ],
               "free_text": [
                 ""
               ]
@@ -538,7 +523,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": 4.0,
-                "nuclide": "49-IN-127-M",
+                "nuclide": "49-IN-127-M1",
                 "half-life": {
                   "value": 3.7,
                   "unit": "SEC"
@@ -612,11 +597,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "T.M.Semkow+",
+                "reference": {
+                  "code": "J,PR/C,30,1966,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "30",
+                      "part": null,
+                      "issue": null,
+                      "page": "1966"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data taken from Table 4 in main reference."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260209,
+                "history": "U"
+              },
+              "free_text": [
+                " DECAY-DATA: M -> M1 for In-127,",
+                " REACTION code updated"
               ]
             }
           ],
@@ -1161,12 +1174,12 @@
         {
           "SUBENT": {
             "N1": "12813004",
-            "N2": 20101025,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "1367"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -1315,7 +1328,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": 4.0,
-                "nuclide": "49-IN-127-M",
+                "nuclide": "49-IN-127-M1",
                 "half-life": {
                   "value": 3.7,
                   "unit": "SEC"
@@ -1389,11 +1402,38 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "T.M.Semkow+",
+                "reference": {
+                  "code": "J,PR/C,30,1966,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "30",
+                      "part": null,
+                      "issue": null,
+                      "page": "1966"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data taken from Table 3 in main reference."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260209,
+                "history": "U"
+              },
+              "free_text": [
+                " DECAY-DATA: M -> M1 for In-127"
               ]
             }
           ],

@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:57:20+0000",
+  "time_stamp": "2026-05-22T21:07:02+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "14151",
-        "N2": 20210920,
+        "N2": 20260219,
         "alteration_flag": " ",
-        "transmission_identification": "1487"
+        "transmission_identification": "1527"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "14151001",
-            "N2": 20210920,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "1487"
+            "transmission_identification": "1527"
           },
           "BIB": {
             "N1": 11,
@@ -99,7 +99,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1016/j.nimb.2007.04.019"
               ]
             }
           ],
@@ -218,6 +219,16 @@
               },
               "free_text": [
                 " OS. Important correction in sub.14"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260218,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. Correction in sub.6"
               ]
             }
           ],
@@ -753,27 +764,27 @@
         {
           "SUBENT": {
             "N1": "14151006",
-            "N2": 20071116,
+            "N2": 20260219,
             "alteration_flag": " ",
-            "transmission_identification": "1345"
+            "transmission_identification": "1527"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "13-AL-27(N,D)12-MG-26,PAR,SIG,G",
+                "code": "13-AL-27(N,X)12-MG-26,PAR,SIG,G",
                 "code_unit": [
                   {
-                    "unit": "13-AL-27(N,D)12-MG-26,PAR,SIG,G",
+                    "unit": "13-AL-27(N,X)12-MG-26,PAR,SIG,G",
                     "field": {
-                      "reaction": "13-AL-27(N,D)12-MG-26",
+                      "reaction": "13-AL-27(N,X)12-MG-26",
                       "target": "13-AL-27",
                       "projectile": "N",
-                      "process": "D",
+                      "process": "X",
                       "product": "12-MG-26",
                       "quantity": "PAR,SIG,G",
                       "data_type": null,
@@ -797,11 +808,38 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "C.M.Castaneda+",
+                "reference": {
+                  "code": "J,NIM/B,260,508,2007",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "260",
+                      "part": null,
+                      "issue": null,
+                      "page": "508"
+                    },
+                    "date": 2007
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data taken from table 1."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260218,
+                "history": "A"
+              },
+              "free_text": [
+                " REACTION SF3: D -> X"
               ]
             }
           ],
