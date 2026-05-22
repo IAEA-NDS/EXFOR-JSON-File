@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:16:18+0000",
+  "time_stamp": "2026-05-22T22:01:06+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "K2348",
-        "N2": 20190114,
+        "N2": 20260503,
         "alteration_flag": " ",
-        "transmission_identification": "K018"
+        "transmission_identification": "K024"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "K2348001",
-            "N2": 20190114,
+            "N2": 20260503,
             "alteration_flag": " ",
-            "transmission_identification": "K018"
+            "transmission_identification": "K024"
           },
           "BIB": {
-            "N1": 14,
+            "N1": 15,
             "N2": 0
           },
           "TITLE": [
@@ -51,24 +51,8 @@
             {
               "pointer": "",
               "coded_information": [
-                "2JPNJAE"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2JPNKON"
-              ],
-              "free_text": [
-                " Department of physics"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "2JPNJAE",
+                "2JPNKON",
                 "2JPNAIS"
               ],
               "free_text": [
@@ -204,6 +188,15 @@
               ]
             }
           ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for finite incident photon spectrum effect."
+              ]
+            }
+          ],
           "ERR-ANALYS": [
             {
               "pointer": "",
@@ -270,9 +263,20 @@
               },
               "free_text": [
                 " Tada. 005: REACTION is changed.",
-                "            004:(COREL,K2199003) another",
-                "            measurement (F.Kitatani, 2017-05-09) is",
-                "            added."
+                "            004:(COREL,K2199003) another measurement",
+                "            (F.Kitatani, 2017-05-09) is added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260228,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: added CORRECTION in 001; modified",
+                "            REACTION in 005, DATA in 002-004, STATUS",
+                "            in 002-005."
               ]
             }
           ],
@@ -312,9 +316,9 @@
         {
           "SUBENT": {
             "N1": "K2348002",
-            "N2": 20190114,
+            "N2": 20260503,
             "alteration_flag": " ",
-            "transmission_identification": "K018"
+            "transmission_identification": "K024"
           },
           "BIB": {
             "N1": 5,
@@ -345,17 +349,6 @@
               },
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "MISC-COL": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "MISC"
-              ],
-              "free_text": [
-                " Errors of neutron counts"
               ]
             }
           ],
@@ -410,6 +403,18 @@
             {
               "pointer": "",
               "coded_information": {
+                "heading": "ERR-6",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Errors of neutron counts"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
                 "heading": "ERR-4",
                 "minimum_value": null,
                 "maximum_value": null,
@@ -453,12 +458,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Kitatani+",
+                "reference": {
+                  "code": "J,NST,48,1017,2011",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NST",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": null,
+                      "page": "1017"
+                    },
+                    "date": 2011
+                  }
+                }
               },
               "free_text": [
-                " Table.2 of Journal of Nuclear Science and",
-                "        Technology 48(2011)1017"
+                " Table 2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260503,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: Heading: MISC -> ERR-6."
               ]
             }
           ],
@@ -491,7 +521,7 @@
               "ERR-T",
               "ERR-S",
               "ERR-3",
-              "MISC",
+              "ERR-6",
               "ERR-4",
               "ERR-5"
             ],
@@ -653,9 +683,9 @@
         {
           "SUBENT": {
             "N1": "K2348003",
-            "N2": 20190114,
+            "N2": 20260503,
             "alteration_flag": " ",
-            "transmission_identification": "K018"
+            "transmission_identification": "K024"
           },
           "BIB": {
             "N1": 5,
@@ -686,17 +716,6 @@
               },
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "MISC-COL": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "MISC"
-              ],
-              "free_text": [
-                " Errors of neutron counts"
               ]
             }
           ],
@@ -751,6 +770,18 @@
             {
               "pointer": "",
               "coded_information": {
+                "heading": "ERR-6",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Errors of neutron counts"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
                 "heading": "ERR-4",
                 "minimum_value": null,
                 "maximum_value": null,
@@ -794,12 +825,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Kitatani+",
+                "reference": {
+                  "code": "J,NST,48,1017,2011",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NST",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": null,
+                      "page": "1017"
+                    },
+                    "date": 2011
+                  }
+                }
               },
               "free_text": [
-                " Table.2 of Journal of Nuclear Science and",
-                "        Technology 48(2011)1017"
+                " Table 2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260503,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: Heading: MISC -> ERR-6."
               ]
             }
           ],
@@ -832,7 +888,7 @@
               "ERR-T",
               "ERR-S",
               "ERR-3",
-              "MISC",
+              "ERR-6",
               "ERR-4",
               "ERR-5"
             ],
@@ -1060,9 +1116,9 @@
         {
           "SUBENT": {
             "N1": "K2348004",
-            "N2": 20190114,
+            "N2": 20260503,
             "alteration_flag": " ",
-            "transmission_identification": "K018"
+            "transmission_identification": "K024"
           },
           "BIB": {
             "N1": 5,
@@ -1093,17 +1149,6 @@
               },
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "MISC-COL": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "MISC"
-              ],
-              "free_text": [
-                " Errors of neutron counts"
               ]
             }
           ],
@@ -1141,6 +1186,18 @@
               },
               "free_text": [
                 " Errors of the fraction of the gamma flux"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-6",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Errors of neutron counts"
               ]
             },
             {
@@ -1189,12 +1246,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Kitatani+",
+                "reference": {
+                  "code": "J,NST,48,1017,2011",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NST",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": null,
+                      "page": "1017"
+                    },
+                    "date": 2011
+                  }
+                }
               },
               "free_text": [
-                " Table.2 of Journal of Nuclear Science and",
-                "        Technology 48(2011)1017"
+                " Table 2"
               ]
             },
             {
@@ -1210,6 +1280,18 @@
               "free_text": [
                 " Another measurement (F.Kitatani,",
                 "                 2017-05-09)"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260503,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: Heading: MISC -> ERR-6."
               ]
             }
           ],
@@ -1242,7 +1324,7 @@
               "ERR-T",
               "ERR-S",
               "ERR-3",
-              "MISC",
+              "ERR-6",
               "ERR-4",
               "ERR-5"
             ],
@@ -1404,9 +1486,9 @@
         {
           "SUBENT": {
             "N1": "K2348005",
-            "N2": 20190114,
+            "N2": 20260503,
             "alteration_flag": " ",
-            "transmission_identification": "K018"
+            "transmission_identification": "K024"
           },
           "BIB": {
             "N1": 4,
@@ -1416,16 +1498,30 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "79-AU-197(G,X)0-NN-1,,SIG",
+                "code": "(79-AU-197(G,N)79-AU-196,,SIG)+(79-AU-197(G,2N)79-AU-195,,SIG)",
                 "code_unit": [
                   {
-                    "unit": "79-AU-197(G,X)0-NN-1,,SIG",
+                    "unit": "79-AU-197(G,N)79-AU-196,,SIG",
                     "field": {
-                      "reaction": "79-AU-197(G,X)0-NN-1",
+                      "reaction": "79-AU-197(G,N)79-AU-196",
                       "target": "79-AU-197",
                       "projectile": "G",
-                      "process": "X",
-                      "product": "0-NN-1",
+                      "process": "N",
+                      "product": "79-AU-196",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  },
+                  {
+                    "unit": "79-AU-197(G,2N)79-AU-195,,SIG",
+                    "field": {
+                      "reaction": "79-AU-197(G,2N)79-AU-195",
+                      "target": "79-AU-197",
+                      "projectile": "G",
+                      "process": "2N",
+                      "product": "79-AU-195",
                       "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
@@ -1433,7 +1529,7 @@
                     }
                   }
                 ],
-                "unit_combination": "(%)"
+                "unit_combination": "((%)+(%))"
               },
               "free_text": [
                 ""
@@ -1459,12 +1555,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Kitatani+",
+                "reference": {
+                  "code": "J,NST,48,1017,2011",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NST",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": null,
+                      "page": "1017"
+                    },
+                    "date": 2011
+                  }
+                }
               },
               "free_text": [
-                " Table.2 of Journal of Nuclear Science and",
-                "        Technology 48(2011)1017"
+                " Table 2"
               ]
             }
           ],
@@ -1477,6 +1586,16 @@
               },
               "free_text": [
                 " Tada. SF3-SF4:-> X)0-NN-1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260228,
+                "history": "U"
+              },
+              "free_text": [
+                " MA: REACTION corrected."
               ]
             }
           ],

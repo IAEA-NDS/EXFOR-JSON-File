@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:16:11+0000",
+  "time_stamp": "2026-05-22T22:01:05+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "K2199",
-        "N2": 20190114,
+        "N2": 20260228,
         "alteration_flag": " ",
-        "transmission_identification": "K018"
+        "transmission_identification": "K024"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "K2199001",
-            "N2": 20190114,
+            "N2": 20260228,
             "alteration_flag": " ",
-            "transmission_identification": "K018"
+            "transmission_identification": "K024"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 13,
             "N2": 0
           },
           "TITLE": [
@@ -53,24 +53,8 @@
             {
               "pointer": "",
               "coded_information": [
-                "2JPNJAE"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2JPNKON"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "2JPNJAE",
+                "2JPNKON",
                 "2JPNAIS"
               ],
               "free_text": [
@@ -137,7 +121,7 @@
                 "reaction": null
               },
               "free_text": [
-                " Wave length of the laser beam is 532nm."
+                " Wave length of the laser beam is 532 nm."
               ]
             }
           ],
@@ -199,7 +183,7 @@
               ],
               "free_text": [
                 " To measure the energy distribution of the",
-                "           LCS gamma-ray.Two 334 cm**3 high-purity Ge",
+                "           LCS gamma-ray. Two 334 cm3 high-purity Ge",
                 "           detectors shielded with an array of 23",
                 "           pieces of BGO crystals (HHS)"
               ]
@@ -211,6 +195,15 @@
               ],
               "free_text": [
                 " To measure the photon flux"
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for finite incident photon spectrum effect"
               ]
             }
           ],
@@ -347,6 +340,17 @@
                 "            measurement (F.Kitatani, 2017-05-09) is",
                 "            added."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260228,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: add CORRECTION in 001, FLAG in 003;",
+                "            modified STATUS in 001-002."
+              ]
             }
           ],
           "ENDBIB": {
@@ -385,9 +389,9 @@
         {
           "SUBENT": {
             "N1": "K2199002",
-            "N2": 20190114,
+            "N2": 20260228,
             "alteration_flag": " ",
-            "transmission_identification": "K018"
+            "transmission_identification": "K024"
           },
           "BIB": {
             "N1": 3,
@@ -451,12 +455,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Kitatani+",
+                "reference": {
+                  "code": "J,NST,47,367,2010",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NST",
+                      "number": null,
+                      "volume": "47",
+                      "part": null,
+                      "issue": null,
+                      "page": "367"
+                    },
+                    "date": 2010
+                  }
+                }
               },
               "free_text": [
-                " Plotted in Fig.11 of Journal of Nuclear",
-                "        Science and Technology 47(2010)367"
+                " Fig. 11"
               ]
             }
           ],
@@ -629,12 +646,12 @@
         {
           "SUBENT": {
             "N1": "K2199003",
-            "N2": 20190114,
+            "N2": 20260228,
             "alteration_flag": " ",
-            "transmission_identification": "K018"
+            "transmission_identification": "K024"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -694,12 +711,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Kitatani+",
+                "reference": {
+                  "code": "J,NST,47,367,2010",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NST",
+                      "number": null,
+                      "volume": "47",
+                      "part": null,
+                      "issue": null,
+                      "page": "367"
+                    },
+                    "date": 2010
+                  }
+                }
               },
               "free_text": [
-                " Plotted in Fig.10 of Journal of Nuclear",
-                "        Science and Technology, 47(2010)367"
+                " Fig. 10"
               ]
             },
             {
@@ -718,6 +748,29 @@
               ]
             }
           ],
+          "FLAG": [
+            {
+              "pointer": "",
+              "coded_information": [
+                1.0
+              ],
+              "free_text": [
+                " the effect of the (g,2n) reaction included."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260228,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: FLAG added."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
@@ -727,9 +780,10 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 9,
+            "N1": 10,
             "N2": 8,
             "pointer": [
+              "",
               "",
               "",
               "",
@@ -749,7 +803,8 @@
               "ERR-3",
               "ERR-4",
               "ERR-5",
-              "ERR-6"
+              "ERR-6",
+              "FLAG"
             ],
             "unit": [
               "MEV",
@@ -760,7 +815,8 @@
               "PER-CENT",
               "PER-CENT",
               "PER-CENT",
-              "PER-CENT"
+              "PER-CENT",
+              "NO-DIM"
             ],
             "value": [
               [
@@ -772,7 +828,8 @@
                 0.5,
                 4.5,
                 5.0,
-                1.5
+                1.5,
+                null
               ],
               [
                 11.3,
@@ -783,7 +840,8 @@
                 0.3,
                 3.4,
                 3.0,
-                0.6
+                0.6,
+                null
               ],
               [
                 11.7,
@@ -794,7 +852,8 @@
                 0.3,
                 3.2,
                 3.0,
-                0.7
+                0.7,
+                null
               ],
               [
                 12.1,
@@ -805,7 +864,8 @@
                 0.3,
                 3.3,
                 3.0,
-                0.3
+                0.3,
+                null
               ],
               [
                 12.7,
@@ -816,7 +876,8 @@
                 0.4,
                 3.2,
                 3.0,
-                0.1
+                0.1,
+                null
               ],
               [
                 12.9,
@@ -827,7 +888,8 @@
                 0.4,
                 3.3,
                 3.0,
-                0.3
+                0.3,
+                null
               ],
               [
                 13.5,
@@ -838,7 +900,8 @@
                 0.4,
                 3.3,
                 3.0,
-                0.1
+                0.1,
+                1.0
               ],
               [
                 14.6,
@@ -849,7 +912,8 @@
                 0.5,
                 3.3,
                 3.0,
-                0.1
+                0.1,
+                1.0
               ]
             ]
           },
