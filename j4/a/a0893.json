@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:14:19+0000",
+  "time_stamp": "2026-05-22T21:33:09+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0893",
-        "N2": 20110816,
+        "N2": 20260206,
         "alteration_flag": " ",
-        "transmission_identification": "A073"
+        "transmission_identification": "A132"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0893001",
-            "N2": 20110816,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "A073"
+            "transmission_identification": "A132"
           },
           "BIB": {
             "N1": 10,
@@ -26,7 +26,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The new element 112."
+                "The new element 112"
               ]
             }
           ],
@@ -86,49 +86,13 @@
             {
               "pointer": "",
               "coded_information": [
-                "2GERGSI"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "4ZZZDUB"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "3SLKUB"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "2GERGSI",
+                "4ZZZDUB",
+                "3SLKUB",
                 "2SF JYV"
               ],
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "SAMPLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "The targets were prepared by deposition of a",
-                " 450 mug/cm**2 thick layer of Pb-208, enrichment 99.0%",
-                "on 50-mug/cm**2 thick carbon foils. The lead was",
-                "covered by 15 mug/cm**2 carbon."
               ]
             }
           ],
@@ -142,20 +106,25 @@
                 "institute": "2GERGSI"
               },
               "free_text": [
-                " The UNILAC accelerator."
+                " The UNILAC accelerator and",
+                "the velocity filter SHIP (Separator for Heavy-Ion",
+                "reaction Products) at GSI."
               ]
-            },
+            }
+          ],
+          "SAMPLE": [
             {
               "pointer": "",
               "coded_information": {
-                "facility": [
-                  "FRS"
-                ],
-                "institute": "2GERGSI"
+                "nuclide": "82-PB-208",
+                "field_identifier": "ENR",
+                "value": 0.99
               },
               "free_text": [
-                " The velocity filter SHIP(Separator for",
-                " Heavy-Ion reaction Products) at GSI."
+                " The targets were prepared by",
+                "deposition of a 450 ug/cm2 thick layer of 208Pb,",
+                "enrichment 99.0% on 50-ug/cm2 thick carbon foils. The",
+                "lead was covered by 15 ug/cm2 carbon."
               ]
             }
           ],
@@ -166,8 +135,8 @@
                 "MAGSP"
               ],
               "free_text": [
-                " The evaporated residues(ERs) were",
-                "separated from the beam by the velocity filter SHIP and",
+                " The evaporated residues (ERs) were separated",
+                "from the beam by the velocity filter SHIP and",
                 "implanted into a position-sensitive strip Si detector",
                 " (focal-plane stop detector)"
               ]
@@ -201,11 +170,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.Hofmann+",
+                "reference": {
+                  "code": "J,ZP/A,354,229,1996",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ZP/A",
+                      "number": null,
+                      "volume": "354",
+                      "part": null,
+                      "issue": null,
+                      "page": "229"
+                    },
+                    "date": 1996
+                  }
+                }
               },
               "free_text": [
-                ".Value in text of J,ZP/A,354,229,1996"
+                ".Value from the",
+                "Abstract."
               ]
             }
           ],
@@ -218,6 +202,16 @@
               },
               "free_text": [
                 " SB"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260206,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents."
               ]
             }
           ],
@@ -237,9 +231,9 @@
         {
           "SUBENT": {
             "N1": "A0893002",
-            "N2": 20110816,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "A073"
+            "transmission_identification": "A132"
           },
           "BIB": {
             "N1": 4,
@@ -279,7 +273,10 @@
               "coded_information": {
                 "flag": null,
                 "nuclide": "112-CN-277",
-                "half-life": null,
+                "half-life": {
+                  "value": 0.24,
+                  "unit": "MSEC"
+                },
                 "radiation": [
                   {
                     "radiation_type": [
@@ -303,19 +300,8 @@
               },
               "free_text": [
                 "",
-                "Alpha decay (11.649+-0.02 MeV and 11.454+-0.02)",
-                "measured",
-                "Half-life is 240+-430,90 msec) measured"
-              ]
-            }
-          ],
-          "COMMENT": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "*By authors*.The isotope decays by emission of alpha",
-                "particles with a half-life of 240+430-90 microsec."
+                "Alpha decay error is +-0.02 MeV (measured)",
+                "Half-life error is +0.430/-0.090 msec (measured)"
               ]
             }
           ],
@@ -329,7 +315,19 @@
                 "correlation_property": null
               },
               "free_text": [
-                ".The uncertainty is reported by authors."
+                " No information about source of uncertainty"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260206,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: ERR-ANALYS updated. COMMENT deleted."
               ]
             }
           ],

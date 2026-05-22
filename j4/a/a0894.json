@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:14:20+0000",
+  "time_stamp": "2026-05-22T21:33:09+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0894",
-        "N2": 20110816,
+        "N2": 20260206,
         "alteration_flag": " ",
-        "transmission_identification": "A073"
+        "transmission_identification": "A132"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0894001",
-            "N2": 20110816,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "A073"
+            "transmission_identification": "A132"
           },
           "BIB": {
-            "N1": 10,
+            "N1": 11,
             "N2": 0
           },
           "TITLE": [
@@ -26,7 +26,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "New results on elements 111 and 112."
+                "New results on elements 111 and 112"
               ]
             }
           ],
@@ -90,53 +90,13 @@
             {
               "pointer": "",
               "coded_information": [
-                "2GERGSI"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "3SLKUB"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2SF JYV"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "2GERGSI",
+                "3SLKUB",
+                "2SF JYV",
                 "4ZZZDUB"
               ],
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "SAMPLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "The targets were prepared by evaporation of lead or",
-                "bismuth deposited in layers of 450 mug/cm**2 on carbon",
-                "backing foils of 40 mug/cm**2. The target layers were",
-                "then covered by evaporation of a 10 mug/cm**2 thick",
-                "carbon layer to protect the targets from sputtering and",
-                "to enhance radiative cooling.",
-                "The total thickness of these carbon foils amounted",
-                "to 190 mug/cm**2."
               ]
             }
           ],
@@ -150,20 +110,24 @@
                 "institute": "2GERGSI"
               },
               "free_text": [
-                " The UNILAC accelerator."
+                " The UNILAC accelerator and the",
+                "velocity filter SHIP (Separator for Heavy-Ion reaction",
+                "Products) at GSI."
               ]
-            },
+            }
+          ],
+          "SAMPLE": [
             {
               "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "FRS"
-                ],
-                "institute": "2GERGSI"
-              },
+              "coded_information": null,
               "free_text": [
-                " The velocity filter SHIP(Separator for",
-                " Heavy-Ion reaction Products) at GSI."
+                "The targets were prepared by evaporation of lead or",
+                "bismuth deposited in layers of 450 ug/cm2 on carbon",
+                "backing foils of 40 ug/cm2. The target layers were",
+                "then covered by evaporation of a 10 ug/cm2 thick",
+                "carbon layer to protect the targets from sputtering",
+                "and to enhance radiative cooling. The total thickness",
+                "of these carbon foils amounted to 190 ug/cm2."
               ]
             }
           ],
@@ -174,7 +138,7 @@
                 "MAGSP"
               ],
               "free_text": [
-                " The evaporated residues(ERs) were",
+                " The evaporated residues (ERs) were",
                 "separated from the beam by the velocity filter SHIP and",
                 "implanted into a position-sensitive strip Si detector",
                 " (focal-plane stop detector)"
@@ -205,19 +169,30 @@
               ]
             }
           ],
-          "STATUS": [
+          "MISC-COL": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "MISC"
+              ],
+              "free_text": [
+                " The calculated excitation energy of the",
+                "compound nucleus for reactions in the middle of the",
+                "target thickness."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
             {
               "pointer": "",
               "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
               },
               "free_text": [
-                ".Value in text of J,EPJ/A,14,147,2002"
+                " No information about source of uncertainty"
               ]
             }
           ],
@@ -230,6 +205,16 @@
               },
               "free_text": [
                 " SB"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260204,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents."
               ]
             }
           ],
@@ -249,9 +234,9 @@
         {
           "SUBENT": {
             "N1": "A0894002",
-            "N2": 20110816,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "A073"
+            "transmission_identification": "A132"
           },
           "BIB": {
             "N1": 4,
@@ -309,30 +294,46 @@
               ]
             }
           ],
-          "ERR-ANALYS": [
+          "STATUS": [
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "S.Hofmann+",
+                "reference": {
+                  "code": "J,EPJ/A,14,147,2002",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "EPJ/A",
+                      "number": null,
+                      "volume": "14",
+                      "part": null,
+                      "issue": null,
+                      "page": "147"
+                    },
+                    "date": 2002
+                  }
+                }
               },
               "free_text": [
-                ".The error is reported by authors in text."
+                " Value from the",
+                "text on p.149"
               ]
             }
           ],
-          "MISC-COL": [
+          "HISTORY": [
             {
               "pointer": "",
-              "coded_information": [
-                "MISC"
-              ],
+              "coded_information": {
+                "date": 20260206,
+                "history": "U"
+              },
               "free_text": [
-                ".The calculated excitation energy of the",
-                "compound nucleus for reactions in the middle of the",
-                "target thickness."
+                " SD: BIB updated."
               ]
             }
           ],
@@ -390,9 +391,9 @@
         {
           "SUBENT": {
             "N1": "A0894003",
-            "N2": 20110816,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "A073"
+            "transmission_identification": "A132"
           },
           "BIB": {
             "N1": 3,
@@ -426,30 +427,46 @@
               ]
             }
           ],
-          "ERR-ANALYS": [
+          "STATUS": [
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "S.Hofmann+",
+                "reference": {
+                  "code": "J,EPJ/A,14,147,2002",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "EPJ/A",
+                      "number": null,
+                      "volume": "14",
+                      "part": null,
+                      "issue": null,
+                      "page": "147"
+                    },
+                    "date": 2002
+                  }
+                }
               },
               "free_text": [
-                ".The error is reported by authors in text."
+                " Value from the",
+                "text on p.155, 156."
               ]
             }
           ],
-          "MISC-COL": [
+          "HISTORY": [
             {
               "pointer": "",
-              "coded_information": [
-                "MISC"
-              ],
+              "coded_information": {
+                "date": 20260206,
+                "history": "U"
+              },
               "free_text": [
-                ".The calculated excitation energy of the",
-                "compound nucleus for reactions in the middle of the",
-                "target thickness."
+                " SD: BIB updated."
               ]
             }
           ],

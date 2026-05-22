@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:14:18+0000",
+  "time_stamp": "2026-05-22T21:33:08+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0892",
-        "N2": 20170207,
+        "N2": 20260206,
         "alteration_flag": " ",
-        "transmission_identification": "A086"
+        "transmission_identification": "A132"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0892001",
-            "N2": 20170207,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "A086"
+            "transmission_identification": "A132"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 11,
             "N2": 0
           },
           "TITLE": [
@@ -27,7 +27,7 @@
               "coded_information": null,
               "free_text": [
                 "Synthesis of the isotope 282-113 in the Np-237 + Ca-48",
-                "fusion reaction."
+                "fusion reaction"
               ]
             }
           ],
@@ -131,15 +131,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "4ZZZDUB"
-              ],
-              "free_text": [
-                "  Flerov Laboratory of Nuclear Reactions"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "4ZZZDUB",
                 "1USALRL"
               ],
               "free_text": [
@@ -157,19 +149,8 @@
                 "institute": "4ZZZDUB"
               },
               "free_text": [
-                " U-400 Cyclotron"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "FRS"
-                ],
-                "institute": "4ZZZDUB"
-              },
-              "free_text": [
-                " Dubna Gas-filled recoil separator"
+                " U-400 Cyclotron and gas-filled",
+                " recoil separator"
               ]
             }
           ],
@@ -184,25 +165,19 @@
               ]
             }
           ],
-          "PART-DET": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "A"
-              ],
-              "free_text": [
-                " alpha-particles and residual nuclides."
-              ]
-            }
-          ],
           "SAMPLE": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "nuclide": "93-NP-237",
+                "field_identifier": "ENR",
+                "value": 0.99
+              },
               "free_text": [
-                "The target consisted of the enriched isotope Np-237N,",
-                "enrichment more than 99%, thickness 0.37 mg/cm**2,",
-                "deposited as an oxide onto 1.5-mum Ti foils."
+                " The target consisted of the",
+                "enriched isotope 237Np, enrichment more than 99%,",
+                "thickness 0.37 mg/cm2, deposited as an oxide onto",
+                "1.5-um Ti foils."
               ]
             }
           ],
@@ -213,7 +188,7 @@
                 "MCPLT"
               ],
               "free_text": [
-                "  a 4-cm x 12-cm semiconductor detector array",
+                " A 4-cm x 12-cm semiconductor detector array",
                 "with 12 vertical position-sensitive strips surrounded",
                 "by eight 4-cm x 4-cm side detectors without position",
                 "sensitivity, forming a box open to the front (beam)",
@@ -258,6 +233,16 @@
                 " SD: SF4 code was added to REACTION code in",
                 "Subent 002. In REL-REF: JP/G,34,165 -> JP/G,34,R165."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260204,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents."
+              ]
             }
           ],
           "ENDBIB": {
@@ -276,9 +261,9 @@
         {
           "SUBENT": {
             "N1": "A0892002",
-            "N2": 20170207,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "A086"
+            "transmission_identification": "A132"
           },
           "BIB": {
             "N1": 5,
@@ -318,7 +303,10 @@
               "coded_information": {
                 "flag": null,
                 "nuclide": "113-NH-282",
-                "half-life": null,
+                "half-life": {
+                  "value": 73.0,
+                  "unit": "MSEC"
+                },
                 "radiation": [
                   {
                     "radiation_type": [
@@ -333,8 +321,8 @@
               },
               "free_text": [
                 "",
-                "Alpha decay (10.63+-0.08 MeV) measured",
-                "Half-life is 73+-134,29 msec) measured",
+                "Half-life error is +134/-29 msec (measured)",
+                "Alpha decay error is +-0.08 MeV (measured)",
                 "This is the average alpha energy from 2/2 events"
               ]
             }
@@ -346,7 +334,7 @@
                 "MISC-MIN"
               ],
               "free_text": [
-                ".The excitation energy of the compound",
+                " The excitation energy of the compound",
                 "nucleus."
               ]
             },
@@ -356,7 +344,7 @@
                 "MISC-MAX"
               ],
               "free_text": [
-                ".See above"
+                " See above"
               ]
             }
           ],
@@ -368,11 +356,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.Ts.Oganessian+",
+                "reference": {
+                  "code": "J,PR/C,76,011601,2007",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "76",
+                      "part": null,
+                      "issue": null,
+                      "page": "011601"
+                    },
+                    "date": 2007
+                  }
+                }
               },
               "free_text": [
-                " Value in text of J,PR/C,76,011601,2007"
+                " Value",
+                "from the text on p. 011601-3"
               ]
             }
           ],
@@ -395,6 +398,16 @@
               },
               "free_text": [
                 " SD: SF4 code was added to REACTION code."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260204,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],

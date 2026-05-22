@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:14:09+0000",
+  "time_stamp": "2026-05-22T21:32:53+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0890",
-        "N2": 20170211,
+        "N2": 20260206,
         "alteration_flag": " ",
-        "transmission_identification": "A087"
+        "transmission_identification": "A132"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0890001",
-            "N2": 20170211,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "A087"
+            "transmission_identification": "A132"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 11,
             "N2": 0
           },
           "TITLE": [
@@ -110,11 +110,11 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,PR/C,69,021601,2004",
+                "code": "J,PR/C,69,021601,2005",
                 "code_unit": [
                   {
-                    "unit": "J,PR/C,69,021601,2004",
-                    "doi": "10.1103/PhysRevC.69.021601",
+                    "unit": "J,PR/C,69,021601,2005",
+                    "doi": null,
                     "field": {
                       "reference_type": "J",
                       "reference": {
@@ -125,7 +125,7 @@
                         "issue": null,
                         "page": "021601"
                       },
-                      "date": 2004
+                      "date": 2005
                     }
                   }
                 ],
@@ -138,10 +138,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,MDLC,15,1,2004",
+                "code": "J,MDLC,15,1,2005",
                 "code_unit": [
                   {
-                    "unit": "J,MDLC,15,1,2004",
+                    "unit": "J,MDLC,15,1,2005",
                     "doi": null,
                     "field": {
                       "reference_type": "J",
@@ -153,7 +153,7 @@
                         "issue": null,
                         "page": "1"
                       },
-                      "date": 2004
+                      "date": 2005
                     }
                   }
                 ],
@@ -305,24 +305,8 @@
             {
               "pointer": "",
               "coded_information": [
-                "4ZZZDUB"
-              ],
-              "free_text": [
-                "  Flerov Laboratory of Nuclear Reactions"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "1USALRL"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "4ZZZDUB",
+                "1USALRL",
                 "2SWTPSI"
               ],
               "free_text": [
@@ -340,19 +324,8 @@
                 "institute": "4ZZZDUB"
               },
               "free_text": [
-                " U-400 Cyclotron"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "FRS"
-                ],
-                "institute": "4ZZZDUB"
-              },
-              "free_text": [
-                " the Dubna gas-filled recoil separator"
+                " U-400 Cyclotron and the gas-filled",
+                "recoil separator"
               ]
             }
           ],
@@ -367,29 +340,23 @@
               ]
             }
           ],
-          "PART-DET": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "A"
-              ],
-              "free_text": [
-                " And Residual Nuclides."
-              ]
-            }
-          ],
           "SAMPLE": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "nuclide": "95-AM-243",
+                "field_identifier": "ENR",
+                "value": 0.999
+              },
               "free_text": [
-                " The target consisted of the enriched isotope Am-243",
-                " (99.9%) deposited as AmO(2) onto 1.5-mum Ti foils to",
-                "a thickness of 0.36 mg/cm**2 of Am-243Am, the foils",
-                "were covered by a C-layer 35 mug/cm**2. Each of six",
-                "targets had an area of 5.3 cm**2 in the shape of an",
-                "arc segment with an angular extension of 60 degree and",
-                "an average radius of 60 mm."
+                " The 32-cm2 rotating target",
+                "consisted of the enriched isotope Am-243 (99.9%)",
+                "deposited as AmO(2) onto 1.5-um Ti foils to a",
+                "thickness of 0.36 mg/cm2 of 243Am, the foils were",
+                "covered by a C-layer 35 ug/cm2.",
+                "Each of six targets had an area of 5.3 cm2 in the shape",
+                "of an arc segment with an angular extension of 60 degr",
+                "and an average radius of 60 mm."
               ]
             }
           ],
@@ -400,9 +367,9 @@
                 "MCPLT"
               ],
               "free_text": [
-                "  a 4-cm*12-cm semiconductor detector array with",
-                "12 vertical position-sensitive strips surrounded by",
-                "eight 4-cm*4-cm side detectors without position",
+                " A 4-cm x 12-cm semiconductor detector array",
+                "with 12 vertical position-sensitive strips surrounded",
+                "by eight 4-cm x 4-cm side detectors without position",
                 "sensitivity, forming a box open to the front (beam)",
                 "side. The position-averaged detection efficiency for",
                 "full-energy alpha-particles emitted in the decays of",
@@ -442,9 +409,19 @@
                 "history": "A"
               },
               "free_text": [
-                " SD: REACTION code update in Subents 002,003",
-                "REL-REF corrected (Yu.Ts.Oganessian+,J,JP/G,34,165 ->",
-                "                    Yu.Ts.Oganessian,J,JP/G,34,R165)"
+                " SD: REACTION code updated in Subents 002,",
+                "003. REL-REF corrected (Yu.Ts.Oganessian+,J,JP/G,34,165",
+                "            -> Yu.Ts.Oganessian,J,JP/G,34,R165)."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260206,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents."
               ]
             }
           ],
@@ -464,9 +441,9 @@
         {
           "SUBENT": {
             "N1": "A0890002",
-            "N2": 20170211,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "A087"
+            "transmission_identification": "A132"
           },
           "BIB": {
             "N1": 5,
@@ -561,7 +538,10 @@
               "coded_information": {
                 "flag": null,
                 "nuclide": "115-MC-288",
-                "half-life": null,
+                "half-life": {
+                  "value": 87.0,
+                  "unit": "MSEC"
+                },
                 "radiation": [
                   {
                     "radiation_type": [
@@ -576,8 +556,8 @@
               },
               "free_text": [
                 "",
-                "Alpha decay (10.46+-0.06 MeV)",
-                "Half-life is 87+-105,30 msec)",
+                " Half-life error is +105./-30. msec.",
+                " Alpha decay error is +-0.06 MeV.",
                 "This is the average alpha energy from 3/3 events"
               ]
             }
@@ -590,15 +570,57 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.Ts.Oganessian+",
+                "reference": {
+                  "code": "J,PR/C,72,034611,2005",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "72",
+                      "part": null,
+                      "issue": null,
+                      "page": "034611"
+                    },
+                    "date": 2005
+                  }
+                }
               },
               "free_text": [
-                ".Value in text J,PR/C,72,034611,2005  for",
-                " 3n cross section for physical experiment and table 2",
-                "for average of physical and chemical experiment.",
-                " Table 2 of Mendeleev Commun.,15,1,2004  for 3n",
-                "cross section for Chemical experiment"
+                "",
+                "Value from the text for 3n cross section for physical",
+                "experiment and table 2 for average of physical and",
+                "chemical experiments."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "Yu.Ts.Oganessian+",
+                "reference": {
+                  "code": "J,MDLC,15,1,2005",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "MDLC",
+                      "number": null,
+                      "volume": "15",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 2005
+                  }
+                }
+              },
+              "free_text": [
+                " Table II",
+                "for 3n cross section for chemical experiment"
               ]
             }
           ],
@@ -623,6 +645,16 @@
               "free_text": [
                 " SD: SF4=115-*-288 -> 115-MC-288 in",
                 "REACTION code and DECAY-DATA."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260206,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -722,9 +754,9 @@
         {
           "SUBENT": {
             "N1": "A0890003",
-            "N2": 20170211,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "A087"
+            "transmission_identification": "A132"
           },
           "BIB": {
             "N1": 5,
@@ -764,7 +796,10 @@
               "coded_information": {
                 "flag": null,
                 "nuclide": "115-MC-287",
-                "half-life": null,
+                "half-life": {
+                  "value": 32.0,
+                  "unit": "MSEC"
+                },
                 "radiation": [
                   {
                     "radiation_type": [
@@ -779,8 +814,8 @@
               },
               "free_text": [
                 "",
-                "Alpha decay (10.59+-0.09 MeV)",
-                "Half-life is 32+-155,14 msec)",
+                "Half-life error is +155/-14 msec.",
+                "Alpha decay error is +-0.09 MeV.",
                 "This is the average alpha energy from 1/1 events"
               ]
             }
@@ -793,12 +828,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.Ts.Oganessian+",
+                "reference": {
+                  "code": "J,PR/C,72,034611,2005",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "72",
+                      "part": null,
+                      "issue": null,
+                      "page": "034611"
+                    },
+                    "date": 2005
+                  }
+                }
               },
               "free_text": [
-                ".Value in text J,PR/C,72,034611,2005 for",
-                " 4n cross section"
+                " from",
+                "the text on p.021601-3 for 4n cross section"
               ]
             }
           ],

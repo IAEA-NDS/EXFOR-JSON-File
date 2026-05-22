@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:15:54+0000",
+  "time_stamp": "2026-05-22T21:33:23+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A1074",
-        "N2": 20200409,
+        "N2": 20260208,
         "alteration_flag": " ",
-        "transmission_identification": "A094"
+        "transmission_identification": "A132"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A1074001",
-            "N2": 20200409,
+            "N2": 20260208,
             "alteration_flag": " ",
-            "transmission_identification": "A094"
+            "transmission_identification": "A132"
           },
           "BIB": {
             "N1": 9,
@@ -103,7 +103,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "A deuterium gas target"
+                "A deuterium gas target. The gas pressure was one",
+                "atmosphere, and was measured with a Bourdon gauge."
               ]
             }
           ],
@@ -145,7 +146,7 @@
                 "",
                 "The detector efficiency was determined by using the",
                 "2H(d,n) reaction with the cross sections determined",
-                "by Brolley Jr, at."
+                "by Brolley Jr, et al."
               ]
             }
           ],
@@ -180,6 +181,17 @@
                 " SD: Corrections in all Subents.",
                 "MONIT-REF -> REL-REF."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260208,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents.",
+                "Subent 004 deleted (values from other publications)."
+              ]
             }
           ],
           "ENDBIB": {
@@ -198,12 +210,12 @@
         {
           "SUBENT": {
             "N1": "A1074002",
-            "N2": 20200409,
+            "N2": 20260208,
             "alteration_flag": " ",
-            "transmission_identification": "A094"
+            "transmission_identification": "A132"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
@@ -228,6 +240,71 @@
                   }
                 ],
                 "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "1-H-2(D,N)2-HE-3,,DA",
+                  "code_unit": [
+                    {
+                      "unit": "1-H-2(D,N)2-HE-3,,DA",
+                      "field": {
+                        "reaction": "1-H-2(D,N)2-HE-3",
+                        "target": "1-H-2",
+                        "projectile": "D",
+                        "process": "N",
+                        "product": "2-HE-3",
+                        "quantity": ",DA",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",DA"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                "",
+                "The absolute scale was fixed by normalizing the average",
+                "of the 0. degr. yields at 12 and 14 MeV to the average",
+                "of the 0. degr. yields at 12.2 and 13.8 MeV of Brolley,",
+                "Putnam and Rosen (see MONIT-REF)."
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": "C0046001",
+                "author": "J.E.Brolley Jr+",
+                "reference": {
+                  "code": "J,PR,107,820,1957",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "107",
+                      "part": null,
+                      "issue": null,
+                      "page": "820",
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 1957
+                  }
+                }
               },
               "free_text": [
                 ""
@@ -266,11 +343,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.S.Dietrich+",
+                "reference": {
+                  "code": "J,NP/A,184,449,1972",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "184",
+                      "part": null,
+                      "issue": null,
+                      "page": "449"
+                    },
+                    "date": 1972
+                  }
+                }
               },
               "free_text": [
-                " Fig 2 from Nucl.Phys.,A184(1972)449"
+                " Fig 2"
               ]
             }
           ],
@@ -285,6 +376,16 @@
                 " SD: SF9=EXP deleted from REACTION code.",
                 "CRITIQUE from M.Drosg added. ANG-ERR -> ANG-ERR-D;",
                 "DATA-ERR -> ERR-DIG. ERR-ANALYS deleted."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260208,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -425,19 +526,19 @@
               [
                 14.0,
                 0.3,
-                49.53,
+                49.5,
                 null
               ],
               [
                 14.0,
                 7.3,
-                43.69,
+                43.7,
                 null
               ],
               [
                 14.0,
                 14.6,
-                31.33,
+                31.3,
                 null
               ],
               [
@@ -449,7 +550,7 @@
               [
                 14.0,
                 22.3,
-                18.84,
+                18.8,
                 null
               ],
               [
@@ -820,9 +921,9 @@
         {
           "SUBENT": {
             "N1": "A1074003",
-            "N2": 20200409,
+            "N2": 20260208,
             "alteration_flag": " ",
-            "transmission_identification": "A094"
+            "transmission_identification": "A132"
           },
           "BIB": {
             "N1": 4,
@@ -878,11 +979,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.S.Dietrich+",
+                "reference": {
+                  "code": "J,NP/A,184,449,1972",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "184",
+                      "part": null,
+                      "issue": null,
+                      "page": "449"
+                    },
+                    "date": 1972
+                  }
+                }
               },
               "free_text": [
-                " Table 1 from Nucl.Phys.,A184(1972)449"
+                " Table 1"
               ]
             }
           ],
@@ -895,6 +1010,16 @@
               },
               "free_text": [
                 " SD: SF9=EXP deleted from REACTION code."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260208,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: STATUS updated. NUMBER-CM -> NUMBER."
               ]
             }
           ],
@@ -916,52 +1041,160 @@
               ""
             ],
             "heading": [
+              "NUMBER",
               "EN",
-              "NUMBER-CM",
               "DATA-CM",
               "DATA-ERR"
             ],
             "unit": [
-              "MEV",
               "NO-DIM",
+              "MEV",
               "MB/SR",
               "PER-CENT"
             ],
             "value": [
               [
-                12.0,
                 0.0,
+                12.0,
                 6.0,
                 10.0
               ],
               [
-                12.0,
+                0.0,
+                14.0,
+                6.1,
+                10.0
+              ],
+              [
+                0.0,
+                16.0,
+                6.2,
+                10.0
+              ],
+              [
+                0.0,
+                18.0,
+                6.1,
+                10.0
+              ],
+              [
                 2.0,
+                12.0,
                 9.3,
                 10.0
               ],
               [
-                12.0,
+                2.0,
+                14.0,
+                10.3,
+                10.0
+              ],
+              [
+                2.0,
+                16.0,
+                9.8,
+                10.0
+              ],
+              [
+                2.0,
+                18.0,
+                10.3,
+                10.0
+              ],
+              [
                 4.0,
+                12.0,
                 14.4,
                 10.0
               ],
               [
-                12.0,
+                4.0,
+                14.0,
+                14.5,
+                10.0
+              ],
+              [
+                4.0,
+                16.0,
+                13.9,
+                10.0
+              ],
+              [
+                4.0,
+                18.0,
+                13.1,
+                10.0
+              ],
+              [
                 6.0,
+                12.0,
                 10.2,
                 10.0
               ],
               [
-                12.0,
+                6.0,
+                14.0,
+                12.3,
+                10.0
+              ],
+              [
+                6.0,
+                16.0,
+                12.7,
+                10.0
+              ],
+              [
+                6.0,
+                18.0,
+                13.3,
+                10.0
+              ],
+              [
                 8.0,
+                12.0,
                 3.6,
                 15.0
               ],
               [
-                12.0,
+                8.0,
+                14.0,
+                5.0,
+                15.0
+              ],
+              [
+                8.0,
+                16.0,
+                5.0,
+                15.0
+              ],
+              [
+                8.0,
+                18.0,
+                5.9,
+                15.0
+              ],
+              [
                 10.0,
+                12.0,
                 1.8,
+                15.0
+              ],
+              [
+                10.0,
+                14.0,
+                0.8,
+                15.0
+              ],
+              [
+                10.0,
+                16.0,
+                1.2,
+                15.0
+              ],
+              [
+                10.0,
+                18.0,
+                1.4,
                 15.0
               ],
               [
@@ -971,128 +1204,20 @@
                 15.0
               ],
               [
-                14.0,
-                0.0,
-                6.1,
-                10.0
-              ],
-              [
-                14.0,
-                2.0,
-                10.3,
-                10.0
-              ],
-              [
-                14.0,
-                4.0,
-                14.5,
-                10.0
-              ],
-              [
-                14.0,
-                6.0,
-                12.3,
-                10.0
-              ],
-              [
-                14.0,
-                8.0,
-                5.0,
-                15.0
-              ],
-              [
-                14.0,
-                10.0,
-                0.8,
-                15.0
-              ],
-              [
-                14.0,
                 12.0,
+                14.0,
                 -0.7,
                 15.0
               ],
               [
-                16.0,
-                0.0,
-                6.2,
-                10.0
-              ],
-              [
-                16.0,
-                2.0,
-                9.8,
-                10.0
-              ],
-              [
-                16.0,
-                4.0,
-                13.9,
-                10.0
-              ],
-              [
-                16.0,
-                6.0,
-                12.7,
-                10.0
-              ],
-              [
-                16.0,
-                8.0,
-                5.0,
-                15.0
-              ],
-              [
-                16.0,
-                10.0,
-                1.2,
-                15.0
-              ],
-              [
-                16.0,
                 12.0,
+                16.0,
                 0.7,
                 15.0
               ],
               [
-                18.0,
-                0.0,
-                6.1,
-                10.0
-              ],
-              [
-                18.0,
-                2.0,
-                10.3,
-                10.0
-              ],
-              [
-                18.0,
-                4.0,
-                13.1,
-                10.0
-              ],
-              [
-                18.0,
-                6.0,
-                13.3,
-                10.0
-              ],
-              [
-                18.0,
-                8.0,
-                5.9,
-                15.0
-              ],
-              [
-                18.0,
-                10.0,
-                1.4,
-                15.0
-              ],
-              [
-                18.0,
                 12.0,
+                18.0,
                 0.5,
                 15.0
               ]
@@ -1108,303 +1233,10 @@
           }
         },
         {
-          "SUBENT": {
+          "NOSUBENT": {
             "N1": "A1074004",
-            "N2": 20200409,
-            "alteration_flag": " ",
-            "transmission_identification": "A094"
-          },
-          "BIB": {
-            "N1": 4,
-            "N2": 0
-          },
-          "REACTION": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "1-H-2(D,N)2-HE-3,,DA,,LEG",
-                "code_unit": [
-                  {
-                    "unit": "1-H-2(D,N)2-HE-3,,DA,,LEG",
-                    "field": {
-                      "reaction": "1-H-2(D,N)2-HE-3",
-                      "target": "1-H-2",
-                      "projectile": "D",
-                      "process": "N",
-                      "product": "2-HE-3",
-                      "quantity": ",DA,,LEG",
-                      "data_type": null,
-                      "general_quantity_modifier": null,
-                      "quantity_236": ",DA,,LEG"
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "REL-REF": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "R",
-                "subentry_number": null,
-                "author": "R.G.Kerr+",
-                "reference": {
-                  "code": "J,BAP,13,564(AG5),1968",
-                  "field": {
-                    "reference_type": "J",
-                    "reference": {
-                      "code": "BAP",
-                      "number": null,
-                      "volume": "13",
-                      "part": null,
-                      "issue": null,
-                      "page": "564(AG5)"
-                    },
-                    "date": 1968
-                  }
-                }
-              },
-              "free_text": [
-                " + priv.communicat"
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "CURVE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Fig 3 from Nucl.Phys.,A184(1972)449"
-              ]
-            }
-          ],
-          "HISTORY": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 20200409,
-                "history": "A"
-              },
-              "free_text": [
-                " SD: SF9=EXP deleted from REACTION code.",
-                "EN-ERR -> EN-ERR-DIG; DATA-ERR -> ERR-DIG. ERR-ANALYS",
-                "deleted. ERR-DIG moved to COMMON and given in percents."
-              ]
-            }
-          ],
-          "ENDBIB": {
-            "N1": 0,
-            "N2": 0
-          },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "EN-ERR-DIG",
-              "ERR-DIG"
-            ],
-            "unit": [
-              "MEV",
-              "PER-CENT"
-            ],
-            "value": [
-              0.12,
-              1.5
-            ]
-          },
-          "ENDCOMMON": {
-            "N1": 0,
-            "N2": 0
-          },
-          "DATA": {
-            "N1": 3,
-            "N2": 29,
-            "pointer": [
-              "",
-              "",
-              ""
-            ],
-            "heading": [
-              "NUMBER-CM",
-              "EN",
-              "DATA-CM"
-            ],
-            "unit": [
-              "NO-DIM",
-              "MEV",
-              "MB/SR"
-            ],
-            "value": [
-              [
-                0.0,
-                6.01,
-                7.95
-              ],
-              [
-                0.0,
-                7.03,
-                7.74
-              ],
-              [
-                0.0,
-                8.06,
-                7.21
-              ],
-              [
-                0.0,
-                9.02,
-                6.81
-              ],
-              [
-                0.0,
-                10.04,
-                7.16
-              ],
-              [
-                2.0,
-                6.07,
-                12.0
-              ],
-              [
-                2.0,
-                7.03,
-                11.3
-              ],
-              [
-                2.0,
-                7.99,
-                11.7
-              ],
-              [
-                2.0,
-                9.01,
-                11.1
-              ],
-              [
-                2.0,
-                10.1,
-                11.4
-              ],
-              [
-                4.0,
-                6.03,
-                16.3
-              ],
-              [
-                4.0,
-                7.05,
-                17.2
-              ],
-              [
-                4.0,
-                8.01,
-                17.5
-              ],
-              [
-                4.0,
-                8.97,
-                16.5
-              ],
-              [
-                4.0,
-                10.06,
-                17.1
-              ],
-              [
-                6.0,
-                6.05,
-                6.1
-              ],
-              [
-                6.0,
-                7.0,
-                8.08
-              ],
-              [
-                6.0,
-                8.02,
-                9.01
-              ],
-              [
-                6.0,
-                9.05,
-                9.61
-              ],
-              [
-                6.0,
-                10.0,
-                10.4
-              ],
-              [
-                8.0,
-                5.95,
-                1.4
-              ],
-              [
-                8.0,
-                6.96,
-                2.08
-              ],
-              [
-                8.0,
-                7.99,
-                2.12
-              ],
-              [
-                8.0,
-                9.0,
-                3.06
-              ],
-              [
-                8.0,
-                10.16,
-                3.03
-              ],
-              [
-                10.0,
-                7.06,
-                0.51
-              ],
-              [
-                10.0,
-                8.07,
-                0.84
-              ],
-              [
-                10.0,
-                9.09,
-                0.81
-              ],
-              [
-                10.0,
-                10.06,
-                0.73
-              ]
-            ]
-          },
-          "ENDDATA": {
-            "N1": 0,
-            "N2": 0
-          },
-          "ENDSUBENT": {
-            "N1": 0,
-            "N2": 0
+            "N2": 20260208,
+            "transmission_identification": "A132"
           }
         }
       ],

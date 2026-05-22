@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:17:21+0000",
+  "time_stamp": "2026-05-22T21:33:34+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A1246",
-        "N2": 20210317,
+        "N2": 20260217,
         "alteration_flag": " ",
-        "transmission_identification": "A097"
+        "transmission_identification": "A132"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A1246001",
-            "N2": 20210317,
+            "N2": 20260217,
             "alteration_flag": " ",
-            "transmission_identification": "A097"
+            "transmission_identification": "A132"
           },
           "BIB": {
             "N1": 10,
@@ -251,7 +251,7 @@
               },
               "free_text": [
                 " Uncertainty due to choice of limits for",
-                "        proton pesk"
+                "        proton peak"
               ]
             },
             {
@@ -335,6 +335,16 @@
                 " SD: Ref. and ERR-ANALYS added. Corrections",
                 "in all Subents."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260217,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents."
+              ]
             }
           ],
           "ENDBIB": {
@@ -342,9 +352,10 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 7,
+            "N1": 8,
             "N2": 0,
             "pointer": [
+              "",
               "",
               "",
               "",
@@ -360,9 +371,11 @@
               "ERR-3",
               "ERR-4",
               "ERR-5",
-              "ERR-6"
+              "ERR-6",
+              "ERR-T"
             ],
             "unit": [
+              "PER-CENT",
               "PER-CENT",
               "PER-CENT",
               "PER-CENT",
@@ -378,7 +391,8 @@
               0.7,
               0.5,
               1.6,
-              1.0
+              1.0,
+              2.6
             ]
           },
           "ENDCOMMON": {
@@ -393,9 +407,9 @@
         {
           "SUBENT": {
             "N1": "A1246002",
-            "N2": 20210317,
+            "N2": 20260217,
             "alteration_flag": " ",
-            "transmission_identification": "A097"
+            "transmission_identification": "A132"
           },
           "BIB": {
             "N1": 3,
@@ -437,11 +451,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "L.Jizhou+",
+                "reference": {
+                  "code": "J,NIM/A,255,115,1987",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/A",
+                      "number": null,
+                      "volume": "255",
+                      "part": null,
+                      "issue": null,
+                      "page": "115"
+                    },
+                    "date": 1987
+                  }
+                }
               },
               "free_text": [
-                " Table 1 from Nucl.Instr.Meth.,A255(1987)115"
+                " Table 1"
               ]
             }
           ],
@@ -455,29 +483,23 @@
               "free_text": [
                 " SD: SF9=EXP deleted from REACTION code."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260217,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: STATUS updated. NUMBER-CM -> NUMBER."
+              ]
             }
           ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 1,
-            "N2": 0,
-            "pointer": [
-              ""
-            ],
-            "heading": [
-              "ERR-T"
-            ],
-            "unit": [
-              "PER-CENT"
-            ],
-            "value": [
-              2.6
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -490,20 +512,30 @@
               ""
             ],
             "heading": [
+              "NUMBER",
               "EN",
-              "NUMBER-CM",
               "DATA-CM"
             ],
             "unit": [
-              "MEV",
               "NO-DIM",
+              "MEV",
               "NO-DIM"
             ],
             "value": [
               [
-                1.0,
                 0.0,
+                1.0,
                 0.924
+              ],
+              [
+                0.0,
+                1.5,
+                0.874
+              ],
+              [
+                0.0,
+                2.0,
+                0.775
               ],
               [
                 1.0,
@@ -512,33 +544,23 @@
               ],
               [
                 1.0,
-                2.0,
-                -0.04
-              ],
-              [
                 1.5,
-                0.0,
-                0.874
-              ],
-              [
-                1.5,
-                1.0,
                 0.122
               ],
               [
-                1.5,
+                1.0,
                 2.0,
-                0.004
-              ],
-              [
-                2.0,
-                0.0,
-                0.775
+                0.114
               ],
               [
                 2.0,
                 1.0,
-                0.114
+                -0.04
+              ],
+              [
+                2.0,
+                1.5,
+                0.004
               ],
               [
                 2.0,
@@ -546,18 +568,18 @@
                 0.061
               ],
               [
-                2.0,
                 3.0,
+                2.0,
                 0.014
               ],
               [
-                2.0,
                 4.0,
+                2.0,
                 0.032
               ],
               [
-                2.0,
                 5.0,
+                2.0,
                 0.003
               ]
             ]

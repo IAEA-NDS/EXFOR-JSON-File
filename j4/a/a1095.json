@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:16:14+0000",
+  "time_stamp": "2026-05-22T21:33:31+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A1095",
-        "N2": 20081015,
+        "N2": 20260216,
         "alteration_flag": " ",
-        "transmission_identification": "Y007"
+        "transmission_identification": "A132"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A1095001",
-            "N2": 20081015,
+            "N2": 20260216,
             "alteration_flag": " ",
-            "transmission_identification": "Y007"
+            "transmission_identification": "A132"
           },
           "BIB": {
-            "N1": 9,
+            "N1": 8,
             "N2": 0
           },
           "TITLE": [
@@ -27,7 +27,7 @@
               "coded_information": null,
               "free_text": [
                 "Polarization and cross section of protons scattered by",
-                "He-3 from 4 to 13 MeV"
+                "3He from 4 to 13 MeV"
               ]
             }
           ],
@@ -39,6 +39,36 @@
                 "W.Haeberli",
                 "L.W.Morrow"
               ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,PR,133,B1178,1964",
+                "code_unit": [
+                  {
+                    "unit": "J,PR,133,B1178,1964",
+                    "doi": "10.1103/PhysRev.133.B1178",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "PR",
+                        "number": null,
+                        "volume": "133",
+                        "part": null,
+                        "issue": null,
+                        "page": "B1178"
+                      },
+                      "date": 1964
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
               "free_text": [
                 ""
               ]
@@ -70,77 +100,49 @@
               ]
             }
           ],
-          "REFERENCE": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "J,PR,133,B1178,196403",
-                "code_unit": [
-                  {
-                    "unit": "J,PR,133,B1178,196403",
-                    "doi": "10.1103/PhysRev.133.B1178",
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "PR",
-                        "number": null,
-                        "volume": "133",
-                        "part": null,
-                        "issue": null,
-                        "page": "B1178"
-                      },
-                      "date": 196403
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "SAMPLE": [
             {
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "A gas He-3 target"
+                "Generally He3 was used as the first target. However,",
+                "for p-He3 measurements at low energies or large",
+                "scattering angles it was advantageous to scatter from",
+                "He4 first so as to have a higher energy in the",
+                "p-alpha scattering and therefore a greater",
+                "polarization. Target pressures in the first target of",
+                "8-20 atm were used. The second target pressure was",
+                "about 6 atm for all measurements. The maximum He3",
+                "target thickness was 180 keV."
               ]
             }
           ],
-          "ERR-ANALYS": [
+          "REL-REF": [
             {
               "pointer": "",
               "coded_information": {
-                "heading": "EN-ERR1",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
+                "code": "I",
+                "subentry_number": null,
+                "author": "R.I.Brown+",
+                "reference": {
+                  "code": "J,NP,47,212,1963",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "47",
+                      "part": null,
+                      "issue": null,
+                      "page": "212"
+                    },
+                    "date": 1963
+                  }
+                }
               },
               "free_text": [
-                " The proton energy uncertainty"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ANG2-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Angle uncertainty"
-              ]
-            }
-          ],
-          "INC-SPECT": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Energy beam resolution"
+                " - the apparatus",
+                " was given"
               ]
             }
           ],
@@ -163,17 +165,8 @@
                 "history": "A"
               },
               "free_text": [
-                " Reference is corrected. Updated too"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 20040630,
-                "history": "U"
-              },
-              "free_text": [
-                " Last checking has been done."
+                " Ref. was corrected. Updated to new date",
+                "formats, lower case."
               ]
             },
             {
@@ -183,8 +176,19 @@
                 "history": "A"
               },
               "free_text": [
-                " NDS: ref.was corrected.",
+                " NDS: ref. was corrected.",
                 "               PR,B133,1178 ==>PR,133,B1178"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260216,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents.",
+                "EN-ERR1 -> EN-ERR; ANG2-ERR -> ANG-ERR."
               ]
             }
           ],
@@ -200,8 +204,8 @@
               ""
             ],
             "heading": [
-              "EN-ERR1",
-              "ANG2-ERR"
+              "EN-ERR",
+              "ANG-ERR"
             ],
             "unit": [
               "MEV",
@@ -224,12 +228,12 @@
         {
           "SUBENT": {
             "N1": "A1095002",
-            "N2": 20040630,
+            "N2": 20260216,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A132"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -260,6 +264,17 @@
               ]
             }
           ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "SIBAR"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -268,11 +283,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "D.G.Mcdonald+",
+                "reference": {
+                  "code": "J,PR,133,B1178,1964",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "133",
+                      "part": null,
+                      "issue": null,
+                      "page": "B1178"
+                    },
+                    "date": 1964
+                  }
+                }
               },
               "free_text": [
-                " Table 2"
+                " Table II"
               ]
             }
           ],
@@ -286,8 +315,32 @@
                 "correlation_property": null
               },
               "free_text": [
-                " The over-all extimated uncertainty of the cross",
-                "section. (Both systematic and random)."
+                " The over-all estimated uncertainty of the",
+                "cross section. (Both systematic and random)."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": 1.0,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistical error"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260216,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -815,9 +868,9 @@
         {
           "SUBENT": {
             "N1": "A1095003",
-            "N2": 20040630,
+            "N2": 20260216,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A132"
           },
           "BIB": {
             "N1": 3,
@@ -851,32 +904,6 @@
               ]
             }
           ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "EN-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Digitizing error"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Digitizing error"
-              ]
-            }
-          ],
           "STATUS": [
             {
               "pointer": "",
@@ -885,11 +912,38 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "D.G.Mcdonald+",
+                "reference": {
+                  "code": "J,PR,133,B1178,1964",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "133",
+                      "part": null,
+                      "issue": null,
+                      "page": "B1178"
+                    },
+                    "date": 1964
+                  }
+                }
               },
               "free_text": [
-                " Figure 2"
+                " Fig. 2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260216,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: BIB updated. EN-ERR -> EN-ERR-DIG;",
+                "DATA-ERR -> ERR-DIG."
               ]
             }
           ],
@@ -906,19 +960,19 @@
               ""
             ],
             "heading": [
-              "EN-ERR",
               "ANG-CM",
-              "DATA-ERR"
+              "EN-ERR-DIG",
+              "ERR-DIG"
             ],
             "unit": [
-              "MEV",
               "ADEG",
+              "MEV",
               "MB/SR"
             ],
             "value": [
-              0.03703,
               170.6,
-              1.111
+              0.037,
+              1.1
             ]
           },
           "ENDCOMMON": {

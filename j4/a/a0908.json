@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:14:31+0000",
+  "time_stamp": "2026-05-22T21:33:11+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0908",
-        "N2": 20111215,
+        "N2": 20260207,
         "alteration_flag": " ",
-        "transmission_identification": "A075"
+        "transmission_identification": "A132"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0908001",
-            "N2": 20111215,
+            "N2": 20260207,
             "alteration_flag": " ",
-            "transmission_identification": "A075"
+            "transmission_identification": "A132"
           },
           "BIB": {
-            "N1": 13,
+            "N1": 12,
             "N2": 0
           },
           "TITLE": [
@@ -116,25 +116,11 @@
             {
               "pointer": "",
               "coded_information": [
-                "2GERGSI"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2SF HLS"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2SPNSAU"
+                "2GERGSI",
+                "2SF HLS",
+                "2SPNSAU",
+                "2GERZFK",
+                "2FR BRC"
               ],
               "free_text": [
                 ""
@@ -148,49 +134,6 @@
               "free_text": [
                 " CUPP Project, FI-86801, Pyhaesalmi, Finland"
               ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2GERZFK"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2FR BRC"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "SCIN"
-              ],
-              "free_text": [
-                " Two plastic scintillators, one placed at the",
-                " intermediate focal plane of the FRS and another at the",
-                " final focal plane."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "IOCH"
-              ],
-              "free_text": [
-                " Two music ionization chambers, placed at the end",
-                " of the FRS, provided the energy loss of the nuclei.",
-                " Finally, two multiwire chambers were used to track the",
-                " transmitted nuclei."
-              ]
             }
           ],
           "FACILITY": [
@@ -203,19 +146,34 @@
                 "institute": "2GERGSI"
               },
               "free_text": [
-                " The SIS18 synchrotron"
+                " The SIS18 synchrotron and fragment",
+                "separator (FRS)"
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "SCIN"
+              ],
+              "free_text": [
+                " Two plastic scintillators, one placed at the",
+                "intermediate focal plane of the FRS and another at",
+                "the final focal plane."
               ]
             },
             {
               "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "FRS"
-                ],
-                "institute": "2GERGSI"
-              },
+              "coded_information": [
+                "IOCH"
+              ],
               "free_text": [
-                ""
+                " Two multiple-sampling ionization chambers",
+                " (MUSIC), placed at the end of the FRS, provided the",
+                "energy loss of the nuclei.",
+                " Finally, two multiwire chambers were used to track the",
+                " transmitted nuclei."
               ]
             }
           ],
@@ -244,11 +202,16 @@
           "SAMPLE": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "nuclide": "50-SN-112",
+                "field_identifier": "ENR",
+                "value": 0.975
+              },
               "free_text": [
-                "A 126.7+-0.6 mg/cm**2 thick Sn-112 target with",
-                " 99.5+-0.2 enrichment and a 141.8+-0.7 mg/cm**2 thick",
-                "Sn-124Sn target with 97.5+-0.2 enrichment, were used."
+                " A 126.7+-0.6 mg/cm2 thick Sn-112",
+                "target with 99.5+-0.2 enrichment and a",
+                "141.8+-0.7 mg/cm2 thick Sn-124Sn target with 97.5+-0.2%",
+                "enrichment, were used."
               ]
             }
           ],
@@ -262,29 +225,12 @@
                 "correlation_property": null
               },
               "free_text": [
-                ".The uncertainty is reported by authors in",
-                "tables. Uncertainties of the cross sections are based",
-                "on the uncertainty of the integral of the velocity",
-                "distributions given by the fitting routine. An",
-                "additional uncertainty was introduced by the estimation",
-                "of the parts of the velocity distributions outside",
-                "the angular acceptance."
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                ".Tables of J,PR/C,84,054605,2011"
+                " Uncertainties of the cross sections are",
+                "based on the uncertainty of the integral of the",
+                "velocity distributions given by the fitting routine.",
+                "An additional uncertainty was introduced by the",
+                "estimation of the parts of the velocity distributions",
+                "outside the angular acceptance."
               ]
             }
           ],
@@ -297,6 +243,16 @@
               },
               "free_text": [
                 " S.B"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260207,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents."
               ]
             }
           ],
@@ -332,12 +288,12 @@
         {
           "SUBENT": {
             "N1": "A0908002",
-            "N2": 20111215,
+            "N2": 20260207,
             "alteration_flag": " ",
-            "transmission_identification": "A075"
+            "transmission_identification": "A132"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -376,11 +332,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.Foehr+",
+                "reference": {
+                  "code": "J,PR/C,84,054605,2011",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "84",
+                      "part": null,
+                      "issue": null,
+                      "page": "054605"
+                    },
+                    "date": 2011
+                  }
+                }
               },
               "free_text": [
-                ".Table 2 of J,PR/C,84,054605,2011"
+                " Table II"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260207,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -1922,12 +1904,12 @@
         {
           "SUBENT": {
             "N1": "A0908003",
-            "N2": 20111215,
+            "N2": 20260207,
             "alteration_flag": " ",
-            "transmission_identification": "A075"
+            "transmission_identification": "A132"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -1966,11 +1948,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.Foehr+",
+                "reference": {
+                  "code": "J,PR/C,84,054605,2011",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "84",
+                      "part": null,
+                      "issue": null,
+                      "page": "054605"
+                    },
+                    "date": 2011
+                  }
+                }
               },
               "free_text": [
-                ".Table 3 of J,PR/C,84,054605,2011"
+                " Table III"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260207,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],

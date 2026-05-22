@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:14:38+0000",
+  "time_stamp": "2026-05-22T21:33:13+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0923",
-        "N2": 20120112,
+        "N2": 20260207,
         "alteration_flag": " ",
-        "transmission_identification": "A076"
+        "transmission_identification": "A132"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0923001",
-            "N2": 20120112,
+            "N2": 20260207,
             "alteration_flag": " ",
-            "transmission_identification": "A076"
+            "transmission_identification": "A132"
           },
           "BIB": {
             "N1": 9,
@@ -26,9 +26,9 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The excitation curve of reactions Li-7(p,n)4-Be-7,",
-                "B-10(p,a)4-Be-7, B-11(p,n)6-C-11 and the energy levels",
-                "of nuclei Be-8,C-11 and C-12."
+                "Excitation functions for the reactions 7Li(p,n)7Be,",
+                "10B(p,alpha)7Be and 11B(p,n)11C and energy levels",
+                "in 8Be, 11C and 12C nuclei"
               ]
             }
           ],
@@ -45,18 +45,35 @@
               ]
             }
           ],
-          "INSTITUTE": [
+          "REFERENCE": [
             {
               "pointer": "",
-              "coded_information": [
-                "4RUSKUR"
-              ],
+              "coded_information": {
+                "code": "J,SJA,2,193,1957",
+                "code_unit": [
+                  {
+                    "unit": "J,SJA,2,193,1957",
+                    "doi": "10.1007/BF01832091",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "SJA",
+                        "number": null,
+                        "volume": "2",
+                        "part": null,
+                        "issue": null,
+                        "page": "193"
+                      },
+                      "date": 1957
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
               "free_text": [
-                ""
+                " English translation"
               ]
-            }
-          ],
-          "REFERENCE": [
+            },
             {
               "pointer": "",
               "coded_information": {
@@ -84,33 +101,16 @@
               "free_text": [
                 ""
               ]
-            },
+            }
+          ],
+          "INSTITUTE": [
             {
               "pointer": "",
-              "coded_information": {
-                "code": "J,SJA,2,(2),193,1957",
-                "code_unit": [
-                  {
-                    "unit": "J,SJA,2,(2),193,1957",
-                    "doi": "10.1007/BF01832091",
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "SJA",
-                        "number": null,
-                        "volume": "2",
-                        "part": null,
-                        "issue": "2",
-                        "page": "193"
-                      },
-                      "date": 1957
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
+              "coded_information": [
+                "4RUSKUR"
+              ],
               "free_text": [
-                " English translation"
+                ""
               ]
             }
           ],
@@ -143,15 +143,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "NAICR"
-              ],
-              "free_text": [
-                " NaI(Tl) crustal"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "NAICR",
                 "GEMUC"
               ],
               "free_text": [
@@ -169,7 +161,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                ".The error is reported by authors in text."
+                " No information about source of uncertainty"
               ]
             }
           ],
@@ -182,6 +174,16 @@
               },
               "free_text": [
                 " sb"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260207,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents."
               ]
             }
           ],
@@ -217,12 +219,12 @@
         {
           "SUBENT": {
             "N1": "A0923002",
-            "N2": 20120119,
+            "N2": 20260207,
             "alteration_flag": " ",
-            "transmission_identification": "A076"
+            "transmission_identification": "A132"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -258,7 +260,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "LiF, thickness 2-10 mg/cm**2, deposited on 10 micron Al",
+                "LiF, thickness 2-10 mg/cm2, deposited on 10 um Al",
                 "backing was used"
               ]
             }
@@ -271,11 +273,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.P.Kalinin+",
+                "reference": {
+                  "code": "J,SJA,2,193,1957",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SJA",
+                      "number": null,
+                      "volume": "2",
+                      "part": null,
+                      "issue": null,
+                      "page": "193"
+                    },
+                    "date": 1957
+                  }
+                }
               },
               "free_text": [
-                ".By Cajad-fig. 1 of J,AE,2,171,1957"
+                " Fig. 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260207,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -289,7 +317,7 @@
           },
           "DATA": {
             "N1": 2,
-            "N2": 42,
+            "N2": 41,
             "pointer": [
               "",
               ""
@@ -378,10 +406,6 @@
               [
                 7.185,
                 212.3626
-              ],
-              [
-                7.392,
-                198.0423
               ],
               [
                 7.392,
@@ -485,12 +509,12 @@
         {
           "SUBENT": {
             "N1": "A0923003",
-            "N2": 20120119,
+            "N2": 20260207,
             "alteration_flag": " ",
-            "transmission_identification": "A076"
+            "transmission_identification": "A132"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -527,7 +551,7 @@
               "coded_information": null,
               "free_text": [
                 "B(2)O(3) thin target, deposited on Al foil, thickness",
-                " 10 micron."
+                " 10 um."
               ]
             }
           ],
@@ -539,11 +563,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.P.Kalinin+",
+                "reference": {
+                  "code": "J,SJA,2,193,1957",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SJA",
+                      "number": null,
+                      "volume": "2",
+                      "part": null,
+                      "issue": null,
+                      "page": "193"
+                    },
+                    "date": 1957
+                  }
+                }
               },
               "free_text": [
-                ".By Cajad-fig. 2 of J,AE,2,171,1957"
+                " Fig. 2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260207,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -697,12 +747,12 @@
         {
           "SUBENT": {
             "N1": "A0923004",
-            "N2": 20120119,
+            "N2": 20260207,
             "alteration_flag": " ",
-            "transmission_identification": "A076"
+            "transmission_identification": "A132"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -739,7 +789,7 @@
               "coded_information": null,
               "free_text": [
                 "Sample of boron-polystyrene films, thickness",
-                "3.5-16 mg/cm**2, prepared from natural boron were used."
+                "3.5-16 mg/cm2, prepared from natural boron were used."
               ]
             }
           ],
@@ -751,11 +801,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.P.Kalinin+",
+                "reference": {
+                  "code": "J,SJA,2,193,1957",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SJA",
+                      "number": null,
+                      "volume": "2",
+                      "part": null,
+                      "issue": null,
+                      "page": "193"
+                    },
+                    "date": 1957
+                  }
+                }
               },
               "free_text": [
-                ".By Cajad-fig. 3 of J,AE,2,171,1957"
+                " Fig. 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260207,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],

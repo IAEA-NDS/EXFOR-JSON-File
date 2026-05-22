@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:14:21+0000",
+  "time_stamp": "2026-05-22T21:33:10+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0896",
-        "N2": 20110816,
+        "N2": 20260206,
         "alteration_flag": " ",
-        "transmission_identification": "A073"
+        "transmission_identification": "A132"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0896001",
-            "N2": 20110816,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "A073"
+            "transmission_identification": "A132"
           },
           "BIB": {
             "N1": 10,
@@ -26,8 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The new  isotope 110-270 and its decay products Hs-266",
-                "and Sg-262."
+                "The new isotope 110-270 and its decay products 266Hs",
+                "and 262Sg"
               ]
             }
           ],
@@ -90,53 +90,13 @@
             {
               "pointer": "",
               "coded_information": [
-                "2GERGSI"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "3SLKUB"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "3POLWWA"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "2GERGSI",
+                "3SLKUB",
+                "3POLWWA",
                 "4ZZZDUB"
               ],
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "SAMPLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "The Pb-207 target was prepared from enriched (92.4 %)",
-                "material. Metallic lead was evaporated on a carbon foil",
-                " 36 mug/cm**2 to a thickness of 435 mug/cm**2. The lead",
-                "was then covered by a carbon foil of 10 mug/cm**2",
-                "thickness. The thicker carbon foil was oriented up-",
-                "stream and a charge equilibration foil 60 mug/cm**2",
-                "carbon was mounted downstream at a distance of 16 cm",
-                "from the target."
               ]
             }
           ],
@@ -150,20 +110,29 @@
                 "institute": "2GERGSI"
               },
               "free_text": [
-                " The UNILAC accelerator."
+                " The UNILAC accelerator and the",
+                "velocity filter SHIP (Separator for Heavy-Ion",
+                "reaction Products) at GSI."
               ]
-            },
+            }
+          ],
+          "SAMPLE": [
             {
               "pointer": "",
               "coded_information": {
-                "facility": [
-                  "FRS"
-                ],
-                "institute": "2GERGSI"
+                "nuclide": "82-PB-207",
+                "field_identifier": "ENR",
+                "value": 0.924
               },
               "free_text": [
-                " The velocity filter SHIP(Separator for",
-                " Heavy-Ion reaction Products) at GSI."
+                " The 207Pb target was prepared",
+                "from enriched (92.4%) material. Metallic lead was",
+                "evaporated on a carbon foil 36 ug/cm2 to a thickness",
+                "of 435 ug/cm2. The lead was then covered by a carbon",
+                "foil of 10 ug/cm2 thickness. The thicker carbon foil",
+                "was oriented up- stream and a charge equilibration",
+                "foil 60 ug/cm2 carbon was mounted downstream at a",
+                "distance of 16 cm from the target."
               ]
             }
           ],
@@ -174,8 +143,8 @@
                 "MAGSP"
               ],
               "free_text": [
-                " The evaporated residues(ERs) were",
-                "separated from the beam by the velocity filter SHIP and",
+                " The evaporated residues (ERs) were separated",
+                "from the beam by the velocity filter SHIP and",
                 "implanted into a position-sensitive strip Si detector",
                 " (focal-plane stop detector)"
               ]
@@ -209,11 +178,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.Hofmann+",
+                "reference": {
+                  "code": "J,EPJ/A,10,5,2001",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "EPJ/A",
+                      "number": null,
+                      "volume": "10",
+                      "part": null,
+                      "issue": null,
+                      "page": "5"
+                    },
+                    "date": 2001
+                  }
+                }
               },
               "free_text": [
-                ".Value in text of J,EPJ/A,10,5,2001"
+                " Value from the",
+                "text on p.6."
               ]
             }
           ],
@@ -226,6 +210,16 @@
               },
               "free_text": [
                 " SB"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260206,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in Subent 001."
               ]
             }
           ],
