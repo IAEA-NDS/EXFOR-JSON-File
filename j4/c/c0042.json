@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:23:14+0000",
+  "time_stamp": "2026-05-22T20:57:31+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C0042",
-        "N2": 20020213,
+        "N2": 20260122,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "C254"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C0042001",
-            "N2": 20020213,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C254"
           },
           "BIB": {
             "N1": 10,
@@ -58,7 +58,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1103/PhysRev.122.164"
               ]
             }
           ],
@@ -135,27 +136,15 @@
                 " Determined to be 2% by a differential range",
                 " measurement."
               ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ANG-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " From shape of forward peak."
-              ]
             }
           ],
           "REL-REF": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "N",
+                "code": "I",
                 "subentry_number": "C0043001",
-                "author": "GOLDBERG+",
+                "author": "M.D.Goldberg+",
                 "reference": {
                   "code": "J,PR,119,1992,1960",
                   "field": {
@@ -220,6 +209,17 @@
               "free_text": [
                 " Converted to new date formats."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260111,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. ANG-ERR moved to subs.2-4, STATUS,",
+                " ERR-ANALYS updated, BIB updates"
+              ]
             }
           ],
           "ENDBIB": {
@@ -227,23 +227,19 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 1,
             "N2": 0,
             "pointer": [
-              "",
               ""
             ],
             "heading": [
-              "EN-ERR",
-              "ANG-ERR"
+              "EN-ERR"
             ],
             "unit": [
-              "PER-CENT",
-              "ADEG"
+              "PER-CENT"
             ],
             "value": [
-              2.0,
-              1.0
+              2.0
             ]
           },
           "ENDCOMMON": {
@@ -258,12 +254,12 @@
         {
           "SUBENT": {
             "N1": "C0042002",
-            "N2": 19960222,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C254"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -298,7 +294,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
+                "heading": "ERR-S",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
@@ -307,15 +303,47 @@
                 " The statistical uncertainty varied from 2%",
                 "  near 0 degrees to 6% at angles near the minima"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ANG-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " From shape of forward peak."
+              ]
             }
           ],
           "STATUS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
               "free_text": [
-                "Data taken from private communication, M. D. Goldberg,",
-                " 1979."
+                " Data taken from private communication,",
+                " M. D. Goldberg, 1979."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260111,
+                "history": "A"
+              },
+              "free_text": [
+                " ANG-ERR moved from sub.1, STATUS,",
+                " ERR-ANALYS updated"
               ]
             }
           ],
@@ -323,7 +351,23 @@
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "ANG-ERR"
+            ],
+            "unit": [
+              "ADEG"
+            ],
+            "value": [
+              1.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -340,7 +384,7 @@
               "EN",
               "ANG",
               "DATA",
-              "DATA-ERR"
+              "ERR-S"
             ],
             "unit": [
               "MEV",
@@ -1053,12 +1097,12 @@
         {
           "SUBENT": {
             "N1": "C0042003",
-            "N2": 20020213,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C254"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
@@ -1136,7 +1180,7 @@
               "coded_information": {
                 "heading": null,
                 "subentry_number": "C0004001",
-                "author": "BAME+",
+                "author": "S.J.Bame Jr+",
                 "reference": {
                   "code": "J,PR,107,1616,1957",
                   "field": {
@@ -1170,17 +1214,48 @@
                 "correlation_property": null
               },
               "free_text": [
-                "Estimated accuracy."
+                " Estimated accuracy."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ANG-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " From shape of forward peak."
               ]
             }
           ],
           "STATUS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
               "free_text": [
-                "Data taken from private communication, M. D. Goldberg,",
-                " 1979."
+                " Data taken from private communication,",
+                " M. D. Goldberg, 1979."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260111,
+                "history": "A"
+              },
+              "free_text": [
+                " ANG-ERR moved from sub.1, STATUS updated"
               ]
             }
           ],
@@ -1189,9 +1264,10 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0,
             "pointer": [
+              "",
               "",
               "",
               ""
@@ -1199,16 +1275,19 @@
             "heading": [
               "EN-NRM",
               "ANG",
+              "ANG-ERR",
               "DATA-ERR"
             ],
             "unit": [
               "MEV",
+              "ADEG",
               "ADEG",
               "PER-CENT"
             ],
             "value": [
               6.4,
               0.0,
+              1.0,
               15.0
             ]
           },
@@ -1262,12 +1341,12 @@
         {
           "SUBENT": {
             "N1": "C0042004",
-            "N2": 20020213,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C254"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -1336,7 +1415,7 @@
               "coded_information": {
                 "heading": null,
                 "subentry_number": "C0012001",
-                "author": "STEWART+",
+                "author": "L.Stewart+",
                 "reference": {
                   "code": "J,PR,119,1649,1960",
                   "field": {
@@ -1372,15 +1451,46 @@
               "free_text": [
                 " Estimated error."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ANG-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " From shape of forward peak."
+              ]
             }
           ],
           "STATUS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
               "free_text": [
-                "Data taken from private communication, M. D. Goldberg,",
-                " 1979."
+                " Data taken from private communication,",
+                " M. D. Goldberg, 1979."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260111,
+                "history": "A"
+              },
+              "free_text": [
+                " ANG-ERR moved from sub.1, STATUS updated"
               ]
             }
           ],
@@ -1389,22 +1499,26 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0,
             "pointer": [
+              "",
               "",
               ""
             ],
             "heading": [
               "ANG",
+              "ANG-ERR",
               "DATA-ERR"
             ],
             "unit": [
+              "ADEG",
               "ADEG",
               "PER-CENT"
             ],
             "value": [
               0.0,
+              1.0,
               10.0
             ]
           },
@@ -1462,12 +1576,12 @@
         {
           "SUBENT": {
             "N1": "C0042005",
-            "N2": 19960222,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C254"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -1510,8 +1624,47 @@
                 "reference": null
               },
               "free_text": [
-                "",
-                "Data taken from table in article."
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "M.D.Goldberg+",
+                "reference": {
+                  "code": "J,PR,122,164,1961",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "122",
+                      "part": null,
+                      "issue": null,
+                      "page": "164"
+                    },
+                    "date": 1961
+                  }
+                }
+              },
+              "free_text": [
+                " Table I"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260111,
+                "history": "A"
+              },
+              "free_text": [
+                " STATUS updated"
               ]
             }
           ],
@@ -1533,7 +1686,7 @@
             ],
             "heading": [
               "EN",
-              "NUMBER-CM",
+              "NUMBER",
               "DATA-CM"
             ],
             "unit": [
@@ -1781,12 +1934,12 @@
         {
           "SUBENT": {
             "N1": "C0042006",
-            "N2": 19960222,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C254"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1854,8 +2007,47 @@
                 "reference": null
               },
               "free_text": [
-                "",
-                "Data Taken from table in article."
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "M.D.Goldberg+",
+                "reference": {
+                  "code": "J,PR,122,164,1961",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "122",
+                      "part": null,
+                      "issue": null,
+                      "page": "164"
+                    },
+                    "date": 1961
+                  }
+                }
+              },
+              "free_text": [
+                " Table I"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260111,
+                "history": "A"
+              },
+              "free_text": [
+                " STATUS updated"
               ]
             }
           ],

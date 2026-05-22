@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:45:08+0000",
+  "time_stamp": "2026-05-22T20:57:43+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C1693",
-        "N2": 20090609,
+        "N2": 20260122,
         "alteration_flag": " ",
-        "transmission_identification": "C092"
+        "transmission_identification": "C254"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C1693001",
-            "N2": 20090609,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "C092"
+            "transmission_identification": "C254"
           },
           "BIB": {
             "N1": 10,
@@ -67,7 +67,7 @@
                 "P.Strmen",
                 "B.Sun",
                 "I.Szarka",
-                "I.Tanihat A",
+                "I.Tanihata",
                 "Y.Utsuno",
                 "H.Weick",
                 "M.Winkler"
@@ -126,7 +126,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1103/PhysRevLett.102.152501"
               ]
             }
           ],
@@ -243,6 +244,16 @@
               },
               "free_text": [
                 " Compiled by S.H."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260120,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. REACTION corrected in Sub.3"
               ]
             }
           ],
@@ -374,32 +385,32 @@
         {
           "SUBENT": {
             "N1": "C1693003",
-            "N2": 20090609,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "C092"
+            "transmission_identification": "C254"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "6-C-12(8-O-24,X)8-O-23,,DP",
+                "code": "6-C-12(8-O-24,X)8-O-23,LP,DP",
                 "code_unit": [
                   {
-                    "unit": "6-C-12(8-O-24,X)8-O-23,,DP",
+                    "unit": "6-C-12(8-O-24,X)8-O-23,LP,DP",
                     "field": {
                       "reaction": "6-C-12(8-O-24,X)8-O-23",
                       "target": "6-C-12",
                       "projectile": "8-O-24",
                       "process": "X",
                       "product": "8-O-23",
-                      "quantity": ",DP",
+                      "quantity": "LP,DP",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",DP"
+                      "quantity_236": "LP,DP"
                     }
                   }
                 ],
@@ -418,10 +429,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "R.Kanungo+",
+                "reference": {
+                  "code": "J,PRL,102,152501,2009",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PRL",
+                      "number": null,
+                      "volume": "102",
+                      "part": null,
+                      "issue": null,
+                      "page": "152501"
+                    },
+                    "date": 2009
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data taken from fig.2 of the reference"
               ]
             }
@@ -464,26 +490,43 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260120,
+                "history": "A"
+              },
+              "free_text": [
+                " Added LP to REACTION SF5, EN to COMMON,",
+                "  MOM -> MOM-SEC"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0,
             "pointer": [
+              "",
               "",
               ""
             ],
             "heading": [
+              "EN",
               "ERR-1",
               "ERR-2"
             ],
             "unit": [
+              "MEV/A",
               "PER-CENT",
               "PER-CENT"
             ],
             "value": [
+              920.0,
               1.2,
               10.0
             ]
@@ -501,7 +544,7 @@
               ""
             ],
             "heading": [
-              "MOM",
+              "MOM-SEC",
               "DATA",
               "ERR-T"
             ],

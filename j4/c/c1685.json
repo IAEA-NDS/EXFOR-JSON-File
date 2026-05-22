@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:45:04+0000",
+  "time_stamp": "2026-05-22T20:57:43+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C1685",
-        "N2": 20090406,
+        "N2": 20260122,
         "alteration_flag": " ",
-        "transmission_identification": "C092"
+        "transmission_identification": "C254"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C1685001",
-            "N2": 20090406,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "C092"
+            "transmission_identification": "C254"
           },
           "BIB": {
             "N1": 7,
@@ -87,7 +87,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1103/PhysRevC.79.031301"
               ]
             }
           ],
@@ -107,18 +108,6 @@
               ]
             }
           ],
-          "HISTORY": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 20090409,
-                "history": "C"
-              },
-              "free_text": [
-                " Compiled by S.H."
-              ]
-            }
-          ],
           "ERR-ANALYS": [
             {
               "pointer": "",
@@ -129,8 +118,8 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Overal systematic uncertainty of the absolute",
-                "cross section"
+                " Overall systematic uncertainty of the",
+                "absolute cross section"
               ]
             },
             {
@@ -143,6 +132,28 @@
               },
               "free_text": [
                 " Statistical uncertainty"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20090409,
+                "history": "C"
+              },
+              "free_text": [
+                " Compiled by S.H."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260120,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. REACTION corrected in sub.6"
               ]
             }
           ],
@@ -1640,28 +1651,28 @@
         {
           "SUBENT": {
             "N1": "C1685006",
-            "N2": 20090406,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "C092"
+            "transmission_identification": "C254"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "27-CO-59(D,A)26-FE-57,,DE",
+                "code": "27-CO-59(D,X)2-HE-4,,DE",
                 "code_unit": [
                   {
-                    "unit": "27-CO-59(D,A)26-FE-57,,DE",
+                    "unit": "27-CO-59(D,X)2-HE-4,,DE",
                     "field": {
-                      "reaction": "27-CO-59(D,A)26-FE-57",
+                      "reaction": "27-CO-59(D,X)2-HE-4",
                       "target": "27-CO-59",
                       "projectile": "D",
-                      "process": "A",
-                      "product": "26-FE-57",
+                      "process": "X",
+                      "product": "2-HE-4",
                       "quantity": ",DE",
                       "data_type": null,
                       "general_quantity_modifier": null,
@@ -1684,10 +1695,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.V.Voinov+",
+                "reference": {
+                  "code": "J,PR/C,79,031301,2009",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "79",
+                      "part": null,
+                      "issue": null,
+                      "page": "031301"
+                    },
+                    "date": 2009
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data taken from Fig. 2 of the reference",
                 "Waiting for data from author"
               ]
@@ -1726,6 +1752,18 @@
               ],
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260120,
+                "history": "A"
+              },
+              "free_text": [
+                " REACTION changed to (D,X)2-HE-4"
               ]
             }
           ],

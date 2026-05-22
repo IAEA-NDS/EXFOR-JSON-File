@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:32:01+0000",
+  "time_stamp": "2026-05-22T20:57:39+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C0701",
-        "N2": 20000811,
+        "N2": 20260122,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "C254"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C0701001",
-            "N2": 20000811,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C254"
           },
           "BIB": {
             "N1": 8,
@@ -36,10 +36,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,PR,120,2168,196012",
+                "code": "J,PR,120,2168,1960",
                 "code_unit": [
                   {
-                    "unit": "J,PR,120,2168,196012",
+                    "unit": "J,PR,120,2168,1960",
                     "doi": "10.1103/PhysRev.120.2168",
                     "field": {
                       "reference_type": "J",
@@ -51,14 +51,15 @@
                         "issue": null,
                         "page": "2168"
                       },
-                      "date": 196012
+                      "date": 1960
                     }
                   }
                 ],
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1103/PhysRev.120.2168"
               ]
             }
           ],
@@ -102,7 +103,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "RCHEM"
+                "CHSEP"
               ],
               "free_text": [
                 ""
@@ -131,6 +132,16 @@
               },
               "free_text": [
                 " Converted from data set P0063 and updated."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260121,
+                "history": "U"
+              },
+              "free_text": [
+                " OS. Minor correction in sub.4, BIB updates"
               ]
             }
           ],
@@ -440,12 +451,12 @@
         {
           "SUBENT": {
             "N1": "C0701004",
-            "N2": 20000811,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C254"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -481,7 +492,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "11-NA-24-G",
+                "nuclide": "11-NA-24",
                 "half-life": null,
                 "radiation": [
                   {
@@ -535,15 +546,15 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "29-CU-63(A,N+P)30-ZN-65,,SIG",
+                  "code": "29-CU-63(A,X)30-ZN-65,,SIG",
                   "code_unit": [
                     {
-                      "unit": "29-CU-63(A,N+P)30-ZN-65,,SIG",
+                      "unit": "29-CU-63(A,X)30-ZN-65,,SIG",
                       "field": {
-                        "reaction": "29-CU-63(A,N+P)30-ZN-65",
+                        "reaction": "29-CU-63(A,X)30-ZN-65",
                         "target": "29-CU-63",
                         "projectile": "A",
-                        "process": "N+P",
+                        "process": "X",
                         "product": "30-ZN-65",
                         "quantity": ",SIG",
                         "data_type": null,
@@ -566,7 +577,7 @@
               "coded_information": {
                 "heading": null,
                 "subentry_number": "B0156001",
-                "author": "PORILE+",
+                "author": "N.T.Porile+",
                 "reference": {
                   "code": "J,PR,116,1193,1959",
                   "field": {
@@ -603,7 +614,19 @@
               },
               "free_text": [
                 " Data from CPX filed compiled in 1964-67 by",
-                " F.K. McGowen."
+                " F.K. McGowan."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260121,
+                "history": "U"
+              },
+              "free_text": [
+                " -G deleted in DECAY-DATA"
               ]
             }
           ],

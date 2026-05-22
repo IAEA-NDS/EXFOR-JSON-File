@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:50:23+0000",
+  "time_stamp": "2026-05-22T20:57:54+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C2242",
-        "N2": 20161019,
+        "N2": 20260122,
         "alteration_flag": " ",
-        "transmission_identification": "C165"
+        "transmission_identification": "C254"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C2242001",
-            "N2": 20161019,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "C165"
+            "transmission_identification": "C254"
           },
           "BIB": {
             "N1": 8,
@@ -95,7 +95,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1016/j.apradiso.2016.06.021"
               ]
             }
           ],
@@ -153,6 +154,16 @@
               "free_text": [
                 " Compiled by S.H."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260120,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. Correction in sub.2"
+              ]
             }
           ],
           "ENDBIB": {
@@ -171,28 +182,28 @@
         {
           "SUBENT": {
             "N1": "C2242002",
-            "N2": 20161019,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "C165"
+            "transmission_identification": "C254"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "74-W-186(D,2N)75-RE-186,,TTY,,SAT",
+                "code": "74-W-186(D,2N)75-RE-186-G,,TTY,,SAT",
                 "code_unit": [
                   {
-                    "unit": "74-W-186(D,2N)75-RE-186,,TTY,,SAT",
+                    "unit": "74-W-186(D,2N)75-RE-186-G,,TTY,,SAT",
                     "field": {
-                      "reaction": "74-W-186(D,2N)75-RE-186",
+                      "reaction": "74-W-186(D,2N)75-RE-186-G",
                       "target": "74-W-186",
                       "projectile": "D",
                       "process": "2N",
-                      "product": "75-RE-186",
+                      "product": "75-RE-186-G",
                       "quantity": ",TTY,,SAT",
                       "data_type": null,
                       "general_quantity_modifier": null,
@@ -215,10 +226,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.R.Balkin+",
+                "reference": {
+                  "code": "J,ARI,115,197,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "115",
+                      "part": null,
+                      "issue": null,
+                      "page": "197"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data taken from tab. 2 of the reference"
               ]
             }
@@ -304,6 +330,18 @@
               },
               "free_text": [
                 " No information on source of uncertainties"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260120,
+                "history": "A"
+              },
+              "free_text": [
+                " -G added to REACTION SF4"
               ]
             }
           ],

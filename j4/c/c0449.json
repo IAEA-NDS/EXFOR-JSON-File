@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:28:42+0000",
+  "time_stamp": "2026-05-22T20:57:36+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C0449",
-        "N2": 19970407,
+        "N2": 20260122,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "C254"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C0449001",
-            "N2": 19970407,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C254"
           },
           "BIB": {
             "N1": 15,
@@ -28,7 +28,16 @@
                 "1USAFSU"
               ],
               "free_text": [
-                " + U. North Florida, Jacksonville"
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "1USAUSA"
+              ],
+              "free_text": [
+                " U. North Florida, Jacksonville"
               ]
             }
           ],
@@ -36,10 +45,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,PR/C,54,3273,9612",
+                "code": "J,PR/C,54,3273,1996",
                 "code_unit": [
                   {
-                    "unit": "J,PR/C,54,3273,9612",
+                    "unit": "J,PR/C,54,3273,1996",
                     "doi": "10.1103/PhysRevC.54.3273",
                     "field": {
                       "reference_type": "J",
@@ -51,14 +60,15 @@
                         "issue": null,
                         "page": "3273"
                       },
-                      "date": 199612
+                      "date": 1996
                     }
                   }
                 ],
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1103/PhysRevC.54.3273"
               ]
             }
           ],
@@ -66,13 +76,13 @@
             {
               "pointer": "",
               "coded_information": [
-                "D.L.GAY",
-                "E.E.BARTOSZ",
-                "P.D.CATHERS",
-                "T.L.DRUMMER",
-                "K.W.KEMPER",
-                "P.L.KERR",
-                "D.ROBSON"
+                "D.L.Gay",
+                "E.E.Bartosz",
+                "P.D.Cathers",
+                "T.L.Drummer",
+                "K.W.Kemper",
+                "P.L.Kerr",
+                "D.Robson"
               ],
               "free_text": [
                 ""
@@ -196,9 +206,17 @@
           "STATUS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
               "free_text": [
-                "Data received by electronic mail, P.Kerr, 97/4/4."
+                " Data received by electronic mail, P.Kerr,",
+                " 97/4/4."
               ]
             }
           ],
@@ -206,11 +224,22 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 970407,
+                "date": 19970407,
                 "history": "C"
               },
               "free_text": [
                 ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260119,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. REACTION in sub.2 corrected,",
+                " BIB updates"
               ]
             }
           ],
@@ -250,32 +279,32 @@
         {
           "SUBENT": {
             "N1": "C0449002",
-            "N2": 19970407,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C254"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "6-C-12(3-LI-6,INL)6-C-12,PAR,DA,,RTH",
+                "code": "6-C-12(3-LI-6,INL)6-C-12,PAR,DA",
                 "code_unit": [
                   {
-                    "unit": "6-C-12(3-LI-6,INL)6-C-12,PAR,DA,,RTH",
+                    "unit": "6-C-12(3-LI-6,INL)6-C-12,PAR,DA",
                     "field": {
                       "reaction": "6-C-12(3-LI-6,INL)6-C-12",
                       "target": "6-C-12",
                       "projectile": "3-LI-6",
                       "process": "INL",
                       "product": "6-C-12",
-                      "quantity": "PAR,DA,,RTH",
+                      "quantity": "PAR,DA",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "PAR,DA,,RTH"
+                      "quantity_236": "PAR,DA"
                     }
                   }
                 ],
@@ -298,6 +327,18 @@
               "free_text": [
                 " Statistical uncertainty plus uncertainty due",
                 " to unsubtracted continuum background."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260119,
+                "history": "A"
+              },
+              "free_text": [
+                " REACTION SF8 deleted, data units corrected"
               ]
             }
           ],
@@ -324,8 +365,8 @@
             ],
             "unit": [
               "ADEG",
-              "NO-DIM",
-              "NO-DIM"
+              "MB/SR",
+              "MB/SR"
             ],
             "value": [
               [

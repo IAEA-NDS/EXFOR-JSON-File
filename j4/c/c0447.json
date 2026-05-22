@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:28:40+0000",
+  "time_stamp": "2026-05-22T20:57:36+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C0447",
-        "N2": 19990813,
+        "N2": 20260122,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "C254"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C0447001",
-            "N2": 19990813,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C254"
           },
           "BIB": {
             "N1": 13,
@@ -37,10 +37,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,PR/C,54,1267,199609",
+                "code": "J,PR/C,54,1267,1996",
                 "code_unit": [
                   {
-                    "unit": "J,PR/C,54,1267,199609",
+                    "unit": "J,PR/C,54,1267,1996",
                     "doi": "10.1103/PhysRevC.54.1267",
                     "field": {
                       "reference_type": "J",
@@ -52,14 +52,15 @@
                         "issue": null,
                         "page": "1267"
                       },
-                      "date": 199609
+                      "date": 1996
                     }
                   }
                 ],
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1103/PhysRevC.54.1267"
               ]
             }
           ],
@@ -67,13 +68,13 @@
             {
               "pointer": "",
               "coded_information": [
-                "P.L.KERR",
-                "K.W.KEMPER",
-                "P.V.GREEN",
-                "K.MOHAJERI",
-                "E.G.MYERS",
-                "B.G.SCHMIDT",
-                "V.HNIZDO"
+                "P.L.Kerr",
+                "K.W.Kemper",
+                "P.V.Green",
+                "K.Mohajeri",
+                "E.G.Myers",
+                "B.G.Schmidt",
+                "V.Hnizdo"
               ],
               "free_text": [
                 ""
@@ -192,9 +193,17 @@
           "STATUS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
               "free_text": [
-                "Data received by electronic mail, P.Kerr, 97/4/4."
+                " Data received by electronic mail, P.Kerr,",
+                " 97/4/4."
               ]
             },
             {
@@ -232,6 +241,16 @@
               "free_text": [
                 " Updated to new date and TAP formalisms."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260119,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. Corrections in sub.2, BIB updates"
+              ]
             }
           ],
           "ENDBIB": {
@@ -266,32 +285,32 @@
         {
           "SUBENT": {
             "N1": "C0447002",
-            "N2": 19970328,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C254"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "6-C-12(3-LI-6,INL)6-C-12,PAR,DA,,RTH",
+                "code": "6-C-12(3-LI-6,INL)6-C-12,PAR,DA",
                 "code_unit": [
                   {
-                    "unit": "6-C-12(3-LI-6,INL)6-C-12,PAR,DA,,RTH",
+                    "unit": "6-C-12(3-LI-6,INL)6-C-12,PAR,DA",
                     "field": {
                       "reaction": "6-C-12(3-LI-6,INL)6-C-12",
                       "target": "6-C-12",
                       "projectile": "3-LI-6",
                       "process": "INL",
                       "product": "6-C-12",
-                      "quantity": "PAR,DA,,RTH",
+                      "quantity": "PAR,DA",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "PAR,DA,,RTH"
+                      "quantity_236": "PAR,DA"
                     }
                   }
                 ],
@@ -299,6 +318,31 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "EN-SEC": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "E-LVL",
+                "particle": "6-C-12"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260119,
+                "history": "A"
+              },
+              "free_text": [
+                " REACTION SF8 deleted, data units corrected,",
+                " EN-SEC added"
               ]
             }
           ],
@@ -328,8 +372,8 @@
             "unit": [
               "MEV",
               "ADEG",
-              "NO-DIM",
-              "NO-DIM"
+              "MB/SR",
+              "MB/SR"
             ],
             "value": [
               [

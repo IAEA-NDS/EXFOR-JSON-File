@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:46:29+0000",
+  "time_stamp": "2026-05-22T20:57:47+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C1830",
-        "N2": 20111206,
+        "N2": 20260122,
         "alteration_flag": " ",
-        "transmission_identification": "C112"
+        "transmission_identification": "C254"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C1830001",
-            "N2": 20111206,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "C112"
+            "transmission_identification": "C254"
           },
           "BIB": {
-            "N1": 9,
+            "N1": 10,
             "N2": 0
           },
           "TITLE": [
@@ -99,7 +99,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1103/PhysRevLett.106.162502"
               ]
             }
           ],
@@ -114,20 +115,23 @@
               },
               "free_text": [
                 " Experiment performed at the National",
-                "Superconducting Laboratory's Coupled Cyclotron Facility"
+                "Superconducting Laboratory's Coupled Cyclotron Facility",
+                "A1900 fragment separator was used to separate",
+                "10B ions from other fragments"
               ]
-            },
+            }
+          ],
+          "INC-SOURCE": [
             {
               "pointer": "",
               "coded_information": {
-                "facility": [
-                  "PRJFS"
+                "incident_source": [
+                  "FRAGM"
                 ],
-                "institute": null
+                "reaction": null
               },
               "free_text": [
-                " A1900 fragment separator was used to separate",
-                "        10B ions from other fragments"
+                ""
               ]
             }
           ],
@@ -223,6 +227,17 @@
               },
               "free_text": [
                 " OS. Spelling corr."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260120,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. REACTION corrected in Subs.3,5,",
+                " BIB updates"
               ]
             }
           ],
@@ -384,32 +399,32 @@
         {
           "SUBENT": {
             "N1": "C1830003",
-            "N2": 20110524,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "C108"
+            "transmission_identification": "C254"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "4-BE-9(4-BE-10,X)4-BE-9,,DP",
+                "code": "4-BE-9(4-BE-10,X)4-BE-9,LP,DP",
                 "code_unit": [
                   {
-                    "unit": "4-BE-9(4-BE-10,X)4-BE-9,,DP",
+                    "unit": "4-BE-9(4-BE-10,X)4-BE-9,LP,DP",
                     "field": {
                       "reaction": "4-BE-9(4-BE-10,X)4-BE-9",
                       "target": "4-BE-9",
                       "projectile": "4-BE-10",
                       "process": "X",
                       "product": "4-BE-9",
-                      "quantity": ",DP",
+                      "quantity": "LP,DP",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",DP"
+                      "quantity_236": "LP,DP"
                     }
                   }
                 ],
@@ -428,10 +443,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "G.F.Grinyer+",
+                "reference": {
+                  "code": "J,PRL,106,162502,2011",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PRL",
+                      "number": null,
+                      "volume": "106",
+                      "part": null,
+                      "issue": null,
+                      "page": "162502"
+                    },
+                    "date": 2011
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data taken from fig. 1 of the reference"
               ]
             }
@@ -456,6 +486,18 @@
                 "additional reaction products using the A1900 fragment",
                 "separator. Beam rate of order 10**5 ions/s",
                 "was achieved"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260120,
+                "history": "A"
+              },
+              "free_text": [
+                " Added LP to REACTION SF5"
               ]
             }
           ],
@@ -772,32 +814,32 @@
         {
           "SUBENT": {
             "N1": "C1830005",
-            "N2": 20110524,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "C108"
+            "transmission_identification": "C254"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "6-C-12(6-C-10,X)6-C-9,,DP",
+                "code": "6-C-12(6-C-10,X)6-C-9,LP,DP",
                 "code_unit": [
                   {
-                    "unit": "6-C-12(6-C-10,X)6-C-9,,DP",
+                    "unit": "6-C-12(6-C-10,X)6-C-9,LP,DP",
                     "field": {
                       "reaction": "6-C-12(6-C-10,X)6-C-9",
                       "target": "6-C-12",
                       "projectile": "6-C-10",
                       "process": "X",
                       "product": "6-C-9",
-                      "quantity": ",DP",
+                      "quantity": "LP,DP",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",DP"
+                      "quantity_236": "LP,DP"
                     }
                   }
                 ],
@@ -816,10 +858,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "G.F.Grinyer+",
+                "reference": {
+                  "code": "J,PRL,106,162502,2011",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PRL",
+                      "number": null,
+                      "volume": "106",
+                      "part": null,
+                      "issue": null,
+                      "page": "162502"
+                    },
+                    "date": 2011
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data taken from fig. 1 of the reference"
               ]
             }
@@ -844,6 +901,18 @@
               "coded_information": null,
               "free_text": [
                 "10C sample with thickness of 403+-5 mg/cm2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260120,
+                "history": "A"
+              },
+              "free_text": [
+                " Added LP to REACTION SF5"
               ]
             }
           ],

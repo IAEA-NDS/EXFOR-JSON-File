@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:50:32+0000",
+  "time_stamp": "2026-05-22T20:57:55+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C2273",
-        "N2": 20170920,
+        "N2": 20260122,
         "alteration_flag": " ",
-        "transmission_identification": "C170"
+        "transmission_identification": "C254"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C2273001",
-            "N2": 20170920,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "C170"
+            "transmission_identification": "C254"
           },
           "BIB": {
             "N1": 11,
@@ -91,7 +91,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1103/PhysRevC.96.024602"
               ]
             }
           ],
@@ -226,6 +227,16 @@
               },
               "free_text": [
                 " Compiled by S.H."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260120,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. Correction in sub.2"
               ]
             }
           ],
@@ -730,28 +741,28 @@
         {
           "SUBENT": {
             "N1": "C2273006",
-            "N2": 20170920,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "C170"
+            "transmission_identification": "C254"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "79-AU-197(6-C-13,X)79-AU-196-M,,SIG",
+                "code": "79-AU-197(6-C-13,X)79-AU-196-M2,,SIG",
                 "code_unit": [
                   {
-                    "unit": "79-AU-197(6-C-13,X)79-AU-196-M,,SIG",
+                    "unit": "79-AU-197(6-C-13,X)79-AU-196-M2,,SIG",
                     "field": {
-                      "reaction": "79-AU-197(6-C-13,X)79-AU-196-M",
+                      "reaction": "79-AU-197(6-C-13,X)79-AU-196-M2",
                       "target": "79-AU-197",
                       "projectile": "6-C-13",
                       "process": "X",
-                      "product": "79-AU-196-M",
+                      "product": "79-AU-196-M2",
                       "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
@@ -766,6 +777,23 @@
               ]
             }
           ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "79-AU-196-M2",
+                "half-life": {
+                  "value": 9.6,
+                  "unit": "HR"
+                },
+                "radiation": []
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -774,11 +802,38 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "B.H.Daub+",
+                "reference": {
+                  "code": "J,PR/C,96,024602,2017",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "96",
+                      "part": null,
+                      "issue": null,
+                      "page": "024602"
+                    },
+                    "date": 2017
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data taken from tab. 2 of the reference"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260120,
+                "history": "A"
+              },
+              "free_text": [
+                " REACTION SF4: M -> M2; DECAY-DATA added"
               ]
             }
           ],

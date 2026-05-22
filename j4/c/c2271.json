@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:50:31+0000",
+  "time_stamp": "2026-05-22T20:57:54+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C2271",
-        "N2": 20170918,
+        "N2": 20260122,
         "alteration_flag": " ",
-        "transmission_identification": "C170"
+        "transmission_identification": "C254"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C2271001",
-            "N2": 20170918,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "C170"
+            "transmission_identification": "C254"
           },
           "BIB": {
             "N1": 11,
@@ -110,7 +110,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1103/PhysRevC.96.024616"
               ]
             }
           ],
@@ -214,6 +215,16 @@
               },
               "free_text": [
                 " Compiled by S.H."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260117,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrections  in sub.4"
               ]
             }
           ],
@@ -604,27 +615,27 @@
         {
           "SUBENT": {
             "N1": "C2271004",
-            "N2": 20170918,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "C170"
+            "transmission_identification": "C254"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "28-NI-58(3-LI-6,FUS)1-H-1,,SIG",
+                "code": "28-NI-58(3-LI-6,X)1-H-1,,SIG",
                 "code_unit": [
                   {
-                    "unit": "28-NI-58(3-LI-6,FUS)1-H-1,,SIG",
+                    "unit": "28-NI-58(3-LI-6,X)1-H-1,,SIG",
                     "field": {
-                      "reaction": "28-NI-58(3-LI-6,FUS)1-H-1",
+                      "reaction": "28-NI-58(3-LI-6,X)1-H-1",
                       "target": "28-NI-58",
                       "projectile": "3-LI-6",
-                      "process": "FUS",
+                      "process": "X",
                       "product": "1-H-1",
                       "quantity": ",SIG",
                       "data_type": null,
@@ -648,10 +659,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.F.Aguilera+",
+                "reference": {
+                  "code": "J,PR/C,96,024616,2017",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "96",
+                      "part": null,
+                      "issue": null,
+                      "page": "024616"
+                    },
+                    "date": 2017
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data taken from tab.2 of the reference"
               ]
             },
@@ -675,16 +701,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Data corrected for neutron transfer cross section"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "6Li+58Ni"
-              ],
-              "free_text": [
-                " -> (5Li+59Ni) and decay protons from 5Li"
+                "Data corrected for neutron transfer cross section",
+                " (6Li+58Ni) -> (5Li+59Ni) and decay protons from 5Li"
               ]
             }
           ],
@@ -699,6 +717,19 @@
               },
               "free_text": [
                 " Statistical uncertainty"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260117,
+                "history": "A"
+              },
+              "free_text": [
+                " REACTION SF3 changed to X, minor correction",
+                " in CORRECTION"
               ]
             }
           ],

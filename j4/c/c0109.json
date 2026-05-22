@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:24:08+0000",
+  "time_stamp": "2026-05-22T20:57:32+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C0109",
-        "N2": 20111117,
+        "N2": 20260122,
         "alteration_flag": " ",
-        "transmission_identification": "C113"
+        "transmission_identification": "C254"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C0109001",
-            "N2": 20111117,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "C113"
+            "transmission_identification": "C254"
           },
           "BIB": {
             "N1": 12,
@@ -36,10 +36,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,PR/C,41,1391,199004",
+                "code": "J,PR/C,41,1391,1990",
                 "code_unit": [
                   {
-                    "unit": "J,PR/C,41,1391,199004",
+                    "unit": "J,PR/C,41,1391,1990",
                     "doi": "10.1103/PhysRevC.41.1391",
                     "field": {
                       "reference_type": "J",
@@ -51,14 +51,15 @@
                         "issue": null,
                         "page": "1391"
                       },
-                      "date": 199004
+                      "date": 1990
                     }
                   }
                 ],
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1103/PhysRevC.41.1391"
               ]
             },
             {
@@ -86,7 +87,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " prelim.results"
+                " prelim.results",
+                "#doi:10.1016/0168-583X(85)90279-4"
               ]
             },
             {
@@ -220,7 +222,7 @@
                 "subentry_number": null,
                 "author": "N.Jarmie+",
                 "reference": {
-                  "code": "J,PR/C,33,385,1986",
+                  "code": "J,PR/C,33,385(1),1986",
                   "field": {
                     "reference_type": "J",
                     "reference": {
@@ -229,7 +231,7 @@
                       "volume": "33",
                       "part": null,
                       "issue": null,
-                      "page": "385"
+                      "page": "385(1)"
                     },
                     "date": 1986
                   }
@@ -278,19 +280,6 @@
                 "Angle and energy errors are contained in relative",
                 " uncertainty given."
               ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ANG-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Due to uncertainty in detector position and",
-                "          in beam direction."
-              ]
             }
           ],
           "STATUS": [
@@ -336,6 +325,17 @@
                 "in HISTORY and REFERENCE changed to four digits.",
                 "Subents 006,007 added."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260117,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. ANG-RSL, ANG-ERR moved to subs.2,3,",
+                " BIB changes"
+              ]
             }
           ],
           "ENDBIB": {
@@ -343,11 +343,9 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 5,
+            "N1": 3,
             "N2": 0,
             "pointer": [
-              "",
-              "",
               "",
               "",
               ""
@@ -355,22 +353,16 @@
             "heading": [
               "EN-ERR",
               "EN-RSL-FW",
-              "ANG-ERR",
-              "ANG-RSL",
               "ERR-1"
             ],
             "unit": [
               "EV",
               "EV",
-              "ADEG",
-              "ADEG",
               "PER-CENT"
             ],
             "value": [
               15.0,
               40.0,
-              0.1,
-              3.2,
               1.3
             ]
           },
@@ -386,9 +378,9 @@
         {
           "SUBENT": {
             "N1": "C0109002",
-            "N2": 20111117,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "C113"
+            "transmission_identification": "C254"
           },
           "BIB": {
             "N1": 6,
@@ -457,6 +449,19 @@
               "free_text": [
                 " Relative uncertainty."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ANG-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Due to uncertainty in detector position and",
+                "          in beam direction."
+              ]
             }
           ],
           "STATUS": [
@@ -485,13 +490,43 @@
               "free_text": [
                 " Energy heading corrected, FLAG added."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260117,
+                "history": "A"
+              },
+              "free_text": [
+                " ANG-RSL, ANG-ERR moved from sub.1"
+              ]
             }
           ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 2,
+            "N2": 0,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "ANG-RSL",
+              "ANG-ERR"
+            ],
+            "unit": [
+              "ADEG",
+              "ADEG"
+            ],
+            "value": [
+              3.2,
+              0.1
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -1444,9 +1479,9 @@
         {
           "SUBENT": {
             "N1": "C0109003",
-            "N2": 20111117,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "C113"
+            "transmission_identification": "C254"
           },
           "BIB": {
             "N1": 5,
@@ -1503,6 +1538,19 @@
               "free_text": [
                 " Relative uncertainty."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ANG-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Due to uncertainty in detector position and",
+                "          in beam direction."
+              ]
             }
           ],
           "STATUS": [
@@ -1541,13 +1589,43 @@
               "free_text": [
                 " SD: Energy units changed: (MeV => keV)."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260117,
+                "history": "A"
+              },
+              "free_text": [
+                " ANG-RSL, ANG-ERR moved from sub.1"
+              ]
             }
           ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 2,
+            "N2": 0,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "ANG-RSL",
+              "ANG-ERR"
+            ],
+            "unit": [
+              "ADEG",
+              "ADEG"
+            ],
+            "value": [
+              3.2,
+              0.1
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },

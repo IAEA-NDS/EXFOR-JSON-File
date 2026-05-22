@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:26:00+0000",
+  "time_stamp": "2026-05-22T20:57:35+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C0233",
-        "N2": 19871116,
+        "N2": 20260122,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "C254"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C0233001",
-            "N2": 19871116,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C254"
           },
           "BIB": {
             "N1": 11,
@@ -36,10 +36,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,PR/C,6,685,72",
+                "code": "J,PR/C,6,685,1972",
                 "code_unit": [
                   {
-                    "unit": "J,PR/C,6,685,72",
+                    "unit": "J,PR/C,6,685,1972",
                     "doi": "10.1103/PhysRevC.6.685",
                     "field": {
                       "reference_type": "J",
@@ -58,7 +58,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1103/PhysRevC.6.685"
               ]
             }
           ],
@@ -66,9 +67,9 @@
             {
               "pointer": "",
               "coded_information": [
-                "G.M.RAISBECK",
-                "J.LESTRINGUEZ",
-                "F.YIOU"
+                "G.M.Raisbeck",
+                "J.Lestringuez",
+                "F.Yiou"
               ],
               "free_text": [
                 ""
@@ -80,9 +81,9 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "CROSS SECTIONS FOR LI-6 AND LI-7 PRODUCTION FROM THE",
-                "BOMBARDMENT OF C-12 BY 150- AND 600-MEV PROTONS AND",
-                "880-MEV ALPHA PARTICLES"
+                "Cross sections for Li-6 and Li-7 production from the",
+                "bombardment of C-12 by 150- and 600-MeV protons and",
+                "880-MeV alpha particles"
               ]
             }
           ],
@@ -93,10 +94,34 @@
                 "facility": [
                   "SYNCY"
                 ],
-                "institute": null
+                "institute": "2FR PAR"
               },
               "free_text": [
-                ""
+                " 150 MeV Protons"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "SYNCY"
+                ],
+                "institute": "2ZZZCER"
+              },
+              "free_text": [
+                " 600 MeV Protons"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "SYNCY"
+                ],
+                "institute": "1USABRK"
+              },
+              "free_text": [
+                " 880 MeV alphas"
               ]
             }
           ],
@@ -105,7 +130,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "HIGH-PURITY CARBON PLAQUES"
+                "High-purity carbon plaques"
               ]
             }
           ],
@@ -135,22 +160,49 @@
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
               "free_text": [
-                "THE UNCERTAINTY IN ESTIMATING SLOPES OF MEASURED",
-                "LI-7/LI-6 RATIO AS A FUNCTION OF TIME ELAPSED BETWEEN",
-                "IRRADIATION AND ANALYSIS, TOGETHER WITH UNCERTAINTY",
-                "IN BE-7 CROSS SECTIONS, WERE COMBINED TO GIVE ERRORS",
-                "FOR LI-6 AND LI-7 CROSS SECTIONS."
+                " The uncertainty in estimating slopes of",
+                "measured Li-7/Li-6 ratio as a function of time elapsed",
+                "between irradiation and analysis, together with",
+                "uncertainty in Be-7 cross sections, were combined to",
+                "give errors for Li-6 and Li-7 cross sections."
               ]
             }
           ],
           "STATUS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "G.M.Raisbeck+",
+                "reference": {
+                  "code": "J,PR/C,6,685,1972",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "6",
+                      "part": null,
+                      "issue": null,
+                      "page": "685"
+                    },
+                    "date": 1972
+                  }
+                }
+              },
               "free_text": [
-                "DATA TAKEN FROM PR/C,6,685,1972--TABLE I."
+                "",
+                " Data taken from PR/C,6,685,1972--table I."
               ]
             }
           ],
@@ -158,11 +210,22 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 870423,
+                "date": 19870423,
                 "history": "C"
               },
               "free_text": [
                 ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260121,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. FACILITY updated, other BIB updates,",
+                " converted to lower and upper case"
               ]
             }
           ],

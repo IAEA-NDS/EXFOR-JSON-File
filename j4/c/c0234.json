@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:26:00+0000",
+  "time_stamp": "2026-05-22T20:57:35+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C0234",
-        "N2": 19871103,
+        "N2": 20260122,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "C254"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C0234001",
-            "N2": 19871103,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C254"
           },
           "BIB": {
-            "N1": 11,
+            "N1": 12,
             "N2": 0
           },
           "INSTITUTE": [
@@ -36,10 +36,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,PR,154,1005,67",
+                "code": "J,PR,154,1005,1967",
                 "code_unit": [
                   {
-                    "unit": "J,PR,154,1005,67",
+                    "unit": "J,PR,154,1005,1967",
                     "doi": "10.1103/PhysRev.154.1005",
                     "field": {
                       "reference_type": "J",
@@ -58,7 +58,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1103/PhysRev.154.1005"
               ]
             }
           ],
@@ -66,8 +67,8 @@
             {
               "pointer": "",
               "coded_information": [
-                "L.R.WILLAMS",
-                "C.B.FULMER"
+                "I.R.Williams",
+                "C.B.Fulmer"
               ],
               "free_text": [
                 ""
@@ -79,8 +80,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "CROSS SECTION FOR FORMATION OF BE-7 BY 20-155 MEV",
-                "PROTONN-INDUCED REACTIONS IN CARBON"
+                "Cross section for formation of Be-7 by 20-155 MeV",
+                "proton-induced reactions in carbon"
               ]
             }
           ],
@@ -104,8 +105,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "BEAM ENERGY SPREADS WERE 0.5 MEV AT 40-62 MEV AND",
-                "1 MEV AT 158 MEV."
+                "Beam energy spreads were 0.5 MeV at 40-62 MeV and",
+                "1 Me at 158 MeV."
               ]
             }
           ],
@@ -114,9 +115,9 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "CARBON WAFERS WITH THICKNESSES FROM 124 MG/CM2 FOR",
-                "LOWEST ENERGY BOMBARDMENT TO 1090 MG/CM2 FOR HIGHEST",
-                "ENERGY EXPOSURE."
+                "Carbon wafers with thicknesses from 124 mg/cm2 for",
+                "lowest energy bombardment to 1090 mg/cm2 for highest",
+                "energy exposure."
               ]
             }
           ],
@@ -147,9 +148,46 @@
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
               "free_text": [
-                "PROBABLE ERRORS IN CROSS SECTIONS WERE +- 20 %."
+                " Probable errors in cross sections were",
+                " +- 20 %."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "I.R.Williams+",
+                "reference": {
+                  "code": "J,PR,154,1005,1967",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "154",
+                      "part": null,
+                      "issue": null,
+                      "page": "1005"
+                    },
+                    "date": 1967
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table I of reference"
               ]
             }
           ],
@@ -157,11 +195,22 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 870423,
+                "date": 19870423,
                 "history": "C"
               },
               "free_text": [
                 ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260121,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. STATUS, DATA-ERR added, 1st author's",
+                " name corrected, converted to lower and upper case"
               ]
             }
           ],
@@ -169,7 +218,23 @@
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "DATA-ERR"
+            ],
+            "unit": [
+              "PER-CENT"
+            ],
+            "value": [
+              20.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },

@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:52:54+0000",
+  "time_stamp": "2026-05-22T20:58:05+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C2536",
-        "N2": 20200501,
+        "N2": 20260122,
         "alteration_flag": " ",
-        "transmission_identification": "C196"
+        "transmission_identification": "C254"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C2536001",
-            "N2": 20200501,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "C196"
+            "transmission_identification": "C254"
           },
           "BIB": {
             "N1": 11,
@@ -209,6 +209,16 @@
               },
               "free_text": [
                 " BP"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260117,
+                "history": "U"
+              },
+              "free_text": [
+                " Minor correction in sub.4"
               ]
             }
           ],
@@ -989,12 +999,12 @@
         {
           "SUBENT": {
             "N1": "C2536004",
-            "N2": 20200501,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "C196"
+            "transmission_identification": "C254"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -1025,68 +1035,6 @@
               ]
             }
           ],
-          "LEVEL-PROP": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "77-IR-186-G",
-                "level_identification": null,
-                "level_properties": [
-                  {
-                    "field_identifier": "SPIN",
-                    "value": [
-                      6.0
-                    ]
-                  },
-                  {
-                    "field_identifier": "PARITY",
-                    "value": [
-                      -1.0
-                    ]
-                  }
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "77-IR-186-M",
-                "level_identification": null,
-                "level_properties": [
-                  {
-                    "field_identifier": "SPIN",
-                    "value": [
-                      2.0
-                    ]
-                  },
-                  {
-                    "field_identifier": "PARITY",
-                    "value": [
-                      -1.0
-                    ]
-                  }
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "COMMENT": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Compiler's comment: Recent value of J/pi for Ir-186-g",
-                " is 5+. Not clear whether it is typo in article."
-              ]
-            }
-          ],
           "STATUS": [
             {
               "pointer": "",
@@ -1095,11 +1043,38 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "W.Loveland+",
+                "reference": {
+                  "code": "J,PRL,39,320,1977",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PRL",
+                      "number": null,
+                      "volume": "39",
+                      "part": null,
+                      "issue": null,
+                      "page": "320"
+                    },
+                    "date": 1977
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Text on p.321, Phys.Rev.Lett.39,320,1977"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260117,
+                "history": "U"
+              },
+              "free_text": [
+                " LEVEL-PROP, COMMENT deleted"
               ]
             }
           ],

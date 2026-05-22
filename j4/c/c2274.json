@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:50:33+0000",
+  "time_stamp": "2026-05-22T20:57:55+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C2274",
-        "N2": 20170919,
+        "N2": 20260122,
         "alteration_flag": " ",
-        "transmission_identification": "C170"
+        "transmission_identification": "C254"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C2274001",
-            "N2": 20170919,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "C170"
+            "transmission_identification": "C254"
           },
           "BIB": {
             "N1": 12,
@@ -278,6 +278,16 @@
               "free_text": [
                 " On"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260121,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. Correction in sub.3"
+              ]
             }
           ],
           "ENDBIB": {
@@ -472,32 +482,32 @@
         {
           "SUBENT": {
             "N1": "C2274003",
-            "N2": 20170919,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "C170"
+            "transmission_identification": "C254"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "44-RU-0(P,X)45-RH-97-G,M-,SIG",
+                "code": "44-RU-0(P,X)45-RH-97-G,,SIG",
                 "code_unit": [
                   {
-                    "unit": "44-RU-0(P,X)45-RH-97-G,M-,SIG",
+                    "unit": "44-RU-0(P,X)45-RH-97-G,,SIG",
                     "field": {
                       "reaction": "44-RU-0(P,X)45-RH-97-G",
                       "target": "44-RU-0",
                       "projectile": "P",
                       "process": "X",
                       "product": "45-RH-97-G",
-                      "quantity": "M-,SIG",
+                      "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "M-,SIG"
+                      "quantity_236": ",SIG"
                     }
                   }
                 ],
@@ -516,10 +526,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "K.Gagnon+",
+                "reference": {
+                  "code": "J,JLCR,60,S324,2017",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JLCR",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "S324"
+                    },
+                    "date": 2017
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Table 1 of the conference poster"
               ]
             },
@@ -535,6 +560,18 @@
               },
               "free_text": [
                 " Declared as preliminary by K.Gagnon(2017-09-19)"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260121,
+                "history": "A"
+              },
+              "free_text": [
+                " REACTION SF5 deleted"
               ]
             }
           ],

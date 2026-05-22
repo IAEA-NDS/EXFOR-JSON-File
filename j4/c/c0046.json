@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:23:16+0000",
+  "time_stamp": "2026-05-22T20:57:31+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C0046",
-        "N2": 20001120,
+        "N2": 20260122,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "C254"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C0046001",
-            "N2": 20001120,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C254"
           },
           "BIB": {
             "N1": 10,
@@ -36,10 +36,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,PR,107,820,195708",
+                "code": "J,PR,107,820,1957",
                 "code_unit": [
                   {
-                    "unit": "J,PR,107,820,195708",
+                    "unit": "J,PR,107,820,1957",
                     "doi": "10.1103/PhysRev.107.820",
                     "field": {
                       "reference_type": "J",
@@ -51,14 +51,15 @@
                         "issue": null,
                         "page": "820"
                       },
-                      "date": 195708
+                      "date": 1957
                     }
                   }
                 ],
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1103/PhysRev.107.820"
               ]
             }
           ],
@@ -66,9 +67,9 @@
             {
               "pointer": "",
               "coded_information": [
-                "J.E.BROLLEY JR",
-                "T.M.PUTNAM",
-                "L.ROSEN"
+                "J.E.Brolley Jr",
+                "T.M.Putnam",
+                "L.Rosen"
               ],
               "free_text": [
                 ""
@@ -91,7 +92,7 @@
                 "facility": [
                   "CYCLO"
                 ],
-                "institute": null
+                "institute": "1USALAS"
               },
               "free_text": [
                 ""
@@ -131,20 +132,6 @@
                 " From mean energy of the range measurements and",
                 "  corrections for gas absorption."
               ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ANG-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Since no misalignment trend in the data was",
-                "  detectable, the authors concluded that the beam was",
-                "  aligned to better than 0.1 degree."
-              ]
             }
           ],
           "REL-REF": [
@@ -153,7 +140,7 @@
               "coded_information": {
                 "code": "N",
                 "subentry_number": null,
-                "author": "PUTNAM+",
+                "author": "T.M.Putnam+",
                 "reference": {
                   "code": "J,PR,104,1303,1956",
                   "field": {
@@ -206,29 +193,24 @@
               "free_text": [
                 " Updated to new date formats, lower case."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260116,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. ANG-ERR moved to subs.2-3, STATUS",
+                " updated, BIB updates"
+              ]
             }
           ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 1,
-            "N2": 0,
-            "pointer": [
-              ""
-            ],
-            "heading": [
-              "ANG-ERR"
-            ],
-            "unit": [
-              "ADEG"
-            ],
-            "value": [
-              0.1
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -240,9 +222,9 @@
         {
           "SUBENT": {
             "N1": "C0046002",
-            "N2": 20001120,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C254"
           },
           "BIB": {
             "N1": 4,
@@ -291,14 +273,50 @@
                 "  geometry, number of tracks on plate area analyzed,",
                 "  and swath width."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ANG-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Since no misalignment trend in the data was",
+                "  detectable, the authors concluded that the beam was",
+                "  aligned to better than 0.1 degree."
+              ]
             }
           ],
           "STATUS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "J.E.Brolley Jr+",
+                "reference": {
+                  "code": "J,PR,107,820,1957",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "107",
+                      "part": null,
+                      "issue": null,
+                      "page": "820"
+                    },
+                    "date": 1957
+                  }
+                }
+              },
               "free_text": [
-                "Data taken from Tables I-IV of reference."
+                "",
+                " Data taken from Tables I-IV of reference."
               ]
             }
           ],
@@ -322,13 +340,39 @@
               "free_text": [
                 " Data at 12.15 MeV added."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260116,
+                "history": "A"
+              },
+              "free_text": [
+                " ANG-ERR moved from sub.1"
+              ]
             }
           ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "ANG-ERR"
+            ],
+            "unit": [
+              "ADEG"
+            ],
+            "value": [
+              0.1
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -1498,9 +1542,9 @@
         {
           "SUBENT": {
             "N1": "C0046003",
-            "N2": 20001120,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C254"
           },
           "BIB": {
             "N1": 4,
@@ -1549,14 +1593,50 @@
                 "  geometry, number of tracks on plate area analyzed,",
                 "  and swath width."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ANG-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Since no misalignment trend in the data was",
+                "  detectable, the authors concluded that the beam was",
+                "  aligned to better than 0.1 degree."
+              ]
             }
           ],
           "STATUS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "J.E.Brolley Jr+",
+                "reference": {
+                  "code": "J,PR,107,820,1957",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "107",
+                      "part": null,
+                      "issue": null,
+                      "page": "820"
+                    },
+                    "date": 1957
+                  }
+                }
+              },
               "free_text": [
-                "Data taken from Tables V-IX of reference."
+                "",
+                " Data taken from Tables V-IX of reference."
               ]
             }
           ],
@@ -1570,6 +1650,16 @@
               "free_text": [
                 " Data corrected."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260116,
+                "history": "A"
+              },
+              "free_text": [
+                " ANG-ERR moved from sub.1"
+              ]
             }
           ],
           "ENDBIB": {
@@ -1577,19 +1667,23 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0,
             "pointer": [
+              "",
               ""
             ],
             "heading": [
-              "DATA-ERR"
+              "DATA-ERR",
+              "ANG-ERR"
             ],
             "unit": [
-              "PER-CENT"
+              "PER-CENT",
+              "ADEG"
             ],
             "value": [
-              4.0
+              4.0,
+              0.1
             ]
           },
           "ENDCOMMON": {
@@ -2058,9 +2152,9 @@
         {
           "SUBENT": {
             "N1": "C0046004",
-            "N2": 20001120,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C254"
           },
           "BIB": {
             "N1": 3,
@@ -2106,8 +2200,36 @@
                 "reference": null
               },
               "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "J.E.Brolley Jr+",
+                "reference": {
+                  "code": "J,PR,107,820,1957",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "107",
+                      "part": null,
+                      "issue": null,
+                      "page": "820"
+                    },
+                    "date": 1957
+                  }
+                }
+              },
+              "free_text": [
                 "",
-                "Data taken from Table X of reference."
+                " Data taken from Table X of reference."
               ]
             }
           ],
@@ -2317,9 +2439,9 @@
         {
           "SUBENT": {
             "N1": "C0046005",
-            "N2": 20001120,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C254"
           },
           "BIB": {
             "N1": 3,
@@ -2375,6 +2497,35 @@
               },
               "free_text": [
                 ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "J.E.Brolley Jr+",
+                "reference": {
+                  "code": "J,PR,107,820,1957",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "107",
+                      "part": null,
+                      "issue": null,
+                      "page": "820"
+                    },
+                    "date": 1957
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data taken from Table X of reference."
               ]
             }
           ],
@@ -2439,12 +2590,12 @@
         {
           "SUBENT": {
             "N1": "C0046006",
-            "N2": 20001120,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C254"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -2475,15 +2626,6 @@
               ]
             }
           ],
-          "ANALYSIS": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "From Legendre fit to angular distribution data."
-              ]
-            }
-          ],
           "STATUS": [
             {
               "pointer": "",
@@ -2497,6 +2639,35 @@
               },
               "free_text": [
                 ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "J.E.Brolley Jr+",
+                "reference": {
+                  "code": "J,PR,107,820,1957",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "107",
+                      "part": null,
+                      "issue": null,
+                      "page": "820"
+                    },
+                    "date": 1957
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data taken from Table X of reference."
               ]
             }
           ],
