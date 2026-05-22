@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:46:30+0000",
+  "time_stamp": "2026-05-22T20:19:29+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "E2395",
-        "N2": 20150924,
+        "N2": 20260116,
         "alteration_flag": " ",
-        "transmission_identification": "E098"
+        "transmission_identification": "E156"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "E2395001",
-            "N2": 20150924,
+            "N2": 20260116,
             "alteration_flag": " ",
-            "transmission_identification": "E098"
+            "transmission_identification": "E156"
           },
           "BIB": {
-            "N1": 10,
+            "N1": 12,
             "N2": 0
           },
           "TITLE": [
@@ -26,8 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Production of 67Ga, 68Ga by bombardment of natural",
-                "zinc target with alpha and 3He particles"
+                "Production of 67Ga by alpha bombardment of natural",
+                "zinc"
               ]
             }
           ],
@@ -52,11 +52,40 @@
                 "2JPNTMU"
               ],
               "free_text": [
-                " Department of Chemistry"
+                ""
               ]
             }
           ],
           "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,ARI,29,615,1978",
+                "code_unit": [
+                  {
+                    "unit": "J,ARI,29,615,1978",
+                    "doi": "10.1016/0020-708X(78)90095-9",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "ARI",
+                        "number": null,
+                        "volume": "29",
+                        "part": null,
+                        "issue": null,
+                        "page": "615"
+                      },
+                      "date": 1978
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "Main reference. See also TITLE and AUTHOR."
+              ]
+            },
             {
               "pointer": "",
               "coded_information": {
@@ -82,7 +111,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "3He-induced and part of alpha-induced reactions"
               ]
             }
           ],
@@ -91,7 +121,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Beam intensity is 0.5 micro-Ampere."
+                "Beam intensity is 0.5 uA."
               ]
             }
           ],
@@ -164,6 +194,29 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The estimated cross section error is at least 15%",
+                "excluding the uncertainty associated with photon",
+                "intensities."
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "By author: The thick target yields are given in terms",
+                "of microcuries of the activities produced by a 1-h",
+                "irradiation of a natural zinc target with the beam",
+                "current of 1 uA. (copied from B0135.001)"
+              ]
+            }
+          ],
           "HISTORY": [
             {
               "pointer": "",
@@ -173,6 +226,20 @@
               },
               "free_text": [
                 " Tk"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260113,
+                "history": "T"
+              },
+              "free_text": [
+                " MA: Subentries 012-023 moved from EXFOR",
+                "            B0135. Main reference in 001 replaced.",
+                "            STATUS in 002-023 and ANALYSIS in 007-011",
+                "            updated. REACTION in 008-009 modified.",
+                "            DECAY-DATA in 002-011 updated/added."
               ]
             }
           ],
@@ -192,12 +259,12 @@
         {
           "SUBENT": {
             "N1": "E2395002",
-            "N2": 20150924,
+            "N2": 20260116,
             "alteration_flag": " ",
-            "transmission_identification": "E098"
+            "transmission_identification": "E156"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -243,8 +310,10 @@
                     "radiation_type": [
                       "DG"
                     ],
-                    "energy": null,
-                    "intensity": null
+                    "energy": [
+                      300.0
+                    ],
+                    "intensity": 0.16
                   }
                 ]
               },
@@ -261,11 +330,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Y.Nagame+",
+                "reference": {
+                  "code": "J,ARI,29,615,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "29",
+                      "part": null,
+                      "issue": null,
+                      "page": "615"
+                    },
+                    "date": 1978
+                  }
+                }
               },
               "free_text": [
-                " Fig. 1 of Radioisotopes 27 (1978) 631."
+                " Fig. 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260113,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: DECAY-DATA updated."
               ]
             }
           ],
@@ -367,12 +462,12 @@
         {
           "SUBENT": {
             "N1": "E2395003",
-            "N2": 20150924,
+            "N2": 20260116,
             "alteration_flag": " ",
-            "transmission_identification": "E098"
+            "transmission_identification": "E156"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -441,8 +536,10 @@
                     "radiation_type": [
                       "DG"
                     ],
-                    "energy": null,
-                    "intensity": null
+                    "energy": [
+                      1077.0
+                    ],
+                    "intensity": 0.032
                   }
                 ]
               },
@@ -466,6 +563,17 @@
               ]
             }
           ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "By Yuichiro Nagame (2016-09-15): Corrected for the",
+                "contribution of EC decay when the parent was measured.",
+                " (copied from B0135.001)"
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -474,11 +582,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Y.Nagame+",
+                "reference": {
+                  "code": "J,ARI,29,615,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "29",
+                      "part": null,
+                      "issue": null,
+                      "page": "615"
+                    },
+                    "date": 1978
+                  }
+                }
               },
               "free_text": [
-                " Fig. 1 of Radioisotopes 27 (1978) 631."
+                " Fig. 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260113,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: DECAY-DATA updated."
               ]
             }
           ],
@@ -548,12 +682,12 @@
         {
           "SUBENT": {
             "N1": "E2395004",
-            "N2": 20150924,
+            "N2": 20260116,
             "alteration_flag": " ",
-            "transmission_identification": "E098"
+            "transmission_identification": "E156"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -599,8 +733,10 @@
                     "radiation_type": [
                       "DG"
                     ],
-                    "energy": null,
-                    "intensity": null
+                    "energy": [
+                      1039.0
+                    ],
+                    "intensity": 0.37
                   }
                 ]
               },
@@ -617,11 +753,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Y.Nagame+",
+                "reference": {
+                  "code": "J,ARI,29,615,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "29",
+                      "part": null,
+                      "issue": null,
+                      "page": "615"
+                    },
+                    "date": 1978
+                  }
+                }
               },
               "free_text": [
-                " Fig. 1 of Radioisotopes 27 (1978) 631."
+                " Fig. 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260113,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: DECAY-DATA updated."
               ]
             }
           ],
@@ -715,12 +877,12 @@
         {
           "SUBENT": {
             "N1": "E2395005",
-            "N2": 20150924,
+            "N2": 20260116,
             "alteration_flag": " ",
-            "transmission_identification": "E098"
+            "transmission_identification": "E156"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -766,8 +928,10 @@
                     "radiation_type": [
                       "DG"
                     ],
-                    "energy": null,
-                    "intensity": null
+                    "energy": [
+                      300.0
+                    ],
+                    "intensity": 0.16
                   }
                 ]
               },
@@ -784,11 +948,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Y.Nagame+",
+                "reference": {
+                  "code": "J,RI,27,631,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "RI",
+                      "number": null,
+                      "volume": "27",
+                      "part": null,
+                      "issue": null,
+                      "page": "631"
+                    },
+                    "date": 1978
+                  }
+                }
               },
               "free_text": [
-                " Fig. 2 of Radioisotopes 27 (1978) 631."
+                " Fig. 2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260113,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: DECAY-DATA updated."
               ]
             }
           ],
@@ -874,12 +1064,12 @@
         {
           "SUBENT": {
             "N1": "E2395006",
-            "N2": 20150924,
+            "N2": 20260116,
             "alteration_flag": " ",
-            "transmission_identification": "E098"
+            "transmission_identification": "E156"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -948,8 +1138,10 @@
                     "radiation_type": [
                       "DG"
                     ],
-                    "energy": null,
-                    "intensity": null
+                    "energy": [
+                      1077.0
+                    ],
+                    "intensity": 0.032
                   }
                 ]
               },
@@ -981,11 +1173,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Y.Nagame+",
+                "reference": {
+                  "code": "J,RI,27,631,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "RI",
+                      "number": null,
+                      "volume": "27",
+                      "part": null,
+                      "issue": null,
+                      "page": "631"
+                    },
+                    "date": 1978
+                  }
+                }
               },
               "free_text": [
-                " Fig. 2 of Radioisotopes 27 (1978) 631."
+                " Fig. 2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260113,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: DECAY-DATA updated."
               ]
             }
           ],
@@ -1067,12 +1285,12 @@
         {
           "SUBENT": {
             "N1": "E2395007",
-            "N2": 20150924,
+            "N2": 20260116,
             "alteration_flag": " ",
-            "transmission_identification": "E098"
+            "transmission_identification": "E156"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1118,8 +1336,10 @@
                     "radiation_type": [
                       "DG"
                     ],
-                    "energy": null,
-                    "intensity": null
+                    "energy": [
+                      1039.0
+                    ],
+                    "intensity": 0.37
                   }
                 ]
               },
@@ -1136,11 +1356,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Y.Nagame+",
+                "reference": {
+                  "code": "J,RI,27,631,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "RI",
+                      "number": null,
+                      "volume": "27",
+                      "part": null,
+                      "issue": null,
+                      "page": "631"
+                    },
+                    "date": 1978
+                  }
+                }
               },
               "free_text": [
-                " Fig. 2 of Radioisotopes 27 (1978) 631."
+                " Fig. 2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260113,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: DECAY-DATA updated."
               ]
             }
           ],
@@ -1222,32 +1468,32 @@
         {
           "SUBENT": {
             "N1": "E2395008",
-            "N2": 20150924,
+            "N2": 20260116,
             "alteration_flag": " ",
-            "transmission_identification": "E098"
+            "transmission_identification": "E156"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "30-ZN-0(A,X)31-GA-67,,TTY,,EOB,DERIV",
+                "code": "30-ZN-0(A,X)31-GA-67,CUM,TTY,,EOB,DERIV",
                 "code_unit": [
                   {
-                    "unit": "30-ZN-0(A,X)31-GA-67,,TTY,,EOB,DERIV",
+                    "unit": "30-ZN-0(A,X)31-GA-67,CUM,TTY,,EOB,DERIV",
                     "field": {
                       "reaction": "30-ZN-0(A,X)31-GA-67",
                       "target": "30-ZN-0",
                       "projectile": "A",
                       "process": "X",
                       "product": "31-GA-67",
-                      "quantity": ",TTY,,EOB",
+                      "quantity": "CUM,TTY,,EOB",
                       "data_type": "DERIV",
                       "general_quantity_modifier": null,
-                      "quantity_236": ",TTY,,EOB"
+                      "quantity_236": "CUM,TTY,,EOB"
                     }
                   }
                 ],
@@ -1258,12 +1504,41 @@
               ]
             }
           ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "31-GA-67",
+                "half-life": {
+                  "value": 78.0,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      300.0
+                    ],
+                    "intensity": 0.16
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "ANALYSIS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": [
+                "INTEF"
+              ],
               "free_text": [
-                "obtained by integration of excitation function"
+                ""
               ]
             }
           ],
@@ -1275,11 +1550,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Y.Nagame+",
+                "reference": {
+                  "code": "J,ARI,29,615,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "29",
+                      "part": null,
+                      "issue": null,
+                      "page": "615"
+                    },
+                    "date": 1978
+                  }
+                }
               },
               "free_text": [
-                " Fig. 3 of Radioisotopes 27 (1978) 631."
+                " Fig. 2"
               ]
             },
             {
@@ -1294,6 +1583,19 @@
               },
               "free_text": [
                 " Excitation function given"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260113,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: SF5: CUM added; DECAY-DATA added;",
+                "            ANALYSIS updated."
               ]
             }
           ],
@@ -1387,32 +1689,32 @@
         {
           "SUBENT": {
             "N1": "E2395009",
-            "N2": 20150924,
+            "N2": 20260116,
             "alteration_flag": " ",
-            "transmission_identification": "E098"
+            "transmission_identification": "E156"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "30-ZN-0(HE3,X)31-GA-67,,TTY,,EOB,DERIV",
+                "code": "30-ZN-0(HE3,X)31-GA-67,CUM,TTY,,EOB,DERIV",
                 "code_unit": [
                   {
-                    "unit": "30-ZN-0(HE3,X)31-GA-67,,TTY,,EOB,DERIV",
+                    "unit": "30-ZN-0(HE3,X)31-GA-67,CUM,TTY,,EOB,DERIV",
                     "field": {
                       "reaction": "30-ZN-0(HE3,X)31-GA-67",
                       "target": "30-ZN-0",
                       "projectile": "HE3",
                       "process": "X",
                       "product": "31-GA-67",
-                      "quantity": ",TTY,,EOB",
+                      "quantity": "CUM,TTY,,EOB",
                       "data_type": "DERIV",
                       "general_quantity_modifier": null,
-                      "quantity_236": ",TTY,,EOB"
+                      "quantity_236": "CUM,TTY,,EOB"
                     }
                   }
                 ],
@@ -1423,12 +1725,41 @@
               ]
             }
           ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "31-GA-67",
+                "half-life": {
+                  "value": 78.0,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      300.0
+                    ],
+                    "intensity": 0.16
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "ANALYSIS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": [
+                "INTEF"
+              ],
               "free_text": [
-                "obtained by integration of excitation function"
+                ""
               ]
             }
           ],
@@ -1440,11 +1771,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Y.Nagame+",
+                "reference": {
+                  "code": "J,RI,27,631,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "RI",
+                      "number": null,
+                      "volume": "27",
+                      "part": null,
+                      "issue": null,
+                      "page": "631"
+                    },
+                    "date": 1978
+                  }
+                }
               },
               "free_text": [
-                " Fig. 3 of Radioisotopes 27 (1978) 631."
+                " Fig. 3"
               ]
             },
             {
@@ -1459,6 +1804,19 @@
               },
               "free_text": [
                 " Excitation function given"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260113,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: SF5: CUM added; DECAY-DATA added;",
+                "            ANALYSIS updated."
               ]
             }
           ],
@@ -1556,12 +1914,12 @@
         {
           "SUBENT": {
             "N1": "E2395010",
-            "N2": 20150924,
+            "N2": 20260116,
             "alteration_flag": " ",
-            "transmission_identification": "E098"
+            "transmission_identification": "E156"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -1592,12 +1950,64 @@
               ]
             }
           ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "32-GE-68",
+                "half-life": {
+                  "value": 275.0,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": null,
+                    "intensity": null
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "31-GA-68",
+                "half-life": {
+                  "value": 68.3,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1077.0
+                    ],
+                    "intensity": 0.032
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "ANALYSIS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": [
+                "INTEF"
+              ],
               "free_text": [
-                "obtained by integration of excitation function"
+                ""
               ]
             }
           ],
@@ -1609,11 +2019,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Y.Nagame+",
+                "reference": {
+                  "code": "J,ARI,29,615,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "29",
+                      "part": null,
+                      "issue": null,
+                      "page": "615"
+                    },
+                    "date": 1978
+                  }
+                }
               },
               "free_text": [
-                " Fig. 4 of Radioisotopes 27 (1978) 631."
+                " Fig. 2"
               ]
             },
             {
@@ -1628,6 +2052,18 @@
               },
               "free_text": [
                 " Excitation function given"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260113,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: DECAY-DATA added; ANALYSIS updated."
               ]
             }
           ],
@@ -1725,12 +2161,12 @@
         {
           "SUBENT": {
             "N1": "E2395011",
-            "N2": 20150924,
+            "N2": 20260116,
             "alteration_flag": " ",
-            "transmission_identification": "E098"
+            "transmission_identification": "E156"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -1761,12 +2197,79 @@
               ]
             }
           ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "32-GE-68",
+                "half-life": {
+                  "value": 275.0,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": null,
+                    "intensity": null
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "31-GA-68",
+                "half-life": {
+                  "value": 68.3,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1077.0
+                    ],
+                    "intensity": 0.032
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "RAD-DET": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "31-GA-68",
+                "radiation_type": [
+                  "DG"
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "ANALYSIS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": [
+                "INTEF"
+              ],
               "free_text": [
-                "obtained by integration of excitation function"
+                ""
               ]
             }
           ],
@@ -1778,11 +2281,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Y.Nagame+",
+                "reference": {
+                  "code": "J,RI,27,631,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "RI",
+                      "number": null,
+                      "volume": "27",
+                      "part": null,
+                      "issue": null,
+                      "page": "631"
+                    },
+                    "date": 1978
+                  }
+                }
               },
               "free_text": [
-                " Fig. 4 of Radioisotopes 27 (1978) 631."
+                " Fig. 4"
               ]
             },
             {
@@ -1797,6 +2314,18 @@
               },
               "free_text": [
                 " Excitation function given"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260113,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: DECAY-DATA added; ANALYSIS updated."
               ]
             }
           ],
@@ -1886,10 +2415,2331 @@
             "N1": 0,
             "N2": 0
           }
+        },
+        {
+          "SUBENT": {
+            "N1": "E2395012",
+            "N2": 20260116,
+            "alteration_flag": " ",
+            "transmission_identification": "E156"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "30-ZN-0(A,X)31-GA-68,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "30-ZN-0(A,X)31-GA-68,,SIG",
+                    "field": {
+                      "reaction": "30-ZN-0(A,X)31-GA-68",
+                      "target": "30-ZN-0",
+                      "projectile": "A",
+                      "process": "X",
+                      "product": "31-GA-68",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "31-GA-68",
+                "half-life": {
+                  "value": 68.3,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1077.0
+                    ],
+                    "intensity": 0.032
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "Y.Nagame+",
+                "reference": {
+                  "code": "J,ARI,29,615,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "29",
+                      "part": null,
+                      "issue": null,
+                      "page": "615"
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260113,
+                "history": "T"
+              },
+              "free_text": [
+                " MA: Data moved from B0135.002.1."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 5,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA"
+            ],
+            "unit": [
+              "MEV",
+              "MB"
+            ],
+            "value": [
+              [
+                23.1,
+                90.0
+              ],
+              [
+                26.8,
+                138.0
+              ],
+              [
+                31.1,
+                157.0
+              ],
+              [
+                34.9,
+                141.0
+              ],
+              [
+                37.4,
+                122.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "E2395013",
+            "N2": 20260116,
+            "alteration_flag": " ",
+            "transmission_identification": "E156"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "30-ZN-0(A,X)31-GA-65,CUM,SIG",
+                "code_unit": [
+                  {
+                    "unit": "30-ZN-0(A,X)31-GA-65,CUM,SIG",
+                    "field": {
+                      "reaction": "30-ZN-0(A,X)31-GA-65",
+                      "target": "30-ZN-0",
+                      "projectile": "A",
+                      "process": "X",
+                      "product": "31-GA-65",
+                      "quantity": "CUM,SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "CUM,SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "31-GA-65",
+                "half-life": {
+                  "value": 15.2,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      115.0
+                    ],
+                    "intensity": 0.57
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "Y.Nagame+",
+                "reference": {
+                  "code": "J,ARI,29,615,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "29",
+                      "part": null,
+                      "issue": null,
+                      "page": "615"
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260113,
+                "history": "T"
+              },
+              "free_text": [
+                " MA: Data moved from B0135.005."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 3,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA"
+            ],
+            "unit": [
+              "MEV",
+              "MB"
+            ],
+            "value": [
+              [
+                30.8,
+                3.7
+              ],
+              [
+                32.3,
+                6.6
+              ],
+              [
+                37.1,
+                29.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "E2395014",
+            "N2": 20260116,
+            "alteration_flag": " ",
+            "transmission_identification": "E156"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "30-ZN-0(A,X)32-GE-69,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "30-ZN-0(A,X)32-GE-69,,SIG",
+                    "field": {
+                      "reaction": "30-ZN-0(A,X)32-GE-69",
+                      "target": "30-ZN-0",
+                      "projectile": "A",
+                      "process": "X",
+                      "product": "32-GE-69",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "32-GE-69",
+                "half-life": {
+                  "value": 39.2,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      574.0
+                    ],
+                    "intensity": 0.13
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "Y.Nagame+",
+                "reference": {
+                  "code": "J,ARI,29,615,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "29",
+                      "part": null,
+                      "issue": null,
+                      "page": "615"
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260113,
+                "history": "T"
+              },
+              "free_text": [
+                " MA: Data moved from B0135.006.1."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 10,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA"
+            ],
+            "unit": [
+              "MEV",
+              "MB"
+            ],
+            "value": [
+              [
+                16.7,
+                150.0
+              ],
+              [
+                21.3,
+                149.0
+              ],
+              [
+                23.6,
+                114.0
+              ],
+              [
+                25.5,
+                77.0
+              ],
+              [
+                27.4,
+                58.0
+              ],
+              [
+                29.1,
+                42.0
+              ],
+              [
+                32.5,
+                51.0
+              ],
+              [
+                34.2,
+                61.0
+              ],
+              [
+                35.9,
+                71.0
+              ],
+              [
+                37.2,
+                75.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "E2395015",
+            "N2": 20260116,
+            "alteration_flag": " ",
+            "transmission_identification": "E156"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "30-ZN-0(A,X)32-GE-67,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "30-ZN-0(A,X)32-GE-67,,SIG",
+                    "field": {
+                      "reaction": "30-ZN-0(A,X)32-GE-67",
+                      "target": "30-ZN-0",
+                      "projectile": "A",
+                      "process": "X",
+                      "product": "32-GE-67",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "32-GE-67",
+                "half-life": {
+                  "value": 19.0,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      167.0
+                    ],
+                    "intensity": 1.05
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "Y.Nagame+",
+                "reference": {
+                  "code": "J,ARI,29,615,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "29",
+                      "part": null,
+                      "issue": null,
+                      "page": "615"
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260113,
+                "history": "T"
+              },
+              "free_text": [
+                " MA: Data moved from B0135.008."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 6,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA"
+            ],
+            "unit": [
+              "MEV",
+              "MB"
+            ],
+            "value": [
+              [
+                15.7,
+                146.0
+              ],
+              [
+                19.2,
+                153.0
+              ],
+              [
+                23.4,
+                51.0
+              ],
+              [
+                26.7,
+                21.0
+              ],
+              [
+                30.6,
+                8.4
+              ],
+              [
+                37.1,
+                9.2
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "E2395016",
+            "N2": 20260116,
+            "alteration_flag": " ",
+            "transmission_identification": "E156"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "30-ZN-0(A,X)32-GE-66,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "30-ZN-0(A,X)32-GE-66,,SIG",
+                    "field": {
+                      "reaction": "30-ZN-0(A,X)32-GE-66",
+                      "target": "30-ZN-0",
+                      "projectile": "A",
+                      "process": "X",
+                      "product": "32-GE-66",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "32-GE-66",
+                "half-life": {
+                  "value": 2.27,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      382.0
+                    ],
+                    "intensity": 0.48
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "Y.Nagame+",
+                "reference": {
+                  "code": "J,ARI,29,615,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "29",
+                      "part": null,
+                      "issue": null,
+                      "page": "615"
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260113,
+                "history": "T"
+              },
+              "free_text": [
+                " MA: Data moved from B0135.009.1."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 10,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA"
+            ],
+            "unit": [
+              "MEV",
+              "MB"
+            ],
+            "value": [
+              [
+                21.9,
+                2.1
+              ],
+              [
+                22.9,
+                3.7
+              ],
+              [
+                23.9,
+                5.9
+              ],
+              [
+                26.4,
+                11.0
+              ],
+              [
+                29.2,
+                15.0
+              ],
+              [
+                30.7,
+                18.0
+              ],
+              [
+                32.6,
+                21.0
+              ],
+              [
+                35.8,
+                19.0
+              ],
+              [
+                37.1,
+                19.0
+              ],
+              [
+                38.7,
+                17.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "E2395017",
+            "N2": 20260116,
+            "alteration_flag": " ",
+            "transmission_identification": "E156"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "30-ZN-0(A,X)30-ZN-65,CUM,SIG",
+                "code_unit": [
+                  {
+                    "unit": "30-ZN-0(A,X)30-ZN-65,CUM,SIG",
+                    "field": {
+                      "reaction": "30-ZN-0(A,X)30-ZN-65",
+                      "target": "30-ZN-0",
+                      "projectile": "A",
+                      "process": "X",
+                      "product": "30-ZN-65",
+                      "quantity": "CUM,SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "CUM,SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "30-ZN-65",
+                "half-life": {
+                  "value": 244.0,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1115.0
+                    ],
+                    "intensity": 0.507
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "Y.Nagame+",
+                "reference": {
+                  "code": "J,ARI,29,615,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "29",
+                      "part": null,
+                      "issue": null,
+                      "page": "615"
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260113,
+                "history": "T"
+              },
+              "free_text": [
+                " MA: Data moved from B0135.010.1."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 8,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA"
+            ],
+            "unit": [
+              "MEV",
+              "MB"
+            ],
+            "value": [
+              [
+                21.4,
+                5.2
+              ],
+              [
+                23.4,
+                14.0
+              ],
+              [
+                25.7,
+                27.0
+              ],
+              [
+                29.1,
+                44.0
+              ],
+              [
+                32.4,
+                91.0
+              ],
+              [
+                34.3,
+                144.0
+              ],
+              [
+                35.8,
+                192.0
+              ],
+              [
+                37.1,
+                234.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "E2395018",
+            "N2": 20260116,
+            "alteration_flag": " ",
+            "transmission_identification": "E156"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "30-ZN-0(A,X)30-ZN-63,CUM,SIG",
+                "code_unit": [
+                  {
+                    "unit": "30-ZN-0(A,X)30-ZN-63,CUM,SIG",
+                    "field": {
+                      "reaction": "30-ZN-0(A,X)30-ZN-63",
+                      "target": "30-ZN-0",
+                      "projectile": "A",
+                      "process": "X",
+                      "product": "30-ZN-63",
+                      "quantity": "CUM,SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "CUM,SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "30-ZN-63",
+                "half-life": {
+                  "value": 38.6,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      669.0
+                    ],
+                    "intensity": 0.094
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "Y.Nagame+",
+                "reference": {
+                  "code": "J,ARI,29,615,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "29",
+                      "part": null,
+                      "issue": null,
+                      "page": "615"
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260113,
+                "history": "T"
+              },
+              "free_text": [
+                " MA: Data moved from B0135.011."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 3,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA"
+            ],
+            "unit": [
+              "MEV",
+              "MB"
+            ],
+            "value": [
+              [
+                23.1,
+                17.0
+              ],
+              [
+                30.3,
+                64.0
+              ],
+              [
+                37.5,
+                71.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "E2395019",
+            "N2": 20260116,
+            "alteration_flag": " ",
+            "transmission_identification": "E156"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "30-ZN-0(A,X)31-GA-68,,TTY,,EOB,DERIV",
+                "code_unit": [
+                  {
+                    "unit": "30-ZN-0(A,X)31-GA-68,,TTY,,EOB,DERIV",
+                    "field": {
+                      "reaction": "30-ZN-0(A,X)31-GA-68",
+                      "target": "30-ZN-0",
+                      "projectile": "A",
+                      "process": "X",
+                      "product": "31-GA-68",
+                      "quantity": ",TTY,,EOB",
+                      "data_type": "DERIV",
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",TTY,,EOB"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "31-GA-68",
+                "half-life": {
+                  "value": 68.3,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1077.0
+                    ],
+                    "intensity": 0.032
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "INTEF"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "Y.Nagame+",
+                "reference": {
+                  "code": "J,ARI,29,615,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "29",
+                      "part": null,
+                      "issue": null,
+                      "page": "615"
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 2"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "E2395012",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Excitation function given"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260113,
+                "history": "T"
+              },
+              "free_text": [
+                " MA: Data moved from B0135.002.2."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "TIME-IRRD"
+            ],
+            "unit": [
+              "HR"
+            ],
+            "value": [
+              1.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 11,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA"
+            ],
+            "unit": [
+              "MEV",
+              "MUCI/MUA"
+            ],
+            "value": [
+              [
+                20.5,
+                106.0
+              ],
+              [
+                22.5,
+                397.0
+              ],
+              [
+                24.6,
+                876.0
+              ],
+              [
+                26.5,
+                1500.0
+              ],
+              [
+                28.3,
+                2200.0
+              ],
+              [
+                29.9,
+                3000.0
+              ],
+              [
+                31.9,
+                3800.0
+              ],
+              [
+                33.4,
+                4600.0
+              ],
+              [
+                34.9,
+                5200.0
+              ],
+              [
+                36.4,
+                6000.0
+              ],
+              [
+                38.0,
+                6600.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "E2395020",
+            "N2": 20260116,
+            "alteration_flag": " ",
+            "transmission_identification": "E156"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "30-ZN-0(A,X)31-GA-66,CUM,TTY,,EOB,DERIV",
+                "code_unit": [
+                  {
+                    "unit": "30-ZN-0(A,X)31-GA-66,CUM,TTY,,EOB,DERIV",
+                    "field": {
+                      "reaction": "30-ZN-0(A,X)31-GA-66",
+                      "target": "30-ZN-0",
+                      "projectile": "A",
+                      "process": "X",
+                      "product": "31-GA-66",
+                      "quantity": "CUM,TTY,,EOB",
+                      "data_type": "DERIV",
+                      "general_quantity_modifier": null,
+                      "quantity_236": "CUM,TTY,,EOB"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "31-GA-66",
+                "half-life": {
+                  "value": 9.5,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1039.0
+                    ],
+                    "intensity": 0.37
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "INTEF"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "Y.Nagame+",
+                "reference": {
+                  "code": "J,ARI,29,615,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "29",
+                      "part": null,
+                      "issue": null,
+                      "page": "615"
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 2"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "E2395004",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Excitation function given"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260113,
+                "history": "T"
+              },
+              "free_text": [
+                " MA: Data moved from B0135.004.2."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "TIME-IRRD"
+            ],
+            "unit": [
+              "HR"
+            ],
+            "value": [
+              1.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 11,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA"
+            ],
+            "unit": [
+              "MEV",
+              "MUCI/MUA"
+            ],
+            "value": [
+              [
+                20.0,
+                1.8
+              ],
+              [
+                22.5,
+                28.0
+              ],
+              [
+                24.7,
+                130.0
+              ],
+              [
+                26.6,
+                285.0
+              ],
+              [
+                28.3,
+                538.0
+              ],
+              [
+                30.1,
+                799.0
+              ],
+              [
+                31.8,
+                1100.0
+              ],
+              [
+                33.5,
+                1400.0
+              ],
+              [
+                34.9,
+                1700.0
+              ],
+              [
+                36.4,
+                1900.0
+              ],
+              [
+                38.2,
+                2100.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "E2395021",
+            "N2": 20260116,
+            "alteration_flag": " ",
+            "transmission_identification": "E156"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "30-ZN-0(A,X)32-GE-69,,TTY,,EOB,DERIV",
+                "code_unit": [
+                  {
+                    "unit": "30-ZN-0(A,X)32-GE-69,,TTY,,EOB,DERIV",
+                    "field": {
+                      "reaction": "30-ZN-0(A,X)32-GE-69",
+                      "target": "30-ZN-0",
+                      "projectile": "A",
+                      "process": "X",
+                      "product": "32-GE-69",
+                      "quantity": ",TTY,,EOB",
+                      "data_type": "DERIV",
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",TTY,,EOB"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "32-GE-69",
+                "half-life": {
+                  "value": 39.2,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      574.0
+                    ],
+                    "intensity": 0.13
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "INTEF"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "Y.Nagame+",
+                "reference": {
+                  "code": "J,ARI,29,615,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "29",
+                      "part": null,
+                      "issue": null,
+                      "page": "615"
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 2"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "E2395014",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Excitation function given"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260113,
+                "history": "T"
+              },
+              "free_text": [
+                " MA: Data moved from B0135.006.2."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "TIME-IRRD"
+            ],
+            "unit": [
+              "HR"
+            ],
+            "value": [
+              1.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 14,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA"
+            ],
+            "unit": [
+              "MEV",
+              "MUCI/MUA"
+            ],
+            "value": [
+              [
+                12.6,
+                4.0
+              ],
+              [
+                15.3,
+                25.0
+              ],
+              [
+                17.9,
+                52.0
+              ],
+              [
+                20.3,
+                85.0
+              ],
+              [
+                22.3,
+                113.0
+              ],
+              [
+                25.5,
+                136.0
+              ],
+              [
+                26.4,
+                148.0
+              ],
+              [
+                28.1,
+                158.0
+              ],
+              [
+                29.9,
+                167.0
+              ],
+              [
+                31.6,
+                173.0
+              ],
+              [
+                33.3,
+                183.0
+              ],
+              [
+                34.8,
+                192.0
+              ],
+              [
+                36.4,
+                208.0
+              ],
+              [
+                37.9,
+                220.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "E2395022",
+            "N2": 20260116,
+            "alteration_flag": " ",
+            "transmission_identification": "E156"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "30-ZN-0(A,X)32-GE-66,,TTY,,EOB,DERIV",
+                "code_unit": [
+                  {
+                    "unit": "30-ZN-0(A,X)32-GE-66,,TTY,,EOB,DERIV",
+                    "field": {
+                      "reaction": "30-ZN-0(A,X)32-GE-66",
+                      "target": "30-ZN-0",
+                      "projectile": "A",
+                      "process": "X",
+                      "product": "32-GE-66",
+                      "quantity": ",TTY,,EOB",
+                      "data_type": "DERIV",
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",TTY,,EOB"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "32-GE-66",
+                "half-life": {
+                  "value": 2.27,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      382.0
+                    ],
+                    "intensity": 0.48
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "INTEF"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "Y.Nagame+",
+                "reference": {
+                  "code": "J,ARI,29,615,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "29",
+                      "part": null,
+                      "issue": null,
+                      "page": "615"
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 2"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "E2395016",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Excitation function given"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260113,
+                "history": "T"
+              },
+              "free_text": [
+                " MA: Data moved from B0135.009.2."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "TIME-IRRD"
+            ],
+            "unit": [
+              "HR"
+            ],
+            "value": [
+              1.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 10,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA"
+            ],
+            "unit": [
+              "MEV",
+              "MUCI/MUA"
+            ],
+            "value": [
+              [
+                22.5,
+                3.7
+              ],
+              [
+                24.6,
+                16.0
+              ],
+              [
+                26.3,
+                37.0
+              ],
+              [
+                28.1,
+                71.0
+              ],
+              [
+                29.9,
+                112.0
+              ],
+              [
+                31.7,
+                164.0
+              ],
+              [
+                33.2,
+                220.0
+              ],
+              [
+                34.7,
+                282.0
+              ],
+              [
+                36.3,
+                339.0
+              ],
+              [
+                37.7,
+                401.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "E2395023",
+            "N2": 20260116,
+            "alteration_flag": " ",
+            "transmission_identification": "E156"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "30-ZN-0(A,X)30-ZN-65,CUM,TTY,,EOB,DERIV",
+                "code_unit": [
+                  {
+                    "unit": "30-ZN-0(A,X)30-ZN-65,CUM,TTY,,EOB,DERIV",
+                    "field": {
+                      "reaction": "30-ZN-0(A,X)30-ZN-65",
+                      "target": "30-ZN-0",
+                      "projectile": "A",
+                      "process": "X",
+                      "product": "30-ZN-65",
+                      "quantity": "CUM,TTY,,EOB",
+                      "data_type": "DERIV",
+                      "general_quantity_modifier": null,
+                      "quantity_236": "CUM,TTY,,EOB"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "30-ZN-65",
+                "half-life": {
+                  "value": 244.0,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1115.0
+                    ],
+                    "intensity": 0.507
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "INTEF"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "Y.Nagame+",
+                "reference": {
+                  "code": "J,ARI,29,615,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "29",
+                      "part": null,
+                      "issue": null,
+                      "page": "615"
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 2"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "E2395017",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Excitation function given"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260116,
+                "history": "T"
+              },
+              "free_text": [
+                " MA: Data moved from B0135.010.2."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "TIME-IRRD"
+            ],
+            "unit": [
+              "HR"
+            ],
+            "value": [
+              1.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 9,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "DATA"
+            ],
+            "unit": [
+              "MEV",
+              "MUCI/MUA"
+            ],
+            "value": [
+              [
+                24.6,
+                0.02
+              ],
+              [
+                26.4,
+                0.05
+              ],
+              [
+                28.2,
+                0.1
+              ],
+              [
+                29.9,
+                0.15
+              ],
+              [
+                31.4,
+                0.23
+              ],
+              [
+                33.1,
+                0.35
+              ],
+              [
+                34.7,
+                0.53
+              ],
+              [
+                36.3,
+                0.78
+              ],
+              [
+                37.8,
+                1.1
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
         }
       ],
       "ENDENTRY": {
-        "N1": 11,
+        "N1": 23,
         "N2": 0
       }
     }
