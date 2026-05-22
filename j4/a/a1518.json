@@ -1,26 +1,50 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:20:04+0000",
+  "time_stamp": "2026-05-22T22:03:35+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A1518",
-        "N2": 19990324,
+        "N2": 20260401,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "A134"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A1518001",
-            "N2": 19990324,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A134"
           },
           "BIB": {
-            "N1": 8,
+            "N1": 6,
             "N2": 0
           },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "A study of the 6Li(alpha,n)9B and 7Li(alpha,n)10B",
+                "reaction"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "M.K.Mehta",
+                "W.E.Hunt",
+                "H.S.Plendl",
+                "R.H.Davis"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "INSTITUTE": [
             {
               "pointer": "",
@@ -32,60 +56,6 @@
               ]
             }
           ],
-          "REFERENCE": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "J,NP,48,(1),90,196309",
-                "code_unit": [
-                  {
-                    "unit": "J,NP,48,(1),90,196309",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "NP",
-                        "number": null,
-                        "volume": "48",
-                        "part": null,
-                        "issue": "1",
-                        "page": "90"
-                      },
-                      "date": 196309
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "AUTHOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "M.K.MEHTA",
-                "W.E.HUNT",
-                "H.S.PLENDL",
-                "R.H.DAVIS"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "TITLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "A study of the 6Li(alpha,n)9B and 7Li(alpha,n)10B",
-                "reaction"
-              ]
-            }
-          ],
           "FACILITY": [
             {
               "pointer": "",
@@ -93,33 +63,40 @@
                 "facility": [
                   "VDGT"
                 ],
-                "institute": null
+                "institute": "1USAFSU"
               },
               "free_text": [
                 ""
               ]
             }
           ],
-          "SAMPLE": [
+          "REFERENCE": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "code": "J,NP,48,90,1963",
+                "code_unit": [
+                  {
+                    "unit": "J,NP,48,90,1963",
+                    "doi": "10.1016/0029-5582(63)90146-9",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "NP",
+                        "number": null,
+                        "volume": "48",
+                        "part": null,
+                        "issue": null,
+                        "page": "90"
+                      },
+                      "date": 1963
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
               "free_text": [
-                "Metallic 7Li(92.5%) and 6Li(99%) onto thick Ta and",
-                "Au backings"
-              ]
-            }
-          ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "BF3"
-              ],
-              "free_text": [
-                " The detection system consisted of the single BF3",
-                "counter surrounded by a conically shapped wax moderaior",
-                "extending 30.5 cm along the length of the counter"
+                ""
               ]
             }
           ],
@@ -143,6 +120,17 @@
               "free_text": [
                 "CNPD: corrected 4-dig. year and lower cases."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Corrections in all Subents.",
+                "Subent 004 was added."
+              ]
             }
           ],
           "ENDBIB": {
@@ -161,12 +149,12 @@
         {
           "SUBENT": {
             "N1": "A1518002",
-            "N2": 19990324,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A134"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 9,
             "N2": 0
           },
           "REACTION": [
@@ -200,25 +188,104 @@
           "SAMPLE": [
             {
               "pointer": "",
+              "coded_information": {
+                "nuclide": "3-LI-7",
+                "field_identifier": "ENR",
+                "value": 0.925
+              },
+              "free_text": [
+                " The target was 60 keV 7Li",
+                "evaporated on Ta"
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "3-LI-7(A,N)5-B-10,,DA",
+                  "code_unit": [
+                    {
+                      "unit": "3-LI-7(A,N)5-B-10,,DA",
+                      "field": {
+                        "reaction": "3-LI-7(A,N)5-B-10",
+                        "target": "3-LI-7",
+                        "projectile": "A",
+                        "process": "N",
+                        "product": "5-B-10",
+                        "quantity": ",DA",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",DA"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": "A1498002",
+                "author": "H.Bichsel+",
+                "reference": {
+                  "code": "J,PR,108,1025,1957",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "108",
+                      "part": null,
+                      "issue": null,
+                      "page": "1025",
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 1957
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "BF3"
+              ],
+              "free_text": [
+                " Three conventional BF3 counters connected in",
+                "parallel and embedded in a wax filled sheet metal can",
+                "which was positioned 3.8 cm from the target at zero",
+                "degrees with respect to the beam."
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The target was 60 keV 7Li evaporated on Ta"
+                "From N.Otsuka: First three data points on fig.2 are",
+                "physically incorrect since the 7Li(alpha,n)10B",
+                "threshold energy is ~4.38 MeV."
               ]
             }
           ],
           "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "EN-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Digitizing error"
-              ]
-            },
             {
               "pointer": "",
               "coded_information": {
@@ -228,7 +295,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Digitizing error"
+                " No information about source of uncertainty"
               ]
             }
           ],
@@ -240,11 +307,40 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.K.Mehta+",
+                "reference": {
+                  "code": "J,NP,48,90,1963",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": null,
+                      "page": "90"
+                    },
+                    "date": 1963
+                  }
+                }
               },
               "free_text": [
-                " Fig 2"
+                " Fig 2",
+                "First three points on fig.2 were deleted from",
+                "the dataset (see COMMENT)."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: EN-ERR->EN-ERR-DIG, DATA-ERR->ERR-DIG.",
+                "Data were re-digitized. BIB updated."
               ]
             }
           ],
@@ -261,19 +357,19 @@
               ""
             ],
             "heading": [
-              "EN-ERR",
               "ANG-CM",
-              "DATA-ERR"
+              "EN-ERR-DIG",
+              "ERR-DIG"
             ],
             "unit": [
-              "MEV",
               "ADEG",
+              "MEV",
               "MB/SR"
             ],
             "value": [
-              0.003,
               0.0,
-              0.1
+              0.02,
+              0.06
             ]
           },
           "ENDCOMMON": {
@@ -281,844 +377,1058 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 2,
-            "N2": 206,
+            "N1": 3,
+            "N2": 207,
             "pointer": [
+              "",
               "",
               ""
             ],
             "heading": [
               "EN",
-              "DATA-CM"
+              "DATA-CM",
+              "DATA-ERR"
             ],
             "unit": [
               "MEV",
+              "MB/SR",
               "MB/SR"
             ],
             "value": [
               [
-                4.035,
-                0.0257
+                4.4,
+                0.27,
+                null
               ],
               [
-                4.219,
-                0.0251
+                4.43,
+                0.55,
+                null
               ],
               [
-                4.343,
-                0.0248
+                4.46,
+                0.8,
+                null
               ],
               [
-                4.406,
-                0.6333
+                4.53,
+                1.36,
+                null
               ],
               [
-                4.469,
-                0.8967
+                4.57,
+                2.05,
+                null
               ],
               [
-                4.512,
-                1.818
+                4.64,
+                2.01,
+                null
               ],
               [
-                4.597,
-                1.555
+                4.67,
+                2.58,
+                null
               ],
               [
-                4.619,
-                2.213
+                4.77,
+                2.78,
+                null
               ],
               [
-                4.727,
-                2.476
+                4.88,
+                3.02,
+                null
               ],
               [
-                4.815,
-                2.74
+                4.95,
+                2.57,
+                null
               ],
               [
-                4.881,
-                2.214
+                5.03,
+                2.97,
+                null
               ],
               [
-                4.97,
-                2.609
+                5.09,
+                3.95,
+                null
               ],
               [
-                4.992,
-                3.661
+                5.21,
+                4.15,
+                null
               ],
               [
-                5.06,
-                3.003
+                5.25,
+                3.86,
+                null
               ],
               [
-                5.105,
-                3.661
+                5.27,
+                4.67,
+                null
               ],
               [
-                5.196,
-                3.662
+                5.32,
+                4.02,
+                null
               ],
               [
-                5.219,
-                4.583
+                5.4,
+                3.98,
+                null
               ],
               [
-                5.288,
-                3.794
+                5.53,
+                3.48,
+                null
               ],
               [
-                5.38,
-                3.794
+                5.59,
+                5.72,
+                null
               ],
               [
-                5.498,
-                3.268
+                5.63,
+                8.16,
+                null
               ],
               [
-                5.568,
-                5.505
+                5.69,
+                9.3,
+                null
               ],
               [
-                5.592,
-                7.873
+                5.76,
+                9.09,
+                null
               ],
               [
-                5.663,
-                9.452
+                5.77,
+                8.44,
+                1.18
               ],
               [
-                5.735,
-                8.531
+                5.83,
+                8.07,
+                null
               ],
               [
-                5.759,
-                9.058
+                5.87,
+                8.48,
+                null
               ],
               [
-                5.807,
-                8.005
+                5.88,
+                9.21,
+                null
               ],
               [
-                5.856,
-                8.532
+                5.92,
+                8.88,
+                null
               ],
               [
-                5.856,
-                9.19
+                5.95,
+                9.74,
+                null
               ],
               [
-                5.953,
-                9.848
+                5.95,
+                9.73,
+                null
               ],
               [
-                6.052,
-                9.059
+                6.03,
+                9.2,
+                null
               ],
               [
-                6.076,
-                10.77
+                6.07,
+                10.87,
+                null
               ],
               [
-                6.076,
-                11.43
+                6.1,
+                11.31,
+                null
               ],
               [
-                6.15,
-                11.56
+                6.18,
+                11.84,
+                null
               ],
               [
-                6.175,
-                10.77
+                6.19,
+                10.74,
+                null
               ],
               [
-                6.2,
-                11.95
+                6.23,
+                13.14,
+                null
               ],
               [
-                6.25,
-                13.14
+                6.24,
+                15.01,
+                null
               ],
               [
-                6.25,
-                14.85
+                6.31,
+                15.46,
+                null
               ],
               [
-                6.325,
-                17.08
+                6.37,
+                17.33,
+                null
               ],
               [
-                6.351,
-                15.38
+                6.43,
+                18.71,
+                null
               ],
               [
-                6.426,
-                18.67
+                6.46,
+                17.9,
+                null
               ],
               [
-                6.452,
-                17.74
+                6.49,
+                19.85,
+                null
               ],
               [
-                6.503,
-                19.72
+                6.61,
+                21.96,
+                null
               ],
               [
-                6.58,
-                21.69
+                6.72,
+                26.4,
+                null
               ],
               [
-                6.656,
-                26.56
+                6.74,
+                25.75,
+                null
               ],
               [
-                6.709,
-                25.77
+                6.82,
+                27.21,
+                0.77
               ],
               [
-                6.709,
-                27.48
+                6.87,
+                27.17,
+                null
               ],
               [
-                6.786,
-                27.09
+                6.95,
+                26.8,
+                null
               ],
               [
-                6.839,
-                27.22
+                7.0,
+                28.34,
+                null
               ],
               [
-                6.918,
-                26.95
+                7.01,
+                29.69,
+                null
               ],
               [
-                6.971,
-                28.53
-              ],
-              [
-                6.997,
-                29.32
-              ],
-              [
-                6.997,
-                29.85
+                7.04,
+                29.24,
+                null
               ],
               [
                 7.05,
-                28.01
+                26.83,
+                null
               ],
               [
-                7.077,
-                27.09
+                7.07,
+                27.77,
+                null
               ],
               [
-                7.13,
-                27.88
+                7.12,
+                27.28,
+                null
               ],
               [
-                7.13,
-                26.43
+                7.16,
+                26.34,
+                null
               ],
               [
-                7.185,
-                25.77
+                7.16,
+                27.77,
+                null
               ],
               [
-                7.211,
-                26.82
+                7.23,
+                25.52,
+                null
               ],
               [
-                7.238,
-                28.27
+                7.26,
+                28.21,
+                null
               ],
               [
-                7.292,
-                25.38
+                7.27,
+                26.62,
+                null
               ],
               [
-                7.374,
-                26.83
+                7.32,
+                25.24,
+                null
               ],
               [
-                7.374,
-                25.77
+                7.39,
+                26.74,
+                null
               ],
               [
-                7.374,
-                24.59
+                7.4,
+                24.58,
+                null
               ],
               [
-                7.429,
-                22.48
+                7.42,
+                25.52,
+                null
               ],
               [
-                7.456,
-                25.25
+                7.48,
+                24.99,
+                null
               ],
               [
-                7.484,
-                19.59
+                7.49,
+                22.34,
+                null
               ],
               [
-                7.511,
-                17.35
+                7.53,
+                19.41,
+                null
               ],
               [
-                7.567,
-                15.64
+                7.54,
+                17.09,
+                null
               ],
               [
-                7.706,
-                13.27
+                7.61,
+                15.21,
+                null
               ],
               [
-                7.733,
-                12.61
+                7.72,
+                13.21,
+                null
               ],
               [
-                7.817,
-                13.93
+                7.72,
+                12.8,
+                null
               ],
               [
-                7.874,
-                13.01
+                7.77,
+                13.78,
+                null
+              ],
+              [
+                7.85,
+                13.13,
+                null
               ],
               [
                 7.93,
-                13.93
+                13.78,
+                null
               ],
               [
-                8.043,
-                13.01
+                8.0,
+                13.16,
+                null
               ],
               [
-                8.129,
-                13.93
+                8.06,
+                13.93,
+                null
               ],
               [
-                8.186,
-                13.41
+                8.14,
+                13.64,
+                null
               ],
               [
-                8.273,
-                14.19
+                8.22,
+                14.21,
+                null
               ],
               [
-                8.359,
-                14.06
+                8.28,
+                14.17,
+                null
               ],
               [
-                8.417,
-                15.12
+                8.35,
+                14.98,
+                null
               ],
               [
-                8.505,
-                13.54
+                8.46,
+                13.64,
+                null
               ],
               [
-                8.622,
-                14.06
+                8.56,
+                14.04,
+                null
               ],
               [
-                8.652,
-                13.01
+                8.63,
+                12.86,
+                null
               ],
               [
-                8.711,
-                12.62
+                8.7,
+                12.33,
+                null
               ],
               [
                 8.83,
-                12.75
+                12.49,
+                null
               ],
               [
-                8.92,
-                12.88
+                8.93,
+                12.57,
+                null
               ],
               [
-                8.95,
-                11.83
+                8.96,
+                11.59,
+                null
               ],
               [
-                8.98,
-                10.64
+                8.97,
+                10.77,
+                null
               ],
               [
-                9.101,
-                11.3
+                9.07,
+                11.46,
+                null
               ],
               [
-                9.101,
-                11.83
+                9.1,
+                11.91,
+                null
               ],
               [
-                9.131,
-                12.49
+                9.13,
+                12.32,
+                null
               ],
               [
-                9.222,
-                12.88
+                9.2,
+                12.76,
+                null
               ],
               [
-                9.252,
-                12.22
+                9.23,
+                12.15,
+                null
               ],
               [
-                9.283,
-                11.57
+                9.28,
+                11.62,
+                null
               ],
               [
-                9.314,
-                10.25
+                9.33,
+                9.95,
+                null
               ],
               [
-                9.314,
-                9.461
+                9.37,
+                9.5,
+                null
               ],
               [
-                9.405,
-                10.51
+                9.43,
+                10.31,
+                null
               ],
               [
-                9.467,
-                9.593
+                9.48,
+                9.54,
+                null
               ],
               [
-                9.529,
-                10.25
+                9.56,
+                10.15,
+                null
               ],
               [
-                9.653,
-                10.38
+                9.66,
+                10.14,
+                null
               ],
               [
-                9.716,
-                9.725
+                9.76,
+                9.73,
+                null
               ],
               [
-                9.778,
-                10.38
+                9.8,
+                10.14,
+                null
               ],
               [
-                9.809,
-                11.44
+                9.86,
+                11.12,
+                null
               ],
               [
-                9.841,
-                10.65
+                9.89,
+                10.67,
+                null
               ],
               [
-                9.936,
-                11.17
+                9.96,
+                11.15,
+                null
               ],
               [
-                9.999,
-                14.73
+                9.97,
+                14.86,
+                null
+              ],
+              [
+                10.02,
+                15.38,
+                null
               ],
               [
                 10.03,
-                15.38
-              ],
-              [
-                10.03,
-                16.83
+                16.77,
+                null
               ],
               [
                 10.09,
-                21.3
+                21.29,
+                null
               ],
               [
-                10.09,
-                19.86
+                10.1,
+                19.98,
+                null
               ],
               [
-                10.22,
-                19.33
+                10.19,
+                19.49,
+                null
               ],
               [
-                10.25,
-                16.57
+                10.24,
+                16.68,
+                null
               ],
               [
-                10.29,
-                17.88
+                10.26,
+                17.98,
+                null
               ],
               [
-                10.35,
-                16.83
+                10.33,
+                15.5,
+                null
               ],
               [
-                10.35,
-                15.38
+                10.33,
+                16.84,
+                null
               ],
               [
-                10.41,
-                15.78
+                10.42,
+                15.01,
+                null
               ],
               [
-                10.41,
-                14.86
+                10.43,
+                15.74,
+                null
               ],
               [
                 10.45,
-                13.94
+                13.99,
+                null
               ],
               [
                 10.48,
-                16.83
+                16.92,
+                0.73
               ],
               [
-                10.48,
-                12.88
+                10.51,
+                12.11,
+                null
               ],
               [
-                10.48,
-                12.23
+                10.51,
+                15.41,
+                null
               ],
               [
-                10.55,
-                15.38
+                10.53,
+                12.77,
+                null
               ],
               [
-                10.55,
-                10.91
-              ],
-              [
-                10.58,
-                11.7
+                10.59,
+                11.62,
+                null
               ],
               [
                 10.61,
-                12.62
+                10.73,
+                null
               ],
               [
-                10.64,
-                13.28
+                10.61,
+                12.52,
+                null
               ],
               [
-                10.64,
-                10.52
+                10.62,
+                13.05,
+                null
               ],
               [
-                10.77,
-                11.17
+                10.73,
+                10.52,
+                null
               ],
               [
-                10.81,
-                10.39
+                10.8,
+                10.93,
+                null
               ],
               [
-                10.84,
-                9.858
+                10.82,
+                9.99,
+                null
               ],
               [
-                10.84,
-                9.069
+                10.86,
+                9.46,
+                null
               ],
               [
-                10.94,
-                9.727
+                10.88,
+                9.05,
+                null
               ],
               [
-                11.07,
-                9.069
+                10.97,
+                9.45,
+                null
               ],
               [
-                11.07,
-                9.859
+                11.09,
+                9.53,
+                null
+              ],
+              [
+                11.1,
+                9.04,
+                null
               ],
               [
                 11.14,
-                11.44
+                11.12,
+                null
               ],
               [
-                11.17,
-                10.12
+                11.19,
+                9.94,
+                null
               ],
               [
-                11.24,
-                10.78
+                11.25,
+                10.67,
+                null
+              ],
+              [
+                11.28,
+                10.95,
+                null
               ],
               [
                 11.31,
-                11.57
-              ],
-              [
-                11.41,
-                10.78
-              ],
-              [
                 11.48,
-                9.991
+                0.65
               ],
               [
-                11.51,
-                11.04
+                11.37,
+                10.87,
+                null
               ],
               [
-                11.65,
-                11.97
+                11.42,
+                11.38,
+                null
               ],
               [
-                11.68,
-                11.18
+                11.46,
+                10.21,
+                null
               ],
               [
-                11.82,
-                11.83
+                11.53,
+                11.18,
+                null
               ],
               [
-                11.85,
-                12.76
+                11.57,
+                11.54,
+                null
+              ],
+              [
+                11.64,
+                11.87,
+                null
+              ],
+              [
+                11.73,
+                11.29,
+                null
+              ],
+              [
+                11.78,
+                11.86,
+                null
+              ],
+              [
+                11.84,
+                12.8,
+                null
               ],
               [
                 11.89,
-                14.73
+                14.99,
+                null
               ],
               [
-                11.92,
-                15.39
+                11.9,
+                15.69,
+                null
               ],
               [
-                11.96,
-                13.94
+                11.93,
+                14.14,
+                null
               ],
               [
-                11.99,
-                16.31
+                12.0,
+                16.3,
+                null
               ],
               [
-                12.06,
-                15.78
+                12.08,
+                15.23,
+                null
               ],
               [
-                12.1,
-                15.12
+                12.08,
+                15.8,
+                null
               ],
               [
-                12.13,
-                14.33
+                12.15,
+                14.83,
+                null
               ],
               [
-                12.2,
-                16.31
+                12.17,
+                16.62,
+                null
               ],
               [
-                12.27,
-                15.39
+                12.28,
+                16.74,
+                null
               ],
               [
-                12.27,
-                16.57
+                12.28,
+                15.52,
+                null
               ],
               [
-                12.31,
-                18.68
+                12.32,
+                18.69,
+                null
               ],
               [
-                12.34,
-                17.62
+                12.36,
+                17.88,
+                null
               ],
               [
                 12.38,
-                16.83
+                20.32,
+                null
               ],
               [
                 12.38,
-                19.33
+                19.18,
+                null
               ],
               [
                 12.38,
-                20.39
+                17.02,
+                null
               ],
               [
-                12.48,
-                21.57
-              ],
-              [
-                12.48,
-                19.73
+                12.5,
+                21.21,
+                null
               ],
               [
                 12.52,
-                18.94
+                19.66,
+                null
               ],
               [
-                12.63,
-                20.13
+                12.61,
+                18.85,
+                null
               ],
               [
-                12.63,
-                19.07
+                12.68,
+                19.99,
+                null
               ],
               [
-                12.77,
-                17.36
+                12.79,
+                17.05,
+                null
               ],
               [
-                12.8,
-                18.68
+                12.79,
+                18.96,
+                null
               ],
               [
-                12.8,
-                19.2
+                12.85,
+                18.43,
+                null
               ],
               [
-                12.88,
-                17.76
+                12.92,
+                17.5,
+                null
               ],
               [
-                12.88,
-                16.97
+                12.93,
+                16.89,
+                null
               ],
               [
                 12.95,
-                18.55
+                18.31,
+                null
               ],
               [
-                13.06,
-                16.44
+                13.13,
+                16.35,
+                null
               ],
               [
-                13.17,
-                17.23
+                13.23,
+                16.92,
+                null
               ],
               [
-                13.27,
-                15.78
+                13.34,
+                15.61,
+                null
               ],
               [
-                13.39,
-                17.49
+                13.42,
+                17.0,
+                null
               ],
               [
-                13.46,
-                16.7
+                13.55,
+                16.51,
+                null
               ],
               [
-                13.57,
-                18.68
+                13.63,
+                18.5,
+                null
               ],
               [
-                13.68,
-                20.52
+                13.71,
+                20.29,
+                null
               ],
               [
-                13.75,
-                23.68
+                13.8,
+                23.59,
+                null
               ],
               [
-                13.79,
-                27.1
+                13.82,
+                27.45,
+                null
               ],
               [
-                13.79,
-                28.02
-              ],
-              [
-                13.83,
-                28.81
+                13.84,
+                27.94,
+                null
               ],
               [
                 13.86,
-                26.18
+                28.84,
+                null
               ],
               [
-                13.9,
-                25.0
+                13.89,
+                26.03,
+                null
               ],
               [
                 13.94,
-                21.71
+                24.88,
+                null
               ],
               [
-                13.98,
-                23.55
+                14.01,
+                21.63,
+                null
               ],
               [
-                13.98,
-                24.47
+                14.01,
+                24.35,
+                null
               ],
               [
-                14.09,
-                22.76
+                14.02,
+                23.25,
+                null
               ],
               [
-                14.2,
-                22.1
+                14.15,
+                22.6,
+                null
               ],
               [
-                14.28,
-                21.18
+                14.25,
+                21.82,
+                null
               ],
               [
-                14.35,
-                22.89
+                14.36,
+                21.13,
+                null
               ],
               [
-                14.43,
-                22.23
+                14.41,
+                22.59,
+                null
               ],
               [
-                14.51,
-                22.89
+                14.48,
+                22.27,
+                null
               ],
               [
-                14.58,
-                26.58
+                14.53,
+                22.63,
+                null
+              ],
+              [
+                14.6,
+                27.68,
+                null
               ],
               [
                 14.62,
-                28.15
+                26.58,
+                null
               ],
               [
-                14.66,
-                27.5
+                14.67,
+                27.23,
+                null
               ],
               [
-                14.78,
-                28.29
+                14.75,
+                27.88,
+                null
               ],
               [
-                14.81,
-                27.23
+                14.83,
+                26.94,
+                null
               ],
               [
-                14.89,
-                26.44
+                14.9,
+                26.41,
+                null
+              ],
+              [
+                14.98,
+                27.1,
+                null
               ],
               [
                 15.01,
-                27.23
+                28.57,
+                null
               ],
               [
-                15.05,
-                28.02
+                15.06,
+                27.71,
+                null
               ],
               [
-                15.05,
-                28.81
+                15.12,
+                28.44,
+                null
               ],
               [
-                15.16,
-                27.36
+                15.15,
+                27.22,
+                null
               ],
               [
-                15.16,
-                28.68
+                15.26,
+                28.32,
+                null
               ],
               [
-                15.28,
-                28.55
+                15.3,
+                29.54,
+                null
               ],
               [
-                15.36,
-                29.87
-              ],
-              [
-                15.48,
-                30.92
+                15.4,
+                30.72,
+                null
               ]
             ]
           },
@@ -1134,12 +1444,12 @@
         {
           "SUBENT": {
             "N1": "A1518003",
-            "N2": 19990324,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A134"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -1166,33 +1476,36 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                " No information about units."
               ]
             }
           ],
-          "ERR-ANALYS": [
+          "SAMPLE": [
             {
               "pointer": "",
               "coded_information": {
-                "heading": "EN-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
+                "nuclide": "3-LI-6",
+                "field_identifier": "ENR",
+                "value": 0.99
               },
               "free_text": [
-                " Digitizing error"
+                " The target was 6Li",
+                "evaporated on Au backing"
               ]
-            },
+            }
+          ],
+          "DETECTOR": [
             {
               "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
+              "coded_information": [
+                "BF3"
+              ],
               "free_text": [
-                " Digitizing error"
+                " Three conventional BF3 counters connected in",
+                "parallel and embedded in a wax filled sheet metal can",
+                "which was positioned 3.8 cm from the target at zero",
+                "degrees with respect to the beam."
               ]
             }
           ],
@@ -1204,11 +1517,41 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.K.Mehta+",
+                "reference": {
+                  "code": "J,NP,48,90,1963",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": null,
+                      "page": "90"
+                    },
+                    "date": 1963
+                  }
+                }
               },
               "free_text": [
-                " Fig 5"
+                " Fig 5",
+                "First three points on fig.3 were deleted from",
+                "the dataset (threshold of this reaction is 6.63 MeV as",
+                "it is given in the text on fig.5)."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: EN-ERR->EN-ERR-DIG, DATA-ERR->ERR-DIG.",
+                "BIB updated."
               ]
             }
           ],
@@ -1225,9 +1568,9 @@
               ""
             ],
             "heading": [
-              "EN-ERR",
+              "EN-ERR-DIG",
               "ANG-CM",
-              "DATA-ERR"
+              "ERR-DIG"
             ],
             "unit": [
               "MEV",
@@ -1235,7 +1578,7 @@
               "ARB-UNITS"
             ],
             "value": [
-              0.003,
+              0.03,
               0.0,
               0.01
             ]
@@ -1246,7 +1589,7 @@
           },
           "DATA": {
             "N1": 2,
-            "N2": 134,
+            "N2": 131,
             "pointer": [
               "",
               ""
@@ -1261,232 +1604,220 @@
             ],
             "value": [
               [
-                6.34,
-                0.0367
+                6.68,
+                0.37
               ],
               [
-                6.444,
-                0.0511
+                6.76,
+                0.2
               ],
               [
-                6.571,
-                0.0364
+                6.81,
+                0.22
               ],
               [
-                6.679,
-                0.3699
+                6.87,
+                0.28
               ],
               [
-                6.764,
-                0.1958
+                6.89,
+                0.28
               ],
               [
-                6.807,
-                0.2248
+                6.94,
+                0.3
               ],
               [
-                6.872,
-                0.2827
+                6.98,
+                0.44
               ],
               [
-                6.894,
-                0.2827
+                7.0,
+                0.36
               ],
               [
-                6.937,
-                0.2972
+                7.05,
+                0.53
               ],
               [
-                6.982,
-                0.4422
+                7.07,
+                0.41
               ],
               [
-                7.003,
-                0.3551
+                7.14,
+                0.49
               ],
               [
-                7.047,
-                0.5291
+                7.14,
+                0.57
               ],
               [
-                7.069,
-                0.4131
+                7.22,
+                0.62
               ],
               [
-                7.136,
-                0.4855
+                7.34,
+                0.66
               ],
               [
-                7.136,
-                0.5726
+                7.4,
+                0.72
               ],
               [
-                7.225,
-                0.616
+                7.5,
+                0.8
               ],
               [
-                7.337,
-                0.6594
+                7.56,
+                0.91
               ],
               [
-                7.404,
-                0.7174
+                7.63,
+                0.95
               ],
               [
-                7.495,
-                0.8043
-              ],
-              [
-                7.563,
-                0.9058
-              ],
-              [
-                7.631,
-                0.9492
-              ],
-              [
-                7.723,
-                0.9782
+                7.72,
+                0.98
               ],
               [
                 7.77,
-                1.123
+                1.12
               ],
               [
-                7.862,
-                1.152
+                7.86,
+                1.15
               ],
               [
-                7.956,
-                1.152
+                7.96,
+                1.15
               ],
               [
-                7.979,
-                1.079
+                7.98,
+                1.08
               ],
               [
-                8.073,
-                1.195
+                8.07,
+                1.2
               ],
               [
-                8.144,
-                1.123
+                8.14,
+                1.12
               ],
               [
-                8.191,
-                1.268
+                8.19,
+                1.27
               ],
               [
-                8.286,
-                1.384
+                8.29,
+                1.38
               ],
               [
-                8.358,
-                1.543
+                8.36,
+                1.54
               ],
               [
-                8.406,
-                1.471
+                8.41,
+                1.47
               ],
               [
-                8.431,
-                1.558
+                8.43,
+                1.56
               ],
               [
-                8.552,
-                1.587
+                8.55,
+                1.59
               ],
               [
                 8.6,
-                1.703
+                1.7
               ],
               [
-                8.673,
-                1.674
+                8.67,
+                1.67
               ],
               [
-                8.747,
-                1.862
+                8.75,
+                1.86
               ],
               [
-                8.796,
-                1.833
+                8.8,
+                1.83
               ],
               [
-                8.845,
-                1.775
+                8.85,
+                1.77
               ],
               [
-                8.944,
-                1.804
+                8.94,
+                1.8
               ],
               [
-                9.019,
-                1.891
+                9.02,
+                1.89
               ],
               [
-                9.119,
-                1.978
+                9.12,
+                1.98
               ],
               [
-                9.194,
+                9.19,
                 2.05
               ],
               [
-                9.219,
-                1.963
+                9.22,
+                1.96
               ],
               [
                 9.27,
-                2.224
+                2.22
               ],
               [
                 9.32,
-                2.181
+                2.18
               ],
               [
-                9.421,
-                2.108
+                9.42,
+                2.11
               ],
               [
-                9.549,
-                2.108
+                9.55,
+                2.11
               ],
               [
                 9.6,
                 2.05
               ],
               [
-                9.677,
-                2.137
+                9.68,
+                2.14
               ],
               [
-                9.703,
-                2.093
+                9.7,
+                2.09
               ],
               [
-                9.833,
-                2.137
+                9.83,
+                2.14
               ],
               [
-                9.885,
-                2.253
+                9.88,
+                2.25
               ],
               [
-                9.989,
-                2.151
+                9.99,
+                2.15
               ],
               [
                 10.04,
-                2.253
+                2.25
               ],
               [
                 10.07,
-                2.369
+                2.37
               ],
               [
                 10.15,
-                2.166
+                2.17
               ],
               [
                 10.23,
@@ -1494,43 +1825,43 @@
               ],
               [
                 10.36,
-                2.281
+                2.28
               ],
               [
                 10.41,
-                2.397
+                2.4
               ],
               [
                 10.49,
-                2.397
+                2.4
               ],
               [
                 10.52,
-                2.325
+                2.33
               ],
               [
                 10.57,
-                2.455
+                2.46
               ],
               [
                 10.68,
-                2.412
+                2.41
               ],
               [
                 10.68,
-                2.397
+                2.4
               ],
               [
                 10.74,
-                2.586
+                2.59
               ],
               [
                 10.87,
-                2.615
+                2.62
               ],
               [
                 10.95,
-                2.644
+                2.64
               ],
               [
                 11.04,
@@ -1538,19 +1869,19 @@
               ],
               [
                 11.06,
-                2.644
+                2.64
               ],
               [
                 11.15,
-                2.672
+                2.67
               ],
               [
                 11.15,
-                2.832
+                2.83
               ],
               [
                 11.15,
-                2.818
+                2.82
               ],
               [
                 11.15,
@@ -1558,15 +1889,15 @@
               ],
               [
                 11.18,
-                2.745
+                2.75
               ],
               [
                 11.26,
-                2.716
+                2.72
               ],
               [
                 11.26,
-                2.788
+                2.79
               ],
               [
                 11.26,
@@ -1574,51 +1905,51 @@
               ],
               [
                 11.31,
-                2.919
+                2.92
               ],
               [
                 11.34,
-                2.846
+                2.85
               ],
               [
                 11.48,
-                2.875
+                2.88
               ],
               [
                 11.48,
-                2.933
+                2.93
               ],
               [
                 11.51,
-                2.948
+                2.95
               ],
               [
                 11.65,
-                2.745
+                2.75
               ],
               [
                 11.74,
-                2.817
+                2.82
               ],
               [
                 11.79,
-                2.875
+                2.88
               ],
               [
                 11.94,
-                2.991
+                2.99
               ],
               [
                 11.94,
-                2.904
+                2.9
               ],
               [
                 12.02,
-                2.889
+                2.89
               ],
               [
                 12.08,
-                2.802
+                2.8
               ],
               [
                 12.19,
@@ -1626,15 +1957,15 @@
               ],
               [
                 12.34,
-                2.875
+                2.88
               ],
               [
                 12.37,
-                2.947
+                2.95
               ],
               [
                 12.48,
-                3.049
+                3.05
               ],
               [
                 12.57,
@@ -1646,47 +1977,47 @@
               ],
               [
                 12.75,
-                3.078
+                3.08
               ],
               [
                 12.93,
-                3.048
+                3.05
               ],
               [
                 12.93,
-                3.135
+                3.13
               ],
               [
                 12.93,
-                3.222
+                3.22
               ],
               [
                 13.05,
-                3.135
+                3.13
               ],
               [
                 13.11,
-                3.193
+                3.19
               ],
               [
                 13.2,
-                3.266
+                3.27
               ],
               [
                 13.29,
-                3.338
+                3.34
               ],
               [
                 13.41,
-                3.251
+                3.25
               ],
               [
                 13.44,
-                3.367
+                3.37
               ],
               [
                 13.53,
-                3.512
+                3.51
               ],
               [
                 13.62,
@@ -1694,11 +2025,11 @@
               ],
               [
                 13.72,
-                3.512
+                3.51
               ],
               [
                 13.87,
-                3.512
+                3.51
               ],
               [
                 13.9,
@@ -1706,95 +2037,495 @@
               ],
               [
                 13.99,
-                3.555
+                3.56
               ],
               [
                 13.99,
-                3.845
+                3.85
               ],
               [
                 14.15,
-                3.729
+                3.73
               ],
               [
                 14.21,
-                3.947
+                3.95
               ],
               [
                 14.31,
-                3.787
+                3.79
               ],
               [
                 14.46,
-                3.903
+                3.9
               ],
               [
                 14.46,
-                4.019
+                4.02
               ],
               [
                 14.59,
-                3.961
+                3.96
               ],
               [
                 14.72,
-                3.917
+                3.92
               ],
               [
                 14.72,
-                4.077
+                4.08
               ],
               [
                 14.88,
-                4.178
+                4.18
               ],
               [
                 14.94,
-                4.265
+                4.26
               ],
               [
                 14.97,
-                4.091
+                4.09
               ],
               [
                 15.1,
-                4.352
+                4.35
               ],
               [
                 15.13,
-                4.425
+                4.42
               ],
               [
                 15.16,
-                4.425
+                4.42
               ],
               [
                 15.26,
-                4.541
+                4.54
               ],
               [
                 15.39,
-                4.584
+                4.58
               ],
               [
                 15.46,
-                4.454
+                4.45
               ],
               [
                 15.49,
-                4.512
+                4.51
               ],
               [
                 15.49,
-                4.831
+                4.83
               ],
               [
                 15.52,
-                4.715
+                4.71
               ],
               [
                 15.59,
-                4.613
+                4.61
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "A1518004",
+            "N2": 20260401,
+            "alteration_flag": " ",
+            "transmission_identification": "A134"
+          },
+          "BIB": {
+            "N1": 6,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "3-LI-6(A,N)5-B-9,,DA,,REL",
+                "code_unit": [
+                  {
+                    "unit": "3-LI-6(A,N)5-B-9,,DA,,REL",
+                    "field": {
+                      "reaction": "3-LI-6(A,N)5-B-9",
+                      "target": "3-LI-6",
+                      "projectile": "A",
+                      "process": "N",
+                      "product": "5-B-9",
+                      "quantity": ",DA",
+                      "data_type": null,
+                      "general_quantity_modifier": "REL",
+                      "quantity_236": ",DA"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " No information about units."
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "nuclide": "3-LI-6",
+                "field_identifier": "ENR",
+                "value": 0.99
+              },
+              "free_text": [
+                " The target was 6Li",
+                "evaporated on Au backing"
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "BF3"
+              ],
+              "free_text": [
+                " The detection system consisted of the single BF3",
+                "counter surrounded by a conically shapped wax moderator",
+                "extending 30.5 cm along the length of the counter"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "M.K.Mehta+",
+                "reference": {
+                  "code": "J,NP,48,90,1963",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": null,
+                      "page": "90"
+                    },
+                    "date": 1963
+                  }
+                }
+              },
+              "free_text": [
+                " Fig 6"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information about source of uncertainty"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "C"
+              },
+              "free_text": [
+                " SD"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 2,
+            "N2": 0,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "ANG-ERR-D",
+              "ERR-DIG"
+            ],
+            "unit": [
+              "ADEG",
+              "ARB-UNITS"
+            ],
+            "value": [
+              0.2,
+              0.02
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 36,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "ANG-CM",
+              "DATA-CM",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "ADEG",
+              "ARB-UNITS",
+              "ARB-UNITS"
+            ],
+            "value": [
+              [
+                10.0,
+                0.0,
+                6.54,
+                null
+              ],
+              [
+                10.0,
+                21.6,
+                6.11,
+                0.47
+              ],
+              [
+                10.0,
+                43.7,
+                5.47,
+                null
+              ],
+              [
+                10.0,
+                64.2,
+                4.05,
+                null
+              ],
+              [
+                10.0,
+                83.8,
+                2.66,
+                null
+              ],
+              [
+                10.0,
+                101.5,
+                1.79,
+                null
+              ],
+              [
+                10.0,
+                116.9,
+                0.96,
+                0.51
+              ],
+              [
+                10.0,
+                129.9,
+                1.28,
+                null
+              ],
+              [
+                10.0,
+                143.7,
+                1.28,
+                null
+              ],
+              [
+                10.0,
+                153.9,
+                1.36,
+                null
+              ],
+              [
+                10.0,
+                163.0,
+                1.28,
+                null
+              ],
+              [
+                10.0,
+                168.9,
+                1.2,
+                null
+              ],
+              [
+                12.0,
+                0.0,
+                14.99,
+                null
+              ],
+              [
+                12.0,
+                20.9,
+                14.48,
+                0.55
+              ],
+              [
+                12.0,
+                41.4,
+                12.03,
+                null
+              ],
+              [
+                12.0,
+                61.8,
+                9.03,
+                null
+              ],
+              [
+                12.0,
+                80.3,
+                6.42,
+                null
+              ],
+              [
+                12.0,
+                98.4,
+                4.68,
+                null
+              ],
+              [
+                12.0,
+                113.8,
+                4.12,
+                null
+              ],
+              [
+                12.0,
+                128.3,
+                4.0,
+                null
+              ],
+              [
+                12.0,
+                140.6,
+                3.96,
+                null
+              ],
+              [
+                12.0,
+                152.0,
+                4.67,
+                0.51
+              ],
+              [
+                12.0,
+                161.8,
+                4.36,
+                null
+              ],
+              [
+                12.0,
+                167.7,
+                4.63,
+                null
+              ],
+              [
+                14.0,
+                0.0,
+                26.61,
+                null
+              ],
+              [
+                14.0,
+                20.2,
+                25.1,
+                0.75
+              ],
+              [
+                14.0,
+                41.4,
+                17.48,
+                null
+              ],
+              [
+                14.0,
+                60.3,
+                11.79,
+                null
+              ],
+              [
+                14.0,
+                79.2,
+                9.1,
+                null
+              ],
+              [
+                14.0,
+                96.5,
+                7.56,
+                null
+              ],
+              [
+                14.0,
+                112.2,
+                6.18,
+                1.3
+              ],
+              [
+                14.0,
+                126.0,
+                6.41,
+                null
+              ],
+              [
+                14.0,
+                138.6,
+                6.41,
+                null
+              ],
+              [
+                14.0,
+                150.4,
+                5.98,
+                null
+              ],
+              [
+                14.0,
+                160.3,
+                6.88,
+                null
+              ],
+              [
+                14.0,
+                167.4,
+                8.46,
+                null
               ]
             ]
           },
@@ -1809,7 +2540,7 @@
         }
       ],
       "ENDENTRY": {
-        "N1": 3,
+        "N1": 4,
         "N2": 0
       }
     }
