@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:31:21+0000",
+  "time_stamp": "2026-05-22T20:22:58+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M1031",
-        "N2": 20220817,
+        "N2": 20260123,
         "alteration_flag": " ",
-        "transmission_identification": "M120"
+        "transmission_identification": "M144"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M1031001",
-            "N2": 20220817,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M120"
+            "transmission_identification": "M144"
           },
           "BIB": {
-            "N1": 14,
+            "N1": 15,
             "N2": 0
           },
           "TITLE": [
@@ -26,7 +26,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Studying the population of 178m,177Ta in (g,xn)",
+                "Studying the population of 178m,177Ta in (gamma,xn)",
                 " reactions."
               ]
             }
@@ -169,7 +169,7 @@
                 "ACTIV"
               ],
               "free_text": [
-                " Induced beta-delayed g-activity measured."
+                " Induced beta-delayed gamma-activity measured."
               ]
             }
           ],
@@ -180,8 +180,8 @@
                 "HPGE"
               ],
               "free_text": [
-                " Gamma spectrometers based on the Canderra and",
-                " Ortec HPGe-detectors (100-200 cm**3) with energy",
+                " Gamma spectrometers based on the Canberra and",
+                " Ortec HPGe-detectors (100-200 cm3) with energy",
                 " resolution of 1.2 keV at the 343 keV line of 175Hf",
                 " and 1.8-2.0 keV at 1173 and 1332 keV lines of 60Co."
               ]
@@ -193,10 +193,10 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "(73-TA-181(G,N)73-TA-180,,SIG,,,EVAL)+(73-TA-181(G,N+P)72-HF-179,,SIG,,,EVAL)",
+                  "code": "(73-TA-181(G,N)73-TA-180,,SIG)+(73-TA-181(G,N+P)72-HF-179,,SIG)",
                   "code_unit": [
                     {
-                      "unit": "73-TA-181(G,N)73-TA-180,,SIG,,,EVAL",
+                      "unit": "73-TA-181(G,N)73-TA-180,,SIG",
                       "field": {
                         "reaction": "73-TA-181(G,N)73-TA-180",
                         "target": "73-TA-181",
@@ -204,13 +204,13 @@
                         "process": "N",
                         "product": "73-TA-180",
                         "quantity": ",SIG",
-                        "data_type": "EVAL",
+                        "data_type": null,
                         "general_quantity_modifier": null,
                         "quantity_236": ",SIG"
                       }
                     },
                     {
-                      "unit": "73-TA-181(G,N+P)72-HF-179,,SIG,,,EVAL",
+                      "unit": "73-TA-181(G,N+P)72-HF-179,,SIG",
                       "field": {
                         "reaction": "73-TA-181(G,N+P)72-HF-179",
                         "target": "73-TA-181",
@@ -218,7 +218,7 @@
                         "process": "N+P",
                         "product": "72-HF-179",
                         "quantity": ",SIG",
-                        "data_type": "EVAL",
+                        "data_type": null,
                         "general_quantity_modifier": null,
                         "quantity_236": ",SIG"
                       }
@@ -293,8 +293,8 @@
               "coded_information": null,
               "free_text": [
                 "For the first time the flux-weighted average yields",
-                " of 180Hf-m in (g,p) reaction were measured by",
-                " activation and off-line g-ray spectrometric",
+                " of 180Hf-m in (gamma,p) reaction were measured by",
+                " activation and off-line gamma-ray spectrometric",
                 " technique at the bremsstrahlung end-point energies",
                 " of 20, 40 and 55 MeV.",
                 "Using weighted-average fluxes of bremsstrahlung",
@@ -302,6 +302,37 @@
                 " sections could be obtained and therefore only",
                 " integrated cross sections are in fact measured in",
                 " experiments."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "V.A.Zheltonozhsky+",
+                "reference": {
+                  "code": "J,PPN/L,18,315,2021",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PPN/L",
+                      "number": null,
+                      "volume": "18",
+                      "part": null,
+                      "issue": null,
+                      "page": "315"
+                    },
+                    "date": 2021
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data from Table 1."
               ]
             }
           ],
@@ -327,6 +358,16 @@
                 " Corrected by VV and SD: REACTION,",
                 " DECAY-DATA, STATUS."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260123,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -345,12 +386,12 @@
         {
           "SUBENT": {
             "N1": "M1031002",
-            "N2": 20220817,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M120"
+            "transmission_identification": "M144"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -488,23 +529,6 @@
               ]
             }
           ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Data from Table 1 of",
-                " Fiz.Elem.Chast.Atom.Yadr.,Lett.,18(2021)249."
-              ]
-            }
-          ],
           "HISTORY": [
             {
               "pointer": "",
@@ -515,6 +539,16 @@
               "free_text": [
                 " Corrected by VV and SD: DECAY-DATA",
                 " corrected."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260123,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],
@@ -579,12 +613,12 @@
         {
           "SUBENT": {
             "N1": "M1031003",
-            "N2": 20220817,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M120"
+            "transmission_identification": "M144"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -691,29 +725,22 @@
               ]
             }
           ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Data from Table 1 of",
-                " Fiz.Elem.Chast.Atom.Yadr.,Lett.,18(2021)249."
-              ]
-            }
-          ],
           "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
                 "date": 20220817,
                 "history": "A"
+              },
+              "free_text": [
+                " Corrected by VV and SD: STATUS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260123,
+                "history": "U"
               },
               "free_text": [
                 " Corrected by VV and SD: STATUS."
@@ -781,12 +808,12 @@
         {
           "SUBENT": {
             "N1": "M1031004",
-            "N2": 20220817,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M120"
+            "transmission_identification": "M144"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -862,28 +889,11 @@
                 "facility": [
                   "LINAC"
                 ],
-                "institute": "4RUSRUS"
+                "institute": "4RUSBIO"
               },
               "free_text": [
                 " Trilogy linear medical accelerator of",
                 " the Moscow Federal Medical Biological Center."
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Data from Table 1 of",
-                " Fiz.Elem.Chast.Atom.Yadr.,Lett.,18(2021)249."
               ]
             }
           ],
@@ -897,49 +907,47 @@
               "free_text": [
                 " Corrected by VV and SD: STATUS."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260123,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: STATUS."
+              ]
             }
           ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 1,
-            "N2": 0,
-            "pointer": [
-              ""
-            ],
-            "heading": [
-              "EN-MAX"
-            ],
-            "unit": [
-              "MEV"
-            ],
-            "value": [
-              20.0
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
           "DATA": {
-            "N1": 2,
+            "N1": 3,
             "N2": 1,
             "pointer": [
+              "",
               "",
               ""
             ],
             "heading": [
+              "EN-MAX",
               "DATA",
               "ERR-S"
             ],
             "unit": [
+              "MEV",
               "MB",
               "MB"
             ],
             "value": [
               [
+                20.0,
                 48.5,
                 5.0
               ]

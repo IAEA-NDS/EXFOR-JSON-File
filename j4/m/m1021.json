@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:31:17+0000",
+  "time_stamp": "2026-05-22T20:22:57+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M1021",
-        "N2": 20201214,
+        "N2": 20260123,
         "alteration_flag": " ",
-        "transmission_identification": "M110"
+        "transmission_identification": "M144"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M1021001",
-            "N2": 20201214,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M110"
+            "transmission_identification": "M144"
           },
           "BIB": {
-            "N1": 16,
+            "N1": 17,
             "N2": 0
           },
           "TITLE": [
@@ -27,7 +27,7 @@
               "coded_information": null,
               "free_text": [
                 "Photonuclear production of medically relevant",
-                " radionuclide 47Sc."
+                " radionuclide 47Sc"
               ]
             }
           ],
@@ -129,8 +129,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Titanium of natural isotpic composition (99.99% purity)",
-                " 1 x 1 cm foil with a thickness of 54 um."
+                "Titanium of natural isotopic composition (99.99%",
+                " purity) 1 x 1 cm foil with a thickness of 54 um."
               ]
             }
           ],
@@ -172,10 +172,10 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "(29-CU-65(G,N)29-CU-64,,SIG,,,EVAL)+(29-CU-65(G,N+P)28-NI-63,,SIG,,,EVAL)",
+                  "code": "(29-CU-65(G,N)29-CU-64,,SIG)+(29-CU-65(G,N+P)28-NI-63,,SIG)",
                   "code_unit": [
                     {
-                      "unit": "29-CU-65(G,N)29-CU-64,,SIG,,,EVAL",
+                      "unit": "29-CU-65(G,N)29-CU-64,,SIG",
                       "field": {
                         "reaction": "29-CU-65(G,N)29-CU-64",
                         "target": "29-CU-65",
@@ -183,13 +183,13 @@
                         "process": "N",
                         "product": "29-CU-64",
                         "quantity": ",SIG",
-                        "data_type": "EVAL",
+                        "data_type": null,
                         "general_quantity_modifier": null,
                         "quantity_236": ",SIG"
                       }
                     },
                     {
-                      "unit": "29-CU-65(G,N+P)28-NI-63,,SIG,,,EVAL",
+                      "unit": "29-CU-65(G,N+P)28-NI-63,,SIG",
                       "field": {
                         "reaction": "29-CU-65(G,N+P)28-NI-63",
                         "target": "29-CU-65",
@@ -197,7 +197,7 @@
                         "process": "N+P",
                         "product": "28-NI-63",
                         "quantity": ",SIG",
-                        "data_type": "EVAL",
+                        "data_type": null,
                         "general_quantity_modifier": null,
                         "quantity_236": ",SIG"
                       }
@@ -219,7 +219,7 @@
                 "subentry_number": "M0920006",
                 "author": "V.V.Varlamov+",
                 "reference": {
-                  "code": "J,BAS,80,(3),317,2016",
+                  "code": "J,BAS,80,317,2016",
                   "field": {
                     "reference_type": "J",
                     "reference": {
@@ -227,7 +227,7 @@
                       "number": null,
                       "volume": "80",
                       "part": null,
-                      "issue": "3",
+                      "issue": null,
                       "page": "317",
                       "version": null,
                       "material_number": null
@@ -280,6 +280,37 @@
               ]
             }
           ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "R.A.Aliev+",
+                "reference": {
+                  "code": "J,JRN,326,1099,2020",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JRN",
+                      "number": null,
+                      "volume": "326",
+                      "part": null,
+                      "issue": null,
+                      "page": "1099"
+                    },
+                    "date": 2020
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data from table 3."
+              ]
+            }
+          ],
           "HISTORY": [
             {
               "pointer": "",
@@ -290,6 +321,16 @@
               "free_text": [
                 " Data were compiled at the Russia MSU SINP",
                 " CDFE by V.Varlamov."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260123,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],
@@ -325,9 +366,9 @@
         {
           "SUBENT": {
             "N1": "M1021002",
-            "N2": 20201214,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M110"
+            "transmission_identification": "M144"
           },
           "BIB": {
             "N1": 3,
@@ -418,19 +459,15 @@
               ]
             }
           ],
-          "STATUS": [
+          "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
+                "date": 20260123,
+                "history": "U"
               },
               "free_text": [
-                " Data from table 3."
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],
@@ -484,9 +521,9 @@
         {
           "SUBENT": {
             "N1": "M1021003",
-            "N2": 20201214,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M110"
+            "transmission_identification": "M144"
           },
           "BIB": {
             "N1": 3,
@@ -577,19 +614,15 @@
               ]
             }
           ],
-          "STATUS": [
+          "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
+                "date": 20260123,
+                "history": "U"
               },
               "free_text": [
-                " Data from table 3."
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],
@@ -643,9 +676,9 @@
         {
           "SUBENT": {
             "N1": "M1021004",
-            "N2": 20201214,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M110"
+            "transmission_identification": "M144"
           },
           "BIB": {
             "N1": 3,
@@ -736,19 +769,15 @@
               ]
             }
           ],
-          "STATUS": [
+          "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
+                "date": 20260123,
+                "history": "U"
               },
               "free_text": [
-                " Data from table 3."
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],
@@ -802,9 +831,9 @@
         {
           "SUBENT": {
             "N1": "M1021005",
-            "N2": 20201214,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M110"
+            "transmission_identification": "M144"
           },
           "BIB": {
             "N1": 3,
@@ -866,19 +895,15 @@
               ]
             }
           ],
-          "STATUS": [
+          "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
+                "date": 20260123,
+                "history": "U"
               },
               "free_text": [
-                " Data from table 3."
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],
@@ -924,9 +949,9 @@
         {
           "SUBENT": {
             "N1": "M1021006",
-            "N2": 20201214,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M110"
+            "transmission_identification": "M144"
           },
           "BIB": {
             "N1": 3,
@@ -1017,19 +1042,15 @@
               ]
             }
           ],
-          "STATUS": [
+          "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
+                "date": 20260123,
+                "history": "U"
               },
               "free_text": [
-                " Data from table 3."
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],
@@ -1083,9 +1104,9 @@
         {
           "SUBENT": {
             "N1": "M1021007",
-            "N2": 20201214,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M110"
+            "transmission_identification": "M144"
           },
           "BIB": {
             "N1": 3,
@@ -1176,19 +1197,15 @@
               ]
             }
           ],
-          "STATUS": [
+          "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
+                "date": 20260123,
+                "history": "U"
               },
               "free_text": [
-                " Data from table 3."
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],
@@ -1242,9 +1259,9 @@
         {
           "SUBENT": {
             "N1": "M1021008",
-            "N2": 20201214,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M110"
+            "transmission_identification": "M144"
           },
           "BIB": {
             "N1": 3,
@@ -1335,19 +1352,15 @@
               ]
             }
           ],
-          "STATUS": [
+          "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
+                "date": 20260123,
+                "history": "U"
               },
               "free_text": [
-                " Data from table 3."
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],

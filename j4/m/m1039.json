@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:31:41+0000",
+  "time_stamp": "2026-05-22T20:22:59+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M1039",
-        "N2": 20221125,
+        "N2": 20260123,
         "alteration_flag": " ",
-        "transmission_identification": "M122"
+        "transmission_identification": "M144"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M1039001",
-            "N2": 20221125,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M122"
+            "transmission_identification": "M144"
           },
           "BIB": {
             "N1": 15,
@@ -110,20 +110,11 @@
             {
               "pointer": "",
               "coded_information": [
-                "4RUSMOS"
+                "4RUSMOS",
+                "4RUSBIO"
               ],
               "free_text": [
                 ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "4RUSRUS"
-              ],
-              "free_text": [
-                " The Burnasyan Federal Medical Biological",
-                " Center, Russia."
               ]
             }
           ],
@@ -134,12 +125,10 @@
                 "facility": [
                   "LINAC"
                 ],
-                "institute": "4RUSRUS"
+                "institute": "4RUSBIO"
               },
               "free_text": [
-                " Varian Trilogy medical linear electron",
-                " accelerator of the Moscow Federal Medical Biological",
-                " Center."
+                ""
               ]
             }
           ],
@@ -164,7 +153,7 @@
                 "ACTIV"
               ],
               "free_text": [
-                " Induced beta-delayed g-activity measured."
+                " Induced beta-delayed gamma-activity measured."
               ]
             }
           ],
@@ -198,10 +187,10 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "(73-TA-181(G,N)73-TA-180,,SIG,,,EVAL)+(73-TA-181(G,N+P)72-HF-179,,SIG,,,EVAL)",
+                  "code": "(73-TA-181(G,N)73-TA-180,,SIG)+(73-TA-181(G,N+P)72-HF-179,,SIG)",
                   "code_unit": [
                     {
-                      "unit": "73-TA-181(G,N)73-TA-180,,SIG,,,EVAL",
+                      "unit": "73-TA-181(G,N)73-TA-180,,SIG",
                       "field": {
                         "reaction": "73-TA-181(G,N)73-TA-180",
                         "target": "73-TA-181",
@@ -209,13 +198,13 @@
                         "process": "N",
                         "product": "73-TA-180",
                         "quantity": ",SIG",
-                        "data_type": "EVAL",
+                        "data_type": null,
                         "general_quantity_modifier": null,
                         "quantity_236": ",SIG"
                       }
                     },
                     {
-                      "unit": "73-TA-181(G,N+P)72-HF-179,,SIG,,,EVAL",
+                      "unit": "73-TA-181(G,N+P)72-HF-179,,SIG",
                       "field": {
                         "reaction": "73-TA-181(G,N+P)72-HF-179",
                         "target": "73-TA-181",
@@ -223,7 +212,7 @@
                         "process": "N+P",
                         "product": "72-HF-179",
                         "quantity": ",SIG",
-                        "data_type": "EVAL",
+                        "data_type": null,
                         "general_quantity_modifier": null,
                         "quantity_236": ",SIG"
                       }
@@ -273,7 +262,7 @@
               "coded_information": null,
               "free_text": [
                 "Gamma-quanta energy spectrum lines data.",
-                "For adaptation of the experimental spectra the",
+                " For adaptation of the experimental spectra the",
                 " Winspectrum program was used."
               ]
             }
@@ -297,15 +286,14 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The weighted average yields of (g,p) reactions at",
+                "The weighted average yields of (gamma,p) reactions at",
                 " 20 MeV bremsstrahlung on 179,180Hf and the isomeric",
-                " ratio of the yields of 178m,gLu have been measured",
-                " at the first time.",
-                "Using weighted-average fluxes of bremsstrahlung",
-                " gamma-rays the weighted-average reaction cross",
-                " sections could be obtained and therefore only",
-                " integrated cross sections are in fact measured in",
-                " experiments."
+                " ratio of the yields of 178m,gLu have been measured at",
+                " the first time. Using weighted-average fluxes of",
+                " bremsstrahlung gamma-rays the weighted-average",
+                " reaction cross sections could be obtained and",
+                " therefore only integrated cross sections are in fact",
+                " measured in experiments."
               ]
             }
           ],
@@ -319,6 +307,16 @@
               "free_text": [
                 " Data were compiled at the Russia MSU SINP",
                 " CDFE by V.Varlamov."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260123,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by  VV and SD: STATUS."
               ]
             }
           ],
@@ -354,12 +352,12 @@
         {
           "SUBENT": {
             "N1": "M1039002",
-            "N2": 20211011,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M122"
+            "transmission_identification": "M144"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -446,12 +444,38 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.A.Zheltonozhsky+",
+                "reference": {
+                  "code": "J,BAS,86,1083,2022",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "86",
+                      "part": null,
+                      "issue": null,
+                      "page": "1083"
+                    },
+                    "date": 2022
+                  }
+                }
               },
               "free_text": [
-                " Data from Table 1",
-                " of Izv.Russ.Acad.Sci.,86,1305,2022."
+                "",
+                " Data from Table 1."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260123,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],
@@ -497,12 +521,12 @@
         {
           "SUBENT": {
             "N1": "M1039003",
-            "N2": 20211011,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M122"
+            "transmission_identification": "M144"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -571,12 +595,38 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.A.Zheltonozhsky+",
+                "reference": {
+                  "code": "J,BAS,86,1083,2022",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "86",
+                      "part": null,
+                      "issue": null,
+                      "page": "1083"
+                    },
+                    "date": 2022
+                  }
+                }
               },
               "free_text": [
-                " Data from Table 1",
-                " of Izv.Russ.Acad.Sci.,86,1305,2022."
+                "",
+                " Data from Table 1."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260123,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],
@@ -622,12 +672,12 @@
         {
           "SUBENT": {
             "N1": "M1039004",
-            "N2": 20211011,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M122"
+            "transmission_identification": "M144"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -716,13 +766,38 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.A.Zheltonozhsky+",
+                "reference": {
+                  "code": "J,BAS,86,1083,2022",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "86",
+                      "part": null,
+                      "issue": null,
+                      "page": "1083"
+                    },
+                    "date": 2022
+                  }
+                }
               },
               "free_text": [
-                " Data from the text",
-                " of Izv.Russ.Acad.Sci.,86,1305,2022",
-                " on page 1308."
+                "",
+                " Data from the text on page 1308."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260123,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],

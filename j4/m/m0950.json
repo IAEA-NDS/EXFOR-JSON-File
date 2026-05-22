@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:30:25+0000",
+  "time_stamp": "2026-05-22T20:22:56+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0950",
-        "N2": 20171120,
+        "N2": 20260123,
         "alteration_flag": " ",
-        "transmission_identification": "M092"
+        "transmission_identification": "M144"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0950001",
-            "N2": 20171120,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M092"
+            "transmission_identification": "M144"
           },
           "BIB": {
             "N1": 11,
@@ -26,9 +26,9 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Total photofission  cross  section  for  238U  as   a",
-                " substitute for the photon absorption  cross  section",
-                " in the energy range of the first baryon resonances."
+                "Total photofission cross section for 238U as a",
+                " substitute for the photon absorption cross section in",
+                " the energy range of the first baryon resonances"
               ]
             }
           ],
@@ -85,7 +85,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "2GERIFS",
+                "2GERTHS",
                 "2GERMNZ"
               ],
               "free_text": [
@@ -103,7 +103,7 @@
                 "institute": "2GERMNZ"
               },
               "free_text": [
-                " 855 MeV  Mainz microtron MAMI."
+                " 855 MeV Mainz microtron MAMI."
               ]
             }
           ],
@@ -127,7 +127,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Thin target (265 microgram/cm**2)."
+                "Thin target (265 ug/cm2)."
               ]
             }
           ],
@@ -139,7 +139,7 @@
                 "PPAC"
               ],
               "free_text": [
-                " 4pi-arrangement  of  position   sensitive",
+                " 4pi-arrangement of position sensitive",
                 " parallel plate avalanche counters (PPAC)."
               ]
             }
@@ -149,7 +149,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Direct photofission    reaction     cross     section",
+                "Direct photofission reaction cross section",
                 " measurement."
               ]
             }
@@ -159,7 +159,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "No  information:  the  statistical errors are smaller",
+                "No information: the statistical errors are smaller",
                 " than the size of the symbols in Fig. 3."
               ]
             }
@@ -174,6 +174,16 @@
               "free_text": [
                 " Data were compiled at the Russia MSU SINP",
                 " CDFE by V.V.Varlamov."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260123,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by VV and SD: REACTION, STATUS."
               ]
             }
           ],
@@ -193,32 +203,32 @@
         {
           "SUBENT": {
             "N1": "M0950002",
-            "N2": 20171120,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M092"
+            "transmission_identification": "M144"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "92-U-238(G,F),,SIG,,FCT",
+                "code": "92-U-238(G,F),,SIG,,DMN",
                 "code_unit": [
                   {
-                    "unit": "92-U-238(G,F),,SIG,,FCT",
+                    "unit": "92-U-238(G,F),,SIG,,DMN",
                     "field": {
                       "reaction": "92-U-238(G,F)",
                       "target": "92-U-238",
                       "projectile": "G",
                       "process": "F",
                       "product": "",
-                      "quantity": ",SIG",
+                      "quantity": ",SIG,,DMN",
                       "data_type": null,
-                      "general_quantity_modifier": "FCT",
-                      "quantity_236": ",SIG"
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG,,DMN"
                     }
                   }
                 ],
@@ -239,11 +249,38 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Th.Frommhold+",
+                "reference": {
+                  "code": "J,PL/B,295,28,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PL/B",
+                      "number": null,
+                      "volume": "295",
+                      "part": null,
+                      "issue": null,
+                      "page": "28"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data from Fig. 3."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260123,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: REACTION, STATUS."
               ]
             }
           ],

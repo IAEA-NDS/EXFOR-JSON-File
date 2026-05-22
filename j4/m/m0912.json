@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:29:30+0000",
+  "time_stamp": "2026-05-22T20:22:55+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0912",
-        "N2": 20181019,
+        "N2": 20260122,
         "alteration_flag": " ",
-        "transmission_identification": "M098"
+        "transmission_identification": "M144"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0912001",
-            "N2": 20181019,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "M098"
+            "transmission_identification": "M144"
           },
           "BIB": {
             "N1": 5,
@@ -118,6 +118,16 @@
               "free_text": [
                 " Correcred by V.Varlamov: STATUS."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260122,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -136,12 +146,12 @@
         {
           "SUBENT": {
             "N1": "M0912002",
-            "N2": 20150813,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "M080"
+            "transmission_identification": "M144"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 13,
             "N2": 0
           },
           "REACTION": [
@@ -196,8 +206,8 @@
                 "institute": "4RUSMOS"
               },
               "free_text": [
-                " 55 MeV RTM-55 racetrack  microtron of",
-                " Skobeltsyn Institute of Nuclear Physics,  Lomonosov",
+                " 55 MeV RTM-55 racetrack microtron of",
+                " Skobeltsyn Institute of Nuclear Physics, Lomonosov",
                 " Moscow State University."
               ]
             }
@@ -225,7 +235,7 @@
                 "value": 0.99
               },
               "free_text": [
-                " Sample of bismuth disc 5  cm  in",
+                " Sample of bismuth disc 5 cm in",
                 " diameter and 0.83 mm thick."
               ]
             }
@@ -248,9 +258,9 @@
                 "HPGE"
               ],
               "free_text": [
-                " Canberra GC3019 hygh-purity germanium detector",
-                " (30% relative efficiency, energy resolution  of  1.8",
-                " keV at Eg = 1332  keV)."
+                " Canberra GC3019 high-purity germanium detector",
+                " (30% relative efficiency, energy resolution of",
+                " 1.8 keV at Eg = 1332 keV)."
               ]
             }
           ],
@@ -286,8 +296,8 @@
               },
               "free_text": [
                 " Total systematic error mainly from position",
-                " of  irradiated positrons  of the target with respect",
-                " to the detector,  and also from the thickness of the",
+                " of irradiated positrons of the target with respect to",
+                " the detector, and also from the thickness of the",
                 " monitor Cu foil and monitor cross section."
               ]
             }
@@ -298,10 +308,10 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "29-CU-65(G,N)29-CU-64,,SIG,,,EVAL",
+                  "code": "29-CU-65(G,N)29-CU-64,,SIG",
                   "code_unit": [
                     {
-                      "unit": "29-CU-65(G,N)29-CU-64,,SIG,,,EVAL",
+                      "unit": "29-CU-65(G,N)29-CU-64,,SIG",
                       "field": {
                         "reaction": "29-CU-65(G,N)29-CU-64",
                         "target": "29-CU-65",
@@ -309,7 +319,7 @@
                         "process": "N",
                         "product": "29-CU-64",
                         "quantity": ",SIG",
-                        "data_type": "EVAL",
+                        "data_type": null,
                         "general_quantity_modifier": null,
                         "quantity_236": ",SIG"
                       }
@@ -459,11 +469,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.S.Belyshev+",
+                "reference": {
+                  "code": "J,EPJ/A,51,67,2015",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "EPJ/A",
+                      "number": null,
+                      "volume": "51",
+                      "part": null,
+                      "issue": null,
+                      "page": "67"
+                    },
+                    "date": 2015
+                  }
+                }
               },
               "free_text": [
-                " Data from the Table 1."
+                "",
+                " Data from Table 1."
               ]
             },
             {
@@ -481,53 +506,53 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260122,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: STATUS."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 1,
             "pointer": [
+              "",
+              "",
               "",
               ""
             ],
             "heading": [
               "EN-MAX",
-              "ERR-SYS"
-            ],
-            "unit": [
-              "MEV",
-              "PER-CENT"
-            ],
-            "value": [
-              55.6,
-              10.0
-            ]
-          },
-          "ENDCOMMON": {
-            "N1": 0,
-            "N2": 0
-          },
-          "DATA": {
-            "N1": 2,
-            "N2": 1,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
               "DATA",
+              "ERR-SYS",
               "DATA-ERR"
             ],
             "unit": [
+              "MEV",
               "NO-DIM",
+              "PER-CENT",
               "NO-DIM"
             ],
             "value": [
               [
+                55.6,
                 7.3,
-                0.05
+                10.0,
+                0.5
               ]
             ]
           },
@@ -543,12 +568,12 @@
         {
           "SUBENT": {
             "N1": "M0912003",
-            "N2": 20150813,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "M080"
+            "transmission_identification": "M144"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 13,
             "N2": 0
           },
           "REACTION": [
@@ -603,8 +628,8 @@
                 "institute": "4RUSMOS"
               },
               "free_text": [
-                " 55 MeV RTM-55 racetrack  microtron of",
-                " Skobeltsyn Institute of Nuclear Physics,  Lomonosov",
+                " 55 MeV RTM-55 racetrack microtron of",
+                " Skobeltsyn Institute of Nuclear Physics, Lomonosov",
                 " Moscow State University."
               ]
             }
@@ -632,7 +657,7 @@
                 "value": 0.99
               },
               "free_text": [
-                " Sample of bismuth disc 5  cm  in",
+                " Sample of bismuth disc 5 cm in",
                 " diameter and 0.83 mm thick."
               ]
             }
@@ -644,7 +669,7 @@
                 "GSPEC"
               ],
               "free_text": [
-                "Induced beta-delayed g-activity measured."
+                " Induced beta-delayed gamma-activity measured."
               ]
             }
           ],
@@ -655,9 +680,9 @@
                 "HPGE"
               ],
               "free_text": [
-                " Canberra GC3019 hygh-purity germanium detector",
-                " (30% relative efficiency, energy resolution  of  1.8",
-                " keV at Eg = 1332  keV)."
+                " Canberra GC3019 high-purity germanium detector",
+                " (30% relative efficiency, energy resolution of",
+                " 1.8 keV at Eg = 1332  keV)."
               ]
             }
           ],
@@ -693,8 +718,8 @@
               },
               "free_text": [
                 " Total systematic error mainly from position",
-                " of  irradiated positrons  of the target with respect",
-                " to the detector,  and also from the thickness of the",
+                " of irradiated positrons of the target with respect to",
+                " the detector, and also from the thickness of the",
                 " monitor Cu foil and monitor cross section."
               ]
             }
@@ -705,10 +730,10 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "29-CU-65(G,N)29-CU-64,,SIG,,,EVAL",
+                  "code": "29-CU-65(G,N)29-CU-64,,SIG",
                   "code_unit": [
                     {
-                      "unit": "29-CU-65(G,N)29-CU-64,,SIG,,,EVAL",
+                      "unit": "29-CU-65(G,N)29-CU-64,,SIG",
                       "field": {
                         "reaction": "29-CU-65(G,N)29-CU-64",
                         "target": "29-CU-65",
@@ -716,7 +741,7 @@
                         "process": "N",
                         "product": "29-CU-64",
                         "quantity": ",SIG",
-                        "data_type": "EVAL",
+                        "data_type": null,
                         "general_quantity_modifier": null,
                         "quantity_236": ",SIG"
                       }
@@ -884,11 +909,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.S.Belyshev+",
+                "reference": {
+                  "code": "J,EPJ/A,51,67,2015",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "EPJ/A",
+                      "number": null,
+                      "volume": "51",
+                      "part": null,
+                      "issue": null,
+                      "page": "67"
+                    },
+                    "date": 2015
+                  }
+                }
               },
               "free_text": [
-                " Data from the Table 1."
+                "",
+                " Data from Table 1."
               ]
             },
             {
@@ -906,51 +946,51 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260122,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: STATUS."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 1,
             "pointer": [
+              "",
+              "",
               "",
               ""
             ],
             "heading": [
               "EN-MAX",
-              "ERR-SYS"
-            ],
-            "unit": [
-              "MEV",
-              "PER-CENT"
-            ],
-            "value": [
-              55.6,
-              10.0
-            ]
-          },
-          "ENDCOMMON": {
-            "N1": 0,
-            "N2": 0
-          },
-          "DATA": {
-            "N1": 2,
-            "N2": 1,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
+              "ERR-SYS",
               "DATA",
               "DATA-ERR"
             ],
             "unit": [
+              "MEV",
+              "PER-CENT",
               "NO-DIM",
               "NO-DIM"
             ],
             "value": [
               [
+                55.6,
+                10.0,
                 0.3308,
                 0.0007
               ]
@@ -968,12 +1008,12 @@
         {
           "SUBENT": {
             "N1": "M0912004",
-            "N2": 20150813,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "M080"
+            "transmission_identification": "M144"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 13,
             "N2": 0
           },
           "REACTION": [
@@ -1028,8 +1068,8 @@
                 "institute": "4RUSMOS"
               },
               "free_text": [
-                " 55 MeV RTM-55 racetrack  microtron of",
-                " Skobeltsyn Institute of Nuclear Physics,  Lomonosov",
+                " 55 MeV RTM-55 racetrack microtron of",
+                " Skobeltsyn Institute of Nuclear Physics, Lomonosov",
                 " Moscow State University."
               ]
             }
@@ -1057,7 +1097,7 @@
                 "value": 0.99
               },
               "free_text": [
-                " Sample of bismuth disc 5  cm  in",
+                " Sample of bismuth disc 5 cm in",
                 " diameter and 0.83 mm thick."
               ]
             }
@@ -1069,7 +1109,7 @@
                 "GSPEC"
               ],
               "free_text": [
-                " Induced beta-delayed g-activity measured."
+                " Induced beta-delayed gamma-activity measured."
               ]
             }
           ],
@@ -1080,9 +1120,9 @@
                 "HPGE"
               ],
               "free_text": [
-                " Canberra GC3019 hygh-purity germanium detector",
-                " (30% relative efficiency, energy resolution  of  1.8",
-                " keV at Eg = 1332  keV)."
+                " Canberra GC3019 high-purity germanium detector",
+                " (30% relative efficiency, energy resolution of",
+                " 1.8 keV at Eg = 1332 keV)."
               ]
             }
           ],
@@ -1118,8 +1158,8 @@
               },
               "free_text": [
                 " Total systematic error mainly from position",
-                " of  irradiated positrons  of the target with respect",
-                " to the detector,  and also from the thickness of the",
+                " of irradiated positrons of the target with respect to",
+                " the detector, and also from the thickness of the",
                 " monitor Cu foil and monitor cross section."
               ]
             }
@@ -1130,10 +1170,10 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "29-CU-65(G,N)29-CU-64,,SIG,,,EVAL",
+                  "code": "29-CU-65(G,N)29-CU-64,,SIG",
                   "code_unit": [
                     {
-                      "unit": "29-CU-65(G,N)29-CU-64,,SIG,,,EVAL",
+                      "unit": "29-CU-65(G,N)29-CU-64,,SIG",
                       "field": {
                         "reaction": "29-CU-65(G,N)29-CU-64",
                         "target": "29-CU-65",
@@ -1141,7 +1181,7 @@
                         "process": "N",
                         "product": "29-CU-64",
                         "quantity": ",SIG",
-                        "data_type": "EVAL",
+                        "data_type": null,
                         "general_quantity_modifier": null,
                         "quantity_236": ",SIG"
                       }
@@ -1300,11 +1340,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.S.Belyshev+",
+                "reference": {
+                  "code": "J,EPJ/A,51,67,2015",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "EPJ/A",
+                      "number": null,
+                      "volume": "51",
+                      "part": null,
+                      "issue": null,
+                      "page": "67"
+                    },
+                    "date": 2015
+                  }
+                }
               },
               "free_text": [
-                " Data from the Table 1."
+                "",
+                " Data from Table 1."
               ]
             },
             {
@@ -1322,51 +1377,51 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260122,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: STATUS."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 1,
             "pointer": [
+              "",
+              "",
               "",
               ""
             ],
             "heading": [
               "EN-MAX",
-              "ERR-SYS"
-            ],
-            "unit": [
-              "MEV",
-              "PER-CENT"
-            ],
-            "value": [
-              55.6,
-              10.0
-            ]
-          },
-          "ENDCOMMON": {
-            "N1": 0,
-            "N2": 0
-          },
-          "DATA": {
-            "N1": 2,
-            "N2": 1,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
+              "ERR-SYS",
               "DATA",
               "DATA-ERR"
             ],
             "unit": [
+              "MEV",
+              "PER-CENT",
               "NO-DIM",
               "NO-DIM"
             ],
             "value": [
               [
+                55.6,
+                10.0,
                 0.00121,
                 6e-05
               ]
@@ -1384,12 +1439,12 @@
         {
           "SUBENT": {
             "N1": "M0912005",
-            "N2": 20150813,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "M080"
+            "transmission_identification": "M144"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 13,
             "N2": 0
           },
           "REACTION": [
@@ -1444,8 +1499,8 @@
                 "institute": "4RUSMOS"
               },
               "free_text": [
-                " 55 MeV RTM-55 racetrack  microtron of",
-                " Skobeltsyn Institute of Nuclear Physics,  Lomonosov",
+                " 55 MeV RTM-55 racetrack microtron of",
+                " Skobeltsyn Institute of Nuclear Physics, Lomonosov",
                 " Moscow State University."
               ]
             }
@@ -1473,7 +1528,7 @@
                 "value": 0.99
               },
               "free_text": [
-                " Sample of bismuth disc 5  cm  in",
+                " Sample of bismuth disc 5 cm in",
                 " diameter and 0.83 mm thick."
               ]
             }
@@ -1485,7 +1540,7 @@
                 "GSPEC"
               ],
               "free_text": [
-                " Induced beta-delayed g-activity measured."
+                " Induced beta-delayed gamma-activity measured."
               ]
             }
           ],
@@ -1496,9 +1551,9 @@
                 "HPGE"
               ],
               "free_text": [
-                " Canberra GC3019 hygh-purity germanium detector",
-                " (30% relative efficiency, energy resolution  of  1.8",
-                " keV at Eg = 1332  keV)."
+                " Canberra GC3019 high-purity germanium detector",
+                " (30% relative efficiency, energy resolution of",
+                " 1.8 keV at Eg = 1332 keV)."
               ]
             }
           ],
@@ -1534,8 +1589,8 @@
               },
               "free_text": [
                 " Total systematic error mainly from position",
-                " of  irradiated positrons  of the target with respect",
-                " to the detector,  and also from the thickness of the",
+                " of irradiated positrons of the target with respect to",
+                " the detector, and also from the thickness of the",
                 " monitor Cu foil and monitor cross section."
               ]
             }
@@ -1546,10 +1601,10 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "29-CU-65(G,N)29-CU-64,,SIG,,,EVAL",
+                  "code": "29-CU-65(G,N)29-CU-64,,SIG",
                   "code_unit": [
                     {
-                      "unit": "29-CU-65(G,N)29-CU-64,,SIG,,,EVAL",
+                      "unit": "29-CU-65(G,N)29-CU-64,,SIG",
                       "field": {
                         "reaction": "29-CU-65(G,N)29-CU-64",
                         "target": "29-CU-65",
@@ -1557,7 +1612,7 @@
                         "process": "N",
                         "product": "29-CU-64",
                         "quantity": ",SIG",
-                        "data_type": "EVAL",
+                        "data_type": null,
                         "general_quantity_modifier": null,
                         "quantity_236": ",SIG"
                       }
@@ -1707,11 +1762,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.S.Belyshev+",
+                "reference": {
+                  "code": "J,EPJ/A,51,67,2015",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "EPJ/A",
+                      "number": null,
+                      "volume": "51",
+                      "part": null,
+                      "issue": null,
+                      "page": "67"
+                    },
+                    "date": 2015
+                  }
+                }
               },
               "free_text": [
-                " Data from the Table 1."
+                "",
+                " Data from Table 1."
               ]
             },
             {
@@ -1729,51 +1799,51 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260122,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: STATUS."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 1,
             "pointer": [
+              "",
+              "",
               "",
               ""
             ],
             "heading": [
               "EN-MAX",
-              "ERR-SYS"
-            ],
-            "unit": [
-              "MEV",
-              "PER-CENT"
-            ],
-            "value": [
-              55.6,
-              10.0
-            ]
-          },
-          "ENDCOMMON": {
-            "N1": 0,
-            "N2": 0
-          },
-          "DATA": {
-            "N1": 2,
-            "N2": 1,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
+              "ERR-SYS",
               "DATA",
               "DATA-ERR"
             ],
             "unit": [
+              "MEV",
+              "PER-CENT",
               "NO-DIM",
               "NO-DIM"
             ],
             "value": [
               [
+                55.6,
+                10.0,
                 0.0649,
                 9e-05
               ]
@@ -1791,12 +1861,12 @@
         {
           "SUBENT": {
             "N1": "M0912006",
-            "N2": 20150813,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "M080"
+            "transmission_identification": "M144"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 13,
             "N2": 0
           },
           "REACTION": [
@@ -1851,8 +1921,8 @@
                 "institute": "4RUSMOS"
               },
               "free_text": [
-                " 55 MeV RTM-55 racetrack  microtron of",
-                " Skobeltsyn Institute of Nuclear Physics,  Lomonosov",
+                " 55 MeV RTM-55 racetrack microtron of",
+                " Skobeltsyn Institute of Nuclear Physics, Lomonosov",
                 " Moscow State University."
               ]
             }
@@ -1880,7 +1950,7 @@
                 "value": 0.99
               },
               "free_text": [
-                " Sample of bismuth disc 5  cm  in",
+                " Sample of bismuth disc 5 cm in",
                 " diameter and 0.83 mm thick."
               ]
             }
@@ -1892,7 +1962,7 @@
                 "GSPEC"
               ],
               "free_text": [
-                " Induced beta-delayed g-activity measured."
+                " Induced beta-delayed gamma-activity measured."
               ]
             }
           ],
@@ -1903,9 +1973,9 @@
                 "HPGE"
               ],
               "free_text": [
-                " Canberra GC3019 hygh-purity germanium detector",
-                " (30%  relative efficiency,  energy resolution of 1.8",
-                " keV at Eg = 1332 keV)."
+                " Canberra GC3019 high-purity germanium detector",
+                " (30% relative efficiency, energy resolution of",
+                " 1.8 keV at Eg = 1332 keV)."
               ]
             }
           ],
@@ -1941,8 +2011,8 @@
               },
               "free_text": [
                 " Total systematic error mainly from position",
-                " of  irradiated positrons  of the target with respect",
-                " to the detector,  and also from the thickness of the",
+                " of irradiated positrons of the target with respect to",
+                " the detector, and also from the thickness of the",
                 " monitor Cu foil and monitor cross section."
               ]
             }
@@ -1953,10 +2023,10 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "29-CU-65(G,N)29-CU-64,,SIG,,,EVAL",
+                  "code": "29-CU-65(G,N)29-CU-64,,SIG",
                   "code_unit": [
                     {
-                      "unit": "29-CU-65(G,N)29-CU-64,,SIG,,,EVAL",
+                      "unit": "29-CU-65(G,N)29-CU-64,,SIG",
                       "field": {
                         "reaction": "29-CU-65(G,N)29-CU-64",
                         "target": "29-CU-65",
@@ -1964,7 +2034,7 @@
                         "process": "N",
                         "product": "29-CU-64",
                         "quantity": ",SIG",
-                        "data_type": "EVAL",
+                        "data_type": null,
                         "general_quantity_modifier": null,
                         "quantity_236": ",SIG"
                       }
@@ -2105,11 +2175,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.S.Belyshev+",
+                "reference": {
+                  "code": "J,EPJ/A,51,67,2015",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "EPJ/A",
+                      "number": null,
+                      "volume": "51",
+                      "part": null,
+                      "issue": null,
+                      "page": "67"
+                    },
+                    "date": 2015
+                  }
+                }
               },
               "free_text": [
-                " Data from the Table 1."
+                "",
+                " Data from Table 1."
               ]
             },
             {
@@ -2127,51 +2212,51 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260122,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: STATUS."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 1,
             "pointer": [
+              "",
+              "",
               "",
               ""
             ],
             "heading": [
               "EN-MAX",
-              "ERR-SYS"
-            ],
-            "unit": [
-              "MEV",
-              "PER-CENT"
-            ],
-            "value": [
-              55.6,
-              10.0
-            ]
-          },
-          "ENDCOMMON": {
-            "N1": 0,
-            "N2": 0
-          },
-          "DATA": {
-            "N1": 2,
-            "N2": 1,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
+              "ERR-SYS",
               "DATA",
               "DATA-ERR"
             ],
             "unit": [
+              "MEV",
+              "PER-CENT",
               "NO-DIM",
               "NO-DIM"
             ],
             "value": [
               [
+                55.6,
+                10.0,
                 0.0235,
                 0.0009
               ]
@@ -2189,12 +2274,12 @@
         {
           "SUBENT": {
             "N1": "M0912007",
-            "N2": 20150813,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "M080"
+            "transmission_identification": "M144"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 13,
             "N2": 0
           },
           "REACTION": [
@@ -2249,8 +2334,8 @@
                 "institute": "4RUSMOS"
               },
               "free_text": [
-                " 55 MeV RTM-55 racetrack  microtron of",
-                " Skobeltsyn Institute of Nuclear Physics,  Lomonosov",
+                " 55 MeV RTM-55 racetrack microtron of",
+                " Skobeltsyn Institute of Nuclear Physics, Lomonosov",
                 " Moscow State University."
               ]
             }
@@ -2278,7 +2363,7 @@
                 "value": 0.99
               },
               "free_text": [
-                " Sample of bismuth disc 5  cm  in",
+                " Sample of bismuth disc 5 cm in",
                 " diameter and 0.83 mm thick."
               ]
             }
@@ -2290,7 +2375,7 @@
                 "GSPEC"
               ],
               "free_text": [
-                " Induced beta-delayed g-activity measured."
+                " Induced beta-delayed gamma-activity measured."
               ]
             }
           ],
@@ -2301,9 +2386,9 @@
                 "HPGE"
               ],
               "free_text": [
-                " Canberra GC3019 hygh-purity germanium detector",
-                " (30%  relative efficiency,  energy resolution of 1.8",
-                " keV at Eg = 1332 keV)."
+                " Canberra GC3019 high-purity germanium detector",
+                " (30% relative efficiency, energy resolution of",
+                " 1.8 keV at Eg = 1332 keV)."
               ]
             }
           ],
@@ -2339,8 +2424,8 @@
               },
               "free_text": [
                 " Total systematic error mainly from position",
-                " of  irradiated positrons  of the target with respect",
-                " to the detector,  and also from the thickness of the",
+                " of irradiated positrons of the target with respect to",
+                " the detector, and also from the thickness of the",
                 " monitor Cu foil and monitor cross section."
               ]
             }
@@ -2351,10 +2436,10 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "29-CU-65(G,N)29-CU-64,,SIG,,,EVAL",
+                  "code": "29-CU-65(G,N)29-CU-64,,SIG",
                   "code_unit": [
                     {
-                      "unit": "29-CU-65(G,N)29-CU-64,,SIG,,,EVAL",
+                      "unit": "29-CU-65(G,N)29-CU-64,,SIG",
                       "field": {
                         "reaction": "29-CU-65(G,N)29-CU-64",
                         "target": "29-CU-65",
@@ -2362,7 +2447,7 @@
                         "process": "N",
                         "product": "29-CU-64",
                         "quantity": ",SIG",
-                        "data_type": "EVAL",
+                        "data_type": null,
                         "general_quantity_modifier": null,
                         "quantity_236": ",SIG"
                       }
@@ -2512,11 +2597,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.S.Belyshev+",
+                "reference": {
+                  "code": "J,EPJ/A,51,67,2015",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "EPJ/A",
+                      "number": null,
+                      "volume": "51",
+                      "part": null,
+                      "issue": null,
+                      "page": "67"
+                    },
+                    "date": 2015
+                  }
+                }
               },
               "free_text": [
-                " Data from the Table 1."
+                "",
+                " Data from Table 1."
               ]
             },
             {
@@ -2534,51 +2634,51 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260122,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: BIB STATUS."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 1,
             "pointer": [
+              "",
+              "",
               "",
               ""
             ],
             "heading": [
               "EN-MAX",
-              "ERR-SYS"
-            ],
-            "unit": [
-              "MEV",
-              "PER-CENT"
-            ],
-            "value": [
-              55.6,
-              10.0
-            ]
-          },
-          "ENDCOMMON": {
-            "N1": 0,
-            "N2": 0
-          },
-          "DATA": {
-            "N1": 2,
-            "N2": 1,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
+              "ERR-SYS",
               "DATA",
               "DATA-ERR"
             ],
             "unit": [
+              "MEV",
+              "PER-CENT",
               "NO-DIM",
               "NO-DIM"
             ],
             "value": [
               [
+                55.6,
+                10.0,
                 0.0025,
                 0.0001
               ]
@@ -2596,9 +2696,9 @@
         {
           "SUBENT": {
             "N1": "M0912008",
-            "N2": 20181019,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "M098"
+            "transmission_identification": "M144"
           },
           "BIB": {
             "N1": 7,
@@ -2666,12 +2766,12 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The contribution  of  partial  reaction  (g,n)  cross",
-                " section  into  the  experimental total neutron yield",
-                " reaction  (g,Sn)  cross   section   obtained   using",
+                "The contribution of partial reaction (gamma,n) cross",
+                " section into the experimental total neutron yield",
+                " reaction (gamma,Sn) cross section obtained using",
                 " quasimonoenergetic annihilation photons at Livermore",
-                " (USA) was  evaluated  using  specially theoretically",
-                " calculated transitional  multiplicity   function   -",
+                " (USA) was evaluated using specially theoretically",
+                " calculated transitional multiplicity function -",
                 " ratio",
                 "       F1-theor = SIG-theor(g,n)/SIG-theor(g,Sn)",
                 " by the way",
@@ -2745,9 +2845,9 @@
                 }
               },
               "free_text": [
-                "",
-                " Theoretical preequilibrium  model  of   photonuclear",
-                " reactions based on the Fermi gas densities."
+                " Theoretical",
+                " preequilibrium model of photonuclear reactions based",
+                " on the Fermi gas densities."
               ]
             }
           ],
@@ -2756,7 +2856,35 @@
               "pointer": "",
               "coded_information": {
                 "status": [
-                  "TABLE",
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "V.V.Varlamov",
+                "reference": {
+                  "code": "W,VARLAMOV,20150813",
+                  "field": {
+                    "reference_type": "W",
+                    "reference": {
+                      "code": "VARLAMOV",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 20150813
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data presented in Fig. 4."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
                   "APRVD"
                 ],
                 "subentry_number": null,
@@ -2764,8 +2892,7 @@
                 "reference": null
               },
               "free_text": [
-                " Approved by V.Varlamov.",
-                " Data presented in Fig. 4."
+                " Approved by V.V.Varlamov."
               ]
             },
             {
@@ -2805,7 +2932,17 @@
                 "history": "A"
               },
               "free_text": [
-                " Correcred by V.Varlamov: STATUS."
+                " Corrected by V.Varlamov: STATUS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260122,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: BIB STATUS."
               ]
             }
           ],
@@ -3395,9 +3532,9 @@
         {
           "SUBENT": {
             "N1": "M0912009",
-            "N2": 20181019,
+            "N2": 20260122,
             "alteration_flag": " ",
-            "transmission_identification": "M098"
+            "transmission_identification": "M144"
           },
           "BIB": {
             "N1": 7,
@@ -3465,12 +3602,12 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The contribution  of  partial  reaction  (g,n)  cross",
-                " section  into  the  experimental total neutron yield",
-                " reaction  (g,Sn)  cross   section   obtained   using",
+                "The contribution of partial reaction (gamma,n) cross",
+                " section into the experimental total neutron yield",
+                " reaction (gamma,Sn) cross section obtained using",
                 " quasimonoenergetic annihilation photons at Livermore",
-                " (USA) was  evaluated  using  specially theoretically",
-                " calculated transitional  multiplicity   function   -",
+                " (USA) was evaluated using specially theoretically",
+                " calculated transitional multiplicity function   -",
                 " ratio",
                 "       F2-theor = SIG-theor(g,2n)/SIG-theor(g,Sn)",
                 " by the way",
@@ -3518,7 +3655,7 @@
               "free_text": [
                 "",
                 " Experimental data for the total neutron yield",
-                " reaction (g,Sn) cross section."
+                " reaction (gamma,Sn) cross section."
               ]
             },
             {
@@ -3544,9 +3681,9 @@
                 }
               },
               "free_text": [
-                "",
-                " Theoretical preequilibrium  model  of   photonuclear",
-                " reactions based on the Fermi gas densities."
+                " Theoretical",
+                " preequilibrium model of photonuclear reactions based",
+                " on the Fermi gas densities."
               ]
             }
           ],
@@ -3555,7 +3692,35 @@
               "pointer": "",
               "coded_information": {
                 "status": [
-                  "TABLE",
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "V.V.Varlamov",
+                "reference": {
+                  "code": "W,VARLAMOV,20150813",
+                  "field": {
+                    "reference_type": "W",
+                    "reference": {
+                      "code": "VARLAMOV",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 20150813
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data presented in Fig. 5."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
                   "APRVD"
                 ],
                 "subentry_number": null,
@@ -3563,8 +3728,7 @@
                 "reference": null
               },
               "free_text": [
-                " Approved by V.Varlamov.",
-                " Data presented in Fig. 5."
+                " Approved by V.V.Varlamov."
               ]
             },
             {
@@ -3604,7 +3768,17 @@
                 "history": "A"
               },
               "free_text": [
-                " Correcred by V.Varlamov: STATUS."
+                " Corrected by V.Varlamov: STATUS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260122,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],

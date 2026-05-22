@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:20:24+0000",
+  "time_stamp": "2026-05-22T20:22:45+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0134",
-        "N2": 20111117,
+        "N2": 20260123,
         "alteration_flag": " ",
-        "transmission_identification": "M061"
+        "transmission_identification": "M144"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0134001",
-            "N2": 20111117,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M061"
+            "transmission_identification": "M144"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 13,
             "N2": 0
           },
           "TITLE": [
@@ -26,9 +26,9 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Average number of prompt neutrons  emitted in Th-232",
-                " and U-238 photofission by gamma-rays from reaction",
-                " F-19(proton,alpha+gamma)O-16."
+                "Mean number of prompt neutrons emitted in",
+                " photofission of Th-232 and U-238 gamma-rays",
+                " produced in the F-19(p,alpha+gamma)O-16 reaction."
               ]
             }
           ],
@@ -59,6 +59,35 @@
             {
               "pointer": "",
               "coded_information": {
+                "code": "J,SJA,8,390,1961",
+                "code_unit": [
+                  {
+                    "unit": "J,SJA,8,390,1961",
+                    "doi": "10.1007/BF01484531",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "SJA",
+                        "number": null,
+                        "volume": "8",
+                        "part": null,
+                        "issue": null,
+                        "page": "390"
+                      },
+                      "date": 1961
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " Translation of Russian AE,8,457,1960."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
                 "code": "J,AE,8,457,1960",
                 "code_unit": [
                   {
@@ -82,35 +111,6 @@
               },
               "free_text": [
                 ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "J,SJA,8,390,1960",
-                "code_unit": [
-                  {
-                    "unit": "J,SJA,8,390,1960",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "SJA",
-                        "number": null,
-                        "volume": "8",
-                        "part": null,
-                        "issue": null,
-                        "page": "390"
-                      },
-                      "date": 1960
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                "",
-                " Translation of Russian AE,8,457,1960."
               ]
             }
           ],
@@ -173,6 +173,37 @@
               ]
             }
           ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "94-PU-240(0,F),PR,NU",
+                  "code_unit": [
+                    {
+                      "unit": "94-PU-240(0,F),PR,NU",
+                      "field": {
+                        "reaction": "94-PU-240(0,F)",
+                        "target": "94-PU-240",
+                        "projectile": "0",
+                        "process": "F",
+                        "product": "",
+                        "quantity": "PR,NU",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": "PR,NU"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "MONIT-REF": [
             {
               "pointer": "",
@@ -225,11 +256,26 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "L.I.Prokhorova+",
+                "reference": {
+                  "code": "J,SJA,8,390,1961",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SJA",
+                      "number": null,
+                      "volume": "8",
+                      "part": null,
+                      "issue": null,
+                      "page": "390"
+                    },
+                    "date": 1961
+                  }
+                }
               },
               "free_text": [
-                ""
+                "",
+                " Text on p.391."
               ]
             }
           ],
@@ -263,6 +309,17 @@
               "free_text": [
                 " Corrected by V.Varlamov: REFERENCE, dates,",
                 " CCP -> RUS, MONIT-REF, recompilation, lowercase."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260123,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by VV and SD: TITLE, REFERENCE,",
+                " MONITOR, STATUS."
               ]
             }
           ],

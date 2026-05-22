@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:31:22+0000",
+  "time_stamp": "2026-05-22T20:22:59+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M1032",
-        "N2": 20211011,
+        "N2": 20260123,
         "alteration_flag": " ",
-        "transmission_identification": "M115"
+        "transmission_identification": "M144"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M1032001",
-            "N2": 20211011,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M115"
+            "transmission_identification": "M144"
           },
           "BIB": {
-            "N1": 14,
+            "N1": 15,
             "N2": 0
           },
           "TITLE": [
@@ -26,8 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Studying the excitation  of K-isomers of 180,182Hf and",
-                " 177Li in (g,a) reactions."
+                "Studying the excitation of K-isomers of 180,182Hf and",
+                " 177Li in (gamma,alpha) reactions."
               ]
             }
           ],
@@ -47,34 +47,6 @@
             }
           ],
           "REFERENCE": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "J,FCY/L,18,255,2021",
-                "code_unit": [
-                  {
-                    "unit": "J,FCY/L,18,255,2021",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "FCY/L",
-                        "number": null,
-                        "volume": "18",
-                        "part": null,
-                        "issue": null,
-                        "page": "255"
-                      },
-                      "date": 2021
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            },
             {
               "pointer": "",
               "coded_information": {
@@ -103,6 +75,34 @@
                 "",
                 " English translation of FCY/L,18,255,2021."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,FCY/L,18,255,2021",
+                "code_unit": [
+                  {
+                    "unit": "J,FCY/L,18,255,2021",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "FCY/L",
+                        "number": null,
+                        "volume": "18",
+                        "part": null,
+                        "issue": null,
+                        "page": "255"
+                      },
+                      "date": 2021
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
             }
           ],
           "INSTITUTE": [
@@ -110,12 +110,11 @@
               "pointer": "",
               "coded_information": [
                 "4RUSMOS",
-                "4UKRIJD"
+                "4UKRIJD",
+                "4RUSBIO"
               ],
               "free_text": [
-                "",
-                " The Burnasyan Federal Medical Biological Center,",
-                " Russia."
+                ""
               ]
             }
           ],
@@ -169,7 +168,7 @@
                 "ACTIV"
               ],
               "free_text": [
-                " Induced beta-delayed g-activity measured."
+                " Induced beta-delayed gamma-activity measured."
               ]
             }
           ],
@@ -191,10 +190,10 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "(73-TA-181(G,N)73-TA-180,,SIG,,,EVAL)+(73-TA-181(G,N+P)72-HF-179,,SIG,,,EVAL)",
+                  "code": "(73-TA-181(G,N)73-TA-180,,SIG)+(73-TA-181(G,N+P)72-HF-179,,SIG)",
                   "code_unit": [
                     {
-                      "unit": "73-TA-181(G,N)73-TA-180,,SIG,,,EVAL",
+                      "unit": "73-TA-181(G,N)73-TA-180,,SIG",
                       "field": {
                         "reaction": "73-TA-181(G,N)73-TA-180",
                         "target": "73-TA-181",
@@ -202,13 +201,13 @@
                         "process": "N",
                         "product": "73-TA-180",
                         "quantity": ",SIG",
-                        "data_type": "EVAL",
+                        "data_type": null,
                         "general_quantity_modifier": null,
                         "quantity_236": ",SIG"
                       }
                     },
                     {
-                      "unit": "73-TA-181(G,N+P)72-HF-179,,SIG,,,EVAL",
+                      "unit": "73-TA-181(G,N+P)72-HF-179,,SIG",
                       "field": {
                         "reaction": "73-TA-181(G,N+P)72-HF-179",
                         "target": "73-TA-181",
@@ -216,7 +215,7 @@
                         "process": "N+P",
                         "product": "72-HF-179",
                         "quantity": ",SIG",
-                        "data_type": "EVAL",
+                        "data_type": null,
                         "general_quantity_modifier": null,
                         "quantity_236": ",SIG"
                       }
@@ -291,8 +290,8 @@
               "coded_information": null,
               "free_text": [
                 "For the first time the flux-weighted average yields",
-                " of 180Hf-m in (g,p) reaction were measured by",
-                " activation and off-line g-ray spectrometric",
+                " of 180Hf-m in (gamma,p) reaction were measured by",
+                " activation and off-line gamma-ray spectrometric",
                 " technique at the bremsstrahlung end-point energies",
                 " of 20, 40 and 55 MeV.",
                 "Using weighted-average fluxes of bremsstrahlung",
@@ -300,6 +299,37 @@
                 " sections could be obtained and therefore only",
                 " integrated cross sections are in fact measured in",
                 " experiments."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "V.A.Zheltonozhsky+",
+                "reference": {
+                  "code": "J,PPN/L,18,319,2021",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PPN/L",
+                      "number": null,
+                      "volume": "18",
+                      "part": null,
+                      "issue": null,
+                      "page": "319"
+                    },
+                    "date": 2021
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data from the Table 1."
               ]
             }
           ],
@@ -313,6 +343,16 @@
               "free_text": [
                 " Data were compiled at the Russia MSU SINP",
                 " CDFE by V.Varlamov."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260123,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],
@@ -332,9 +372,9 @@
         {
           "SUBENT": {
             "N1": "M1032002",
-            "N2": 20211011,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M115"
+            "transmission_identification": "M144"
           },
           "BIB": {
             "N1": 5,
@@ -423,19 +463,15 @@
               ]
             }
           ],
-          "STATUS": [
+          "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
+                "date": 20260123,
+                "history": "U"
               },
               "free_text": [
-                " Data from the Table.      3"
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],
@@ -485,9 +521,9 @@
         {
           "SUBENT": {
             "N1": "M1032003",
-            "N2": 20211011,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M115"
+            "transmission_identification": "M144"
           },
           "BIB": {
             "N1": 6,
@@ -641,19 +677,15 @@
               ]
             }
           ],
-          "STATUS": [
+          "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
+                "date": 20260123,
+                "history": "U"
               },
               "free_text": [
-                " Data from the Table 1."
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],
@@ -718,9 +750,9 @@
         {
           "SUBENT": {
             "N1": "M1032004",
-            "N2": 20211011,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M115"
+            "transmission_identification": "M144"
           },
           "BIB": {
             "N1": 5,
@@ -864,19 +896,15 @@
               ]
             }
           ],
-          "STATUS": [
+          "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
+                "date": 20260123,
+                "history": "U"
               },
               "free_text": [
-                " Data from the Table 1."
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],

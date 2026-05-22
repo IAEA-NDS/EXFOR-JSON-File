@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:27:14+0000",
+  "time_stamp": "2026-05-22T20:22:49+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0740",
-        "N2": 20140327,
+        "N2": 20260121,
         "alteration_flag": " ",
-        "transmission_identification": "M072"
+        "transmission_identification": "M144"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0740001",
-            "N2": 20140327,
+            "N2": 20260121,
             "alteration_flag": " ",
-            "transmission_identification": "M072"
+            "transmission_identification": "M144"
           },
           "BIB": {
-            "N1": 14,
+            "N1": 13,
             "N2": 0
           },
           "TITLE": [
@@ -26,8 +26,9 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Polarised photon measurements of the  12  C(g-pol,pp)",
-                " and 12C(g-pol,pn) reactions for Eg = 160 - 350 MeV."
+                "Polarized photon measurements of the",
+                " 12C(gamma-pol,pp) and 12C(gamma-pol,pn)",
+                " reactions for Eg = 160 - 350 MeV."
               ]
             }
           ],
@@ -137,8 +138,8 @@
                 "reaction": null
               },
               "free_text": [
-                "   Glasgow   tagged   photon  spectrometer",
-                " polarised photons."
+                " Glasgow tagged photon spectrometer",
+                " polarized photons."
               ]
             }
           ],
@@ -147,7 +148,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "0.5 g/cm**2 graphite target inclined at 30 deg to the",
+                "0.5 g/cm2 graphite target inclined at 30 deg to the",
                 " photon beam."
               ]
             }
@@ -164,26 +165,6 @@
               ]
             }
           ],
-          "PART-DET": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "N"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "P"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "DETECTOR": [
             {
               "pointer": "",
@@ -191,12 +172,12 @@
                 "SCIN"
               ],
               "free_text": [
-                " For  protons  - plastic scintillator hodoscope",
-                " PiP with ~ 1 sr solid angle,  covering proton  polar",
-                " angle from 50 to 130 deg  and  azimuthal  angles  of",
-                " 13.5 - 22 deg.",
-                "Correlated protons and neutrons were detected in TOF,",
-                " an array of plastic scintillator detectors."
+                " For protons - plastic scintillator hodoscope",
+                " PiP with ~ 1 sr solid angle, covering proton polar",
+                " angle from 50 to 130 deg and azimuthal angles of 13.5",
+                " - 22 deg. Correlated protons and neutrons were",
+                " detected in TOF, an array of plastic scintillator",
+                " detectors."
               ]
             }
           ],
@@ -210,22 +191,64 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Statistical errors.",
-                "There are  several  sources  of  possible  systematic",
-                " error. Uncertainties in the detection of neutrons in",
-                " TOF arise   from  the  calculation  of  the  neutron",
-                " detection efficiency (10 %) and  from  uncertainties",
-                " in TOF  neutron  detection  thresholds  (5  %).  The",
-                " contribution to the charged particle  yield  in  TOF",
-                " due to  neutral particles in random coincidence with",
-                " signal from deltaE  detectors  near  the  target  is",
-                " generally small, except at most forward angles where",
-                " it can be as much as 10 %.  The TOF proton detection",
-                " efficiency rise to an uncertainty of 3 %  in the TOF",
-                " proton yield.  The uncertainty  in  the  PiP  proton",
-                " detection efficiency  is 3 %.  Further uncertainties",
-                " occur in the determination of the  target  thickness",
-                " (1 %) and the photon polarization (5 %)."
+                " Statistical errors. There are several sources",
+                " of possible systematic error. Uncertainties in the",
+                " detection of neutrons in TOF arise from the",
+                " calculation of the neutron detection efficiency (10%)",
+                " and from uncertainties in TOF neutron detection",
+                " thresholds (5%). The contribution to the charged",
+                " particle yield in TOF due to neutral particles in",
+                " random coincidence with signal from deltaE detectors",
+                " near the target is generally small, except at most",
+                " forward angles where it can be as much as 10%. The",
+                " TOF proton detection efficiency rise to an",
+                " uncertainty of 3% in the TOF proton yield. The",
+                " uncertainty in the PiP proton detection efficiency is",
+                " 3%. Further uncertainties occur in the determination",
+                " of the target thickness (1%) and the photon",
+                " polarization (5%)."
+              ]
+            }
+          ],
+          "ANG-SEC": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ANG1-MIN",
+                "particle": "G"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ANG1-MAX",
+                "particle": "G"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ANG2-MIN",
+                "particle": "P"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ANG2-MAX",
+                "particle": "P"
+              },
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -234,26 +257,10 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The photon  asymmatry  of  the 12C(g-pol,pn) reaction",
-                " has been  measured  for  separate   missing   energy",
-                " regions corresponding  to  the  ejection of nucleons",
-                " from (1p)**2 and (1p)(1s) shells."
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "CURVE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                "  Data from Fig. 5."
+                "The photon asymmetry of the 12C(gamma-pol,pn)",
+                " reaction has been measured for separate missing",
+                " energy regions corresponding to the ejection of",
+                " nucleons from (1p)**2 and (1p)(1s) shells."
               ]
             }
           ],
@@ -266,7 +273,7 @@
               },
               "free_text": [
                 " Data were compiled at the Russia MSU SINP",
-                " CDFE by V.Varlamov."
+                "CDFE by V.Varlamov."
               ]
             },
             {
@@ -276,8 +283,8 @@
                 "history": "A"
               },
               "free_text": [
-                " Corrected  by V.Varlamov: REACTION in",
-                " SUBENTS 002 - 005."
+                " Corrected by V.Varlamov: REACTION in",
+                " Subents 002 - 005."
               ]
             },
             {
@@ -288,6 +295,16 @@
               },
               "free_text": [
                 " Corrected by V.Varlamov: AUTHOR, doi."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260121,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: ANG-SEC, STATUS."
               ]
             }
           ],
@@ -339,12 +356,12 @@
         {
           "SUBENT": {
             "N1": "M0740002",
-            "N2": 20081111,
+            "N2": 20260121,
             "alteration_flag": " ",
-            "transmission_identification": "M047"
+            "transmission_identification": "M144"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -372,7 +389,7 @@
               },
               "free_text": [
                 "",
-                " Polarised photons."
+                " Polarized photons."
               ]
             }
           ],
@@ -382,6 +399,49 @@
               "coded_information": null,
               "free_text": [
                 " Missing energy Emiss < 40 MeV."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "C.J.Y.Powrie+",
+                "reference": {
+                  "code": "J,PR/C,64,034602,2001",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "64",
+                      "part": null,
+                      "issue": null,
+                      "page": "034602"
+                    },
+                    "date": 2001
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data from Fig. 5a."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260121,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],
@@ -456,12 +516,12 @@
         {
           "SUBENT": {
             "N1": "M0740003",
-            "N2": 20081111,
+            "N2": 20260121,
             "alteration_flag": " ",
-            "transmission_identification": "M047"
+            "transmission_identification": "M144"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -489,7 +549,7 @@
               },
               "free_text": [
                 "",
-                " Polarised photons."
+                " Polarized photons."
               ]
             }
           ],
@@ -498,7 +558,50 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                " Missing energy Emiss = 40  - 70 MeV."
+                " Missing energy Emiss = 40 - 70 MeV."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "C.J.Y.Powrie+",
+                "reference": {
+                  "code": "J,PR/C,64,034602,2001",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "64",
+                      "part": null,
+                      "issue": null,
+                      "page": "034602"
+                    },
+                    "date": 2001
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data from Fig. 5b."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260121,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],
@@ -573,12 +676,12 @@
         {
           "SUBENT": {
             "N1": "M0740004",
-            "N2": 20081111,
+            "N2": 20260121,
             "alteration_flag": " ",
-            "transmission_identification": "M047"
+            "transmission_identification": "M144"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -606,7 +709,7 @@
               },
               "free_text": [
                 "",
-                " Polarised photons."
+                " Polarized photons."
               ]
             }
           ],
@@ -616,6 +719,49 @@
               "coded_information": null,
               "free_text": [
                 " Missing energy Emiss < 40 MeV."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "C.J.Y.Powrie+",
+                "reference": {
+                  "code": "J,PR/C,64,034602,2001",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "64",
+                      "part": null,
+                      "issue": null,
+                      "page": "034602"
+                    },
+                    "date": 2001
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data from Fig. 5a."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260121,
+                "history": "U"
+              },
+              "free_text": [
+                " VCorrected by V and SD: STATUS."
               ]
             }
           ],
@@ -690,12 +836,12 @@
         {
           "SUBENT": {
             "N1": "M0740005",
-            "N2": 20081111,
+            "N2": 20260121,
             "alteration_flag": " ",
-            "transmission_identification": "M047"
+            "transmission_identification": "M144"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -723,7 +869,7 @@
               },
               "free_text": [
                 "",
-                " Polarised photons."
+                " Polarized photons."
               ]
             }
           ],
@@ -733,6 +879,49 @@
               "coded_information": null,
               "free_text": [
                 " Missing energy Emiss = 40 - 70 MeV."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "C.J.Y.Powrie+",
+                "reference": {
+                  "code": "J,PR/C,64,034602,2001",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "64",
+                      "part": null,
+                      "issue": null,
+                      "page": "034602"
+                    },
+                    "date": 2001
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data from Fig. 5b."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260121,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],

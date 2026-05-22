@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:28:26+0000",
+  "time_stamp": "2026-05-22T20:22:53+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0846",
-        "N2": 20120427,
+        "N2": 20260123,
         "alteration_flag": " ",
-        "transmission_identification": "M063"
+        "transmission_identification": "M144"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0846001",
-            "N2": 20120427,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M063"
+            "transmission_identification": "M144"
           },
           "BIB": {
             "N1": 14,
@@ -47,34 +47,6 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,YF,75,283,2012",
-                "code_unit": [
-                  {
-                    "unit": "J,YF,75,283,2012",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "YF",
-                        "number": null,
-                        "volume": "75",
-                        "part": null,
-                        "issue": null,
-                        "page": "283"
-                      },
-                      "date": 2012
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
                 "code": "J,PAN,75,253,2012",
                 "code_unit": [
                   {
@@ -100,6 +72,34 @@
                 "",
                 "#doi:10.1134/S1063778812020093"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,YF,75,283,2012",
+                "code_unit": [
+                  {
+                    "unit": "J,YF,75,283,2012",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "YF",
+                        "number": null,
+                        "volume": "75",
+                        "part": null,
+                        "issue": null,
+                        "page": "283"
+                      },
+                      "date": 2012
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
             }
           ],
           "INSTITUTE": [
@@ -123,8 +123,8 @@
                 "institute": "4RUSMOS"
               },
               "free_text": [
-                " 70 MeV RTM-70 racetrack  microtron of",
-                " Skobeltsyn Institute of Nuclear Physics,  Lomonosov",
+                " 70 MeV RTM-70 racetrack microtron of",
+                " Skobeltsyn Institute of Nuclear Physics, Lomonosov",
                 " Moscow State University."
               ]
             }
@@ -148,7 +148,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Natural sample of tantalum (181Ta, 99.988 %), 0.13 mm",
+                "Natural sample of tantalum (181Ta, 99.988%), 0.13 mm",
                 " thick."
               ]
             }
@@ -160,7 +160,7 @@
                 "ACTIV"
               ],
               "free_text": [
-                " Induced beta-delayed g-activity measured."
+                " Induced beta-delayed gamma-activity measured."
               ]
             }
           ],
@@ -178,11 +178,9 @@
           "ANALYSIS": [
             {
               "pointer": "",
-              "coded_information": [
-                "AREA"
-              ],
+              "coded_information": null,
               "free_text": [
-                " Gamma-quanta energy spectrum lines data."
+                "Gamma-quanta energy spectrum lines data."
               ]
             }
           ],
@@ -217,11 +215,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "B.S.Ishkhanov+",
+                "reference": {
+                  "code": "J,PAN,75,253,2012",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PAN",
+                      "number": null,
+                      "volume": "75",
+                      "part": null,
+                      "issue": null,
+                      "page": "253"
+                    },
+                    "date": 2012
+                  }
+                }
               },
               "free_text": [
-                " Data from the Table 5 of PAN,75,253,2012."
+                "",
+                " Data from the Table 5."
               ]
             },
             {
@@ -249,6 +262,17 @@
               "free_text": [
                 " Data were compiled at the Russia MSU SINP",
                 " CDFE by V.Varlamov."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260123,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by VV and SD: ANALYSIS,",
+                " REACTION, DECAY-DATA."
               ]
             }
           ],
@@ -1162,28 +1186,28 @@
         {
           "SUBENT": {
             "N1": "M0846004",
-            "N2": 20120427,
+            "N2": 20260123,
             "alteration_flag": " ",
-            "transmission_identification": "M063"
+            "transmission_identification": "M144"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "(73-TA-181(G,X)72-HF-179-M,,SIG,,BRA)/(73-TA-181(G,N)73-TA-180-G,,SIG,,BRA)",
+                "code": "(73-TA-181(G,X)72-HF-179-M2,,SIG,,BRA)/(73-TA-181(G,N)73-TA-180-G,,SIG,,BRA)",
                 "code_unit": [
                   {
-                    "unit": "73-TA-181(G,X)72-HF-179-M,,SIG,,BRA",
+                    "unit": "73-TA-181(G,X)72-HF-179-M2,,SIG,,BRA",
                     "field": {
-                      "reaction": "73-TA-181(G,X)72-HF-179-M",
+                      "reaction": "73-TA-181(G,X)72-HF-179-M2",
                       "target": "73-TA-181",
                       "projectile": "G",
                       "process": "X",
-                      "product": "72-HF-179-M",
+                      "product": "72-HF-179-M2",
                       "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": "BRA",
@@ -1248,7 +1272,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "72-HF-179-M",
+                "nuclide": "72-HF-179-M2",
                 "half-life": null,
                 "radiation": [
                   {
@@ -1274,6 +1298,20 @@
               "free_text": [
                 "",
                 "Decay-data are presented by authors (S.Yu.Troshchiev)."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260123,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by VV and SD:",
+                " REACTION (SF4): Hf-179m -> Hf-179m2;",
+                " DECAY-DATA: Hf-179m -> Hf-179m2."
               ]
             }
           ],
