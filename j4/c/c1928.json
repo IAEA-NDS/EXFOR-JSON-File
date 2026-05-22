@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:47:31+0000",
+  "time_stamp": "2026-05-22T20:37:22+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C1928",
-        "N2": 20240611,
+        "N2": 20260120,
         "alteration_flag": " ",
-        "transmission_identification": "C239"
+        "transmission_identification": "C253"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C1928001",
-            "N2": 20240611,
+            "N2": 20260120,
             "alteration_flag": " ",
-            "transmission_identification": "C239"
+            "transmission_identification": "C253"
           },
           "BIB": {
             "N1": 10,
@@ -72,8 +72,36 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                "",
+                " Main reference.",
                 "#doi:10.1016/0022-3115(79)90532-4"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "S,BNL-NCS-51245,99,1980",
+                "code_unit": [
+                  {
+                    "unit": "S,BNL-NCS-51245,99,1980",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "S",
+                      "reference": {
+                        "code": "BNL-NCS-",
+                        "number": "51245",
+                        "volume": null,
+                        "part": null,
+                        "issue": null,
+                        "page": "99"
+                      },
+                      "date": 1980
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                " Limited tabulated data."
               ]
             }
           ],
@@ -187,6 +215,17 @@
               "free_text": [
                 " BP: Updated entry, corrected second update",
                 "           time stamp, added doi and sub.3, ERR-ANALYS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260119,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: Added BNL-NCS-51245 report REFERENCE,",
+                "           updated subentry 3 using the report data."
               ]
             }
           ],
@@ -2856,12 +2895,12 @@
         {
           "SUBENT": {
             "N1": "C1928003",
-            "N2": 20240611,
+            "N2": 20260120,
             "alteration_flag": " ",
-            "transmission_identification": "C239"
+            "transmission_identification": "C253"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -2920,6 +2959,28 @@
               ]
             }
           ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The data were integrated for neutron energies greater",
+                "than 1 MeV to give an angular distribution of the",
+                "yield. Spectral data below ~1.5 MeV had poor accuracy."
+              ]
+            }
+          ],
+          "MISC-COL": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "MISC"
+              ],
+              "free_text": [
+                " Average neutron energy."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -2933,6 +2994,35 @@
               },
               "free_text": [
                 ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "D.L.Johnson+",
+                "reference": {
+                  "code": "S,BNL-NCS-51245,99,1980",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "BNL-NCS-",
+                      "number": "51245",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "99"
+                    },
+                    "date": 1980
+                  }
+                }
+              },
+              "free_text": [
+                " Table - I",
+                "0,4,12,20,30,45,70 degree data from the report."
               ]
             },
             {
@@ -2960,8 +3050,8 @@
                 }
               },
               "free_text": [
-                "",
-                "Fig. 3, page 469 of J,JNM,85-86,470,1979."
+                " Fig. - 3",
+                "Uncertainties, 8 degree data were digitized from JNM."
               ]
             }
           ],
@@ -2975,6 +3065,16 @@
               "free_text": [
                 " BP"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260119,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: updated subentry using the report data."
+              ]
             }
           ],
           "ENDBIB": {
@@ -2986,9 +3086,10 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 3,
-            "N2": 8,
+            "N1": 4,
+            "N2": 10,
             "pointer": [
+              "",
               "",
               "",
               ""
@@ -2996,53 +3097,75 @@
             "heading": [
               "ANG",
               "DATA",
-              "DATA-ERR"
+              "DATA-ERR",
+              "MISC"
             ],
             "unit": [
               "ADEG",
               "PRD/MUC/SR",
-              "PRD/MUC/SR"
+              "PRD/MUC/SR",
+              "MEV"
             ],
             "value": [
               [
-                0.269,
-                236100000000.0,
-                35130000000.0
+                0.0,
+                243000000000.0,
+                35130000000.0,
+                12.56
               ],
               [
-                3.952,
-                213300000000.0,
-                34210000000.0
+                4.0,
+                208000000000.0,
+                34210000000.0,
+                13.09
               ],
               [
                 8.037,
                 167200000000.0,
-                24380000000.0
+                24380000000.0,
+                null
               ],
               [
-                12.136,
-                124000000000.0,
-                19490000000.0
+                12.0,
+                120000000000.0,
+                19490000000.0,
+                12.28
               ],
               [
-                20.232,
-                72610000000.0,
-                11680000000.0
+                20.0,
+                71300000000.0,
+                11680000000.0,
+                11.27
               ],
               [
-                29.72,
-                51410000000.0,
-                8777000000.0
+                30.0,
+                50700000000.0,
+                8777000000.0,
+                9.71
               ],
               [
-                45.014,
-                31720000000.0,
-                6827000000.0
+                45.0,
+                31100000000.0,
+                6827000000.0,
+                7.97
               ],
               [
-                69.918,
-                19110000000.0,
-                2964000000.0
+                70.0,
+                18500000000.0,
+                2964000000.0,
+                6.42
+              ],
+              [
+                105.0,
+                13100000000.0,
+                null,
+                5.95
+              ],
+              [
+                150.0,
+                6450000000.0,
+                null,
+                4.42
               ]
             ]
           },
