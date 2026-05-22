@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:54:18+0000",
+  "time_stamp": "2026-05-22T20:00:32+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F0263",
-        "N2": 20200708,
+        "N2": 20251211,
         "alteration_flag": " ",
-        "transmission_identification": "F080"
+        "transmission_identification": "F104"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F0263001",
-            "N2": 20200708,
+            "N2": 20251211,
             "alteration_flag": " ",
-            "transmission_identification": "F080"
+            "transmission_identification": "F104"
           },
           "BIB": {
-            "N1": 8,
+            "N1": 7,
             "N2": 0
           },
           "TITLE": [
@@ -103,9 +103,9 @@
                 "IOCH"
               ],
               "free_text": [
-                " Spherical ionization chamber of volume 500",
-                "cm3, filled with deuterium to a pressure of 40 atm.",
-                "on rotatable framework centered upon the target."
+                " Spherical ionization chamber of volume 500 cm3,",
+                "filled with deuterium to a pressure of 40 atm. on",
+                "rotatable framework centered upon the target."
               ]
             },
             {
@@ -117,20 +117,6 @@
                 " The yield was monitored by measuring the",
                 "gamma-flux through a brass-walled Geiger counter at a",
                 "fixed position-roughly forward."
-              ]
-            }
-          ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " No information about source of uncertainty"
               ]
             }
           ],
@@ -163,8 +149,18 @@
               },
               "free_text": [
                 " SD: Corrections in all Subents. BIB updated",
-                "The accuracy of data presentation  has been revised.",
+                "The accuracy of data presentation has been revised.",
                 "ERR-T -> DATA-ERR."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251211,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents."
               ]
             }
           ],
@@ -173,23 +169,19 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 1,
             "N2": 0,
             "pointer": [
-              "",
               ""
             ],
             "heading": [
-              "E-LVL",
-              "DATA-ERR"
+              "E-LVL"
             ],
             "unit": [
-              "MEV",
-              "PER-CENT"
+              "MEV"
             ],
             "value": [
-              0.0,
-              25.0
+              0.0
             ]
           },
           "ENDCOMMON": {
@@ -204,9 +196,9 @@
         {
           "SUBENT": {
             "N1": "F0263002",
-            "N2": 20200708,
+            "N2": 20251211,
             "alteration_flag": " ",
-            "transmission_identification": "F080"
+            "transmission_identification": "F104"
           },
           "BIB": {
             "N1": 3,
@@ -248,11 +240,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "D.B.James+",
+                "reference": {
+                  "code": "J,PM,1,949,1956",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PM",
+                      "number": null,
+                      "volume": "1",
+                      "part": null,
+                      "issue": null,
+                      "page": "949"
+                    },
+                    "date": 1956
+                  }
+                }
               },
               "free_text": [
-                " Fig 4 from Philosoph.Magazine,1,(1956)949"
+                " Fig 4"
               ]
             }
           ],
@@ -267,6 +273,16 @@
                 " SD: SF9=EXP deleted from REACTION code.",
                 "EN-SEC, ERR-ANALYS deleted. STATUS updated.",
                 "EN-ERR -> EN-ERR-DIG; DATA-ERR -> ERR-DIG."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251211,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -420,9 +436,9 @@
         {
           "SUBENT": {
             "N1": "F0263003",
-            "N2": 20200708,
+            "N2": 20251211,
             "alteration_flag": " ",
-            "transmission_identification": "F080"
+            "transmission_identification": "F104"
           },
           "BIB": {
             "N1": 4,
@@ -478,11 +494,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "D.B.James+",
+                "reference": {
+                  "code": "J,PM,1,949,1956",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PM",
+                      "number": null,
+                      "volume": "1",
+                      "part": null,
+                      "issue": null,
+                      "page": "949"
+                    },
+                    "date": 1956
+                  }
+                }
               },
               "free_text": [
-                " Table p.959 from Philosoph.Magazine,1,(1956)949"
+                " Table on p.959"
               ]
             }
           ],
@@ -495,7 +525,17 @@
               },
               "free_text": [
                 " SD: SF9=EXP deleted from REACTION code.",
-                "EN-SEC deleted. STATUS updated."
+                "EN-SEC deleted."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251211,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated. NUMBER-CM -> NUMBER."
               ]
             }
           ],
@@ -518,7 +558,7 @@
             ],
             "heading": [
               "EN",
-              "NUMBER-CM",
+              "NUMBER",
               "DATA-CM",
               "ERR-S"
             ],

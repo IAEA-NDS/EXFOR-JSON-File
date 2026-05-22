@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:55:36+0000",
+  "time_stamp": "2026-05-22T20:00:37+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F0358",
-        "N2": 20210724,
+        "N2": 20251212,
         "alteration_flag": " ",
-        "transmission_identification": "F086"
+        "transmission_identification": "F104"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F0358001",
-            "N2": 20210724,
+            "N2": 20251212,
             "alteration_flag": " ",
-            "transmission_identification": "F086"
+            "transmission_identification": "F104"
           },
           "BIB": {
-            "N1": 10,
+            "N1": 12,
             "N2": 0
           },
           "TITLE": [
@@ -119,7 +119,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "A 20 mg/cm**2, 99% 11B target"
+                "A 20 mg/cm2, 99% 11B target"
               ]
             }
           ],
@@ -143,6 +143,73 @@
                   "CYCLO"
                 ],
                 "institute": "2ITYMIL"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "6-C-12(P,INL)6-C-12,PAR,DA",
+                  "code_unit": [
+                    {
+                      "unit": "6-C-12(P,INL)6-C-12,PAR,DA",
+                      "field": {
+                        "reaction": "6-C-12(P,INL)6-C-12",
+                        "target": "6-C-12",
+                        "projectile": "P",
+                        "process": "INL",
+                        "product": "6-C-12",
+                        "quantity": "PAR,DA",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": "PAR,DA"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                " The absolute",
+                "normalization was checked by the simultaneous",
+                "measurement of the 15.1 MeV peak from the (p,inl)",
+                "reaction on a 12C target, whose cross section is",
+                "relatively well known. The rejection efficiency was",
+                "controlled through the on-line measurement of the",
+                "accept/reject ratio."
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": null,
+                "author": "M.Guarnone+",
+                "reference": {
+                  "code": "J,NCL,33,359,1982",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NCL",
+                      "number": null,
+                      "volume": "33",
+                      "part": null,
+                      "issue": null,
+                      "page": "359",
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 1982
+                  }
+                }
               },
               "free_text": [
                 ""
@@ -230,6 +297,16 @@
               "free_text": [
                 " SD: Corrections in all Subents."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251212,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents."
+              ]
             }
           ],
           "ENDBIB": {
@@ -237,19 +314,23 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0,
             "pointer": [
+              "",
               ""
             ],
             "heading": [
-              "ERR-1"
+              "ERR-1",
+              "E-LVL-NRM"
             ],
             "unit": [
-              "PER-CENT"
+              "PER-CENT",
+              "MEV"
             ],
             "value": [
-              0.5
+              0.5,
+              15.1
             ]
           },
           "ENDCOMMON": {
@@ -264,9 +345,9 @@
         {
           "SUBENT": {
             "N1": "F0358002",
-            "N2": 20210724,
+            "N2": 20251212,
             "alteration_flag": " ",
-            "transmission_identification": "F086"
+            "transmission_identification": "F104"
           },
           "BIB": {
             "N1": 4,
@@ -310,7 +391,9 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Relative error"
+                " The errors include the statistical",
+                "error and estimated uncertainties on target thickness,",
+                "solid angle and detection efficiency."
               ]
             },
             {
@@ -323,8 +406,8 @@
               },
               "free_text": [
                 " The resulting total errors on the",
-                "experimental diff.cross sections generally range",
-                "from 7% to 10%."
+                "experimental diff. cross sections generally range from",
+                "7% to 10%."
               ]
             }
           ],
@@ -336,11 +419,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.Anghinolfi+",
+                "reference": {
+                  "code": "J,NP/A,399,66,1983",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "399",
+                      "part": null,
+                      "issue": null,
+                      "page": "66"
+                    },
+                    "date": 1983
+                  }
+                }
               },
               "free_text": [
-                " Table 1 from Nucl.Phys.,A399(1983)66"
+                " Table 1"
               ]
             }
           ],
@@ -354,6 +451,16 @@
               "free_text": [
                 " SD: SF9=EXP deleted from REACTION code.",
                 "EN-SEC deleted. STATUS, ERR-ANALYS updated."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251212,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -879,9 +986,9 @@
         {
           "SUBENT": {
             "N1": "F0358003",
-            "N2": 20210724,
+            "N2": 20251212,
             "alteration_flag": " ",
-            "transmission_identification": "F086"
+            "transmission_identification": "F104"
           },
           "BIB": {
             "N1": 4,
@@ -891,20 +998,20 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "5-B-11(P,G)6-C-12,PAR,DA,,LEG",
+                "code": "5-B-11(P,G)6-C-12,PAR,SIG,,D4PI",
                 "code_unit": [
                   {
-                    "unit": "5-B-11(P,G)6-C-12,PAR,DA,,LEG",
+                    "unit": "5-B-11(P,G)6-C-12,PAR,SIG,,D4PI",
                     "field": {
                       "reaction": "5-B-11(P,G)6-C-12",
                       "target": "5-B-11",
                       "projectile": "P",
                       "process": "G",
                       "product": "6-C-12",
-                      "quantity": "PAR,DA,,LEG",
+                      "quantity": "PAR,SIG,,D4PI",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "PAR,DA,,LEG"
+                      "quantity_236": "PAR,SIG,,D4PI"
                     }
                   }
                 ],
@@ -925,7 +1032,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Relative error (from graphic bars)"
+                " Relative error"
               ]
             }
           ],
@@ -937,11 +1044,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.Anghinolfi+",
+                "reference": {
+                  "code": "J,NP/A,399,66,1983",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "399",
+                      "part": null,
+                      "issue": null,
+                      "page": "66"
+                    },
+                    "date": 1983
+                  }
+                }
               },
               "free_text": [
-                " Figs 5,9 from Nucl.Phys.,A399(1983)66"
+                " Figs 5,9"
               ]
             },
             {
@@ -971,6 +1092,17 @@
                 "EN-SEC deleted. STATUS, ERR-ANALYS updated.",
                 "EN-ERR -> EN-ERR-DIG."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251212,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: SF6=DA -> SIG; SF8=LEG -> D4PI in",
+                "REACTION code. BIB updated."
+              ]
             }
           ],
           "ENDBIB": {
@@ -978,22 +1110,18 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 1,
             "N2": 0,
             "pointer": [
-              "",
               ""
             ],
             "heading": [
-              "NUMBER-CM",
               "EN-ERR-DIG"
             ],
             "unit": [
-              "NO-DIM",
               "MEV"
             ],
             "value": [
-              0.0,
               0.2
             ]
           },
@@ -1235,9 +1363,9 @@
         {
           "SUBENT": {
             "N1": "F0358004",
-            "N2": 20210724,
+            "N2": 20251212,
             "alteration_flag": " ",
-            "transmission_identification": "F086"
+            "transmission_identification": "F104"
           },
           "BIB": {
             "N1": 4,
@@ -1247,20 +1375,20 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "5-B-11(P,G)6-C-12,PAR,DA,,LEG",
+                "code": "5-B-11(P,G)6-C-12,PAR,SIG,,D4PI",
                 "code_unit": [
                   {
-                    "unit": "5-B-11(P,G)6-C-12,PAR,DA,,LEG",
+                    "unit": "5-B-11(P,G)6-C-12,PAR,SIG,,D4PI",
                     "field": {
                       "reaction": "5-B-11(P,G)6-C-12",
                       "target": "5-B-11",
                       "projectile": "P",
                       "process": "G",
                       "product": "6-C-12",
-                      "quantity": "PAR,DA,,LEG",
+                      "quantity": "PAR,SIG,,D4PI",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "PAR,DA,,LEG"
+                      "quantity_236": "PAR,SIG,,D4PI"
                     }
                   }
                 ],
@@ -1293,11 +1421,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.Anghinolfi+",
+                "reference": {
+                  "code": "J,NP/A,399,66,1983",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "399",
+                      "part": null,
+                      "issue": null,
+                      "page": "66"
+                    },
+                    "date": 1983
+                  }
+                }
               },
               "free_text": [
-                " Figs 10,11 from Nucl.Phys.,A399(1983)66"
+                " Figs 10,11"
               ]
             },
             {
@@ -1327,6 +1469,17 @@
                 "EN-SEC deleted. STATUS, ERR-ANALYS updated.",
                 "EN-ERR -> EN-ERR-DIG."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251212,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: SF6=DA -> SIG; SF8=LEG -> D4PI in",
+                "REACTION code. BIB updated."
+              ]
             }
           ],
           "ENDBIB": {
@@ -1334,22 +1487,18 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 1,
             "N2": 0,
             "pointer": [
-              "",
               ""
             ],
             "heading": [
-              "NUMBER-CM",
               "EN-ERR-DIG"
             ],
             "unit": [
-              "NO-DIM",
               "MEV"
             ],
             "value": [
-              0.0,
               0.2
             ]
           },
@@ -1669,9 +1818,9 @@
         {
           "SUBENT": {
             "N1": "F0358005",
-            "N2": 20210724,
+            "N2": 20251212,
             "alteration_flag": " ",
-            "transmission_identification": "F086"
+            "transmission_identification": "F104"
           },
           "BIB": {
             "N1": 4,
@@ -1715,7 +1864,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Relative error (from graphic bars)"
+                " Relative error"
               ]
             }
           ],
@@ -1727,11 +1876,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.Anghinolfi+",
+                "reference": {
+                  "code": "J,NP/A,399,66,1983",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "399",
+                      "part": null,
+                      "issue": null,
+                      "page": "66"
+                    },
+                    "date": 1983
+                  }
+                }
               },
               "free_text": [
-                " Figs 5,9 from Nucl.Phys.,A399(1983)66"
+                " Figs 5,9"
               ]
             },
             {
@@ -1760,6 +1923,16 @@
                 " SD: SF9=EXP deleted from REACTION code.",
                 "EN-SEC deleted. STATUS, ERR-ANALYS updated.",
                 "EN-ERR -> EN-ERR-DIG."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251212,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated. NUMBER-CM -> NUMBER."
               ]
             }
           ],
@@ -1798,7 +1971,7 @@
               ""
             ],
             "heading": [
-              "NUMBER-CM",
+              "NUMBER",
               "E-LVL",
               "EN",
               "DATA-CM",
@@ -2750,9 +2923,9 @@
         {
           "SUBENT": {
             "N1": "F0358006",
-            "N2": 20210724,
+            "N2": 20251212,
             "alteration_flag": " ",
-            "transmission_identification": "F086"
+            "transmission_identification": "F104"
           },
           "BIB": {
             "N1": 4,
@@ -2796,7 +2969,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Relative error (from graphic bars)"
+                " Relative error"
               ]
             }
           ],
@@ -2808,11 +2981,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.Anghinolfi+",
+                "reference": {
+                  "code": "J,NP/A,399,66,1983",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "399",
+                      "part": null,
+                      "issue": null,
+                      "page": "66"
+                    },
+                    "date": 1983
+                  }
+                }
               },
               "free_text": [
-                " Figs 10,11 from Nucl.Phys.,A399(1983)66"
+                " Figs 10,11"
               ]
             },
             {
@@ -2841,6 +3028,16 @@
                 " SD: SF9=EXP deleted from REACTION code.",
                 "EN-SEC deleted. STATUS, ERR-ANALYS updated.",
                 "EN-ERR -> EN-ERR-DIG."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251212,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated. NUMBER-CM -> NUMBER."
               ]
             }
           ],
@@ -2883,7 +3080,7 @@
               "EN",
               "E-LVL-MIN",
               "E-LVL-MAX",
-              "NUMBER-CM",
+              "NUMBER",
               "DATA-CM",
               "DATA-ERR"
             ],

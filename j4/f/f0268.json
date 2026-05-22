@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:54:20+0000",
+  "time_stamp": "2026-05-22T20:00:33+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F0268",
-        "N2": 20141027,
+        "N2": 20251211,
         "alteration_flag": " ",
-        "transmission_identification": "F057"
+        "transmission_identification": "F104"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F0268001",
-            "N2": 20141027,
+            "N2": 20251211,
             "alteration_flag": " ",
-            "transmission_identification": "F057"
+            "transmission_identification": "F104"
           },
           "BIB": {
             "N1": 10,
@@ -27,7 +27,7 @@
               "coded_information": null,
               "free_text": [
                 "Proton angular distributions in the reaction",
-                "B-10(a,p1+gamma)C-13."
+                "10B(alpha,p1 gamma)13C"
               ]
             }
           ],
@@ -61,34 +61,6 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,IZV,45,(5),731,1981",
-                "code_unit": [
-                  {
-                    "unit": "J,IZV,45,(5),731,1981",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "IZV",
-                        "number": null,
-                        "volume": "45",
-                        "part": null,
-                        "issue": "5",
-                        "page": "731"
-                      },
-                      "date": 1981
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
                 "code": "J,BAS,45,(5),52,1981",
                 "code_unit": [
                   {
@@ -112,6 +84,34 @@
               },
               "free_text": [
                 " English translation"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,IZV,45,731,1981",
+                "code_unit": [
+                  {
+                    "unit": "J,IZV,45,731,1981",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "IZV",
+                        "number": null,
+                        "volume": "45",
+                        "part": null,
+                        "issue": null,
+                        "page": "731"
+                      },
+                      "date": 1981
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -151,7 +151,7 @@
                 "GELI"
               ],
               "free_text": [
-                " Ge(Li) detector with the volume 25 cm**3."
+                " Ge(Li) detector with the volume 25 cm3."
               ]
             }
           ],
@@ -170,13 +170,13 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
+                "heading": "ERR-S",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                " No source of uncertainties is given."
+                " Statistical uncertainty"
               ]
             }
           ],
@@ -209,8 +209,19 @@
               },
               "free_text": [
                 " English translation was added.",
-                "REACTION in sub 002 was changed. Data in sub 002 were",
+                "REACTION in Sub 002 was changed. Data in Sub 002 were",
                 "corrected."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251211,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Corrections in all Subents.",
+                "DATA-ERR -> ERR-S."
               ]
             }
           ],
@@ -246,37 +257,48 @@
         {
           "SUBENT": {
             "N1": "F0268002",
-            "N2": 20141027,
+            "N2": 20251211,
             "alteration_flag": " ",
-            "transmission_identification": "F057"
+            "transmission_identification": "F104"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "5-B-10(A,P)6-C-13,PAR,DA,G,LEG/REL",
+                "code": "5-B-10(A,P)6-C-13,PAR,DA,,LEG/REL",
                 "code_unit": [
                   {
-                    "unit": "5-B-10(A,P)6-C-13,PAR,DA,G,LEG/REL",
+                    "unit": "5-B-10(A,P)6-C-13,PAR,DA,,LEG/REL",
                     "field": {
                       "reaction": "5-B-10(A,P)6-C-13",
                       "target": "5-B-10",
                       "projectile": "A",
                       "process": "P",
                       "product": "6-C-13",
-                      "quantity": "PAR,DA,G,LEG",
+                      "quantity": "PAR,DA,,LEG",
                       "data_type": null,
                       "general_quantity_modifier": "REL",
-                      "quantity_236": "PAR,DA,*,LEG"
+                      "quantity_236": "PAR,DA,,LEG"
                     }
                   }
                 ],
                 "unit_combination": "(%)"
               },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "PART-DET": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "G"
+              ],
               "free_text": [
                 ""
               ]
@@ -290,11 +312,38 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.Kiss+",
+                "reference": {
+                  "code": "J,BAS,45,(5),52,1981",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "45",
+                      "part": null,
+                      "issue": "5",
+                      "page": "52"
+                    },
+                    "date": 1981
+                  }
+                }
               },
               "free_text": [
-                " Table p.733."
+                " Table on p.733."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251211,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: STATUS updated. NUMBER-CM -> NUMBER.",
+                "SF7=G deleted from REACTION code. PART-DET added."
               ]
             }
           ],
@@ -316,7 +365,7 @@
               ""
             ],
             "heading": [
-              "NUMBER-CM",
+              "NUMBER",
               "EN",
               "DATA-CM",
               "ERR-S"

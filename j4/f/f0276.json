@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:54:23+0000",
+  "time_stamp": "2026-05-22T20:00:33+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F0276",
-        "N2": 20200709,
+        "N2": 20251211,
         "alteration_flag": " ",
-        "transmission_identification": "F080"
+        "transmission_identification": "F104"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F0276001",
-            "N2": 20200709,
+            "N2": 20251211,
             "alteration_flag": " ",
-            "transmission_identification": "F080"
+            "transmission_identification": "F104"
           },
           "BIB": {
             "N1": 8,
@@ -158,7 +158,7 @@
                 "SCIN"
               ],
               "free_text": [
-                " NE102"
+                " Five of NE102 for proton detection."
               ]
             },
             {
@@ -200,8 +200,18 @@
               },
               "free_text": [
                 " SD: Corrections in all Subents. BIB updated",
-                "The accuracy of data presentation  has been revised.",
+                "The accuracy of data presentation has been revised.",
                 "ANG-ERR -> ANG-ERR-D. Subent 008 added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251211,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents."
               ]
             }
           ],
@@ -237,9 +247,9 @@
         {
           "SUBENT": {
             "N1": "F0276002",
-            "N2": 20200709,
+            "N2": 20251211,
             "alteration_flag": " ",
-            "transmission_identification": "F080"
+            "transmission_identification": "F104"
           },
           "BIB": {
             "N1": 7,
@@ -278,8 +288,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "11B 180 mu-g/cm2 thick on copper support or",
-                "50 mu-g/cm2 thick self-supporting enriched 11B targets"
+                "11B 180 ug/cm2 thick on copper support or 50 ug/cm2",
+                "thick self-supporting enriched 11B targets"
               ]
             }
           ],
@@ -313,9 +323,10 @@
                 "",
                 " The absolute cross-section scale was obtained",
                 "relative to the absolute cross section measured for",
-                "the B11(d,p)B12 (0.95-MeV level) by Pullen (see",
-                "REL-REF) Ed=3.0 MeV by measuring the 90.degr. relative",
-                "intensities of the B11 p1 group at Ed 3.0 and 5.5 MeV."
+                "the 11B(d,p)12B (0.95-MeV level) by Pullen (see",
+                "MONIT-REF) at Ed=3.0 MeV by measuring the 90.degr.",
+                "relative intensities of the 11B p1 group at Ed 3.0",
+                "and 5.5 MeV."
               ]
             }
           ],
@@ -383,12 +394,53 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.Gallmann+",
+                "reference": {
+                  "code": "J,NP,82,161,1966",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "82",
+                      "part": null,
+                      "issue": null,
+                      "page": "161"
+                    },
+                    "date": 1966
+                  }
+                }
               },
               "free_text": [
-                " Fig.1 from Nucl.Phys.,82(1966)161  (Elvl=0.)",
-                " and from  figs 3,5,6,7 from Phys.Rev.,138(1965)B560"
+                " Fig.1 and"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "A.Gallmann+",
+                "reference": {
+                  "code": "J,PR,138,B560,1965",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "138",
+                      "part": null,
+                      "issue": null,
+                      "page": "B560"
+                    },
+                    "date": 1965
+                  }
+                }
+              },
+              "free_text": [
+                " Figs 3,5,6,7"
               ]
             }
           ],
@@ -402,6 +454,16 @@
               "free_text": [
                 " SD: SF9=EXP deleted from REACTION code.",
                 "EN-SEC deleted. STATUS, ERR-ANALYS updated."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251211,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -969,9 +1031,9 @@
         {
           "SUBENT": {
             "N1": "F0276003",
-            "N2": 20200709,
+            "N2": 20251211,
             "alteration_flag": " ",
-            "transmission_identification": "F080"
+            "transmission_identification": "F104"
           },
           "BIB": {
             "N1": 5,
@@ -1013,7 +1075,7 @@
                 "Self-supporting carbon targets prepared from a",
                 "colloidal suspension of graphite in alcohol",
                 " (alcohol-dag). They had thicknesses of 200 to",
-                "300 mu-g/cm2. Nylon targets and formvar films of",
+                "300 ug/cm2. Nylon targets and Formvar films of",
                 "identical thicknesses were also used."
               ]
             }
@@ -1028,11 +1090,12 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error from graphic bars (probably",
-                "statistical). Measurements between 20. and 40. degr.",
-                "are tainted of an error (~ 20%) due to the presence",
-                "near the group of deuterons studied in the",
-                "group of deuterons of elastic diffusion on 16O."
+                " No information about source of",
+                "uncertainty (probably statistical).",
+                " Measurements between 20. and 40. degr. are tainted",
+                "of an error (~ 20%) due to the presence near the",
+                "group of deuterons studied in the group of deuterons",
+                "of elastic diffusion on 16O."
               ]
             }
           ],
@@ -1044,11 +1107,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.Gallmann+",
+                "reference": {
+                  "code": "J,NP,82,161,1966",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "82",
+                      "part": null,
+                      "issue": null,
+                      "page": "161"
+                    },
+                    "date": 1966
+                  }
+                }
               },
               "free_text": [
-                " Fig.3 from Nucl.Phys.,82(1966)161"
+                " Fig.3"
               ]
             }
           ],
@@ -1063,6 +1140,16 @@
                 " SD: SF9=EXP deleted from REACTION code.",
                 "STATUS, ERR-ANALYS updated. DATA-ERR1 deleted (see info",
                 "in ERR-ANALYS). SAMPLE added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251211,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -1258,9 +1345,9 @@
         {
           "SUBENT": {
             "N1": "F0276004",
-            "N2": 20200709,
+            "N2": 20251211,
             "alteration_flag": " ",
-            "transmission_identification": "F080"
+            "transmission_identification": "F104"
           },
           "BIB": {
             "N1": 5,
@@ -1302,7 +1389,7 @@
                 "Self-supporting carbon targets prepared from a",
                 "colloidal suspension of graphite in alcohol",
                 " (alcohol-dag). They had thicknesses of 200 to",
-                "300 mu-g/cm2. Nylon targets and formvar films of",
+                "300 ug/cm2. Nylon targets and Formvar films of",
                 "identical thicknesses were also used."
               ]
             }
@@ -1317,8 +1404,8 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error from graphic bars (probably",
-                "statistical)."
+                " No information about source of",
+                "uncertainty (probably statistical)."
               ]
             }
           ],
@@ -1330,11 +1417,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.Gallmann+",
+                "reference": {
+                  "code": "J,NP,82,161,1966",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "82",
+                      "part": null,
+                      "issue": null,
+                      "page": "161"
+                    },
+                    "date": 1966
+                  }
+                }
               },
               "free_text": [
-                " Fig.4 from Nucl.Phys.,82(1966)161"
+                " Fig.4"
               ]
             }
           ],
@@ -1348,6 +1449,16 @@
               "free_text": [
                 " SD: SF9=EXP deleted from REACTION code.",
                 "STATUS, SAMPLE updated. ERR-ANALYS added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251211,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -2041,9 +2152,9 @@
         {
           "SUBENT": {
             "N1": "F0276005",
-            "N2": 20200709,
+            "N2": 20251211,
             "alteration_flag": " ",
-            "transmission_identification": "F080"
+            "transmission_identification": "F104"
           },
           "BIB": {
             "N1": 5,
@@ -2082,7 +2193,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Tantalum nitride targets making 100 mu-g/cm2 of 14N."
+                "Tantalum nitride targets made of 100 ug/cm2 of 14N."
               ]
             }
           ],
@@ -2096,8 +2207,8 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error from graphic bars (probably",
-                "statistical)."
+                " No information about source of",
+                "uncertainty (probably statistical)."
               ]
             }
           ],
@@ -2109,11 +2220,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.Gallmann+",
+                "reference": {
+                  "code": "J,NP,82,161,1966",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "82",
+                      "part": null,
+                      "issue": null,
+                      "page": "161"
+                    },
+                    "date": 1966
+                  }
+                }
               },
               "free_text": [
-                " Fig.6 from Nucl.Phys.,82(1966)161"
+                " Fig.6"
               ]
             }
           ],
@@ -2127,6 +2252,16 @@
               "free_text": [
                 " SD: SF9=EXP deleted from REACTION code.",
                 "ERR-ANALYS, STATUS added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251211,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -3248,9 +3383,9 @@
         {
           "SUBENT": {
             "N1": "F0276006",
-            "N2": 20200709,
+            "N2": 20251211,
             "alteration_flag": " ",
-            "transmission_identification": "F080"
+            "transmission_identification": "F104"
           },
           "BIB": {
             "N1": 5,
@@ -3292,7 +3427,7 @@
                 "Self-supporting carbon targets prepared from a",
                 "colloidal suspension of graphite in alcohol",
                 " (alcohol-dag). They had thicknesses of 200 to",
-                "300 mu-g/cm2."
+                "300 ug/cm2."
               ]
             }
           ],
@@ -3306,8 +3441,8 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error from graphic bars (probably",
-                "statistical)."
+                " No information about source of",
+                "uncertainty (probably statistical)."
               ]
             }
           ],
@@ -3319,11 +3454,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.Gallmann+",
+                "reference": {
+                  "code": "J,NP,82,161,1966",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "82",
+                      "part": null,
+                      "issue": null,
+                      "page": "161"
+                    },
+                    "date": 1966
+                  }
+                }
               },
               "free_text": [
-                " Fig.9 from Nucl.Phys.,82(1966)161"
+                " Fig.9"
               ]
             }
           ],
@@ -3336,7 +3485,17 @@
               },
               "free_text": [
                 " SD: SF9=EXP deleted from REACTION code.",
-                "ERR-ANALYS, SAMPLE added.  STATUS updated."
+                "ERR-ANALYS, SAMPLE added. STATUS updated."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251211,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -3532,9 +3691,9 @@
         {
           "SUBENT": {
             "N1": "F0276007",
-            "N2": 20200709,
+            "N2": 20251211,
             "alteration_flag": " ",
-            "transmission_identification": "F080"
+            "transmission_identification": "F104"
           },
           "BIB": {
             "N1": 5,
@@ -3576,7 +3735,7 @@
                 "Self-supporting carbon targets prepared from a",
                 "colloidal suspension of graphite in alcohol",
                 " (alcohol-dag). They had thicknesses of 200 to",
-                "300 mu-g/cm2."
+                "300 ug/cm2."
               ]
             }
           ],
@@ -3590,8 +3749,8 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error from graphic bars (probably",
-                "statistical)."
+                " No information about source of",
+                "uncertainty (probably statistical)."
               ]
             }
           ],
@@ -3603,11 +3762,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.Gallmann+",
+                "reference": {
+                  "code": "J,NP,82,161,1966",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "82",
+                      "part": null,
+                      "issue": null,
+                      "page": "161"
+                    },
+                    "date": 1966
+                  }
+                }
               },
               "free_text": [
-                " Fig.9 from Nucl.Phys.,82(1966)161"
+                " Fig.9"
               ]
             }
           ],
@@ -3620,7 +3793,17 @@
               },
               "free_text": [
                 " SD: SF9=EXP deleted from REACTION code.",
-                "ERR-ANALYS, SAMPLE added.  STATUS updated."
+                "ERR-ANALYS, SAMPLE added. STATUS updated."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251211,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -4168,9 +4351,9 @@
         {
           "SUBENT": {
             "N1": "F0276008",
-            "N2": 20200708,
+            "N2": 20251211,
             "alteration_flag": " ",
-            "transmission_identification": "F080"
+            "transmission_identification": "F104"
           },
           "BIB": {
             "N1": 5,
@@ -4210,7 +4393,7 @@
               "coded_information": null,
               "free_text": [
                 "The target was an evaporated self-supporting foil of",
-                "enriched 11B, 50 mu-g/cm**2 thick."
+                "enriched 11B, 50 ug/cm2 thick."
               ]
             }
           ],
@@ -4224,8 +4407,8 @@
                 "correlation_property": null
               },
               "free_text": [
-                " All of the measured absolute cross sections",
-                "are assigned an uncertainty of +-15%."
+                " An uncertainty of +-15% is assigned to all",
+                "of the measured absolute cross sections"
               ]
             },
             {
@@ -4237,8 +4420,8 @@
                 "correlation_property": null
               },
               "free_text": [
-                " From graphic bars. No information about",
-                "source of uncertainties (probably statistical)"
+                " No information about source of",
+                "uncertainties (probably statistical)"
               ]
             }
           ],
@@ -4250,11 +4433,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.Gallmann+",
+                "reference": {
+                  "code": "J,NP,82,161,1966",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "82",
+                      "part": null,
+                      "issue": null,
+                      "page": "161"
+                    },
+                    "date": 1966
+                  }
+                }
               },
               "free_text": [
-                " Fig.2 from Phys.Rev.,138(1965)B560"
+                " Fig.2"
               ]
             }
           ],
@@ -4268,6 +4465,16 @@
               "free_text": [
                 " SD: Data extracted from F0274.002."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251211,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
+              ]
             }
           ],
           "ENDBIB": {
@@ -4275,29 +4482,25 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 4,
+            "N1": 3,
             "N2": 0,
             "pointer": [
-              "",
               "",
               "",
               ""
             ],
             "heading": [
               "EN",
-              "ANG-ERR-D",
               "ERR-DIG",
               "ERR-1"
             ],
             "unit": [
               "MEV",
-              "ADEG",
               "PER-CENT",
               "PER-CENT"
             ],
             "value": [
               5.5,
-              0.2,
               0.5,
               15.0
             ]

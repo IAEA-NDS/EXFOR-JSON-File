@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:57:56+0000",
+  "time_stamp": "2026-05-22T20:00:40+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F0496",
-        "N2": 20151006,
+        "N2": 20251212,
         "alteration_flag": " ",
-        "transmission_identification": "F059"
+        "transmission_identification": "F104"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F0496001",
-            "N2": 20151006,
+            "N2": 20251212,
             "alteration_flag": " ",
-            "transmission_identification": "F059"
+            "transmission_identification": "F104"
           },
           "BIB": {
-            "N1": 7,
+            "N1": 8,
             "N2": 0
           },
           "TITLE": [
@@ -26,10 +26,10 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Dependence of the integral inelastic scattering",
-                "cross-sections of 24 MeV alpha-particles on C-12,",
-                "O-16, O-18, F-19, Ne-20 and Ne-22 on the excited",
-                "state energies."
+                "Dependence of the integral cross sections of inelastic",
+                "scattering of 24 MeV alpha-particles by 12C, 16O, 18O,",
+                "19F, 20Ne and 22Ne nuclei on the energy of level",
+                "excitation"
               ]
             }
           ],
@@ -37,7 +37,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "V.S.Sadkovskiy",
+                "V.S.Sadkovskii",
                 "G.A.Feofilov",
                 "A.E.Denisov",
                 "R.P.Kolalis",
@@ -60,34 +60,6 @@
             }
           ],
           "REFERENCE": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "J,IZV,48,(5),995,1984",
-                "code_unit": [
-                  {
-                    "unit": "J,IZV,48,(5),995,1984",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "IZV",
-                        "number": null,
-                        "volume": "48",
-                        "part": null,
-                        "issue": "5",
-                        "page": "995"
-                      },
-                      "date": 1984
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            },
             {
               "pointer": "",
               "coded_information": {
@@ -119,10 +91,38 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "C,83MOSCOW,324,1983",
+                "code": "J,IZV,48,995,1984",
                 "code_unit": [
                   {
-                    "unit": "C,83MOSCOW,324,1983",
+                    "unit": "J,IZV,48,995,1984",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "IZV",
+                        "number": null,
+                        "volume": "48",
+                        "part": null,
+                        "issue": null,
+                        "page": "995"
+                      },
+                      "date": 1984
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "C,83MOSCOW,,324,1983",
+                "code_unit": [
+                  {
+                    "unit": "C,83MOSCOW,,324,1983",
                     "doi": null,
                     "field": {
                       "reference_type": "C",
@@ -132,7 +132,7 @@
                         "volume": null,
                         "part": null,
                         "issue": null,
-                        "page": null
+                        "page": "324"
                       },
                       "date": 1983
                     }
@@ -142,6 +142,62 @@
               },
               "free_text": [
                 "   Preliminary results"
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "O",
+                "subentry_number": "F0867001",
+                "author": "G.A.Feofilov+",
+                "reference": {
+                  "code": "J,BAS,38,(12),113,1974",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "38",
+                      "part": null,
+                      "issue": "12",
+                      "page": "113"
+                    },
+                    "date": 1974
+                  }
+                }
+              },
+              "free_text": [
+                " -",
+                "                                12C - diff. cr. sect."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "O",
+                "subentry_number": "F0483001",
+                "author": "G.A.Feofilov+",
+                "reference": {
+                  "code": "J,BAS,40,(10),158,1976",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "40",
+                      "part": null,
+                      "issue": "10",
+                      "page": "158"
+                    },
+                    "date": 1976
+                  }
+                }
+              },
+              "free_text": [
+                " -",
+                "                                16O - diff. cr. sect."
               ]
             }
           ],
@@ -163,7 +219,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR1",
+                "heading": "ERR-1",
                 "minimum_value": null,
                 "maximum_value": 10.0,
                 "correlation_property": null
@@ -171,55 +227,6 @@
               "free_text": [
                 " Relative errors of differential",
                 "cross-sections"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR2",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Absolute error of cross-section"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "   Data digitizing error"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ANG-ERR-D",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Angle digitizing error"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR3",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " No source of uncertainties for the graphic",
-                "bars is given"
               ]
             }
           ],
@@ -242,8 +249,20 @@
               },
               "free_text": [
                 " REFERENCE was corrected. Sub 002, 003",
-                "were divided into two subentries. In sub 004 E-LVL",
+                "were divided into two subentries. In Sub 004 E-LVL",
                 "value was corrected according to the article."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251212,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents.",
+                "DATA-ERR1 -> ERR-1; DATA-ERR2 -> ERR-2;",
+                "DATA-ERR3 -> DATA-ERR. Subents 010 - 018 were added."
               ]
             }
           ],
@@ -263,12 +282,12 @@
         {
           "SUBENT": {
             "N1": "F0496002",
-            "N2": 20151006,
+            "N2": 20251212,
             "alteration_flag": " ",
-            "transmission_identification": "F059"
+            "transmission_identification": "F104"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -299,6 +318,32 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Absolute error of cross-section"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information about source of uncertainty"
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -307,11 +352,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.S.Sadkovskii+",
+                "reference": {
+                  "code": "J,BAS,48,(5),158,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "5",
+                      "page": "158"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                "Fig.1"
+                " Fig.1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251212,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: BIB updated. Data from Subent 006 added"
               ]
             }
           ],
@@ -330,21 +401,21 @@
             ],
             "heading": [
               "EN",
-              "DATA-ERR2",
-              "ERR-DIG",
-              "ANG-ERR-D"
+              "ANG-ERR-D",
+              "ERR-2",
+              "ERR-DIG"
             ],
             "unit": [
               "MEV",
+              "ADEG",
               "PER-CENT",
-              "PER-CENT",
-              "ADEG"
+              "PER-CENT"
             ],
             "value": [
               23.5,
+              0.3,
               12.0,
-              0.1,
-              0.3
+              0.1
             ]
           },
           "ENDCOMMON": {
@@ -352,9 +423,10 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 4,
-            "N2": 165,
+            "N1": 5,
+            "N2": 219,
             "pointer": [
+              "",
               "",
               "",
               "",
@@ -362,11 +434,13 @@
             ],
             "heading": [
               "E-LVL",
+              "E-LVL",
               "ANG-CM",
               "DATA-CM",
-              "DATA-ERR3"
+              "DATA-ERR"
             ],
             "unit": [
+              "MEV",
               "MEV",
               "ADEG",
               "MB/SR",
@@ -375,990 +449,1533 @@
             "value": [
               [
                 1.98,
+                null,
                 18.5,
                 30.5,
                 1.692
               ],
               [
                 1.98,
+                null,
                 22.8,
                 18.02,
                 1.521
               ],
               [
                 1.98,
+                null,
                 25.6,
                 4.368,
                 0.433
               ],
               [
                 1.98,
+                null,
                 28.2,
                 6.553,
                 0.553
               ],
               [
                 1.98,
+                null,
                 30.9,
                 8.824,
                 0.875
               ],
               [
                 1.98,
+                null,
                 37.6,
                 16.67,
                 1.408
               ],
               [
                 1.98,
+                null,
                 40.7,
                 14.57,
                 1.229
               ],
               [
                 1.98,
+                null,
                 43.8,
                 9.335,
                 0.925
               ],
               [
                 1.98,
+                null,
                 46.9,
                 4.951,
                 0.491
               ],
               [
                 1.98,
+                null,
                 49.9,
                 4.954,
                 0.418
               ],
               [
                 1.98,
+                null,
                 52.5,
                 7.233,
                 0.717
               ],
               [
                 1.98,
+                null,
                 55.2,
                 5.91,
                 0.499
               ],
               [
                 1.98,
+                null,
                 57.9,
                 7.438,
                 0.519
               ],
               [
                 1.98,
+                null,
                 60.6,
                 4.831,
                 0.408
               ],
               [
                 1.98,
+                null,
                 63.7,
                 3.054,
                 0.213
               ],
               [
                 1.98,
+                null,
                 66.8,
                 2.27,
                 0.192
               ],
               [
                 1.98,
+                null,
                 74.7,
                 2.304,
                 0.263
               ],
               [
                 1.98,
+                null,
                 77.4,
                 1.908,
                 0.161
               ],
               [
                 1.98,
+                null,
                 80.5,
                 1.143,
                 0.113
               ],
               [
                 1.98,
+                null,
                 83.6,
                 0.742,
                 0.107
               ],
               [
                 1.98,
+                null,
                 85.9,
                 0.559,
                 0.039
               ],
               [
                 1.98,
+                null,
                 88.6,
                 0.463,
                 0.136
               ],
               [
                 1.98,
+                null,
                 91.7,
                 0.416,
                 0.136
               ],
               [
                 1.98,
+                null,
                 93.9,
                 0.591,
                 0.163
               ],
               [
                 1.98,
+                null,
                 96.6,
                 0.464,
                 0.06
               ],
               [
                 1.98,
+                null,
                 98.5,
                 0.65,
                 0.104
               ],
               [
                 1.98,
+                null,
                 101.4,
                 1.117,
                 0.111
               ],
               [
                 1.98,
+                null,
                 107.0,
                 1.892,
                 0.245
               ],
               [
                 1.98,
+                null,
                 109.3,
                 2.196,
                 0.218
               ],
               [
                 1.98,
+                null,
                 112.0,
                 1.506,
                 0.218
               ],
               [
                 1.98,
+                null,
                 113.9,
                 1.352,
                 0.134
               ],
               [
                 1.98,
+                null,
                 117.0,
                 0.939,
                 0.227
               ],
               [
                 1.98,
+                null,
                 119.3,
                 0.94,
                 0.107
               ],
               [
                 1.98,
+                null,
                 121.2,
                 1.215,
                 0.12
               ],
               [
                 1.98,
+                null,
                 123.4,
                 1.847,
                 0.211
               ],
               [
                 1.98,
+                null,
                 126.0,
                 2.809,
                 0.237
               ],
               [
                 1.98,
+                null,
                 127.5,
                 3.731,
                 0.656
               ],
               [
                 1.98,
+                null,
                 129.8,
                 3.305,
                 0.328
               ],
               [
                 1.98,
+                null,
                 133.2,
                 3.684,
                 0.648
               ],
               [
                 1.98,
+                null,
                 134.7,
                 2.491,
                 0.36
               ],
               [
                 1.98,
+                null,
                 136.7,
                 1.877,
                 0.243
               ],
               [
                 1.98,
+                null,
                 139.3,
                 2.299,
                 0.161
               ],
               [
                 1.98,
+                null,
                 142.8,
                 1.22,
                 0.103
               ],
               [
                 1.98,
+                null,
                 145.0,
                 1.879,
                 0.583
               ],
               [
                 1.98,
+                null,
                 148.4,
                 2.334,
                 0.448
               ],
               [
                 1.98,
+                null,
                 150.3,
                 2.498,
                 0.211
               ],
               [
                 1.98,
+                null,
                 154.4,
                 4.176,
                 0.352
               ],
               [
                 1.98,
+                null,
                 156.3,
                 4.409,
                 0.503
               ],
               [
                 1.98,
+                null,
                 159.0,
                 4.411,
                 0.437
               ],
               [
                 1.98,
+                null,
                 160.9,
                 4.069,
                 0.284
               ],
               [
                 1.98,
+                null,
                 163.2,
                 3.605,
                 0.357
               ],
               [
                 1.98,
+                null,
                 164.0,
                 2.405,
                 0.311
               ],
               [
                 1.98,
+                null,
                 168.1,
                 2.987,
                 0.252
               ],
               [
                 1.98,
+                null,
                 169.6,
                 4.131,
                 1.066
               ],
               [
+                3.56,
+                3.63,
+                33.7,
+                3.627,
+                0.81
+              ],
+              [
+                3.56,
+                3.63,
+                37.1,
+                3.779,
+                0.429
+              ],
+              [
+                3.56,
+                3.63,
+                40.1,
+                3.782,
+                0.429
+              ],
+              [
+                3.56,
+                3.63,
+                42.4,
+                2.816,
+                0.278
+              ],
+              [
+                3.56,
+                3.63,
+                45.5,
+                2.463,
+                0.243
+              ],
+              [
+                3.56,
+                3.63,
+                48.9,
+                2.244,
+                0.221
+              ],
+              [
+                3.56,
+                3.63,
+                52.0,
+                1.886,
+                0.158
+              ],
+              [
+                3.56,
+                3.63,
+                54.7,
+                1.195,
+                0.136
+              ],
+              [
+                3.56,
+                3.63,
+                57.7,
+                1.405,
+                0.139
+              ],
+              [
+                3.56,
+                3.63,
+                61.2,
+                1.229,
+                0.121
+              ],
+              [
+                3.56,
+                3.63,
+                64.2,
+                1.12,
+                0.127
+              ],
+              [
+                3.56,
+                3.63,
+                66.1,
+                1.166,
+                0.168
+              ],
+              [
+                3.56,
+                3.63,
+                69.1,
+                1.408,
+                0.139
+              ],
+              [
+                3.56,
+                3.63,
+                72.2,
+                1.183,
+                0.134
+              ],
+              [
+                3.56,
+                3.63,
+                74.9,
+                1.049,
+                0.119
+              ],
+              [
+                3.56,
+                3.63,
+                77.9,
+                1.469,
+                0.234
+              ],
+              [
+                3.56,
+                3.63,
+                80.2,
+                1.17,
+                0.168
+              ],
+              [
+                3.56,
+                3.63,
+                82.9,
+                0.907,
+                0.103
+              ],
+              [
+                3.56,
+                3.63,
+                86.3,
+                1.066,
+                0.121
+              ],
+              [
+                3.56,
+                3.63,
+                87.8,
+                0.815,
+                0.142
+              ],
+              [
+                3.56,
+                3.63,
+                91.3,
+                0.649,
+                0.145
+              ],
+              [
+                3.56,
+                3.63,
+                94.0,
+                0.576,
+                0.129
+              ],
+              [
+                3.56,
+                3.63,
+                95.9,
+                0.539,
+                0.12
+              ],
+              [
+                3.56,
+                3.63,
+                99.3,
+                0.539,
+                0.112
+              ],
+              [
+                3.56,
+                3.63,
+                101.2,
+                0.6,
+                0.144
+              ],
+              [
+                3.56,
+                3.63,
+                104.2,
+                0.765,
+                0.146
+              ],
+              [
+                3.56,
+                3.63,
+                106.4,
+                1.275,
+                0.164
+              ],
+              [
+                3.56,
+                3.63,
+                109.5,
+                0.988,
+                0.127
+              ],
+              [
+                3.56,
+                3.63,
+                111.8,
+                0.766,
+                0.122
+              ],
+              [
+                3.56,
+                3.63,
+                114.8,
+                0.736,
+                0.106
+              ],
+              [
+                3.56,
+                3.63,
+                116.8,
+                0.548,
+                0.079
+              ],
+              [
+                3.56,
+                3.63,
+                118.7,
+                0.493,
+                0.094
+              ],
+              [
+                3.56,
+                3.63,
+                121.3,
+                0.595,
+                0.095
+              ],
+              [
+                3.56,
+                3.63,
+                123.5,
+                0.991,
+                0.158
+              ],
+              [
+                3.56,
+                3.63,
+                125.4,
+                1.149,
+                0.13
+              ],
+              [
+                3.56,
+                3.63,
+                128.4,
+                1.484,
+                0.146
+              ],
+              [
+                3.56,
+                3.63,
+                130.6,
+                1.588,
+                0.204
+              ],
+              [
+                3.56,
+                3.63,
+                132.9,
+                1.944,
+                0.163
+              ],
+              [
+                3.56,
+                3.63,
+                134.4,
+                2.284,
+                0.192
+              ],
+              [
+                3.56,
+                3.63,
+                137.0,
+                2.477,
+                0.281
+              ],
+              [
+                3.56,
+                3.63,
+                138.9,
+                2.478,
+                0.244
+              ],
+              [
+                3.56,
+                3.63,
+                141.2,
+                2.446,
+                0.205
+              ],
+              [
+                3.56,
+                3.63,
+                143.5,
+                2.001,
+                0.197
+              ],
+              [
+                3.56,
+                3.63,
+                145.8,
+                2.549,
+                0.214
+              ],
+              [
+                3.56,
+                3.63,
+                148.0,
+                2.691,
+                0.305
+              ],
+              [
+                3.56,
+                3.63,
+                149.9,
+                2.552,
+                0.214
+              ],
+              [
+                3.56,
+                3.63,
+                153.7,
+                2.553,
+                0.29
+              ],
+              [
+                3.56,
+                3.63,
+                156.0,
+                2.421,
+                0.203
+              ],
+              [
+                3.56,
+                3.63,
+                157.9,
+                2.59,
+                0.255
+              ],
+              [
+                3.56,
+                3.63,
+                162.0,
+                3.676,
+                0.417
+              ],
+              [
+                3.56,
+                3.63,
+                163.6,
+                3.485,
+                0.344
+              ],
+              [
+                3.56,
+                3.63,
+                166.2,
+                4.042,
+                0.458
+              ],
+              [
+                3.56,
+                3.63,
+                168.1,
+                4.687,
+                0.325
+              ],
+              [
+                3.56,
+                3.63,
+                169.6,
+                5.014,
+                0.494
+              ],
+              [
                 3.92,
+                null,
                 33.3,
                 3.358,
                 0.535
               ],
               [
                 3.92,
+                null,
                 36.4,
                 3.058,
                 0.535
               ],
               [
                 3.92,
+                null,
                 39.8,
                 2.711,
                 0.39
               ],
               [
                 3.92,
+                null,
                 42.1,
                 2.13,
                 0.373
               ],
               [
                 3.92,
+                null,
                 45.2,
                 1.332,
                 0.151
               ],
               [
                 3.92,
+                null,
                 48.3,
                 1.444,
                 0.164
               ],
               [
                 3.92,
+                null,
                 51.3,
                 1.525,
                 0.196
               ],
               [
                 3.92,
+                null,
                 54.7,
                 1.943,
                 0.221
               ],
               [
                 3.92,
+                null,
                 57.8,
                 1.466,
                 0.189
               ],
               [
                 3.92,
+                null,
                 60.4,
                 1.819,
                 0.234
               ],
               [
                 3.92,
+                null,
                 63.5,
                 1.107,
                 0.109
               ],
               [
                 3.92,
+                null,
                 66.2,
                 1.153,
                 0.148
               ],
               [
                 3.92,
+                null,
                 68.8,
                 1.064,
                 0.105
               ],
               [
                 3.92,
+                null,
                 71.9,
                 1.065,
                 0.137
               ],
               [
                 3.92,
+                null,
                 74.5,
                 1.269,
                 0.125
               ],
               [
                 3.92,
+                null,
                 77.2,
                 1.052,
                 0.151
               ],
               [
                 3.92,
+                null,
                 80.2,
                 0.971,
                 0.096
               ],
               [
                 3.92,
+                null,
                 82.5,
                 0.849,
                 0.084
               ],
               [
                 3.92,
+                null,
                 85.6,
                 0.704,
                 0.123
               ],
               [
                 3.92,
+                null,
                 88.3,
                 0.591,
                 0.076
               ],
               [
                 3.92,
+                null,
                 90.5,
                 0.659,
                 0.085
               ],
               [
                 3.92,
+                null,
                 93.2,
                 0.517,
                 0.099
               ],
               [
                 3.92,
+                null,
                 95.9,
                 0.584,
                 0.102
               ],
               [
                 3.92,
+                null,
                 98.9,
                 0.696,
                 0.111
               ],
               [
                 3.92,
+                null,
                 101.9,
                 0.697,
                 0.122
               ],
               [
                 3.92,
+                null,
                 103.8,
                 1.002,
                 0.129
               ],
               [
                 3.92,
+                null,
                 107.2,
                 1.347,
                 0.215
               ],
               [
                 3.92,
+                null,
                 109.1,
                 0.9,
                 0.116
               ],
               [
                 3.92,
+                null,
                 111.1,
                 0.473,
                 0.068
               ],
               [
                 3.92,
+                null,
                 114.1,
                 0.527,
                 0.068
               ],
               [
                 3.92,
+                null,
                 116.0,
                 0.662,
                 0.075
               ],
               [
                 3.92,
+                null,
                 119.4,
                 0.699,
                 0.09
               ],
               [
                 3.92,
+                null,
                 121.3,
                 0.534,
                 0.061
               ],
               [
                 3.92,
+                null,
                 123.6,
                 0.557,
                 0.072
               ],
               [
                 3.92,
+                null,
                 125.5,
                 0.58,
                 0.075
               ],
               [
                 3.92,
+                null,
                 128.1,
                 0.98,
                 0.097
               ],
               [
                 3.92,
+                null,
                 130.4,
                 1.077,
                 0.155
               ],
               [
                 3.92,
+                null,
                 131.9,
                 1.02,
                 0.147
               ],
               [
                 3.92,
+                null,
                 133.8,
                 0.929,
                 0.105
               ],
               [
                 3.92,
+                null,
                 137.2,
                 0.781,
                 0.112
               ],
               [
                 3.92,
+                null,
                 138.8,
                 0.74,
                 0.095
               ],
               [
                 3.92,
+                null,
                 140.7,
                 0.721,
                 0.104
               ],
               [
                 3.92,
+                null,
                 143.0,
                 0.574,
                 0.083
               ],
               [
                 3.92,
+                null,
                 145.2,
                 0.894,
                 0.142
               ],
               [
                 3.92,
+                null,
                 147.4,
                 1.051,
                 0.104
               ],
               [
                 3.92,
+                null,
                 149.4,
                 0.722,
                 0.093
               ],
               [
                 3.92,
+                null,
                 153.1,
                 1.081,
                 0.107
               ],
               [
                 3.92,
+                null,
                 155.4,
                 1.111,
                 0.143
               ],
               [
                 3.92,
+                null,
                 157.7,
                 1.112,
                 0.16
               ],
               [
                 3.92,
+                null,
                 159.5,
                 1.828,
                 0.235
               ],
               [
                 3.92,
+                null,
                 161.8,
                 1.379,
                 0.177
               ],
               [
                 3.92,
+                null,
                 164.1,
                 1.578,
                 0.459
               ],
               [
                 3.92,
+                null,
                 165.9,
                 2.493,
                 0.321
               ],
               [
                 3.92,
+                null,
                 167.5,
                 1.831,
                 0.208
               ],
               [
                 3.92,
+                null,
                 169.8,
                 1.623,
                 0.259
               ],
               [
                 4.45,
+                null,
                 24.2,
                 34.29,
                 3.379
               ],
               [
                 4.45,
+                null,
                 27.2,
                 45.49,
                 4.483
               ],
               [
                 4.45,
+                null,
                 30.0,
                 29.61,
                 2.485
               ],
               [
                 4.45,
+                null,
                 33.0,
                 24.23,
                 2.033
               ],
               [
                 4.45,
+                null,
                 35.4,
                 12.89,
                 1.462
               ],
               [
                 4.45,
+                null,
                 39.3,
                 6.418,
                 1.122
               ],
               [
                 4.45,
+                null,
                 42.4,
                 5.615,
                 0.721
               ],
               [
                 4.45,
+                null,
                 45.4,
                 6.872,
                 0.883
               ],
               [
                 4.45,
+                null,
                 48.0,
                 8.873,
                 0.744
               ],
               [
                 4.45,
+                null,
                 51.5,
                 5.935,
                 0.762
               ],
               [
                 4.45,
+                null,
                 54.2,
                 3.613,
                 0.632
               ],
               [
                 4.45,
+                null,
                 58.0,
                 3.247,
                 1.0
               ],
               [
                 4.45,
+                null,
                 60.5,
                 7.57,
                 0.859
               ],
               [
                 4.45,
+                null,
                 63.6,
                 8.78,
                 1.128
               ],
               [
                 4.45,
+                null,
                 66.5,
                 12.62,
                 1.244
               ],
               [
                 4.45,
+                null,
                 68.9,
                 9.917,
                 1.125
               ],
               [
                 4.45,
+                null,
                 72.0,
                 5.799,
                 1.199
               ],
               [
                 4.45,
+                null,
                 74.7,
                 4.204,
                 0.604
               ],
               [
                 4.45,
+                null,
                 77.7,
                 4.81,
                 0.618
               ],
               [
                 4.45,
+                null,
                 80.3,
                 5.216,
                 0.592
               ],
               [
                 4.45,
+                null,
                 82.7,
                 3.05,
                 0.681
               ],
               [
                 4.45,
+                null,
                 85.7,
                 3.052,
                 0.582
               ],
               [
                 4.45,
+                null,
                 88.8,
                 3.222,
                 0.719
               ],
               [
                 4.45,
+                null,
                 90.8,
                 1.785,
                 0.458
               ],
               [
                 4.45,
+                null,
                 93.6,
                 0.586,
                 0.212
               ],
               [
                 4.45,
+                null,
                 97.0,
                 0.594,
                 0.204
               ],
               [
                 4.45,
+                null,
                 99.2,
                 0.799,
                 0.218
               ],
               [
                 4.45,
+                null,
                 101.9,
                 0.595,
                 0.204
               ],
               [
                 4.45,
+                null,
                 104.6,
                 0.587,
                 0.212
               ],
               [
                 4.45,
+                null,
                 107.5,
                 1.791,
                 0.615
               ],
               [
                 4.45,
+                null,
                 109.3,
                 2.753,
                 0.396
               ],
               [
                 4.45,
+                null,
                 112.2,
                 6.001,
                 0.681
               ],
               [
                 4.45,
+                null,
                 114.1,
                 9.477,
                 1.657
               ],
               [
                 4.45,
+                null,
                 116.0,
                 8.984,
                 1.291
               ],
               [
                 4.45,
+                null,
                 119.0,
                 7.652,
                 0.754
               ],
               [
                 4.45,
+                null,
                 121.0,
                 6.011,
                 0.682
               ],
               [
                 4.45,
+                null,
                 123.0,
                 2.723,
                 0.608
               ],
               [
                 4.45,
+                null,
                 126.1,
                 2.028,
                 0.419
               ],
               [
                 4.45,
+                null,
                 128.3,
                 2.876,
                 0.595
               ],
               [
                 4.45,
+                null,
                 130.2,
                 3.566,
                 0.915
               ],
               [
                 4.45,
+                null,
                 132.4,
                 5.786,
                 0.656
               ],
               [
                 4.45,
+                null,
                 135.0,
                 9.138,
                 2.655
               ],
               [
                 4.45,
+                null,
                 137.2,
                 13.68,
                 1.757
               ],
               [
                 4.45,
+                null,
                 139.1,
                 15.03,
                 1.931
               ],
               [
                 4.45,
+                null,
                 141.3,
                 15.04,
                 1.931
               ],
               [
                 4.45,
+                null,
                 145.2,
                 7.586,
                 1.447
               ],
               [
                 4.45,
+                null,
                 147.6,
                 6.04,
                 0.776
               ],
               [
                 4.45,
+                null,
                 150.2,
                 4.941,
                 0.786
               ],
               [
                 4.45,
+                null,
                 153.6,
                 5.505,
                 0.791
               ],
               [
                 4.45,
+                null,
                 155.5,
                 5.733,
                 0.913
               ],
               [
                 4.45,
+                null,
                 157.8,
                 8.023,
                 1.031
               ],
               [
                 4.45,
+                null,
                 159.9,
                 17.73,
                 1.747
               ],
               [
                 4.45,
+                null,
                 161.8,
                 17.97,
                 2.038
               ],
               [
                 4.45,
+                null,
                 165.6,
                 17.27,
                 1.702
               ],
               [
                 4.45,
+                null,
                 167.5,
                 18.98,
                 2.151
               ],
               [
                 4.45,
+                null,
                 169.8,
                 25.18,
                 2.112
@@ -1377,12 +1994,12 @@
         {
           "SUBENT": {
             "N1": "F0496003",
-            "N2": 20151006,
+            "N2": 20251212,
             "alteration_flag": " ",
-            "transmission_identification": "F059"
+            "transmission_identification": "F104"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1413,6 +2030,32 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Absolute error of cross-section"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information about source of uncertainty"
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -1421,11 +2064,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.S.Sadkovskii+",
+                "reference": {
+                  "code": "J,BAS,48,(5),158,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "5",
+                      "page": "158"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                "Fig.2"
+                " Fig.2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251212,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -1446,7 +2115,7 @@
             "heading": [
               "EN",
               "E-LVL",
-              "DATA-ERR2",
+              "ERR-2",
               "ERR-DIG",
               "ANG-ERR-D"
             ],
@@ -1480,7 +2149,7 @@
             "heading": [
               "ANG-CM",
               "DATA-CM",
-              "DATA-ERR3"
+              "DATA-ERR"
             ],
             "unit": [
               "ADEG",
@@ -1702,12 +2371,12 @@
         {
           "SUBENT": {
             "N1": "F0496004",
-            "N2": 20151006,
+            "N2": 20251212,
             "alteration_flag": " ",
-            "transmission_identification": "F059"
+            "transmission_identification": "F104"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1738,6 +2407,32 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Absolute error of cross-section"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information about source of uncertainty"
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -1746,11 +2441,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.S.Sadkovskii+",
+                "reference": {
+                  "code": "J,BAS,48,(5),158,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "5",
+                      "page": "158"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                "Fig.3"
+                " Fig.3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251212,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: BIB updated. Data from Subent 009 added"
               ]
             }
           ],
@@ -1769,7 +2490,7 @@
             ],
             "heading": [
               "EN",
-              "DATA-ERR2",
+              "ERR-2",
               "ERR-DIG",
               "ANG-ERR-D"
             ],
@@ -1791,9 +2512,10 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 4,
-            "N2": 154,
+            "N1": 5,
+            "N2": 208,
             "pointer": [
+              "",
               "",
               "",
               "",
@@ -1801,11 +2523,13 @@
             ],
             "heading": [
               "E-LVL",
+              "E-LVL",
               "ANG-CM",
               "DATA-CM",
-              "DATA-ERR3"
+              "DATA-ERR"
             ],
             "unit": [
+              "MEV",
               "MEV",
               "ADEG",
               "MB/SR",
@@ -1814,927 +2538,1459 @@
             "value": [
               [
                 1.63,
+                null,
                 18.1,
                 195.3,
                 20.8
               ],
               [
                 1.63,
+                null,
                 24.1,
                 66.03,
                 7.858
               ],
               [
                 1.63,
+                null,
                 27.4,
                 32.63,
                 5.546
               ],
               [
                 1.63,
+                null,
                 30.3,
                 7.082,
                 0.754
               ],
               [
                 1.63,
+                null,
                 33.5,
                 33.26,
                 3.131
               ],
               [
                 1.63,
+                null,
                 38.7,
                 58.8,
                 null
               ],
               [
                 1.63,
+                null,
                 42.4,
                 35.6,
                 2.485
               ],
               [
                 1.63,
+                null,
                 46.5,
                 15.56,
                 null
               ],
               [
                 1.63,
+                null,
                 48.5,
                 7.848,
                 0.934
               ],
               [
                 1.63,
+                null,
                 51.7,
                 6.152,
                 1.052
               ],
               [
                 1.63,
+                null,
                 53.5,
                 21.52,
                 1.772
               ],
               [
                 1.63,
+                null,
                 56.7,
                 30.29,
                 2.481
               ],
               [
                 1.63,
+                null,
                 59.8,
                 24.01,
                 2.26
               ],
               [
                 1.63,
+                null,
                 63.3,
                 13.89,
                 1.308
               ],
               [
                 1.63,
+                null,
                 65.8,
                 4.521,
                 0.712
               ],
               [
                 1.63,
+                null,
                 68.4,
                 3.347,
                 0.485
               ],
               [
                 1.63,
+                null,
                 70.5,
                 4.812,
                 0.634
               ],
               [
                 1.63,
+                null,
                 73.6,
                 7.412,
                 0.698
               ],
               [
                 1.63,
+                null,
                 77.0,
                 11.68,
                 1.682
               ],
               [
                 1.63,
+                null,
                 78.8,
                 9.669,
                 1.781
               ],
               [
                 1.63,
+                null,
                 81.6,
                 7.835,
                 0.936
               ],
               [
                 1.63,
+                null,
                 84.9,
                 5.427,
                 0.648
               ],
               [
                 1.63,
+                null,
                 87.0,
                 3.391,
                 0.49
               ],
               [
                 1.63,
+                null,
                 89.6,
                 2.244,
                 0.383
               ],
               [
                 1.63,
+                null,
                 92.9,
                 2.154,
                 0.34
               ],
               [
                 1.63,
+                null,
                 95.1,
                 1.686,
                 0.31
               ],
               [
                 1.63,
+                null,
                 97.9,
                 1.791,
                 0.283
               ],
               [
                 1.63,
+                null,
                 99.7,
                 1.964,
                 0.31
               ],
               [
                 1.63,
+                null,
                 102.6,
                 1.971,
                 0.235
               ],
               [
                 1.63,
+                null,
                 104.8,
                 2.68,
                 0.251
               ],
               [
                 1.63,
+                null,
                 107.9,
                 3.185,
                 0.261
               ],
               [
                 1.63,
+                null,
                 109.8,
                 3.23,
                 0.344
               ],
               [
                 1.63,
+                null,
                 113.1,
                 2.866,
                 0.305
               ],
               [
                 1.63,
+                null,
                 115.0,
                 2.268,
                 0.27
               ],
               [
                 1.63,
+                null,
                 117.9,
                 1.68,
                 0.243
               ],
               [
                 1.63,
+                null,
                 120.0,
                 1.864,
                 0.269
               ],
               [
                 1.63,
+                null,
                 122.3,
                 3.358,
                 0.4
               ],
               [
                 1.63,
+                null,
                 124.2,
                 4.614,
                 0.491
               ],
               [
                 1.63,
+                null,
                 126.9,
                 6.945,
                 0.914
               ],
               [
                 1.63,
+                null,
                 129.4,
                 7.455,
                 0.611
               ],
               [
                 1.63,
+                null,
                 131.5,
                 8.461,
                 1.118
               ],
               [
                 1.63,
+                null,
                 134.7,
                 6.783,
                 0.722
               ],
               [
                 1.63,
+                null,
                 136.5,
                 5.428,
                 0.715
               ],
               [
                 1.63,
+                null,
                 138.4,
                 4.153,
                 0.442
               ],
               [
                 1.63,
+                null,
                 140.5,
                 1.872,
                 0.471
               ],
               [
                 1.63,
+                null,
                 142.1,
                 2.601,
                 0.277
               ],
               [
                 1.63,
+                null,
                 144.6,
                 3.826,
                 0.553
               ],
               [
                 1.63,
+                null,
                 148.0,
                 4.301,
                 0.403
               ],
               [
                 1.63,
+                null,
                 149.5,
                 6.537,
                 0.615
               ],
               [
                 1.63,
+                null,
                 151.6,
                 6.936,
                 0.825
               ],
               [
                 1.63,
+                null,
                 153.7,
                 6.076,
                 0.572
               ],
               [
                 1.63,
+                null,
                 155.6,
                 6.3,
                 0.677
               ],
               [
                 1.63,
+                null,
                 157.4,
                 5.156,
                 0.422
               ],
               [
                 1.63,
+                null,
                 159.3,
                 4.127,
                 0.388
               ],
               [
                 1.63,
+                null,
                 162.0,
                 3.577,
                 0.381
               ],
               [
                 1.63,
+                null,
                 163.2,
                 1.489,
                 0.234
               ],
               [
                 1.63,
+                null,
                 165.2,
                 1.956,
                 0.258
               ],
               [
                 1.63,
+                null,
                 167.4,
                 2.75,
                 0.362
               ],
               [
                 1.63,
+                null,
                 169.7,
                 4.682,
                 0.557
               ],
               [
                 4.25,
+                null,
                 17.2,
                 16.49,
                 3.287
               ],
               [
                 4.25,
+                null,
                 20.5,
                 10.4,
                 0.987
               ],
               [
                 4.25,
+                null,
                 23.5,
                 13.86,
                 0.976
               ],
               [
                 4.25,
+                null,
                 26.5,
                 16.87,
                 1.813
               ],
               [
                 4.25,
+                null,
                 30.0,
                 16.2,
                 1.538
               ],
               [
                 4.25,
+                null,
                 33.5,
                 12.82,
                 1.217
               ],
               [
                 4.25,
+                null,
                 35.9,
                 11.22,
                 0.922
               ],
               [
                 4.25,
+                null,
                 39.3,
                 6.389,
                 0.528
               ],
               [
                 4.25,
+                null,
                 42.1,
                 3.718,
                 0.307
               ],
               [
                 4.25,
+                null,
                 45.1,
                 2.508,
                 0.301
               ],
               [
                 4.25,
+                null,
                 48.3,
                 4.756,
                 0.452
               ],
               [
                 4.25,
+                null,
                 54.3,
                 5.073,
                 0.545
               ],
               [
                 4.25,
+                null,
                 57.7,
                 3.309,
                 0.438
               ],
               [
                 4.25,
+                null,
                 61.0,
                 3.809,
                 0.457
               ],
               [
                 4.25,
+                null,
                 63.8,
                 3.188,
                 0.422
               ],
               [
                 4.25,
+                null,
                 71.3,
                 2.809,
                 0.521
               ],
               [
                 4.25,
+                null,
                 74.5,
                 2.885,
                 0.535
               ],
               [
                 4.25,
+                null,
                 77.0,
                 3.098,
                 0.533
               ],
               [
                 4.25,
+                null,
                 79.2,
                 2.366,
                 0.346
               ],
               [
                 4.25,
+                null,
                 82.6,
                 2.573,
                 0.583
               ],
               [
                 4.25,
+                null,
                 90.3,
                 2.569,
                 0.476
               ],
               [
                 4.25,
+                null,
                 92.8,
                 2.79,
                 0.371
               ],
               [
                 4.25,
+                null,
                 95.3,
                 2.93,
                 0.465
               ],
               [
                 4.25,
+                null,
                 98.8,
                 3.079,
                 0.447
               ],
               [
                 4.25,
+                null,
                 100.9,
                 2.546,
                 0.371
               ],
               [
                 4.25,
+                null,
                 103.3,
                 2.154,
                 0.205
               ],
               [
                 4.25,
+                null,
                 105.9,
                 2.161,
                 0.205
               ],
               [
                 4.25,
+                null,
                 108.8,
                 2.219,
                 0.211
               ],
               [
                 4.25,
+                null,
                 110.6,
                 2.381,
                 0.257
               ],
               [
                 4.25,
+                null,
                 113.1,
                 1.839,
                 0.221
               ],
               [
                 4.25,
+                null,
                 115.7,
                 1.804,
                 0.195
               ],
               [
                 4.25,
+                null,
                 117.8,
                 1.508,
                 0.2
               ],
               [
                 4.25,
+                null,
                 120.6,
                 1.179,
                 0.187
               ],
               [
                 4.25,
+                null,
                 122.8,
                 1.325,
                 0.159
               ],
               [
                 4.25,
+                null,
                 124.8,
                 1.172,
                 0.218
               ],
               [
                 4.25,
+                null,
                 126.9,
                 1.41,
                 0.206
               ],
               [
                 4.25,
+                null,
                 133.6,
                 3.526,
                 0.562
               ],
               [
                 4.25,
+                null,
                 136.1,
                 3.83,
                 0.46
               ],
               [
                 4.25,
+                null,
                 139.3,
                 3.979,
                 0.48
               ],
               [
                 4.25,
+                null,
                 142.9,
                 3.569,
                 0.383
               ],
               [
                 4.25,
+                null,
                 144.9,
                 3.305,
                 0.314
               ],
               [
                 4.25,
+                null,
                 146.8,
                 3.351,
                 0.318
               ],
               [
                 4.25,
+                null,
                 149.5,
                 2.934,
                 0.277
               ],
               [
                 4.25,
+                null,
                 151.0,
                 3.33,
                 0.4
               ],
               [
                 4.25,
+                null,
                 155.0,
                 4.015,
                 0.379
               ],
               [
                 4.25,
+                null,
                 156.7,
                 4.936,
                 0.719
               ],
               [
                 4.25,
+                null,
                 158.9,
                 5.006,
                 0.538
               ],
               [
                 4.25,
+                null,
                 160.8,
                 5.192,
                 0.623
               ],
               [
                 4.25,
+                null,
                 162.9,
                 4.647,
                 0.441
               ],
               [
                 4.25,
+                null,
                 164.9,
                 5.914,
                 0.635
               ],
               [
                 4.25,
+                null,
                 166.8,
                 5.795,
                 0.408
               ],
               [
                 4.25,
+                null,
                 169.3,
                 6.084,
                 0.578
               ],
               [
                 4.97,
+                null,
                 33.4,
                 2.961,
                 0.361
               ],
               [
                 4.97,
+                null,
                 36.5,
                 1.652,
                 0.501
               ],
               [
                 4.97,
+                null,
                 42.4,
                 1.572,
                 0.192
               ],
               [
                 4.97,
+                null,
                 45.2,
                 1.253,
                 0.17
               ],
               [
                 4.97,
+                null,
                 48.5,
                 1.109,
                 0.24
               ],
               [
                 4.97,
+                null,
                 53.9,
                 0.487,
                 0.148
               ],
               [
                 4.97,
+                null,
                 57.3,
                 0.944,
                 0.273
               ],
               [
                 4.97,
+                null,
                 63.8,
                 0.342,
                 0.094
               ],
               [
                 4.97,
+                null,
                 68.8,
                 0.558,
                 0.169
               ],
               [
                 4.97,
+                null,
                 71.9,
                 0.819,
                 0.166
               ],
               [
                 4.97,
+                null,
                 77.5,
                 1.324,
                 0.324
               ],
               [
                 4.97,
+                null,
                 82.5,
                 1.122,
                 0.341
               ],
               [
                 4.97,
+                null,
                 90.7,
                 0.384,
                 0.134
               ],
               [
                 4.97,
+                null,
                 93.7,
                 0.336,
                 0.123
               ],
               [
                 4.97,
+                null,
                 96.1,
                 0.754,
                 0.229
               ],
               [
                 4.97,
+                null,
                 107.1,
                 0.921,
                 0.425
               ],
               [
                 4.97,
+                null,
                 108.7,
                 0.881,
                 0.167
               ],
               [
                 4.97,
+                null,
                 111.2,
                 1.015,
                 0.191
               ],
               [
                 4.97,
+                null,
                 113.9,
                 0.867,
                 0.141
               ],
               [
                 4.97,
+                null,
                 115.9,
                 1.107,
                 0.165
               ],
               [
                 4.97,
+                null,
                 118.9,
                 0.968,
                 0.21
               ],
               [
                 4.97,
+                null,
                 121.2,
                 0.971,
                 0.197
               ],
               [
                 4.97,
+                null,
                 122.9,
                 0.607,
                 0.148
               ],
               [
                 4.97,
+                null,
                 124.9,
                 0.549,
                 0.15
               ],
               [
                 4.97,
+                null,
                 128.0,
                 0.618,
                 0.125
               ],
               [
                 4.97,
+                null,
                 131.9,
                 2.158,
                 0.376
               ],
               [
                 4.97,
+                null,
                 134.3,
                 2.347,
                 0.379
               ],
               [
                 4.97,
+                null,
                 136.8,
                 2.703,
                 0.402
               ],
               [
                 4.97,
+                null,
                 139.3,
                 2.874,
                 0.426
               ],
               [
                 4.97,
+                null,
                 143.2,
                 2.696,
                 0.329
               ],
               [
                 4.97,
+                null,
                 145.4,
                 2.767,
                 0.373
               ],
               [
                 4.97,
+                null,
                 147.1,
                 1.853,
                 0.179
               ],
               [
                 4.97,
+                null,
                 149.2,
                 1.51,
                 0.204
               ],
               [
                 4.97,
+                null,
                 151.6,
                 1.43,
                 0.231
               ],
               [
                 4.97,
+                null,
                 152.9,
                 1.306,
                 0.211
               ],
               [
                 4.97,
+                null,
                 155.0,
                 1.128,
                 0.138
               ],
               [
                 4.97,
+                null,
                 156.9,
                 1.543,
                 0.229
               ],
               [
                 4.97,
+                null,
                 159.2,
                 2.723,
                 0.438
               ],
               [
                 4.97,
+                null,
                 161.5,
                 2.608,
                 0.285
               ],
               [
                 4.97,
+                null,
                 163.1,
                 2.614,
                 0.285
               ],
               [
                 4.97,
+                null,
                 165.3,
                 1.988,
                 0.217
               ],
               [
                 4.97,
+                null,
                 167.4,
                 2.425,
                 0.234
               ],
               [
                 4.97,
+                null,
                 169.1,
                 2.957,
                 0.323
+              ],
+              [
+                5.62,
+                5.78,
+                17.4,
+                0.265,
+                0.084
+              ],
+              [
+                5.62,
+                5.78,
+                21.5,
+                0.276,
+                0.048
+              ],
+              [
+                5.62,
+                5.78,
+                24.5,
+                0.36,
+                0.048
+              ],
+              [
+                5.62,
+                5.78,
+                29.8,
+                0.295,
+                null
+              ],
+              [
+                5.62,
+                5.78,
+                33.9,
+                0.226,
+                null
+              ],
+              [
+                5.62,
+                5.78,
+                36.8,
+                0.127,
+                null
+              ],
+              [
+                5.62,
+                5.78,
+                39.8,
+                0.108,
+                null
+              ],
+              [
+                5.62,
+                5.78,
+                42.6,
+                0.085,
+                null
+              ],
+              [
+                5.62,
+                5.78,
+                48.5,
+                0.1,
+                0.013
+              ],
+              [
+                5.62,
+                5.78,
+                53.5,
+                0.062,
+                0.008
+              ],
+              [
+                5.62,
+                5.78,
+                56.9,
+                0.039,
+                0.006
+              ],
+              [
+                5.62,
+                5.78,
+                59.5,
+                0.028,
+                0.004
+              ],
+              [
+                5.62,
+                5.78,
+                63.2,
+                0.045,
+                0.005
+              ],
+              [
+                5.62,
+                5.78,
+                68.5,
+                0.068,
+                0.007
+              ],
+              [
+                5.62,
+                5.78,
+                70.9,
+                0.079,
+                0.008
+              ],
+              [
+                5.62,
+                5.78,
+                74.0,
+                0.066,
+                0.006
+              ],
+              [
+                5.62,
+                5.78,
+                76.9,
+                0.048,
+                0.007
+              ],
+              [
+                5.62,
+                5.78,
+                79.9,
+                0.044,
+                0.008
+              ],
+              [
+                5.62,
+                5.78,
+                82.0,
+                0.037,
+                0.008
+              ],
+              [
+                5.62,
+                5.78,
+                84.4,
+                0.022,
+                0.005
+              ],
+              [
+                5.62,
+                5.78,
+                87.8,
+                0.034,
+                0.009
+              ],
+              [
+                5.62,
+                5.78,
+                89.7,
+                0.047,
+                0.008
+              ],
+              [
+                5.62,
+                5.78,
+                92.5,
+                0.052,
+                0.008
+              ],
+              [
+                5.62,
+                5.78,
+                94.8,
+                0.051,
+                0.009
+              ],
+              [
+                5.62,
+                5.78,
+                97.6,
+                0.04,
+                0.005
+              ],
+              [
+                5.62,
+                5.78,
+                100.5,
+                0.039,
+                0.006
+              ],
+              [
+                5.62,
+                5.78,
+                105.9,
+                0.023,
+                0.002
+              ],
+              [
+                5.62,
+                5.78,
+                107.7,
+                0.026,
+                0.002
+              ],
+              [
+                5.62,
+                5.78,
+                110.8,
+                0.028,
+                0.003
+              ],
+              [
+                5.62,
+                5.78,
+                112.9,
+                0.032,
+                0.003
+              ],
+              [
+                5.62,
+                5.78,
+                115.1,
+                0.026,
+                0.003
+              ],
+              [
+                5.62,
+                5.78,
+                118.0,
+                0.035,
+                0.003
+              ],
+              [
+                5.62,
+                5.78,
+                120.2,
+                0.037,
+                0.006
+              ],
+              [
+                5.62,
+                5.78,
+                121.8,
+                0.036,
+                0.005
+              ],
+              [
+                5.62,
+                5.78,
+                125.0,
+                0.035,
+                0.004
+              ],
+              [
+                5.62,
+                5.78,
+                127.0,
+                0.033,
+                0.004
+              ],
+              [
+                5.62,
+                5.78,
+                131.0,
+                0.029,
+                0.004
+              ],
+              [
+                5.62,
+                5.78,
+                134.0,
+                0.025,
+                0.005
+              ],
+              [
+                5.62,
+                5.78,
+                136.0,
+                0.034,
+                0.004
+              ],
+              [
+                5.62,
+                5.78,
+                138.1,
+                0.028,
+                0.004
+              ],
+              [
+                5.62,
+                5.78,
+                141.8,
+                0.023,
+                0.003
+              ],
+              [
+                5.62,
+                5.78,
+                144.0,
+                0.024,
+                0.007
+              ],
+              [
+                5.62,
+                5.78,
+                146.0,
+                0.024,
+                0.002
+              ],
+              [
+                5.62,
+                5.78,
+                147.9,
+                0.022,
+                0.003
+              ],
+              [
+                5.62,
+                5.78,
+                149.9,
+                0.028,
+                0.003
+              ],
+              [
+                5.62,
+                5.78,
+                153.3,
+                0.025,
+                0.003
+              ],
+              [
+                5.62,
+                5.78,
+                155.1,
+                0.027,
+                0.003
+              ],
+              [
+                5.62,
+                5.78,
+                157.2,
+                0.032,
+                0.003
+              ],
+              [
+                5.62,
+                5.78,
+                159.6,
+                0.026,
+                0.003
+              ],
+              [
+                5.62,
+                5.78,
+                161.3,
+                0.048,
+                0.005
+              ],
+              [
+                5.62,
+                5.78,
+                162.9,
+                0.061,
+                0.007
+              ],
+              [
+                5.62,
+                5.78,
+                165.2,
+                0.059,
+                0.005
+              ],
+              [
+                5.62,
+                5.78,
+                166.9,
+                0.057,
+                0.005
+              ],
+              [
+                5.62,
+                5.78,
+                168.2,
+                0.054,
+                0.005
               ]
             ]
           },
@@ -2750,12 +4006,12 @@
         {
           "SUBENT": {
             "N1": "F0496005",
-            "N2": 20151006,
+            "N2": 20251212,
             "alteration_flag": " ",
-            "transmission_identification": "F059"
+            "transmission_identification": "F104"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -2786,6 +4042,32 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Absolute error of cross-section"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information about source of uncertainty"
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -2794,11 +4076,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.S.Sadkovskii+",
+                "reference": {
+                  "code": "J,BAS,48,(5),158,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "5",
+                      "page": "158"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                "Fig.4"
+                " Fig.4"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251212,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -2817,7 +4125,7 @@
             ],
             "heading": [
               "EN",
-              "DATA-ERR2",
+              "ERR-2",
               "ERR-DIG",
               "ANG-ERR-D"
             ],
@@ -2851,7 +4159,7 @@
               "E-LVL",
               "ANG-CM",
               "DATA-CM",
-              "DATA-ERR3"
+              "DATA-ERR"
             ],
             "unit": [
               "MEV",
@@ -3766,425 +5074,21 @@
           }
         },
         {
-          "SUBENT": {
+          "NOSUBENT": {
             "N1": "F0496006",
-            "N2": 20151006,
-            "alteration_flag": " ",
-            "transmission_identification": "F059"
-          },
-          "BIB": {
-            "N1": 3,
-            "N2": 0
-          },
-          "REACTION": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "8-O-18(A,INL)8-O-18,PAR,DA",
-                "code_unit": [
-                  {
-                    "unit": "8-O-18(A,INL)8-O-18,PAR,DA",
-                    "field": {
-                      "reaction": "8-O-18(A,INL)8-O-18",
-                      "target": "8-O-18",
-                      "projectile": "A",
-                      "process": "INL",
-                      "product": "8-O-18",
-                      "quantity": "PAR,DA",
-                      "data_type": null,
-                      "general_quantity_modifier": null,
-                      "quantity_236": "PAR,DA"
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "CURVE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                "Fig.1"
-              ]
-            }
-          ],
-          "HISTORY": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 20151006,
-                "history": "C"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "ENDBIB": {
-            "N1": 0,
-            "N2": 0
-          },
-          "COMMON": {
-            "N1": 6,
-            "N2": 0,
-            "pointer": [
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
-            "heading": [
-              "EN",
-              "E-LVL",
-              "E-LVL",
-              "DATA-ERR2",
-              "ERR-DIG",
-              "ANG-ERR-D"
-            ],
-            "unit": [
-              "MEV",
-              "MEV",
-              "MEV",
-              "PER-CENT",
-              "PER-CENT",
-              "ADEG"
-            ],
-            "value": [
-              23.5,
-              3.56,
-              3.63,
-              12.0,
-              0.1,
-              0.3
-            ]
-          },
-          "ENDCOMMON": {
-            "N1": 0,
-            "N2": 0
-          },
-          "DATA": {
-            "N1": 3,
-            "N2": 54,
-            "pointer": [
-              "",
-              "",
-              ""
-            ],
-            "heading": [
-              "ANG-CM",
-              "DATA-CM",
-              "DATA-ERR3"
-            ],
-            "unit": [
-              "ADEG",
-              "MB/SR",
-              "MB/SR"
-            ],
-            "value": [
-              [
-                33.7,
-                3.627,
-                0.81
-              ],
-              [
-                37.1,
-                3.779,
-                0.429
-              ],
-              [
-                40.1,
-                3.782,
-                0.429
-              ],
-              [
-                42.4,
-                2.816,
-                0.278
-              ],
-              [
-                45.5,
-                2.463,
-                0.243
-              ],
-              [
-                48.9,
-                2.244,
-                0.221
-              ],
-              [
-                52.0,
-                1.886,
-                0.158
-              ],
-              [
-                54.7,
-                1.195,
-                0.136
-              ],
-              [
-                57.7,
-                1.405,
-                0.139
-              ],
-              [
-                61.2,
-                1.229,
-                0.121
-              ],
-              [
-                64.2,
-                1.12,
-                0.127
-              ],
-              [
-                66.1,
-                1.166,
-                0.168
-              ],
-              [
-                69.1,
-                1.408,
-                0.139
-              ],
-              [
-                72.2,
-                1.183,
-                0.134
-              ],
-              [
-                74.9,
-                1.049,
-                0.119
-              ],
-              [
-                77.9,
-                1.469,
-                0.234
-              ],
-              [
-                80.2,
-                1.17,
-                0.168
-              ],
-              [
-                82.9,
-                0.907,
-                0.103
-              ],
-              [
-                86.3,
-                1.066,
-                0.121
-              ],
-              [
-                87.8,
-                0.815,
-                0.142
-              ],
-              [
-                91.3,
-                0.649,
-                0.145
-              ],
-              [
-                94.0,
-                0.576,
-                0.129
-              ],
-              [
-                95.9,
-                0.539,
-                0.12
-              ],
-              [
-                99.3,
-                0.539,
-                0.112
-              ],
-              [
-                101.2,
-                0.6,
-                0.144
-              ],
-              [
-                104.2,
-                0.765,
-                0.146
-              ],
-              [
-                106.4,
-                1.275,
-                0.164
-              ],
-              [
-                109.5,
-                0.988,
-                0.127
-              ],
-              [
-                111.8,
-                0.766,
-                0.122
-              ],
-              [
-                114.8,
-                0.736,
-                0.106
-              ],
-              [
-                116.8,
-                0.548,
-                0.079
-              ],
-              [
-                118.7,
-                0.493,
-                0.094
-              ],
-              [
-                121.3,
-                0.595,
-                0.095
-              ],
-              [
-                123.5,
-                0.991,
-                0.158
-              ],
-              [
-                125.4,
-                1.149,
-                0.13
-              ],
-              [
-                128.4,
-                1.484,
-                0.146
-              ],
-              [
-                130.6,
-                1.588,
-                0.204
-              ],
-              [
-                132.9,
-                1.944,
-                0.163
-              ],
-              [
-                134.4,
-                2.284,
-                0.192
-              ],
-              [
-                137.0,
-                2.477,
-                0.281
-              ],
-              [
-                138.9,
-                2.478,
-                0.244
-              ],
-              [
-                141.2,
-                2.446,
-                0.205
-              ],
-              [
-                143.5,
-                2.001,
-                0.197
-              ],
-              [
-                145.8,
-                2.549,
-                0.214
-              ],
-              [
-                148.0,
-                2.691,
-                0.305
-              ],
-              [
-                149.9,
-                2.552,
-                0.214
-              ],
-              [
-                153.7,
-                2.553,
-                0.29
-              ],
-              [
-                156.0,
-                2.421,
-                0.203
-              ],
-              [
-                157.9,
-                2.59,
-                0.255
-              ],
-              [
-                162.0,
-                3.676,
-                0.417
-              ],
-              [
-                163.6,
-                3.485,
-                0.344
-              ],
-              [
-                166.2,
-                4.042,
-                0.458
-              ],
-              [
-                168.1,
-                4.687,
-                0.325
-              ],
-              [
-                169.6,
-                5.014,
-                0.494
-              ]
-            ]
-          },
-          "ENDDATA": {
-            "N1": 0,
-            "N2": 0
-          },
-          "ENDSUBENT": {
-            "N1": 0,
-            "N2": 0
+            "N2": 20251212,
+            "transmission_identification": "F104"
           }
         },
         {
           "SUBENT": {
             "N1": "F0496007",
-            "N2": 20151006,
+            "N2": 20251212,
             "alteration_flag": " ",
-            "transmission_identification": "F059"
+            "transmission_identification": "F104"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -4215,6 +5119,32 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Absolute error of cross-section"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information about source of uncertainty"
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -4223,11 +5153,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.S.Sadkovskii+",
+                "reference": {
+                  "code": "J,BAS,48,(5),158,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "5",
+                      "page": "158"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                "Fig.1"
+                " Fig.1"
               ]
             }
           ],
@@ -4236,10 +5180,20 @@
               "pointer": "",
               "coded_information": {
                 "date": 20151006,
-                "history": "C"
+                "history": "T"
               },
               "free_text": [
-                ""
+                " Part of Subent 002."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251212,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -4262,7 +5216,7 @@
               "EN",
               "E-LVL-MIN",
               "E-LVL-MAX",
-              "DATA-ERR2",
+              "ERR-2",
               "ERR-DIG",
               "ANG-ERR-D"
             ],
@@ -4298,7 +5252,7 @@
             "heading": [
               "ANG-CM",
               "DATA-CM",
-              "DATA-ERR3"
+              "DATA-ERR"
             ],
             "unit": [
               "ADEG",
@@ -4590,12 +5544,12 @@
         {
           "SUBENT": {
             "N1": "F0496008",
-            "N2": 20151006,
+            "N2": 20251212,
             "alteration_flag": " ",
-            "transmission_identification": "F059"
+            "transmission_identification": "F104"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -4626,6 +5580,32 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Absolute error of cross-section"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information about source of uncertainty"
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -4634,11 +5614,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.S.Sadkovskii+",
+                "reference": {
+                  "code": "J,BAS,48,(5),158,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "5",
+                      "page": "158"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                "Fig.2"
+                " Fig.2"
               ]
             }
           ],
@@ -4647,10 +5641,21 @@
               "pointer": "",
               "coded_information": {
                 "date": 20151006,
-                "history": "C"
+                "history": "T"
               },
               "free_text": [
-                ""
+                " Part of Subent 003."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251212,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: BIB updated. Elvl=4.05 -> 4.03 MeV",
+                "according to presentation in the tbl.1."
               ]
             }
           ],
@@ -4669,7 +5674,7 @@
             ],
             "heading": [
               "EN",
-              "DATA-ERR2",
+              "ERR-2",
               "ERR-DIG",
               "ANG-ERR-D"
             ],
@@ -4705,7 +5710,7 @@
               "E-LVL-MAX",
               "ANG-CM",
               "DATA-CM",
-              "DATA-ERR3"
+              "DATA-ERR"
             ],
             "unit": [
               "MEV",
@@ -5004,224 +6009,224 @@
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 37.8,
                 0.626,
                 0.072
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 44.0,
                 0.526,
                 0.066
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 55.0,
                 0.578,
                 0.084
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 61.4,
                 0.737,
                 0.07
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 64.0,
                 0.697,
                 0.08
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 67.0,
                 0.57,
                 0.077
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 70.4,
                 0.466,
                 0.088
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 73.0,
                 0.457,
                 0.053
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 75.1,
                 0.491,
                 0.057
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 78.1,
                 0.644,
                 0.074
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 85.8,
                 0.498,
                 0.047
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 88.9,
                 0.393,
                 0.049
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 107.1,
                 0.305,
                 0.064
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 109.2,
                 0.337,
                 0.049
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 112.4,
                 0.375,
                 0.059
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 115.5,
                 0.361,
                 0.068
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 119.1,
                 0.336,
                 0.056
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 121.2,
                 0.351,
                 0.051
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 123.9,
                 0.387,
                 0.049
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 125.8,
                 0.456,
                 0.052
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 127.9,
                 0.498,
                 0.057
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 129.8,
                 0.566,
                 0.094
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 132.9,
                 0.586,
                 0.05
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 134.8,
                 0.79,
                 0.091
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 136.9,
                 0.714,
                 0.061
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 138.5,
                 0.76,
                 0.095
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 140.8,
                 0.788,
                 0.067
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 143.0,
                 0.869,
                 0.091
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 145.1,
                 0.995,
                 0.095
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 149.7,
                 0.778,
                 0.082
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 152.1,
                 0.931,
                 0.126
               ],
               [
                 3.91,
-                4.05,
+                4.03,
                 158.7,
                 1.017,
                 0.097
@@ -5518,11 +6523,18 @@
           }
         },
         {
-          "SUBENT": {
+          "NOSUBENT": {
             "N1": "F0496009",
-            "N2": 20151006,
+            "N2": 20251212,
+            "transmission_identification": "F104"
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "F0496010",
+            "N2": 20251213,
             "alteration_flag": " ",
-            "transmission_identification": "F059"
+            "transmission_identification": "F104"
           },
           "BIB": {
             "N1": 3,
@@ -5532,20 +6544,20 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "10-NE-20(A,INL)10-NE-20,PAR,DA",
+                "code": "8-O-18(A,EL)8-O-18,,IPA",
                 "code_unit": [
                   {
-                    "unit": "10-NE-20(A,INL)10-NE-20,PAR,DA",
+                    "unit": "8-O-18(A,EL)8-O-18,,IPA",
                     "field": {
-                      "reaction": "10-NE-20(A,INL)10-NE-20",
-                      "target": "10-NE-20",
+                      "reaction": "8-O-18(A,EL)8-O-18",
+                      "target": "8-O-18",
                       "projectile": "A",
-                      "process": "INL",
-                      "product": "10-NE-20",
-                      "quantity": "PAR,DA",
+                      "process": "EL",
+                      "product": "8-O-18",
+                      "quantity": ",IPA",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "PAR,DA"
+                      "quantity_236": ",IPA"
                     }
                   }
                 ],
@@ -5561,14 +6573,28 @@
               "pointer": "",
               "coded_information": {
                 "status": [
-                  "CURVE"
+                  "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.S.Sadkovskii+",
+                "reference": {
+                  "code": "J,BAS,48,(5),158,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "5",
+                      "page": "158"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                "Fig.3"
+                " Table 1"
               ]
             }
           ],
@@ -5576,11 +6602,139 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 20151006,
+                "date": 20251213,
                 "history": "C"
               },
               "free_text": [
+                " SD:"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "ANG-MIN",
+              "ANG-MAX",
+              "EN",
+              "DATA"
+            ],
+            "unit": [
+              "ADEG",
+              "ADEG",
+              "MEV",
+              "MB"
+            ],
+            "value": [
+              [
+                30.0,
+                170.0,
+                23.5,
+                7.2
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "F0496011",
+            "N2": 20251213,
+            "alteration_flag": " ",
+            "transmission_identification": "F104"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "8-O-18(A,INL)8-O-18,PAR,IPA",
+                "code_unit": [
+                  {
+                    "unit": "8-O-18(A,INL)8-O-18,PAR,IPA",
+                    "field": {
+                      "reaction": "8-O-18(A,INL)8-O-18",
+                      "target": "8-O-18",
+                      "projectile": "A",
+                      "process": "INL",
+                      "product": "8-O-18",
+                      "quantity": "PAR,IPA",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "PAR,IPA"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
                 ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "V.S.Sadkovskii+",
+                "reference": {
+                  "code": "J,BAS,48,(5),158,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "5",
+                      "page": "158"
+                    },
+                    "date": 1984
+                  }
+                }
+              },
+              "free_text": [
+                " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251213,
+                "history": "C"
+              },
+              "free_text": [
+                " SD:"
               ]
             }
           ],
@@ -5589,8 +6743,175 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 6,
+            "N1": 3,
             "N2": 0,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "ANG-MIN",
+              "ANG-MAX"
+            ],
+            "unit": [
+              "MEV",
+              "ADEG",
+              "ADEG"
+            ],
+            "value": [
+              23.5,
+              30.0,
+              170.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 4,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "E-LVL",
+              "E-LVL",
+              "DATA"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB"
+            ],
+            "value": [
+              [
+                1.98,
+                null,
+                13.0
+              ],
+              [
+                3.56,
+                3.63,
+                8.1
+              ],
+              [
+                3.92,
+                null,
+                5.4
+              ],
+              [
+                4.45,
+                null,
+                3.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "F0496012",
+            "N2": 20251213,
+            "alteration_flag": " ",
+            "transmission_identification": "F104"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "8-O-18(A,INL)8-O-18,PAR,IPA",
+                "code_unit": [
+                  {
+                    "unit": "8-O-18(A,INL)8-O-18,PAR,IPA",
+                    "field": {
+                      "reaction": "8-O-18(A,INL)8-O-18",
+                      "target": "8-O-18",
+                      "projectile": "A",
+                      "process": "INL",
+                      "product": "8-O-18",
+                      "quantity": "PAR,IPA",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "PAR,IPA"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "V.S.Sadkovskii+",
+                "reference": {
+                  "code": "J,BAS,48,(5),158,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "5",
+                      "page": "158"
+                    },
+                    "date": 1984
+                  }
+                }
+              },
+              "free_text": [
+                " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251213,
+                "history": "C"
+              },
+              "free_text": [
+                " SD:"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 1,
             "pointer": [
               "",
               "",
@@ -5601,27 +6922,279 @@
             ],
             "heading": [
               "EN",
-              "E-LVL",
-              "E-LVL",
-              "DATA-ERR2",
-              "ERR-DIG",
-              "ANG-ERR-D"
+              "E-LVL-MIN",
+              "E-LVL-MIN",
+              "ANG-MIN",
+              "ANG-MAX",
+              "DATA"
             ],
             "unit": [
               "MEV",
               "MEV",
               "MEV",
-              "PER-CENT",
-              "PER-CENT",
+              "ADEG",
+              "ADEG",
+              "MB"
+            ],
+            "value": [
+              [
+                23.5,
+                5.1,
+                5.53,
+                30.0,
+                170.0,
+                19.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "F0496013",
+            "N2": 20251213,
+            "alteration_flag": " ",
+            "transmission_identification": "F104"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "9-F-19(A,INL)9-F-19,PAR,IPA",
+                "code_unit": [
+                  {
+                    "unit": "9-F-19(A,INL)9-F-19,PAR,IPA",
+                    "field": {
+                      "reaction": "9-F-19(A,INL)9-F-19",
+                      "target": "9-F-19",
+                      "projectile": "A",
+                      "process": "INL",
+                      "product": "9-F-19",
+                      "quantity": "PAR,IPA",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "PAR,IPA"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "V.S.Sadkovskii+",
+                "reference": {
+                  "code": "J,BAS,48,(5),158,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "5",
+                      "page": "158"
+                    },
+                    "date": 1984
+                  }
+                }
+              },
+              "free_text": [
+                " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251213,
+                "history": "C"
+              },
+              "free_text": [
+                " SD:"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 5,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "E-LVL",
+              "ANG-MIN",
+              "ANG-MAX",
+              "DATA"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "ADEG",
+              "ADEG",
+              "MB"
+            ],
+            "value": [
+              [
+                24.2,
+                2.78,
+                30.0,
+                170.0,
+                2.8
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "F0496014",
+            "N2": 20251213,
+            "alteration_flag": " ",
+            "transmission_identification": "F104"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "9-F-19(A,INL)9-F-19,PAR,IPA",
+                "code_unit": [
+                  {
+                    "unit": "9-F-19(A,INL)9-F-19,PAR,IPA",
+                    "field": {
+                      "reaction": "9-F-19(A,INL)9-F-19",
+                      "target": "9-F-19",
+                      "projectile": "A",
+                      "process": "INL",
+                      "product": "9-F-19",
+                      "quantity": "PAR,IPA",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "PAR,IPA"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "V.S.Sadkovskii+",
+                "reference": {
+                  "code": "J,BAS,48,(5),158,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "5",
+                      "page": "158"
+                    },
+                    "date": 1984
+                  }
+                }
+              },
+              "free_text": [
+                " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251213,
+                "history": "C"
+              },
+              "free_text": [
+                " SD:"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 3,
+            "N2": 0,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "ANG-MIN",
+              "ANG-MAX"
+            ],
+            "unit": [
+              "MEV",
+              "ADEG",
               "ADEG"
             ],
             "value": [
-              23.6,
-              5.62,
-              5.78,
-              12.0,
-              0.1,
-              0.2
+              24.2,
+              30.0,
+              170.0
             ]
           },
           "ENDCOMMON": {
@@ -5630,292 +7203,613 @@
           },
           "DATA": {
             "N1": 3,
-            "N2": 54,
+            "N2": 4,
             "pointer": [
               "",
               "",
               ""
             ],
             "heading": [
-              "ANG-CM",
-              "DATA-CM",
-              "DATA-ERR3"
+              "E-LVL-MIN",
+              "E-LVL-MIN",
+              "DATA"
             ],
             "unit": [
-              "ADEG",
-              "MB/SR",
-              "MB/SR"
+              "MEV",
+              "MEV",
+              "MB"
             ],
             "value": [
               [
-                17.4,
-                0.265,
-                0.084
+                0.0,
+                0.197,
+                9.4
               ],
               [
-                21.5,
-                0.276,
-                0.048
+                1.35,
+                1.55,
+                7.1
               ],
               [
-                24.5,
-                0.36,
-                0.048
+                3.91,
+                4.03,
+                2.6
               ],
               [
-                29.8,
-                0.295,
-                null
+                4.38,
+                4.68,
+                6.4
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "F0496015",
+            "N2": 20251213,
+            "alteration_flag": " ",
+            "transmission_identification": "F104"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "10-NE-20(A,EL)10-NE-20,,IPA",
+                "code_unit": [
+                  {
+                    "unit": "10-NE-20(A,EL)10-NE-20,,IPA",
+                    "field": {
+                      "reaction": "10-NE-20(A,EL)10-NE-20",
+                      "target": "10-NE-20",
+                      "projectile": "A",
+                      "process": "EL",
+                      "product": "10-NE-20",
+                      "quantity": ",IPA",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",IPA"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "V.S.Sadkovskii+",
+                "reference": {
+                  "code": "J,BAS,48,(5),158,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "5",
+                      "page": "158"
+                    },
+                    "date": 1984
+                  }
+                }
+              },
+              "free_text": [
+                " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251213,
+                "history": "C"
+              },
+              "free_text": [
+                " SD:"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "ANG-MIN",
+              "ANG-MAX",
+              "DATA"
+            ],
+            "unit": [
+              "MEV",
+              "ADEG",
+              "ADEG",
+              "MB"
+            ],
+            "value": [
+              [
+                23.6,
+                30.0,
+                170.0,
+                10.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "F0496016",
+            "N2": 20251213,
+            "alteration_flag": " ",
+            "transmission_identification": "F104"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "10-NE-20(A,INL)10-NE-20,PAR,IPA",
+                "code_unit": [
+                  {
+                    "unit": "10-NE-20(A,INL)10-NE-20,PAR,IPA",
+                    "field": {
+                      "reaction": "10-NE-20(A,INL)10-NE-20",
+                      "target": "10-NE-20",
+                      "projectile": "A",
+                      "process": "INL",
+                      "product": "10-NE-20",
+                      "quantity": "PAR,IPA",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "PAR,IPA"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "V.S.Sadkovskii+",
+                "reference": {
+                  "code": "J,BAS,48,(5),158,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "5",
+                      "page": "158"
+                    },
+                    "date": 1984
+                  }
+                }
+              },
+              "free_text": [
+                " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251213,
+                "history": "C"
+              },
+              "free_text": [
+                " SD:"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 3,
+            "N2": 0,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "ANG-MIN",
+              "ANG-MAX"
+            ],
+            "unit": [
+              "MEV",
+              "ADEG",
+              "ADEG"
+            ],
+            "value": [
+              23.6,
+              30.0,
+              170.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 4,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "E-LVL",
+              "E-LVL",
+              "DATA"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB"
+            ],
+            "value": [
+              [
+                1.63,
+                null,
+                22.0
               ],
               [
-                33.9,
-                0.226,
-                null
+                4.25,
+                null,
+                20.0
               ],
               [
-                36.8,
-                0.127,
-                null
+                4.97,
+                null,
+                7.3
               ],
               [
-                39.8,
-                0.108,
-                null
+                5.62,
+                5.78,
+                21.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "F0496017",
+            "N2": 20251213,
+            "alteration_flag": " ",
+            "transmission_identification": "F104"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "10-NE-22(A,EL)10-NE-22,,IPA",
+                "code_unit": [
+                  {
+                    "unit": "10-NE-22(A,EL)10-NE-22,,IPA",
+                    "field": {
+                      "reaction": "10-NE-22(A,EL)10-NE-22",
+                      "target": "10-NE-22",
+                      "projectile": "A",
+                      "process": "EL",
+                      "product": "10-NE-22",
+                      "quantity": ",IPA",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",IPA"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "V.S.Sadkovskii+",
+                "reference": {
+                  "code": "J,BAS,48,(5),158,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "5",
+                      "page": "158"
+                    },
+                    "date": 1984
+                  }
+                }
+              },
+              "free_text": [
+                " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251213,
+                "history": "C"
+              },
+              "free_text": [
+                " SD:"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "ANG-MIN",
+              "ANG-MAX",
+              "DATA"
+            ],
+            "unit": [
+              "MEV",
+              "ADEG",
+              "ADEG",
+              "MB"
+            ],
+            "value": [
+              [
+                23.6,
+                30.0,
+                170.0,
+                9.2
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "F0496018",
+            "N2": 20251213,
+            "alteration_flag": " ",
+            "transmission_identification": "F104"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "10-NE-22(A,INL)10-NE-22,PAR,IPA",
+                "code_unit": [
+                  {
+                    "unit": "10-NE-22(A,INL)10-NE-22,PAR,IPA",
+                    "field": {
+                      "reaction": "10-NE-22(A,INL)10-NE-22",
+                      "target": "10-NE-22",
+                      "projectile": "A",
+                      "process": "INL",
+                      "product": "10-NE-22",
+                      "quantity": "PAR,IPA",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "PAR,IPA"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "V.S.Sadkovskii+",
+                "reference": {
+                  "code": "J,BAS,48,(5),158,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "5",
+                      "page": "158"
+                    },
+                    "date": 1984
+                  }
+                }
+              },
+              "free_text": [
+                " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251213,
+                "history": "C"
+              },
+              "free_text": [
+                " SD:"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 3,
+            "N2": 0,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "ANG-MIN",
+              "ANG-MAX"
+            ],
+            "unit": [
+              "MEV",
+              "ADEG",
+              "ADEG"
+            ],
+            "value": [
+              23.6,
+              30.0,
+              170.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 3,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "E-LVL",
+              "DATA"
+            ],
+            "unit": [
+              "MEV",
+              "MB"
+            ],
+            "value": [
+              [
+                1.27,
+                11.0
               ],
               [
-                42.6,
-                0.085,
-                null
+                3.36,
+                8.3
               ],
               [
-                48.5,
-                0.1,
-                0.013
-              ],
-              [
-                53.5,
-                0.062,
-                0.008
-              ],
-              [
-                56.9,
-                0.039,
-                0.006
-              ],
-              [
-                59.5,
-                0.028,
-                0.004
-              ],
-              [
-                63.2,
-                0.045,
-                0.005
-              ],
-              [
-                68.5,
-                0.068,
-                0.007
-              ],
-              [
-                70.9,
-                0.079,
-                0.008
-              ],
-              [
-                74.0,
-                0.066,
-                0.006
-              ],
-              [
-                76.9,
-                0.048,
-                0.007
-              ],
-              [
-                79.9,
-                0.044,
-                0.008
-              ],
-              [
-                82.0,
-                0.037,
-                0.008
-              ],
-              [
-                84.4,
-                0.022,
-                0.005
-              ],
-              [
-                87.8,
-                0.034,
-                0.009
-              ],
-              [
-                89.7,
-                0.047,
-                0.008
-              ],
-              [
-                92.5,
-                0.052,
-                0.008
-              ],
-              [
-                94.8,
-                0.051,
-                0.009
-              ],
-              [
-                97.6,
-                0.04,
-                0.005
-              ],
-              [
-                100.5,
-                0.039,
-                0.006
-              ],
-              [
-                105.9,
-                0.023,
-                0.002
-              ],
-              [
-                107.7,
-                0.026,
-                0.002
-              ],
-              [
-                110.8,
-                0.028,
-                0.003
-              ],
-              [
-                112.9,
-                0.032,
-                0.003
-              ],
-              [
-                115.1,
-                0.026,
-                0.003
-              ],
-              [
-                118.0,
-                0.035,
-                0.003
-              ],
-              [
-                120.2,
-                0.037,
-                0.006
-              ],
-              [
-                121.8,
-                0.036,
-                0.005
-              ],
-              [
-                125.0,
-                0.035,
-                0.004
-              ],
-              [
-                127.0,
-                0.033,
-                0.004
-              ],
-              [
-                131.0,
-                0.029,
-                0.004
-              ],
-              [
-                134.0,
-                0.025,
-                0.005
-              ],
-              [
-                136.0,
-                0.034,
-                0.004
-              ],
-              [
-                138.1,
-                0.028,
-                0.004
-              ],
-              [
-                141.8,
-                0.023,
-                0.003
-              ],
-              [
-                144.0,
-                0.024,
-                0.007
-              ],
-              [
-                146.0,
-                0.024,
-                0.002
-              ],
-              [
-                147.9,
-                0.022,
-                0.003
-              ],
-              [
-                149.9,
-                0.028,
-                0.003
-              ],
-              [
-                153.3,
-                0.025,
-                0.003
-              ],
-              [
-                155.1,
-                0.027,
-                0.003
-              ],
-              [
-                157.2,
-                0.032,
-                0.003
-              ],
-              [
-                159.6,
-                0.026,
-                0.003
-              ],
-              [
-                161.3,
-                0.048,
-                0.005
-              ],
-              [
-                162.9,
-                0.061,
-                0.007
-              ],
-              [
-                165.2,
-                0.059,
-                0.005
-              ],
-              [
-                166.9,
-                0.057,
-                0.005
-              ],
-              [
-                168.2,
-                0.054,
-                0.005
+                4.46,
+                3.2
               ]
             ]
           },
@@ -5930,7 +7824,7 @@
         }
       ],
       "ENDENTRY": {
-        "N1": 9,
+        "N1": 18,
         "N2": 0
       }
     }
