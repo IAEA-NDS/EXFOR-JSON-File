@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:19:47+0000",
+  "time_stamp": "2026-05-22T22:13:32+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0017",
-        "N2": 20121029,
+        "N2": 20260409,
         "alteration_flag": " ",
-        "transmission_identification": "M065"
+        "transmission_identification": "M145"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0017001",
-            "N2": 20121029,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "M065"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 11,
+            "N1": 10,
             "N2": 0
           },
           "TITLE": [
@@ -26,8 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Photofission cross sections for the nuclei Am-241 and",
-                " Am-243 in the region of the E1 giant resonance."
+                "Photofission cross sections of 241Am and 243Am",
+                " in the region of the E1 giant resonance."
               ]
             }
           ],
@@ -61,6 +61,35 @@
             {
               "pointer": "",
               "coded_information": {
+                "code": "J,SNP,30,472,1979",
+                "code_unit": [
+                  {
+                    "unit": "J,SNP,30,472,1979",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "SNP",
+                        "number": null,
+                        "volume": "30",
+                        "part": null,
+                        "issue": null,
+                        "page": "472"
+                      },
+                      "date": 1979
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " English translation of YF,30,910,1979."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
                 "code": "J,YF,30,910,1979",
                 "code_unit": [
                   {
@@ -84,34 +113,6 @@
               },
               "free_text": [
                 ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "J,SNP,30,472,1979",
-                "code_unit": [
-                  {
-                    "unit": "J,SNP,30,472,1979",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "SNP",
-                        "number": null,
-                        "volume": "30",
-                        "part": null,
-                        "issue": null,
-                        "page": "472"
-                      },
-                      "date": 1979
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                " - Eng.trans.of YF,30,910,1979"
               ]
             }
           ],
@@ -154,17 +155,6 @@
               ]
             }
           ],
-          "PART-DET": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "FF"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "METHOD": [
             {
               "pointer": "",
@@ -183,8 +173,8 @@
               "coded_information": null,
               "free_text": [
                 "The cross sections were calculated from the yields",
-                "by means of solving of the integral equations. The",
-                "fissionabilities have been also obtained."
+                " by means of solving of the integral equations. The",
+                " fissilities have been also obtained."
               ]
             }
           ],
@@ -222,6 +212,17 @@
                 "           VV: STATUS and REACTION code in SUBENTs",
                 "             002 - 010 were corrected, ERR-ANALYS."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: TITLE, REFERENCE,",
+                " PAT-DET, STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -240,9 +241,9 @@
         {
           "SUBENT": {
             "N1": "M0017002",
-            "N2": 20121029,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "M065"
+            "transmission_identification": "M145"
           },
           "BIB": {
             "N1": 4,
@@ -298,11 +299,26 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "I.S.Koretskaya+",
+                "reference": {
+                  "code": "J,SNP,30,472,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "30",
+                      "part": null,
+                      "issue": null,
+                      "page": "472"
+                    },
+                    "date": 1979
+                  }
+                }
               },
               "free_text": [
-                " Data from Fig. 1."
+                "",
+                " Data from Fig. 1b."
               ]
             }
           ],
@@ -315,6 +331,16 @@
               },
               "free_text": [
                 " VV: REACTION code: BRS -> BRA."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: STATUS."
               ]
             }
           ],
@@ -459,9 +485,9 @@
         {
           "SUBENT": {
             "N1": "M0017003",
-            "N2": 20121029,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "M065"
+            "transmission_identification": "M145"
           },
           "BIB": {
             "N1": 4,
@@ -517,11 +543,26 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "I.S.Koretskaya+",
+                "reference": {
+                  "code": "J,SNP,30,472,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "30",
+                      "part": null,
+                      "issue": null,
+                      "page": "472"
+                    },
+                    "date": 1979
+                  }
+                }
               },
               "free_text": [
-                " Data from Fig. 1."
+                "",
+                " Data from Fig. 1c."
               ]
             }
           ],
@@ -534,6 +575,16 @@
               },
               "free_text": [
                 " VV: REACTION code: BRS -> BRA."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: STATUS."
               ]
             }
           ],
@@ -678,9 +729,9 @@
         {
           "SUBENT": {
             "N1": "M0017004",
-            "N2": 20121029,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "M065"
+            "transmission_identification": "M145"
           },
           "BIB": {
             "N1": 4,
@@ -736,11 +787,26 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "I.S.Koretskaya+",
+                "reference": {
+                  "code": "J,SNP,30,472,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "30",
+                      "part": null,
+                      "issue": null,
+                      "page": "472"
+                    },
+                    "date": 1979
+                  }
+                }
               },
               "free_text": [
-                " Data from Fig. 1."
+                "",
+                " Data from Fig. 1a."
               ]
             }
           ],
@@ -753,6 +819,16 @@
               },
               "free_text": [
                 " VV: REACTION code: BRS -> BRA."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: STATUS."
               ]
             }
           ],
@@ -897,9 +973,9 @@
         {
           "SUBENT": {
             "N1": "M0017005",
-            "N2": 20121029,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "M065"
+            "transmission_identification": "M145"
           },
           "BIB": {
             "N1": 4,
@@ -955,11 +1031,26 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "I.S.Koretskaya+",
+                "reference": {
+                  "code": "J,SNP,30,472,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "30",
+                      "part": null,
+                      "issue": null,
+                      "page": "472"
+                    },
+                    "date": 1979
+                  }
+                }
               },
               "free_text": [
-                " Data from Fig. 2."
+                "",
+                " Data from Fig. 2b."
               ]
             }
           ],
@@ -972,6 +1063,16 @@
               },
               "free_text": [
                 " VV: REACTION code: BRS -> BRA."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: STATUS."
               ]
             }
           ],
@@ -1086,9 +1187,9 @@
         {
           "SUBENT": {
             "N1": "M0017006",
-            "N2": 20121029,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "M065"
+            "transmission_identification": "M145"
           },
           "BIB": {
             "N1": 4,
@@ -1144,11 +1245,26 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "I.S.Koretskaya+",
+                "reference": {
+                  "code": "J,SNP,30,472,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "30",
+                      "part": null,
+                      "issue": null,
+                      "page": "472"
+                    },
+                    "date": 1979
+                  }
+                }
               },
               "free_text": [
-                " Data from Fig. 2."
+                "",
+                " Data from Fig. 2c."
               ]
             }
           ],
@@ -1161,6 +1277,16 @@
               },
               "free_text": [
                 " VV: REACTION code: BRS -> BRA."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: STATUS."
               ]
             }
           ],
@@ -1280,9 +1406,9 @@
         {
           "SUBENT": {
             "N1": "M0017007",
-            "N2": 20121029,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "M065"
+            "transmission_identification": "M145"
           },
           "BIB": {
             "N1": 4,
@@ -1338,11 +1464,26 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "I.S.Koretskaya+",
+                "reference": {
+                  "code": "J,SNP,30,472,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "30",
+                      "part": null,
+                      "issue": null,
+                      "page": "472"
+                    },
+                    "date": 1979
+                  }
+                }
               },
               "free_text": [
-                " Data from Fig. 2."
+                "",
+                " Data from Fig. 2a."
               ]
             }
           ],
@@ -1355,6 +1496,16 @@
               },
               "free_text": [
                 " VV: REACTION code: BRS -> BRA."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: STATUS."
               ]
             }
           ],
@@ -1469,9 +1620,9 @@
         {
           "SUBENT": {
             "N1": "M0017008",
-            "N2": 20121029,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "M065"
+            "transmission_identification": "M145"
           },
           "BIB": {
             "N1": 4,
@@ -1536,11 +1687,26 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "I.S.Koretskaya+",
+                "reference": {
+                  "code": "J,SNP,30,472,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "30",
+                      "part": null,
+                      "issue": null,
+                      "page": "472"
+                    },
+                    "date": 1979
+                  }
+                }
               },
               "free_text": [
-                " Data from Fig. 4."
+                "",
+                " Data from Fig. 4, middle."
               ]
             }
           ],
@@ -1553,6 +1719,16 @@
               },
               "free_text": [
                 " VV: REACTION code: BRS -> BRA."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: STATUS."
               ]
             }
           ],
@@ -1642,9 +1818,9 @@
         {
           "SUBENT": {
             "N1": "M0017009",
-            "N2": 20121029,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "M065"
+            "transmission_identification": "M145"
           },
           "BIB": {
             "N1": 4,
@@ -1709,11 +1885,26 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "I.S.Koretskaya+",
+                "reference": {
+                  "code": "J,SNP,30,472,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "30",
+                      "part": null,
+                      "issue": null,
+                      "page": "472"
+                    },
+                    "date": 1979
+                  }
+                }
               },
               "free_text": [
-                " Data from Fig. 4."
+                "",
+                " Data from Fig. 4, top."
               ]
             }
           ],
@@ -1726,6 +1917,16 @@
               },
               "free_text": [
                 " VV: REACTION code: BRS -> BRA."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: STATUS."
               ]
             }
           ],
@@ -1807,9 +2008,9 @@
         {
           "SUBENT": {
             "N1": "M0017010",
-            "N2": 20121029,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "M065"
+            "transmission_identification": "M145"
           },
           "BIB": {
             "N1": 4,
@@ -1874,11 +2075,26 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "I.S.Koretskaya+",
+                "reference": {
+                  "code": "J,SNP,30,472,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "30",
+                      "part": null,
+                      "issue": null,
+                      "page": "472"
+                    },
+                    "date": 1979
+                  }
+                }
               },
               "free_text": [
-                " Data from Fig. 4."
+                "",
+                " Data from Fig. 4, bottom."
               ]
             }
           ],
@@ -1891,6 +2107,16 @@
               },
               "free_text": [
                 " VV: REACTION code: BRS -> BRA."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: STATUS."
               ]
             }
           ],

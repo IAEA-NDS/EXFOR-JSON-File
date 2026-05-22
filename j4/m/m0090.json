@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:20:12+0000",
+  "time_stamp": "2026-05-22T22:13:33+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0090",
-        "N2": 20050517,
+        "N2": 20260410,
         "alteration_flag": " ",
-        "transmission_identification": "M038"
+        "transmission_identification": "M145"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0090001",
-            "N2": 20050517,
+            "N2": 20260410,
             "alteration_flag": " ",
-            "transmission_identification": "M038"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 14,
             "N2": 0
           },
           "TITLE": [
@@ -27,7 +27,7 @@
               "coded_information": null,
               "free_text": [
                 "Giant resonance in the total photoabsorption",
-                "cross section near of Z=90 nuclei."
+                " cross section near of near Z=90 nuclei."
               ]
             }
           ],
@@ -35,11 +35,11 @@
             {
               "pointer": "",
               "coded_information": [
-                "G.M.GUREVICH",
-                "L.E.LAZAREVA",
-                "V.M.MAZUR",
-                "G.V.SOLODUKHOV",
-                "B.A.TULUPOV"
+                "G.M.Gurevich",
+                "L.E.Lazareva",
+                "V.M.Mazur",
+                "G.V.Solodukhov",
+                "B.A.Tulupov"
               ],
               "free_text": [
                 ""
@@ -138,17 +138,62 @@
               ]
             }
           ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Total gamma-absorption cross sections have",
+                " been measured using absorption method.",
+                "The nuclear absorption cross section is the",
+                " difference between the total absorption cross",
+                " section calculated from the directly measured",
+                " attenuation coefficients, and the sum of",
+                " electromagnetic (atomic) cross sections:",
+                " Compton, pair production and photoelectric."
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": null,
+                "author": "L.Storm+",
+                "reference": {
+                  "code": "J,ND/A,7,565,1970",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ND/A",
+                      "number": null,
+                      "volume": "7",
+                      "part": null,
+                      "issue": null,
+                      "page": "565"
+                    },
+                    "date": 1970
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Atomic cross section used in subtraction."
+              ]
+            }
+          ],
           "ERR-ANALYS": [
             {
               "pointer": "",
               "coded_information": {
-                "heading": "ERR-S",
+                "heading": "DATA-ERR",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                " Statistical errors only."
+                " Root-mean-squared uncertainties."
               ]
             }
           ],
@@ -160,11 +205,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "G.M.GUREVICH+",
+                "reference": {
+                  "code": "J,NP/A,273,326,1976",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "273",
+                      "part": null,
+                      "issue": null,
+                      "page": "326"
+                    },
+                    "date": 1976
+                  }
+                }
               },
               "free_text": [
-                ""
+                "",
+                " DATA from Fig. 2."
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Total photoabsorption cross sections of Th-232,U-235,",
+                "U-238 and Pu-239 have been measured in the giant",
+                "resonance region by the absorption method."
               ]
             }
           ],
@@ -211,16 +282,16 @@
                 " Corrected by V.Varlamov:  BRA substituted",
                 " by BRS in line REACTION of SUBENTS 002 - 005."
               ]
-            }
-          ],
-          "COMMENT": [
+            },
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "date": 20260410,
+                "history": "A"
+              },
               "free_text": [
-                "Total photoabsorption cross sections of Th-232,U-235,",
-                "U-238 and Pu-239 have been measured in the giant",
-                "resonance region by the absorption method."
+                " Corrected by V.Varlamov: TITLE, ANALYSIS,",
+                " REL-REF, ERR-ANALYS, REACTION, STATUS."
               ]
             }
           ],
@@ -240,31 +311,31 @@
         {
           "SUBENT": {
             "N1": "M0090002",
-            "N2": 20050517,
+            "N2": 20260410,
             "alteration_flag": " ",
-            "transmission_identification": "M038"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "90-TH-232(G,ABS),,SIG,,BRS",
+                "code": "90-TH-232(G,TOT),,SIG",
                 "code_unit": [
                   {
-                    "unit": "90-TH-232(G,ABS),,SIG,,BRS",
+                    "unit": "90-TH-232(G,TOT),,SIG",
                     "field": {
-                      "reaction": "90-TH-232(G,ABS)",
+                      "reaction": "90-TH-232(G,TOT)",
                       "target": "90-TH-232",
                       "projectile": "G",
-                      "process": "ABS",
+                      "process": "TOT",
                       "product": "",
                       "quantity": ",SIG",
                       "data_type": null,
-                      "general_quantity_modifier": "BRS",
+                      "general_quantity_modifier": null,
                       "quantity_236": ",SIG"
                     }
                   }
@@ -272,7 +343,23 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                " Nuclear photoabsorption cross-section as difference",
+                " between total photon absorption cross section and",
+                " atomic absorption cross section."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260410,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " DATA-ERR."
               ]
             }
           ],
@@ -295,7 +382,7 @@
             "heading": [
               "EN",
               "DATA",
-              "ERR-S"
+              "DATA-ERR"
             ],
             "unit": [
               "MEV",
@@ -537,31 +624,31 @@
         {
           "SUBENT": {
             "N1": "M0090003",
-            "N2": 20050517,
+            "N2": 20260410,
             "alteration_flag": " ",
-            "transmission_identification": "M038"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "92-U-235(G,ABS),,SIG,,BRS",
+                "code": "92-U-235(G,TOT),,SIG",
                 "code_unit": [
                   {
-                    "unit": "92-U-235(G,ABS),,SIG,,BRS",
+                    "unit": "92-U-235(G,TOT),,SIG",
                     "field": {
-                      "reaction": "92-U-235(G,ABS)",
+                      "reaction": "92-U-235(G,TOT)",
                       "target": "92-U-235",
                       "projectile": "G",
-                      "process": "ABS",
+                      "process": "TOT",
                       "product": "",
                       "quantity": ",SIG",
                       "data_type": null,
-                      "general_quantity_modifier": "BRS",
+                      "general_quantity_modifier": null,
                       "quantity_236": ",SIG"
                     }
                   }
@@ -569,7 +656,23 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                " Nuclear photoabsorption cross-section as difference",
+                " between total photon absorption cross section and",
+                " atomic absorption cross section."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260410,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " DATA-ERR."
               ]
             }
           ],
@@ -592,7 +695,7 @@
             "heading": [
               "EN",
               "DATA",
-              "ERR-S"
+              "DATA-ERR"
             ],
             "unit": [
               "MEV",
@@ -889,31 +992,31 @@
         {
           "SUBENT": {
             "N1": "M0090004",
-            "N2": 20050517,
+            "N2": 20260410,
             "alteration_flag": " ",
-            "transmission_identification": "M038"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "92-U-238(G,ABS),,SIG,,BRS",
+                "code": "92-U-238(G,TOT),,SIG",
                 "code_unit": [
                   {
-                    "unit": "92-U-238(G,ABS),,SIG,,BRS",
+                    "unit": "92-U-238(G,TOT),,SIG",
                     "field": {
-                      "reaction": "92-U-238(G,ABS)",
+                      "reaction": "92-U-238(G,TOT)",
                       "target": "92-U-238",
                       "projectile": "G",
-                      "process": "ABS",
+                      "process": "TOT",
                       "product": "",
                       "quantity": ",SIG",
                       "data_type": null,
-                      "general_quantity_modifier": "BRS",
+                      "general_quantity_modifier": null,
                       "quantity_236": ",SIG"
                     }
                   }
@@ -921,7 +1024,23 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                " Nuclear photoabsorption cross-section as difference",
+                " between total photon absorption cross section and",
+                " atomic absorption cross section."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260410,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " DATA-ERR."
               ]
             }
           ],
@@ -944,7 +1063,7 @@
             "heading": [
               "EN",
               "DATA",
-              "ERR-S"
+              "DATA-ERR"
             ],
             "unit": [
               "MEV",
@@ -1171,31 +1290,31 @@
         {
           "SUBENT": {
             "N1": "M0090005",
-            "N2": 20050517,
+            "N2": 20260410,
             "alteration_flag": " ",
-            "transmission_identification": "M038"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "94-PU-239(G,ABS),,SIG,,BRS",
+                "code": "94-PU-239(G,TOT),,SIG",
                 "code_unit": [
                   {
-                    "unit": "94-PU-239(G,ABS),,SIG,,BRS",
+                    "unit": "94-PU-239(G,TOT),,SIG",
                     "field": {
-                      "reaction": "94-PU-239(G,ABS)",
+                      "reaction": "94-PU-239(G,TOT)",
                       "target": "94-PU-239",
                       "projectile": "G",
-                      "process": "ABS",
+                      "process": "TOT",
                       "product": "",
                       "quantity": ",SIG",
                       "data_type": null,
-                      "general_quantity_modifier": "BRS",
+                      "general_quantity_modifier": null,
                       "quantity_236": ",SIG"
                     }
                   }
@@ -1203,7 +1322,23 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                " Nuclear photoabsorption cross-section as difference",
+                " between total photon absorption cross section and",
+                " atomic absorption cross section."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260410,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " DATA-ERR."
               ]
             }
           ],
@@ -1226,7 +1361,7 @@
             "heading": [
               "EN",
               "DATA",
-              "ERR-S"
+              "DATA-ERR"
             ],
             "unit": [
               "MEV",

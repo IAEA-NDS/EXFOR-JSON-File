@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:27:07+0000",
+  "time_stamp": "2026-05-22T22:13:34+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0727",
-        "N2": 20150806,
+        "N2": 20260411,
         "alteration_flag": " ",
-        "transmission_identification": "M080"
+        "transmission_identification": "M145"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0727001",
-            "N2": 20150806,
+            "N2": 20260411,
             "alteration_flag": " ",
-            "transmission_identification": "M080"
+            "transmission_identification": "M145"
           },
           "BIB": {
             "N1": 11,
@@ -26,8 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "19F, 24Mg and  40Ca  gamma-quantum  absorption  cross",
-                " sections for energy region 10 - 30 MeV."
+                "Cross sections for gamma-ray absorption by 19F, 24Mg",
+                " and 40Ca in the 10 to 30 MeV region."
               ]
             }
           ],
@@ -61,38 +61,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,IZV,30,(2),349,1966",
+                "code": "J,BAS,30,354,1966",
                 "code_unit": [
                   {
-                    "unit": "J,IZV,30,(2),349,1966",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "IZV",
-                        "number": null,
-                        "volume": "30",
-                        "part": null,
-                        "issue": "2",
-                        "page": "349"
-                      },
-                      "date": 1966
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "J,BAS,30,(2),354,1966",
-                "code_unit": [
-                  {
-                    "unit": "J,BAS,30,(2),354,1966",
+                    "unit": "J,BAS,30,354,1966",
                     "doi": null,
                     "field": {
                       "reference_type": "J",
@@ -101,7 +73,7 @@
                         "number": null,
                         "volume": "30",
                         "part": null,
-                        "issue": "2",
+                        "issue": null,
                         "page": "354"
                       },
                       "date": 1966
@@ -112,7 +84,35 @@
               },
               "free_text": [
                 "",
-                " English translation of IZV,30,(2),349,1966."
+                " English translation of IZV,30,349,1966."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,IZV,30,349,1966",
+                "code_unit": [
+                  {
+                    "unit": "J,IZV,30,349,1966",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "IZV",
+                        "number": null,
+                        "volume": "30",
+                        "part": null,
+                        "issue": null,
+                        "page": "349"
+                      },
+                      "date": 1966
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -227,6 +227,17 @@
               "free_text": [
                 " Corrected by V.Varlamov: typo in ANALYSIS"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260411,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: TITLE,",
+                " REFERENCE, REACTION, STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -245,9 +256,9 @@
         {
           "SUBENT": {
             "N1": "M0727002",
-            "N2": 20140722,
+            "N2": 20260411,
             "alteration_flag": " ",
-            "transmission_identification": "M074"
+            "transmission_identification": "M145"
           },
           "BIB": {
             "N1": 4,
@@ -257,19 +268,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "9-F-19(G,ABS),,SIG,,BRS",
+                "code": "9-F-19(G,TOT),,SIG",
                 "code_unit": [
                   {
-                    "unit": "9-F-19(G,ABS),,SIG,,BRS",
+                    "unit": "9-F-19(G,TOT),,SIG",
                     "field": {
-                      "reaction": "9-F-19(G,ABS)",
+                      "reaction": "9-F-19(G,TOT)",
                       "target": "9-F-19",
                       "projectile": "G",
-                      "process": "ABS",
+                      "process": "TOT",
                       "product": "",
                       "quantity": ",SIG",
                       "data_type": null,
-                      "general_quantity_modifier": "BRS",
+                      "general_quantity_modifier": null,
                       "quantity_236": ",SIG"
                     }
                   }
@@ -277,7 +288,10 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "Nuclear photoabsorption cross-section as difference",
+                " between total photon absorption cross section and",
+                " atomic absorption cross section."
               ]
             }
           ],
@@ -298,10 +312,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "B.S.Dolbilkin+",
+                "reference": {
+                  "code": "J,BAS,30,354,1966",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "30",
+                      "part": null,
+                      "issue": null,
+                      "page": "354"
+                    },
+                    "date": 1966
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data from Fig. 2."
               ]
             }
@@ -315,6 +344,17 @@
               },
               "free_text": [
                 " Corrected  by  V.Varlamov: STATUS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260411,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected  by  V.Varlamov: REACTION,",
+                " STATUS."
               ]
             }
           ],
@@ -789,9 +829,9 @@
         {
           "SUBENT": {
             "N1": "M0727003",
-            "N2": 20140722,
+            "N2": 20260411,
             "alteration_flag": " ",
-            "transmission_identification": "M074"
+            "transmission_identification": "M145"
           },
           "BIB": {
             "N1": 4,
@@ -801,19 +841,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "12-MG-24(G,ABS),,SIG,,BRS",
+                "code": "12-MG-24(G,TOT),,SIG",
                 "code_unit": [
                   {
-                    "unit": "12-MG-24(G,ABS),,SIG,,BRS",
+                    "unit": "12-MG-24(G,TOT),,SIG",
                     "field": {
-                      "reaction": "12-MG-24(G,ABS)",
+                      "reaction": "12-MG-24(G,TOT)",
                       "target": "12-MG-24",
                       "projectile": "G",
-                      "process": "ABS",
+                      "process": "TOT",
                       "product": "",
                       "quantity": ",SIG",
                       "data_type": null,
-                      "general_quantity_modifier": "BRS",
+                      "general_quantity_modifier": null,
                       "quantity_236": ",SIG"
                     }
                   }
@@ -821,7 +861,10 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "Nuclear photoabsorption cross-section as difference",
+                " between total photon absorption cross section and",
+                " atomic absorption cross section."
               ]
             }
           ],
@@ -843,10 +886,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "B.S.Dolbilkin+",
+                "reference": {
+                  "code": "J,BAS,30,354,1966",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "30",
+                      "part": null,
+                      "issue": null,
+                      "page": "354"
+                    },
+                    "date": 1966
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data from Fig. 3."
               ]
             }
@@ -860,6 +918,17 @@
               },
               "free_text": [
                 " Corrected  by  V.Varlamov: STATUS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260411,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected  by  V.Varlamov: REACTION,",
+                " STATUS."
               ]
             }
           ],
@@ -1314,9 +1383,9 @@
         {
           "SUBENT": {
             "N1": "M0727004",
-            "N2": 20140722,
+            "N2": 20260411,
             "alteration_flag": " ",
-            "transmission_identification": "M074"
+            "transmission_identification": "M145"
           },
           "BIB": {
             "N1": 4,
@@ -1326,19 +1395,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "20-CA-40(G,ABS),,SIG,,BRS",
+                "code": "20-CA-40(G,TOT),,SIG",
                 "code_unit": [
                   {
-                    "unit": "20-CA-40(G,ABS),,SIG,,BRS",
+                    "unit": "20-CA-40(G,TOT),,SIG",
                     "field": {
-                      "reaction": "20-CA-40(G,ABS)",
+                      "reaction": "20-CA-40(G,TOT)",
                       "target": "20-CA-40",
                       "projectile": "G",
-                      "process": "ABS",
+                      "process": "TOT",
                       "product": "",
                       "quantity": ",SIG",
                       "data_type": null,
-                      "general_quantity_modifier": "BRS",
+                      "general_quantity_modifier": null,
                       "quantity_236": ",SIG"
                     }
                   }
@@ -1346,7 +1415,10 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "Nuclear photoabsorption cross-section as difference",
+                " between total photon absorption cross section and",
+                " atomic absorption cross section."
               ]
             }
           ],
@@ -1367,10 +1439,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "B.S.Dolbilkin+",
+                "reference": {
+                  "code": "J,BAS,30,354,1966",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "30",
+                      "part": null,
+                      "issue": null,
+                      "page": "354"
+                    },
+                    "date": 1966
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data from Fig. 4."
               ]
             }
@@ -1384,6 +1471,17 @@
               },
               "free_text": [
                 " Corrected  by  V.Varlamov: STATUS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260411,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected  by  V.Varlamov: REACTION,",
+                " STATUS."
               ]
             }
           ],

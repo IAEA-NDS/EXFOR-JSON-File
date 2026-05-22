@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:19:44+0000",
+  "time_stamp": "2026-05-22T22:13:32+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0005",
-        "N2": 20121029,
+        "N2": 20260409,
         "alteration_flag": " ",
-        "transmission_identification": "M065"
+        "transmission_identification": "M145"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0005001",
-            "N2": 20121029,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "M065"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 11,
             "N2": 0
           },
           "TITLE": [
@@ -26,9 +26,9 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Relative probabilities of photofission of U-235,",
-                " U-238, Np-237, Pu-239, Am-241, and Am-243",
-                " nuclei in 100-1000 MeV g-quantum energy range."
+                "Relative probabilities of photofission of 235U,",
+                " 238U, 237Np, 239Pu, 241Am, and 243Am in the",
+                " gamma-ray energy region 100-1000 MeV."
               ]
             }
           ],
@@ -37,7 +37,7 @@
               "pointer": "",
               "coded_information": [
                 "B.M.Aleksandrov",
-                "A.S.Krivokhatskiy",
+                "A.S.Krivokhatskii",
                 "V.L.Kuznetsov",
                 "L.E.Lazareva",
                 "V.G.Nedorezov",
@@ -64,6 +64,35 @@
             {
               "pointer": "",
               "coded_information": {
+                "code": "J,SNP,28,600,1978",
+                "code_unit": [
+                  {
+                    "unit": "J,SNP,28,600,1978",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "SNP",
+                        "number": null,
+                        "volume": "28",
+                        "part": null,
+                        "issue": null,
+                        "page": "600"
+                      },
+                      "date": 1978
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " English translation of YF,28,1165,1978."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
                 "code": "J,YF,28,1165,1978",
                 "code_unit": [
                   {
@@ -87,34 +116,6 @@
               },
               "free_text": [
                 ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "J,SNP,28,600,1978",
-                "code_unit": [
-                  {
-                    "unit": "J,SNP,28,600,1978",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "SNP",
-                        "number": null,
-                        "volume": "28",
-                        "part": null,
-                        "issue": null,
-                        "page": "600"
-                      },
-                      "date": 1978
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                " - Eng.trans.of J,YF,28,1165,1978"
               ]
             }
           ],
@@ -169,17 +170,6 @@
               ]
             }
           ],
-          "PART-DET": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "FF"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "ERR-ANALYS": [
             {
               "pointer": "",
@@ -207,21 +197,7 @@
                 "reference": null
               },
               "free_text": [
-                " by V.G.Nedorezov"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Data  from  from the authors."
+                " By V.G.Nedorezov"
               ]
             }
           ],
@@ -279,6 +255,17 @@
                 "            VV: REACTION code in SUBENTS 002 - 006",
                 "     was corrected."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: TITLE, AUTHOR,",
+                " REFERENCE, PART-DET, STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -297,12 +284,12 @@
         {
           "SUBENT": {
             "N1": "M0005002",
-            "N2": 20121029,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "M065"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -344,6 +331,49 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.M.Aleksandrov+",
+                "reference": {
+                  "code": "J,SNP,28,600,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "28",
+                      "part": null,
+                      "issue": null,
+                      "page": "600"
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data from table I."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: STATUS."
               ]
             }
           ],
@@ -408,12 +438,12 @@
         {
           "SUBENT": {
             "N1": "M0005003",
-            "N2": 20121029,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "M065"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -455,6 +485,49 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.M.Aleksandrov+",
+                "reference": {
+                  "code": "J,SNP,28,600,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "28",
+                      "part": null,
+                      "issue": null,
+                      "page": "600"
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data from table I."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: STATUS."
               ]
             }
           ],
@@ -519,12 +592,12 @@
         {
           "SUBENT": {
             "N1": "M0005004",
-            "N2": 20121029,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "M065"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -566,6 +639,49 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.M.Aleksandrov+",
+                "reference": {
+                  "code": "J,SNP,28,600,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "28",
+                      "part": null,
+                      "issue": null,
+                      "page": "600"
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data from table I."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: STATUS."
               ]
             }
           ],
@@ -630,12 +746,12 @@
         {
           "SUBENT": {
             "N1": "M0005005",
-            "N2": 20121029,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "M065"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -677,6 +793,49 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.M.Aleksandrov+",
+                "reference": {
+                  "code": "J,SNP,28,600,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "28",
+                      "part": null,
+                      "issue": null,
+                      "page": "600"
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data from table I."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: STATUS."
               ]
             }
           ],
@@ -741,12 +900,12 @@
         {
           "SUBENT": {
             "N1": "M0005006",
-            "N2": 20121029,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "M065"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -788,6 +947,49 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.M.Aleksandrov+",
+                "reference": {
+                  "code": "J,SNP,28,600,1978",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "28",
+                      "part": null,
+                      "issue": null,
+                      "page": "600"
+                    },
+                    "date": 1978
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data from table I."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: STATUS."
               ]
             }
           ],

@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:19:42+0000",
+  "time_stamp": "2026-05-22T22:13:31+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0002",
-        "N2": 20130524,
+        "N2": 20260413,
         "alteration_flag": " ",
-        "transmission_identification": "M067"
+        "transmission_identification": "M145"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0002001",
-            "N2": 20130524,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "M067"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 15,
+            "N1": 13,
             "N2": 0
           },
           "TITLE": [
@@ -26,7 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Decay channels of the giant dipole resonance in Mg-26."
+                "Decay channels of the giant dipole resonance in Mg-",
+                " 26."
               ]
             }
           ],
@@ -138,31 +139,6 @@
               ]
             }
           ],
-          "ANALYSIS": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "The proton energy spectrum was obtained as difference",
-                " between the experimental spectra and electron",
-                " background. Energy resolution is 250 kev for protons",
-                " with energy 5 MeV.",
-                "The proton spectra were transformed into the functions",
-                " of the final nucleus excitation energy and then were",
-                " used  for  calculation  of  the  cross  sections for",
-                " various E-lvl."
-              ]
-            }
-          ],
-          "MONITOR": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Normalized to 26Mg(gamma,p) reaction yield."
-              ]
-            }
-          ],
           "ERR-ANALYS": [
             {
               "pointer": "",
@@ -177,14 +153,12 @@
               ]
             }
           ],
-          "PART-DET": [
+          "MONITOR": [
             {
               "pointer": "",
-              "coded_information": [
-                "P"
-              ],
+              "coded_information": null,
               "free_text": [
-                ""
+                "Normalized to 26Mg(gamma,p) reaction yield."
               ]
             }
           ],
@@ -204,7 +178,6 @@
               "pointer": "",
               "coded_information": {
                 "status": [
-                  "TABLE",
                   "APRVD"
                 ],
                 "subentry_number": null,
@@ -269,29 +242,24 @@
                 " Corrected  by   V.Varlamov:   ERR-ANALYS,",
                 " dates, REACTION, lowercase."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: PART-DET,",
+                " ANALYSIS, ERR-ANALYS, COMMON, STATUS."
+              ]
             }
           ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 1,
-            "N2": 0,
-            "pointer": [
-              ""
-            ],
-            "heading": [
-              "ANG"
-            ],
-            "unit": [
-              "ADEG"
-            ],
-            "value": [
-              90.0
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -303,12 +271,12 @@
         {
           "SUBENT": {
             "N1": "M0002002",
-            "N2": 20130524,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "M067"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -339,6 +307,49 @@
               ]
             }
           ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The proton energy spectrum was obtained as difference",
+                " between the experimental spectra and electron",
+                " background. Energy resolution is 250 keV for protons",
+                " with energy 5 MeV."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.S.Ishkhanov+",
+                "reference": {
+                  "code": "J,NP/A,313,317,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "313",
+                      "part": null,
+                      "issue": null,
+                      "page": "317"
+                    },
+                    "date": 1979
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data presented in Fig. 1."
+              ]
+            }
+          ],
           "HISTORY": [
             {
               "pointer": "",
@@ -349,6 +360,17 @@
               "free_text": [
                 " Corrected by V.Varlamov: BRS -> BRA."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: ANALYSIS,",
+                " COMMON, STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -356,19 +378,23 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0,
             "pointer": [
+              "",
               ""
             ],
             "heading": [
-              "EN-MAX"
+              "EN-MAX",
+              "ANG"
             ],
             "unit": [
-              "MEV"
+              "MEV",
+              "ADEG"
             ],
             "value": [
-              19.5
+              19.5,
+              90.0
             ]
           },
           "ENDCOMMON": {
@@ -703,12 +729,12 @@
         {
           "SUBENT": {
             "N1": "M0002003",
-            "N2": 20130524,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "M067"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -739,6 +765,49 @@
               ]
             }
           ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The proton energy spectrum was obtained as difference",
+                " between the experimental spectra and electron",
+                " background. Energy resolution is 250 keV for protons",
+                " with energy 5 MeV."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.S.Ishkhanov+",
+                "reference": {
+                  "code": "J,NP/A,313,317,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "313",
+                      "part": null,
+                      "issue": null,
+                      "page": "317"
+                    },
+                    "date": 1979
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data presented in Fig. 1."
+              ]
+            }
+          ],
           "HISTORY": [
             {
               "pointer": "",
@@ -749,6 +818,17 @@
               "free_text": [
                 " Corrected by V.Varlamov: BRS -> BRA."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: ANALYSIS,",
+                " COMMON, STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -756,19 +836,23 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0,
             "pointer": [
+              "",
               ""
             ],
             "heading": [
-              "EN-MAX"
+              "EN-MAX",
+              "ANG"
             ],
             "unit": [
-              "MEV"
+              "MEV",
+              "ADEG"
             ],
             "value": [
-              20.5
+              20.5,
+              90.0
             ]
           },
           "ENDCOMMON": {
@@ -1208,12 +1292,12 @@
         {
           "SUBENT": {
             "N1": "M0002004",
-            "N2": 20130524,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "M067"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1244,6 +1328,49 @@
               ]
             }
           ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The proton energy spectrum was obtained as difference",
+                " between the experimental spectra and electron",
+                " background. Energy resolution is 250 keV for protons",
+                " with energy 5 MeV."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.S.Ishkhanov+",
+                "reference": {
+                  "code": "J,NP/A,313,317,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "313",
+                      "part": null,
+                      "issue": null,
+                      "page": "317"
+                    },
+                    "date": 1979
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data presented in Fig. 1."
+              ]
+            }
+          ],
           "HISTORY": [
             {
               "pointer": "",
@@ -1254,6 +1381,17 @@
               "free_text": [
                 " Corrected by V.Varlamov: BRS -> BRA."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: ANALYSIS,",
+                " COMMON, STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -1261,19 +1399,23 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0,
             "pointer": [
+              "",
               ""
             ],
             "heading": [
-              "EN-MAX"
+              "EN-MAX",
+              "ANG"
             ],
             "unit": [
-              "MEV"
+              "MEV",
+              "ADEG"
             ],
             "value": [
-              22.0
+              22.0,
+              90.0
             ]
           },
           "ENDCOMMON": {
@@ -1878,12 +2020,12 @@
         {
           "SUBENT": {
             "N1": "M0002005",
-            "N2": 20130524,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "M067"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1914,6 +2056,49 @@
               ]
             }
           ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The proton energy spectrum was obtained as difference",
+                " between the experimental spectra and electron",
+                " background. Energy resolution is 250 keV for protons",
+                " with energy 5 MeV."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.S.Ishkhanov+",
+                "reference": {
+                  "code": "J,NP/A,313,317,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "313",
+                      "part": null,
+                      "issue": null,
+                      "page": "317"
+                    },
+                    "date": 1979
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data presented in Fig. 1."
+              ]
+            }
+          ],
           "HISTORY": [
             {
               "pointer": "",
@@ -1924,6 +2109,17 @@
               "free_text": [
                 " Corrected by V.Varlamov: BRS -> BRA."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: ANALYSIS,",
+                " COMMON, STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -1931,19 +2127,23 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0,
             "pointer": [
+              "",
               ""
             ],
             "heading": [
-              "EN-MAX"
+              "EN-MAX",
+              "ANG"
             ],
             "unit": [
-              "MEV"
+              "MEV",
+              "ADEG"
             ],
             "value": [
-              24.5
+              24.5,
+              90.0
             ]
           },
           "ENDCOMMON": {
@@ -2783,12 +2983,12 @@
         {
           "SUBENT": {
             "N1": "M0002006",
-            "N2": 20130524,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "M067"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -2819,6 +3019,49 @@
               ]
             }
           ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The proton energy spectrum was obtained as difference",
+                " between the experimental spectra and electron",
+                " background. Energy resolution is 250 keV for protons",
+                " with energy 5 MeV."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.S.Ishkhanov+",
+                "reference": {
+                  "code": "J,NP/A,313,317,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "313",
+                      "part": null,
+                      "issue": null,
+                      "page": "317"
+                    },
+                    "date": 1979
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data presented in Fig. 1."
+              ]
+            }
+          ],
           "HISTORY": [
             {
               "pointer": "",
@@ -2829,6 +3072,17 @@
               "free_text": [
                 " Corrected by V.Varlamov: BRS -> BRA."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: ANALYSIS,",
+                " COMMON, STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -2836,19 +3090,23 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0,
             "pointer": [
+              "",
               ""
             ],
             "heading": [
-              "EN-MAX"
+              "EN-MAX",
+              "ANG"
             ],
             "unit": [
-              "MEV"
+              "MEV",
+              "ADEG"
             ],
             "value": [
-              27.0
+              27.0,
+              90.0
             ]
           },
           "ENDCOMMON": {
@@ -3928,12 +4186,12 @@
         {
           "SUBENT": {
             "N1": "M0002007",
-            "N2": 20130524,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "M067"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -4019,6 +4277,48 @@
               "free_text": [
                 ""
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.S.Ishkhanov+",
+                "reference": {
+                  "code": "J,NP/A,313,317,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "313",
+                      "part": null,
+                      "issue": null,
+                      "page": "317"
+                    },
+                    "date": 1979
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data presented in Fig. 3b."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: ERR-ANALYS,",
+                " COMMON, STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -4026,23 +4326,27 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0,
             "pointer": [
+              "",
               "",
               ""
             ],
             "heading": [
               "EN-MIN",
-              "EN-MAX"
+              "EN-MAX",
+              "ANG"
             ],
             "unit": [
               "MEV",
-              "MEV"
+              "MEV",
+              "ADEG"
             ],
             "value": [
               19.5,
-              22.0
+              22.0,
+              90.0
             ]
           },
           "ENDCOMMON": {
@@ -4232,12 +4536,12 @@
         {
           "SUBENT": {
             "N1": "M0002008",
-            "N2": 20130524,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "M067"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -4309,6 +4613,48 @@
               "free_text": [
                 ""
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.S.Ishkhanov+",
+                "reference": {
+                  "code": "J,NP/A,313,317,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "313",
+                      "part": null,
+                      "issue": null,
+                      "page": "317"
+                    },
+                    "date": 1979
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data presented in Fig. 3c."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: ERR-ANALYS,",
+                " COMMON, STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -4316,23 +4662,27 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0,
             "pointer": [
+              "",
               "",
               ""
             ],
             "heading": [
               "EN-MIN",
-              "EN-MAX"
+              "EN-MAX",
+              "ANG"
             ],
             "unit": [
               "MEV",
-              "MEV"
+              "MEV",
+              "ADEG"
             ],
             "value": [
               22.0,
-              27.0
+              27.0,
+              90.0
             ]
           },
           "ENDCOMMON": {
@@ -4622,12 +4972,12 @@
         {
           "SUBENT": {
             "N1": "M0002009",
-            "N2": 20130524,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "M067"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -4741,6 +5091,47 @@
               "free_text": [
                 ""
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.S.Ishkhanov+",
+                "reference": {
+                  "code": "J,NP/A,313,317,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "313",
+                      "part": null,
+                      "issue": null,
+                      "page": "317"
+                    },
+                    "date": 1979
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data presented in Fig. 3a."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: COMMON, STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -4748,23 +5139,27 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0,
             "pointer": [
+              "",
               "",
               ""
             ],
             "heading": [
               "EN-MIN",
-              "EN-MAX"
+              "EN-MAX",
+              "ANG"
             ],
             "unit": [
               "MEV",
-              "MEV"
+              "MEV",
+              "ADEG"
             ],
             "value": [
               19.5,
-              27.0
+              27.0,
+              90.0
             ]
           },
           "ENDCOMMON": {
@@ -5054,9 +5449,9 @@
         {
           "SUBENT": {
             "N1": "M0002010",
-            "N2": 20130524,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "M067"
+            "transmission_identification": "M145"
           },
           "BIB": {
             "N1": 5,
@@ -5090,18 +5485,6 @@
               ]
             }
           ],
-          "HISTORY": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 20130524,
-                "history": "A"
-              },
-              "free_text": [
-                " Corrected by V.Varlamov: BRA -> BRS."
-              ]
-            }
-          ],
           "EN-SEC": [
             {
               "pointer": "",
@@ -5119,11 +5502,11 @@
             {
               "pointer": "",
               "coded_information": [
-                "PLA",
-                "4PI1A"
+                "LEAST"
               ],
               "free_text": [
-                ""
+                " Least-squares technique for solving equations",
+                " for partial cross sections (page 322)."
               ]
             }
           ],
@@ -5197,6 +5580,58 @@
               "free_text": [
                 ""
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.S.Ishkhanov+",
+                "reference": {
+                  "code": "J,NP/A,313,317,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "313",
+                      "part": null,
+                      "issue": null,
+                      "page": "317"
+                    },
+                    "date": 1979
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data presented in Fig. 4a."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20130524,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: BRA -> BRS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: ANALYSIS,",
+                " COMMON, STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -5204,23 +5639,27 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0,
             "pointer": [
+              "",
               "",
               ""
             ],
             "heading": [
               "E-LVL-MIN",
-              "E-LVL-MAX"
+              "E-LVL-MAX",
+              "ANG"
             ],
             "unit": [
               "MEV",
-              "MEV"
+              "MEV",
+              "ADEG"
             ],
             "value": [
               0.0,
-              0.09
+              0.09,
+              90.0
             ]
           },
           "ENDCOMMON": {
@@ -5785,9 +6224,9 @@
         {
           "SUBENT": {
             "N1": "M0002011",
-            "N2": 20130524,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "M067"
+            "transmission_identification": "M145"
           },
           "BIB": {
             "N1": 5,
@@ -5821,18 +6260,6 @@
               ]
             }
           ],
-          "HISTORY": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 20130524,
-                "history": "A"
-              },
-              "free_text": [
-                " Corrected by V.Varlamov: BRA -> BRS."
-              ]
-            }
-          ],
           "EN-SEC": [
             {
               "pointer": "",
@@ -5850,11 +6277,11 @@
             {
               "pointer": "",
               "coded_information": [
-                "PLA",
-                "4PI1A"
+                "LEAST"
               ],
               "free_text": [
-                ""
+                " Least-squares technique for solving equations",
+                " for partial cross sections (page 322)."
               ]
             }
           ],
@@ -5928,6 +6355,57 @@
               "free_text": [
                 ""
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.S.Ishkhanov+",
+                "reference": {
+                  "code": "J,NP/A,313,317,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "313",
+                      "part": null,
+                      "issue": null,
+                      "page": "317"
+                    },
+                    "date": 1979
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data presented in Fig. 4b."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20130524,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: BRA -> BRS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: COMMON, STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -5935,19 +6413,23 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0,
             "pointer": [
+              "",
               ""
             ],
             "heading": [
-              "E-LVL-MEAN"
+              "E-EXC",
+              "ANG"
             ],
             "unit": [
-              "MEV"
+              "MEV",
+              "ADEG"
             ],
             "value": [
-              3.0
+              3.0,
+              90.0
             ]
           },
           "ENDCOMMON": {
@@ -6357,9 +6839,9 @@
         {
           "SUBENT": {
             "N1": "M0002012",
-            "N2": 20130524,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "M067"
+            "transmission_identification": "M145"
           },
           "BIB": {
             "N1": 4,
@@ -6393,27 +6875,15 @@
               ]
             }
           ],
-          "HISTORY": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 20130524,
-                "history": "A"
-              },
-              "free_text": [
-                " Corrected by V.Varlamov: BRA -> BRS."
-              ]
-            }
-          ],
           "ANALYSIS": [
             {
               "pointer": "",
               "coded_information": [
-                "PLA",
-                "4PI1A"
+                "LEAST"
               ],
               "free_text": [
-                ""
+                " Least-squares technique for solving equations",
+                " for partial cross sections (page 322)."
               ]
             }
           ],
@@ -6487,6 +6957,57 @@
               "free_text": [
                 ""
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.S.Ishkhanov+",
+                "reference": {
+                  "code": "J,NP/A,313,317,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "313",
+                      "part": null,
+                      "issue": null,
+                      "page": "317"
+                    },
+                    "date": 1979
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data presented in Fig. 4c."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20130524,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: BRA -> BRS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: COMMON, STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -6494,19 +7015,23 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0,
             "pointer": [
+              "",
               ""
             ],
             "heading": [
-              "E-LVL"
+              "E-EXC",
+              "ANG"
             ],
             "unit": [
-              "MEV"
+              "MEV",
+              "ADEG"
             ],
             "value": [
-              6.0
+              6.0,
+              90.0
             ]
           },
           "ENDCOMMON": {
@@ -6786,12 +7311,12 @@
         {
           "SUBENT": {
             "N1": "M0002013",
-            "N2": 20130524,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "M067"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -6822,15 +7347,13 @@
               ]
             }
           ],
-          "HISTORY": [
+          "ANALYSIS": [
             {
               "pointer": "",
-              "coded_information": {
-                "date": 20130524,
-                "history": "A"
-              },
+              "coded_information": null,
               "free_text": [
-                " Corrected by V.Varlamov: BRA -> BRS."
+                "This cross section is the sum of the partial cross",
+                " sections for various E-LVL."
               ]
             }
           ],
@@ -6874,9 +7397,59 @@
                 "reference": null
               },
               "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.S.Ishkhanov+",
+                "reference": {
+                  "code": "J,NP/A,313,317,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "313",
+                      "part": null,
+                      "issue": null,
+                      "page": "317"
+                    },
+                    "date": 1979
+                  }
+                }
+              },
+              "free_text": [
                 "",
-                "This cross section is the sum of the partial cross",
-                " sections for various E-LVL."
+                " Data presented in Fig. 4d."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20130524,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: BRA -> BRS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: ANALYSIS,",
+                " STATUS."
               ]
             }
           ],

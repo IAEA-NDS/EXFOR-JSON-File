@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:28:14+0000",
+  "time_stamp": "2026-05-22T22:13:34+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0824",
-        "N2": 20140225,
+        "N2": 20260411,
         "alteration_flag": " ",
-        "transmission_identification": "M071"
+        "transmission_identification": "M145"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0824001",
-            "N2": 20140225,
+            "N2": 20260411,
             "alteration_flag": " ",
-            "transmission_identification": "M071"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 11,
+            "N1": 10,
             "N2": 0
           },
           "TITLE": [
@@ -61,34 +61,6 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,YF,8,1080,1968",
-                "code_unit": [
-                  {
-                    "unit": "J,YF,8,1080,1968",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "YF",
-                        "number": null,
-                        "volume": "8",
-                        "part": null,
-                        "issue": null,
-                        "page": "1080"
-                      },
-                      "date": 1968
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
                 "code": "J,SNP,8,626,1969",
                 "code_unit": [
                   {
@@ -112,7 +84,35 @@
               },
               "free_text": [
                 "",
-                " English translation of YF,8,1080,1968"
+                " English translation of YF,8,1080,1968."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,YF,8,1080,1968",
+                "code_unit": [
+                  {
+                    "unit": "J,YF,8,1080,1968",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "YF",
+                        "number": null,
+                        "volume": "8",
+                        "part": null,
+                        "issue": null,
+                        "page": "1080"
+                      },
+                      "date": 1968
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -176,18 +176,6 @@
               ]
             }
           ],
-          "CORRECTION": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Photoabsorption cross   section   was   obtained   by",
-                " subtraction of the atomic absorption  cross  section",
-                " from  the  experimentally measured sum of atomic and",
-                " nuclear absorption cross sections."
-              ]
-            }
-          ],
           "HISTORY": [
             {
               "pointer": "",
@@ -209,6 +197,17 @@
               "free_text": [
                 " Corrected by V.Varlamov: REFERENCE."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260411,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REFERENCE,",
+                " CORRECTION -> ANALYSIS, REACTION, STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -227,27 +226,27 @@
         {
           "SUBENT": {
             "N1": "M0824002",
-            "N2": 20110927,
+            "N2": 20260411,
             "alteration_flag": " ",
-            "transmission_identification": "M060"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "16-S-32(G,ABS),,SIG",
+                "code": "16-S-32(G,TOT),,SIG",
                 "code_unit": [
                   {
-                    "unit": "16-S-32(G,ABS),,SIG",
+                    "unit": "16-S-32(G,TOT),,SIG",
                     "field": {
-                      "reaction": "16-S-32(G,ABS)",
+                      "reaction": "16-S-32(G,TOT)",
                       "target": "16-S-32",
                       "projectile": "G",
-                      "process": "ABS",
+                      "process": "TOT",
                       "product": "",
                       "quantity": ",SIG",
                       "data_type": null,
@@ -259,7 +258,22 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "Nuclear photoabsorption cross-section as difference",
+                " between total photon absorption cross section and",
+                " atomic absorption cross section."
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Photoabsorption cross   section   was   obtained   by",
+                " subtraction of the atomic absorption  cross  section",
+                " from  the  experimentally measured sum of atomic and",
+                " nuclear absorption cross sections."
               ]
             }
           ],
@@ -285,11 +299,39 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "B.S.Dolbilkin+",
+                "reference": {
+                  "code": "J,SNP,8,626,1969",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "8",
+                      "part": null,
+                      "issue": null,
+                      "page": "626"
+                    },
+                    "date": 1969
+                  }
+                }
               },
               "free_text": [
-                " Data from Fig. 1 of YF,8,1080,1968."
+                "",
+                " Data from Fig. 1."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260411,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " STATUS."
               ]
             }
           ],
@@ -594,27 +636,27 @@
         {
           "SUBENT": {
             "N1": "M0824003",
-            "N2": 20110927,
+            "N2": 20260411,
             "alteration_flag": " ",
-            "transmission_identification": "M060"
+            "transmission_identification": "M145"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "16-S-32(G,ABS),,INT",
+                "code": "16-S-32(G,TOT),,INT",
                 "code_unit": [
                   {
-                    "unit": "16-S-32(G,ABS),,INT",
+                    "unit": "16-S-32(G,TOT),,INT",
                     "field": {
-                      "reaction": "16-S-32(G,ABS)",
+                      "reaction": "16-S-32(G,TOT)",
                       "target": "16-S-32",
                       "projectile": "G",
-                      "process": "ABS",
+                      "process": "TOT",
                       "product": "",
                       "quantity": ",INT",
                       "data_type": null,
@@ -626,7 +668,10 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "Nuclear photoabsorption cross-section as difference",
+                " between total photon absorption cross section and",
+                " atomic absorption cross section."
               ]
             }
           ],
@@ -647,11 +692,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "B.S.Dolbilkin+",
+                "reference": {
+                  "code": "J,SNP,8,626,1969",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "8",
+                      "part": null,
+                      "issue": null,
+                      "page": "626"
+                    },
+                    "date": 1969
+                  }
+                }
               },
               "free_text": [
-                " Data from Tab. 2 of YF,8,1080,1968."
+                "",
+                " Data from Table II."
               ]
             },
             {
@@ -665,7 +725,21 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                "",
+                " Reaction cross-section."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260411,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " STATUS."
               ]
             }
           ],
