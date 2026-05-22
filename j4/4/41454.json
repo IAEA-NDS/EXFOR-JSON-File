@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:01:42+0000",
+  "time_stamp": "2026-05-22T21:16:23+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "41454",
-        "N2": 20141020,
+        "N2": 20260310,
         "alteration_flag": " ",
-        "transmission_identification": "4165"
+        "transmission_identification": "4227"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "41454001",
-            "N2": 20141020,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 12,
@@ -26,7 +26,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Cascade gamma-decay of compound states of 60-Co nucleus"
+                "Cascade gamma-decay of compound states of 60Co nucleus"
               ]
             }
           ],
@@ -57,34 +57,6 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,IZV,67,(5),722,2003",
-                "code_unit": [
-                  {
-                    "unit": "J,IZV,67,(5),722,2003",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "IZV",
-                        "number": null,
-                        "volume": "67",
-                        "part": null,
-                        "issue": "5",
-                        "page": "722"
-                      },
-                      "date": 2003
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
                 "code": "J,BAS,67,796,2003",
                 "code_unit": [
                   {
@@ -108,7 +80,35 @@
               },
               "free_text": [
                 "",
-                "Engl.translation of J,IZV,67,(5),722,2003"
+                "Engl.translation of J,IZV,67,722,2003"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,IZV,67,722,2003",
+                "code_unit": [
+                  {
+                    "unit": "J,IZV,67,722,2003",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "IZV",
+                        "number": null,
+                        "volume": "67",
+                        "part": null,
+                        "issue": null,
+                        "page": "722"
+                      },
+                      "date": 2003
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                " Issue 5."
               ]
             }
           ],
@@ -122,7 +122,7 @@
                 "institute": "4ZZZDUB"
               },
               "free_text": [
-                " IBR-30 Reactor"
+                " IBR-30 reactor"
               ]
             }
           ],
@@ -156,7 +156,7 @@
               ],
               "free_text": [
                 "",
-                "Resolution 3 kev at the edges, 4.7 keV at the center."
+                "Resolution 3 keV at the edges, 4.7 keV at the center."
               ]
             }
           ],
@@ -193,7 +193,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Errors  not specified"
+                " Errors not specified"
               ]
             }
           ],
@@ -205,7 +205,7 @@
                 "history": "C"
               },
               "free_text": [
-                "  Compiled at CJD  (M.M.)"
+                "  Compiled at CJD (M.M.)"
               ]
             },
             {
@@ -227,6 +227,18 @@
               "free_text": [
                 " Engl.translation ref. was added.",
                 "Article was checked, BIB information was updated."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260310,
+                "history": "A"
+              },
+              "free_text": [
+                " (N,2G) -> (N,G), REL -> MSC in REACTION",
+                "according to a comment of N.Otsuka (NDS, IAEA).",
+                " STATUS was corrected fro new rules."
               ]
             }
           ],
@@ -262,9 +274,9 @@
         {
           "SUBENT": {
             "N1": "41454002",
-            "N2": 20141020,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 5,
@@ -274,19 +286,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "27-CO-59(N,2G)27-CO-60,,SPC,,SPA",
+                "code": "27-CO-59(N,G)27-CO-60,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "27-CO-59(N,2G)27-CO-60,,SPC,,SPA",
+                    "unit": "27-CO-59(N,G)27-CO-60,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "27-CO-59(N,2G)27-CO-60",
+                      "reaction": "27-CO-59(N,G)27-CO-60",
                       "target": "27-CO-59",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "27-CO-60",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -355,11 +367,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.M.Sukhovoi",
+                "reference": {
+                  "code": "J,BAS,67,796,2003",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "67",
+                      "part": null,
+                      "issue": null,
+                      "page": "796"
+                    },
+                    "date": 2003
+                  }
+                }
               },
               "free_text": [
-                "  From Table 1 of J,IZV,67,(5),722,2003 ."
+                " Table 1"
               ]
             }
           ],
@@ -2157,9 +2183,9 @@
         {
           "SUBENT": {
             "N1": "41454003",
-            "N2": 20141020,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 3,
@@ -2169,19 +2195,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "27-CO-59(N,2G)27-CO-60,,SPC,,SPA",
+                "code": "27-CO-59(N,G)27-CO-60,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "27-CO-59(N,2G)27-CO-60,,SPC,,SPA",
+                    "unit": "27-CO-59(N,G)27-CO-60,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "27-CO-59(N,2G)27-CO-60",
+                      "reaction": "27-CO-59(N,G)27-CO-60",
                       "target": "27-CO-59",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "27-CO-60",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -2215,11 +2241,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.M.Sukhovoi",
+                "reference": {
+                  "code": "J,BAS,67,796,2003",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "67",
+                      "part": null,
+                      "issue": null,
+                      "page": "796"
+                    },
+                    "date": 2003
+                  }
+                }
               },
               "free_text": [
-                "  From Table 2 of J,IZV,67,(5),722,2003 ."
+                " Table 2"
               ]
             }
           ],

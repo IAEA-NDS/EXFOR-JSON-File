@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:02:02+0000",
+  "time_stamp": "2026-05-22T21:16:26+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "41478",
-        "N2": 20141020,
+        "N2": 20260310,
         "alteration_flag": " ",
-        "transmission_identification": "4165"
+        "transmission_identification": "4227"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "41478001",
-            "N2": 20141020,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 11,
@@ -27,7 +27,7 @@
               "coded_information": null,
               "free_text": [
                 "Two-quantum cascades at a thermal neutron capture in",
-                " 114-Cd."
+                " 114Cd"
               ]
             }
           ],
@@ -76,10 +76,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,BAS,60,(11),1710,1996",
+                "code": "J,BAS,60,1710,1996",
                 "code_unit": [
                   {
-                    "unit": "J,BAS,60,(11),1710,1996",
+                    "unit": "J,BAS,60,1710,1996",
                     "doi": null,
                     "field": {
                       "reference_type": "J",
@@ -88,7 +88,7 @@
                         "number": null,
                         "volume": "60",
                         "part": null,
-                        "issue": "11",
+                        "issue": null,
                         "page": "1710"
                       },
                       "date": 1996
@@ -267,6 +267,18 @@
                 " Articles were checked, BIB information was",
                 "updated. Engl.translations were added."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260310,
+                "history": "A"
+              },
+              "free_text": [
+                " (N,2G) -> (N,G), REL -> MSC in REACTION",
+                "according to a comment of N.Otsuka (NDS, IAEA).",
+                " STATUS was corrected for new rules."
+              ]
             }
           ],
           "ENDBIB": {
@@ -301,9 +313,9 @@
         {
           "SUBENT": {
             "N1": "41478002",
-            "N2": 20141020,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 5,
@@ -313,19 +325,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "48-CD-113(N,2G)48-CD-114,,SPC,,SPA",
+                "code": "48-CD-113(N,G)48-CD-114,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "48-CD-113(N,2G)48-CD-114,,SPC,,SPA",
+                    "unit": "48-CD-113(N,G)48-CD-114,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "48-CD-113(N,2G)48-CD-114",
+                      "reaction": "48-CD-113(N,G)48-CD-114",
                       "target": "48-CD-113",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "48-CD-114",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -384,11 +396,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,60,1710,1996",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "1710"
+                    },
+                    "date": 1996
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of J,BAS,60,(1),1710,1996."
+                " Table 2"
               ]
             }
           ],
@@ -458,9 +484,9 @@
         {
           "SUBENT": {
             "N1": "41478003",
-            "N2": 20141020,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 6,
@@ -470,19 +496,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "48-CD-113(N,2G)48-CD-114,,SPC,,SPA/REL",
+                "code": "48-CD-113(N,G)48-CD-114,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "48-CD-113(N,2G)48-CD-114,,SPC,,SPA/REL",
+                    "unit": "48-CD-113(N,G)48-CD-114,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "48-CD-113(N,2G)48-CD-114",
+                      "reaction": "48-CD-113(N,G)48-CD-114",
                       "target": "48-CD-113",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "48-CD-114",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA/REL",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -491,7 +517,7 @@
               },
               "free_text": [
                 " Relative",
-                " Intensity of two-gamma Cascades for Cd-114 compound",
+                " Intensity of two-gamma cascades for Cd-114 compound",
                 " nucleus,",
                 " relative to total intensity of two-gamma cascades with",
                 " fixed cascade energy E=9040.8 keV, in per-cents."
@@ -527,7 +553,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " Second gamma Energy",
+                " Second gamma energy",
                 " (LVL,48-CD-114) Energy of cascade intermediate level"
               ]
             },
@@ -597,11 +623,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,60,1710,1996",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "1710"
+                    },
+                    "date": 1996
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of J,BAS,60,(1),1710,1996."
+                " Table 1"
               ]
             }
           ],
@@ -1421,9 +1461,9 @@
         {
           "SUBENT": {
             "N1": "41478004",
-            "N2": 20141020,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 6,
@@ -1433,19 +1473,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "48-CD-113(N,2G)48-CD-114,,SPC,,SPA/REL",
+                "code": "48-CD-113(N,G)48-CD-114,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "48-CD-113(N,2G)48-CD-114,,SPC,,SPA/REL",
+                    "unit": "48-CD-113(N,G)48-CD-114,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "48-CD-113(N,2G)48-CD-114",
+                      "reaction": "48-CD-113(N,G)48-CD-114",
                       "target": "48-CD-113",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "48-CD-114",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA/REL",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -1454,7 +1494,7 @@
               },
               "free_text": [
                 " Relative",
-                " Intensity of two-gamma Cascades for Cd-114 compound",
+                " intensity of two-gamma cascades for Cd-114 compound",
                 " nucleus,",
                 " relative to total intensity of two-gamma cascades with",
                 " fixed cascade energy E=8482.3 keV, in per-cents."
@@ -1490,7 +1530,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " Second gamma Energy",
+                " Second gamma energy",
                 " (LVL,48-CD-114) Energy of cascade intermediate level"
               ]
             },
@@ -1561,11 +1601,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,60,1710,1996",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "1710"
+                    },
+                    "date": 1996
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of J,BAS,60,(1),1710,1996."
+                " Table 1"
               ]
             }
           ],
@@ -2353,9 +2407,9 @@
         {
           "SUBENT": {
             "N1": "41478005",
-            "N2": 20141020,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 6,
@@ -2365,19 +2419,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "48-CD-113(N,2G)48-CD-114,,SPC,,SPA/REL",
+                "code": "48-CD-113(N,G)48-CD-114,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "48-CD-113(N,2G)48-CD-114,,SPC,,SPA/REL",
+                    "unit": "48-CD-113(N,G)48-CD-114,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "48-CD-113(N,2G)48-CD-114",
+                      "reaction": "48-CD-113(N,G)48-CD-114",
                       "target": "48-CD-113",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "48-CD-114",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA/REL",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -2386,7 +2440,7 @@
               },
               "free_text": [
                 " Relative",
-                " Intensity of two-gamma Cascades for Cd-114 compound",
+                " intensity of two-gamma cascades for Cd-114 compound",
                 " nucleus,",
                 " relative to total intensity of two-gamma cascades with",
                 " fixed cascade energy E=7831.1 keV, in per-cents."
@@ -2422,7 +2476,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " Second gamma Energy",
+                " Second gamma energy",
                 " (LVL,48-CD-114) Energy of cascade intermediate level"
               ]
             },
@@ -2460,7 +2514,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error of Energy LVL"
+                " Error of energy LVL"
               ]
             },
             {
@@ -2493,11 +2547,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,60,1710,1996",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "1710"
+                    },
+                    "date": 1996
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of J,BAS,60,(1),1710,1996."
+                " Table 1"
               ]
             }
           ],
@@ -2718,9 +2786,9 @@
         {
           "SUBENT": {
             "N1": "41478006",
-            "N2": 20141020,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 6,
@@ -2730,19 +2798,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "48-CD-113(N,2G)48-CD-114,,SPC,,SPA/REL",
+                "code": "48-CD-113(N,G)48-CD-114,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "48-CD-113(N,2G)48-CD-114,,SPC,,SPA/REL",
+                    "unit": "48-CD-113(N,G)48-CD-114,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "48-CD-113(N,2G)48-CD-114",
+                      "reaction": "48-CD-113(N,G)48-CD-114",
                       "target": "48-CD-113",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "48-CD-114",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA/REL",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -2751,7 +2819,7 @@
               },
               "free_text": [
                 " Relative",
-                " Intensity of two-gamma Cascades for Cd-114 compound",
+                " intensity of two-gamma cascades for Cd-114 compound",
                 " nucleus,",
                 " relative to total intensity of two-gamma cascades with",
                 " fixed cascade energy E=7735.8 keV, in per-cents."
@@ -2787,7 +2855,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " Second gamma Energy",
+                " Second gamma energy",
                 " (LVL,48-CD-114) Energy of cascade intermediate level"
               ]
             },
@@ -2825,7 +2893,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error of Energy LVL"
+                " Error of energy LVL"
               ]
             },
             {
@@ -2858,11 +2926,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,60,1710,1996",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "1710"
+                    },
+                    "date": 1996
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of J,BAS,60,(1),1710,1996."
+                " Table 1"
               ]
             }
           ],
@@ -2984,9 +3066,9 @@
         {
           "SUBENT": {
             "N1": "41478007",
-            "N2": 20141020,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 6,
@@ -2996,19 +3078,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "48-CD-113(N,2G)48-CD-114,,SPC,,SPA/REL",
+                "code": "48-CD-113(N,G)48-CD-114,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "48-CD-113(N,2G)48-CD-114,,SPC,,SPA/REL",
+                    "unit": "48-CD-113(N,G)48-CD-114,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "48-CD-113(N,2G)48-CD-114",
+                      "reaction": "48-CD-113(N,G)48-CD-114",
                       "target": "48-CD-113",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "48-CD-114",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA/REL",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -3017,7 +3099,7 @@
               },
               "free_text": [
                 " Relative",
-                " Intensity of two-gamma Cascades for Cd-114 compound",
+                " intensity of two-gamma cascades for Cd-114 compound",
                 " nucleus,",
                 " relative to total intensity of two-gamma cascades with",
                 " fixed cascade energy E=7676.4 keV, in per-cents."
@@ -3053,7 +3135,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " Second gamma Energy",
+                " Second gamma energy",
                 " (LVL,48-CD-114) Energy of cascade intermediate level"
               ]
             },
@@ -3091,7 +3173,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error of Energy LVL"
+                " Error of energy LVL"
               ]
             },
             {
@@ -3124,11 +3206,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,60,1710,1996",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "1710"
+                    },
+                    "date": 1996
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of J,BAS,60,(1),1710,1996."
+                " Table 1"
               ]
             }
           ],

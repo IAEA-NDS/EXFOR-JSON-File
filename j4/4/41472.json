@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:02:00+0000",
+  "time_stamp": "2026-05-22T21:16:25+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "41472",
-        "N2": 20141017,
+        "N2": 20260310,
         "alteration_flag": " ",
-        "transmission_identification": "4165"
+        "transmission_identification": "4227"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "41472001",
-            "N2": 20141017,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 12,
@@ -26,7 +26,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Features of cascade gamma-decay of the Tm-170 compound",
+                "Features of cascade gamma-decay of the 170Tm compound",
                 "state excited by thermal neutron capture"
               ]
             }
@@ -46,25 +46,14 @@
               ]
             }
           ],
-          "INSTITUTE": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "4ZZZDUB"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "REFERENCE": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,BAS,60,(11),1695,1996",
+                "code": "J,BAS,60,1695,1996",
                 "code_unit": [
                   {
-                    "unit": "J,BAS,60,(11),1695,1996",
+                    "unit": "J,BAS,60,1695,1996",
                     "doi": null,
                     "field": {
                       "reference_type": "J",
@@ -73,7 +62,7 @@
                         "number": null,
                         "volume": "60",
                         "part": null,
-                        "issue": "11",
+                        "issue": null,
                         "page": "1695"
                       },
                       "date": 1996
@@ -112,6 +101,17 @@
               },
               "free_text": [
                 " Main Ref."
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "4ZZZDUB"
+              ],
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -209,7 +209,7 @@
                 "history": "C"
               },
               "free_text": [
-                "  Compiled at CJD  (M.M.)"
+                "  Compiled at CJD (M.M.)"
               ]
             },
             {
@@ -221,6 +221,18 @@
               "free_text": [
                 " Engl.translation was added.",
                 "The article was checked, BIB information was updated."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260310,
+                "history": "A"
+              },
+              "free_text": [
+                " (N,2G) -> (N,G), REL -> MSC in REACTION",
+                "according to a comment of N.Otsuka (NDS, IAEA).",
+                " STATUS was corrected for new rules."
               ]
             }
           ],
@@ -256,9 +268,9 @@
         {
           "SUBENT": {
             "N1": "41472002",
-            "N2": 20141017,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 5,
@@ -268,19 +280,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                "code": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                    "unit": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "69-TM-169(N,2G)69-TM-170",
+                      "reaction": "69-TM-169(N,G)69-TM-170",
                       "target": "69-TM-169",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "69-TM-170",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA/REL",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -289,9 +301,9 @@
               },
               "free_text": [
                 " Intensity of",
-                "  Cascades for Tm-170 compound nucleus.",
+                "  cascades for Tm-170 compound nucleus.",
                 " Relative to total intensity of cascades with fixed",
-                "  energy E=6593.8 keV. In Per-cents."
+                "  energy E=6593.8 keV. In per-cents."
               ]
             }
           ],
@@ -313,7 +325,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " First gamma Energy"
+                " First gamma energy"
               ]
             },
             {
@@ -323,7 +335,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " Second gamma Energy",
+                " Second gamma energy",
                 " (LVL,69-TM-170) Energy of cascade intermediate level"
               ]
             }
@@ -350,7 +362,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error of Energy LVL"
+                " Error of energy LVL"
               ]
             },
             {
@@ -383,11 +395,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,60,1695,1996",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "1695"
+                    },
+                    "date": 1996
+                  }
+                }
               },
               "free_text": [
-                "  Table 1 of BAS,60,(11),1695,1996 ."
+                " Table 1."
               ]
             }
           ],
@@ -1234,9 +1260,9 @@
         {
           "SUBENT": {
             "N1": "41472003",
-            "N2": 20141017,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 5,
@@ -1246,19 +1272,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                "code": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                    "unit": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "69-TM-169(N,2G)69-TM-170",
+                      "reaction": "69-TM-169(N,G)69-TM-170",
                       "target": "69-TM-169",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "69-TM-170",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA/REL",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -1267,9 +1293,9 @@
               },
               "free_text": [
                 " Intensity of",
-                "  Cascades for Tm-170 compound nucleus.",
+                "  cascades for Tm-170 compound nucleus.",
                 " Relative to total intensity of cascades with fixed",
-                "  energy E=6555.1 keV. In Per-cents."
+                "  energy E=6555.1 keV. In per-cents."
               ]
             }
           ],
@@ -1291,7 +1317,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " First gamma Energy"
+                " First gamma energy"
               ]
             },
             {
@@ -1301,7 +1327,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " Second gamma Energy",
+                " Second gamma energy",
                 " (LVL,69-TM-170) Energy of cascade intermediate level",
                 " (LVL-FIN,69-TM-170) Final level of cascade"
               ]
@@ -1329,7 +1355,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error of Energy LVL"
+                " Error of energy LVL"
               ]
             },
             {
@@ -1362,11 +1388,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,60,1695,1996",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "1695"
+                    },
+                    "date": 1996
+                  }
+                }
               },
               "free_text": [
-                "  Table 1 of BAS,60,(11),1695,1996 ."
+                " Table 1."
               ]
             }
           ],
@@ -1902,9 +1942,9 @@
         {
           "SUBENT": {
             "N1": "41472004",
-            "N2": 20141017,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 5,
@@ -1914,19 +1954,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                "code": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                    "unit": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "69-TM-169(N,2G)69-TM-170",
+                      "reaction": "69-TM-169(N,G)69-TM-170",
                       "target": "69-TM-169",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "69-TM-170",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA/REL",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -1935,9 +1975,9 @@
               },
               "free_text": [
                 " Intensity of",
-                "  Cascades for Tm-170 compound nucleus.",
+                "  cascades for Tm-170 compound nucleus.",
                 " Relative to total intensity of cascades with fixed",
-                "  energy E=6479.2 keV. In Per-cents."
+                "  energy E=6479.2 keV. In per-cents."
               ]
             }
           ],
@@ -1959,7 +1999,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " First gamma Energy"
+                " First gamma energy"
               ]
             },
             {
@@ -1969,7 +2009,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " Second gamma Energy",
+                " Second gamma energy",
                 " (LVL,69-TM-170) Energy of cascade intermediate level",
                 " (LVL-FIN,69-TM-170) Energy of cascade final level"
               ]
@@ -1997,7 +2037,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error of Energy LVL"
+                " Error of energy LVL"
               ]
             },
             {
@@ -2030,11 +2070,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,60,1695,1996",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "1695"
+                    },
+                    "date": 1996
+                  }
+                }
               },
               "free_text": [
-                "  Table 1 of BAS,60,(11),1695,1996 ."
+                " Table 1."
               ]
             }
           ],
@@ -2480,9 +2534,9 @@
         {
           "SUBENT": {
             "N1": "41472005",
-            "N2": 20141017,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 5,
@@ -2492,19 +2546,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                "code": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                    "unit": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "69-TM-169(N,2G)69-TM-170",
+                      "reaction": "69-TM-169(N,G)69-TM-170",
                       "target": "69-TM-169",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "69-TM-170",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA/REL",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -2513,9 +2567,9 @@
               },
               "free_text": [
                 " Intensity of",
-                "  Cascades for Tm-170 compound nucleus.",
+                "  cascades for Tm-170 compound nucleus.",
                 " Relative to total intensity of cascades with fixed",
-                "  energy E=6444.1 keV. In Per-cents."
+                "  energy E=6444.1 keV. In per-cents."
               ]
             }
           ],
@@ -2537,7 +2591,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " First gamma Energy"
+                " First gamma energy"
               ]
             },
             {
@@ -2547,7 +2601,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " Second gamma Energy",
+                " Second gamma energy",
                 " (LVL,69-TM-170) Energy of cascade intermediate level",
                 " (LVL-FIN,69-TM-170) Energy of cascade final level"
               ]
@@ -2575,7 +2629,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error of Energy LVL"
+                " Error of energy LVL"
               ]
             },
             {
@@ -2608,11 +2662,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,60,1695,1996",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "1695"
+                    },
+                    "date": 1996
+                  }
+                }
               },
               "free_text": [
-                "  Table 1 of BAS,60,(11),1695,1996 ."
+                " Table 1."
               ]
             }
           ],
@@ -3004,9 +3072,9 @@
         {
           "SUBENT": {
             "N1": "41472006",
-            "N2": 20141017,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 5,
@@ -3016,19 +3084,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                "code": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                    "unit": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "69-TM-169(N,2G)69-TM-170",
+                      "reaction": "69-TM-169(N,G)69-TM-170",
                       "target": "69-TM-169",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "69-TM-170",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA/REL",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -3037,9 +3105,9 @@
               },
               "free_text": [
                 " Intensity of",
-                "  Cascades for Tm-170 compound nucleus.",
+                "  cascades for Tm-170 compound nucleus.",
                 " Relative to total intensity of cascades with fixed",
-                "  energy E=6410.6 keV. In Per-cents."
+                "  energy E=6410.6 keV. In per-cents."
               ]
             }
           ],
@@ -3061,7 +3129,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " First gamma Energy"
+                " First gamma energy"
               ]
             },
             {
@@ -3071,7 +3139,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " Second gamma Energy",
+                " Second gamma energy",
                 " (LVL,69-TM-170) Energy of cascade intermediate level",
                 " (LVL-FIN,69-TM-170) Energy of cascade final level"
               ]
@@ -3099,7 +3167,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error of Energy LVL"
+                " Error of energy LVL"
               ]
             },
             {
@@ -3132,11 +3200,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,60,1695,1996",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "1695"
+                    },
+                    "date": 1996
+                  }
+                }
               },
               "free_text": [
-                "  Table 1 of BAS,60,(11),1695,1996 ."
+                " Table 1."
               ]
             }
           ],
@@ -3348,9 +3430,9 @@
         {
           "SUBENT": {
             "N1": "41472007",
-            "N2": 20141017,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 5,
@@ -3360,19 +3442,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                "code": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                    "unit": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "69-TM-169(N,2G)69-TM-170",
+                      "reaction": "69-TM-169(N,G)69-TM-170",
                       "target": "69-TM-169",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "69-TM-170",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA/REL",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -3381,9 +3463,9 @@
               },
               "free_text": [
                 " Intensity of",
-                "  Cascades for Tm-170 compound nucleus.",
+                "  cascades for Tm-170 compound nucleus.",
                 " Relative to total intensity of cascades with fixed",
-                "  energy E=6389.4 keV. In Per-cents."
+                "  energy E=6389.4 keV. In per-cents."
               ]
             }
           ],
@@ -3405,7 +3487,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " First gamma Energy"
+                " First gamma energy"
               ]
             },
             {
@@ -3415,7 +3497,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " Second gamma Energy",
+                " Second gamma energy",
                 " (LVL,69-TM-170) Energy of cascade intermediate level",
                 " (LVL-FIN,69-TM-170) Energy of cascade final level"
               ]
@@ -3443,7 +3525,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error of Energy LVL"
+                " Error of energy LVL"
               ]
             },
             {
@@ -3476,11 +3558,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,60,1695,1996",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "1695"
+                    },
+                    "date": 1996
+                  }
+                }
               },
               "free_text": [
-                "  Table 1 of BAS,60,(11),1695,1996 ."
+                " Table 1."
               ]
             }
           ],
@@ -4016,9 +4112,9 @@
         {
           "SUBENT": {
             "N1": "41472008",
-            "N2": 20141017,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 5,
@@ -4028,19 +4124,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                "code": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                    "unit": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "69-TM-169(N,2G)69-TM-170",
+                      "reaction": "69-TM-169(N,G)69-TM-170",
                       "target": "69-TM-169",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "69-TM-170",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA/REL",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -4049,9 +4145,9 @@
               },
               "free_text": [
                 " Intensity of",
-                "  Cascades for Tm-170 compound nucleus.",
+                "  cascades for Tm-170 compound nucleus.",
                 " Relative to total intensity of cascades with fixed",
-                "  energy E=6374.1 keV. In Per-cents."
+                "  energy E=6374.1 keV. In per-cents."
               ]
             }
           ],
@@ -4073,7 +4169,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " First gamma Energy"
+                " First gamma energy"
               ]
             },
             {
@@ -4083,7 +4179,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " Second gamma Energy",
+                " Second gamma energy",
                 " (LVL,69-TM-170) Energy of cascade intermediate level",
                 " (LVL-FIN,69-TM-170) Energy of cascade final level"
               ]
@@ -4111,7 +4207,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error of Energy LVL"
+                " Error of energy LVL"
               ]
             },
             {
@@ -4144,11 +4240,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,60,1695,1996",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "1695"
+                    },
+                    "date": 1996
+                  }
+                }
               },
               "free_text": [
-                "  Table 1 of BAS,60,(11),1695,1996 ."
+                " Table 1."
               ]
             }
           ],
@@ -4648,9 +4758,9 @@
         {
           "SUBENT": {
             "N1": "41472009",
-            "N2": 20141017,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 5,
@@ -4660,19 +4770,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                "code": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                    "unit": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "69-TM-169(N,2G)69-TM-170",
+                      "reaction": "69-TM-169(N,G)69-TM-170",
                       "target": "69-TM-169",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "69-TM-170",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA/REL",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -4681,9 +4791,9 @@
               },
               "free_text": [
                 " Intensity of",
-                "  Cascades for Tm-170 compound nucleus.",
+                "  cascades for Tm-170 compound nucleus.",
                 " Relative to total intensity of cascades with fixed",
-                "  energy E=6356.7 keV. In Per-cents."
+                "  energy E=6356.7 keV. In per-cents."
               ]
             }
           ],
@@ -4705,7 +4815,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " First gamma Energy"
+                " First gamma energy"
               ]
             },
             {
@@ -4715,7 +4825,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " Second gamma Energy",
+                " Second gamma energy",
                 " (LVL,69-TM-170) Energy of cascade intermediate level",
                 " (LVL-FIN,69-TM-170) Energy of cascade final level"
               ]
@@ -4743,7 +4853,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error of Energy LVL"
+                " Error of energy LVL"
               ]
             },
             {
@@ -4776,11 +4886,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,60,1695,1996",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "1695"
+                    },
+                    "date": 1996
+                  }
+                }
               },
               "free_text": [
-                "  Table 1 of BAS,60,(11),1695,1996 ."
+                " Table 1."
               ]
             }
           ],
@@ -5397,9 +5521,9 @@
         {
           "SUBENT": {
             "N1": "41472010",
-            "N2": 20141017,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 5,
@@ -5409,19 +5533,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                "code": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                    "unit": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "69-TM-169(N,2G)69-TM-170",
+                      "reaction": "69-TM-169(N,G)69-TM-170",
                       "target": "69-TM-169",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "69-TM-170",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA/REL",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -5430,9 +5554,9 @@
               },
               "free_text": [
                 " Intensity of",
-                "  Cascades for Tm-170 compound nucleus.",
+                "  cascades for Tm-170 compound nucleus.",
                 " Relative to total intensity of cascades with fixed",
-                "  energy E=6323.4 keV. In Per-cents."
+                "  energy E=6323.4 keV. In per-cents."
               ]
             }
           ],
@@ -5454,7 +5578,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " First gamma Energy"
+                " First gamma energy"
               ]
             },
             {
@@ -5464,7 +5588,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " Second gamma Energy",
+                " Second gamma energy",
                 " (LVL,69-TM-170) Energy of cascade intermediate level",
                 " (LVL-FIN,69-TM-170) Energy of cascade final level"
               ]
@@ -5492,7 +5616,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error of Energy LVL"
+                " Error of energy LVL"
               ]
             },
             {
@@ -5525,11 +5649,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,60,1695,1996",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "1695"
+                    },
+                    "date": 1996
+                  }
+                }
               },
               "free_text": [
-                "  Table 1 of BAS,60,(11),1695,1996 ."
+                " Table 1."
               ]
             }
           ],
@@ -5948,9 +6086,9 @@
         {
           "SUBENT": {
             "N1": "41472011",
-            "N2": 20141017,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 5,
@@ -5960,19 +6098,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                "code": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                    "unit": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "69-TM-169(N,2G)69-TM-170",
+                      "reaction": "69-TM-169(N,G)69-TM-170",
                       "target": "69-TM-169",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "69-TM-170",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA/REL",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -5981,9 +6119,9 @@
               },
               "free_text": [
                 " Intensity of",
-                "  Cascades for Tm-170 compound nucleus.",
+                "  cascades for Tm-170 compound nucleus.",
                 " Relative to total intensity of cascades with fixed",
-                "  energy E=6244.1 keV. In Per-cents."
+                "  energy E=6244.1 keV. In per-cents."
               ]
             }
           ],
@@ -6005,7 +6143,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " First gamma Energy"
+                " First gamma energy"
               ]
             },
             {
@@ -6015,7 +6153,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " Second gamma Energy",
+                " Second gamma energy",
                 " (LVL,69-TM-170) Energy of cascade intermediate level",
                 " (LVL-FIN,69-TM-170) Energy of cascade final level"
               ]
@@ -6043,7 +6181,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error of Energy LVL"
+                " Error of energy LVL"
               ]
             },
             {
@@ -6076,11 +6214,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,60,1695,1996",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "1695"
+                    },
+                    "date": 1996
+                  }
+                }
               },
               "free_text": [
-                "  Table 1 of BAS,60,(11),1695,1996 ."
+                " Table 1."
               ]
             }
           ],
@@ -6400,9 +6552,9 @@
         {
           "SUBENT": {
             "N1": "41472012",
-            "N2": 20141017,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 5,
@@ -6412,19 +6564,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                "code": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                    "unit": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "69-TM-169(N,2G)69-TM-170",
+                      "reaction": "69-TM-169(N,G)69-TM-170",
                       "target": "69-TM-169",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "69-TM-170",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA/REL",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -6433,9 +6585,9 @@
               },
               "free_text": [
                 " Intensity of",
-                "  Cascades for Tm-170 compound nucleus.",
+                "  cascades for Tm-170 compound nucleus.",
                 " Relative to total intensity of cascades with fixed",
-                "  energy E=6144.1 keV. In Per-cents."
+                "  energy E=6144.1 keV. In per-cents."
               ]
             }
           ],
@@ -6457,7 +6609,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " First gamma Energy"
+                " First gamma energy"
               ]
             },
             {
@@ -6467,7 +6619,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " Second gamma Energy",
+                " Second gamma energy",
                 " (LVL,69-TM-170) Energy of cascade intermediate level",
                 " (LVL-FIN,69-TM-170) Energy of cascade final level"
               ]
@@ -6495,7 +6647,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error of Energy LVL"
+                " Error of energy LVL"
               ]
             },
             {
@@ -6528,11 +6680,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,60,1695,1996",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "1695"
+                    },
+                    "date": 1996
+                  }
+                }
               },
               "free_text": [
-                "  Table 1 of BAS,60,(11),1695,1996 ."
+                " Table 1."
               ]
             }
           ],
@@ -6789,9 +6955,9 @@
         {
           "SUBENT": {
             "N1": "41472013",
-            "N2": 20141017,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 5,
@@ -6801,19 +6967,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                "code": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                    "unit": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "69-TM-169(N,2G)69-TM-170",
+                      "reaction": "69-TM-169(N,G)69-TM-170",
                       "target": "69-TM-169",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "69-TM-170",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA/REL",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -6822,9 +6988,9 @@
               },
               "free_text": [
                 " Intensity of",
-                "  Cascades for Tm-170 compound nucleus.",
+                "  cascades for Tm-170 compound nucleus.",
                 " Relative to total intensity of cascades with fixed",
-                "  energy E=6002.8 keV. In Per-cents."
+                "  energy E=6002.8 keV. In per-cents."
               ]
             }
           ],
@@ -6846,7 +7012,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " First gamma Energy"
+                " First gamma energy"
               ]
             },
             {
@@ -6856,7 +7022,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " Second gamma Energy",
+                " Second gamma energy",
                 " (LVL,69-TM-170) Energy of cascade intermediate level",
                 " (LVL-FIN,69-TM-170) Energy of cascade final level"
               ]
@@ -6884,7 +7050,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error of Energy LVL"
+                " Error of energy LVL"
               ]
             },
             {
@@ -6917,11 +7083,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,60,1695,1996",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "1695"
+                    },
+                    "date": 1996
+                  }
+                }
               },
               "free_text": [
-                "  Table 1 of BAS,60,(11),1695,1996 ."
+                " Table 1."
               ]
             }
           ],
@@ -7250,9 +7430,9 @@
         {
           "SUBENT": {
             "N1": "41472014",
-            "N2": 20141017,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 5,
@@ -7262,19 +7442,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                "code": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                    "unit": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "69-TM-169(N,2G)69-TM-170",
+                      "reaction": "69-TM-169(N,G)69-TM-170",
                       "target": "69-TM-169",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "69-TM-170",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA/REL",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -7283,9 +7463,9 @@
               },
               "free_text": [
                 " Intensity of",
-                "  Cascades for Tm-170 compound nucleus.",
+                "  cascades for Tm-170 compound nucleus.",
                 " Relative to total intensity of cascades with fixed",
-                "  energy E=5989.8 keV. In Per-cents."
+                "  energy E=5989.8 keV. In per-cents."
               ]
             }
           ],
@@ -7307,7 +7487,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " First gamma Energy"
+                " First gamma energy"
               ]
             },
             {
@@ -7317,7 +7497,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " Second gamma Energy",
+                " Second gamma energy",
                 " (LVL,69-TM-170) Energy of cascade intermediate level",
                 " (LVL-FIN,69-TM-170) Energy of cascade final level"
               ]
@@ -7345,7 +7525,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error of Energy LVL"
+                " Error of energy LVL"
               ]
             },
             {
@@ -7378,11 +7558,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,60,1695,1996",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "1695"
+                    },
+                    "date": 1996
+                  }
+                }
               },
               "free_text": [
-                "  Table 1 of BAS,60,(11),1695,1996 ."
+                " Table 1."
               ]
             }
           ],
@@ -7738,9 +7932,9 @@
         {
           "SUBENT": {
             "N1": "41472015",
-            "N2": 20141017,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 5,
@@ -7750,19 +7944,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                "code": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA/REL",
+                    "unit": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "69-TM-169(N,2G)69-TM-170",
+                      "reaction": "69-TM-169(N,G)69-TM-170",
                       "target": "69-TM-169",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "69-TM-170",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA/REL",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -7771,9 +7965,9 @@
               },
               "free_text": [
                 " Intensity of",
-                "  Cascades for Tm-170 compound nucleus.",
+                "  cascades for Tm-170 compound nucleus.",
                 " Relative to total intensity of cascades with fixed",
-                "  energy E=5949.2 keV. In Per-cents."
+                "  energy E=5949.2 keV. In per-cents."
               ]
             }
           ],
@@ -7795,7 +7989,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " First gamma Energy"
+                " First gamma energy"
               ]
             },
             {
@@ -7805,7 +7999,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " Second gamma Energy",
+                " Second gamma energy",
                 " (LVL,69-TM-170) Energy of cascade intermediate level",
                 " (LVL-FIN,69-TM-170) Energy of cascade final level"
               ]
@@ -7833,7 +8027,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error of Energy LVL"
+                " Error of energy LVL"
               ]
             },
             {
@@ -7866,11 +8060,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,60,1695,1996",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "1695"
+                    },
+                    "date": 1996
+                  }
+                }
               },
               "free_text": [
-                "  Table 1 of BAS,60,(11),1695,1996 ."
+                " Table 1."
               ]
             }
           ],
@@ -8244,9 +8452,9 @@
         {
           "SUBENT": {
             "N1": "41472016",
-            "N2": 20141017,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 5,
@@ -8256,19 +8464,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA",
+                "code": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "69-TM-169(N,2G)69-TM-170,,SPC,,SPA",
+                    "unit": "69-TM-169(N,G)69-TM-170,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "69-TM-169(N,2G)69-TM-170",
+                      "reaction": "69-TM-169(N,G)69-TM-170",
                       "target": "69-TM-169",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "69-TM-170",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -8277,7 +8485,7 @@
               },
               "free_text": [
                 " Intensity of",
-                "  Cascades for Tm-170 compound nucleus."
+                "  cascades for Tm-170 compound nucleus."
               ]
             }
           ],
@@ -8328,11 +8536,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,60,1695,1996",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "1695"
+                    },
+                    "date": 1996
+                  }
+                }
               },
               "free_text": [
-                "  Table 2 of BAS,60,(11),1695,1996 ."
+                " Table 2."
               ]
             },
             {
@@ -8346,7 +8568,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                "  Cascades for E1+E2 = 6593.8 keV"
               ]
             },
             {
@@ -8360,7 +8582,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                "                       6555.1"
               ]
             },
             {
@@ -8374,7 +8596,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                "                       6479.2"
               ]
             },
             {
@@ -8388,7 +8610,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                "                       6444.1"
               ]
             },
             {
@@ -8402,7 +8624,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                "                       6410.6"
               ]
             },
             {
@@ -8416,7 +8638,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                "                       6389.4"
               ]
             },
             {
@@ -8430,7 +8652,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                "                       6374.1"
               ]
             },
             {
@@ -8444,7 +8666,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                "                       6356.7"
               ]
             },
             {
@@ -8458,7 +8680,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                "                       6323.4"
               ]
             },
             {
@@ -8472,7 +8694,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                "                       6244.1"
               ]
             },
             {
@@ -8486,7 +8708,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                "                       6144.1"
               ]
             },
             {
@@ -8500,7 +8722,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                "                       6002.8"
               ]
             },
             {
@@ -8514,7 +8736,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                "                       5989.8"
               ]
             },
             {
@@ -8528,7 +8750,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                "                       5949.2"
               ]
             }
           ],

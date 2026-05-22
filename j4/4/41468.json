@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:01:50+0000",
+  "time_stamp": "2026-05-22T21:16:25+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "41468",
-        "N2": 20141020,
+        "N2": 20260310,
         "alteration_flag": " ",
-        "transmission_identification": "4165"
+        "transmission_identification": "4227"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "41468001",
-            "N2": 20141020,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 12,
@@ -26,8 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Cascade gamma-decay of the Te-124 compound-state",
-                "exited by the thermal neutron capture"
+                "Cascade gamma-decay of the 124Te compound state excited",
+                "by thermal neutron capture"
               ]
             }
           ],
@@ -48,25 +48,14 @@
               ]
             }
           ],
-          "INSTITUTE": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "4ZZZDUB"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "REFERENCE": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,BAS,58,(11),1896,1994",
+                "code": "J,BAS,58,1896,1994",
                 "code_unit": [
                   {
-                    "unit": "J,BAS,58,(11),1896,1994",
+                    "unit": "J,BAS,58,1896,1994",
                     "doi": null,
                     "field": {
                       "reference_type": "J",
@@ -75,7 +64,7 @@
                         "number": null,
                         "volume": "58",
                         "part": null,
-                        "issue": "11",
+                        "issue": null,
                         "page": "1896"
                       },
                       "date": 1994
@@ -114,7 +103,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " Main Ref."
+                " Main ref."
               ]
             },
             {
@@ -142,7 +131,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " Analysis of exp.data",
+                " Analysis of exp.data. Figs.only",
                 " First author A.M.Sukhovoi ."
               ]
             },
@@ -173,6 +162,17 @@
               "free_text": [
                 "  First author A.M.Sukhovoi.",
                 " Engl.translation of IZV,69,(5),641,2005 ."
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "4ZZZDUB"
+              ],
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -377,6 +377,18 @@
                 " Articles were checked, BIB information was",
                 "updated. Engl.translation refs. were added."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260310,
+                "history": "A"
+              },
+              "free_text": [
+                " (N,2G) -> (N,G), REL -> MSC in REACTION",
+                "according to a comment of N.Otsuka (NDS, IAEA).",
+                " STATUS was corrected fro new rules."
+              ]
             }
           ],
           "ENDBIB": {
@@ -411,9 +423,9 @@
         {
           "SUBENT": {
             "N1": "41468002",
-            "N2": 20141020,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 4,
@@ -423,19 +435,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "52-TE-123(N,2G)52-TE-124,,SPC,,SPA",
+                "code": "52-TE-123(N,G)52-TE-124,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "52-TE-123(N,2G)52-TE-124,,SPC,,SPA",
+                    "unit": "52-TE-123(N,G)52-TE-124,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "52-TE-123(N,2G)52-TE-124",
+                      "reaction": "52-TE-123(N,G)52-TE-124",
                       "target": "52-TE-123",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "52-TE-124",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -444,7 +456,7 @@
               },
               "free_text": [
                 " Intensity of",
-                "  Cascades for Te-124 compound nucleus."
+                "  cascades for Te-124 compound nucleus."
               ]
             }
           ],
@@ -482,11 +494,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,58,1896,1994",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "58",
+                      "part": null,
+                      "issue": null,
+                      "page": "1896"
+                    },
+                    "date": 1994
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of J,BAS,58,(11),1896,1994"
+                " Table 2"
               ]
             }
           ],
@@ -541,9 +567,9 @@
         {
           "SUBENT": {
             "N1": "41468003",
-            "N2": 20141020,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 5,
@@ -553,19 +579,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "52-TE-123(N,2G)52-TE-124,,SPC,,SPA/REL",
+                "code": "52-TE-123(N,G)52-TE-124,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "52-TE-123(N,2G)52-TE-124,,SPC,,SPA/REL",
+                    "unit": "52-TE-123(N,G)52-TE-124,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "52-TE-123(N,2G)52-TE-124",
+                      "reaction": "52-TE-123(N,G)52-TE-124",
                       "target": "52-TE-123",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "52-TE-124",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA/REL",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -574,7 +600,7 @@
               },
               "free_text": [
                 " Relative",
-                " Intensity of two-gamma Cascade for Te-124 compound",
+                " intensity of two-gamma cascade for Te-124 compound",
                 " nucleus,",
                 " relative to total intensity of two-gamma cascades with",
                 " fixed energy E=9423.7 keV, in per-cents.",
@@ -591,7 +617,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " First gamma Energy"
+                " First gamma energy"
               ]
             },
             {
@@ -601,7 +627,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " Second gamma Energy",
+                " Second gamma energy",
                 " (LVL,52-TE-124) Energy of cascade intermediate level"
               ]
             },
@@ -671,11 +697,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,58,1896,1994",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "58",
+                      "part": null,
+                      "issue": null,
+                      "page": "1896"
+                    },
+                    "date": 1994
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of J,BAS,58,(11),1896,1994"
+                " Table 1"
               ]
             }
           ],
@@ -1108,9 +1148,9 @@
         {
           "SUBENT": {
             "N1": "41468004",
-            "N2": 20141020,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 5,
@@ -1120,19 +1160,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "52-TE-123(N,2G)52-TE-124,,SPC,,SPA/REL",
+                "code": "52-TE-123(N,G)52-TE-124,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "52-TE-123(N,2G)52-TE-124,,SPC,,SPA/REL",
+                    "unit": "52-TE-123(N,G)52-TE-124,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "52-TE-123(N,2G)52-TE-124",
+                      "reaction": "52-TE-123(N,G)52-TE-124",
                       "target": "52-TE-123",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "52-TE-124",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA/REL",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -1141,7 +1181,7 @@
               },
               "free_text": [
                 " Relative",
-                " Intensity of two-gamma Cascade for Te-124 compound",
+                " intensity of two-gamma cascade for Te-124 compound",
                 " nucleus,",
                 " relative to total intensity of two-gamma cascades with",
                 " fixed energy E=9070.0 keV, in per-cents."
@@ -1156,7 +1196,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " First gamma Energy"
+                " First gamma energy"
               ]
             },
             {
@@ -1166,7 +1206,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " Second gamma Energy",
+                " Second gamma energy",
                 " (LVL,52-TE-124) Energy of cascade intermediate level"
               ]
             },
@@ -1224,11 +1264,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,58,1896,1994",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "58",
+                      "part": null,
+                      "issue": null,
+                      "page": "1896"
+                    },
+                    "date": 1994
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of J,BAS,58,(11),1896,1994"
+                " Table 1"
               ]
             }
           ],
@@ -1306,9 +1360,9 @@
         {
           "SUBENT": {
             "N1": "41468005",
-            "N2": 20141020,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 5,
@@ -1318,19 +1372,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "52-TE-123(N,2G)52-TE-124,,SPC,,SPA/REL",
+                "code": "52-TE-123(N,G)52-TE-124,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "52-TE-123(N,2G)52-TE-124,,SPC,,SPA/REL",
+                    "unit": "52-TE-123(N,G)52-TE-124,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "52-TE-123(N,2G)52-TE-124",
+                      "reaction": "52-TE-123(N,G)52-TE-124",
                       "target": "52-TE-123",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "52-TE-124",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA/REL",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -1339,7 +1393,7 @@
               },
               "free_text": [
                 " Relative",
-                " Intensity of two-gamma Cascade for Te-124 compound",
+                " intensity of two-gamma cascade for Te-124 compound",
                 " nucleus,",
                 " relative to total intensity of two-gamma cascades with",
                 " fixed energy E=8820.9 keV, in per-cents.",
@@ -1356,7 +1410,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " First gamma Energy"
+                " First gamma energy"
               ]
             },
             {
@@ -1366,7 +1420,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " Second gamma Energy",
+                " Second gamma energy",
                 " (LVL,52-TE-124) Energy of cascade intermediate level"
               ]
             },
@@ -1436,11 +1490,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,58,1896,1994",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "58",
+                      "part": null,
+                      "issue": null,
+                      "page": "1896"
+                    },
+                    "date": 1994
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of J,BAS,58,(11),1896,1994"
+                " Table 1"
               ]
             }
           ],
@@ -1981,9 +2049,9 @@
         {
           "SUBENT": {
             "N1": "41468006",
-            "N2": 20141020,
+            "N2": 20260310,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4227"
           },
           "BIB": {
             "N1": 5,
@@ -1993,19 +2061,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "52-TE-123(N,2G)52-TE-124,,SPC,,SPA/REL",
+                "code": "52-TE-123(N,G)52-TE-124,,SPC,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "52-TE-123(N,2G)52-TE-124,,SPC,,SPA/REL",
+                    "unit": "52-TE-123(N,G)52-TE-124,,SPC,,SPA/MSC",
                     "field": {
-                      "reaction": "52-TE-123(N,2G)52-TE-124",
+                      "reaction": "52-TE-123(N,G)52-TE-124",
                       "target": "52-TE-123",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "52-TE-124",
                       "quantity": ",SPC",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA/REL",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SPC"
                     }
                   }
@@ -2014,7 +2082,7 @@
               },
               "free_text": [
                 " Relative",
-                " Intensity of two-gamma Cascade for Te-124 compound",
+                " intensity of two-gamma cascade for Te-124 compound",
                 " nucleus,",
                 " relative to total intensity of two-gamma cascades with",
                 " fixed energy E=6676.8 keV, in per-cents."
@@ -2029,7 +2097,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " First gamma Energy"
+                " First gamma energy"
               ]
             },
             {
@@ -2039,7 +2107,7 @@
                 "particle": "G"
               },
               "free_text": [
-                " Second gamma Energy",
+                " Second gamma energy",
                 " (LVL,52-TE-124) Energy of cascade intermediate level"
               ]
             },
@@ -2097,11 +2165,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.V.Vasilieva+",
+                "reference": {
+                  "code": "J,BAS,58,1896,1994",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "58",
+                      "part": null,
+                      "issue": null,
+                      "page": "1896"
+                    },
+                    "date": 1994
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of J,BAS,58,(11),1896,1994"
+                " Table 1"
               ]
             }
           ],
