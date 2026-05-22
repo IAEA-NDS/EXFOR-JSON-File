@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:53:15+0000",
+  "time_stamp": "2026-05-22T19:57:07+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F0179",
-        "N2": 20200612,
+        "N2": 20251209,
         "alteration_flag": " ",
-        "transmission_identification": "F078"
+        "transmission_identification": "F103"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F0179001",
-            "N2": 20200612,
+            "N2": 20251209,
             "alteration_flag": " ",
-            "transmission_identification": "F078"
+            "transmission_identification": "F103"
           },
           "BIB": {
             "N1": 9,
@@ -121,9 +121,17 @@
               "free_text": [
                 " In the experiments with 5.96 MeV tritons from",
                 "VDG the particles being recorded 76.2 cm Ilford C2",
-                "nuclear emulsion plates.",
-                "In the experiments with 10 MeV tritons from VDGT:",
-                "Ilford C2 emulsions, 100 mu-m in thickness, were",
+                "nuclear emulsion plates."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "PLATE"
+              ],
+              "free_text": [
+                " In the experiments with 10 MeV tritons from",
+                "VDGT: Ilford C2 emulsions, 100 mu-m in thickness, were",
                 "employed for investigating the (t,p) reactions in",
                 "9Be and 16O and 25 mu-m thick Ilford 'K minus one'",
                 "the (t,alpha) reactions in 12C."
@@ -151,7 +159,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Error from graphic bars (statistical)"
+                " Statistical error"
               ]
             }
           ],
@@ -186,6 +194,16 @@
                 " SD: Corrections in all Subents. Numerical",
                 "data revised. DATA-ERR1 -> ERR-S."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251209,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Corrections in all Subents."
+              ]
             }
           ],
           "ENDBIB": {
@@ -204,9 +222,9 @@
         {
           "SUBENT": {
             "N1": "F0179002",
-            "N2": 20200612,
+            "N2": 20251209,
             "alteration_flag": " ",
-            "transmission_identification": "F078"
+            "transmission_identification": "F103"
           },
           "BIB": {
             "N1": 5,
@@ -246,10 +264,10 @@
               "coded_information": null,
               "free_text": [
                 "A thin 9Be targets was self-supporting foils",
-                "prepared by evaporation.  The 9Be targets used for the",
+                "prepared by evaporation. The 9Be targets used for the",
                 "6 MeV and 10 MeV exposures were weighed directly and",
-                "found to have surface densities of 37 mu-g/cm2 and",
-                "47 mu-g/cm2,respectively."
+                "found to have surface densities of 37 ug/cm2 and",
+                "47 ug/cm2, respectively."
               ]
             }
           ],
@@ -259,12 +277,11 @@
               "coded_information": {
                 "heading": "ERR-T",
                 "minimum_value": null,
-                "maximum_value": null,
+                "maximum_value": 30.0,
                 "correlation_property": null
               },
               "free_text": [
-                " Total error. No any information about source",
-                "of uncertainties."
+                " Total error."
               ]
             }
           ],
@@ -276,11 +293,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "D.J.Pullen+",
+                "reference": {
+                  "code": "J,NP,36,1,1962",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "36",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 1962
+                  }
+                }
               },
               "free_text": [
-                " Fig.5 from Nucl.Phys.,36(1962)1"
+                " Fig.5"
               ]
             }
           ],
@@ -296,6 +327,16 @@
                 "ANG-ERR->ANG-ERR-D; DATA-ERR->ERR-DIG; DATA-ERR1->ERR-S",
                 "EN-SEC deleted. ERR-ANALYS, STATUS updated."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251209,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
+              ]
             }
           ],
           "ENDBIB": {
@@ -303,25 +344,21 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 3,
+            "N1": 2,
             "N2": 0,
             "pointer": [
-              "",
               "",
               ""
             ],
             "heading": [
-              "ERR-T",
               "ANG-ERR-D",
               "ERR-DIG"
             ],
             "unit": [
-              "PER-CENT",
               "ADEG",
               "MB/SR"
             ],
             "value": [
-              30.0,
               0.5,
               0.002
             ]
@@ -971,9 +1008,9 @@
         {
           "SUBENT": {
             "N1": "F0179003",
-            "N2": 20200612,
+            "N2": 20251209,
             "alteration_flag": " ",
-            "transmission_identification": "F078"
+            "transmission_identification": "F103"
           },
           "BIB": {
             "N1": 4,
@@ -1014,7 +1051,7 @@
               "coded_information": null,
               "free_text": [
                 "The WO3(16) target was prepared by evaporating the",
-                "oxide onto a thin carbon backing of about 10 mu-g/cm2."
+                "oxide onto a thin carbon backing of about 10 ug/cm2."
               ]
             }
           ],
@@ -1026,11 +1063,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "D.J.Pullen+",
+                "reference": {
+                  "code": "J,NP,36,1,1962",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "36",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 1962
+                  }
+                }
               },
               "free_text": [
-                " Fig.6 from Nucl.Phys.,36(1962)1"
+                " Fig.6"
               ]
             }
           ],
@@ -1044,7 +1095,17 @@
               "free_text": [
                 " SD: SF9=EXP deleted from REACTION code.",
                 "ANG-ERR->ANG-ERR-D; DATA-ERR->ERR-DIG; DATA-ERR1->ERR-S",
-                "EN-SEC deleted. STATUS updated."
+                "EN-SEC deleted."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251209,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -1392,9 +1453,9 @@
         {
           "SUBENT": {
             "N1": "F0179004",
-            "N2": 20200612,
+            "N2": 20251209,
             "alteration_flag": " ",
-            "transmission_identification": "F078"
+            "transmission_identification": "F103"
           },
           "BIB": {
             "N1": 4,
@@ -1447,11 +1508,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "D.J.Pullen+",
+                "reference": {
+                  "code": "J,NP,36,1,1962",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "36",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 1962
+                  }
+                }
               },
               "free_text": [
-                " Fig.7 from Nucl.Phys.,36(1962)1"
+                " Fig.7"
               ]
             }
           ],
@@ -1465,7 +1540,17 @@
               "free_text": [
                 " SD: SF9=EXP deleted from REACTION code.",
                 "ANG-ERR->ANG-ERR-D; DATA-ERR->ERR-DIG; DATA-ERR1->ERR-S",
-                "EN-SEC deleted. STATUS updated."
+                "EN-SEC deleted."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251209,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -2201,9 +2286,9 @@
         {
           "SUBENT": {
             "N1": "F0179005",
-            "N2": 20200612,
+            "N2": 20251209,
             "alteration_flag": " ",
-            "transmission_identification": "F078"
+            "transmission_identification": "F103"
           },
           "BIB": {
             "N1": 3,
@@ -2245,11 +2330,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "D.J.Pullen+",
+                "reference": {
+                  "code": "J,NP,36,1,1962",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "36",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 1962
+                  }
+                }
               },
               "free_text": [
-                " Tbl.2 from Nucl.Phys.,36(1962)1"
+                " Tbl.2"
               ]
             },
             {
@@ -2276,6 +2375,16 @@
               },
               "free_text": [
                 " SD"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251209,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated. NUMBER-CM -> NUMBER."
               ]
             }
           ],
@@ -2314,7 +2423,7 @@
             ],
             "heading": [
               "E-LVL",
-              "NUMBER-CM",
+              "NUMBER",
               "DATA-CM",
               "ERR-S"
             ],

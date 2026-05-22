@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:53:37+0000",
+  "time_stamp": "2026-05-22T19:57:15+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F0192",
-        "N2": 20200626,
+        "N2": 20251209,
         "alteration_flag": " ",
-        "transmission_identification": "F079"
+        "transmission_identification": "F103"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F0192001",
-            "N2": 20200626,
+            "N2": 20251209,
             "alteration_flag": " ",
-            "transmission_identification": "F079"
+            "transmission_identification": "F103"
           },
           "BIB": {
             "N1": 6,
@@ -26,7 +26,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Levels of 10B from the 9Be(p,alpha2+gamma)6Li and",
+                "Levels of 10B from the 9Be(p,alpha2 gamma)6Li and",
                 "9Be(p,p)9Be reactions at E(p)=2.56 MeV"
               ]
             }
@@ -129,7 +129,17 @@
               },
               "free_text": [
                 " SD: Corrections in all Subents.",
-                "The accuracy of data presentation  has been revised."
+                "The accuracy of data presentation has been revised."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251209,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Corrections in all Subents."
               ]
             }
           ],
@@ -149,9 +159,9 @@
         {
           "SUBENT": {
             "N1": "F0192002",
-            "N2": 20200626,
+            "N2": 20251209,
             "alteration_flag": " ",
-            "transmission_identification": "F079"
+            "transmission_identification": "F103"
           },
           "BIB": {
             "N1": 7,
@@ -161,10 +171,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "4-BE-9(P,A)3-LI-6,PAR,DA,,REL/LEG",
+                "code": "4-BE-9(P,A)3-LI-6,PAR,DA,,LEG/REL",
                 "code_unit": [
                   {
-                    "unit": "4-BE-9(P,A)3-LI-6,PAR,DA,,REL/LEG",
+                    "unit": "4-BE-9(P,A)3-LI-6,PAR,DA,,LEG/REL",
                     "field": {
                       "reaction": "4-BE-9(P,A)3-LI-6",
                       "target": "4-BE-9",
@@ -191,7 +201,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "A 10 mu-g/cm**2 thick beryllium target was made by",
+                "A 10 ug/cm2 thick beryllium target was made by",
                 "evaporating metallic Be onto a Ta backing"
               ]
             }
@@ -271,7 +281,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " From graphic bars (statistical)"
+                " Statistical error"
               ]
             }
           ],
@@ -283,11 +293,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.Kiss+",
+                "reference": {
+                  "code": "J,NP/A,282,44,1977",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "282",
+                      "part": null,
+                      "issue": null,
+                      "page": "44"
+                    },
+                    "date": 1977
+                  }
+                }
               },
               "free_text": [
-                " fig 3 from Nucl.Phys.,A282(1977)44"
+                " fig 3"
               ]
             }
           ],
@@ -302,6 +326,16 @@
                 " SD: SF9=EXP deleted from REACTION code.",
                 "EN-SEC deleted. STATUS updated. EN-ERR -> EN-ERR-DIG;",
                 "DATA-ERR -> ERR-S. ERR-DIG added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251209,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated. NUMBER-CM -> NUMBER."
               ]
             }
           ],
@@ -344,7 +378,7 @@
               ""
             ],
             "heading": [
-              "NUMBER-CM",
+              "NUMBER",
               "EN",
               "DATA-CM",
               "ERR-S",
@@ -1086,9 +1120,9 @@
         {
           "SUBENT": {
             "N1": "F0192003",
-            "N2": 20200626,
+            "N2": 20251209,
             "alteration_flag": " ",
-            "transmission_identification": "F079"
+            "transmission_identification": "F103"
           },
           "BIB": {
             "N1": 5,
@@ -1128,7 +1162,7 @@
               "coded_information": null,
               "free_text": [
                 "The target was prepared by evaporating natural Be (1keV",
-                "thick at 2.5 MeV) onto a carbon backing of 29 mu-g/cm2",
+                "thick at 2.5 MeV) onto a carbon backing of 29 ug/cm2",
                 "thickness."
               ]
             }
@@ -1152,11 +1186,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.Kiss+",
+                "reference": {
+                  "code": "J,NP/A,282,44,1977",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "282",
+                      "part": null,
+                      "issue": null,
+                      "page": "44"
+                    },
+                    "date": 1977
+                  }
+                }
               },
               "free_text": [
-                " fig 4 from Nucl.Phys.,A282(1977)44"
+                " fig 4"
               ]
             }
           ],
@@ -1170,6 +1218,16 @@
               "free_text": [
                 " SD: SF9=EXP deleted from REACTION code.",
                 "STATUS updated. EN-ERR->EN-ERR-DIG;DATA-ERR->ERR-DIG."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251209,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],

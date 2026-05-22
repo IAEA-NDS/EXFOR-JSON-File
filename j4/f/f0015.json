@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:51:38+0000",
+  "time_stamp": "2026-05-22T19:56:53+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F0015",
-        "N2": 20200120,
+        "N2": 20251206,
         "alteration_flag": " ",
-        "transmission_identification": "F074"
+        "transmission_identification": "F103"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F0015001",
-            "N2": 20200120,
+            "N2": 20251206,
             "alteration_flag": " ",
-            "transmission_identification": "F074"
+            "transmission_identification": "F103"
           },
           "BIB": {
             "N1": 6,
@@ -127,6 +127,16 @@
                 " SD: Corrections in all Subents according to",
                 "new EXFOR rules."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251206,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Corrections in all Subents."
+              ]
             }
           ],
           "ENDBIB": {
@@ -145,9 +155,9 @@
         {
           "SUBENT": {
             "N1": "F0015002",
-            "N2": 20200120,
+            "N2": 20251206,
             "alteration_flag": " ",
-            "transmission_identification": "F074"
+            "transmission_identification": "F103"
           },
           "BIB": {
             "N1": 4,
@@ -191,8 +201,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Errors from graphic bars and digitizing.",
-                "No information about source of uncertainty."
+                " No information about source of uncertainty."
               ]
             }
           ],
@@ -204,11 +213,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "W.Pfeifer+",
+                "reference": {
+                  "code": "C,62PADUA,,542,1962",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "62PADUA",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "542"
+                    },
+                    "date": 1962
+                  }
+                }
               },
               "free_text": [
-                " Fig. 1 from 62PADUA,,542,1962"
+                " Fig. 1"
               ]
             }
           ],
@@ -224,6 +247,16 @@
                 "ANG-ERR -> ANG-ERR-D. EN-SEC deleted. STATUS,",
                 "ERR-ANALYS updated."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251206,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
+              ]
             }
           ],
           "ENDBIB": {
@@ -231,23 +264,27 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0,
             "pointer": [
+              "",
               "",
               ""
             ],
             "heading": [
               "E-LVL",
-              "ANG-ERR-D"
+              "ANG-ERR-D",
+              "ERR-DIG"
             ],
             "unit": [
               "MEV",
-              "ADEG"
+              "ADEG",
+              "MB/SR"
             ],
             "value": [
               4.63,
-              1.0
+              1.0,
+              0.014
             ]
           },
           "ENDCOMMON": {
@@ -280,31 +317,31 @@
                 3.4,
                 15.0,
                 1.035,
-                0.014
+                null
               ],
               [
                 3.4,
                 25.0,
                 0.963,
-                0.014
+                null
               ],
               [
                 3.4,
                 38.0,
                 1.212,
-                0.014
+                null
               ],
               [
                 3.4,
                 49.0,
                 0.855,
-                0.014
+                null
               ],
               [
                 3.4,
                 59.0,
                 1.033,
-                0.014
+                null
               ],
               [
                 3.4,
@@ -316,55 +353,55 @@
                 3.4,
                 80.0,
                 1.335,
-                0.014
+                null
               ],
               [
                 3.4,
                 90.0,
                 0.978,
-                0.014
+                null
               ],
               [
                 3.4,
                 101.0,
                 1.12,
-                0.014
+                null
               ],
               [
                 3.4,
                 110.0,
                 0.941,
-                0.014
+                null
               ],
               [
                 3.4,
                 120.0,
                 0.976,
-                0.014
+                null
               ],
               [
                 3.8,
                 13.0,
                 1.041,
-                0.012
+                null
               ],
               [
                 3.8,
                 25.0,
                 0.97,
-                0.012
+                null
               ],
               [
                 3.8,
                 38.0,
                 1.234,
-                0.012
+                null
               ],
               [
                 3.8,
                 51.0,
                 1.127,
-                0.012
+                null
               ],
               [
                 3.8,
@@ -376,127 +413,127 @@
                 3.8,
                 88.0,
                 1.726,
-                0.012
+                null
               ],
               [
                 3.8,
                 103.0,
                 1.618,
-                0.012
+                null
               ],
               [
                 3.8,
                 111.0,
                 1.458,
-                0.012
+                null
               ],
               [
                 3.8,
                 121.0,
                 1.333,
-                0.012
+                null
               ],
               [
                 4.1,
                 15.0,
                 0.982,
-                0.01
+                null
               ],
               [
                 4.1,
                 20.0,
                 1.048,
-                0.01
+                null
               ],
               [
                 4.1,
                 29.0,
                 1.047,
-                0.01
+                null
               ],
               [
                 4.1,
                 39.0,
                 1.112,
-                0.01
+                null
               ],
               [
                 4.1,
                 50.0,
                 1.211,
-                0.01
+                null
               ],
               [
                 4.1,
                 61.0,
                 1.227,
-                0.01
+                null
               ],
               [
                 4.1,
                 72.0,
                 1.226,
-                0.1
+                null
               ],
               [
                 4.1,
                 82.0,
                 1.125,
-                0.01
+                null
               ],
               [
                 4.1,
                 94.0,
                 1.24,
-                0.01
+                null
               ],
               [
                 4.1,
                 102.0,
                 1.322,
-                0.01
+                null
               ],
               [
                 4.1,
                 112.0,
                 1.205,
-                0.01
+                null
               ],
               [
                 4.1,
                 122.0,
                 1.387,
-                0.01
+                null
               ],
               [
                 4.5,
                 19.0,
                 1.051,
-                0.009
+                null
               ],
               [
                 4.5,
                 28.0,
                 1.21,
-                0.009
+                null
               ],
               [
                 4.5,
                 39.0,
                 1.351,
-                0.009
+                null
               ],
               [
                 4.5,
                 51.0,
                 1.349,
-                0.009
+                null
               ],
               [
                 4.5,
                 61.0,
                 1.294,
-                0.009
+                null
               ],
               [
                 4.5,
@@ -508,61 +545,61 @@
                 4.5,
                 94.0,
                 1.11,
-                0.009
+                null
               ],
               [
                 4.5,
                 103.0,
                 1.038,
-                0.009
+                null
               ],
               [
                 4.5,
                 113.0,
                 1.215,
-                0.009
+                null
               ],
               [
                 4.5,
                 122.0,
                 1.249,
-                0.009
+                null
               ],
               [
                 5.2,
                 15.0,
                 0.995,
-                0.01
+                null
               ],
               [
                 5.2,
                 28.0,
                 1.132,
-                0.01
+                null
               ],
               [
                 5.2,
                 35.0,
                 1.234,
-                0.01
+                null
               ],
               [
                 5.2,
                 40.0,
                 1.268,
-                0.01
+                null
               ],
               [
                 5.2,
                 51.0,
                 1.215,
-                0.01
+                null
               ],
               [
                 5.2,
                 62.0,
                 1.196,
-                0.01
+                null
               ],
               [
                 5.2,
@@ -574,37 +611,37 @@
                 5.2,
                 83.0,
                 1.09,
-                0.01
+                null
               ],
               [
                 5.2,
                 95.0,
                 1.054,
-                0.01
+                null
               ],
               [
                 5.2,
                 104.0,
                 1.156,
-                0.01
+                null
               ],
               [
                 5.2,
                 114.0,
                 1.121,
-                0.01
+                null
               ],
               [
                 5.2,
                 123.0,
                 1.217,
-                0.01
+                null
               ],
               [
                 5.2,
                 133.0,
                 1.213,
-                0.01
+                null
               ]
             ]
           },
@@ -620,9 +657,9 @@
         {
           "SUBENT": {
             "N1": "F0015003",
-            "N2": 20200120,
+            "N2": 20251206,
             "alteration_flag": " ",
-            "transmission_identification": "F074"
+            "transmission_identification": "F103"
           },
           "BIB": {
             "N1": 3,
@@ -664,11 +701,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "W.Pfeifer+",
+                "reference": {
+                  "code": "C,62PADUA,,542,1962",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "62PADUA",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "542"
+                    },
+                    "date": 1962
+                  }
+                }
               },
               "free_text": [
-                " Fig. 2 from 62PADUA,,542,1962"
+                " Fig. 2"
               ]
             }
           ],
@@ -683,6 +734,16 @@
                 " SD: SF9=EXP deleted from REACTION code.",
                 "EN-ERR -> EN-ERR-DIG; DATA-ERR -> ERR-DIG. ERR-ANALYS",
                 "deleted. STATUS updated."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251206,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated. NUMBER-CM -> NUMBER."
               ]
             }
           ],
@@ -724,7 +785,7 @@
             ],
             "heading": [
               "EN",
-              "NUMBER-CM",
+              "NUMBER",
               "DATA-CM"
             ],
             "unit": [
