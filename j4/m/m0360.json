@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:23:32+0000",
+  "time_stamp": "2026-05-22T20:14:27+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0360",
-        "N2": 20101109,
+        "N2": 20260118,
         "alteration_flag": " ",
-        "transmission_identification": "M055"
+        "transmission_identification": "M143"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0360001",
-            "N2": 20101109,
+            "N2": 20260118,
             "alteration_flag": " ",
-            "transmission_identification": "M055"
+            "transmission_identification": "M143"
           },
           "BIB": {
             "N1": 9,
@@ -26,8 +26,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Isotopic mixing  in  the isobaric  analogue states  of",
-                "Zr-90."
+                "Isotopic spin mixing in the analog states of 90Zr"
               ]
             }
           ],
@@ -36,8 +35,8 @@
               "pointer": "",
               "coded_information": [
                 "H.J.Askin",
-                "J.K.F.Allen",
                 "R.Hicks",
+                "J.K.F.Allen",
                 "R.J.Petty",
                 "M.N.Thompson"
               ],
@@ -58,34 +57,6 @@
             }
           ],
           "REFERENCE": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "C,72SENDAI,359,1972",
-                "code_unit": [
-                  {
-                    "unit": "C,72SENDAI,359,1972",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "C",
-                      "reference": {
-                        "code": "72SENDAI",
-                        "number": null,
-                        "volume": null,
-                        "part": null,
-                        "issue": null,
-                        "page": null
-                      },
-                      "date": 1972
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            },
             {
               "pointer": "",
               "coded_information": {
@@ -113,6 +84,34 @@
               "free_text": [
                 "",
                 "#doi:10.1016/0375-9474(73)90019-5"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "C,72SENDAI,,359,1972",
+                "code_unit": [
+                  {
+                    "unit": "C,72SENDAI,,359,1972",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "C",
+                      "reference": {
+                        "code": "72SENDAI",
+                        "number": null,
+                        "volume": null,
+                        "part": null,
+                        "issue": null,
+                        "page": "359"
+                      },
+                      "date": 1972
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -149,12 +148,12 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The measurements of the photoproton energy  spectrum,",
+                "The measurements of the photoproton energy spectrum,",
                 " the total photoneutron cross section and the neutron",
-                " spectrum to the  first  state  Zr-89 were  made. The",
-                " correlations  between  the  isotopic  analogue state",
-                " detected in the photoproton spectrum  and  structure",
-                " observed  in  the  total  photoneutron cross section",
+                " spectrum to the first state Zr-89 were made. The",
+                " correlations  between the isotopic analogue state",
+                " detected in the photoproton spectrum and structure",
+                " observed in the total photoneutron cross section",
                 " were obtained."
               ]
             }
@@ -167,8 +166,22 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "H.J.Askin+",
+                "reference": {
+                  "code": "C,72SENDAI,,359,1972",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "72SENDAI",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "359"
+                    },
+                    "date": 1972
+                  }
+                }
               },
               "free_text": [
                 ""
@@ -183,7 +196,7 @@
                 "history": "C"
               },
               "free_text": [
-                " Data  were compiled In  SCJAD of  Saratov",
+                " Data were compiled in SCJAD of Saratov",
                 " State University."
               ]
             },
@@ -194,11 +207,22 @@
                 "history": "A"
               },
               "free_text": [
-                " Corrected  by V.Varlamov,  the Russia MSU",
+                " Corrected by V.Varlamov, the Russia MSU",
                 " SINP CDFE: REFERENCE, ERR-ANALYS, REACTION in SUBENT",
-                " 002,  BRS to BRA  in  SUBENT  004, datas, lowercase,",
+                " 002, BRS to BRA in SUBENT 004, data, lowercase,",
                 " typographical mistakes, EN-MAX deleted and E-EXC ->",
                 " EN in SUBENT 002, etc."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260118,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by VV and SD: REFERENCE,",
+                " REACTION, ANALYSIS, STATUS."
               ]
             }
           ],
@@ -218,22 +242,22 @@
         {
           "SUBENT": {
             "N1": "M0360002",
-            "N2": 20101109,
+            "N2": 20260118,
             "alteration_flag": " ",
-            "transmission_identification": "M055"
+            "transmission_identification": "M143"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "40-ZR-90(G,P)39-Y-89,,DA,,REL",
+                "code": "40-ZR-90(G,P)39-Y-89,,DA,,BRA/REL",
                 "code_unit": [
                   {
-                    "unit": "40-ZR-90(G,P)39-Y-89,,DA,,REL",
+                    "unit": "40-ZR-90(G,P)39-Y-89,,DA,,BRA/REL",
                     "field": {
                       "reaction": "40-ZR-90(G,P)39-Y-89",
                       "target": "40-ZR-90",
@@ -242,7 +266,7 @@
                       "product": "39-Y-89",
                       "quantity": ",DA",
                       "data_type": null,
-                      "general_quantity_modifier": "REL",
+                      "general_quantity_modifier": "BRA/REL",
                       "quantity_236": ",DA"
                     }
                   }
@@ -258,10 +282,14 @@
           "SAMPLE": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "nuclide": "40-ZR-90",
+                "field_identifier": "ENR",
+                "value": 0.9765
+              },
               "free_text": [
-                "The 5 mg/cm**2 thick foil of  zirconium  enriched  to",
-                " 97.65% by Zr-90 was used."
+                " The 5 mg/cm2 thick foil of",
+                " zirconium enriched to 97.65% by Zr-90 was used."
               ]
             }
           ],
@@ -272,7 +300,7 @@
                 "SOLST"
               ],
               "free_text": [
-                " SI(LI-detectors of 3.1 mm thickness were used."
+                " Si(Li)-detectors of 3.1 mm thickness were used."
               ]
             }
           ],
@@ -295,10 +323,54 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "A significant  feature  of the spectrum is the double",
-                " resonance with peaks at 19.0 MeV and 19.35 MeV.  The",
-                " higher   component  is  identified  as  an  isotopic",
+                "A significant feature of the spectrum is the double",
+                " resonance with peaks at 19.0 MeV and 19.35 MeV. The",
+                " higher component is identified as an isotopic",
                 " analogue state."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "H.J.Askin+",
+                "reference": {
+                  "code": "J,NP/A,204,209,1973",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "204",
+                      "part": null,
+                      "issue": null,
+                      "page": "209"
+                    },
+                    "date": 1973
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data from Fig. 3."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260118,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by VV and SD: BRA/REL in",
+                " REACTION, STATUS."
               ]
             }
           ],
@@ -1989,12 +2061,12 @@
         {
           "SUBENT": {
             "N1": "M0360003",
-            "N2": 20101109,
+            "N2": 20260118,
             "alteration_flag": " ",
-            "transmission_identification": "M055"
+            "transmission_identification": "M143"
           },
           "BIB": {
-            "N1": 9,
+            "N1": 10,
             "N2": 0
           },
           "REACTION": [
@@ -2034,17 +2106,6 @@
               ]
             }
           ],
-          "PART-DET": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "N"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "DETECTOR": [
             {
               "pointer": "",
@@ -2053,10 +2114,10 @@
                 "BF3"
               ],
               "free_text": [
-                " 4PI    Halpern-type    neutron    detector",
-                " consisted  of  sixteen  BF3  detectors  in  paraffin",
-                " moderator  were  arranged  in  two  concentric rings",
-                " around the  sample  so  that  the  system  detection",
+                " 4PI Halpern-type neutron detector",
+                " consisted of sixteen BF3 detectors in paraffin",
+                " moderator were arranged in two concentric rings",
+                " around the sample so that the system detection",
                 " efficiency was independent of neutron energy."
               ]
             }
@@ -2065,14 +2126,13 @@
             {
               "pointer": "",
               "coded_information": [
-                "UNFLD",
                 "PLA"
               ],
               "free_text": [
-                " Eight  independent  yield   curves   were",
-                " obtained  in 100 keV steps from threshold to 28 MeV.",
-                " the cross section  was  extracted  from  these  data",
-                " using a variable bin Penfold-Leiss technique."
+                " Eight independent yield curves were obtained",
+                " in 100 keV steps from threshold to 28 MeV.",
+                " The cross section was extracted from these data using",
+                " a variable bin Penfold-Leiss technique."
               ]
             }
           ],
@@ -2080,7 +2140,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "EN-ERR",
+                "heading": "DATA-ERR",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
@@ -2095,7 +2155,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Multiplicity correction  of  total photoneutron cross",
+                "Multiplicity correction of total photoneutron cross",
                 " section was made."
               ]
             }
@@ -2134,8 +2194,51 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The splitting of the giant resonance into  two  peaks",
+                "The splitting of the giant resonance into two peaks",
                 " at 16.2 MeV and 17.2 MeV was observed."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "H.J.Askin+",
+                "reference": {
+                  "code": "J,NP/A,204,209,1973",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "204",
+                      "part": null,
+                      "issue": null,
+                      "page": "209"
+                    },
+                    "date": 1973
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data from Fig. 4."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260118,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: ANALYSIS, STATUS."
               ]
             }
           ],
@@ -3095,22 +3198,22 @@
         {
           "SUBENT": {
             "N1": "M0360004",
-            "N2": 20101109,
+            "N2": 20260118,
             "alteration_flag": " ",
-            "transmission_identification": "M055"
+            "transmission_identification": "M143"
           },
           "BIB": {
-            "N1": 7,
+            "N1": 8,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "40-ZR-90(G,X)0-NN-1,,DA/DE,,BRA/REL",
+                "code": "40-ZR-90(G,X)0-NN-1,,DA/DE,,BRA/MSC",
                 "code_unit": [
                   {
-                    "unit": "40-ZR-90(G,X)0-NN-1,,DA/DE,,BRA/REL",
+                    "unit": "40-ZR-90(G,X)0-NN-1,,DA/DE,,BRA/MSC",
                     "field": {
                       "reaction": "40-ZR-90(G,X)0-NN-1",
                       "target": "40-ZR-90",
@@ -3119,7 +3222,7 @@
                       "product": "0-NN-1",
                       "quantity": ",DA/DE",
                       "data_type": null,
-                      "general_quantity_modifier": "BRA/REL",
+                      "general_quantity_modifier": "BRA/MSC",
                       "quantity_236": ",DA/DE"
                     }
                   }
@@ -3128,7 +3231,8 @@
               },
               "free_text": [
                 "",
-                " The difference spectrum."
+                "Difference between neutron spectra obtained by",
+                " irradiation 90Zr with 24 and 20 MeV bremsstrahlung."
               ]
             }
           ],
@@ -3153,17 +3257,6 @@
               ]
             }
           ],
-          "PART-DET": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "P"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "METHOD": [
             {
               "pointer": "",
@@ -3171,7 +3264,7 @@
                 "REC"
               ],
               "free_text": [
-                " Collection of recoild protons."
+                " Collection of recoiled protons."
               ]
             }
           ],
@@ -3194,10 +3287,54 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The difference   neutron   spectrum  was  obtained  by",
-                " subtraction of photoneutron spectrum produced by  the",
-                " 20  MeV  bremsstrahlung from the spectrum produced by",
+                "The difference neutron spectrum was obtained by",
+                " subtraction of photoneutron spectrum produced by the",
+                " 20 MeV bremsstrahlung from the spectrum produced by",
                 " the 24 MeV bremsstrahlung."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "H.J.Askin+",
+                "reference": {
+                  "code": "J,NP/A,204,209,1973",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "204",
+                      "part": null,
+                      "issue": null,
+                      "page": "209"
+                    },
+                    "date": 1973
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data from Fig.5."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260118,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by VV and SD: BRA/REL -> BRA/MSC",
+                " in REACTION, STATUS."
               ]
             }
           ],

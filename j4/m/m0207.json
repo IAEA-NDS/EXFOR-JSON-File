@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:21:06+0000",
+  "time_stamp": "2026-05-22T20:14:24+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0207",
-        "N2": 20130606,
+        "N2": 20260119,
         "alteration_flag": " ",
-        "transmission_identification": "M067"
+        "transmission_identification": "M143"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0207001",
-            "N2": 20130606,
+            "N2": 20260119,
             "alteration_flag": " ",
-            "transmission_identification": "M067"
+            "transmission_identification": "M143"
           },
           "BIB": {
-            "N1": 19,
+            "N1": 18,
             "N2": 0
           },
           "TITLE": [
@@ -26,7 +26,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The photoneutron cross section of B-10."
+                "The photoneutron cross section of 10B."
               ]
             }
           ],
@@ -124,17 +124,6 @@
               ]
             }
           ],
-          "PART-DET": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "N"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "METHOD": [
             {
               "pointer": "",
@@ -149,11 +138,15 @@
           "SAMPLE": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "nuclide": "5-B-10",
+                "field_identifier": "ENR",
+                "value": 0.93
+              },
               "free_text": [
-                "The  target  consisted  of 500 g  of boron enriched in",
-                " B-10 to  93 %  and was in the form of a cylinder 9 cm",
-                " in diameter by 12.5 cm long."
+                " The target consisted of 500 g of",
+                " boron enriched in B-10 to 93% and was in the form of",
+                " a cylinder 9 cm in diameter by 12.5 cm long."
               ]
             }
           ],
@@ -164,17 +157,16 @@
                 "PLA"
               ],
               "free_text": [
-                "  Penfold-Leiss  analysis  using  various  steps.",
-                " yield scanning   technique   have   been   used    in",
-                " experiment.  Yield ordinates were measured at 110 keV",
-                " intervals and deconvoluted with  analysis bin widths:",
-                " 440 and 330 keV.",
-                "Additionally 'three point method' of Thies et al. was",
-                " used  for  second  stage  experiment  for  12-18 MeV",
-                " photon energy region with improved by  30  %  higher",
-                " resolution (about 230 keV). The negative correlation",
-                " of  Penfold-Leiss  method  was  removed  using   the",
-                " decorrelation technique of Crawford et al."
+                " Penfold-Leiss analysis using various steps.",
+                " yield scanning technique have been used in",
+                " experiment. Yield ordinates were measured at 110 keV",
+                " intervals and deconvoluted with analysis bin widths:",
+                " 440 and 330 keV. Additionally 'three point method' of",
+                " Thies et al. was used for second stage experiment for",
+                " 12-18 MeV photon energy region with improved by 30 %",
+                " higher resolution (about 230 keV). The negative",
+                " correlation of Penfold-Leiss method was removed using",
+                " the decorrelation technique of Crawford et al."
               ]
             }
           ],
@@ -183,29 +175,37 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                " Yield ordinates  were  corrected for background.  To",
-                "  allow for the 7 %  content of B-11 in  the  target,",
-                "  cross   section  ordinates  were  corrected,  using",
-                "  previously obtained cross section data for  natural",
-                "  boron target,  containing 80.4 % of B-11 and 19.6 %",
-                "  of B-10:",
-                "    sig(b-10) = 1.0954 x sig-enr.- 0.0954 x sig-nat.",
-                " Also cross  section  ordinates  were  corrected  for",
-                "  gamma absorption on the  way  to  and  inside  B-10",
-                "  target,  neutron capture within target,  truncation",
-                "  errors due to the penfold-leiss analysis,  and  for",
-                "  variation   of   neutron  detection  efficiency  as",
-                "  function  of  target  coordinates.  Absolute  cross",
-                "  section values are correct to about 10 %."
+                "Yield ordinates were corrected for background. To",
+                " allow for the 7% content of B-11 in the target,",
+                " cross section ordinates were corrected, using",
+                " previously obtained cross section data for natural",
+                " boron target, containing 80.4% of B-11 and 19.6% of",
+                " B-10: sig(b-10)=1.0954 x sig-enr.- 0.0954 x sig-nat.",
+                "Also cross section ordinates were corrected for",
+                " gamma absorption on the way to and inside 10B target,",
+                " neutron capture within target, truncation errors due",
+                " to the Penfold-Leiss analysis, and for variation of",
+                " neutron detection efficiency as function of target",
+                " coordinates."
               ]
             }
           ],
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
               "free_text": [
-                "Mean-root-square errors are given."
+                " Mean-root-square errors are given.",
+                " Errors introduced by a limited knowledge of the",
+                " bremsstrahlung spectrum and neutron detection",
+                " efficiency are minimised. Absolute cross section",
+                " values obtained were extablished to be equal to",
+                " about 10%."
               ]
             }
           ],
@@ -294,7 +294,7 @@
                 }
               },
               "free_text": [
-                " Both    the   data   for",
+                " Both the data for",
                 " deuteron photoneutron reaction cross section."
               ]
             }
@@ -376,7 +376,7 @@
                 }
               },
               "free_text": [
-                "   Decorrelation",
+                " Decorrelation",
                 " technique."
               ]
             },
@@ -429,7 +429,7 @@
                 }
               },
               "free_text": [
-                " Both   on Penfold-",
+                " Both on Penfold-",
                 " Leiss analysis."
               ]
             }
@@ -437,17 +437,10 @@
           "STATUS": [
             {
               "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
+              "coded_information": null,
               "free_text": [
-                " The data have been digitized in usa  LLNL  by",
-                " S.I.Warshaw and obtained by cdfe in the form of data",
+                "The data have been digitized in USA LLNL by",
+                " S.I.Warshaw and obtained by CDFE in the form of data",
                 " tables."
               ]
             }
@@ -457,14 +450,14 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The photoneutron  cross  section of B-10 was measured",
-                " from threshold to 24.5 MeV with bremsstrahlung  from",
-                " 30  MeV  electron  synchrotron  using yield scanning",
-                " techniques.  Neutrons  were  detected  by   a   high",
-                " efficiency   (BF-3)-counter  detection  system.  The",
-                " cross  section  shows  a  split  E1-giant  resonance",
-                " region  with major maxima at 20.2 and 23.0 MeV and a",
-                " very minor resonance at 17.0 MeV."
+                "The photoneutron cross section of B-10 was measured",
+                " from threshold to 24.5 MeV with bremsstrahlung from",
+                " 30 MeV electron synchrotron using yield scanning",
+                " techniques. Neutrons were detected by a high",
+                " efficiency (BF-3)-counter detection system. The",
+                " cross section shows a split E1-giant resonance region",
+                " with major maxima at 20.2 and 23.0 MeV and a very",
+                " minor resonance at 17.0 MeV."
               ]
             }
           ],
@@ -486,8 +479,19 @@
                 "history": "A"
               },
               "free_text": [
-                " Corrected   by   V.Varlamov:    REACTION,",
-                " STATUS, COMMENT, dates."
+                " Corrected by V.Varlamov: REACTION,",
+                "STATUS, COMMENT, dates."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260119,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: CORRECTION,",
+                " ERR-ANALYS, STATUS."
               ]
             }
           ],
@@ -523,9 +527,9 @@
         {
           "SUBENT": {
             "N1": "M0207002",
-            "N2": 20130606,
+            "N2": 20260119,
             "alteration_flag": " ",
-            "transmission_identification": "M067"
+            "transmission_identification": "M143"
           },
           "BIB": {
             "N1": 3,
@@ -576,9 +580,31 @@
           "STATUS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "M.H.Ahsan",
+                "reference": {
+                  "code": "J,NP/A,469,381,1987",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "469",
+                      "part": null,
+                      "issue": null,
+                      "page": "381"
+                    },
+                    "date": 1987
+                  }
+                }
+              },
               "free_text": [
-                "Data from Fig 3."
+                "",
+                " Data from Fig 3a."
               ]
             }
           ],
@@ -591,6 +617,16 @@
               },
               "free_text": [
                 " Corrected by V.Varlamov: BRA -> BRS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260119,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],
@@ -1100,9 +1136,9 @@
         {
           "SUBENT": {
             "N1": "M0207003",
-            "N2": 20130606,
+            "N2": 20260119,
             "alteration_flag": " ",
-            "transmission_identification": "M067"
+            "transmission_identification": "M143"
           },
           "BIB": {
             "N1": 3,
@@ -1153,9 +1189,31 @@
           "STATUS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "M.H.Ahsan",
+                "reference": {
+                  "code": "J,NP/A,469,381,1987",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "469",
+                      "part": null,
+                      "issue": null,
+                      "page": "381"
+                    },
+                    "date": 1987
+                  }
+                }
+              },
               "free_text": [
-                "Data from Fig 3."
+                "",
+                " Data from Fig 3b."
               ]
             }
           ],
@@ -1168,6 +1226,16 @@
               },
               "free_text": [
                 " Corrected by V.Varlamov: BRA -> BRS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260119,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],
@@ -1197,7 +1265,7 @@
           },
           "DATA": {
             "N1": 2,
-            "N2": 134,
+            "N2": 128,
             "pointer": [
               "",
               ""
@@ -1324,10 +1392,6 @@
                 1.393
               ],
               [
-                12.36,
-                1.393
-              ],
-              [
                 12.51,
                 1.435
               ],
@@ -1348,20 +1412,8 @@
                 1.493
               ],
               [
-                12.63,
-                1.493
-              ],
-              [
                 12.74,
                 1.435
-              ],
-              [
-                12.74,
-                1.435
-              ],
-              [
-                12.95,
-                1.578
               ],
               [
                 12.95,
@@ -1373,14 +1425,6 @@
               ],
               [
                 13.14,
-                1.606
-              ],
-              [
-                13.26,
-                1.606
-              ],
-              [
-                13.28,
                 1.606
               ],
               [
@@ -1761,12 +1805,12 @@
         {
           "SUBENT": {
             "N1": "M0207004",
-            "N2": 20130606,
+            "N2": 20260119,
             "alteration_flag": " ",
-            "transmission_identification": "M067"
+            "transmission_identification": "M143"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1811,19 +1855,44 @@
               ]
             }
           ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Region 10.8 to 17.7 MeV re-investigated using the",
+                "'three point method' of Thies et al. (see REL-REF)."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
               "coded_information": {
                 "status": [
-                  "TABLE"
+                  "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.H.Ahsan",
+                "reference": {
+                  "code": "J,NP/A,469,381,1987",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "469",
+                      "part": null,
+                      "issue": null,
+                      "page": "381"
+                    },
+                    "date": 1987
+                  }
+                }
               },
               "free_text": [
-                ""
+                "",
+                " Data from Fig.3c."
               ]
             }
           ],
@@ -1836,6 +1905,16 @@
               },
               "free_text": [
                 " Corrected by V.Varlamov: BRA -> BRS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260119,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],

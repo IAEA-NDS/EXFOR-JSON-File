@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:21:00+0000",
+  "time_stamp": "2026-05-22T20:14:23+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0196",
-        "N2": 20121103,
+        "N2": 20260107,
         "alteration_flag": " ",
-        "transmission_identification": "M065"
+        "transmission_identification": "M143"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0196001",
-            "N2": 20121103,
+            "N2": 20260107,
             "alteration_flag": " ",
-            "transmission_identification": "M065"
+            "transmission_identification": "M143"
           },
           "BIB": {
-            "N1": 13,
+            "N1": 12,
             "N2": 0
           },
           "TITLE": [
@@ -27,7 +27,7 @@
               "coded_information": null,
               "free_text": [
                 "Relative yields of Xenon isotopes at photofission",
-                " of U-238."
+                " of 238U"
               ]
             }
           ],
@@ -60,34 +60,6 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,YF,14,950,1971",
-                "code_unit": [
-                  {
-                    "unit": "J,YF,14,950,1971",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "YF",
-                        "number": null,
-                        "volume": "14",
-                        "part": null,
-                        "issue": null,
-                        "page": "950"
-                      },
-                      "date": 1971
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
                 "code": "J,SNP,14,532,1972",
                 "code_unit": [
                   {
@@ -110,7 +82,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " - Eng.trans.of YF,14,950,1971"
+                "",
+                " English translation of YF,14,950,1971."
               ]
             }
           ],
@@ -146,23 +119,11 @@
             {
               "pointer": "",
               "coded_information": [
-                "MASSP",
                 "CHSEP",
                 "ASEP"
               ],
               "free_text": [
                 " A high-frequency mass spectrometer."
-              ]
-            }
-          ],
-          "PART-DET": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "FF"
-              ],
-              "free_text": [
-                ""
               ]
             }
           ],
@@ -199,11 +160,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "K.A.Petrzhak+",
+                "reference": {
+                  "code": "J,SNP,14,532,1972",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "14",
+                      "part": null,
+                      "issue": null,
+                      "page": "532"
+                    },
+                    "date": 1972
+                  }
+                }
               },
               "free_text": [
-                " Data published in Table."
+                "",
+                " Data from Table on p. 533."
               ]
             }
           ],
@@ -251,6 +227,17 @@
                 "     Ref. on transl. was added.",
                 "            VV: METHOD, STATUS, COMMENT, REACTION code",
                 "     in SUBENTs 002 - 003 were corrected."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260107,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by VV and SD: REFERENCE,",
+                " PART-DET, STATUS. M0196001   26"
               ]
             }
           ],

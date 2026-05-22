@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:23:43+0000",
+  "time_stamp": "2026-05-22T20:14:28+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0380",
-        "N2": 20100127,
+        "N2": 20260118,
         "alteration_flag": " ",
-        "transmission_identification": "M051"
+        "transmission_identification": "M143"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0380001",
-            "N2": 20100127,
+            "N2": 20260118,
             "alteration_flag": " ",
-            "transmission_identification": "M051"
+            "transmission_identification": "M143"
           },
           "BIB": {
             "N1": 14,
@@ -27,7 +27,7 @@
               "coded_information": null,
               "free_text": [
                 "Fission induced in Ta-nat, W-nat, and Pt-nat targets",
-                " by 69 mev monochromatic photons."
+                " by 69 MeV monochromatic photons"
               ]
             }
           ],
@@ -35,19 +35,19 @@
             {
               "pointer": "",
               "coded_information": [
-                "O.A.P.TAVARES",
-                "J.B.MARTINS",
-                "E.DE PAIVA",
-                "E.L.MOREIRA",
-                "J.L.VIEIRA",
-                "M.L.TERRANOVA",
-                "M.CAPOGNIS",
-                "L.CASANO",
-                "A.D'ANGELO",
-                "D.MORICCIANI",
-                "F.GHIO",
-                "B.GIROLAMI",
-                "B.BABUSCI"
+                "O.A.P.Tavares",
+                "J.B.Martins",
+                "E.De Paiva",
+                "E.L.Moreira",
+                "J.L.Vieira",
+                "M.L.Terranova",
+                "M.Capognis",
+                "L.Casano",
+                "A.D'angelo",
+                "D.Moricciani",
+                "F.Ghio",
+                "B.Girolami",
+                "B.Babusci"
               ],
               "free_text": [
                 ""
@@ -88,24 +88,8 @@
             {
               "pointer": "",
               "coded_information": [
-                "3BZLRIO"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2ITYCAS"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "3BZLRIO",
+                "2ITYCAS",
                 "2ITYFRA"
               ],
               "free_text": [
@@ -123,7 +107,7 @@
                 "institute": "2ITYFRA"
               },
               "free_text": [
-                " Electron storage ring adone."
+                " Electron storage ring ADONE."
               ]
             }
           ],
@@ -132,14 +116,13 @@
               "pointer": "",
               "coded_information": {
                 "incident_source": [
-                  "MPH",
-                  "COMPT"
+                  "MPH"
                 ],
                 "reaction": null
               },
               "free_text": [
-                " Compton backscattering of laser light  by",
-                " the high-energy electrons from storage ring ADONE."
+                " Compton backscattering of laser light by the",
+                " high-energy electrons from storage ring ADONE."
               ]
             }
           ],
@@ -150,7 +133,7 @@
                 "TRD"
               ],
               "free_text": [
-                " Polycarbonate MAKROFOIL N (BAYER AG) sheets."
+                " Polycarbonate makrofoil N (Bayer AG) sheets."
               ]
             }
           ],
@@ -180,8 +163,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The direct  measurements   of   number   of   fission",
-                " fragments  using the scanning of the MAKROFOL sheets",
+                "The direct measurements of number of fission",
+                " fragments using the scanning of the MAKROFOL sheets",
                 " by means of conventional optical microscopy."
               ]
             }
@@ -189,10 +172,15 @@
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
               "free_text": [
-                "The total  errors  are given which are the sum of the",
-                " statistical and systematic uncertainties."
+                " The total errors are given which are the",
+                "sum of the statistical and systematic uncertainties."
               ]
             }
           ],
@@ -201,14 +189,14 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "A study of photofission on Ta-nat,  W-nat, and Pt-nat",
-                " nuclei induced by monochromatic photons  of  69  MeV",
-                " has  been  performed.  the  fission yields have been",
-                " measured by using MAKROFOIL sheets as  fission-track",
-                " detectors,   in  thick-target  2  Pi  geometry.  The",
-                " absolute  photofossion  cross   sections   for   the",
-                " tantalum,  tungsten, and platinum targets were found",
-                " and  the  corresponding  deduced  fissilities   were",
+                "A study of photofission on Ta-nat, W-nat, and Pt-nat",
+                " nuclei induced by monochromatic photons of 69 MeV",
+                " has been performed. The fission yields have been",
+                " measured by using MAKROFOIL sheets as fission-track",
+                " detectors, in thick-target 2Pi geometry. The",
+                " absolute photofission cross sections for the",
+                " tantalum, tungsten, and platinum targets were found",
+                " and the corresponding deduced fissilities were",
                 " obtained as (3.2 (0.7)), (3.4 (08)), and (6.4 (1.3))",
                 " multiplied to 10**(-4)."
               ]
@@ -222,11 +210,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "O.A.P.Tavares+",
+                "reference": {
+                  "code": "J,JP/G,19,805,1993",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JP/G",
+                      "number": null,
+                      "volume": "19",
+                      "part": null,
+                      "issue": null,
+                      "page": "805"
+                    },
+                    "date": 1993
+                  }
+                }
               },
               "free_text": [
-                " The data were published in form of tables."
+                "",
+                " Data from Table 2."
               ]
             }
           ],
@@ -260,6 +263,16 @@
               "free_text": [
                 " Corrections  of   AUTHOR   -  B.GIROLAMI,",
                 " dates, lowercase, EXP, NODATA for SUBENTS 3, 5, 7."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260118,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by VV and SD: STATUS."
               ]
             }
           ],
