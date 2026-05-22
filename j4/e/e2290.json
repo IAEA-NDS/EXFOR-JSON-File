@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:45:10+0000",
+  "time_stamp": "2026-05-22T21:51:48+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "E2290",
-        "N2": 20111008,
+        "N2": 20260303,
         "alteration_flag": " ",
-        "transmission_identification": "E066"
+        "transmission_identification": "E158"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "E2290001",
-            "N2": 20111008,
+            "N2": 20260303,
             "alteration_flag": " ",
-            "transmission_identification": "E066"
+            "transmission_identification": "E158"
           },
           "BIB": {
             "N1": 11,
@@ -65,46 +65,13 @@
             {
               "pointer": "",
               "coded_information": [
-                "2JPNOSA"
-              ],
-              "free_text": [
-                " Department of Physics"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2JPNNII"
-              ],
-              "free_text": [
-                " Department of Physics"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2JPNNII"
-              ],
-              "free_text": [
-                " RI Center"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2JPNJPN"
-              ],
-              "free_text": [
-                " Kochi Univ. of Technology, Tosayamada"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "2JPNOSA",
+                "2JPNNII",
+                "2JPNKUT",
                 "2JPNIPC"
               ],
               "free_text": [
-                " RIKEN Nishina Center"
+                ""
               ]
             }
           ],
@@ -112,10 +79,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,PR/C,82,(4),044309,201010",
+                "code": "J,PR/C,82,044309,2010",
                 "code_unit": [
                   {
-                    "unit": "J,PR/C,82,(4),044309,201010",
+                    "unit": "J,PR/C,82,044309,2010",
                     "doi": "10.1103/PhysRevC.82.044309",
                     "field": {
                       "reference_type": "J",
@@ -124,17 +91,46 @@
                         "number": null,
                         "volume": "82",
                         "part": null,
-                        "issue": "4",
+                        "issue": null,
                         "page": "044309"
                       },
-                      "date": 201010
+                      "date": 2010
                     }
                   }
                 ],
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "Main reference. See also TITLE and AUTHOR."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,EPJ/A,25,(S1),221,2005",
+                "code_unit": [
+                  {
+                    "unit": "J,EPJ/A,25,(S1),221,2005",
+                    "doi": "10.1140/epjad/i2005-06-182-1",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "EPJ/A",
+                        "number": null,
+                        "volume": "25",
+                        "part": null,
+                        "issue": "S1",
+                        "page": "221"
+                      },
+                      "date": 2005
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                " Preliminary data"
               ]
             }
           ],
@@ -165,18 +161,6 @@
               "coded_information": {
                 "facility": [
                   "CYCLO"
-                ],
-                "institute": "2JPNIPC"
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "PRJFS"
                 ],
                 "institute": "2JPNIPC"
               },
@@ -231,11 +215,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "K.Tanaka+",
+                "reference": {
+                  "code": "J,PR/C,82,044309,2010",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "82",
+                      "part": null,
+                      "issue": null,
+                      "page": "044309"
+                    },
+                    "date": 2010
+                  }
+                }
               },
               "free_text": [
-                " Table I of J,PR/C,82,(4),044309,2010."
+                " Table I"
               ]
             }
           ],
@@ -248,6 +246,17 @@
               },
               "free_text": [
                 " T.M."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260302,
+                "history": "U"
+              },
+              "free_text": [
+                " MA: added secondary reference (EPJ/A) in",
+                "            001."
               ]
             }
           ],

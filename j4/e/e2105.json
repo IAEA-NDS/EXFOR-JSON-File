@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:42:50+0000",
+  "time_stamp": "2026-05-22T21:51:47+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "E2105",
-        "N2": 20090409,
+        "N2": 20260503,
         "alteration_flag": " ",
-        "transmission_identification": "E056"
+        "transmission_identification": "E158"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "E2105001",
-            "N2": 20090409,
+            "N2": 20260503,
             "alteration_flag": " ",
-            "transmission_identification": "E056"
+            "transmission_identification": "E158"
           },
           "BIB": {
-            "N1": 11,
+            "N1": 12,
             "N2": 0
           },
           "TITLE": [
@@ -57,28 +57,13 @@
             {
               "pointer": "",
               "coded_information": [
-                "2JPNOSA"
+                "2JPNOSA",
+                "2GERJUL",
+                "2JPNKYU",
+                "2JPNWER"
               ],
               "free_text": [
-                " Research Center for Nuclear Physics"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2GERJUL"
-              ],
-              "free_text": [
-                " Institut fuer Kernphysik"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2JPNKYU"
-              ],
-              "free_text": [
-                " Department of Physics"
+                ""
               ]
             },
             {
@@ -93,28 +78,10 @@
             {
               "pointer": "",
               "coded_information": [
-                "2JPNOSA"
-              ],
-              "free_text": [
-                " Department of Physics"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
                 "2JPNJPN"
               ],
               "free_text": [
                 " Physics Division, Fukui Medical University"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2JPNWER"
-              ],
-              "free_text": [
-                ""
               ]
             },
             {
@@ -131,10 +98,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,PR/C,77,(4),044004,200804",
+                "code": "J,PR/C,77,044004,2008",
                 "code_unit": [
                   {
-                    "unit": "J,PR/C,77,(4),044004,200804",
+                    "unit": "J,PR/C,77,044004,2008",
                     "doi": "10.1103/PhysRevC.77.044004",
                     "field": {
                       "reference_type": "J",
@@ -143,10 +110,10 @@
                         "number": null,
                         "volume": "77",
                         "part": null,
-                        "issue": "4",
+                        "issue": null,
                         "page": "044004"
                       },
-                      "date": 200804
+                      "date": 2008
                     }
                   }
                 ],
@@ -191,6 +158,15 @@
           "METHOD": [
             {
               "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Two protons were detected in coincidence, and the",
+                "yield of pi0 events was extracted on the basis of the",
+                "missing-mass spectrum."
+              ]
+            },
+            {
+              "pointer": "",
               "coded_information": [
                 "EDE"
               ],
@@ -218,7 +194,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "- Detector resolution: better than 2% for 200MeV",
+                "- Detector resolution: better than 2% for 200 MeV",
                 "  proton",
                 "- Efficiency: 75-87%"
               ]
@@ -243,6 +219,20 @@
               ]
             }
           ],
+          "ANG-SEC": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ANG2-CM",
+                "particle": "P+P"
+              },
+              "free_text": [
+                "",
+                "scattering angle theta between relative protons (bin",
+                "size is 30 degrees)"
+              ]
+            }
+          ],
           "HISTORY": [
             {
               "pointer": "",
@@ -252,6 +242,18 @@
               },
               "free_text": [
                 " Ty"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260301,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: modified REACTION, Unit in 002, STATUS",
+                "            in 002-003; deleted EN-SEC in 002-003;",
+                "            added ANG-SEC in 001-003."
               ]
             }
           ],
@@ -291,12 +293,12 @@
         {
           "SUBENT": {
             "N1": "E2105002",
-            "N2": 20090409,
+            "N2": 20260503,
             "alteration_flag": " ",
-            "transmission_identification": "E056"
+            "transmission_identification": "E158"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -327,15 +329,15 @@
               ]
             }
           ],
-          "EN-SEC": [
+          "ANG-SEC": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "heading": "ANG1-CM",
+                "particle": "PI0"
+              },
               "free_text": [
-                "- ANG1-CM is polar angle between beam and neutral pion",
-                "  in center of mass system",
-                "- ANG2-CM is scattering angle theta between relative",
-                "  protons (bin size is 30 degrees)"
+                ""
               ]
             }
           ],
@@ -385,11 +387,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Y.Maeda+",
+                "reference": {
+                  "code": "J,PR/C,77,044004,2008",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "77",
+                      "part": null,
+                      "issue": null,
+                      "page": "044004"
+                    },
+                    "date": 2008
+                  }
+                }
               },
               "free_text": [
-                " Taken from Table1, p7 in reference"
+                " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260301,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: Unit: MB/SR/MEVC -> NB/SR2MEVC."
               ]
             }
           ],
@@ -427,9 +455,9 @@
               "ADEG",
               "MEV/C",
               "MEV/C",
-              "MB/SR/MEVC",
-              "MB/SR/MEVC",
-              "MB/SR/MEVC"
+              "NB/SR2MEVC",
+              "NB/SR2MEVC",
+              "NB/SR2MEVC"
             ],
             "value": [
               [
@@ -689,32 +717,32 @@
         {
           "SUBENT": {
             "N1": "E2105003",
-            "N2": 20090409,
+            "N2": 20260503,
             "alteration_flag": " ",
-            "transmission_identification": "E056"
+            "transmission_identification": "E158"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "1-H-1(P,PI0+P)1-H-1,,POL/DA/DA/DP,PI0/P+P/P+P,VAP",
+                "code": "1-H-1(P,PI0+P)1-H-1,,POL/DA/DA/DP,PI0/P+P/P+P,ANA",
                 "code_unit": [
                   {
-                    "unit": "1-H-1(P,PI0+P)1-H-1,,POL/DA/DA/DP,PI0/P+P/P+P,VAP",
+                    "unit": "1-H-1(P,PI0+P)1-H-1,,POL/DA/DA/DP,PI0/P+P/P+P,ANA",
                     "field": {
                       "reaction": "1-H-1(P,PI0+P)1-H-1",
                       "target": "1-H-1",
                       "projectile": "P",
                       "process": "PI0+P",
                       "product": "1-H-1",
-                      "quantity": ",POL/DA/DA/DP,PI0/P+P/P+P,VAP",
+                      "quantity": ",POL/DA/DA/DP,PI0/P+P/P+P,ANA",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",POL/DA/DA/DP,*/*+*/*+*,VAP"
+                      "quantity_236": null
                     }
                   }
                 ],
@@ -725,15 +753,15 @@
               ]
             }
           ],
-          "EN-SEC": [
+          "ANG-SEC": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "heading": "ANG1-CM",
+                "particle": "PI0"
+              },
               "free_text": [
-                "- ANG1-CM is polar angle between beam and neutral pion",
-                "  in center of mass system",
-                "- ANG2-CM is scattering angle theta between relative",
-                "  protons (bin size is 30 degrees)"
+                ""
               ]
             }
           ],
@@ -783,11 +811,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Y.Maeda+",
+                "reference": {
+                  "code": "J,PR/C,77,044004,2008",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "77",
+                      "part": null,
+                      "issue": null,
+                      "page": "044004"
+                    },
+                    "date": 2008
+                  }
+                }
               },
               "free_text": [
-                " Taken from Table1, p7 in reference"
+                " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260503,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: SF8: VAP -> ANA."
               ]
             }
           ],

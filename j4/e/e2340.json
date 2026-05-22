@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:45:36+0000",
+  "time_stamp": "2026-05-22T21:51:49+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "E2340",
-        "N2": 20120130,
+        "N2": 20260503,
         "alteration_flag": " ",
-        "transmission_identification": "E067"
+        "transmission_identification": "E158"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "E2340001",
-            "N2": 20120130,
+            "N2": 20260503,
             "alteration_flag": " ",
-            "transmission_identification": "E067"
+            "transmission_identification": "E158"
           },
           "BIB": {
             "N1": 11,
@@ -54,24 +54,8 @@
             {
               "pointer": "",
               "coded_information": [
-                "2JPNKEK"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2JPNJAE"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "2JPNKEK",
+                "2JPNJAE",
                 "2JPNIPC"
               ],
               "free_text": [
@@ -83,11 +67,11 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,KPS,59,(2),2035,201108",
+                "code": "J,KPS,59,2035,2011",
                 "code_unit": [
                   {
-                    "unit": "J,KPS,59,(2),2035,201108",
-                    "doi": null,
+                    "unit": "J,KPS,59,2035,2011",
+                    "doi": "10.3938/jkps.59.2035",
                     "field": {
                       "reference_type": "J",
                       "reference": {
@@ -95,10 +79,10 @@
                         "number": null,
                         "volume": "59",
                         "part": null,
-                        "issue": "2",
+                        "issue": null,
                         "page": "2035"
                       },
-                      "date": 201108
+                      "date": 2011
                     }
                   }
                 ],
@@ -126,19 +110,9 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
+                "- Target enrichment: 98 atm% enriched 18O",
                 "- Chemical-form of target is H2O.",
                 "- Physical-form of target is liquid."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "nuclide": "8-O-18",
-                "field_identifier": "ENR",
-                "value": 0.98
-              },
-              "free_text": [
-                " 18O-enriched"
               ]
             }
           ],
@@ -150,6 +124,15 @@
               ],
               "free_text": [
                 " Neutron detection efficiency determination."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "PHD"
+              ],
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -163,7 +146,7 @@
                 "institute": "2JPNJAE"
               },
               "free_text": [
-                " AVF cyclotron(K=100) at the Takasaki",
+                " AVF cyclotron (K=100) at the Takasaki",
                 "                Ion Accelerators for Advanced",
                 "                Radiation Application (TIARA) facility"
               ]
@@ -174,10 +157,18 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "- Detector resolution is 5 to 16 %.(The energy",
-                "  resolution taken from the full width at half maximum",
-                "  of the prompt gamma-ray peak.)",
-                "- organic liquid scintillator"
+                "Detector resolution is 5 to 16 %.(The energy",
+                "resolution taken from the full width at half maximum",
+                "of the prompt gamma-ray peak.)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "SCIN"
+              ],
+              "free_text": [
+                " organic liquid scintillator (NE213)"
               ]
             }
           ],
@@ -232,6 +223,17 @@
               "free_text": [
                 " Received by e-mail from M.Hagiwara"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260301,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: modified REACTION in 002-008; compiled",
+                "            009."
+              ]
             }
           ],
           "ENDBIB": {
@@ -274,36 +276,49 @@
         {
           "SUBENT": {
             "N1": "E2340002",
-            "N2": 20120130,
+            "N2": 20260503,
             "alteration_flag": " ",
-            "transmission_identification": "E067"
+            "transmission_identification": "E158"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "8-O-18(P,X)0-NN-1,,TTY/PY/DA/DE",
+                "code": "8-O-CMP(P,X)0-NN-1,,PY/DA/DE,,TT/CH",
                 "code_unit": [
                   {
-                    "unit": "8-O-18(P,X)0-NN-1,,TTY/PY/DA/DE",
+                    "unit": "8-O-CMP(P,X)0-NN-1,,PY/DA/DE,,TT/CH",
                     "field": {
-                      "reaction": "8-O-18(P,X)0-NN-1",
-                      "target": "8-O-18",
+                      "reaction": "8-O-CMP(P,X)0-NN-1",
+                      "target": "8-O-CMP",
                       "projectile": "P",
                       "process": "X",
                       "product": "0-NN-1",
-                      "quantity": ",TTY/PY/DA/DE",
+                      "quantity": ",PY/DA/DE,,TT/CH",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",TTY/PY/DA/DE"
+                      "quantity_236": ",PY/DA/DE,,TT/CH"
                     }
                   }
                 ],
                 "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "water enriched with 18O"
+              ]
+            }
+          ],
+          "ANG-SEC": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ANG",
+                "particle": "N"
               },
               "free_text": [
                 ""
@@ -311,13 +326,6 @@
             }
           ],
           "EN-SEC": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "ANG is polar angle (lab.) between beam and neutron"
-              ]
-            },
             {
               "pointer": "",
               "coded_information": {
@@ -351,12 +359,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.Hagiwara+",
+                "reference": {
+                  "code": "J,KPS,59,2035,2011",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "KPS",
+                      "number": null,
+                      "volume": "59",
+                      "part": null,
+                      "issue": null,
+                      "page": "2035"
+                    },
+                    "date": 2011
+                  }
+                }
               },
               "free_text": [
-                " Fig.3 of Journal of the Korean Physical",
-                "        Society,59,2035,2011"
+                " Fig. 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260301,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: SF1: 8-O-18 -> 8-O-CMP (water enriched",
+                "            with 18O); SF6: TTY/PY/DA/DE ->",
+                "            PY/DA/DE,,TT/CH"
               ]
             }
           ],
@@ -1127,36 +1162,49 @@
         {
           "SUBENT": {
             "N1": "E2340003",
-            "N2": 20120130,
+            "N2": 20260503,
             "alteration_flag": " ",
-            "transmission_identification": "E067"
+            "transmission_identification": "E158"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "8-O-18(P,X)0-NN-1,,TTY/PY/DA/DE",
+                "code": "8-O-CMP(P,X)0-NN-1,,PY/DA/DE,,TT/CH",
                 "code_unit": [
                   {
-                    "unit": "8-O-18(P,X)0-NN-1,,TTY/PY/DA/DE",
+                    "unit": "8-O-CMP(P,X)0-NN-1,,PY/DA/DE,,TT/CH",
                     "field": {
-                      "reaction": "8-O-18(P,X)0-NN-1",
-                      "target": "8-O-18",
+                      "reaction": "8-O-CMP(P,X)0-NN-1",
+                      "target": "8-O-CMP",
                       "projectile": "P",
                       "process": "X",
                       "product": "0-NN-1",
-                      "quantity": ",TTY/PY/DA/DE",
+                      "quantity": ",PY/DA/DE,,TT/CH",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",TTY/PY/DA/DE"
+                      "quantity_236": ",PY/DA/DE,,TT/CH"
                     }
                   }
                 ],
                 "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "water enriched with 18O"
+              ]
+            }
+          ],
+          "ANG-SEC": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ANG",
+                "particle": "N"
               },
               "free_text": [
                 ""
@@ -1164,13 +1212,6 @@
             }
           ],
           "EN-SEC": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "ANG is polar angle (lab.) between beam and neutron"
-              ]
-            },
             {
               "pointer": "",
               "coded_information": {
@@ -1204,12 +1245,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.Hagiwara+",
+                "reference": {
+                  "code": "J,KPS,59,2035,2011",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "KPS",
+                      "number": null,
+                      "volume": "59",
+                      "part": null,
+                      "issue": null,
+                      "page": "2035"
+                    },
+                    "date": 2011
+                  }
+                }
               },
               "free_text": [
-                " Fig.3 of Journal of the Korean Physical",
-                "        Society,59,2035,2011"
+                " Fig. 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260301,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: SF1: 8-O-18 -> 8-O-CMP (water enriched",
+                "            with 18O); SF6: TTY/PY/DA/DE ->",
+                "            PY/DA/DE,,TT/CH"
               ]
             }
           ],
@@ -1975,36 +2043,49 @@
         {
           "SUBENT": {
             "N1": "E2340004",
-            "N2": 20120130,
+            "N2": 20260503,
             "alteration_flag": " ",
-            "transmission_identification": "E067"
+            "transmission_identification": "E158"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "8-O-18(P,X)0-NN-1,,TTY/PY/DA/DE",
+                "code": "8-O-CMP(P,X)0-NN-1,,PY/DA/DE,,TT/CH",
                 "code_unit": [
                   {
-                    "unit": "8-O-18(P,X)0-NN-1,,TTY/PY/DA/DE",
+                    "unit": "8-O-CMP(P,X)0-NN-1,,PY/DA/DE,,TT/CH",
                     "field": {
-                      "reaction": "8-O-18(P,X)0-NN-1",
-                      "target": "8-O-18",
+                      "reaction": "8-O-CMP(P,X)0-NN-1",
+                      "target": "8-O-CMP",
                       "projectile": "P",
                       "process": "X",
                       "product": "0-NN-1",
-                      "quantity": ",TTY/PY/DA/DE",
+                      "quantity": ",PY/DA/DE,,TT/CH",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",TTY/PY/DA/DE"
+                      "quantity_236": ",PY/DA/DE,,TT/CH"
                     }
                   }
                 ],
                 "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "water enriched with 18O"
+              ]
+            }
+          ],
+          "ANG-SEC": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ANG",
+                "particle": "N"
               },
               "free_text": [
                 ""
@@ -2012,13 +2093,6 @@
             }
           ],
           "EN-SEC": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "ANG is polar angle (lab.) between beam and neutron"
-              ]
-            },
             {
               "pointer": "",
               "coded_information": {
@@ -2052,12 +2126,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.Hagiwara+",
+                "reference": {
+                  "code": "J,KPS,59,2035,2011",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "KPS",
+                      "number": null,
+                      "volume": "59",
+                      "part": null,
+                      "issue": null,
+                      "page": "2035"
+                    },
+                    "date": 2011
+                  }
+                }
               },
               "free_text": [
-                " Fig.3 of Journal of the Korean Physical",
-                "        Society,59,2035,2011"
+                " Fig. 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260301,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: SF1: 8-O-18 -> 8-O-CMP (water enriched",
+                "            with 18O); SF6: TTY/PY/DA/DE ->",
+                "            PY/DA/DE,,TT/CH"
               ]
             }
           ],
@@ -2783,36 +2884,49 @@
         {
           "SUBENT": {
             "N1": "E2340005",
-            "N2": 20120130,
+            "N2": 20260503,
             "alteration_flag": " ",
-            "transmission_identification": "E067"
+            "transmission_identification": "E158"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "8-O-18(P,X)0-NN-1,,TTY/PY/DA/DE",
+                "code": "8-O-CMP(P,X)0-NN-1,,PY/DA/DE,,TT/CH",
                 "code_unit": [
                   {
-                    "unit": "8-O-18(P,X)0-NN-1,,TTY/PY/DA/DE",
+                    "unit": "8-O-CMP(P,X)0-NN-1,,PY/DA/DE,,TT/CH",
                     "field": {
-                      "reaction": "8-O-18(P,X)0-NN-1",
-                      "target": "8-O-18",
+                      "reaction": "8-O-CMP(P,X)0-NN-1",
+                      "target": "8-O-CMP",
                       "projectile": "P",
                       "process": "X",
                       "product": "0-NN-1",
-                      "quantity": ",TTY/PY/DA/DE",
+                      "quantity": ",PY/DA/DE,,TT/CH",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",TTY/PY/DA/DE"
+                      "quantity_236": ",PY/DA/DE,,TT/CH"
                     }
                   }
                 ],
                 "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "water enriched with 18O"
+              ]
+            }
+          ],
+          "ANG-SEC": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ANG",
+                "particle": "N"
               },
               "free_text": [
                 ""
@@ -2820,13 +2934,6 @@
             }
           ],
           "EN-SEC": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "ANG is polar angle (lab.) between beam and neutron"
-              ]
-            },
             {
               "pointer": "",
               "coded_information": {
@@ -2860,12 +2967,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.Hagiwara+",
+                "reference": {
+                  "code": "J,KPS,59,2035,2011",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "KPS",
+                      "number": null,
+                      "volume": "59",
+                      "part": null,
+                      "issue": null,
+                      "page": "2035"
+                    },
+                    "date": 2011
+                  }
+                }
               },
               "free_text": [
-                " Fig.3 of Journal of the Korean Physical",
-                "        Society,59,2035,2011"
+                " Fig. 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260301,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: SF1: 8-O-18 -> 8-O-CMP (water enriched",
+                "            with 18O); SF6: TTY/PY/DA/DE ->",
+                "            PY/DA/DE,,TT/CH"
               ]
             }
           ],
@@ -3566,36 +3700,49 @@
         {
           "SUBENT": {
             "N1": "E2340006",
-            "N2": 20120130,
+            "N2": 20260503,
             "alteration_flag": " ",
-            "transmission_identification": "E067"
+            "transmission_identification": "E158"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "8-O-18(P,X)0-NN-1,,TTY/PY/DA/DE",
+                "code": "8-O-CMP(P,X)0-NN-1,,PY/DA/DE,,TT/CH",
                 "code_unit": [
                   {
-                    "unit": "8-O-18(P,X)0-NN-1,,TTY/PY/DA/DE",
+                    "unit": "8-O-CMP(P,X)0-NN-1,,PY/DA/DE,,TT/CH",
                     "field": {
-                      "reaction": "8-O-18(P,X)0-NN-1",
-                      "target": "8-O-18",
+                      "reaction": "8-O-CMP(P,X)0-NN-1",
+                      "target": "8-O-CMP",
                       "projectile": "P",
                       "process": "X",
                       "product": "0-NN-1",
-                      "quantity": ",TTY/PY/DA/DE",
+                      "quantity": ",PY/DA/DE,,TT/CH",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",TTY/PY/DA/DE"
+                      "quantity_236": ",PY/DA/DE,,TT/CH"
                     }
                   }
                 ],
                 "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "water enriched with 18O"
+              ]
+            }
+          ],
+          "ANG-SEC": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ANG",
+                "particle": "N"
               },
               "free_text": [
                 ""
@@ -3603,13 +3750,6 @@
             }
           ],
           "EN-SEC": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "ANG is polar angle (lab.) between beam and neutron"
-              ]
-            },
             {
               "pointer": "",
               "coded_information": {
@@ -3643,12 +3783,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.Hagiwara+",
+                "reference": {
+                  "code": "J,KPS,59,2035,2011",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "KPS",
+                      "number": null,
+                      "volume": "59",
+                      "part": null,
+                      "issue": null,
+                      "page": "2035"
+                    },
+                    "date": 2011
+                  }
+                }
               },
               "free_text": [
-                " Fig.3 of Journal of the Korean Physical",
-                "        Society,59,2035,2011"
+                " Fig. 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260301,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: SF1: 8-O-18 -> 8-O-CMP (water enriched",
+                "            with 18O); SF6: TTY/PY/DA/DE ->",
+                "            PY/DA/DE,,TT/CH"
               ]
             }
           ],
@@ -4294,36 +4461,49 @@
         {
           "SUBENT": {
             "N1": "E2340007",
-            "N2": 20120130,
+            "N2": 20260503,
             "alteration_flag": " ",
-            "transmission_identification": "E067"
+            "transmission_identification": "E158"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "8-O-18(P,X)0-NN-1,,TTY/PY/DA/DE",
+                "code": "8-O-CMP(P,X)0-NN-1,,PY/DA/DE,,TT/CH",
                 "code_unit": [
                   {
-                    "unit": "8-O-18(P,X)0-NN-1,,TTY/PY/DA/DE",
+                    "unit": "8-O-CMP(P,X)0-NN-1,,PY/DA/DE,,TT/CH",
                     "field": {
-                      "reaction": "8-O-18(P,X)0-NN-1",
-                      "target": "8-O-18",
+                      "reaction": "8-O-CMP(P,X)0-NN-1",
+                      "target": "8-O-CMP",
                       "projectile": "P",
                       "process": "X",
                       "product": "0-NN-1",
-                      "quantity": ",TTY/PY/DA/DE",
+                      "quantity": ",PY/DA/DE,,TT/CH",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",TTY/PY/DA/DE"
+                      "quantity_236": ",PY/DA/DE,,TT/CH"
                     }
                   }
                 ],
                 "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "water enriched with 18O"
+              ]
+            }
+          ],
+          "ANG-SEC": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ANG",
+                "particle": "N"
               },
               "free_text": [
                 ""
@@ -4331,13 +4511,6 @@
             }
           ],
           "EN-SEC": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "ANG is polar angle (lab.) between beam and neutron"
-              ]
-            },
             {
               "pointer": "",
               "coded_information": {
@@ -4371,12 +4544,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.Hagiwara+",
+                "reference": {
+                  "code": "J,KPS,59,2035,2011",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "KPS",
+                      "number": null,
+                      "volume": "59",
+                      "part": null,
+                      "issue": null,
+                      "page": "2035"
+                    },
+                    "date": 2011
+                  }
+                }
               },
               "free_text": [
-                " Fig.3 of Journal of the Korean Physical",
-                "        Society,59,2035,2011"
+                " Fig. 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260301,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: SF1: 8-O-18 -> 8-O-CMP (water enriched",
+                "            with 18O); SF6: TTY/PY/DA/DE ->",
+                "            PY/DA/DE,,TT/CH"
               ]
             }
           ],
@@ -5022,48 +5222,52 @@
         {
           "SUBENT": {
             "N1": "E2340008",
-            "N2": 20120130,
+            "N2": 20260503,
             "alteration_flag": " ",
-            "transmission_identification": "E067"
+            "transmission_identification": "E158"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "8-O-18(P,X)0-NN-1,,TTY/PY/DA",
+                "code": "8-O-CMP(P,X)0-NN-1,,PY/DA,,TT/CH",
                 "code_unit": [
                   {
-                    "unit": "8-O-18(P,X)0-NN-1,,TTY/PY/DA",
+                    "unit": "8-O-CMP(P,X)0-NN-1,,PY/DA,,TT/CH",
                     "field": {
-                      "reaction": "8-O-18(P,X)0-NN-1",
-                      "target": "8-O-18",
+                      "reaction": "8-O-CMP(P,X)0-NN-1",
+                      "target": "8-O-CMP",
                       "projectile": "P",
                       "process": "X",
                       "product": "0-NN-1",
-                      "quantity": ",TTY/PY/DA",
+                      "quantity": ",PY/DA,,TT/CH",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",TTY/PY/DA"
+                      "quantity_236": ",PY/DA,,TT/CH"
                     }
                   }
                 ],
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "water enriched with 18O"
               ]
             }
           ],
-          "EN-SEC": [
+          "ANG-SEC": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "heading": "ANG",
+                "particle": "N"
+              },
               "free_text": [
-                "ANG is polar angle (lab.) between beam and neutron"
+                ""
               ]
             }
           ],
@@ -5089,12 +5293,38 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.Hagiwara+",
+                "reference": {
+                  "code": "J,KPS,59,2035,2011",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "KPS",
+                      "number": null,
+                      "volume": "59",
+                      "part": null,
+                      "issue": null,
+                      "page": "2035"
+                    },
+                    "date": 2011
+                  }
+                }
               },
               "free_text": [
-                " Fig.4 of Journal of the Korean Physical",
-                "        Society,59,2035,2011"
+                " Fig. 4"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260301,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: SF1: 8-O-18 -> 8-O-CMP (water enriched",
+                "            with 18O); SF6: TTY/PY/DA -> PY/DA,,TT/CH"
               ]
             }
           ],
@@ -5175,10 +5405,228 @@
             "N1": 0,
             "N2": 0
           }
+        },
+        {
+          "SUBENT": {
+            "N1": "E2340009",
+            "N2": 20260503,
+            "alteration_flag": " ",
+            "transmission_identification": "E158"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "8-O-CMP(P,X)0-NN-1,,PY/DE,,TT/CH",
+                "code_unit": [
+                  {
+                    "unit": "8-O-CMP(P,X)0-NN-1,,PY/DE,,TT/CH",
+                    "field": {
+                      "reaction": "8-O-CMP(P,X)0-NN-1",
+                      "target": "8-O-CMP",
+                      "projectile": "P",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": ",PY/DE,,TT/CH",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": null
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "EN-SEC": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "E",
+                "particle": "N"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "M.Hagiwara+",
+                "reference": {
+                  "code": "J,KPS,59,2035,2011",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "KPS",
+                      "number": null,
+                      "volume": "59",
+                      "part": null,
+                      "issue": null,
+                      "page": "2035"
+                    },
+                    "date": 2011
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 5"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251002,
+                "history": "R"
+              },
+              "free_text": [
+                " Received by e-mail from M.Hagiwara"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260301,
+                "history": "C"
+              },
+              "free_text": [
+                " MA"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 20,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "E",
+              "DATA"
+            ],
+            "unit": [
+              "MEV",
+              "PRD/MUCMEV"
+            ],
+            "value": [
+              [
+                0.1,
+                2220000000.0
+              ],
+              [
+                0.2,
+                2220000000.0
+              ],
+              [
+                0.4,
+                3620000000.0
+              ],
+              [
+                1.0,
+                13000000000.0
+              ],
+              [
+                1.5,
+                11200000000.0
+              ],
+              [
+                2.0,
+                8310000000.0
+              ],
+              [
+                2.5,
+                6670000000.0
+              ],
+              [
+                3.0,
+                4430000000.0
+              ],
+              [
+                3.5,
+                4430000000.0
+              ],
+              [
+                4.0,
+                3280000000.0
+              ],
+              [
+                4.5,
+                2630000000.0
+              ],
+              [
+                5.0,
+                1970000000.0
+              ],
+              [
+                5.5,
+                2030000000.0
+              ],
+              [
+                6.0,
+                967000000.0
+              ],
+              [
+                6.5,
+                811000000.0
+              ],
+              [
+                7.0,
+                312000000.0
+              ],
+              [
+                7.5,
+                245000000.0
+              ],
+              [
+                8.0,
+                174000000.0
+              ],
+              [
+                10.0,
+                386000000.0
+              ],
+              [
+                12.0,
+                28200000.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
         }
       ],
       "ENDENTRY": {
-        "N1": 8,
+        "N1": 9,
         "N2": 0
       }
     }

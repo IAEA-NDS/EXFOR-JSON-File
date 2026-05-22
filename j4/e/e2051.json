@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:42:02+0000",
+  "time_stamp": "2026-05-22T21:51:46+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "E2051",
-        "N2": 20080131,
+        "N2": 20260503,
         "alteration_flag": " ",
-        "transmission_identification": "E050"
+        "transmission_identification": "E158"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "E2051001",
-            "N2": 20080131,
+            "N2": 20260503,
             "alteration_flag": " ",
-            "transmission_identification": "E050"
+            "transmission_identification": "E158"
           },
           "BIB": {
             "N1": 15,
@@ -50,24 +50,8 @@
             {
               "pointer": "",
               "coded_information": [
-                "3BANSAV"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2JPNTOH"
-              ],
-              "free_text": [
-                " Cyclotron and Radioisotope Center"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "3BANSAV",
+                "2JPNTOH",
                 "3HUNDEB"
               ],
               "free_text": [
@@ -79,10 +63,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,RCA,95,(4),187,200704",
+                "code": "J,RCA,95,187,2007",
                 "code_unit": [
                   {
-                    "unit": "J,RCA,95,(4),187,200704",
+                    "unit": "J,RCA,95,187,2007",
                     "doi": "10.1524/ract.2007.95.4.187",
                     "field": {
                       "reference_type": "J",
@@ -91,14 +75,45 @@
                         "number": null,
                         "volume": "95",
                         "part": null,
-                        "issue": "4",
+                        "issue": null,
                         "page": "187"
                       },
-                      "date": 200704
+                      "date": 2007
                     }
                   }
                 ],
                 "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "13-AL-27(D,X)11-NA-24,,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "13-AL-27(D,X)11-NA-24,,SIG",
+                      "field": {
+                        "reaction": "13-AL-27(D,X)11-NA-24",
+                        "target": "13-AL-27",
+                        "projectile": "D",
+                        "process": "X",
+                        "product": "11-NA-24",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
               },
               "free_text": [
                 ""
@@ -136,37 +151,6 @@
               ]
             }
           ],
-          "MONITOR": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "reaction": {
-                  "code": "13-AL-27(D,X)11-NA-24,,SIG",
-                  "code_unit": [
-                    {
-                      "unit": "13-AL-27(D,X)11-NA-24,,SIG",
-                      "field": {
-                        "reaction": "13-AL-27(D,X)11-NA-24",
-                        "target": "13-AL-27",
-                        "projectile": "D",
-                        "process": "X",
-                        "product": "11-NA-24",
-                        "quantity": ",SIG",
-                        "data_type": null,
-                        "general_quantity_modifier": null,
-                        "quantity_236": ",SIG"
-                      }
-                    }
-                  ],
-                  "unit_combination": "(%)"
-                }
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "INC-SOURCE": [
             {
               "pointer": "",
@@ -183,7 +167,7 @@
               "free_text": [
                 "- Chemical-form of target is element.",
                 "- Physical-form of target is solid.",
-                "- Target-thickness is 49 mg/cm**2."
+                "- Target-thickness is 49 mg/cm2."
               ]
             }
           ],
@@ -257,13 +241,6 @@
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Uncertainty in gamma-ray counting: 0.29% to 11%"
-              ]
-            },
-            {
-              "pointer": "",
               "coded_information": {
                 "heading": "ERR-T",
                 "minimum_value": null,
@@ -283,7 +260,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Uncertainty in monitor flux"
+                " Uncertainty in monitor flux (about 6%)"
               ]
             },
             {
@@ -295,7 +272,20 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Uncertainty in efficiency calibration"
+                " Uncertainty in efficiency calibration (about",
+                "        3%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": 0.29,
+                "maximum_value": 11.0,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistical uncertainty (0.29-11%)"
               ]
             }
           ],
@@ -307,11 +297,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.S.Uddin+",
+                "reference": {
+                  "code": "J,RCA,95,187,2007",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "RCA",
+                      "number": null,
+                      "volume": "95",
+                      "part": null,
+                      "issue": null,
+                      "page": "187"
+                    },
+                    "date": 2007
+                  }
+                }
               },
               "free_text": [
-                " Taken from Table 2, p188 in reference"
+                " Table 2"
               ]
             }
           ],
@@ -324,6 +328,17 @@
               },
               "free_text": [
                 " On + Yt"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260302,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: modified REL-REF, DECAY-DATA in 005,",
+                "            ERR-ANALYS, STATUS in 001."
               ]
             }
           ],
@@ -981,14 +996,78 @@
         {
           "SUBENT": {
             "N1": "E2051005",
-            "N2": 20080131,
+            "N2": 20260503,
             "alteration_flag": " ",
-            "transmission_identification": "E050"
+            "transmission_identification": "E158"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "39-Y-89(D,X)39-Y-88,CUM,SIG",
+                "code_unit": [
+                  {
+                    "unit": "39-Y-89(D,X)39-Y-88,CUM,SIG",
+                    "field": {
+                      "reaction": "39-Y-89(D,X)39-Y-88",
+                      "target": "39-Y-89",
+                      "projectile": "D",
+                      "process": "X",
+                      "product": "39-Y-88",
+                      "quantity": "CUM,SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "CUM,SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "39-Y-88",
+                "half-life": {
+                  "value": 106.65,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      898.0
+                    ],
+                    "intensity": 0.937
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1836.0
+                    ],
+                    "intensity": 0.992
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "REL-REF": [
             {
               "pointer": "",
@@ -997,7 +1076,7 @@
                 "subentry_number": "A0347009",
                 "author": "H.H.Bissem+",
                 "reference": {
-                  "code": "J,PR/C,22,1468,1990",
+                  "code": "J,PR/C,22,1468,1980",
                   "field": {
                     "reference_type": "J",
                     "reference": {
@@ -1008,7 +1087,7 @@
                       "issue": null,
                       "page": "1468"
                     },
-                    "date": 1990
+                    "date": 1980
                   }
                 }
               },
@@ -1043,67 +1122,16 @@
               ]
             }
           ],
-          "REACTION": [
+          "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "39-Y-89(D,X)39-Y-88,CUM,SIG",
-                "code_unit": [
-                  {
-                    "unit": "39-Y-89(D,X)39-Y-88,CUM,SIG",
-                    "field": {
-                      "reaction": "39-Y-89(D,X)39-Y-88",
-                      "target": "39-Y-89",
-                      "projectile": "D",
-                      "process": "X",
-                      "product": "39-Y-88",
-                      "quantity": "CUM,SIG",
-                      "data_type": null,
-                      "general_quantity_modifier": null,
-                      "quantity_236": "CUM,SIG"
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
+                "date": 20260302,
+                "history": "A"
               },
               "free_text": [
-                ""
-              ]
-            }
-          ],
-          "DECAY-DATA": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "39-Y-88-G",
-                "half-life": {
-                  "value": 106.65,
-                  "unit": "D"
-                },
-                "radiation": [
-                  {
-                    "radiation_type": [
-                      "DG"
-                    ],
-                    "energy": [
-                      898.0
-                    ],
-                    "intensity": 0.937
-                  },
-                  {
-                    "radiation_type": [
-                      "DG"
-                    ],
-                    "energy": [
-                      1836.0
-                    ],
-                    "intensity": 0.992
-                  }
-                ]
-              },
-              "free_text": [
-                ""
+                " MA: DECAY-DATA: 39-Y-88-G -> 39-Y-88;",
+                "            REL-REF: 1990 -> 1980."
               ]
             }
           ],

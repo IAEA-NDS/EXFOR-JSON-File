@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:46:02+0000",
+  "time_stamp": "2026-05-22T21:51:49+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "E2359",
-        "N2": 20130104,
+        "N2": 20260303,
         "alteration_flag": " ",
-        "transmission_identification": "E072"
+        "transmission_identification": "E158"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "E2359001",
-            "N2": 20130104,
+            "N2": 20260303,
             "alteration_flag": " ",
-            "transmission_identification": "E072"
+            "transmission_identification": "E158"
           },
           "BIB": {
             "N1": 10,
@@ -90,64 +90,15 @@
             {
               "pointer": "",
               "coded_information": [
-                "2JPNYOK"
-              ],
-              "free_text": [
-                " Department of Physics"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2JPNIPC"
-              ],
-              "free_text": [
-                " RIKEN Nishina Center"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "3HUNDEB"
+                "2JPNYOK",
+                "2JPNIPC",
+                "3HUNDEB",
+                "2JPNTIT",
+                "2JPNTOH",
+                "2JPNTOK"
               ],
               "free_text": [
                 ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2JPNTIT"
-              ],
-              "free_text": [
-                " Department of Physics"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2JPNTOH"
-              ],
-              "free_text": [
-                " Department of Physics"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2JPNTOK"
-              ],
-              "free_text": [
-                " Department of Physics"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2JPNTOK"
-              ],
-              "free_text": [
-                " Center for Nuclear Study"
               ]
             }
           ],
@@ -177,7 +128,36 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "Main reference. See also TITLE and AUTHOR."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,EPJ/A,27,(S1),233,2006",
+                "code_unit": [
+                  {
+                    "unit": "J,EPJ/A,27,(S1),233,2006",
+                    "doi": "10.1140/epja/i2006-08-036-3",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "EPJ/A",
+                        "number": null,
+                        "volume": "27",
+                        "part": null,
+                        "issue": "S1",
+                        "page": "233"
+                      },
+                      "date": 2006
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                " Preliminary data"
               ]
             }
           ],
@@ -198,8 +178,21 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "- Beam intensity is 2800 PPS.",
-                "- Ion source: 36Ar+9Be"
+                "Beam intensity is 2800 PPS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "FRAGM"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                " A 27P beam was produced via the projectile",
+                "        fragmentation of a 115 MeV/nucleon 36Ar beam",
+                "        incident on a 460-mg/cm2-thick 9Be target."
               ]
             }
           ],
@@ -210,7 +203,7 @@
               "free_text": [
                 "- Chemical-form of target is element. For lead target.",
                 "- Physical-form of target is solid. (For lead target.)",
-                "- Target-thickness is 125 mg/cm**2. For lead target."
+                "- Target-thickness is 125 mg/cm2. For lead target."
               ]
             }
           ],
@@ -230,7 +223,7 @@
               "pointer": "",
               "coded_information": {
                 "facility": [
-                  "PRJFS"
+                  "CYCLO"
                 ],
                 "institute": "2JPNIPC"
               },
@@ -259,6 +252,18 @@
               "free_text": [
                 " Received by e-mail from Y.Togano"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260302,
+                "history": "U"
+              },
+              "free_text": [
+                " MA: added secondary reference (EPJ/A) in",
+                "            001; modified INC-SOURCE, FACILITY in 001,",
+                "            Heading in 002; updated STATUS in 002-004."
+              ]
             }
           ],
           "ENDBIB": {
@@ -277,12 +282,12 @@
         {
           "SUBENT": {
             "N1": "E2359002",
-            "N2": 20130104,
+            "N2": 20260303,
             "alteration_flag": " ",
-            "transmission_identification": "E072"
+            "transmission_identification": "E158"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -317,7 +322,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "E-LVL",
+                "heading": "E-EXC",
                 "particle": "15-P-27"
               },
               "free_text": [
@@ -351,11 +356,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Y.Togano+",
+                "reference": {
+                  "code": "J,PR/C,84,035808,2011",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "84",
+                      "part": null,
+                      "issue": null,
+                      "page": "035808"
+                    },
+                    "date": 2011
+                  }
+                }
               },
               "free_text": [
-                " Presented in Table II of J,PR/C,84,035808,2011"
+                " Table II"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260303,
+                "history": "A"
+              },
+              "free_text": [
+                " MA: E-LVL -> E-EXC."
               ]
             }
           ],
@@ -392,7 +423,7 @@
               ""
             ],
             "heading": [
-              "E-LVL",
+              "E-EXC",
               "DATA",
               "DATA-ERR"
             ],
@@ -431,9 +462,9 @@
         {
           "SUBENT": {
             "N1": "E2359003",
-            "N2": 20130104,
+            "N2": 20260303,
             "alteration_flag": " ",
-            "transmission_identification": "E072"
+            "transmission_identification": "E158"
           },
           "BIB": {
             "N1": 2,
@@ -476,11 +507,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Y.Togano+",
+                "reference": {
+                  "code": "J,PR/C,84,035808,2011",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "84",
+                      "part": null,
+                      "issue": null,
+                      "page": "035808"
+                    },
+                    "date": 2011
+                  }
+                }
               },
               "free_text": [
-                " Presented in Table IV of J,PR/C,84,035808,2011"
+                " Table IV"
               ]
             }
           ],
@@ -600,9 +645,9 @@
         {
           "SUBENT": {
             "N1": "E2359004",
-            "N2": 20130104,
+            "N2": 20260303,
             "alteration_flag": " ",
-            "transmission_identification": "E072"
+            "transmission_identification": "E158"
           },
           "BIB": {
             "N1": 4,
@@ -671,11 +716,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Y.Togano+",
+                "reference": {
+                  "code": "J,PR/C,84,035808,2011",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "84",
+                      "part": null,
+                      "issue": null,
+                      "page": "035808"
+                    },
+                    "date": 2011
+                  }
+                }
               },
               "free_text": [
-                " Presented in Fig.3 of J,PR/C,84,035808,2011"
+                " Fig. 3"
               ]
             }
           ],
