@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:02:20+0000",
+  "time_stamp": "2026-05-22T20:26:51+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F0867",
-        "N2": 20160301,
+        "N2": 20251213,
         "alteration_flag": " ",
-        "transmission_identification": "F061"
+        "transmission_identification": "F105"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F0867001",
-            "N2": 20160301,
+            "N2": 20251213,
             "alteration_flag": " ",
-            "transmission_identification": "F061"
+            "transmission_identification": "F105"
           },
           "BIB": {
             "N1": 10,
@@ -27,7 +27,7 @@
               "coded_information": null,
               "free_text": [
                 "Elastic and inelastic scattering of 24 MeV alpha",
-                "particles by 12C  and 13C."
+                "particles by 12C and 13C"
               ]
             }
           ],
@@ -63,34 +63,6 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,IZV,38,(12),2591,1974",
-                "code_unit": [
-                  {
-                    "unit": "J,IZV,38,(12),2591,1974",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "IZV",
-                        "number": null,
-                        "volume": "38",
-                        "part": null,
-                        "issue": "12",
-                        "page": "2591"
-                      },
-                      "date": 1974
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
                 "code": "J,BAS,38,(12),113,1974",
                 "code_unit": [
                   {
@@ -114,6 +86,63 @@
               },
               "free_text": [
                 " English translation"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,IZV,38,2591,1974",
+                "code_unit": [
+                  {
+                    "unit": "J,IZV,38,2591,1974",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "IZV",
+                        "number": null,
+                        "volume": "38",
+                        "part": null,
+                        "issue": null,
+                        "page": "2591"
+                      },
+                      "date": 1974
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,BAS,48,(5),158,1984",
+                "code_unit": [
+                  {
+                    "unit": "J,BAS,48,(5),158,1984",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "BAS",
+                        "number": null,
+                        "volume": "48",
+                        "part": null,
+                        "issue": "5",
+                        "page": "158"
+                      },
+                      "date": 1984
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                " - Integr. cr. sect. of 12C",
+                "                          presented."
               ]
             }
           ],
@@ -149,9 +178,9 @@
               "coded_information": null,
               "free_text": [
                 "Self-supporting carbon films with a natural content of",
-                "13C (1.1%) enriched to 72% with the thicknesses of 105",
-                "and 256 mg/cm2 were used. The targets were placed at",
-                "45 degr. to the beam axis."
+                "13C (1.1%) and enriched to 72% with the thicknesses of",
+                "105 and 256 mg/cm2 were used. The targets were placed",
+                "at 45 degr. to the beam axis."
               ]
             }
           ],
@@ -172,11 +201,11 @@
               "coded_information": {
                 "heading": "ERR-T",
                 "minimum_value": null,
-                "maximum_value": null,
+                "maximum_value": 30.0,
                 "correlation_property": null
               },
               "free_text": [
-                " Absolute error of cross-section determination"
+                " Total error"
               ]
             },
             {
@@ -188,56 +217,20 @@
                 "correlation_property": null
               },
               "free_text": [
-                "     Error of determination of target thickness"
+                " Error of determination of target thickness"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
+                "heading": "ERR-2",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                "  Error of determination of relative",
+                " Error of determination of relative",
                 "cross sections"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ANG-ERR-D",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Angle digitizing error"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "   Data digitizing error"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ANG-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "   Error in angle definition"
               ]
             }
           ],
@@ -260,8 +253,19 @@
               },
               "free_text": [
                 " Issue numbers in references were added.",
-                "Data presentation was corrected. In sub 001 error",
+                "Data presentation was corrected. In Sub 001 error",
                 "headings were changed."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251213,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents.",
+                "Subents 008, 009 were added. DATA-ERR -> ERR-2."
               ]
             }
           ],
@@ -270,10 +274,9 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 7,
+            "N1": 6,
             "N2": 0,
             "pointer": [
-              "",
               "",
               "",
               "",
@@ -283,9 +286,8 @@
             ],
             "heading": [
               "EN",
-              "ERR-T",
               "ERR-1",
-              "DATA-ERR",
+              "ERR-2",
               "EN-RSL",
               "ANG-RSL",
               "ANG-ERR"
@@ -294,14 +296,12 @@
               "MEV",
               "PER-CENT",
               "PER-CENT",
-              "PER-CENT",
               "KEV",
               "ADEG",
               "ADEG"
             ],
             "value": [
               24.0,
-              30.0,
               20.0,
               10.0,
               250.0,
@@ -321,12 +321,12 @@
         {
           "SUBENT": {
             "N1": "F0867002",
-            "N2": 20160301,
+            "N2": 20251213,
             "alteration_flag": " ",
-            "transmission_identification": "F061"
+            "transmission_identification": "F105"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -365,11 +365,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "G.A.Feofilov+",
+                "reference": {
+                  "code": "J,BAS,38,(12),113,1974",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "38",
+                      "part": null,
+                      "issue": "12",
+                      "page": "113"
+                    },
+                    "date": 1974
+                  }
+                }
               },
               "free_text": [
-                "Fig.1"
+                " Fig.1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251213,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -687,12 +713,12 @@
         {
           "SUBENT": {
             "N1": "F0867003",
-            "N2": 20160301,
+            "N2": 20251213,
             "alteration_flag": " ",
-            "transmission_identification": "F061"
+            "transmission_identification": "F105"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -731,11 +757,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "G.A.Feofilov+",
+                "reference": {
+                  "code": "J,BAS,38,(12),113,1974",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "38",
+                      "part": null,
+                      "issue": "12",
+                      "page": "113"
+                    },
+                    "date": 1974
+                  }
+                }
               },
               "free_text": [
-                "Fig.1"
+                " Fig.1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251213,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -1033,12 +1085,12 @@
         {
           "SUBENT": {
             "N1": "F0867004",
-            "N2": 20160301,
+            "N2": 20251213,
             "alteration_flag": " ",
-            "transmission_identification": "F061"
+            "transmission_identification": "F105"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -1077,11 +1129,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "G.A.Feofilov+",
+                "reference": {
+                  "code": "J,BAS,38,(12),113,1974",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "38",
+                      "part": null,
+                      "issue": "12",
+                      "page": "113"
+                    },
+                    "date": 1974
+                  }
+                }
               },
               "free_text": [
-                "Fig.2"
+                " Fig.2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251213,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -2036,12 +2114,12 @@
         {
           "SUBENT": {
             "N1": "F0867005",
-            "N2": 20160301,
+            "N2": 20251213,
             "alteration_flag": " ",
-            "transmission_identification": "F061"
+            "transmission_identification": "F105"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -2080,11 +2158,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "G.A.Feofilov+",
+                "reference": {
+                  "code": "J,BAS,38,(12),113,1974",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "38",
+                      "part": null,
+                      "issue": "12",
+                      "page": "113"
+                    },
+                    "date": 1974
+                  }
+                }
               },
               "free_text": [
-                "Fig.3"
+                " Fig.2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251213,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -2779,12 +2883,12 @@
         {
           "SUBENT": {
             "N1": "F0867006",
-            "N2": 20160301,
+            "N2": 20251213,
             "alteration_flag": " ",
-            "transmission_identification": "F061"
+            "transmission_identification": "F105"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -2823,11 +2927,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "G.A.Feofilov+",
+                "reference": {
+                  "code": "J,BAS,38,(12),113,1974",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "38",
+                      "part": null,
+                      "issue": "12",
+                      "page": "113"
+                    },
+                    "date": 1974
+                  }
+                }
               },
               "free_text": [
-                "Fig.3"
+                " Fig.3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251213,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -3153,12 +3283,12 @@
         {
           "SUBENT": {
             "N1": "F0867007",
-            "N2": 20160301,
+            "N2": 20251213,
             "alteration_flag": " ",
-            "transmission_identification": "F061"
+            "transmission_identification": "F105"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -3197,11 +3327,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "G.A.Feofilov+",
+                "reference": {
+                  "code": "J,BAS,38,(12),113,1974",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "38",
+                      "part": null,
+                      "issue": "12",
+                      "page": "113"
+                    },
+                    "date": 1974
+                  }
+                }
               },
               "free_text": [
-                "Fig.3"
+                " Fig.3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251213,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -3523,10 +3679,282 @@
             "N1": 0,
             "N2": 0
           }
+        },
+        {
+          "SUBENT": {
+            "N1": "F0867008",
+            "N2": 20251213,
+            "alteration_flag": " ",
+            "transmission_identification": "F105"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "6-C-12(A,EL)6-C-12,,IPA",
+                "code_unit": [
+                  {
+                    "unit": "6-C-12(A,EL)6-C-12,,IPA",
+                    "field": {
+                      "reaction": "6-C-12(A,EL)6-C-12",
+                      "target": "6-C-12",
+                      "projectile": "A",
+                      "process": "EL",
+                      "product": "6-C-12",
+                      "quantity": ",IPA",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",IPA"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "V.S.Sadkovskiy+",
+                "reference": {
+                  "code": "J,BAS,48,(5),158,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "5",
+                      "page": "158"
+                    },
+                    "date": 1984
+                  }
+                }
+              },
+              "free_text": [
+                " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251213,
+                "history": "C"
+              },
+              "free_text": [
+                " SD:"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "ANG-MIN",
+              "ANG-MAX",
+              "DATA"
+            ],
+            "unit": [
+              "ADEG",
+              "ADEG",
+              "MB"
+            ],
+            "value": [
+              [
+                15.0,
+                165.0,
+                58.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "F0867009",
+            "N2": 20251213,
+            "alteration_flag": " ",
+            "transmission_identification": "F105"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "6-C-12(A,INL)6-C-12,PAR,IPA",
+                "code_unit": [
+                  {
+                    "unit": "6-C-12(A,INL)6-C-12,PAR,IPA",
+                    "field": {
+                      "reaction": "6-C-12(A,INL)6-C-12",
+                      "target": "6-C-12",
+                      "projectile": "A",
+                      "process": "INL",
+                      "product": "6-C-12",
+                      "quantity": "PAR,IPA",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "PAR,IPA"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "V.S.Sadkovskiy+",
+                "reference": {
+                  "code": "J,BAS,48,(5),158,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "5",
+                      "page": "158"
+                    },
+                    "date": 1984
+                  }
+                }
+              },
+              "free_text": [
+                " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251213,
+                "history": "C"
+              },
+              "free_text": [
+                " SD:"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 2,
+            "N2": 0,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "ANG-MIN",
+              "ANG-MAX"
+            ],
+            "unit": [
+              "ADEG",
+              "ADEG"
+            ],
+            "value": [
+              15.0,
+              165.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 3,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "E-LVL",
+              "DATA"
+            ],
+            "unit": [
+              "MEV",
+              "MB"
+            ],
+            "value": [
+              [
+                4.44,
+                130.0
+              ],
+              [
+                7.65,
+                13.0
+              ],
+              [
+                9.64,
+                52.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
         }
       ],
       "ENDENTRY": {
-        "N1": 7,
+        "N1": 9,
         "N2": 0
       }
     }

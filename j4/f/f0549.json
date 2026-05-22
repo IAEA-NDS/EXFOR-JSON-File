@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:58:36+0000",
+  "time_stamp": "2026-05-22T20:26:34+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F0549",
-        "N2": 20030428,
+        "N2": 20251215,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "F105"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F0549001",
-            "N2": 20030428,
+            "N2": 20251215,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "F105"
           },
           "BIB": {
             "N1": 11,
@@ -26,7 +26,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Quasi-free processes in 6Li(3He,pa)4He reaction at",
+                "Quasi-free processes in 6Li(3He,palpha)4He reaction at",
                 "low energies"
               ]
             }
@@ -35,11 +35,11 @@
             {
               "pointer": "",
               "coded_information": [
-                "M.ZADRO",
-                "D.MILJANIC",
-                "M.LATTUADA",
-                "F.RIGGI",
-                "C.SPITALERI"
+                "M.Zadro",
+                "D.Miljanic",
+                "M.Lattuada",
+                "F.Riggi",
+                "C.Spitaleri"
               ],
               "free_text": [
                 ""
@@ -50,7 +50,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "3YUGRBZ",
+                "3CRORBZ",
                 "2ITYCAT"
               ],
               "free_text": [
@@ -106,16 +106,18 @@
             {
               "pointer": "",
               "coded_information": [
-                "TELES"
+                "TELES",
+                "SI"
               ],
               "free_text": [
                 " Two outgoing particles were detected in",
-                "coincidence.Protons were detected at backward angles",
-                "in a counter telescope consisting of two silicon detect",
-                "Two movable silicon detectors for alpha-particle detect",
-                "were put at forward angles (15 degree apart) on the oth",
-                "side of the beam direction.They were covered by thin",
-                "Al foils to stop scattered 3He particles"
+                "coincidence. Protons were detected at backward angles",
+                "in a counter telescope consisting of two silicon",
+                "detectors. Two movable silicon detectors for",
+                "alpha-particle detection were put at forward angles",
+                " (15 degree apart) on the other side of the beam",
+                "direction. They were covered by thin Al foils to stop",
+                "scattered 3He particles."
               ]
             }
           ],
@@ -124,8 +126,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The targets were made from 6LiF by evaporation onto thi",
-                "carbon backing"
+                "The targets were made from 6LiF by evaporation onto",
+                "thin carbon backing."
               ]
             }
           ],
@@ -156,7 +158,11 @@
                 }
               },
               "free_text": [
-                ""
+                " Protons from the",
+                "6Li(3He,p0)8Be reaction were monitored by the thick",
+                "detector of the proton counter telescope and the",
+                "experimental data on this reaction (see MONIT-REF) were",
+                "used for normalization purposes."
               ]
             }
           ],
@@ -165,8 +171,8 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "subentry_number": null,
-                "author": "C.R.GOULD+",
+                "subentry_number": "F0001001",
+                "author": "C.R.Gould+",
                 "reference": {
                   "code": "J,NSE,60,477,1976",
                   "field": {
@@ -194,13 +200,13 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR1",
+                "heading": "DATA-ERR",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                " Error from graphic"
+                " No information about source of uncertainty"
               ]
             }
           ],
@@ -213,6 +219,17 @@
               },
               "free_text": [
                 ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251215,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents.",
+                "DATA-ERR1 -> DATA-ERR."
               ]
             }
           ],
@@ -232,12 +249,12 @@
         {
           "SUBENT": {
             "N1": "F0549002",
-            "N2": 20030428,
+            "N2": 20251215,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "F105"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -264,33 +281,42 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "Relative units (No additional information about units.)"
               ]
             }
           ],
-          "ERR-ANALYS": [
+          "ANG-SEC": [
             {
               "pointer": "",
               "coded_information": {
-                "heading": "EN-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
+                "heading": "ANG1",
+                "particle": "P"
               },
               "free_text": [
-                " Digitizing error"
+                ""
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
+                "heading": "ANG2",
+                "particle": "A"
               },
               "free_text": [
-                " Digitizing error"
+                ""
+              ]
+            }
+          ],
+          "EN-SEC": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "E-EXC",
+                "particle": "P"
+              },
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -302,11 +328,38 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.Zadro+",
+                "reference": {
+                  "code": "J,NP/A,474,373,1987",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "474",
+                      "part": null,
+                      "issue": null,
+                      "page": "373"
+                    },
+                    "date": 1987
+                  }
+                }
               },
               "free_text": [
                 " Fig.2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251215,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated. EN-ERR -> E-ERR-DIG;",
+                "DATA-ERR -> ERR-DIG."
               ]
             }
           ],
@@ -326,8 +379,8 @@
             "heading": [
               "EN",
               "ANG1",
-              "EN-ERR",
-              "DATA-ERR"
+              "E-ERR-DIG",
+              "ERR-DIG"
             ],
             "unit": [
               "MEV",
@@ -359,7 +412,7 @@
               "ANG2",
               "E-EXC",
               "DATA",
-              "DATA-ERR1"
+              "DATA-ERR"
             ],
             "unit": [
               "ADEG",
@@ -371,188 +424,188 @@
               [
                 15.0,
                 7.79,
-                0.04669,
+                0.047,
                 null
               ],
               [
                 15.0,
-                7.924,
-                0.06509,
+                7.92,
+                0.065,
                 null
               ],
               [
                 15.0,
-                8.057,
-                0.04598,
+                8.06,
+                0.046,
                 null
               ],
               [
                 15.0,
-                8.204,
-                0.08778,
-                0.03751
+                8.2,
+                0.088,
+                0.037
               ],
               [
                 15.0,
-                8.346,
-                0.06396,
+                8.35,
+                0.064,
                 null
               ],
               [
                 15.0,
-                8.502,
-                0.08699,
-                0.03988
+                8.5,
+                0.087,
+                0.04
               ],
               [
                 15.0,
-                8.626,
+                8.63,
                 0.15,
-                0.04454
+                0.044
               ],
               [
                 15.0,
-                8.768,
-                0.06986,
+                8.77,
+                0.07,
                 null
               ],
               [
                 15.0,
-                8.915,
+                8.91,
                 0.121,
-                0.0375
+                0.037
               ],
               [
                 15.0,
-                9.062,
-                0.1371,
-                0.04219
+                9.06,
+                0.137,
+                0.042
               ],
               [
                 15.0,
-                9.205,
-                0.1695,
-                0.0422
+                9.21,
+                0.17,
+                0.042
               ],
               [
                 15.0,
-                9.347,
+                9.35,
                 0.209,
-                0.04456
+                0.045
               ],
               [
                 15.0,
-                9.525,
-                0.2155,
-                0.03985
+                9.53,
+                0.215,
+                0.04
               ],
               [
                 15.0,
-                9.676,
-                0.1964,
-                0.05393
+                9.68,
+                0.196,
+                0.054
               ],
               [
                 15.0,
                 9.77,
-                0.2571,
-                0.04925
+                0.257,
+                0.049
               ],
               [
                 15.0,
                 9.9,
-                0.4162,
-                0.06329
+                0.416,
+                0.063
               ],
               [
                 15.0,
                 10.06,
-                0.3829,
-                0.04689
+                0.383,
+                0.047
               ],
               [
                 15.0,
                 10.21,
-                0.4458,
-                0.05394
+                0.446,
+                0.054
               ],
               [
                 15.0,
                 10.34,
-                0.3634,
-                0.06799
+                0.363,
+                0.068
               ],
               [
                 15.0,
                 10.49,
-                0.5224,
-                0.07972
+                0.522,
+                0.08
               ],
               [
                 15.0,
                 10.63,
-                0.5361,
-                0.07972
+                0.536,
+                0.08
               ],
               [
                 15.0,
                 10.76,
-                0.5428,
-                0.08676
+                0.543,
+                0.087
               ],
               [
                 15.0,
                 10.91,
-                0.6667,
-                0.08207
+                0.667,
+                0.082
               ],
               [
                 15.0,
                 11.05,
                 0.957,
-                0.09847
+                0.099
               ],
               [
                 15.0,
                 11.19,
                 0.673,
-                0.1008
+                0.101
               ],
               [
                 15.0,
                 11.34,
-                0.6679,
-                0.09847
+                0.668,
+                0.099
               ],
               [
                 15.0,
                 11.48,
-                0.7472,
-                0.1008
+                0.747,
+                0.101
               ],
               [
                 15.0,
                 11.61,
                 1.122,
-                0.1079
+                0.108
               ],
               [
                 15.0,
                 11.77,
                 1.018,
-                0.1149
+                0.115
               ],
               [
                 15.0,
                 11.92,
-                0.8422,
-                0.1032
+                0.842,
+                0.103
               ],
               [
                 15.0,
                 12.06,
-                0.9543,
-                0.1032
+                0.954,
+                0.103
               ],
               [
                 15.0,
@@ -564,49 +617,49 @@
                 15.0,
                 12.34,
                 1.275,
-                0.1266
+                0.127
               ],
               [
                 15.0,
                 12.49,
                 1.45,
-                0.1313
+                0.131
               ],
               [
                 15.0,
                 12.62,
                 1.825,
-                0.1571
+                0.157
               ],
               [
                 15.0,
                 12.76,
                 2.101,
-                0.1571
+                0.157
               ],
               [
                 15.0,
                 12.89,
                 2.066,
-                0.2134
+                0.213
               ],
               [
                 15.0,
                 13.04,
                 2.136,
-                0.1547
+                0.155
               ],
               [
                 15.0,
                 13.2,
                 1.99,
-                0.1219
+                0.122
               ],
               [
                 15.0,
                 13.34,
                 1.931,
-                0.1454
+                0.145
               ],
               [
                 15.0,
@@ -617,115 +670,115 @@
               [
                 15.0,
                 13.78,
-                0.7621,
-                0.1172
+                0.762,
+                0.117
               ],
               [
                 15.0,
                 13.93,
-                0.8555,
-                0.1102
+                0.856,
+                0.11
               ],
               [
                 15.0,
                 14.06,
-                0.5433,
-                0.09614
+                0.543,
+                0.096
               ],
               [
                 15.0,
                 14.21,
-                0.5195,
-                0.09847
+                0.519,
+                0.099
               ],
               [
                 30.0,
-                7.796,
-                0.04728,
+                7.8,
+                0.047,
                 null
               ],
               [
                 30.0,
-                7.943,
-                0.02295,
+                7.94,
+                0.023,
                 null
               ],
               [
                 30.0,
-                8.085,
-                0.02735,
+                8.09,
+                0.027,
                 null
               ],
               [
                 30.0,
-                8.223,
-                0.04372,
+                8.22,
+                0.044,
                 null
               ],
               [
                 30.0,
-                8.361,
-                0.04095,
+                8.36,
+                0.041,
                 null
               ],
               [
                 30.0,
-                8.516,
-                0.04291,
+                8.52,
+                0.043,
                 null
               ],
               [
                 30.0,
-                8.641,
-                0.04257,
+                8.64,
+                0.043,
                 null
               ],
               [
                 30.0,
-                8.797,
-                0.0876,
+                8.8,
+                0.088,
                 null
               ],
               [
                 30.0,
-                8.939,
-                0.0896,
+                8.94,
+                0.09,
                 null
               ],
               [
                 30.0,
-                9.081,
-                0.1275,
-                0.05501
+                9.08,
+                0.128,
+                0.055
               ],
               [
                 30.0,
-                9.237,
-                0.06965,
+                9.24,
+                0.07,
                 null
               ],
               [
                 30.0,
-                9.361,
-                0.06931,
+                9.36,
+                0.069,
                 null
               ],
               [
                 30.0,
-                9.499,
-                0.1335,
-                0.04545
+                9.5,
+                0.134,
+                0.045
               ],
               [
                 30.0,
-                9.646,
-                0.09963,
+                9.65,
+                0.1,
                 null
               ],
               [
                 30.0,
                 9.77,
-                0.08733,
+                0.087,
                 null
               ],
               [
@@ -743,134 +796,134 @@
               [
                 30.0,
                 10.21,
-                0.2464,
-                0.05982
+                0.246,
+                0.06
               ],
               [
                 30.0,
                 10.35,
-                0.2532,
-                0.04544
+                0.253,
+                0.045
               ],
               [
                 30.0,
                 10.5,
-                0.3485,
-                0.05501
+                0.348,
+                0.055
               ],
               [
                 30.0,
                 10.64,
-                0.2548,
-                0.04787
+                0.255,
+                0.048
               ],
               [
                 30.0,
                 10.77,
-                0.2616,
-                0.04783
+                0.262,
+                0.048
               ],
               [
                 30.0,
                 10.92,
-                0.3521,
-                0.04786
+                0.352,
+                0.048
               ],
               [
                 30.0,
                 11.07,
-                0.2154,
-                0.04787
+                0.215,
+                0.048
               ],
               [
                 30.0,
                 11.21,
-                0.2078,
-                0.04544
+                0.208,
+                0.045
               ],
               [
                 30.0,
                 11.36,
-                0.3007,
-                0.06219
+                0.301,
+                0.062
               ],
               [
                 30.0,
                 11.5,
-                0.2835,
-                0.05741
+                0.283,
+                0.057
               ],
               [
                 30.0,
                 11.64,
-                0.3549,
-                0.05263
+                0.355,
+                0.053
               ],
               [
                 30.0,
                 11.8,
-                0.3569,
-                0.05503
+                0.357,
+                0.055
               ],
               [
                 30.0,
                 11.92,
-                0.4833,
-                0.05743
+                0.483,
+                0.057
               ],
               [
                 30.0,
                 12.07,
-                0.5427,
-                0.05264
+                0.543,
+                0.053
               ],
               [
                 30.0,
                 12.2,
-                0.7816,
-                0.06459
+                0.782,
+                0.065
               ],
               [
                 30.0,
                 12.35,
                 0.664,
-                0.07179
+                0.072
               ],
               [
                 30.0,
                 12.5,
-                0.7042,
-                0.07655
+                0.704,
+                0.077
               ],
               [
                 30.0,
                 12.64,
-                0.5555,
-                0.06459
+                0.555,
+                0.065
               ],
               [
                 30.0,
                 12.79,
-                0.5575,
-                0.05983
+                0.557,
+                0.06
               ],
               [
                 30.0,
                 12.94,
                 0.404,
-                0.05263
+                0.053
               ],
               [
                 30.0,
                 13.07,
-                0.2577,
-                0.05025
+                0.258,
+                0.05
               ],
               [
                 30.0,
                 13.22,
-                0.2525,
-                0.04308
+                0.253,
+                0.043
               ]
             ]
           },

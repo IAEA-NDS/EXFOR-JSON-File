@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:58:33+0000",
+  "time_stamp": "2026-05-22T20:26:33+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F0543",
-        "N2": 20030427,
+        "N2": 20251214,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "F105"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F0543001",
-            "N2": 20030427,
+            "N2": 20251214,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "F105"
           },
           "BIB": {
-            "N1": 9,
+            "N1": 10,
             "N2": 0
           },
           "TITLE": [
@@ -35,14 +35,14 @@
             {
               "pointer": "",
               "coded_information": [
-                "T.RAMSOY",
-                "J.REKSTAD",
-                "M.GUTTORMSEN",
-                "A.HENRIQUEZ",
-                "F.INGEBRETSEN",
-                "T.RODLAND",
-                "T.F.THORSTEINSEN",
-                "G.LOVHOIDEN"
+                "T.Ramsoy",
+                "J.Rekstad",
+                "M.Guttormsen",
+                "A.Henriquez",
+                "F.Ingebretsen",
+                "T.Rodland",
+                "T.F.Thorsteinsen",
+                "G.Lovhoiden"
               ],
               "free_text": [
                 ""
@@ -105,34 +105,35 @@
               ]
             }
           ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "EDE"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "DETECTOR": [
             {
               "pointer": "",
               "coded_information": [
-                "TELES"
+                "TELES",
+                "NAICR",
+                "GELI"
               ],
               "free_text": [
-                "The experimental set-up consisted of four",
-                "particle telescopes,two 12.7 cm*12.7 cm NaI(Tl) and",
-                "one Ge(Li) counter.The gamma-ray energy resolution of",
-                "the NaI counters was 7%.The Ge(Li) counter had an",
-                "efficiency of 20% with a resolution of 2.2 keV at",
-                "1.3 MeV.The telescopes were placed at 50 degree with",
-                "respect to the beam direction and had front and end Si",
-                "counters with thicknesses of 150 mu-m and 3000 mu-m,",
-                "respectively."
-              ]
-            }
-          ],
-          "SAMPLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "The dysprosium targets were self-supporting foils",
-                "enriched to 90% and 97% in 161Dy and 163Dy,respectively",
-                "The target thicknesses were 1.0 mg/cm**2 (161Dy) and",
-                "1.7 mg/cm**2 (163Dy)."
+                " The experimental set-up consisted",
+                "of four particle telescopes, two 12.7 cm x 12.7 cm",
+                "NaI(Tl) and one Ge(Li) counter. The gamma-ray energy",
+                "resolution of the NaI counters was 7%. The Ge(Li)",
+                "counter had an efficiency of 20% with a resolution of",
+                "2.2 keV at 1.3 MeV. The telescopes were placed at",
+                "50 degree with respect to the beam direction and had",
+                "front and end Si counters with thicknesses of 150 um",
+                "and 3000 um, respectively."
               ]
             }
           ],
@@ -146,6 +147,36 @@
               ]
             }
           ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "T.Ramsoy+",
+                "reference": {
+                  "code": "J,NP/A,438,301,1985",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "438",
+                      "part": null,
+                      "issue": null,
+                      "page": "301"
+                    },
+                    "date": 1985
+                  }
+                }
+              },
+              "free_text": [
+                " Tbl.1"
+              ]
+            }
+          ],
           "HISTORY": [
             {
               "pointer": "",
@@ -155,6 +186,17 @@
               },
               "free_text": [
                 ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251214,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Corrections in all Subents.",
+                "ANG1 -> ANG."
               ]
             }
           ],
@@ -172,7 +214,7 @@
             ],
             "heading": [
               "EN",
-              "ANG1",
+              "ANG",
               "EN-RSL-FW"
             ],
             "unit": [
@@ -198,32 +240,32 @@
         {
           "SUBENT": {
             "N1": "F0543002",
-            "N2": 20030427,
+            "N2": 20251214,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "F105"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "(66-DY-161(D,T)66-DY-160,PAR,SIG)/(66-DY-161(D,EL)66-DY-161,,DA)",
+                "code": "(66-DY-161(D,T)66-DY-160,PAR,DA)/(66-DY-161(D,EL)66-DY-161,,DA)",
                 "code_unit": [
                   {
-                    "unit": "66-DY-161(D,T)66-DY-160,PAR,SIG",
+                    "unit": "66-DY-161(D,T)66-DY-160,PAR,DA",
                     "field": {
                       "reaction": "66-DY-161(D,T)66-DY-160",
                       "target": "66-DY-161",
                       "projectile": "D",
                       "process": "T",
                       "product": "66-DY-160",
-                      "quantity": "PAR,SIG",
+                      "quantity": "PAR,DA",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "PAR,SIG"
+                      "quantity_236": "PAR,DA"
                     }
                   },
                   {
@@ -260,19 +302,30 @@
               ]
             }
           ],
-          "STATUS": [
+          "SAMPLE": [
             {
               "pointer": "",
               "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
+                "nuclide": "66-DY-161",
+                "field_identifier": "ENR",
+                "value": 0.9
               },
               "free_text": [
-                " Tbl.1"
+                " Self-supporting foil enriched",
+                "to 90% in 161Dy. The target thickness was 1.0 mg/cm2."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251214,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: SF6=SIG -> DA in REACTION code.",
+                "BIB updated."
               ]
             }
           ],
@@ -346,42 +399,42 @@
         {
           "SUBENT": {
             "N1": "F0543003",
-            "N2": 20030427,
+            "N2": 20251214,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "F105"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "(66-DY-162(D,T)66-DY-161,PAR,SIG)/(66-DY-162(D,EL)66-DY-162,,DA)",
+                "code": "(66-DY-163(D,T)66-DY-162,PAR,DA)/(66-DY-163(D,EL)66-DY-163,,DA)",
                 "code_unit": [
                   {
-                    "unit": "66-DY-162(D,T)66-DY-161,PAR,SIG",
+                    "unit": "66-DY-163(D,T)66-DY-162,PAR,DA",
                     "field": {
-                      "reaction": "66-DY-162(D,T)66-DY-161",
-                      "target": "66-DY-162",
+                      "reaction": "66-DY-163(D,T)66-DY-162",
+                      "target": "66-DY-163",
                       "projectile": "D",
                       "process": "T",
-                      "product": "66-DY-161",
-                      "quantity": "PAR,SIG",
+                      "product": "66-DY-162",
+                      "quantity": "PAR,DA",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "PAR,SIG"
+                      "quantity_236": "PAR,DA"
                     }
                   },
                   {
-                    "unit": "66-DY-162(D,EL)66-DY-162,,DA",
+                    "unit": "66-DY-163(D,EL)66-DY-163,,DA",
                     "field": {
-                      "reaction": "66-DY-162(D,EL)66-DY-162",
-                      "target": "66-DY-162",
+                      "reaction": "66-DY-163(D,EL)66-DY-163",
+                      "target": "66-DY-163",
                       "projectile": "D",
                       "process": "EL",
-                      "product": "66-DY-162",
+                      "product": "66-DY-163",
                       "quantity": ",DA",
                       "data_type": null,
                       "general_quantity_modifier": null,
@@ -401,26 +454,38 @@
               "pointer": "",
               "coded_information": {
                 "heading": "E-EXC",
-                "particle": "66-DY-161"
+                "particle": "66-DY-162"
               },
               "free_text": [
                 ""
               ]
             }
           ],
-          "STATUS": [
+          "SAMPLE": [
             {
               "pointer": "",
               "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
+                "nuclide": "66-DY-163",
+                "field_identifier": "ENR",
+                "value": 0.97
               },
               "free_text": [
-                " Tbl.1"
+                " Self-supporting foil enriched to",
+                "97% 163Dy. The target thickness was 1.7 mg/cm2."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251214,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: BIB updated. SF6=SIG -> DA;",
+                "SF1=Dy-162 -> Dy-163; SF4nominator =Dy-161 -> Dy-162;",
+                "SF4denominator=Dy-162 -> Dy-163 in REACTION code."
               ]
             }
           ],

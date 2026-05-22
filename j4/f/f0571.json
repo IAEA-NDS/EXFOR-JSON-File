@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:58:47+0000",
+  "time_stamp": "2026-05-22T20:26:35+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F0571",
-        "N2": 20030429,
+        "N2": 20251215,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "F105"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F0571001",
-            "N2": 20030429,
+            "N2": 20251215,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "F105"
           },
           "BIB": {
-            "N1": 9,
+            "N1": 11,
             "N2": 0
           },
           "TITLE": [
@@ -27,7 +27,7 @@
               "coded_information": null,
               "free_text": [
                 "Angular distribution of proton non-Rutherford elastic",
-                "scattering cross section of carbon and silicon."
+                "scattering cross section of carbon and silicon"
               ]
             }
           ],
@@ -35,7 +35,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "R.SALOMONOVIC"
+                "R.Salomonovic"
               ],
               "free_text": [
                 ""
@@ -94,7 +94,7 @@
               },
               "free_text": [
                 " Measurements were performed at several",
-                "scatering angles: 120-170 degr. with Ep=1.660,1.720,",
+                "scattering angles: 120-170 degr. with Ep=1.660, 1.720,",
                 "1.80 and 2.020 MeV"
               ]
             },
@@ -108,9 +108,9 @@
               },
               "free_text": [
                 " Measurements were performed at several",
-                "scatering angles: 120-160 degr. with Ep=1.80, 2.0",
-                "and 2.150 MeV in the case of silicon. in the case",
-                "of carbon measurements were performed only at 1.80MeV"
+                "scattering angles: 120-160 degr. with Ep=1.80, 2.0",
+                "and 2.150 MeV in the case of silicon. In the case of",
+                "carbon measurements were performed only at 1.80 MeV."
               ]
             }
           ],
@@ -118,12 +118,12 @@
             {
               "pointer": "",
               "coded_information": [
-                "PSSSD"
+                "PS"
               ],
               "free_text": [
-                "(CZRCHU) PIPS detector which could be positioned",
+                " PIPS detector which could be positioned",
                 "to any laboratory scattering angle in the interval",
-                "90-175 degr an error of less than 0.5 degree"
+                "90-175 degr."
               ]
             },
             {
@@ -132,7 +132,36 @@
                 "SIBAR"
               ],
               "free_text": [
-                "(2AUSKUL)"
+                ""
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "I",
+                "subentry_number": null,
+                "author": "M.Geretschlager+",
+                "reference": {
+                  "code": "J,PR/A,45,2842,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/A",
+                      "number": null,
+                      "volume": "45",
+                      "part": null,
+                      "issue": null,
+                      "page": "2842"
+                    },
+                    "date": 1992
+                  }
+                }
+              },
+              "free_text": [
+                " - Details",
+                "of the experimental setup."
               ]
             }
           ],
@@ -140,25 +169,14 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR1",
-                "minimum_value": null,
-                "maximum_value": null,
+                "heading": "DATA-ERR",
+                "minimum_value": 10.0,
+                "maximum_value": 20.0,
                 "correlation_property": null
               },
               "free_text": [
-                " Total error min"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR2",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Total error max"
+                " No information about source of",
+                "uncertainty"
               ]
             }
           ],
@@ -168,7 +186,38 @@
               "coded_information": null,
               "free_text": [
                 "The differences between two experiments (in Prague and",
-                "were les than 3keV (energy shift) and 4% (cross section"
+                "in Linz) were less than 3 keV (energy shift) and",
+                "4% (cross section values)."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "R.Salomonovic",
+                "reference": {
+                  "code": "J,NIM/B,82,1,1993",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "82",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 1993
+                  }
+                }
+              },
+              "free_text": [
+                " Tbl.1"
               ]
             }
           ],
@@ -182,33 +231,24 @@
               "free_text": [
                 ""
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251215,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents.",
+                "DATA-ERR1/ERR2 -> DATA-ERR."
+              ]
             }
           ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "DATA-ERR1",
-              "DATA-ERR2"
-            ],
-            "unit": [
-              "PER-CENT",
-              "PER-CENT"
-            ],
-            "value": [
-              10.0,
-              20.0
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -220,9 +260,9 @@
         {
           "SUBENT": {
             "N1": "F0571002",
-            "N2": 20030429,
+            "N2": 20251215,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "F105"
           },
           "BIB": {
             "N1": 3,
@@ -265,19 +305,15 @@
               ]
             }
           ],
-          "STATUS": [
+          "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
+                "date": 20251215,
+                "history": "U"
               },
               "free_text": [
-                " Tbl.1"
+                " SD: BIB updated."
               ]
             }
           ],
@@ -1587,9 +1623,9 @@
         {
           "SUBENT": {
             "N1": "F0571003",
-            "N2": 20030429,
+            "N2": 20251215,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "F105"
           },
           "BIB": {
             "N1": 3,
@@ -1633,19 +1669,15 @@
               ]
             }
           ],
-          "STATUS": [
+          "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
+                "date": 20251215,
+                "history": "U"
               },
               "free_text": [
-                " Tbl.1"
+                " SD: BIB updated."
               ]
             }
           ],

@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:58:58+0000",
+  "time_stamp": "2026-05-22T20:26:42+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F0580",
-        "N2": 20080702,
+        "N2": 20251215,
         "alteration_flag": " ",
-        "transmission_identification": "F032"
+        "transmission_identification": "F105"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F0580001",
-            "N2": 20080702,
+            "N2": 20251215,
             "alteration_flag": " ",
-            "transmission_identification": "F032"
+            "transmission_identification": "F105"
           },
           "BIB": {
-            "N1": 10,
+            "N1": 11,
             "N2": 0
           },
           "TITLE": [
@@ -26,7 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The 12C(a,g)16O cross section at stellar energies"
+                "The 12C(alpha,gamma)16O cross section at stellar",
+                "energies"
               ]
             }
           ],
@@ -53,7 +54,7 @@
               "pointer": "",
               "coded_information": [
                 "2GERMST",
-                "2GERIFS",
+                "2GERTHS",
                 "1USAOSU"
               ],
               "free_text": [
@@ -98,7 +99,7 @@
                 "facility": [
                   "DYNAM"
                 ],
-                "institute": "2GERIFS"
+                "institute": "2GERTHS"
               },
               "free_text": [
                 " 4MV Dynamitron"
@@ -110,8 +111,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The 12C target were produced by ion implantation into",
-                "gold layer, which had been evaporated onto a 2mm thick",
+                "The 12C targets were produced by ion implantation into",
+                "gold layer, which had been evaporated onto a 2 mm thick",
                 "Cu sheet (2x2 cm2 area)."
               ]
             }
@@ -136,7 +137,8 @@
               "free_text": [
                 " In a second experiment, 6 germanium detectors",
                 "of 12 to 35% efficiency were used.",
-                "In the third experiment,3 germanium detectors were used"
+                "In the third experiment, 3 germanium detectors",
+                "were used."
               ]
             }
           ],
@@ -166,6 +168,17 @@
                   "unit_combination": "(%)"
                 }
               },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "BCINT"
+              ],
               "free_text": [
                 ""
               ]
@@ -205,6 +218,16 @@
               "free_text": [
                 " Reference code was changed. Error",
                 "definition was changed."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251215,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents."
               ]
             }
           ],
@@ -252,12 +275,12 @@
         {
           "SUBENT": {
             "N1": "F0580002",
-            "N2": 20030724,
+            "N2": 20251215,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "F105"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -317,7 +340,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
+                "heading": "ERR-1",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
@@ -336,11 +359,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.Redder+",
+                "reference": {
+                  "code": "J,NP/A,462,385,1987",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "462",
+                      "part": null,
+                      "issue": null,
+                      "page": "385"
+                    },
+                    "date": 1987
+                  }
+                }
               },
               "free_text": [
                 " Tbl.1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251215,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated. DATA-ERR -> ERR-1."
               ]
             }
           ],
@@ -357,7 +406,7 @@
             ],
             "heading": [
               "E-LVL",
-              "DATA-ERR"
+              "ERR-1"
             ],
             "unit": [
               "MEV",
@@ -593,12 +642,12 @@
         {
           "SUBENT": {
             "N1": "F0580003",
-            "N2": 20030724,
+            "N2": 20251215,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "F105"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -629,6 +678,20 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " One standard deviation error."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -637,11 +700,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.Redder+",
+                "reference": {
+                  "code": "J,NP/A,462,385,1987",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "462",
+                      "part": null,
+                      "issue": null,
+                      "page": "385"
+                    },
+                    "date": 1987
+                  }
+                }
               },
               "free_text": [
                 " Tbl.3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251215,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -670,326 +759,379 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 4,
+            "N1": 5,
             "N2": 50,
             "pointer": [
+              "",
               "",
               "",
               "",
               ""
             ],
             "heading": [
-              "EN",
               "E-LVL-INI",
+              "EN",
               "DATA",
-              "DATA-ERR"
+              "DATA-ERR",
+              "DATA-MAX"
             ],
             "unit": [
               "MEV",
               "MEV",
               "MB*MEV",
+              "MB*MEV",
               "MB*MEV"
             ],
             "value": [
               [
-                1.4,
                 6.92,
-                12.0,
-                5.0
-              ],
-              [
                 1.4,
-                7.12,
-                9.0,
+                12.0,
+                5.0,
                 null
               ],
               [
+                6.92,
                 1.71,
-                6.92,
                 11.0,
-                1.4
+                1.4,
+                null
               ],
               [
-                1.71,
-                7.12,
-                6.1,
-                0.9
-              ],
-              [
+                6.92,
                 1.8,
-                6.92,
                 11.0,
-                2.0
+                2.0,
+                null
               ],
               [
-                1.8,
-                7.12,
-                10.0,
-                2.0
-              ],
-              [
-                1.83,
                 6.92,
-                11.0,
-                2.0
-              ],
-              [
                 1.83,
-                7.12,
-                7.3,
-                1.4
+                11.0,
+                2.0,
+                null
               ],
               [
+                6.92,
                 1.92,
-                6.92,
                 14.0,
-                3.0
+                3.0,
+                null
               ],
               [
-                1.92,
-                7.12,
-                10.0,
-                3.0
-              ],
-              [
-                2.02,
                 6.92,
+                2.02,
                 16.0,
-                3.0
+                3.0,
+                null
               ],
               [
-                2.02,
-                7.12,
-                12.0,
-                3.0
-              ],
-              [
-                2.06,
                 6.92,
+                2.06,
                 15.0,
-                2.0
+                2.0,
+                null
               ],
               [
-                2.06,
-                7.12,
-                14.0,
-                3.0
-              ],
-              [
-                2.08,
                 6.92,
+                2.08,
                 13.0,
-                3.0
+                3.0,
+                null
               ],
               [
-                2.08,
-                7.12,
-                16.0,
-                3.0
-              ],
-              [
-                2.12,
                 6.92,
-                15.0,
-                3.0
-              ],
-              [
                 2.12,
-                7.12,
-                17.0,
-                3.0
-              ],
-              [
-                2.17,
-                6.92,
                 15.0,
-                3.0
+                3.0,
+                null
               ],
               [
+                6.92,
                 2.17,
-                7.12,
-                21.0,
-                4.0
+                15.0,
+                3.0,
+                null
               ],
               [
+                6.92,
                 2.22,
-                6.92,
                 12.0,
-                3.0
+                3.0,
+                null
               ],
               [
-                2.22,
-                7.12,
-                17.0,
-                3.0
-              ],
-              [
-                2.25,
                 6.92,
+                2.25,
                 20.0,
-                4.0
+                4.0,
+                null
               ],
               [
-                2.25,
-                7.12,
-                39.0,
-                5.0
-              ],
-              [
-                2.28,
                 6.92,
+                2.28,
                 15.0,
-                4.0
+                4.0,
+                null
               ],
               [
-                2.28,
-                7.12,
-                27.0,
-                4.0
-              ],
-              [
-                2.3,
                 6.92,
+                2.3,
                 17.0,
-                3.0
+                3.0,
+                null
               ],
               [
-                2.3,
-                7.12,
-                39.0,
-                5.0
-              ],
-              [
-                2.35,
                 6.92,
+                2.35,
                 23.0,
-                5.0
+                5.0,
+                null
               ],
               [
-                2.35,
-                7.12,
-                30.0,
-                4.0
-              ],
-              [
-                2.4,
                 6.92,
+                2.4,
                 16.0,
-                3.0
+                3.0,
+                null
               ],
               [
-                2.4,
-                7.12,
-                35.0,
-                5.0
-              ],
-              [
-                2.42,
                 6.92,
+                2.42,
                 17.0,
-                3.0
+                3.0,
+                null
               ],
               [
-                2.42,
-                7.12,
-                27.0,
-                4.0
-              ],
-              [
-                2.45,
                 6.92,
+                2.45,
                 24.0,
-                5.0
+                5.0,
+                null
               ],
               [
-                2.45,
-                7.12,
-                33.0,
-                4.0
-              ],
-              [
-                2.49,
                 6.92,
+                2.49,
                 15.0,
-                2.0
+                2.0,
+                null
               ],
               [
-                2.49,
-                7.12,
-                24.0,
-                3.0
-              ],
-              [
-                2.54,
                 6.92,
+                2.54,
                 18.0,
-                3.0
+                3.0,
+                null
               ],
               [
-                2.54,
-                7.12,
-                27.0,
-                3.0
-              ],
-              [
-                2.57,
                 6.92,
+                2.57,
                 15.0,
-                2.0
+                2.0,
+                null
               ],
               [
-                2.57,
-                7.12,
-                11.0,
-                1.6
-              ],
-              [
-                2.61,
                 6.92,
+                2.61,
                 17.0,
-                3.0
+                3.0,
+                null
               ],
               [
-                2.61,
-                7.12,
-                16.0,
-                2.0
-              ],
-              [
-                2.78,
                 6.92,
-                14.0,
-                2.0
-              ],
-              [
                 2.78,
-                7.12,
-                7.6,
-                1.2
-              ],
-              [
-                2.83,
-                6.92,
                 14.0,
-                1.5
+                2.0,
+                null
               ],
               [
+                6.92,
                 2.83,
-                7.12,
-                4.1,
-                0.8
+                14.0,
+                1.5,
+                null
               ],
               [
+                6.92,
                 2.84,
-                6.92,
                 15.0,
-                2.0
+                2.0,
+                null
               ],
               [
-                2.84,
                 7.12,
+                1.4,
+                null,
+                null,
+                9.0
+              ],
+              [
+                7.12,
+                1.71,
+                6.1,
+                0.9,
+                null
+              ],
+              [
+                7.12,
+                1.8,
+                10.0,
+                2.0,
+                null
+              ],
+              [
+                7.12,
+                1.83,
+                7.3,
+                1.4,
+                null
+              ],
+              [
+                7.12,
+                1.92,
+                10.0,
+                3.0,
+                null
+              ],
+              [
+                7.12,
+                2.02,
+                12.0,
+                3.0,
+                null
+              ],
+              [
+                7.12,
+                2.06,
+                14.0,
+                3.0,
+                null
+              ],
+              [
+                7.12,
+                2.08,
+                16.0,
+                3.0,
+                null
+              ],
+              [
+                7.12,
+                2.12,
+                17.0,
+                3.0,
+                null
+              ],
+              [
+                7.12,
+                2.17,
+                21.0,
+                4.0,
+                null
+              ],
+              [
+                7.12,
+                2.22,
+                17.0,
+                3.0,
+                null
+              ],
+              [
+                7.12,
+                2.25,
+                39.0,
+                5.0,
+                null
+              ],
+              [
+                7.12,
+                2.28,
+                27.0,
+                4.0,
+                null
+              ],
+              [
+                7.12,
+                2.3,
+                39.0,
+                5.0,
+                null
+              ],
+              [
+                7.12,
+                2.35,
+                30.0,
+                4.0,
+                null
+              ],
+              [
+                7.12,
+                2.4,
+                35.0,
+                5.0,
+                null
+              ],
+              [
+                7.12,
+                2.42,
+                27.0,
+                4.0,
+                null
+              ],
+              [
+                7.12,
+                2.45,
+                33.0,
+                4.0,
+                null
+              ],
+              [
+                7.12,
+                2.49,
+                24.0,
+                3.0,
+                null
+              ],
+              [
+                7.12,
+                2.54,
+                27.0,
+                3.0,
+                null
+              ],
+              [
+                7.12,
+                2.57,
+                11.0,
+                1.6,
+                null
+              ],
+              [
+                7.12,
+                2.61,
+                16.0,
+                2.0,
+                null
+              ],
+              [
+                7.12,
+                2.78,
+                7.6,
+                1.2,
+                null
+              ],
+              [
+                7.12,
+                2.83,
+                4.1,
+                0.8,
+                null
+              ],
+              [
+                7.12,
+                2.84,
                 5.1,
-                0.9
+                0.9,
+                null
               ]
             ]
           },

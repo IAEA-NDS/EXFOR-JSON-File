@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:58:59+0000",
+  "time_stamp": "2026-05-22T20:26:43+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F0583",
-        "N2": 20110301,
+        "N2": 20251215,
         "alteration_flag": " ",
-        "transmission_identification": "F040"
+        "transmission_identification": "F105"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F0583001",
-            "N2": 20110301,
+            "N2": 20251215,
             "alteration_flag": " ",
-            "transmission_identification": "F040"
+            "transmission_identification": "F105"
           },
           "BIB": {
             "N1": 10,
@@ -26,8 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Energy dependence of the Be-9(a,t)B-10 reaction to the",
-                " (Ex=1.74; 0+; T=1) state of B-10."
+                "Energy dependence of the Be-9(alpha,t)B-10 reaction to",
+                "the (Ex=1.74; 0+; T=1) state of B-10"
               ]
             }
           ],
@@ -64,10 +64,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "P,A-INS-1988,5,198903",
+                "code": "P,A-INS-1988,5,1989",
                 "code_unit": [
                   {
-                    "unit": "P,A-INS-1988,5,198903",
+                    "unit": "P,A-INS-1988,5,1989",
                     "doi": null,
                     "field": {
                       "reference_type": "P",
@@ -79,7 +79,7 @@
                         "issue": null,
                         "page": "5"
                       },
-                      "date": 198903
+                      "date": 1989
                     }
                   }
                 ],
@@ -109,7 +109,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The 9Be target was a 500 mu-g/cm**2 thick",
+                "The 9Be target was a 500 ug/cm2 thick",
                 "self-supporting foil."
               ]
             }
@@ -118,15 +118,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "TOF"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "TOF",
                 "EDE"
               ],
               "free_text": [
@@ -151,37 +143,13 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "    Data digitizing error"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ANG-ERR-D",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "  Angle digitizing error"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
                 "heading": "DATA-ERR",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                "   Error from the graphic bars"
+                " No information about source of uncertainty"
               ]
             }
           ],
@@ -205,7 +173,18 @@
               "free_text": [
                 " Subentries 002 and 003 were deleted.",
                 "Reaction code in sub 004 was changed. Sub 004 merged",
-                "into sub 005. COMMON section in sub 001 was changed."
+                "with sub 005. COMMON section in sub 001 was changed."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251215,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents.",
+                "Subent 005 deleted (same data as in Subent 004)."
               ]
             }
           ],
@@ -223,18 +202,18 @@
             ],
             "heading": [
               "EN",
-              "ERR-DIG",
-              "ANG-ERR-D"
+              "ANG-ERR-D",
+              "ERR-DIG"
             ],
             "unit": [
               "MEV",
-              "PER-CENT",
-              "ADEG"
+              "ADEG",
+              "PER-CENT"
             ],
             "value": [
               30.0,
-              0.2,
-              0.13
+              0.13,
+              0.2
             ]
           },
           "ENDCOMMON": {
@@ -263,12 +242,12 @@
         {
           "SUBENT": {
             "N1": "F0583004",
-            "N2": 20110301,
+            "N2": 20251215,
             "alteration_flag": " ",
-            "transmission_identification": "F040"
+            "transmission_identification": "F105"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -307,11 +286,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "T.Hasegawa+",
+                "reference": {
+                  "code": "P,A-INS-1988,5,1989",
+                  "field": {
+                    "reference_type": "P",
+                    "reference": {
+                      "code": "A-INS-",
+                      "number": "1988",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "5"
+                    },
+                    "date": 1989
+                  }
+                }
               },
               "free_text": [
-                "Fig.2"
+                " Fig.2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251215,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -347,253 +352,253 @@
             "value": [
               [
                 0.0,
-                7.6922,
-                0.38681,
+                7.69,
+                0.3868,
                 null
               ],
               [
                 0.0,
-                8.999,
-                0.40527,
+                9.0,
+                0.4053,
                 null
               ],
               [
                 0.0,
-                11.389,
-                0.41769,
+                11.39,
+                0.4177,
                 null
               ],
               [
                 0.0,
-                15.512,
-                0.42331,
+                15.51,
+                0.4233,
                 null
               ],
               [
                 0.0,
-                23.511,
-                0.33239,
+                23.51,
+                0.3324,
                 null
               ],
               [
                 0.0,
-                31.921,
-                0.21248,
+                31.92,
+                0.2125,
                 null
               ],
               [
                 0.0,
-                39.703,
-                0.16686,
+                39.7,
+                0.1669,
                 null
               ],
               [
                 0.0,
-                47.512,
-                0.16609,
+                47.51,
+                0.1661,
                 null
               ],
               [
                 0.0,
-                55.111,
-                0.17613,
+                55.11,
+                0.1761,
                 null
               ],
               [
                 0.0,
-                62.913,
-                0.16458,
+                62.91,
+                0.1646,
                 null
               ],
               [
                 0.0,
-                70.244,
-                0.11039,
+                70.24,
+                0.1104,
                 null
               ],
               [
                 0.0,
-                77.805,
-                0.084002,
+                77.81,
+                0.084,
                 null
               ],
               [
                 0.0,
-                91.714,
+                91.71,
                 0.1056,
                 null
               ],
               [
                 0.0,
                 104.95,
-                0.11161,
+                0.1116,
                 null
               ],
               [
                 1.74,
-                7.852,
-                0.033395,
-                0.0020455
+                7.85,
+                0.0334,
+                0.002046
               ],
               [
                 1.74,
-                10.002,
+                10.0,
                 0.02803,
-                0.0017203
+                0.00172
               ],
               [
                 1.74,
-                12.135,
-                0.020409,
-                0.0021371
+                12.13,
+                0.02041,
+                0.002137
               ],
               [
                 1.74,
-                16.428,
-                0.013498,
-                0.00062495
+                16.43,
+                0.0135,
+                0.0006249
               ],
               [
                 1.74,
                 24.98,
-                0.0044427,
-                0.00046522
+                0.004443,
+                0.0004652
               ],
               [
                 1.74,
-                33.609,
-                0.0028849,
-                0.00030209
+                33.61,
+                0.002885,
+                0.0003021
               ],
               [
                 1.74,
-                41.838,
-                0.0025299,
+                41.84,
+                0.00253,
                 0.0002652
               ],
               [
                 1.74,
-                50.301,
+                50.3,
                 0.002598,
-                0.00027175
+                0.0002718
               ],
               [
                 1.74,
-                58.277,
-                0.0016612,
+                58.28,
+                0.001661,
                 0.0002204
               ],
               [
                 1.74,
-                58.288,
-                0.0018264,
-                0.00016499
+                58.29,
+                0.001826,
+                0.000165
               ],
               [
                 1.74,
-                62.395,
-                0.0016056,
-                0.00031865
+                62.4,
+                0.001606,
+                0.0003187
               ],
               [
                 1.74,
                 66.31,
-                0.0017612,
-                0.00010766
+                0.001761,
+                0.0001077
               ],
               [
                 1.74,
-                66.516,
-                0.0016016,
-                0.00014506
+                66.52,
+                0.001602,
+                0.0001451
               ],
               [
                 1.74,
-                74.373,
-                0.0024426,
-                0.00029005
+                74.37,
+                0.002443,
+                0.00029
               ],
               [
                 1.74,
-                82.169,
-                0.0021767,
-                0.00019689
+                82.17,
+                0.002177,
+                0.0001969
               ],
               [
                 2.15,
-                7.9316,
-                0.067998,
+                7.93,
+                0.068,
                 null
               ],
               [
                 2.15,
-                9.8838,
-                0.067919,
+                9.88,
+                0.06792,
                 null
               ],
               [
                 2.15,
-                12.259,
-                0.061688,
-                0.0073255
+                12.26,
+                0.06169,
+                0.007326
               ],
               [
                 2.15,
-                16.574,
-                0.050104,
+                16.57,
+                0.0501,
                 null
               ],
               [
                 2.15,
-                25.203,
-                0.032534,
+                25.2,
+                0.03253,
                 null
               ],
               [
                 2.15,
-                33.827,
-                0.020148,
+                33.83,
+                0.02015,
                 null
               ],
               [
                 2.15,
-                42.306,
-                0.023852,
+                42.31,
+                0.02385,
                 null
               ],
               [
                 2.15,
-                51.021,
-                0.033595,
+                51.02,
+                0.03359,
                 null
               ],
               [
                 2.15,
-                59.234,
-                0.025555,
+                59.23,
+                0.02556,
                 null
               ],
               [
                 2.15,
-                63.566,
+                63.57,
                 0.02431,
                 null
               ],
               [
                 2.15,
-                67.476,
-                0.025431,
+                67.48,
+                0.02543,
                 null
               ],
               [
                 2.15,
-                75.698,
-                0.020935,
+                75.7,
+                0.02093,
                 null
               ],
               [
                 2.15,
-                83.503,
+                83.5,
                 0.02019,
                 null
               ]
@@ -609,313 +614,10 @@
           }
         },
         {
-          "SUBENT": {
+          "NOSUBENT": {
             "N1": "F0583005",
-            "N2": 20050408,
-            "alteration_flag": " ",
-            "transmission_identification": "F020"
-          },
-          "BIB": {
-            "N1": 3,
-            "N2": 0
-          },
-          "REACTION": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "4-BE-9(A,T)5-B-10,PAR,DA",
-                "code_unit": [
-                  {
-                    "unit": "4-BE-9(A,T)5-B-10,PAR,DA",
-                    "field": {
-                      "reaction": "4-BE-9(A,T)5-B-10",
-                      "target": "4-BE-9",
-                      "projectile": "A",
-                      "process": "T",
-                      "product": "5-B-10",
-                      "quantity": "PAR,DA",
-                      "data_type": null,
-                      "general_quantity_modifier": null,
-                      "quantity_236": "PAR,DA"
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ANG-ERR-D",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "Digitizing error"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "Error from the graphic bars"
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "CURVE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                "Fig.2"
-              ]
-            }
-          ],
-          "ENDBIB": {
-            "N1": 0,
-            "N2": 0
-          },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "EN",
-              "ANG-ERR-D"
-            ],
-            "unit": [
-              "MEV",
-              "ADEG"
-            ],
-            "value": [
-              30.0,
-              0.13
-            ]
-          },
-          "ENDCOMMON": {
-            "N1": 0,
-            "N2": 0
-          },
-          "DATA": {
-            "N1": 4,
-            "N2": 28,
-            "pointer": [
-              "",
-              "",
-              "",
-              ""
-            ],
-            "heading": [
-              "E-LVL",
-              "ANG-CM",
-              "DATA-CM",
-              "DATA-ERR"
-            ],
-            "unit": [
-              "MEV",
-              "ADEG",
-              "MB/SR",
-              "MB/SR"
-            ],
-            "value": [
-              [
-                1.74,
-                7.852,
-                0.033395,
-                0.0020455
-              ],
-              [
-                1.74,
-                10.002,
-                0.02803,
-                0.0017203
-              ],
-              [
-                1.74,
-                12.135,
-                0.020409,
-                0.0021371
-              ],
-              [
-                1.74,
-                16.428,
-                0.013498,
-                0.00062495
-              ],
-              [
-                1.74,
-                24.98,
-                0.0044427,
-                0.00046522
-              ],
-              [
-                1.74,
-                33.609,
-                0.0028849,
-                0.00030209
-              ],
-              [
-                1.74,
-                41.838,
-                0.0025299,
-                0.0002652
-              ],
-              [
-                1.74,
-                50.301,
-                0.002598,
-                0.00027175
-              ],
-              [
-                1.74,
-                58.277,
-                0.0016612,
-                0.0002204
-              ],
-              [
-                1.74,
-                58.288,
-                0.0018264,
-                0.00016499
-              ],
-              [
-                1.74,
-                62.395,
-                0.0016056,
-                0.00031865
-              ],
-              [
-                1.74,
-                66.31,
-                0.0017612,
-                0.00010766
-              ],
-              [
-                1.74,
-                66.516,
-                0.0016016,
-                0.00014506
-              ],
-              [
-                1.74,
-                74.373,
-                0.0024426,
-                0.00029005
-              ],
-              [
-                1.74,
-                82.169,
-                0.0021767,
-                0.00019689
-              ],
-              [
-                2.15,
-                7.9316,
-                0.067998,
-                null
-              ],
-              [
-                2.15,
-                9.8838,
-                0.067919,
-                null
-              ],
-              [
-                2.15,
-                12.259,
-                0.061688,
-                0.0073255
-              ],
-              [
-                2.15,
-                16.574,
-                0.050104,
-                null
-              ],
-              [
-                2.15,
-                25.203,
-                0.032534,
-                null
-              ],
-              [
-                2.15,
-                33.827,
-                0.020148,
-                null
-              ],
-              [
-                2.15,
-                42.306,
-                0.023852,
-                null
-              ],
-              [
-                2.15,
-                51.021,
-                0.033595,
-                null
-              ],
-              [
-                2.15,
-                59.234,
-                0.025555,
-                null
-              ],
-              [
-                2.15,
-                63.566,
-                0.02431,
-                null
-              ],
-              [
-                2.15,
-                67.476,
-                0.025431,
-                null
-              ],
-              [
-                2.15,
-                75.698,
-                0.020935,
-                null
-              ],
-              [
-                2.15,
-                83.503,
-                0.02019,
-                null
-              ]
-            ]
-          },
-          "ENDDATA": {
-            "N1": 0,
-            "N2": 0
-          },
-          "ENDSUBENT": {
-            "N1": 0,
-            "N2": 0
+            "N2": 20251215,
+            "transmission_identification": "F105"
           }
         }
       ],

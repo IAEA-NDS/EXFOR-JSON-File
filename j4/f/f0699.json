@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:00:06+0000",
+  "time_stamp": "2026-05-22T20:26:50+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F0699",
-        "N2": 20050415,
+        "N2": 20251222,
         "alteration_flag": " ",
-        "transmission_identification": "F021"
+        "transmission_identification": "F105"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F0699001",
-            "N2": 20050415,
+            "N2": 20251222,
             "alteration_flag": " ",
-            "transmission_identification": "F021"
+            "transmission_identification": "F105"
           },
           "BIB": {
             "N1": 10,
@@ -27,8 +27,8 @@
               "coded_information": null,
               "free_text": [
                 "Polarization measurement of fast neutrons from the",
-                "9Be(a,n)12C and the 13C(a,n)16O reaction using a",
-                "high-pressure 4He-polarimeter in a new design."
+                "9Be(alpha,n)12C and the 13C(alpha,n)16O reaction using",
+                "a high-pressure 4He-polarimeter in a new design"
               ]
             }
           ],
@@ -51,7 +51,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "2GERIFS"
+                "2GERTHS"
               ],
               "free_text": [
                 ""
@@ -95,10 +95,22 @@
                 "facility": [
                   "DYNAM"
                 ],
-                "institute": null
+                "institute": "2GERTHS"
               },
               "free_text": [
-                " Stuttgart neutron scattering facility SCORPION."
+                " Stuttgart facility SCORPION."
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Gas pressure: maximum 180 bar; test pressure: 250 bar;",
+                "gas mixture: 95% helium-4, 5% xenon;",
+                "volume: 120 ml ~ 1.8 g 4He at 170 bar;",
+                "inner cell diameter: 46 mm."
               ]
             }
           ],
@@ -123,20 +135,12 @@
             {
               "pointer": "",
               "coded_information": [
-                "TOF"
+                "TOF",
+                "DSCAT",
+                "LRASY"
               ],
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "COMMENT": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "All measurements were performed using high-pressure",
-                " 4He polarimeters."
               ]
             }
           ],
@@ -150,12 +154,10 @@
                 "correlation_property": null
               },
               "free_text": [
-                "  Definition error",
-                "Energetic resolution varied between 12% (13C, 5.4 MeV)",
-                "and 10% (9Be, 8.5 MeV).",
+                " No information about source of uncertainty",
                 "The errors of the present experiment could be kept",
                 "small because of the use of the SCORPION facility",
-                "favouring small systematic errors and the fourfold",
+                "favoring small systematic errors and the fourfold",
                 "redundant measurement."
               ]
             }
@@ -170,13 +172,40 @@
               "free_text": [
                 ""
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251222,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Corrections in all Subents.",
+                "Subents 004 and 005 were merged."
+              ]
             }
           ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "EN-RSL"
+            ],
+            "unit": [
+              "MEV"
+            ],
+            "value": [
+              0.07
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -188,12 +217,12 @@
         {
           "SUBENT": {
             "N1": "F0699002",
-            "N2": 20050415,
+            "N2": 20251222,
             "alteration_flag": " ",
-            "transmission_identification": "F021"
+            "transmission_identification": "F105"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -232,11 +261,38 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "W.Weiss+",
+                "reference": {
+                  "code": "J,NIM/A,292,359,1990",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/A",
+                      "number": null,
+                      "volume": "292",
+                      "part": null,
+                      "issue": null,
+                      "page": "359"
+                    },
+                    "date": 1990
+                  }
+                }
               },
               "free_text": [
-                "Table 1"
+                " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251222,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: BIB updated. The accuracy of data",
+                "presentation has been revised according to the table."
               ]
             }
           ],
@@ -322,12 +378,12 @@
         {
           "SUBENT": {
             "N1": "F0699003",
-            "N2": 20050415,
+            "N2": 20251222,
             "alteration_flag": " ",
-            "transmission_identification": "F021"
+            "transmission_identification": "F105"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -366,11 +422,38 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "W.Weiss+",
+                "reference": {
+                  "code": "J,NIM/A,292,359,1990",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/A",
+                      "number": null,
+                      "volume": "292",
+                      "part": null,
+                      "issue": null,
+                      "page": "359"
+                    },
+                    "date": 1990
+                  }
+                }
               },
               "free_text": [
-                "Table 2"
+                " Table 2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251222,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: BIB updated. The accuracy of data",
+                "presentation has been revised according to the table."
               ]
             }
           ],
@@ -478,12 +561,12 @@
         {
           "SUBENT": {
             "N1": "F0699004",
-            "N2": 20050415,
+            "N2": 20251222,
             "alteration_flag": " ",
-            "transmission_identification": "F021"
+            "transmission_identification": "F105"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -522,11 +605,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "W.Weiss+",
+                "reference": {
+                  "code": "J,NIM/A,292,359,1990",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/A",
+                      "number": null,
+                      "volume": "292",
+                      "part": null,
+                      "issue": null,
+                      "page": "359"
+                    },
+                    "date": 1990
+                  }
+                }
               },
               "free_text": [
-                "Table 3"
+                " Table 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251222,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: BIB updated. The accuracy of data",
+                "presentation has been revised according to the table.",
+                "Data from Subent 005 were added."
               ]
             }
           ],
@@ -534,240 +645,136 @@
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 1,
-            "N2": 0,
-            "pointer": [
-              ""
-            ],
-            "heading": [
-              "EN"
-            ],
-            "unit": [
-              "MEV"
-            ],
-            "value": [
-              2.406
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
           "DATA": {
-            "N1": 3,
-            "N2": 8,
+            "N1": 4,
+            "N2": 18,
             "pointer": [
+              "",
               "",
               "",
               ""
             ],
             "heading": [
+              "EN",
               "ANG",
               "DATA",
               "DATA-ERR"
             ],
             "unit": [
+              "MEV",
               "ADEG",
               "NO-DIM",
               "NO-DIM"
             ],
             "value": [
               [
+                2.406,
                 0.0,
                 0.0,
                 0.038
               ],
               [
+                2.406,
                 10.94,
                 0.003,
                 0.028
               ],
               [
+                2.406,
                 27.28,
                 0.068,
                 0.027
               ],
               [
+                2.406,
                 43.47,
                 0.08,
                 0.028
               ],
               [
+                2.406,
                 54.14,
                 0.055,
                 0.04
               ],
               [
+                2.406,
                 59.42,
                 -0.161,
                 0.047
               ],
               [
+                2.406,
                 68.85,
                 -0.349,
                 0.079
               ],
               [
+                2.406,
                 75.08,
                 -0.413,
                 0.047
-              ]
-            ]
-          },
-          "ENDDATA": {
-            "N1": 0,
-            "N2": 0
-          },
-          "ENDSUBENT": {
-            "N1": 0,
-            "N2": 0
-          }
-        },
-        {
-          "SUBENT": {
-            "N1": "F0699005",
-            "N2": 20050415,
-            "alteration_flag": " ",
-            "transmission_identification": "F021"
-          },
-          "BIB": {
-            "N1": 2,
-            "N2": 0
-          },
-          "REACTION": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "6-C-13(A,N)8-O-16,,POL/DA",
-                "code_unit": [
-                  {
-                    "unit": "6-C-13(A,N)8-O-16,,POL/DA",
-                    "field": {
-                      "reaction": "6-C-13(A,N)8-O-16",
-                      "target": "6-C-13",
-                      "projectile": "A",
-                      "process": "N",
-                      "product": "8-O-16",
-                      "quantity": ",POL/DA",
-                      "data_type": null,
-                      "general_quantity_modifier": null,
-                      "quantity_236": ",POL/DA"
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                "Table 4"
-              ]
-            }
-          ],
-          "ENDBIB": {
-            "N1": 0,
-            "N2": 0
-          },
-          "COMMON": {
-            "N1": 1,
-            "N2": 0,
-            "pointer": [
-              ""
-            ],
-            "heading": [
-              "EN"
-            ],
-            "unit": [
-              "MEV"
-            ],
-            "value": [
-              3.308
-            ]
-          },
-          "ENDCOMMON": {
-            "N1": 0,
-            "N2": 0
-          },
-          "DATA": {
-            "N1": 3,
-            "N2": 10,
-            "pointer": [
-              "",
-              "",
-              ""
-            ],
-            "heading": [
-              "ANG",
-              "DATA",
-              "DATA-ERR"
-            ],
-            "unit": [
-              "ADEG",
-              "NO-DIM",
-              "NO-DIM"
-            ],
-            "value": [
+              ],
               [
+                3.308,
                 0.0,
                 0.0,
                 0.034
               ],
               [
+                3.308,
                 11.02,
                 -0.115,
                 0.027
               ],
               [
+                3.308,
                 22.0,
                 -0.169,
                 0.025
               ],
               [
+                3.308,
                 27.47,
                 -0.167,
                 0.044
               ],
               [
+                3.308,
                 35.1,
                 -0.145,
                 0.023
               ],
               [
+                3.308,
                 43.76,
                 -0.013,
                 0.027
               ],
               [
+                3.308,
                 51.28,
                 0.151,
                 0.024
               ],
               [
+                3.308,
                 59.8,
                 0.165,
                 0.03
               ],
               [
+                3.308,
                 67.17,
                 0.103,
                 0.034
               ],
               [
+                3.308,
                 75.51,
                 -0.161,
                 0.026
@@ -781,6 +788,13 @@
           "ENDSUBENT": {
             "N1": 0,
             "N2": 0
+          }
+        },
+        {
+          "NOSUBENT": {
+            "N1": "F0699005",
+            "N2": 20251222,
+            "transmission_identification": "F105"
           }
         }
       ],
