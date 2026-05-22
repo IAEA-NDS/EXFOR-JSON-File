@@ -1,67 +1,33 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:16:53+0000",
+  "time_stamp": "2026-05-22T21:36:45+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A1186",
-        "N2": 20160219,
+        "N2": 20260225,
         "alteration_flag": " ",
-        "transmission_identification": "A084"
+        "transmission_identification": "A133"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A1186001",
-            "N2": 20160219,
+            "N2": 20260225,
             "alteration_flag": " ",
-            "transmission_identification": "A084"
+            "transmission_identification": "A133"
           },
           "BIB": {
             "N1": 12,
             "N2": 0
           },
-          "INSTITUTE": [
+          "TITLE": [
             {
               "pointer": "",
-              "coded_information": [
-                "1CANSAS",
-                "1USATNL",
-                "1USAFLA",
-                "1USADKE"
-              ],
+              "coded_information": null,
               "free_text": [
-                ""
-              ]
-            }
-          ],
-          "REFERENCE": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "J,PR/C,19,(3),601,197903",
-                "code_unit": [
-                  {
-                    "unit": "J,PR/C,19,(3),601,197903",
-                    "doi": "10.1103/PhysRevC.19.601",
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "PR/C",
-                        "number": null,
-                        "volume": "19",
-                        "part": null,
-                        "issue": "3",
-                        "page": "601"
-                      },
-                      "date": 197903
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
+                "2H(p,gamma)3He reaction using polarized and",
+                "unpolarized protons"
               ]
             }
           ],
@@ -79,13 +45,76 @@
               ]
             }
           ],
-          "TITLE": [
+          "REFERENCE": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "code": "J,PR/C,19,601,1979",
+                "code_unit": [
+                  {
+                    "unit": "J,PR/C,19,601,1979",
+                    "doi": "10.1103/PhysRevC.19.601",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "PR/C",
+                        "number": null,
+                        "volume": "19",
+                        "part": null,
+                        "issue": null,
+                        "page": "601"
+                      },
+                      "date": 1979
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
               "free_text": [
-                "2H(p,gamma)3He reaction using polarized and",
-                "unpolarized protons"
+                ""
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "O",
+                "subentry_number": "L0210001",
+                "author": "D.M.Skopik+",
+                "reference": {
+                  "code": "J,PR/C,19,601,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "19",
+                      "part": null,
+                      "issue": null,
+                      "page": "601"
+                    },
+                    "date": 1979
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "                      - 2H(gamma,p) data compilation"
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "1CANSAS",
+                "1USATNL",
+                "1USAFLA",
+                "1USADKE"
+              ],
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -144,7 +173,7 @@
           ],
           "MONITOR": [
             {
-              "pointer": "1",
+              "pointer": "",
               "coded_information": {
                 "heading": null,
                 "reaction": {
@@ -169,14 +198,11 @@
                 }
               },
               "free_text": [
-                "",
-                "The 12C(p,gamma)N13 was used at Eg=15.07 MeV (0.833+-",
-                "0.22**10**-19) photons/incident proton to determine the",
-                "efficiency of the spectrometer to be 0.17+-0.012"
+                ""
               ]
             },
             {
-              "pointer": "2",
+              "pointer": "",
               "coded_information": {
                 "heading": null,
                 "reaction": {
@@ -221,30 +247,13 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
+                "heading": "ERR-2",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
                 " Absolute error"
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "COREL"
-                ],
-                "subentry_number": "L0210001",
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " (gamma,p) data compilation from this",
-                "article (PR/C,19,(3),601,1979)"
               ]
             }
           ],
@@ -278,6 +287,17 @@
               "free_text": [
                 " SD: Subents 002,003 deleted ((gamma,p) data",
                 "sets. For area L compilation). Subents 004-005 added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260225,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Corrections in all Subents.",
+                "DATA-ERR -> ERR-2. STATUS -> REL-REF in Subent 001."
               ]
             }
           ],
@@ -327,9 +347,9 @@
         {
           "SUBENT": {
             "N1": "A1186004",
-            "N2": 20160219,
+            "N2": 20260225,
             "alteration_flag": " ",
-            "transmission_identification": "A084"
+            "transmission_identification": "A133"
           },
           "BIB": {
             "N1": 3,
@@ -371,11 +391,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "D.M.Skopik+",
+                "reference": {
+                  "code": "J,PR/C,19,601,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "19",
+                      "part": null,
+                      "issue": null,
+                      "page": "601"
+                    },
+                    "date": 1979
+                  }
+                }
               },
               "free_text": [
-                " fig.4-6 (upper) from PR/C,19,(3),601,1979"
+                " figs 4-6"
               ]
             }
           ],
@@ -388,6 +422,16 @@
               },
               "free_text": [
                 " SD"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260225,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: DATA-ERR -> ERR-2. STATUS updated."
               ]
             }
           ],
@@ -432,7 +476,7 @@
               "EN",
               "ANG-CM",
               "DATA-CM",
-              "DATA-ERR"
+              "ERR-2"
             ],
             "unit": [
               "MEV",
@@ -665,9 +709,9 @@
         {
           "SUBENT": {
             "N1": "A1186005",
-            "N2": 20160219,
+            "N2": 20260225,
             "alteration_flag": " ",
-            "transmission_identification": "A084"
+            "transmission_identification": "A133"
           },
           "BIB": {
             "N1": 3,
@@ -723,11 +767,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "D.M.Skopik+",
+                "reference": {
+                  "code": "J,PR/C,19,601,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "19",
+                      "part": null,
+                      "issue": null,
+                      "page": "601"
+                    },
+                    "date": 1979
+                  }
+                }
               },
               "free_text": [
-                " fig.4-6 (bottom) from PR/C,19,(3),601,1979"
+                " figs 4-6"
               ]
             }
           ],
@@ -740,6 +798,16 @@
               },
               "free_text": [
                 " SD"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260225,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: DATA-ERR -> ERR-2. STATUS updated."
               ]
             }
           ],
@@ -784,7 +852,7 @@
               "EN",
               "ANG-CM",
               "DATA-CM",
-              "DATA-ERR"
+              "ERR-2"
             ],
             "unit": [
               "MEV",

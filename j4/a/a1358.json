@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:18:08+0000",
+  "time_stamp": "2026-05-22T21:36:48+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A1358",
-        "N2": 20210624,
+        "N2": 20260218,
         "alteration_flag": " ",
-        "transmission_identification": "A098"
+        "transmission_identification": "A133"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A1358001",
-            "N2": 20210624,
+            "N2": 20260218,
             "alteration_flag": " ",
-            "transmission_identification": "A098"
+            "transmission_identification": "A133"
           },
           "BIB": {
             "N1": 9,
@@ -125,36 +125,17 @@
               ]
             }
           ],
-          "MONITOR": [
+          "ERR-ANALYS": [
             {
               "pointer": "",
               "coded_information": {
-                "heading": null,
-                "reaction": {
-                  "code": "3-LI-6(D,A)2-HE-4,,DA,,REL",
-                  "code_unit": [
-                    {
-                      "unit": "3-LI-6(D,A)2-HE-4,,DA,,REL",
-                      "field": {
-                        "reaction": "3-LI-6(D,A)2-HE-4",
-                        "target": "3-LI-6",
-                        "projectile": "D",
-                        "process": "A",
-                        "product": "2-HE-4",
-                        "quantity": ",DA",
-                        "data_type": null,
-                        "general_quantity_modifier": "REL",
-                        "quantity_236": ",DA"
-                      }
-                    }
-                  ],
-                  "unit_combination": "(%)"
-                }
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
               },
               "free_text": [
-                "",
-                "Normalized to the data of N.P. Heydenburg (Data set",
-                " A1363) and J.M. Jeronimo (Data set A1357)"
+                " No information about source of uncertainty."
               ]
             }
           ],
@@ -188,6 +169,17 @@
               "free_text": [
                 " SD: Corrections in all Subents."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260218,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Corrections in all Subents. MONITOR",
+                "moved to Subent 003."
+              ]
             }
           ],
           "ENDBIB": {
@@ -206,12 +198,12 @@
         {
           "SUBENT": {
             "N1": "A1358002",
-            "N2": 20210624,
+            "N2": 20260218,
             "alteration_flag": " ",
-            "transmission_identification": "A098"
+            "transmission_identification": "A133"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -243,20 +235,6 @@
               ]
             }
           ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " No information about source of uncertainty."
-              ]
-            }
-          ],
           "STATUS": [
             {
               "pointer": "",
@@ -265,11 +243,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "G.S.Mani+",
+                "reference": {
+                  "code": "J,PPS,85,281,1965",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PPS",
+                      "number": null,
+                      "volume": "85",
+                      "part": null,
+                      "issue": null,
+                      "page": "281"
+                    },
+                    "date": 1965
+                  }
+                }
               },
               "free_text": [
-                " Fig 1 from Proc.Phys.Soc.(London),85(1965)281"
+                " Fig 1"
               ]
             }
           ],
@@ -284,6 +276,16 @@
                 " SD: SF9=EXP deleted from REACTION code.",
                 "Accuracy of digitized data presentation revised.",
                 "STATUS, ERR-ANALYS updated. EN-ERR -> EN-ERR-DIG."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260218,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -503,9 +505,9 @@
         {
           "SUBENT": {
             "N1": "A1358003",
-            "N2": 20210624,
+            "N2": 20260218,
             "alteration_flag": " ",
-            "transmission_identification": "A098"
+            "transmission_identification": "A133"
           },
           "BIB": {
             "N1": 4,
@@ -539,17 +541,36 @@
               ]
             }
           ],
-          "ERR-ANALYS": [
+          "MONITOR": [
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
+                "heading": null,
+                "reaction": {
+                  "code": "3-LI-6(D,A)2-HE-4,,DA",
+                  "code_unit": [
+                    {
+                      "unit": "3-LI-6(D,A)2-HE-4,,DA",
+                      "field": {
+                        "reaction": "3-LI-6(D,A)2-HE-4",
+                        "target": "3-LI-6",
+                        "projectile": "D",
+                        "process": "A",
+                        "product": "2-HE-4",
+                        "quantity": ",DA",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",DA"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
               },
               "free_text": [
-                " No information about source of uncertainty."
+                "",
+                "Normalized to the data of N.P. Heydenburg (Data set",
+                " A1363) and J.M. Jeronimo (Data set A1357)"
               ]
             }
           ],
@@ -561,11 +582,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "G.S.Mani+",
+                "reference": {
+                  "code": "J,PPS,85,281,1965",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PPS",
+                      "number": null,
+                      "volume": "85",
+                      "part": null,
+                      "issue": null,
+                      "page": "281"
+                    },
+                    "date": 1965
+                  }
+                }
               },
               "free_text": [
-                " Fig 2 from Proc.Phys.Soc.(London),85(1965)281"
+                " Fig 2"
               ]
             }
           ],
@@ -580,6 +615,16 @@
                 " SD: SF9=EXP deleted from REACTION code.",
                 "Accuracy of digitized data presentation revised.",
                 "STATUS, ERR-ANALYS updated. EN-ERR -> EN-ERR-DIG."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260218,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated. MONITOR added."
               ]
             }
           ],
@@ -690,12 +735,12 @@
         {
           "SUBENT": {
             "N1": "A1358004",
-            "N2": 20210624,
+            "N2": 20260218,
             "alteration_flag": " ",
-            "transmission_identification": "A098"
+            "transmission_identification": "A133"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -726,20 +771,6 @@
               ]
             }
           ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " No information about source of uncertainty."
-              ]
-            }
-          ],
           "STATUS": [
             {
               "pointer": "",
@@ -748,11 +779,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "G.S.Mani+",
+                "reference": {
+                  "code": "J,PPS,85,281,1965",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PPS",
+                      "number": null,
+                      "volume": "85",
+                      "part": null,
+                      "issue": null,
+                      "page": "281"
+                    },
+                    "date": 1965
+                  }
+                }
               },
               "free_text": [
-                " Fig 3 from Proc.Phys.Soc.(London),85(1965)281"
+                " Fig 3"
               ]
             },
             {
@@ -782,6 +827,16 @@
                 "deleted from REACTION code. Accuracy of digitized",
                 "data presentation revised. STATUS, ERR-ANALYS",
                 "updated. EN-ERR -> EN-ERR-DIG."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260218,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: STATUS updated. NUMBER-CM -> NUMBER."
               ]
             }
           ],
@@ -819,7 +874,7 @@
               ""
             ],
             "heading": [
-              "NUMBER-CM",
+              "NUMBER",
               "EN",
               "DATA-CM",
               "DATA-ERR"

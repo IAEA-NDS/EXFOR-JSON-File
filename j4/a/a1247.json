@@ -1,31 +1,41 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:17:22+0000",
+  "time_stamp": "2026-05-22T21:36:46+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A1247",
-        "N2": 20110817,
+        "N2": 20260217,
         "alteration_flag": " ",
-        "transmission_identification": "A074"
+        "transmission_identification": "A133"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A1247001",
-            "N2": 20110817,
+            "N2": 20260217,
             "alteration_flag": " ",
-            "transmission_identification": "A074"
+            "transmission_identification": "A133"
           },
           "BIB": {
             "N1": 11,
             "N2": 0
           },
-          "INSTITUTE": [
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Low-energy nuclear reactions with hydrogen isotopes"
+              ]
+            }
+          ],
+          "AUTHOR": [
             {
               "pointer": "",
               "coded_information": [
-                "1USALAS"
+                "N.Jarmie",
+                "R.E.Brown"
               ],
               "free_text": [
                 ""
@@ -62,24 +72,14 @@
               ]
             }
           ],
-          "AUTHOR": [
+          "INSTITUTE": [
             {
               "pointer": "",
               "coded_information": [
-                "N.Jarmie",
-                "R.E.Brown"
+                "1USALAS"
               ],
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "TITLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Low-energy nuclear reactions with hydrogen isotopes"
               ]
             }
           ],
@@ -102,7 +102,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "A Windowless criogenically pumped, flowing gas target",
+                "A windowless criogenically pumped, flowing gas target",
                 "of D(2) or T(2)"
               ]
             }
@@ -133,15 +133,15 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "1-H-2(P,P)1-H-2,,DA",
+                  "code": "1-H-2(P,EL)1-H-2,,DA",
                   "code_unit": [
                     {
-                      "unit": "1-H-2(P,P)1-H-2,,DA",
+                      "unit": "1-H-2(P,EL)1-H-2,,DA",
                       "field": {
-                        "reaction": "1-H-2(P,P)1-H-2",
+                        "reaction": "1-H-2(P,EL)1-H-2",
                         "target": "1-H-2",
                         "projectile": "P",
-                        "process": "P",
+                        "process": "EL",
                         "product": "1-H-2",
                         "quantity": ",DA",
                         "data_type": null,
@@ -220,6 +220,16 @@
                 "contributions are represented on fig.",
                 "Subents 004, 005 are superseded - final results are",
                 "  given in C0109."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260217,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in Subent 001."
               ]
             }
           ],

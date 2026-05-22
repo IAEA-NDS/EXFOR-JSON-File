@@ -1,31 +1,44 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:18:11+0000",
+  "time_stamp": "2026-05-22T21:36:49+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A1363",
-        "N2": 20180421,
+        "N2": 20260218,
         "alteration_flag": " ",
-        "transmission_identification": "A089"
+        "transmission_identification": "A133"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A1363001",
-            "N2": 20180421,
+            "N2": 20260218,
             "alteration_flag": " ",
-            "transmission_identification": "A089"
+            "transmission_identification": "A133"
           },
           "BIB": {
-            "N1": 8,
+            "N1": 7,
             "N2": 0
           },
-          "INSTITUTE": [
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Angular distribution of alphas from 6Li(d,alpha)alpha",
+                "and 7Li(p,alpha)alpha"
+              ]
+            }
+          ],
+          "AUTHOR": [
             {
               "pointer": "",
               "coded_information": [
-                "1USACAW"
+                "N.P.Heydenburg",
+                "C.M.Hudson",
+                "D.R.Inglis",
+                "W.D.Whitehead Jr"
               ],
               "free_text": [
                 ""
@@ -91,27 +104,14 @@
               ]
             }
           ],
-          "AUTHOR": [
+          "INSTITUTE": [
             {
               "pointer": "",
               "coded_information": [
-                "N.P.Heydenburg",
-                "C.M.Hudson",
-                "D.R.Inglis",
-                "W.D.Whitehead Jr"
+                "1USACAW"
               ],
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "TITLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Angular distribution of alphas from 6Li(d,alpha)alpha",
-                "and 7Li(p,alpha)alpha"
               ]
             }
           ],
@@ -120,25 +120,12 @@
               "pointer": "",
               "coded_information": {
                 "facility": [
-                  "ACCEL"
+                  "VDG"
                 ],
                 "institute": "1USACAW"
               },
               "free_text": [
                 " Large pressurized statitron."
-              ]
-            }
-          ],
-          "SAMPLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "The target backing used for 7Li(p,alpha)alpha was thin",
-                "beryllium foil, of a thickness approximately 3 to",
-                "5*10**(-5) cm.",
-                "The target backing used for 6Li(p,alpha)alpha was thin",
-                "silver leaf, stopping power about 1. mm."
               ]
             }
           ],
@@ -206,6 +193,16 @@
                 " SD: Small corrections in BIB section in",
                 "all Subents."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260218,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Corrections in all Subents."
+              ]
             }
           ],
           "ENDBIB": {
@@ -224,12 +221,12 @@
         {
           "SUBENT": {
             "N1": "A1363002",
-            "N2": 20180421,
+            "N2": 20260218,
             "alteration_flag": " ",
-            "transmission_identification": "A089"
+            "transmission_identification": "A133"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -256,7 +253,18 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                " No information about units."
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The target backing was thin silver leaf, stopping",
+                "power about 1. mm."
               ]
             }
           ],
@@ -268,11 +276,40 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
+                "author": "N.P.Heydenburg+",
+                "reference": {
+                  "code": "J,PR,74,405,1948",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "74",
+                      "part": null,
+                      "issue": null,
+                      "page": "405"
+                    },
+                    "date": 1948
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "                                        Fig 2 (crosses)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "COREL"
+                ],
+                "subentry_number": "A1363004",
                 "author": null,
                 "reference": null
               },
               "free_text": [
-                " Fig 2 (crosses) from PR,74,405,1948"
+                ""
               ]
             }
           ],
@@ -286,6 +323,16 @@
               "free_text": [
                 " SD: SF9=EXP deleted from REACTION code.",
                 "EN-ERR -> EN-ERR-DIG; DATA-ERR -> ERR-DIG."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260218,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -423,12 +470,12 @@
         {
           "SUBENT": {
             "N1": "A1363003",
-            "N2": 20180421,
+            "N2": 20260218,
             "alteration_flag": " ",
-            "transmission_identification": "A089"
+            "transmission_identification": "A133"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -455,7 +502,18 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                " No information about units."
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The target backing was thin beryllium foil, of a",
+                "thickness approximately 3 to 5*10**(-5) cm."
               ]
             }
           ],
@@ -467,11 +525,40 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
+                "author": "N.P.Heydenburg+",
+                "reference": {
+                  "code": "J,PR,74,405,1948",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "74",
+                      "part": null,
+                      "issue": null,
+                      "page": "405"
+                    },
+                    "date": 1948
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "                                        Fig 2 (circles)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "COREL"
+                ],
+                "subentry_number": "A1363005",
                 "author": null,
                 "reference": null
               },
               "free_text": [
-                " Fig 2 (circles) from PR,74,405,1948"
+                ""
               ]
             }
           ],
@@ -485,6 +572,16 @@
               "free_text": [
                 " SD: SF9=EXP deleted from REACTION code.",
                 "EN-ERR -> EN-ERR-DIG; DATA-ERR -> ERR-DIG."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260218,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -606,9 +703,9 @@
         {
           "SUBENT": {
             "N1": "A1363004",
-            "N2": 20180421,
+            "N2": 20260218,
             "alteration_flag": " ",
-            "transmission_identification": "A089"
+            "transmission_identification": "A133"
           },
           "BIB": {
             "N1": 3,
@@ -650,11 +747,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "N.P.Heydenburg+",
+                "reference": {
+                  "code": "J,PR,74,405,1948",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "74",
+                      "part": null,
+                      "issue": null,
+                      "page": "405"
+                    },
+                    "date": 1948
+                  }
+                }
               },
               "free_text": [
-                " Fig 5 from PR,74,405,1948"
+                " Fig 5"
               ]
             },
             {
@@ -683,6 +794,16 @@
                 " SD: SF8=COS/REL -> COS/RSD, SF9=EXP deleted",
                 "from REACTION code. EN-ERR -> EN-ERR-DIG;",
                 "DATA-ERR -> ERR-DIG. COMMENT deleted."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260218,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: BIB updated. NUMBER-CM -> NUMBER."
               ]
             }
           ],
@@ -723,99 +844,99 @@
               ""
             ],
             "heading": [
+              "NUMBER",
               "EN",
-              "NUMBER-CM",
               "DATA-CM"
             ],
             "unit": [
-              "MEV",
               "NO-DIM",
+              "MEV",
               "NO-DIM"
             ],
             "value": [
               [
-                0.478,
                 2.0,
+                0.478,
                 0.082
               ],
               [
-                0.744,
                 2.0,
+                0.744,
                 0.227
               ],
               [
-                0.988,
                 2.0,
+                0.988,
                 0.506
               ],
               [
-                1.269,
-                4.0,
-                0.006
-              ],
-              [
-                1.278,
                 2.0,
+                1.278,
                 0.825
               ],
               [
-                1.547,
                 2.0,
+                1.547,
                 0.912
               ],
               [
-                1.551,
-                4.0,
-                0.144
-              ],
-              [
-                1.998,
                 2.0,
+                1.998,
                 0.89
               ],
               [
-                2.006,
-                4.0,
-                0.381
-              ],
-              [
-                2.504,
-                4.0,
-                0.373
-              ],
-              [
-                2.509,
                 2.0,
+                2.509,
                 0.947
               ],
               [
-                2.987,
                 2.0,
+                2.987,
                 0.687
               ],
               [
-                3.008,
-                4.0,
-                0.261
-              ],
-              [
-                3.2,
-                4.0,
-                0.263
-              ],
-              [
-                3.24,
                 2.0,
+                3.24,
                 0.438
               ],
               [
-                3.502,
                 2.0,
+                3.502,
                 0.008
               ],
               [
-                3.516,
                 4.0,
+                1.269,
+                0.006
+              ],
+              [
+                4.0,
+                1.551,
+                0.144
+              ],
+              [
+                4.0,
+                2.006,
+                0.381
+              ],
+              [
+                4.0,
+                2.504,
+                0.373
+              ],
+              [
+                4.0,
+                3.008,
+                0.261
+              ],
+              [
+                4.0,
+                3.2,
+                0.263
+              ],
+              [
+                4.0,
+                3.516,
                 0.376
               ]
             ]
@@ -832,9 +953,9 @@
         {
           "SUBENT": {
             "N1": "A1363005",
-            "N2": 20180421,
+            "N2": 20260218,
             "alteration_flag": " ",
-            "transmission_identification": "A089"
+            "transmission_identification": "A133"
           },
           "BIB": {
             "N1": 3,
@@ -876,11 +997,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "N.P.Heydenburg+",
+                "reference": {
+                  "code": "J,PR,74,405,1948",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "74",
+                      "part": null,
+                      "issue": null,
+                      "page": "405"
+                    },
+                    "date": 1948
+                  }
+                }
               },
               "free_text": [
-                " Fig 6 from PR,74,405,1948"
+                " Fig 6"
               ]
             },
             {
@@ -909,6 +1044,16 @@
                 " SD: SF8=COS/REL -> COS/RSD, SF9=EXP deleted",
                 "from REACTION code. EN-ERR -> EN-ERR-DIG;",
                 "DATA-ERR -> ERR-DIG. COMMENT deleted."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260218,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: BIB updated. NUMBER-CM -> NUMBER."
               ]
             }
           ],
@@ -949,75 +1094,75 @@
               ""
             ],
             "heading": [
+              "NUMBER",
               "EN",
-              "NUMBER-CM",
               "DATA-CM"
             ],
             "unit": [
-              "MEV",
               "NO-DIM",
+              "MEV",
               "NO-DIM"
             ],
             "value": [
               [
-                2.231,
                 2.0,
+                2.231,
                 0.794
               ],
               [
-                2.234,
-                4.0,
-                -0.211
-              ],
-              [
-                2.576,
                 2.0,
+                2.576,
                 0.164
               ],
               [
-                2.582,
-                4.0,
-                -0.145
-              ],
-              [
-                2.737,
                 2.0,
+                2.737,
                 -0.103
               ],
               [
-                2.757,
-                4.0,
-                -0.121
-              ],
-              [
-                2.977,
                 2.0,
+                2.977,
                 -0.406
               ],
               [
-                2.989,
-                4.0,
-                -0.097
-              ],
-              [
-                3.236,
                 2.0,
+                3.236,
                 -0.729
               ],
               [
-                3.24,
+                2.0,
+                3.508,
+                -0.742
+              ],
+              [
                 4.0,
+                2.234,
+                -0.211
+              ],
+              [
+                4.0,
+                2.582,
+                -0.145
+              ],
+              [
+                4.0,
+                2.757,
+                -0.121
+              ],
+              [
+                4.0,
+                2.989,
+                -0.097
+              ],
+              [
+                4.0,
+                3.24,
                 -0.013
               ],
               [
-                3.492,
                 4.0,
+                3.492,
                 -0.026
-              ],
-              [
-                3.508,
-                2.0,
-                -0.742
               ]
             ]
           },
@@ -1033,9 +1178,9 @@
         {
           "SUBENT": {
             "N1": "A1363006",
-            "N2": 20180421,
+            "N2": 20260218,
             "alteration_flag": " ",
-            "transmission_identification": "A089"
+            "transmission_identification": "A133"
           },
           "BIB": {
             "N1": 4,
@@ -1088,11 +1233,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "N.P.Heydenburg+",
+                "reference": {
+                  "code": "J,PR,73,241,1948",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "73",
+                      "part": null,
+                      "issue": null,
+                      "page": "241"
+                    },
+                    "date": 1948
+                  }
+                }
               },
               "free_text": [
-                " Table I from PR,73,241,1948"
+                " Table I"
               ]
             }
           ],
@@ -1106,6 +1265,16 @@
               "free_text": [
                 " SD: STATUS was updated. SF9=CALC -> DERIV;",
                 "SF8=COS/REL->COS/RSD in REACTION. COMMENT->ANALYSIS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260218,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -1126,204 +1295,204 @@
               ""
             ],
             "heading": [
-              "EN",
               "NUMBER",
+              "EN",
               "DATA"
             ],
             "unit": [
-              "MEV",
               "NO-DIM",
+              "MEV",
               "NO-DIM"
             ],
             "value": [
               [
-                1.0,
                 2.0,
-                2.96
-              ],
-              [
                 1.0,
-                2.0,
-                2.02
-              ],
-              [
-                1.0,
-                2.0,
                 1.99
               ],
               [
-                1.0,
-                4.0,
-                -1.27
-              ],
-              [
-                1.0,
-                4.0,
-                -0.1
-              ],
-              [
-                1.0,
-                4.0,
-                -0.09
-              ],
-              [
-                1.215,
                 2.0,
+                1.0,
+                2.96
+              ],
+              [
+                2.0,
+                1.0,
+                2.02
+              ],
+              [
+                2.0,
+                1.215,
                 2.59
               ],
               [
-                1.215,
-                4.0,
-                -0.92
-              ],
-              [
-                1.4,
                 2.0,
-                1.94
-              ],
-              [
                 1.4,
-                2.0,
                 2.13
               ],
               [
-                1.4,
-                4.0,
-                -0.57
-              ],
-              [
-                1.4,
-                4.0,
-                -0.54
-              ],
-              [
-                1.61,
                 2.0,
+                1.4,
+                1.94
+              ],
+              [
+                2.0,
+                1.61,
                 1.47
               ],
               [
-                1.61,
                 2.0,
+                1.61,
                 1.69
               ],
               [
-                1.61,
                 2.0,
+                1.61,
                 1.8
               ],
               [
-                1.61,
-                4.0,
-                -0.38
-              ],
-              [
-                1.61,
-                4.0,
-                -0.88
-              ],
-              [
-                1.61,
-                4.0,
-                -0.4
-              ],
-              [
-                1.83,
                 2.0,
-                1.23
-              ],
-              [
                 1.83,
-                2.0,
                 1.58
               ],
               [
-                1.83,
                 2.0,
+                1.83,
                 1.55
               ],
               [
-                1.83,
-                4.0,
-                -0.44
-              ],
-              [
-                1.83,
-                4.0,
-                -0.76
-              ],
-              [
-                1.83,
-                4.0,
-                -0.6
-              ],
-              [
-                2.015,
                 2.0,
-                1.36
+                1.83,
+                1.23
               ],
               [
-                2.015,
                 2.0,
+                2.015,
                 1.25
               ],
               [
-                2.015,
-                4.0,
-                -0.75
-              ],
-              [
-                2.015,
-                4.0,
-                -0.53
-              ],
-              [
-                2.28,
                 2.0,
+                2.015,
+                1.36
+              ],
+              [
+                2.0,
+                2.28,
                 1.33
               ],
               [
-                2.28,
-                4.0,
-                -0.83
-              ],
-              [
-                2.49,
                 2.0,
-                0.58
-              ],
-              [
                 2.49,
-                2.0,
                 0.82
               ],
               [
-                2.49,
-                4.0,
-                -0.35
-              ],
-              [
-                2.49,
-                4.0,
-                -0.64
-              ],
-              [
-                2.71,
                 2.0,
+                2.49,
+                0.58
+              ],
+              [
+                2.0,
+                2.71,
                 0.7
               ],
               [
-                2.71,
-                4.0,
-                -0.7
-              ],
-              [
-                3.0,
                 2.0,
+                3.0,
                 0.73
               ],
               [
-                3.0,
                 4.0,
+                1.0,
+                -0.1
+              ],
+              [
+                4.0,
+                1.0,
+                -1.27
+              ],
+              [
+                4.0,
+                1.0,
+                -0.09
+              ],
+              [
+                4.0,
+                1.215,
+                -0.92
+              ],
+              [
+                4.0,
+                1.4,
+                -0.54
+              ],
+              [
+                4.0,
+                1.4,
+                -0.57
+              ],
+              [
+                4.0,
+                1.61,
+                -0.4
+              ],
+              [
+                4.0,
+                1.61,
+                -0.38
+              ],
+              [
+                4.0,
+                1.61,
+                -0.88
+              ],
+              [
+                4.0,
+                1.83,
+                -0.6
+              ],
+              [
+                4.0,
+                1.83,
+                -0.44
+              ],
+              [
+                4.0,
+                1.83,
+                -0.76
+              ],
+              [
+                4.0,
+                2.015,
+                -0.75
+              ],
+              [
+                4.0,
+                2.015,
+                -0.53
+              ],
+              [
+                4.0,
+                2.28,
+                -0.83
+              ],
+              [
+                4.0,
+                2.49,
+                -0.64
+              ],
+              [
+                4.0,
+                2.49,
+                -0.35
+              ],
+              [
+                4.0,
+                2.71,
+                -0.7
+              ],
+              [
+                4.0,
+                3.0,
                 -1.2
               ]
             ]
