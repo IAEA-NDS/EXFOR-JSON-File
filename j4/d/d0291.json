@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:02:30+0000",
+  "time_stamp": "2026-05-22T21:43:56+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "D0291",
-        "N2": 20050315,
+        "N2": 20260119,
         "alteration_flag": " ",
-        "transmission_identification": "D039"
+        "transmission_identification": "D151"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "D0291001",
-            "N2": 20050315,
+            "N2": 20260119,
             "alteration_flag": " ",
-            "transmission_identification": "D039"
+            "transmission_identification": "D151"
           },
           "BIB": {
-            "N1": 10,
+            "N1": 11,
             "N2": 0
           },
           "TITLE": [
@@ -120,11 +120,24 @@
                 "facility": [
                   "LINAC"
                 ],
-                "institute": null
+                "institute": "2UK NIN"
               },
               "free_text": [
-                " The Rutherford High Energy Laboratory linear",
-                "accelerator was used."
+                ""
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "POLIS"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -145,9 +158,9 @@
                 "SILI"
               ],
               "free_text": [
-                "Scattered protons were detected by four 5 mm",
-                "deep Si(Li) detecors, enabling measurements to be made",
-                "at four scattering angles simultaneously."
+                " Scattered protons were detected by four 5 mm",
+                "deep Si(Li) detectors, enabling measurements to be",
+                "made at four scattering angles simultaneously."
               ]
             },
             {
@@ -170,13 +183,32 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR1",
+                "heading": "ERR-1",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                " Experimental error"
+                " The cross section normalization predicted by",
+                "the optical model searches was used to normalize all",
+                "experimental cross sections. The normalization",
+                "constants derived from various sets of optical",
+                "parameters which gave a reasonable fit to the data",
+                "varied by about +- 25%"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " The errors arise mainly from uncertainty in",
+                "the background and, in the case of the 4.46 MeV state,",
+                "in the separation from neighbouring states."
               ]
             }
           ],
@@ -188,11 +220,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "O.Karban+",
+                "reference": {
+                  "code": "J,NP/A,133,255,1969",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "133",
+                      "part": null,
+                      "issue": null,
+                      "page": "255"
+                    },
+                    "date": 1969
+                  }
+                }
               },
               "free_text": [
-                "Tables from the article"
+                " Table 1"
               ]
             }
           ],
@@ -206,6 +252,18 @@
               "free_text": [
                 " SD"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260119,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Corrections in all Subents.",
+                "DATA-ERR1 -> ERR-1. ERR-DIG and ANG-ERR-D deleted (not",
+                "relevant). E=30.5 -> 30.3 MeV."
+              ]
             }
           ],
           "ENDBIB": {
@@ -213,31 +271,23 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 4,
+            "N1": 2,
             "N2": 0,
             "pointer": [
-              "",
-              "",
               "",
               ""
             ],
             "heading": [
               "EN",
-              "ANG-ERR-D",
-              "ERR-DIG",
-              "DATA-ERR1"
+              "ERR-1"
             ],
             "unit": [
               "MEV",
-              "ADEG",
-              "PER-CENT",
               "PER-CENT"
             ],
             "value": [
-              30.5,
-              0.7,
-              0.3,
-              5.0
+              30.3,
+              25.0
             ]
           },
           "ENDCOMMON": {
@@ -252,12 +302,12 @@
         {
           "SUBENT": {
             "N1": "D0291002",
-            "N2": 20050315,
+            "N2": 20260119,
             "alteration_flag": " ",
-            "transmission_identification": "D039"
+            "transmission_identification": "D151"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0
           },
           "REACTION": [
@@ -288,6 +338,18 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260119,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: ERR-S -> ERR-2."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
@@ -307,7 +369,7 @@
             "heading": [
               "ANG-CM",
               "DATA-CM",
-              "ERR-S"
+              "ERR-2"
             ],
             "unit": [
               "ADEG",
@@ -479,12 +541,12 @@
         {
           "SUBENT": {
             "N1": "D0291003",
-            "N2": 20050315,
+            "N2": 20260119,
             "alteration_flag": " ",
-            "transmission_identification": "D039"
+            "transmission_identification": "D151"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0
           },
           "REACTION": [
@@ -515,11 +577,39 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260119,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: ERR-S -> ERR-2."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "POL-BM"
+            ],
+            "unit": [
+              "NO-DIM"
+            ],
+            "value": [
+              0.5
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -533,8 +623,8 @@
             ],
             "heading": [
               "ANG-CM",
-              "DATA-CM",
-              "ERR-S"
+              "DATA",
+              "ERR-2"
             ],
             "unit": [
               "ADEG",
@@ -706,9 +796,9 @@
         {
           "SUBENT": {
             "N1": "D0291004",
-            "N2": 20050315,
+            "N2": 20260119,
             "alteration_flag": " ",
-            "transmission_identification": "D039"
+            "transmission_identification": "D151"
           },
           "BIB": {
             "N1": 2,
@@ -742,15 +832,15 @@
               ]
             }
           ],
-          "EN-SEC": [
+          "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "heading": "E-LVL",
-                "particle": "5-B-11"
+                "date": 20260119,
+                "history": "A"
               },
               "free_text": [
-                ""
+                " SD: ERR-S -> ERR-2."
               ]
             }
           ],
@@ -775,7 +865,7 @@
               "E-LVL",
               "ANG-CM",
               "DATA-CM",
-              "ERR-S"
+              "ERR-2"
             ],
             "unit": [
               "MEV",
@@ -1152,9 +1242,9 @@
         {
           "SUBENT": {
             "N1": "D0291005",
-            "N2": 20050315,
+            "N2": 20260119,
             "alteration_flag": " ",
-            "transmission_identification": "D039"
+            "transmission_identification": "D151"
           },
           "BIB": {
             "N1": 2,
@@ -1188,15 +1278,15 @@
               ]
             }
           ],
-          "EN-SEC": [
+          "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "heading": "E-LVL",
-                "particle": "5-B-11"
+                "date": 20260119,
+                "history": "A"
               },
               "free_text": [
-                ""
+                " SD: ERR-S -> ERR-2."
               ]
             }
           ],
@@ -1204,7 +1294,23 @@
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "POL-BM"
+            ],
+            "unit": [
+              "NO-DIM"
+            ],
+            "value": [
+              0.5
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -1220,8 +1326,8 @@
             "heading": [
               "E-LVL",
               "ANG-CM",
-              "DATA-CM",
-              "ERR-S"
+              "DATA",
+              "ERR-2"
             ],
             "unit": [
               "MEV",

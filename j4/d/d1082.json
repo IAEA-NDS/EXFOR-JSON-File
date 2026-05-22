@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-22T21:44:15+0000",
+  "time_stamp": "2026-05-22T21:44:01+0000",
   "entries": [
     {
       "ENTRY": {
-        "N1": "D6188",
-        "N2": 20260323,
+        "N1": "D1082",
+        "N2": 20251218,
         "alteration_flag": " ",
         "transmission_identification": "D151"
       },
       "subentries": [
         {
           "SUBENT": {
-            "N1": "D6188001",
-            "N2": 20260323,
+            "N1": "D1082001",
+            "N2": 20251218,
             "alteration_flag": " ",
             "transmission_identification": "D151"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 13,
             "N2": 0
           },
           "TITLE": [
@@ -26,8 +26,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Systematic study of projectile-structure effect on",
-                " the fusion-barrier distribution"
+                "8B+51V scattering at a near-barrier energy"
               ]
             }
           ],
@@ -35,16 +34,19 @@
             {
               "pointer": "",
               "coded_information": [
-                "P.Roy",
-                "A.Saxena",
-                "B.K.Nayak",
-                "E.T.Mirgule",
-                "B.John",
-                "Y.K.Gupta",
-                "L.S.Danu",
-                "R.P.Vind",
-                "Ashok Kumar",
-                "R.K.Choudhury"
+                "U.Umbelino",
+                "R.Lichtenthaeler Filho",
+                "O.C.B.Santos",
+                "K.C.C.Pires",
+                "A.S.Serra",
+                "B.P.Monteiro",
+                "D.Apolonio",
+                "H.F.G.Arruda",
+                "G.S.Goncalves",
+                "S.D.Olorunfunmi",
+                "P.N.de Faria",
+                "V.Morcelle",
+                "J.Lubian"
               ],
               "free_text": [
                 ""
@@ -55,7 +57,9 @@
             {
               "pointer": "",
               "coded_information": [
-                "3INDTRM"
+                "3BZLUSP",
+                "3BZLUFF",
+                "3BZLIPE"
               ],
               "free_text": [
                 ""
@@ -64,10 +68,20 @@
             {
               "pointer": "",
               "coded_information": [
-                "3INDIND"
+                "3NI NI"
               ],
               "free_text": [
-                " Shobhit University, Meerut"
+                " Obafemi Awolowo University, Ile-Ife"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "3BZLBZL"
+              ],
+              "free_text": [
+                " Univ. Federal Rural do Rio de Janeiro,",
+                " Rio de Janeiro"
               ]
             }
           ],
@@ -75,22 +89,22 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,PR/C,84,011602,2011",
+                "code": "J,PR/C,112,064610,2025",
                 "code_unit": [
                   {
-                    "unit": "J,PR/C,84,011602,2011",
-                    "doi": "10.1103/PhysRevC.84.011602",
+                    "unit": "J,PR/C,112,064610,2025",
+                    "doi": "10.1103/1zhq-g1nc",
                     "field": {
                       "reference_type": "J",
                       "reference": {
                         "code": "PR/C",
                         "number": null,
-                        "volume": "84",
+                        "volume": "112",
                         "part": null,
                         "issue": null,
-                        "page": "011602"
+                        "page": "064610"
                       },
-                      "date": 2011
+                      "date": 2025
                     }
                   }
                 ],
@@ -108,10 +122,19 @@
                 "facility": [
                   "VDGT"
                 ],
-                "institute": "3INDTAT"
+                "institute": "3BZLUSP"
               },
               "free_text": [
-                "14 UD BARC-TIFR Pelletron accelerator"
+                " 8 UD Pelletron accelerator"
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "3He(6Li,8B)n with 6Li (32 MeV) at RIBRAS"
               ]
             }
           ],
@@ -120,7 +143,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "A self-supporting 232Th target (~2 mg/cm2)"
+                ". Natural vanadium foil (1.4 mg/cm2)",
+                ". Gold target (4.7 mg/cm2)"
               ]
             }
           ],
@@ -129,25 +153,13 @@
               "pointer": "",
               "coded_information": [
                 "TELES",
-                "SIBAR",
-                "SIBAR"
+                "SISD",
+                "SISD"
               ],
               "free_text": [
-                " A dE(50 um)-E(150 um) silicon",
-                " surface barrier detector telescope mounted at an",
-                " angle of 160 deg to the beam direction to detect",
-                " the outgoing particles"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "SIBAR"
-              ],
-              "free_text": [
-                " Silicon surface barrier detector at 20 deg.",
-                " with respect to the beam direction to measure",
-                " Rutherford scattering events for normalization"
+                " Six telescopes with dE (20 or 25 um)",
+                " and E (150, 50 or 1000 um) Si surface barrier",
+                " detectors"
               ]
             }
           ],
@@ -162,29 +174,41 @@
               ]
             }
           ],
-          "COMMENT": [
+          "ANALYSIS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": [
+                "NTRTH"
+              ],
               "free_text": [
-                "By authors: Contribution of evaporation alpha coming",
-                " from 4He + 232Th is found to be negligible from PACE2",
-                " calculation"
+                " normalized to 8B+197Au Rutherford cross section"
               ]
             }
           ],
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
               "free_text": [
-                "Major source of uncertainty in the data was",
-                " statistical, specially at higher energies where the",
-                " quasi elastic cross section is less.",
-                "At the highest energy the statistical uncertainty was",
-                " less than 5%.",
-                "Any other systematic uncertainty was found to be",
-                " insignificant."
+                " Uncertainty due to statistics and target",
+                " thickness"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Uncertainty due to target thickness (5%)"
               ]
             }
           ],
@@ -200,7 +224,7 @@
                 "reference": null
               },
               "free_text": [
-                " Approved by Pratap Roy"
+                " Proofread by Uiran Umbelino (2025-12-18)"
               ]
             }
           ],
@@ -208,130 +232,21 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 20130221,
+                "date": 20251218,
+                "history": "R"
+              },
+              "free_text": [
+                " On. Data received from Uiran Umbelino."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251218,
                 "history": "C"
               },
               "free_text": [
-                " Compiled by B.Jyrwa,S.Badwar,NEHU,Shillong,",
-                " Meghalaya, India"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 20131124,
-                "history": "U"
-              },
-              "free_text": [
-                " On. Finalized"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 20260323,
-                "history": "A"
-              },
-              "free_text": [
-                " VT. Entry revised"
-              ]
-            }
-          ],
-          "ENDBIB": {
-            "N1": 0,
-            "N2": 0
-          },
-          "NOCOMMON": {
-            "N1": 0,
-            "N2": 0
-          },
-          "ENDSUBENT": {
-            "N1": 0,
-            "N2": 0
-          }
-        },
-        {
-          "SUBENT": {
-            "N1": "D6188002",
-            "N2": 20260323,
-            "alteration_flag": " ",
-            "transmission_identification": "D151"
-          },
-          "BIB": {
-            "N1": 3,
-            "N2": 0
-          },
-          "REACTION": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "90-TH-232(A,SCT)90-TH-232,PAR,DA,,RTH",
-                "code_unit": [
-                  {
-                    "unit": "90-TH-232(A,SCT)90-TH-232,PAR,DA,,RTH",
-                    "field": {
-                      "reaction": "90-TH-232(A,SCT)90-TH-232",
-                      "target": "90-TH-232",
-                      "projectile": "A",
-                      "process": "SCT",
-                      "product": "90-TH-232",
-                      "quantity": "PAR,DA,,RTH",
-                      "data_type": null,
-                      "general_quantity_modifier": null,
-                      "quantity_236": "PAR,DA,,RTH"
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                "",
-                "Quasi-elastic scattering was defined as the sum of",
-                " elastic plus inelastic events."
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "CURVE"
-                ],
-                "subentry_number": null,
-                "author": "P.Roy+",
-                "reference": {
-                  "code": "J,PR/C,84,011602,2011",
-                  "field": {
-                    "reference_type": "J",
-                    "reference": {
-                      "code": "PR/C",
-                      "number": null,
-                      "volume": "84",
-                      "part": null,
-                      "issue": null,
-                      "page": "011602"
-                    },
-                    "date": 2011
-                  }
-                }
-              },
-              "free_text": [
-                " Fig.2",
-                "From author: Tabulated data were lost."
-              ]
-            }
-          ],
-          "HISTORY": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 20260323,
-                "history": "A"
-              },
-              "free_text": [
-                " VT. REACTION: SF5=PAR; COMMON:",
-                " E-EXC-MAX=4.0 MeV added and STATUS updated."
+                " On"
               ]
             }
           ],
@@ -347,97 +262,202 @@
               ""
             ],
             "heading": [
-              "E-EXC-MAX",
-              "ANG"
+              "EN",
+              "ERR-1"
             ],
             "unit": [
               "MEV",
-              "ADEG"
+              "PER-CENT"
             ],
             "value": [
-              4.0,
-              160.0
+              22.0,
+              5.0
             ]
           },
           "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
-          "DATA": {
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "D1082002",
+            "N2": 20251216,
+            "alteration_flag": " ",
+            "transmission_identification": "D151"
+          },
+          "BIB": {
             "N1": 2,
-            "N2": 15,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "23-V-51(5-B-8,EL)23-V-51,,DA,,RTH",
+                "code_unit": [
+                  {
+                    "unit": "23-V-51(5-B-8,EL)23-V-51,,DA,,RTH",
+                    "field": {
+                      "reaction": "23-V-51(5-B-8,EL)23-V-51",
+                      "target": "23-V-51",
+                      "projectile": "5-B-8",
+                      "process": "EL",
+                      "product": "23-V-51",
+                      "quantity": ",DA,,RTH",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",DA,,RTH"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "U.Umbelino+",
+                "reference": {
+                  "code": "J,PR/C,112,064610,2025",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "112",
+                      "part": null,
+                      "issue": null,
+                      "page": "064610"
+                    },
+                    "date": 2025
+                  }
+                }
+              },
+              "free_text": [
+                " Fig.6"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 16,
             "pointer": [
+              "",
               "",
               ""
             ],
             "heading": [
-              "EN-CM",
-              "DATA"
+              "ANG-CM",
+              "DATA",
+              "ERR-T"
             ],
             "unit": [
-              "MEV",
+              "ADEG",
+              "NO-DIM",
               "NO-DIM"
             ],
             "value": [
               [
-                15.72,
-                1.0
+                21.6,
+                1.0131,
+                0.0307
               ],
               [
-                16.71,
-                1.0
+                27.9,
+                1.0078,
+                0.0336
               ],
               [
-                17.7,
-                1.01
+                33.7,
+                1.0118,
+                0.049
               ],
               [
-                18.68,
-                1.0
+                40.2,
+                0.9841,
+                0.0457
               ],
               [
-                19.66,
-                0.952
+                45.8,
+                1.0023,
+                0.0579
               ],
               [
-                20.64,
-                0.872
+                51.4,
+                0.9809,
+                0.0484
               ],
               [
-                21.63,
-                0.671
+                56.9,
+                0.9743,
+                0.0774
               ],
               [
-                22.61,
-                0.47
+                62.4,
+                1.0285,
+                0.0935
               ],
               [
-                23.59,
-                0.299
+                67.8,
+                0.7626,
+                0.1095
               ],
               [
-                24.57,
-                0.207
+                73.2,
+                0.5378,
+                0.0794
               ],
               [
-                25.56,
-                0.0952
+                78.5,
+                0.6841,
+                0.1083
               ],
               [
-                26.54,
-                0.0618
+                83.7,
+                0.5898,
+                0.0999
               ],
               [
-                27.53,
-                0.034
+                88.9,
+                0.5355,
+                0.1351
               ],
               [
-                28.51,
-                0.0178
+                94.0,
+                0.2289,
+                0.0882
               ],
               [
-                29.49,
-                0.0124
+                99.0,
+                0.345,
+                0.1167
+              ],
+              [
+                113.7,
+                0.2833,
+                0.1003
               ]
             ]
           },

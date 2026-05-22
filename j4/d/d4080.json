@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:15:26+0000",
+  "time_stamp": "2026-05-22T21:44:05+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "D4080",
-        "N2": 20100614,
+        "N2": 20260319,
         "alteration_flag": " ",
-        "transmission_identification": "D074"
+        "transmission_identification": "D151"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "D4080001",
-            "N2": 20100614,
+            "N2": 20260319,
             "alteration_flag": " ",
-            "transmission_identification": "D074"
+            "transmission_identification": "D151"
           },
           "BIB": {
             "N1": 12,
@@ -26,9 +26,9 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Cross section data for proton, He-3 and alpha-particle",
-                "induced reactions on nat-Ni, nat-Cu and nat-Ti for",
-                "monitoring beam performance"
+                "Cross section data for proton, 3He and alpha-particle",
+                " induced reactions on nat-Ni, nat-Cu and nat-Ti for",
+                " monitoring beam performance"
               ]
             }
           ],
@@ -188,9 +188,7 @@
               "coded_information": null,
               "free_text": [
                 "Natural metal Ti, Ni and Cu foils from Goodfellow,",
-                "England, more details can be found in",
-                " J,ARI,44,687,93 For Ti",
-                " J,ARI,42,513,91 For Ni"
+                " England."
               ]
             }
           ],
@@ -204,11 +202,11 @@
               ],
               "free_text": [
                 " Stacks were irradiated in vacuum.",
-                "Beam current was monitored by Faraday-cup.",
-                "The incident beam energy was controlled by magnetic",
-                "deflection at Rez and Debrecen cyclotron and",
-                "was normalized to other monitor reaction at Juelich",
-                "cyclotron."
+                " Beam current was monitored by Faraday-cup.",
+                " The incident beam energy was controlled by magnetic",
+                " deflection at Rez and Debrecen cyclotron and",
+                " was normalized to other monitor reaction at Juelich",
+                " cyclotron."
               ]
             }
           ],
@@ -242,10 +240,10 @@
                 " Normal high resolution gamma-spectrometry was",
                 "applied.",
                 "The beam energy degradation in the targets was",
-                "calculated according to Williamson et al., Report",
-                "CEA-R-3042, (1966).",
-                "Correction was made for dead time, pile-up and cascade",
-                "losses."
+                " calculated according to Williamson et al., Report",
+                " CEA-R-3042, (1966).",
+                " Correction was made for dead time, pile-up and cascade",
+                " losses."
               ]
             }
           ],
@@ -307,7 +305,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                "incident bombarding particle",
+                " incident bombarding particle",
                 "                                      intensity 7-9%.",
                 " The total estimated errors in the cross",
                 "                                    sections are 6-15%"
@@ -345,6 +343,27 @@
                 " SD: Small correction of REACTION code was",
                 " made in Subents 002-007. SF9 was deleted as obsolete.",
                 " ERR-ANALYS was added to Subent 001."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260319,
+                "history": "D"
+              },
+              "free_text": [
+                " VT. Subent 003 deleted as it is a duplicate",
+                " of D4001.002."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260319,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. Revision in 002-007"
               ]
             }
           ],
@@ -388,12 +407,12 @@
         {
           "SUBENT": {
             "N1": "D4080002",
-            "N2": 20100614,
+            "N2": 20260319,
             "alteration_flag": " ",
-            "transmission_identification": "D074"
+            "transmission_identification": "D151"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -477,11 +496,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Tarkanyi+",
+                "reference": {
+                  "code": "C,91JUELIC,,529,1991",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "91JUELIC",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "529"
+                    },
+                    "date": 1991
+                  }
+                }
               },
               "free_text": [
-                " Numerical data were received from the authors"
+                " Fig.1"
               ]
             }
           ],
@@ -496,8 +529,8 @@
               },
               "free_text": [
                 " The total errors in the cross sections were",
-                "   obtained by summing quadratically the possible",
-                "   individual relative errors, described in Subent 001."
+                " obtained by summing quadratically the possible",
+                " individual relative errors, described in Subent 001."
               ]
             },
             {
@@ -510,8 +543,20 @@
               },
               "free_text": [
                 " the uncertainty varying in accordance with",
-                "       the straggling, the foil non-uniformities and",
-                "       the calculation method"
+                " the straggling, the foil non-uniformities and",
+                " the calculation method"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260319,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated in the new format"
               ]
             }
           ],
@@ -959,618 +1004,21 @@
           }
         },
         {
-          "SUBENT": {
+          "NOSUBENT": {
             "N1": "D4080003",
-            "N2": 20100614,
-            "alteration_flag": " ",
-            "transmission_identification": "D074"
-          },
-          "BIB": {
-            "N1": 6,
-            "N2": 0
-          },
-          "REACTION": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "22-TI-0(P,X)23-V-48,,SIG",
-                "code_unit": [
-                  {
-                    "unit": "22-TI-0(P,X)23-V-48,,SIG",
-                    "field": {
-                      "reaction": "22-TI-0(P,X)23-V-48",
-                      "target": "22-TI-0",
-                      "projectile": "P",
-                      "process": "X",
-                      "product": "23-V-48",
-                      "quantity": ",SIG",
-                      "data_type": null,
-                      "general_quantity_modifier": null,
-                      "quantity_236": ",SIG"
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "RAD-DET": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "23-V-48",
-                "radiation_type": [
-                  "DG"
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "DECAY-DATA": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "23-V-48",
-                "half-life": {
-                  "value": 383.424,
-                  "unit": "HR"
-                },
-                "radiation": [
-                  {
-                    "radiation_type": [
-                      "DG"
-                    ],
-                    "energy": [
-                      983.5
-                    ],
-                    "intensity": 0.9999
-                  },
-                  {
-                    "radiation_type": [
-                      "DG"
-                    ],
-                    "energy": [
-                      1312.0
-                    ],
-                    "intensity": 0.9749
-                  }
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Numerical data were received from the authors"
-              ]
-            }
-          ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-T",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " The total errors in the cross sections were",
-                "   obtained by summing quadratically the possible",
-                "   individual relative errors, described in Subent 001."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "EN-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " the uncertainty varying in accordance with",
-                "       the straggling, the foil non-uniformities and",
-                "       the calculation method"
-              ]
-            }
-          ],
-          "HISTORY": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 20100614,
-                "history": "A"
-              },
-              "free_text": [
-                " SD: data point at En=10.61 was corrected:",
-                "                       563. ==> 363."
-              ]
-            }
-          ],
-          "ENDBIB": {
-            "N1": 0,
-            "N2": 0
-          },
-          "NOCOMMON": {
-            "N1": 0,
-            "N2": 0
-          },
-          "DATA": {
-            "N1": 4,
-            "N2": 69,
-            "pointer": [
-              "",
-              "",
-              "",
-              ""
-            ],
-            "heading": [
-              "EN",
-              "EN-ERR",
-              "DATA",
-              "ERR-T"
-            ],
-            "unit": [
-              "MEV",
-              "MEV",
-              "MB",
-              "MB"
-            ],
-            "value": [
-              [
-                4.5,
-                0.41,
-                0.463,
-                0.042
-              ],
-              [
-                5.31,
-                0.39,
-                36.79,
-                2.79
-              ],
-              [
-                5.76,
-                0.37,
-                103.2,
-                7.8
-              ],
-              [
-                6.18,
-                0.37,
-                163.0,
-                12.0
-              ],
-              [
-                6.85,
-                0.35,
-                212.0,
-                17.0
-              ],
-              [
-                7.23,
-                0.35,
-                244.0,
-                19.0
-              ],
-              [
-                7.59,
-                0.34,
-                279.0,
-                22.0
-              ],
-              [
-                8.57,
-                0.32,
-                318.0,
-                26.0
-              ],
-              [
-                8.88,
-                0.31,
-                341.0,
-                27.0
-              ],
-              [
-                8.96,
-                0.4,
-                362.0,
-                28.0
-              ],
-              [
-                9.19,
-                0.31,
-                344.0,
-                27.0
-              ],
-              [
-                9.47,
-                0.39,
-                371.0,
-                29.0
-              ],
-              [
-                9.97,
-                0.38,
-                347.0,
-                27.0
-              ],
-              [
-                10.05,
-                0.29,
-                353.0,
-                28.0
-              ],
-              [
-                10.34,
-                0.28,
-                369.0,
-                29.0
-              ],
-              [
-                10.45,
-                0.37,
-                357.0,
-                28.0
-              ],
-              [
-                10.61,
-                0.28,
-                363.0,
-                28.0
-              ],
-              [
-                10.78,
-                0.5,
-                364.0,
-                24.0
-              ],
-              [
-                10.91,
-                0.36,
-                362.0,
-                28.0
-              ],
-              [
-                11.35,
-                0.35,
-                366.0,
-                29.0
-              ],
-              [
-                11.39,
-                0.26,
-                386.0,
-                30.0
-              ],
-              [
-                11.64,
-                0.26,
-                377.0,
-                30.0
-              ],
-              [
-                11.73,
-                0.49,
-                366.0,
-                23.0
-              ],
-              [
-                11.78,
-                0.34,
-                368.0,
-                28.0
-              ],
-              [
-                11.89,
-                0.25,
-                374.0,
-                30.0
-              ],
-              [
-                12.19,
-                0.33,
-                373.0,
-                29.0
-              ],
-              [
-                12.6,
-                0.32,
-                376.0,
-                29.0
-              ],
-              [
-                12.61,
-                0.24,
-                381.0,
-                30.0
-              ],
-              [
-                12.62,
-                0.47,
-                378.0,
-                25.0
-              ],
-              [
-                13.28,
-                0.3,
-                372.0,
-                29.0
-              ],
-              [
-                13.29,
-                0.22,
-                380.0,
-                29.0
-              ],
-              [
-                13.47,
-                0.46,
-                377.0,
-                25.0
-              ],
-              [
-                13.95,
-                0.29,
-                339.0,
-                26.0
-              ],
-              [
-                13.96,
-                0.21,
-                338.0,
-                26.0
-              ],
-              [
-                14.27,
-                0.45,
-                331.0,
-                22.0
-              ],
-              [
-                14.59,
-                0.27,
-                302.0,
-                24.0
-              ],
-              [
-                15.05,
-                0.44,
-                264.0,
-                18.0
-              ],
-              [
-                15.22,
-                0.26,
-                262.0,
-                20.0
-              ],
-              [
-                15.79,
-                0.42,
-                223.0,
-                15.0
-              ],
-              [
-                15.82,
-                0.25,
-                219.0,
-                17.0
-              ],
-              [
-                16.41,
-                0.23,
-                190.0,
-                15.0
-              ],
-              [
-                16.5,
-                0.41,
-                172.0,
-                12.0
-              ],
-              [
-                16.98,
-                0.22,
-                164.0,
-                13.0
-              ],
-              [
-                17.19,
-                0.4,
-                153.0,
-                11.0
-              ],
-              [
-                17.54,
-                0.21,
-                141.0,
-                11.0
-              ],
-              [
-                17.86,
-                0.39,
-                131.0,
-                9.0
-              ],
-              [
-                18.51,
-                0.38,
-                115.0,
-                8.0
-              ],
-              [
-                19.14,
-                0.37,
-                98.6,
-                7.2
-              ],
-              [
-                19.76,
-                0.36,
-                86.4,
-                6.2
-              ],
-              [
-                20.36,
-                0.35,
-                82.1,
-                5.9
-              ],
-              [
-                20.95,
-                0.34,
-                76.5,
-                5.5
-              ],
-              [
-                21.53,
-                0.33,
-                68.2,
-                5.0
-              ],
-              [
-                22.1,
-                0.32,
-                63.4,
-                4.6
-              ],
-              [
-                22.65,
-                0.32,
-                58.6,
-                4.3
-              ],
-              [
-                23.2,
-                0.31,
-                54.2,
-                4.0
-              ],
-              [
-                23.53,
-                0.3,
-                52.6,
-                3.9
-              ],
-              [
-                24.26,
-                0.29,
-                50.1,
-                3.7
-              ],
-              [
-                24.77,
-                0.28,
-                48.6,
-                3.6
-              ],
-              [
-                25.28,
-                0.27,
-                44.2,
-                3.3
-              ],
-              [
-                25.78,
-                0.27,
-                42.6,
-                3.2
-              ],
-              [
-                26.27,
-                0.26,
-                40.8,
-                3.0
-              ],
-              [
-                26.76,
-                0.25,
-                39.4,
-                2.9
-              ],
-              [
-                27.23,
-                0.24,
-                37.3,
-                2.8
-              ],
-              [
-                27.71,
-                0.24,
-                36.8,
-                2.8
-              ],
-              [
-                28.17,
-                0.23,
-                36.0,
-                2.7
-              ],
-              [
-                28.63,
-                0.22,
-                35.2,
-                2.6
-              ],
-              [
-                29.08,
-                0.21,
-                34.2,
-                2.6
-              ],
-              [
-                29.53,
-                0.21,
-                34.8,
-                2.6
-              ],
-              [
-                29.98,
-                0.2,
-                34.3,
-                2.6
-              ]
-            ]
-          },
-          "ENDDATA": {
-            "N1": 0,
-            "N2": 0
-          },
-          "ENDSUBENT": {
-            "N1": 0,
-            "N2": 0
+            "N2": 20260319,
+            "transmission_identification": "D151"
           }
         },
         {
           "SUBENT": {
             "N1": "D4080004",
-            "N2": 20100614,
+            "N2": 20260319,
             "alteration_flag": " ",
-            "transmission_identification": "D074"
+            "transmission_identification": "D151"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1645,12 +1093,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Tarkanyi+",
+                "reference": {
+                  "code": "C,91JUELIC,,529,1991",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "91JUELIC",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "529"
+                    },
+                    "date": 1991
+                  }
+                }
               },
               "free_text": [
-                " Data were taken from Figure 4. of the",
-                "publication C,91JUELIC,,p.531,1991."
+                " Fig.4"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260319,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated in the new format"
               ]
             }
           ],
@@ -1776,12 +1249,12 @@
         {
           "SUBENT": {
             "N1": "D4080005",
-            "N2": 20100614,
+            "N2": 20260319,
             "alteration_flag": " ",
-            "transmission_identification": "D074"
+            "transmission_identification": "D151"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1847,12 +1320,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Tarkanyi+",
+                "reference": {
+                  "code": "C,91JUELIC,,529,1991",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "91JUELIC",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "529"
+                    },
+                    "date": 1991
+                  }
+                }
               },
               "free_text": [
-                " Data were taken from Figure 6. of the",
-                "publication C,91JUELIC,,p.531,1991."
+                " Fig.6"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260319,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated in the new format"
               ]
             }
           ],
@@ -2006,12 +1504,12 @@
         {
           "SUBENT": {
             "N1": "D4080006",
-            "N2": 20100614,
+            "N2": 20260319,
             "alteration_flag": " ",
-            "transmission_identification": "D074"
+            "transmission_identification": "D151"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -2077,12 +1575,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Tarkanyi+",
+                "reference": {
+                  "code": "C,91JUELIC,,529,1991",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "91JUELIC",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "529"
+                    },
+                    "date": 1991
+                  }
+                }
               },
               "free_text": [
-                " Data were taken from Figure 5. of the",
-                "publication C,91JUELIC,,p.531,1991."
+                " Fig.5"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260319,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated in the new format"
               ]
             }
           ],
@@ -2212,12 +1735,12 @@
         {
           "SUBENT": {
             "N1": "D4080007",
-            "N2": 20100614,
+            "N2": 20260319,
             "alteration_flag": " ",
-            "transmission_identification": "D074"
+            "transmission_identification": "D151"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -2250,7 +1773,7 @@
           ],
           "DECAY-DATA": [
             {
-              "pointer": "1",
+              "pointer": "",
               "coded_information": {
                 "flag": null,
                 "nuclide": "31-GA-66",
@@ -2283,12 +1806,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Tarkanyi+",
+                "reference": {
+                  "code": "C,91JUELIC,,529,1991",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "91JUELIC",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "529"
+                    },
+                    "date": 1991
+                  }
+                }
               },
               "free_text": [
-                " Data were taken from Figure 3. of the",
-                "publication C,91JUELIC,,p.531,1991."
+                " Fig.3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260319,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated in the new format"
               ]
             }
           ],

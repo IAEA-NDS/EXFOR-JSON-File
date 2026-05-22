@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:03:31+0000",
+  "time_stamp": "2026-05-22T21:43:56+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "D0355",
-        "N2": 20200521,
+        "N2": 20260319,
         "alteration_flag": " ",
-        "transmission_identification": "D127"
+        "transmission_identification": "D151"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "D0355001",
-            "N2": 20200521,
+            "N2": 20260319,
             "alteration_flag": " ",
-            "transmission_identification": "D127"
+            "transmission_identification": "D151"
           },
           "BIB": {
             "N1": 11,
@@ -26,7 +26,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Alpha-particle production: Direct and compound",
+                "Alpha-particle production: direct and compound",
                 " contribution in the reaction 7Li+28Si at",
                 " near-barrier energies"
               ]
@@ -179,7 +179,7 @@
                 "NTRTH"
               ],
               "free_text": [
-                " Rutherford scattering at 15 deg assumed"
+                " Rutherford scattering at 15 degree assumed"
               ]
             }
           ],
@@ -195,7 +195,7 @@
                 "reference": null
               },
               "free_text": [
-                " Entry approved by Prof.A.Pakou"
+                " Entry approved by Prof. A.Pakou"
               ]
             }
           ],
@@ -219,29 +219,24 @@
               "free_text": [
                 " On. REFERENCE corrected."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260319,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Revision in 002-005 and ANG-ERR from",
+                " COMMON have been shifted to 002-003."
+              ]
             }
           ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 1,
-            "N2": 0,
-            "pointer": [
-              ""
-            ],
-            "heading": [
-              "ANG-ERR"
-            ],
-            "unit": [
-              "ADEG"
-            ],
-            "value": [
-              1.0
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -253,12 +248,12 @@
         {
           "SUBENT": {
             "N1": "D0355002",
-            "N2": 20050801,
+            "N2": 20260319,
             "alteration_flag": " ",
-            "transmission_identification": "D042"
+            "transmission_identification": "D151"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -311,11 +306,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.Pakou+",
+                "reference": {
+                  "code": "J,PR/C,71,064602,2005",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "71",
+                      "part": null,
+                      "issue": null,
+                      "page": "064602"
+                    },
+                    "date": 2005
+                  }
+                }
               },
               "free_text": [
-                " Tables from the web-site"
+                " Tables from the",
+                " journal's website"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260319,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. ANG-ERR=1.0 added in COMMON and STATUS",
+                " updated in the new format."
               ]
             }
           ],
@@ -323,7 +346,23 @@
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "ANG-ERR"
+            ],
+            "unit": [
+              "ADEG"
+            ],
+            "value": [
+              1.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -753,12 +792,12 @@
         {
           "SUBENT": {
             "N1": "D0355003",
-            "N2": 20050801,
+            "N2": 20260319,
             "alteration_flag": " ",
-            "transmission_identification": "D042"
+            "transmission_identification": "D151"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -795,15 +834,15 @@
               "coded_information": null,
               "free_text": [
                 "Angular distributions of alphas from deuteron transfer",
-                "reaction leading to He-5 breaking into n + alpha.",
-                "Angular distributions derived from experimental total",
-                "alpha production (subentry 2) minus calculated",
-                "compound reaction contribution.",
+                " reaction leading to He-5 breaking into n+alpha.",
+                " Angular distributions derived from experimental total",
+                " alpha production (subentry 2) minus calculated",
+                " compound reaction contribution.",
                 "According to authors, the resulting direct reaction",
-                "contribution to the alpha spectrum is due mainly to",
-                "deuteron transfer, plus possibly some unknown",
-                "contribution of triton transfer ( = reaction",
-                "28Si(7Li,alpha)31P)."
+                " contribution to the alpha spectrum is due mainly to",
+                " deuteron transfer, plus possibly some unknown",
+                " contribution of triton transfer ( = reaction",
+                " 28Si(7Li,alpha)31P)."
               ]
             }
           ],
@@ -815,11 +854,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.Pakou+",
+                "reference": {
+                  "code": "J,PR/C,71,064602,2005",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "71",
+                      "part": null,
+                      "issue": null,
+                      "page": "064602"
+                    },
+                    "date": 2005
+                  }
+                }
               },
               "free_text": [
-                " Tables from the web-site"
+                " Tables from the",
+                " journal's website"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260319,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. ANG-ERR=1.0 added in COMMON and STATUS",
+                " updated in the new format."
               ]
             }
           ],
@@ -827,7 +894,23 @@
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "ANG-ERR"
+            ],
+            "unit": [
+              "ADEG"
+            ],
+            "value": [
+              1.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -1189,12 +1272,12 @@
         {
           "SUBENT": {
             "N1": "D0355004",
-            "N2": 20050801,
+            "N2": 20260319,
             "alteration_flag": " ",
-            "transmission_identification": "D042"
+            "transmission_identification": "D151"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1247,11 +1330,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.Pakou+",
+                "reference": {
+                  "code": "J,PR/C,71,064602,2005",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "71",
+                      "part": null,
+                      "issue": null,
+                      "page": "064602"
+                    },
+                    "date": 2005
+                  }
+                }
               },
               "free_text": [
-                " Data from the table 2 or the article"
+                " Table 2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260319,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated in the new format."
               ]
             }
           ],
@@ -1316,12 +1425,12 @@
         {
           "SUBENT": {
             "N1": "D0355005",
-            "N2": 20050801,
+            "N2": 20260319,
             "alteration_flag": " ",
-            "transmission_identification": "D042"
+            "transmission_identification": "D151"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -1358,9 +1467,9 @@
               "coded_information": null,
               "free_text": [
                 "The transfer cross sections were obtained by",
-                "subtracting the fusion cross section from the total",
-                "alpha cross section and may be taken as an upper",
-                "limit to d- and possibly t-transfer mechanisms."
+                " subtracting the fusion cross section from the total",
+                " alpha cross section and may be taken as an upper",
+                " limit to d- and possibly t-transfer mechanisms."
               ]
             }
           ],
@@ -1386,11 +1495,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.Pakou+",
+                "reference": {
+                  "code": "J,PR/C,71,064602,2005",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "71",
+                      "part": null,
+                      "issue": null,
+                      "page": "064602"
+                    },
+                    "date": 2005
+                  }
+                }
               },
               "free_text": [
-                " Data from the table 2 or the article"
+                " Table 2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260319,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated in the new format."
               ]
             }
           ],

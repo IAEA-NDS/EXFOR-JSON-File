@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:04:56+0000",
+  "time_stamp": "2026-05-22T21:43:57+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "D0462",
-        "N2": 20080327,
+        "N2": 20260323,
         "alteration_flag": " ",
-        "transmission_identification": "D060"
+        "transmission_identification": "D151"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "D0462001",
-            "N2": 20080327,
+            "N2": 20260323,
             "alteration_flag": " ",
-            "transmission_identification": "D060"
+            "transmission_identification": "D151"
           },
           "BIB": {
             "N1": 9,
@@ -26,8 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Elastic Scattering of 1.5-3.0 MeV Deuterons by 12C,",
-                "25Mg and 27A1"
+                "Elastic scattering of 1.5-3.0 MeV deuterons by 12C,",
+                " 25Mg and 27A1"
               ]
             }
           ],
@@ -94,10 +94,10 @@
                 "facility": [
                   "VDG"
                 ],
-                "institute": null
+                "institute": "3CHFTHU"
               },
               "free_text": [
-                " Van de Graaff accelerator"
+                " 3 MeV Van de Graaff"
               ]
             }
           ],
@@ -128,25 +128,20 @@
                 "SOLST"
               ],
               "free_text": [
-                " Two solid state detectors were used to monit",
-                "the scattering deuterons"
+                " Two solid state detectors were used to monitor",
+                " the scattering deuterons"
               ]
             }
           ],
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
+              "coded_information": null,
               "free_text": [
-                " The uncertainties in the absolute cross",
-                "sections are believed to be within 15%, the probable",
-                "error is due chiefly to the uncertainty in the",
-                "normalization processes."
+                "The uncertainties in the absolute cross",
+                " sections are believed to be within 15%, the probable",
+                " error is due chiefly to the uncertainty in the",
+                " normalization processes."
               ]
             }
           ],
@@ -160,6 +155,16 @@
               "free_text": [
                 ""
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260323,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Revision in the entry"
+              ]
             }
           ],
           "ENDBIB": {
@@ -167,22 +172,18 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 1,
             "N2": 0,
             "pointer": [
-              "",
               ""
             ],
             "heading": [
-              "DATA-ERR",
               "EN-RSL"
             ],
             "unit": [
-              "PER-CENT",
               "MEV"
             ],
             "value": [
-              15.0,
               0.05
             ]
           },
@@ -198,9 +199,9 @@
         {
           "SUBENT": {
             "N1": "D0462002",
-            "N2": 20080327,
+            "N2": 20260323,
             "alteration_flag": " ",
-            "transmission_identification": "D060"
+            "transmission_identification": "D151"
           },
           "BIB": {
             "N1": 4,
@@ -230,7 +231,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                "  fig. 2"
+                ""
               ]
             }
           ],
@@ -240,33 +241,7 @@
               "coded_information": null,
               "free_text": [
                 "12C was thin self-supporting target of thickness about",
-                "30 mu-g/cm2"
-              ]
-            }
-          ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ANG-ERR-D",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "  Digitizing error"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "    Digitizing error"
+                " 30 mu-g/cm2"
               ]
             }
           ],
@@ -278,11 +253,38 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "W.N.Wang",
+                "reference": {
+                  "code": "J,CHP,5,1,1967",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CHP",
+                      "number": null,
+                      "volume": "5",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 1967
+                  }
+                }
               },
               "free_text": [
-                " data from fig. 2 of the ref."
+                " Fig.2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260323,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DATA: ANG->ANG-CM replaced; STATUS",
+                " updated and ERR-ANALYS deleted."
               ]
             }
           ],
@@ -291,27 +293,19 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 3,
+            "N1": 1,
             "N2": 0,
             "pointer": [
-              "",
-              "",
               ""
             ],
             "heading": [
-              "EN",
-              "ANG-ERR-D",
-              "ERR-DIG"
+              "EN"
             ],
             "unit": [
-              "MEV",
-              "ADEG",
-              "NO-DIM"
+              "MEV"
             ],
             "value": [
-              1.5,
-              0.5,
-              0.005
+              1.5
             ]
           },
           "ENDCOMMON": {
@@ -326,7 +320,7 @@
               ""
             ],
             "heading": [
-              "ANG",
+              "ANG-CM",
               "DATA"
             ],
             "unit": [
@@ -400,12 +394,12 @@
         {
           "SUBENT": {
             "N1": "D0462003",
-            "N2": 20080327,
+            "N2": 20260323,
             "alteration_flag": " ",
-            "transmission_identification": "D060"
+            "transmission_identification": "D151"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -442,7 +436,7 @@
               "coded_information": null,
               "free_text": [
                 "12C was thin self-supporting target of thickness about",
-                "30 mu-g/cm2"
+                " 30 mu-g/cm2"
               ]
             }
           ],
@@ -451,14 +445,40 @@
               "pointer": "",
               "coded_information": {
                 "status": [
-                  "TABLE"
+                  "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "W.N.Wang",
+                "reference": {
+                  "code": "J,CHP,5,1,1967",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CHP",
+                      "number": null,
+                      "volume": "5",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 1967
+                  }
+                }
               },
               "free_text": [
-                " data from tbl.1 of the ref."
+                " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260323,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -564,9 +584,9 @@
         {
           "SUBENT": {
             "N1": "D0462004",
-            "N2": 20080327,
+            "N2": 20260323,
             "alteration_flag": " ",
-            "transmission_identification": "D060"
+            "transmission_identification": "D151"
           },
           "BIB": {
             "N1": 4,
@@ -596,7 +616,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                "  fig.3"
+                ""
               ]
             }
           ],
@@ -606,33 +626,7 @@
               "coded_information": null,
               "free_text": [
                 "12C was thin self-supporting target of thickness about",
-                "30 mu-g/cm2"
-              ]
-            }
-          ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "EN-ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Digitizing error"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "    Digitizing error"
+                " 30 mu-g/cm2"
               ]
             }
           ],
@@ -644,11 +638,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "W.N.Wang",
+                "reference": {
+                  "code": "J,CHP,5,1,1967",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CHP",
+                      "number": null,
+                      "volume": "5",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 1967
+                  }
+                }
               },
               "free_text": [
-                " data from fig.3 of the ref."
+                " Fig.3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260323,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. ERR-ANALYS deleted and STATUS updated"
               ]
             }
           ],
@@ -656,27 +676,7 @@
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "EN-ERR-DIG",
-              "ERR-DIG"
-            ],
-            "unit": [
-              "MEV",
-              "MB/SR"
-            ],
-            "value": [
-              0.002,
-              4.0
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -1298,9 +1298,9 @@
         {
           "SUBENT": {
             "N1": "D0462005",
-            "N2": 20080327,
+            "N2": 20260323,
             "alteration_flag": " ",
-            "transmission_identification": "D060"
+            "transmission_identification": "D151"
           },
           "BIB": {
             "N1": 4,
@@ -1330,7 +1330,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " fig.2"
+                ""
               ]
             }
           ],
@@ -1340,33 +1340,7 @@
               "coded_information": null,
               "free_text": [
                 "25Mg was thin target of thickness about 30 mu-g/cm2",
-                "on a thin carbon backing."
-              ]
-            }
-          ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ANG-ERR-D",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "  Digitizing error"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "    Digitizing error"
+                " on a thin carbon backing."
               ]
             }
           ],
@@ -1378,11 +1352,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "W.N.Wang",
+                "reference": {
+                  "code": "J,CHP,5,1,1967",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CHP",
+                      "number": null,
+                      "volume": "5",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 1967
+                  }
+                }
               },
               "free_text": [
-                " data from fig. 2 of the ref."
+                " Fig.2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260323,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. ERR-ANALYS deleted and STATUS updated"
               ]
             }
           ],
@@ -1390,27 +1390,7 @@
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "ANG-ERR-D",
-              "ERR-DIG"
-            ],
-            "unit": [
-              "ADEG",
-              "NO-DIM"
-            ],
-            "value": [
-              0.5,
-              0.004
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -1742,12 +1722,12 @@
         {
           "SUBENT": {
             "N1": "D0462006",
-            "N2": 20080327,
+            "N2": 20260323,
             "alteration_flag": " ",
-            "transmission_identification": "D060"
+            "transmission_identification": "D151"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1793,14 +1773,40 @@
               "pointer": "",
               "coded_information": {
                 "status": [
-                  "TABLE"
+                  "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "W.N.Wang",
+                "reference": {
+                  "code": "J,CHP,5,1,1967",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CHP",
+                      "number": null,
+                      "volume": "5",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 1967
+                  }
+                }
               },
               "free_text": [
-                " data from tbl.1 of the ref."
+                " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260323,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -1902,9 +1908,9 @@
         {
           "SUBENT": {
             "N1": "D0462007",
-            "N2": 20080327,
+            "N2": 20260323,
             "alteration_flag": " ",
-            "transmission_identification": "D060"
+            "transmission_identification": "D151"
           },
           "BIB": {
             "N1": 4,
@@ -1934,7 +1940,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " fig.3"
+                ""
               ]
             }
           ],
@@ -1944,33 +1950,7 @@
               "coded_information": null,
               "free_text": [
                 "25Mg was thin target of thickness about 30 mu-g/cm2",
-                "on a thin carbon backing."
-              ]
-            }
-          ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "EN-ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Digitizing error"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "    Digitizing error"
+                " on a thin carbon backing."
               ]
             }
           ],
@@ -1982,11 +1962,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "W.N.Wang",
+                "reference": {
+                  "code": "J,CHP,5,1,1967",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CHP",
+                      "number": null,
+                      "volume": "5",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 1967
+                  }
+                }
               },
               "free_text": [
-                " data from fig.3 of the ref."
+                " Fig.3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260323,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. ERR-ANALYS deleted and STATUS updated"
               ]
             }
           ],
@@ -1994,27 +2000,7 @@
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "EN-ERR-DIG",
-              "ERR-DIG"
-            ],
-            "unit": [
-              "MEV",
-              "MB/SR"
-            ],
-            "value": [
-              0.002,
-              0.5
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -2286,9 +2272,9 @@
         {
           "SUBENT": {
             "N1": "D0462008",
-            "N2": 20080327,
+            "N2": 20260323,
             "alteration_flag": " ",
-            "transmission_identification": "D060"
+            "transmission_identification": "D151"
           },
           "BIB": {
             "N1": 4,
@@ -2318,7 +2304,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " fig.2"
+                ""
               ]
             }
           ],
@@ -2332,32 +2318,6 @@
               ]
             }
           ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ANG-ERR-D",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "  Digitizing error"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "    Digitizing error"
-              ]
-            }
-          ],
           "STATUS": [
             {
               "pointer": "",
@@ -2366,11 +2326,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "W.N.Wang",
+                "reference": {
+                  "code": "J,CHP,5,1,1967",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CHP",
+                      "number": null,
+                      "volume": "5",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 1967
+                  }
+                }
               },
               "free_text": [
-                " data from fig. 2 of the ref."
+                " Fig.2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260323,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. ERR-ANALYS deleted and STATUS updated"
               ]
             }
           ],
@@ -2378,27 +2364,7 @@
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "ANG-ERR-D",
-              "ERR-DIG"
-            ],
-            "unit": [
-              "ADEG",
-              "NO-DIM"
-            ],
-            "value": [
-              0.5,
-              0.004
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -2580,12 +2546,12 @@
         {
           "SUBENT": {
             "N1": "D0462009",
-            "N2": 20080327,
+            "N2": 20260323,
             "alteration_flag": " ",
-            "transmission_identification": "D060"
+            "transmission_identification": "D151"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -2631,14 +2597,40 @@
               "pointer": "",
               "coded_information": {
                 "status": [
-                  "TABLE"
+                  "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "W.N.Wang",
+                "reference": {
+                  "code": "J,CHP,5,1,1967",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CHP",
+                      "number": null,
+                      "volume": "5",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 1967
+                  }
+                }
               },
               "free_text": [
-                " data from tbl.1 of the ref."
+                " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260323,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -2748,9 +2740,9 @@
         {
           "SUBENT": {
             "N1": "D0462010",
-            "N2": 20080327,
+            "N2": 20260323,
             "alteration_flag": " ",
-            "transmission_identification": "D060"
+            "transmission_identification": "D151"
           },
           "BIB": {
             "N1": 4,
@@ -2780,7 +2772,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " fig.3"
+                ""
               ]
             }
           ],
@@ -2794,32 +2786,6 @@
               ]
             }
           ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "EN-ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Digitizing error"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "    Digitizing error"
-              ]
-            }
-          ],
           "STATUS": [
             {
               "pointer": "",
@@ -2828,11 +2794,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "W.N.Wang",
+                "reference": {
+                  "code": "J,CHP,5,1,1967",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CHP",
+                      "number": null,
+                      "volume": "5",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 1967
+                  }
+                }
               },
               "free_text": [
-                " data from fig.3 of the ref."
+                " Fig.3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260323,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. ERR-ANALYS deleted and STATUS updated"
               ]
             }
           ],
@@ -2840,27 +2832,7 @@
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "EN-ERR-DIG",
-              "ERR-DIG"
-            ],
-            "unit": [
-              "MEV",
-              "MB/SR"
-            ],
-            "value": [
-              0.002,
-              10.0
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
