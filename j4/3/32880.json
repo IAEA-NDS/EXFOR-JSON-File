@@ -1,0 +1,703 @@
+{
+  "title": "J4 - EXFOR in JSON",
+  "time_stamp": "2026-05-22T18:52:48+0000",
+  "entries": [
+    {
+      "ENTRY": {
+        "N1": "32880",
+        "N2": 20251202,
+        "alteration_flag": " ",
+        "transmission_identification": "3221"
+      },
+      "subentries": [
+        {
+          "SUBENT": {
+            "N1": "32880001",
+            "N2": 20251202,
+            "alteration_flag": " ",
+            "transmission_identification": "3221"
+          },
+          "BIB": {
+            "N1": 13,
+            "N2": 0
+          },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Cross sections of the 144Sm(n,a)141Nd reaction at",
+                " 5.5 and 6.5 MeV"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "Yu.M.Gledenov",
+                "M.V.Sedysheva",
+                "L.Krupa",
+                "E.Sansarbayar",
+                "G.Khuukhenkhuu",
+                "Haoyu Jiang",
+                "Huaiyong Bai",
+                "Yi Lu",
+                "Zengqi Cui",
+                "Jinxiang Chen",
+                "Guohui Zhang"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "4ZZZDUB",
+                "3CZRCTI",
+                "3MGLNUM",
+                "3CPRBJG"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "S,ISINN-26,63,2019",
+                "code_unit": [
+                  {
+                    "unit": "S,ISINN-26,63,2019",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "S",
+                      "reference": {
+                        "code": "ISINN-",
+                        "number": "26",
+                        "volume": null,
+                        "part": null,
+                        "issue": null,
+                        "page": "63"
+                      },
+                      "date": 2019
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "VDG"
+                ],
+                "institute": "3CPRBJG"
+              },
+              "free_text": [
+                " 4.5 MV Van de Graaff Accelerator"
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "D-D"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                " The mono-energetic neutrons were generated",
+                " using energetic deuteron beam from the accelerator to",
+                " bombard a deuterium gas target. For neutron energies",
+                " of 5.5 and 6.5 MeV, the corresponding neutron energy",
+                " spreads (1 sigma) were 0.14 and 0.10 MeV,",
+                " respectively. The beam current was about 2.0 uA",
+                " throughout the measurement."
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "nuclide": "62-SM-144",
+                "field_identifier": "NAT",
+                "value": 0.95
+              },
+              "free_text": [
+                "",
+                "+-----------------------------------------------------+",
+                " Samples  Material  Isotopic     Thickness    Diameter",
+                "                    enrichment(%) (ug/cm2)      (mm)",
+                "-------------------------------------------------------",
+                " 144Sm    144Sm2O3  95.0         4084 (Forward)   44.0",
+                "                                 3177 (Backward)  44.0",
+                " 238U     238U3O8   99.999       604.84           45.0",
+                "+-----------------------------------------------------+"
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "BF3"
+              ],
+              "free_text": [
+                " The relative neutron flux was monitored using a",
+                " BF3 long counter."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "IOCH"
+              ],
+              "free_text": [
+                " The alpha-particle detector is a twin gridded",
+                " ionization chamber (GIC). Working gas of the GIC was",
+                " Kr + 2.83% CO2, and the pressure is 2.02 atm for the",
+                " alpha-particles to be stopped before reaching the",
+                " grids."
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "92-U-238(N,F),,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "92-U-238(N,F),,SIG",
+                      "field": {
+                        "reaction": "92-U-238(N,F)",
+                        "target": "92-U-238",
+                        "projectile": "N",
+                        "process": "F",
+                        "product": "",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                "",
+                "The 238U(n,f) reaction taken from IAEA Neutron Cross-",
+                " section References (2015). Pronyaev V., Simakov S.,",
+                " Marcinkevicius B., University of Leeds, 158, 80, 2015"
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The uncertainties in the forward/backward cross",
+                " section Sig(forward/backward) due to statistics,",
+                " valid-event-area of alpha-source events, alpha",
+                " particle detection efficiency, background reduction",
+                " for the forward/backward events Err(forward/backward)",
+                " is propagated to the corresponding uncertainty",
+                " Err(total) in the total cross section Sig(tot) by",
+                " Err(total)=sqrt((Sig(forward)*Err(forward))**2+",
+                " (Sig(backward)*Err(backward))**2)/(Sig(forward)",
+                " +(Sig(backward))",
+                " Where the Sig(forward) are 0.1295 mb at 5.5 MeV,",
+                " 0.3011 mb at 6.5 MeV; the Sig(backward) are",
+                " 0.0636 mb at 5.5 MeV, 0.1117 mb at 6.5 MeV."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " The total uncertainty"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistical error of alpha-particles forward"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistical error of alpha-particles backward"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Valid-event-area of alpha-sources events",
+                "forward"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-4",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Valid-event-area of alpha-sources events",
+                "backward"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-5",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Detection efficiency of alpha-particles forward"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-6",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Detection efficiency of alpha-particles",
+                "backward"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-7",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Background reduction forward"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-8",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Background reduction backward"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-9",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Background uncertainty forward"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-10",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Background uncertainty backward"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-11",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Neutron energy spreads for fission events"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-12",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistical error of fission events"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-13",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Detection efficiency for fission fragment"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-14",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Numbers of 238U nucleus"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-15",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Normalization of the BF3 counts"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-16",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Numbers of 144Sm nucleus"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "MONIT-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " 238U(n,f) cross sections"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "Yu.M.Gledenov+",
+                "reference": {
+                  "code": "S,ISINN-26,63,2019",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "ISINN-",
+                      "number": "26",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "63"
+                    },
+                    "date": 2019
+                  }
+                }
+              },
+              "free_text": [
+                " Table 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251202,
+                "history": "C"
+              },
+              "free_text": [
+                " Compiled by Xi Tao (CNDC)"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 3,
+            "N2": 0,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "ERR-14",
+              "ERR-16",
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              0.45,
+              1.0,
+              0.7
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "32880002",
+            "N2": 20251202,
+            "alteration_flag": " ",
+            "transmission_identification": "3221"
+          },
+          "BIB": {
+            "N1": 1,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "62-SM-144(N,A)60-ND-141,,SIG",
+                "code_unit": [
+                  {
+                    "unit": "62-SM-144(N,A)60-ND-141,,SIG",
+                    "field": {
+                      "reaction": "62-SM-144(N,A)60-ND-141",
+                      "target": "62-SM-144",
+                      "projectile": "N",
+                      "process": "A",
+                      "product": "60-ND-141",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 18,
+            "N2": 2,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL",
+              "DATA",
+              "ERR-T",
+              "ERR-1",
+              "ERR-2",
+              "ERR-3",
+              "ERR-4",
+              "ERR-5",
+              "ERR-6",
+              "ERR-7",
+              "ERR-8",
+              "ERR-9",
+              "ERR-10",
+              "ERR-11",
+              "ERR-12",
+              "ERR-13",
+              "ERR-15"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT"
+            ],
+            "value": [
+              [
+                5.5,
+                0.14,
+                0.19,
+                9.1,
+                3.45,
+                5.6,
+                0.47,
+                0.7,
+                6.16,
+                11.82,
+                1.41,
+                3.68,
+                null,
+                null,
+                0.8,
+                0.45,
+                5.11,
+                3.3
+              ],
+              [
+                6.5,
+                0.1,
+                0.41,
+                15.1,
+                3.49,
+                6.5,
+                0.15,
+                1.03,
+                5.13,
+                9.49,
+                0.87,
+                3.88,
+                3.09,
+                17.82,
+                6.87,
+                0.54,
+                5.03,
+                9.65
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        }
+      ],
+      "ENDENTRY": {
+        "N1": 2,
+        "N2": 0
+      }
+    }
+  ]
+}
