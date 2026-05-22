@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:27:40+0000",
+  "time_stamp": "2026-05-22T20:41:02+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "11625",
-        "N2": 20160809,
+        "N2": 20260110,
         "alteration_flag": " ",
-        "transmission_identification": "1421"
+        "transmission_identification": "1525"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "11625001",
-            "N2": 20160809,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1421"
+            "transmission_identification": "1525"
           },
           "BIB": {
             "N1": 11,
@@ -58,7 +58,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.13182/NSE60-A25817"
               ]
             }
           ],
@@ -155,10 +156,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "W.S.Lyon",
+                "reference": {
+                  "code": "J,NSE,8,378,1960",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NSE",
+                      "number": null,
+                      "volume": "8",
+                      "part": null,
+                      "issue": null,
+                      "page": "378"
+                    },
+                    "date": 1960
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Tables I,II of Nucl.Sci.Eng.8,378,1960"
               ]
             }
@@ -204,6 +220,16 @@
                 " DECAY-DATA in subs.7,18 modified,",
                 " converted to lower case. FACILITY and ERR-ANALYS",
                 " added, STATUS updated."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260102,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. Correction in sub.33"
               ]
             }
           ],
@@ -4293,28 +4319,28 @@
         {
           "SUBENT": {
             "N1": "11625033",
-            "N2": 19830815,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "75-RE-185(N,G)75-RE-186,,SIG,,MXW",
+                "code": "75-RE-185(N,G)75-RE-186-G,,SIG,,MXW",
                 "code_unit": [
                   {
-                    "unit": "75-RE-185(N,G)75-RE-186,,SIG,,MXW",
+                    "unit": "75-RE-185(N,G)75-RE-186-G,,SIG,,MXW",
                     "field": {
-                      "reaction": "75-RE-185(N,G)75-RE-186",
+                      "reaction": "75-RE-185(N,G)75-RE-186-G",
                       "target": "75-RE-185",
                       "projectile": "N",
                       "process": "G",
-                      "product": "75-RE-186",
+                      "product": "75-RE-186-G",
                       "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": "MXW",
@@ -4365,7 +4391,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "75-RE-186",
+                "nuclide": "75-RE-186-G",
                 "half-life": {
                   "value": 91.0,
                   "unit": "HR"
@@ -4374,6 +4400,18 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260102,
+                "history": "A"
+              },
+              "free_text": [
+                " -G added to REACTION SF4"
               ]
             }
           ],

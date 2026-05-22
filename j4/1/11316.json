@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:25:00+0000",
+  "time_stamp": "2026-05-22T20:40:57+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "11316",
-        "N2": 19860331,
+        "N2": 20260110,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "1525"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "11316001",
-            "N2": 19860331,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1525"
           },
           "BIB": {
             "N1": 9,
@@ -36,10 +36,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,PR,103,720,56",
+                "code": "J,PR,103,720,1956",
                 "code_unit": [
                   {
-                    "unit": "J,PR,103,720,56",
+                    "unit": "J,PR,103,720,1956",
                     "doi": "10.1103/PhysRev.103.720",
                     "field": {
                       "reference_type": "J",
@@ -58,7 +58,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1103/PhysRev.103.720"
               ]
             }
           ],
@@ -66,10 +67,10 @@
             {
               "pointer": "",
               "coded_information": [
-                "C.O.MUEHLHAUSE",
-                "S.D.BLOOM",
-                "H.E.WEGNER",
-                "G.N.GLASOE"
+                "C.O.Muehlhause",
+                "S.D.Bloom",
+                "H.E.Wegner",
+                "G.N.Glasoe"
               ],
               "free_text": [
                 ""
@@ -81,8 +82,22 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "NEUTRON SCATTERING FROM IRON AND CARBON BY",
-                "TIME-OF-FLIGHT."
+                "Neutron scattering from iron and carbon by",
+                "time-of-flight."
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "CYCLO"
+                ],
+                "institute": "1USABNL"
+              },
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -107,7 +122,7 @@
                 "TOF"
               ],
               "free_text": [
-                " TIME-OF-FLIGHT"
+                " Time-of-flight"
               ]
             }
           ],
@@ -118,23 +133,7 @@
                 "SCIN"
               ],
               "free_text": [
-                " PLASTIC SCINTILLATOR"
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "SCSRS"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                ""
+                " Plastic scintillator"
               ]
             }
           ],
@@ -142,41 +141,53 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 761001,
+                "date": 19761001,
                 "history": "T"
               },
               "free_text": [
-                " TRANSLATED FROM SCISRS"
+                " Translated from SCISRS"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "date": 810428,
+                "date": 19810428,
                 "history": "A"
               },
               "free_text": [
-                " CONVERTED TO REACTION FORMALISM"
+                " Converted to reaction formalism"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "date": 841008,
+                "date": 19841008,
                 "history": "A"
               },
               "free_text": [
-                " BIB CORRECTION."
+                " BIB correction."
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "date": 860331,
+                "date": 19860331,
                 "history": "A"
               },
               "free_text": [
-                " BIB CORRECTIONS"
+                " BIB corrections"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251229,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. ANG-RSL moved to subs.2-5,",
+                " STATUS updated, FACILITY added, ERR-ANALYS added where",
+                " applicable, converted to upper and lower case"
               ]
             }
           ],
@@ -185,23 +196,19 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 1,
             "N2": 0,
             "pointer": [
-              "",
               ""
             ],
             "heading": [
-              "EN-RSL",
-              "ANG-RSL"
+              "EN-RSL"
             ],
             "unit": [
-              "KEV",
-              "ADEG"
+              "KEV"
             ],
             "value": [
-              75.0,
-              10.0
+              75.0
             ]
           },
           "ENDCOMMON": {
@@ -216,12 +223,12 @@
         {
           "SUBENT": {
             "N1": "11316002",
-            "N2": 19860331,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -257,7 +264,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "NOT CORRECTED FOR MULTIPLE SCATTERING"
+                "Not corrected for multiple scattering"
               ]
             }
           ],
@@ -292,28 +299,75 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SCSRS"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251229,
+                "history": "A"
+              },
+              "free_text": [
+                " ANG-RSL and STATUS moved from sub.1,",
+                " ERR-ANALYS added, DATA -> DATA-CM"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0,
             "pointer": [
+              "",
               "",
               ""
             ],
             "heading": [
               "EN",
-              "MONIT"
+              "MONIT",
+              "ANG-RSL"
             ],
             "unit": [
               "MEV",
-              "B"
+              "B",
+              "ADEG"
             ],
             "value": [
               1.66,
-              1.79
+              1.79,
+              10.0
             ]
           },
           "ENDCOMMON": {
@@ -330,7 +384,7 @@
             ],
             "heading": [
               "COS-CM",
-              "DATA",
+              "DATA-CM",
               "DATA-ERR"
             ],
             "unit": [
@@ -403,12 +457,12 @@
         {
           "SUBENT": {
             "N1": "11316003",
-            "N2": 19860417,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -475,7 +529,37 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "CORRECTED FOR MULTIPLE SCATTERING ONLY AT 1.66 MEV."
+                "Corrected for multiple scattering only at 1.66 MeV."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SCSRS"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -483,11 +567,22 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 860417,
+                "date": 19860417,
                 "history": "A"
               },
               "free_text": [
-                " REACTION PRODUCT ADDED."
+                " Reaction product added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251229,
+                "history": "A"
+              },
+              "free_text": [
+                " ANG-RSL and STATUS moved from sub.1,",
+                " ERR-ANALYS added, DATA -> DATA-CM"
               ]
             }
           ],
@@ -495,7 +590,23 @@
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "ANG-RSL"
+            ],
+            "unit": [
+              "ADEG"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -511,7 +622,7 @@
             "heading": [
               "EN",
               "COS-CM",
-              "DATA",
+              "DATA-CM",
               "DATA-ERR"
             ],
             "unit": [
@@ -865,12 +976,12 @@
         {
           "SUBENT": {
             "N1": "11316004",
-            "N2": 19860417,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -907,16 +1018,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "26-FE-0(N,INL),,SIG",
+                  "code": "26-FE-0(N,INL)26-FE-0,,SIG",
                   "code_unit": [
                     {
-                      "unit": "26-FE-0(N,INL),,SIG",
+                      "unit": "26-FE-0(N,INL)26-FE-0,,SIG",
                       "field": {
-                        "reaction": "26-FE-0(N,INL)",
+                        "reaction": "26-FE-0(N,INL)26-FE-0",
                         "target": "26-FE-0",
                         "projectile": "N",
                         "process": "INL",
-                        "product": "",
+                        "product": "26-FE-0",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -937,7 +1048,37 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "CORRECTED FOR MULTIPLE SCATTERING ONLY AT 1.66 MEV."
+                "Corrected for multiple scattering only at 1.66 MeV."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SCSRS"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -945,11 +1086,22 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 860417,
+                "date": 19860417,
                 "history": "A"
               },
               "free_text": [
-                " REACTION PRODUCT ADDED."
+                " Reaction product added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251229,
+                "history": "A"
+              },
+              "free_text": [
+                " ANG-RSL and STATUS moved from sub.1,",
+                " ERR-ANALYS added"
               ]
             }
           ],
@@ -958,19 +1110,23 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0,
             "pointer": [
+              "",
               ""
             ],
             "heading": [
-              "E-LVL"
+              "E-LVL",
+              "ANG-RSL"
             ],
             "unit": [
-              "MEV"
+              "MEV",
+              "ADEG"
             ],
             "value": [
-              0.845
+              0.845,
+              10.0
             ]
           },
           "ENDCOMMON": {
@@ -1145,12 +1301,12 @@
         {
           "SUBENT": {
             "N1": "11316005",
-            "N2": 19860417,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -1187,16 +1343,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "26-FE-0(N,INL),,SIG,G",
+                  "code": "26-FE-0(N,INL)26-FE-0,,SIG,G",
                   "code_unit": [
                     {
-                      "unit": "26-FE-0(N,INL),,SIG,G",
+                      "unit": "26-FE-0(N,INL)26-FE-0,,SIG,G",
                       "field": {
-                        "reaction": "26-FE-0(N,INL)",
+                        "reaction": "26-FE-0(N,INL)26-FE-0",
                         "target": "26-FE-0",
                         "projectile": "N",
                         "process": "INL",
-                        "product": "",
+                        "product": "26-FE-0",
                         "quantity": ",SIG,G",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -1217,7 +1373,37 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "NOT CORRECTED FOR MULTIPLE SCATTERING."
+                "Not corrected for multiple scattering."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SCSRS"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -1225,11 +1411,22 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 860417,
+                "date": 19860417,
                 "history": "A"
               },
               "free_text": [
-                " REACTION PRODUCT ADDED."
+                " Reaction product added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251229,
+                "history": "A"
+              },
+              "free_text": [
+                " ANG-RSL and STATUS moved from sub.1,",
+                " ERR-ANALYS added"
               ]
             }
           ],
@@ -1238,23 +1435,27 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0,
             "pointer": [
+              "",
               "",
               ""
             ],
             "heading": [
               "EN",
-              "E"
+              "E",
+              "ANG-RSL"
             ],
             "unit": [
               "MEV",
-              "MEV"
+              "MEV",
+              "ADEG"
             ],
             "value": [
               1.66,
-              0.845
+              0.845,
+              10.0
             ]
           },
           "ENDCOMMON": {
@@ -1349,12 +1550,12 @@
         {
           "SUBENT": {
             "N1": "11316006",
-            "N2": 19841008,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -1385,15 +1586,55 @@
               ]
             }
           ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "C.O.Muehlhause+",
+                "reference": {
+                  "code": "J,PR,103,720,1956",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "103",
+                      "part": null,
+                      "issue": null,
+                      "page": "720"
+                    },
+                    "date": 1956
+                  }
+                }
+              },
+              "free_text": [
+                "  Text p.724"
+              ]
+            }
+          ],
           "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "date": 841008,
+                "date": 19841008,
                 "history": "C"
               },
               "free_text": [
                 ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251229,
+                "history": "A"
+              },
+              "free_text": [
+                " STATUS added"
               ]
             }
           ],
@@ -1439,12 +1680,12 @@
         {
           "SUBENT": {
             "N1": "11316007",
-            "N2": 19841008,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1475,15 +1716,70 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "C.O.Muehlhause+",
+                "reference": {
+                  "code": "J,PR,103,720,1956",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "103",
+                      "part": null,
+                      "issue": null,
+                      "page": "720"
+                    },
+                    "date": 1956
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table II, p.725"
+              ]
+            }
+          ],
           "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "date": 841008,
+                "date": 19841008,
                 "history": "C"
               },
               "free_text": [
                 ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251229,
+                "history": "A"
+              },
+              "free_text": [
+                " ERR-ANALYS, STATUS added"
               ]
             }
           ],

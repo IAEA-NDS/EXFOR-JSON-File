@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:32:24+0000",
+  "time_stamp": "2026-05-22T20:41:03+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "12165",
-        "N2": 19821012,
+        "N2": 20260110,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "1525"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "12165001",
-            "N2": 19821012,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 8,
+            "N1": 10,
             "N2": 0
           },
           "INSTITUTE": [
@@ -36,10 +36,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "R,NASA-TN-D-4938,6812",
+                "code": "R,NASA-TN-D-4938,1968",
                 "code_unit": [
                   {
-                    "unit": "R,NASA-TN-D-4938,6812",
+                    "unit": "R,NASA-TN-D-4938,1968",
                     "doi": null,
                     "field": {
                       "reference_type": "R",
@@ -51,7 +51,7 @@
                         "issue": null,
                         "page": null
                       },
-                      "date": 196812
+                      "date": 1968
                     }
                   }
                 ],
@@ -66,9 +66,9 @@
             {
               "pointer": "",
               "coded_information": [
-                "C.R.PIERCE",
-                "D.F.SHOOK",
-                "D.BOGART"
+                "C.R.Pierce",
+                "D.F.Shook",
+                "D.Bogart"
               ],
               "free_text": [
                 ""
@@ -80,8 +80,22 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "RESONANCE INTEGRALS OF RHENIUM FOR A WIDE RANGE OF",
-                "SAMPLE SIZES."
+                "Resonance integrals of rhenium for a wide range of",
+                "sample sizes."
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": "1USALRC"
+              },
+              "free_text": [
+                " NASA Zero Power Reactor"
               ]
             }
           ],
@@ -100,7 +114,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": null,
+                "heading": "MONIT1",
                 "reaction": {
                   "code": "79-AU-197(N,G)79-AU-198,,SIG",
                   "code_unit": [
@@ -129,7 +143,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": null,
+                "heading": "MONIT2",
                 "reaction": {
                   "code": "79-AU-197(N,G)79-AU-198,,RI",
                   "code_unit": [
@@ -156,19 +170,48 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No details on sources of uncertainties"
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
               "coded_information": {
                 "status": [
-                  "SCSRS"
+                  "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "C.R.Pierce+",
+                "reference": {
+                  "code": "R,NASA-TN-D-4938,1968",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "NASA-TN-D-",
+                      "number": "4938",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1968
+                  }
+                }
               },
               "free_text": [
-                ""
+                " Table V,",
+                " p.14"
               ]
             }
           ],
@@ -176,21 +219,33 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 760803,
+                "date": 19760803,
                 "history": "T"
               },
               "free_text": [
-                " TRANSLATED FROM SCISRS"
+                " Translated from SCISRS"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "date": 821012,
+                "date": 19821012,
                 "history": "A"
               },
               "free_text": [
-                " CONVERTED TO REACTION FORMALISM"
+                " Converted to reaction formalism"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260102,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. Correction in sub.3, STATUS updated,",
+                " FACILITY, ERR-ANALYS added, MONITOR coding modified,",
+                " converted to upper and lower case"
               ]
             }
           ],
@@ -230,9 +285,9 @@
         {
           "SUBENT": {
             "N1": "12165002",
-            "N2": 19821012,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1525"
           },
           "BIB": {
             "N1": 2,
@@ -270,7 +325,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": null,
+                "heading": "MONIT3",
                 "reaction": {
                   "code": "75-RE-0(N,ABS),,SIG",
                   "code_unit": [
@@ -294,7 +349,7 @@
               },
               "free_text": [
                 "",
-                " RELATIVE TO THERMAL ABSORPTION=89B."
+                " relative to thermal absorption=89b."
               ]
             }
           ],
@@ -348,28 +403,28 @@
         {
           "SUBENT": {
             "N1": "12165003",
-            "N2": 19821012,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "75-RE-185(N,G)75-RE-186,,RI",
+                "code": "75-RE-185(N,G)75-RE-186-G,,RI",
                 "code_unit": [
                   {
-                    "unit": "75-RE-185(N,G)75-RE-186,,RI",
+                    "unit": "75-RE-185(N,G)75-RE-186-G,,RI",
                     "field": {
-                      "reaction": "75-RE-185(N,G)75-RE-186",
+                      "reaction": "75-RE-185(N,G)75-RE-186-G",
                       "target": "75-RE-185",
                       "projectile": "N",
                       "process": "G",
-                      "product": "75-RE-186",
+                      "product": "75-RE-186-G",
                       "quantity": ",RI",
                       "data_type": null,
                       "general_quantity_modifier": null,
@@ -388,7 +443,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": null,
+                "heading": "MONIT3",
                 "reaction": {
                   "code": "75-RE-185(N,ABS),,SIG",
                   "code_unit": [
@@ -412,7 +467,19 @@
               },
               "free_text": [
                 "",
-                " RELATIVE TO THERMAL ABSORPTION=114+-3B."
+                " relative to thermal absorption=114+-3b."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260102,
+                "history": "A"
+              },
+              "free_text": [
+                " -G added to REACTION SF4"
               ]
             }
           ],
@@ -425,9 +492,10 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 4,
+            "N1": 5,
             "N2": 1,
             "pointer": [
+              "",
               "",
               "",
               "",
@@ -437,10 +505,12 @@
               "EN-MIN",
               "DATA",
               "DATA-ERR",
-              "MONIT"
+              "MONIT3",
+              "MONIT3-ERR"
             ],
             "unit": [
               "MEV",
+              "B",
               "B",
               "B",
               "B"
@@ -450,7 +520,8 @@
                 5e-07,
                 1790.0,
                 60.0,
-                114.0
+                114.0,
+                3.0
               ]
             ]
           },
@@ -466,9 +537,9 @@
         {
           "SUBENT": {
             "N1": "12165004",
-            "N2": 19821012,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1525"
           },
           "BIB": {
             "N1": 2,
@@ -506,7 +577,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": null,
+                "heading": "MONIT3",
                 "reaction": {
                   "code": "75-RE-187(N,ABS),,SIG",
                   "code_unit": [
@@ -530,7 +601,7 @@
               },
               "free_text": [
                 "",
-                " RELATIVE TO THERMAL ABSORPTION=75+-4B."
+                " relative to thermal absorption=75+-4b."
               ]
             }
           ],
@@ -543,9 +614,10 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 4,
+            "N1": 5,
             "N2": 1,
             "pointer": [
+              "",
               "",
               "",
               "",
@@ -555,10 +627,12 @@
               "EN-MIN",
               "DATA",
               "DATA-ERR",
-              "MONIT3"
+              "MONIT3",
+              "MONIT3-ERR"
             ],
             "unit": [
               "MEV",
+              "B",
               "B",
               "B",
               "B"
@@ -568,7 +642,8 @@
                 5e-07,
                 323.0,
                 20.0,
-                75.0
+                75.0,
+                4.0
               ]
             ]
           },

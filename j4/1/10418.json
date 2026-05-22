@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:14:22+0000",
+  "time_stamp": "2026-05-22T20:40:51+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "10418",
-        "N2": 20030220,
+        "N2": 20260110,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "1525"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "10418001",
-            "N2": 20030220,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1525"
           },
           "BIB": {
             "N1": 11,
@@ -36,10 +36,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,NP/A,93,609,196703",
+                "code": "J,NP/A,93,609,1967",
                 "code_unit": [
                   {
-                    "unit": "J,NP/A,93,609,196703",
+                    "unit": "J,NP/A,93,609,1967",
                     "doi": "10.1016/0375-9474(67)90310-7",
                     "field": {
                       "reference_type": "J",
@@ -51,14 +51,15 @@
                         "issue": null,
                         "page": "609"
                       },
-                      "date": 196703
+                      "date": 1967
                     }
                   }
                 ],
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1016/0375-9474(67)90310-7"
               ]
             }
           ],
@@ -108,7 +109,7 @@
                 "reaction": null
               },
               "free_text": [
-                " 7Li(p,n) source"
+                ""
               ]
             }
           ],
@@ -119,7 +120,7 @@
                 "TOF"
               ],
               "free_text": [
-                " Time-of-flight"
+                ""
               ]
             }
           ],
@@ -160,7 +161,7 @@
               "coded_information": {
                 "heading": null,
                 "subentry_number": "11224001",
-                "author": "Langsdorf",
+                "author": "A.Langsdorf Jr+",
                 "reference": {
                   "code": "R,ANL-5567,1961",
                   "field": {
@@ -180,7 +181,7 @@
                 }
               },
               "free_text": [
-                " RevISED."
+                " Revised."
               ]
             }
           ],
@@ -196,8 +197,22 @@
                 "reference": null
               },
               "free_text": [
-                " Approved by author 1976/7/19.",
-                "Data received on punched cards, Smith, September 1966."
+                " Approved by author 1976/7/19."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Data received on punched cards, Smith,",
+                " September 1966."
               ]
             }
           ],
@@ -241,6 +256,17 @@
               "free_text": [
                 " Updated to new date formats, lower case.",
                 "            Reaction product added to MONITOR."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251230,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. REACTIONs in subs.7,8 modified, minor",
+                " BIB updates"
               ]
             }
           ],
@@ -5333,9 +5359,9 @@
         {
           "SUBENT": {
             "N1": "10418007",
-            "N2": 20030220,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1525"
           },
           "BIB": {
             "N1": 4,
@@ -5345,30 +5371,16 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "(51-SB-0(N,EL)51-SB-0,,SIG)+(51-SB-0(N,INL)51-SB-121,PAR,SIG)",
+                "code": "51-SB-0(N,SCT)51-SB-0,PAR,SIG",
                 "code_unit": [
                   {
-                    "unit": "51-SB-0(N,EL)51-SB-0,,SIG",
+                    "unit": "51-SB-0(N,SCT)51-SB-0,PAR,SIG",
                     "field": {
-                      "reaction": "51-SB-0(N,EL)51-SB-0",
+                      "reaction": "51-SB-0(N,SCT)51-SB-0",
                       "target": "51-SB-0",
                       "projectile": "N",
-                      "process": "EL",
+                      "process": "SCT",
                       "product": "51-SB-0",
-                      "quantity": ",SIG",
-                      "data_type": null,
-                      "general_quantity_modifier": null,
-                      "quantity_236": ",SIG"
-                    }
-                  },
-                  {
-                    "unit": "51-SB-0(N,INL)51-SB-121,PAR,SIG",
-                    "field": {
-                      "reaction": "51-SB-0(N,INL)51-SB-121",
-                      "target": "51-SB-0",
-                      "projectile": "N",
-                      "process": "INL",
-                      "product": "51-SB-121",
                       "quantity": "PAR,SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
@@ -5376,7 +5388,7 @@
                     }
                   }
                 ],
-                "unit_combination": "((%)+(%))"
+                "unit_combination": "(%)"
               },
               "free_text": [
                 ""
@@ -5386,9 +5398,15 @@
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
               "free_text": [
-                "Probable error about 8%, including error on standard."
+                " Probable error about 8%, including error on",
+                " standard."
               ]
             }
           ],
@@ -5404,7 +5422,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                "  Legendre coefficients"
               ]
             }
           ],
@@ -5418,6 +5436,17 @@
               "free_text": [
                 " Reaction product added."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251230,
+                "history": "A"
+              },
+              "free_text": [
+                " REACTION coding modified, DATA-ERR added",
+                " to COMMON"
+              ]
             }
           ],
           "ENDBIB": {
@@ -5425,19 +5454,27 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 3,
             "N2": 0,
             "pointer": [
+              "",
+              "",
               ""
             ],
             "heading": [
-              "E-LVL"
+              "E-LVL",
+              "E-LVL",
+              "DATA-ERR"
             ],
             "unit": [
-              "MEV"
+              "MEV",
+              "MEV",
+              "PER-CENT"
             ],
             "value": [
-              0.037
+              0.0,
+              0.037,
+              8.0
             ]
           },
           "ENDCOMMON": {
@@ -5678,9 +5715,9 @@
         {
           "SUBENT": {
             "N1": "10418008",
-            "N2": 20030220,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1525"
           },
           "BIB": {
             "N1": 4,
@@ -5690,30 +5727,16 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "(51-SB-0(N,EL)51-SB-0,,DA,,LEG/RS)+(51-SB-0(N,INL)51-SB-121,PAR,DA,,LEG/RS)",
+                "code": "51-SB-0(N,SCT)51-SB-0,PAR,DA,,LEG/RS",
                 "code_unit": [
                   {
-                    "unit": "51-SB-0(N,EL)51-SB-0,,DA,,LEG/RS",
+                    "unit": "51-SB-0(N,SCT)51-SB-0,PAR,DA,,LEG/RS",
                     "field": {
-                      "reaction": "51-SB-0(N,EL)51-SB-0",
+                      "reaction": "51-SB-0(N,SCT)51-SB-0",
                       "target": "51-SB-0",
                       "projectile": "N",
-                      "process": "EL",
+                      "process": "SCT",
                       "product": "51-SB-0",
-                      "quantity": ",DA,,LEG/RS",
-                      "data_type": null,
-                      "general_quantity_modifier": null,
-                      "quantity_236": ",DA,,LEG/RS"
-                    }
-                  },
-                  {
-                    "unit": "51-SB-0(N,INL)51-SB-121,PAR,DA,,LEG/RS",
-                    "field": {
-                      "reaction": "51-SB-0(N,INL)51-SB-121",
-                      "target": "51-SB-0",
-                      "projectile": "N",
-                      "process": "INL",
-                      "product": "51-SB-121",
                       "quantity": "PAR,DA,,LEG/RS",
                       "data_type": null,
                       "general_quantity_modifier": null,
@@ -5721,7 +5744,7 @@
                     }
                   }
                 ],
-                "unit_combination": "((%)+(%))"
+                "unit_combination": "(%)"
               },
               "free_text": [
                 ""
@@ -5754,7 +5777,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                " Cross sections"
               ]
             }
           ],
@@ -5768,6 +5791,16 @@
               "free_text": [
                 " Reaction product added."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251230,
+                "history": "A"
+              },
+              "free_text": [
+                " REACTION coding modified"
+              ]
             }
           ],
           "ENDBIB": {
@@ -5775,18 +5808,22 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0,
             "pointer": [
+              "",
               ""
             ],
             "heading": [
+              "E-LVL",
               "E-LVL"
             ],
             "unit": [
+              "MEV",
               "MEV"
             ],
             "value": [
+              0.0,
               0.037
             ]
           },

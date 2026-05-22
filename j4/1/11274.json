@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:24:39+0000",
+  "time_stamp": "2026-05-22T20:40:56+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "11274",
-        "N2": 20080618,
+        "N2": 20260110,
         "alteration_flag": " ",
-        "transmission_identification": "1350"
+        "transmission_identification": "1525"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "11274001",
-            "N2": 20080618,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1350"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 10,
+            "N1": 12,
             "N2": 0
           },
           "INSTITUTE": [
@@ -58,7 +58,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1139/p53-028"
               ]
             }
           ],
@@ -79,8 +80,22 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "CROSS SECTION MEASUREMENTS OF REACTIONS INDUCED BY",
-                "NEUTRONS OF THE 14.5 MEV ENERGY."
+                "Cross section measurements of reactions induced by",
+                "neutrons of 14.5 MeV energy."
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "ACCEL"
+                ],
+                "institute": "1CANCRC"
+              },
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -103,8 +118,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "NEUTRON FLUX MONITORED BY A LONG BORON COUNTER.",
-                "BETA COUNTERS CALIBRATED WITH STANDARD SOURCES."
+                "Neutron flux monitored by a long boron counter.",
+                "Beta counters calibrated with standard sources."
               ]
             }
           ],
@@ -124,7 +139,21 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Half-lives taken from N.B.C. CIRCULAR 499(1952)"
+                "Half-lives taken from N.B.C. Circular 499(1952)"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No details on sources of uncertainties"
               ]
             }
           ],
@@ -133,14 +162,28 @@
               "pointer": "",
               "coded_information": {
                 "status": [
-                  "SCSRS"
+                  "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.B.Paul+",
+                "reference": {
+                  "code": "J,CJP,31,267,1953",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CJP",
+                      "number": null,
+                      "volume": "31",
+                      "part": null,
+                      "issue": null,
+                      "page": "267"
+                    },
+                    "date": 1953
+                  }
+                }
               },
               "free_text": [
-                ""
+                " Tables II, III, IV"
               ]
             }
           ],
@@ -152,7 +195,7 @@
                 "history": "T"
               },
               "free_text": [
-                " TRANSLATED FROM SCISRS"
+                " Translated from SCISRS"
               ]
             },
             {
@@ -162,7 +205,7 @@
                 "history": "A"
               },
               "free_text": [
-                " CONVERTED TO REACTION FORMALISM"
+                " Converted to reaction formalism"
               ]
             },
             {
@@ -172,7 +215,7 @@
                 "history": "U"
               },
               "free_text": [
-                " BIB CORRECTIONS"
+                " BIB corrections"
               ]
             },
             {
@@ -182,7 +225,7 @@
                 "history": "A"
               },
               "free_text": [
-                " BIB CORRECTION."
+                " BIB correction."
               ]
             },
             {
@@ -193,6 +236,18 @@
               },
               "free_text": [
                 " Converted to new date formats. BIB updates."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251230,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. Correction in sub.83, added FACILITY,",
+                " ERR-ANALYS, updated STATUS, converted to lower and",
+                " upper case"
               ]
             }
           ],
@@ -9288,28 +9343,28 @@
         {
           "SUBENT": {
             "N1": "11274083",
-            "N2": 19810428,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "53-I-127(N,A)51-SB-124-M,,SIG",
+                "code": "53-I-127(N,A)51-SB-124-M2,,SIG",
                 "code_unit": [
                   {
-                    "unit": "53-I-127(N,A)51-SB-124-M,,SIG",
+                    "unit": "53-I-127(N,A)51-SB-124-M2,,SIG",
                     "field": {
-                      "reaction": "53-I-127(N,A)51-SB-124-M",
+                      "reaction": "53-I-127(N,A)51-SB-124-M2",
                       "target": "53-I-127",
                       "projectile": "N",
                       "process": "A",
-                      "product": "51-SB-124-M",
+                      "product": "51-SB-124-M2",
                       "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
@@ -9329,7 +9384,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "51-SB-124-M",
+                "nuclide": "51-SB-124-M2",
                 "half-life": {
                   "value": 20.0,
                   "unit": "MIN"
@@ -9354,7 +9409,19 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "N-H(4)I,LI-I"
+                "NH4I, LiI"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251230,
+                "history": "A"
+              },
+              "free_text": [
+                " REACTION SF4 and DECAY-DATA:  M -> M2"
               ]
             }
           ],

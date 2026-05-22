@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:35:42+0000",
+  "time_stamp": "2026-05-22T20:41:03+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "12551",
-        "N2": 20090507,
+        "N2": 20260110,
         "alteration_flag": " ",
-        "transmission_identification": "1353"
+        "transmission_identification": "1525"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "12551001",
-            "N2": 20090507,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1353"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 7,
+            "N1": 6,
             "N2": 0
           },
           "INSTITUTE": [
@@ -37,7 +37,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "No title"
+                "Pu241 Fission Cross Section"
               ]
             }
           ],
@@ -118,26 +118,10 @@
                 "facility": [
                   "SPECC"
                 ],
-                "institute": null
+                "institute": "1USAHAN"
               },
               "free_text": [
                 " Crystal spectrometer"
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "SCSRS"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                ""
               ]
             }
           ],
@@ -181,6 +165,17 @@
               "free_text": [
                 " Virtual title added"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251229,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. TITLE corrected, FACILITY, STATUS",
+                " updated, Units in Sub.4 corrected"
+              ]
             }
           ],
           "ENDBIB": {
@@ -215,12 +210,12 @@
         {
           "SUBENT": {
             "N1": "12551002",
-            "N2": 19841004,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1338"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -274,6 +269,49 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.R.Leonard Jr+",
+                "reference": {
+                  "code": "R,HW-62727,19,1959",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "HW-",
+                      "number": "62727",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "19"
+                    },
+                    "date": 1959
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table I, p.21"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251229,
+                "history": "A"
+              },
+              "free_text": [
+                " STATUS added"
               ]
             }
           ],
@@ -339,12 +377,12 @@
         {
           "SUBENT": {
             "N1": "12551003",
-            "N2": 19870309,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1338"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -369,22 +407,6 @@
                   }
                 ],
                 "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "DEP"
-                ],
-                "subentry_number": "12551004",
-                "author": null,
-                "reference": null
               },
               "free_text": [
                 ""
@@ -428,8 +450,66 @@
               "coded_information": null,
               "free_text": [
                 "Smooth curve through data used to obtain ratio",
-                " 0.0253/0.117 eV = 0.758+-2 percent. Similar ratio for",
-                " U-235 taken as 1.191+-1.1 percent."
+                " 0.0253/0.117 eV = 0.758+-2%. Similar ratio for",
+                " U-235 taken as 1.191+-1.1%."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "12551004",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "B.R.Leonard Jr+",
+                "reference": {
+                  "code": "R,HW-62727,19,1959",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "HW-",
+                      "number": "62727",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "19"
+                    },
+                    "date": 1959
+                  }
+                }
+              },
+              "free_text": [
+                " Text p.24"
               ]
             }
           ],
@@ -442,6 +522,16 @@
               },
               "free_text": [
                 " Reaction corrected."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251229,
+                "history": "A"
+              },
+              "free_text": [
+                " STATUS updated, ERR-ANALYS added"
               ]
             }
           ],
@@ -499,12 +589,12 @@
         {
           "SUBENT": {
             "N1": "12551004",
-            "N2": 19841004,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -535,6 +625,35 @@
               ]
             }
           ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SCSRS"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251229,
+                "history": "A"
+              },
+              "free_text": [
+                " Data units corrected, STATUS moved from",
+                " Sub.1"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
@@ -556,7 +675,7 @@
             ],
             "unit": [
               "EV",
-              "B"
+              "B*RT-EV"
             ],
             "value": [
               [

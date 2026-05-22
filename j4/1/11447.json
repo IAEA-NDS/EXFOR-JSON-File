@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:26:10+0000",
+  "time_stamp": "2026-05-22T20:41:00+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "11447",
-        "N2": 20210510,
+        "N2": 20260110,
         "alteration_flag": " ",
-        "transmission_identification": "1486"
+        "transmission_identification": "1525"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "11447001",
-            "N2": 20210510,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1486"
+            "transmission_identification": "1525"
           },
           "BIB": {
             "N1": 9,
@@ -274,10 +274,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "L.Seren+",
+                "reference": {
+                  "code": "J,PR,72,888,1947",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "72",
+                      "part": null,
+                      "issue": null,
+                      "page": "888"
+                    },
+                    "date": 1947
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Table 2, Phys.Rev.72,888,1947."
               ]
             }
@@ -357,6 +372,16 @@
                 " BP: Added original references, doi, minor",
                 "corrections to INC-SPECT, decay data, samples, 58Fe,",
                 "error-analysis."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260102,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. Corrections in subs. 116, 131"
               ]
             }
           ],
@@ -12451,28 +12476,28 @@
         {
           "SUBENT": {
             "N1": "11447116",
-            "N2": 20210510,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1486"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "75-RE-185(N,G)75-RE-186,,SIG,,MXW",
+                "code": "75-RE-185(N,G)75-RE-186-G,,SIG,,MXW",
                 "code_unit": [
                   {
-                    "unit": "75-RE-185(N,G)75-RE-186,,SIG,,MXW",
+                    "unit": "75-RE-185(N,G)75-RE-186-G,,SIG,,MXW",
                     "field": {
-                      "reaction": "75-RE-185(N,G)75-RE-186",
+                      "reaction": "75-RE-185(N,G)75-RE-186-G",
                       "target": "75-RE-185",
                       "projectile": "N",
                       "process": "G",
-                      "product": "75-RE-186",
+                      "product": "75-RE-186-G",
                       "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": "MXW",
@@ -12510,7 +12535,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "75-RE-186",
+                "nuclide": "75-RE-186-G",
                 "half-life": {
                   "value": 90.0,
                   "unit": "HR"
@@ -12527,6 +12552,18 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260102,
+                "history": "A"
+              },
+              "free_text": [
+                " Added -G to REACTION SF4"
               ]
             }
           ],
@@ -14273,9 +14310,9 @@
         {
           "SUBENT": {
             "N1": "11447131",
-            "N2": 20210510,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1486"
+            "transmission_identification": "1525"
           },
           "BIB": {
             "N1": 5,
@@ -14285,16 +14322,16 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "83-BI-209(N,G)83-BI-210,,SIG,,SPA",
+                "code": "83-BI-209(N,G)83-BI-210-G,,SIG,,SPA",
                 "code_unit": [
                   {
-                    "unit": "83-BI-209(N,G)83-BI-210,,SIG,,SPA",
+                    "unit": "83-BI-209(N,G)83-BI-210-G,,SIG,,SPA",
                     "field": {
-                      "reaction": "83-BI-209(N,G)83-BI-210",
+                      "reaction": "83-BI-209(N,G)83-BI-210-G",
                       "target": "83-BI-209",
                       "projectile": "N",
                       "process": "G",
-                      "product": "83-BI-210",
+                      "product": "83-BI-210-G",
                       "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": "SPA",
@@ -14361,6 +14398,16 @@
               },
               "free_text": [
                 " Decay data corrected."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260102,
+                "history": "A"
+              },
+              "free_text": [
+                " Added -G to REACTION SF4"
               ]
             }
           ],

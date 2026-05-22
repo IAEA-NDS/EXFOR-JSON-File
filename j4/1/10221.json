@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:11:35+0000",
+  "time_stamp": "2026-05-22T20:40:50+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "10221",
-        "N2": 20010309,
+        "N2": 20260110,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "1525"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "10221001",
-            "N2": 20010309,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1525"
           },
           "BIB": {
             "N1": 12,
@@ -36,10 +36,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,NSE,59,381,197604",
+                "code": "J,NSE,59,381,1976",
                 "code_unit": [
                   {
-                    "unit": "J,NSE,59,381,197604",
+                    "unit": "J,NSE,59,381,1976",
                     "doi": "10.13182/NSE76-A26839",
                     "field": {
                       "reference_type": "J",
@@ -51,23 +51,24 @@
                         "issue": null,
                         "page": "381"
                       },
-                      "date": 197604
+                      "date": 1976
                     }
                   }
                 ],
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.13182/NSE76-A26839"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "code": "C,71KNOX,2,259,197103",
+                "code": "C,71KNOX,2,259,1971",
                 "code_unit": [
                   {
-                    "unit": "C,71KNOX,2,259,197103",
+                    "unit": "C,71KNOX,2,259,1971",
                     "doi": null,
                     "field": {
                       "reference_type": "C",
@@ -79,7 +80,7 @@
                         "issue": null,
                         "page": "259"
                       },
-                      "date": 197103
+                      "date": 1971
                     }
                   }
                 ],
@@ -94,9 +95,9 @@
             {
               "pointer": "",
               "coded_information": [
-                "M.LINDNER",
-                "R.J.NAGLE",
-                "J.H.LANDRUM"
+                "M.Lindner",
+                "R.J.Nagle",
+                "J.H.Landrum"
               ],
               "free_text": [
                 ""
@@ -191,9 +192,31 @@
           "STATUS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "M.Lindner+",
+                "reference": {
+                  "code": "J,NSE,59,381,1976",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NSE",
+                      "number": null,
+                      "volume": "59",
+                      "part": null,
+                      "issue": null,
+                      "page": "381"
+                    },
+                    "date": 1976
+                  }
+                }
+              },
               "free_text": [
-                "Data taken from Table V in main reference."
+                "",
+                " Data taken from Table V in main reference."
               ]
             }
           ],
@@ -267,6 +290,17 @@
               "free_text": [
                 " Updated to new date formats, lower case.",
                 "            Deleted subentries removed."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251230,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. REACTION in sub.47 corrected, minor",
+                " BIB updates"
               ]
             }
           ],
@@ -1486,9 +1520,9 @@
         {
           "SUBENT": {
             "N1": "10221047",
-            "N2": 20010313,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1525"
           },
           "BIB": {
             "N1": 4,
@@ -1498,16 +1532,16 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "75-RE-185(N,G)75-RE-186,,SIG",
+                "code": "75-RE-185(N,G)75-RE-186-G,,SIG",
                 "code_unit": [
                   {
-                    "unit": "75-RE-185(N,G)75-RE-186,,SIG",
+                    "unit": "75-RE-185(N,G)75-RE-186-G,,SIG",
                     "field": {
-                      "reaction": "75-RE-185(N,G)75-RE-186",
+                      "reaction": "75-RE-185(N,G)75-RE-186-G",
                       "target": "75-RE-185",
                       "projectile": "N",
                       "process": "G",
-                      "product": "75-RE-186",
+                      "product": "75-RE-186-G",
                       "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
@@ -1576,6 +1610,16 @@
               },
               "free_text": [
                 " Subentries 47-48 combined."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251230,
+                "history": "A"
+              },
+              "free_text": [
+                " -M added to REACTION SF4"
               ]
             }
           ],

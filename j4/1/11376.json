@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:25:26+0000",
+  "time_stamp": "2026-05-22T20:40:58+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "11376",
-        "N2": 20200419,
+        "N2": 20260110,
         "alteration_flag": " ",
-        "transmission_identification": "1466"
+        "transmission_identification": "1525"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "11376001",
-            "N2": 20200419,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1466"
+            "transmission_identification": "1525"
           },
           "BIB": {
             "N1": 10,
@@ -190,10 +190,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "N.P.Baumann",
+                "reference": {
+                  "code": "R,DP-817,1963",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "DP-",
+                      "number": "817",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1963
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Table I, report DP-817, p.7"
               ]
             }
@@ -228,6 +243,16 @@
               "free_text": [
                 " OS. Converted to lower case, several BIB",
                 " changes"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "U"
+              },
+              "free_text": [
+                " OS. Minor correction in sub.7"
               ]
             }
           ],
@@ -1041,12 +1066,12 @@
         {
           "SUBENT": {
             "N1": "11376007",
-            "N2": 20200419,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1466"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -1083,16 +1108,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -1165,6 +1190,18 @@
               },
               "free_text": [
                 " No information on sources of uncertainty"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20250110,
+                "history": "U"
+              },
+              "free_text": [
+                " MONITOR: M -> M1+M2"
               ]
             }
           ],

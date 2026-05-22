@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:25:44+0000",
+  "time_stamp": "2026-05-22T20:40:59+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "11407",
-        "N2": 20091005,
+        "N2": 20260110,
         "alteration_flag": " ",
-        "transmission_identification": "1357"
+        "transmission_identification": "1525"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "11407001",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
             "N1": 9,
@@ -58,7 +58,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1103/PhysRev.114.1619"
               ]
             }
           ],
@@ -125,14 +126,29 @@
               "pointer": "",
               "coded_information": {
                 "status": [
-                  "SCSRS"
+                  "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "W.S.Lyon+",
+                "reference": {
+                  "code": "J,PR,114,1619,1959",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "114",
+                      "part": null,
+                      "issue": null,
+                      "page": "1619"
+                    },
+                    "date": 1959
+                  }
+                }
               },
               "free_text": [
-                ""
+                "",
+                " Table I, Phys.Rev.114,1619"
               ]
             }
           ],
@@ -177,6 +193,18 @@
                 " VM:Updated to new date formats,lower case.",
                 "            BIB updates."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. STATUS information added, MONIT-ERR",
+                " moved from sub.1 to relevant subs., corrections",
+                " in isomer codes in MONITOR and DECAY-MON"
+              ]
             }
           ],
           "ENDBIB": {
@@ -184,27 +212,23 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 3,
+            "N1": 2,
             "N2": 0,
             "pointer": [
-              "",
               "",
               ""
             ],
             "heading": [
               "EN",
-              "EN-RSL",
-              "MONIT-ERR"
+              "EN-RSL"
             ],
             "unit": [
               "KEV",
-              "KEV",
-              "MB"
+              "KEV"
             ],
             "value": [
               195.0,
-              50.0,
-              10.0
+              50.0
             ]
           },
           "ENDCOMMON": {
@@ -219,12 +243,12 @@
         {
           "SUBENT": {
             "N1": "11407002",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -285,16 +309,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -315,7 +339,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -337,11 +361,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -383,12 +436,12 @@
         {
           "SUBENT": {
             "N1": "11407003",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -449,16 +502,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -479,7 +532,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -501,11 +554,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -547,12 +629,12 @@
         {
           "SUBENT": {
             "N1": "11407004",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -613,16 +695,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -643,7 +725,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -665,11 +747,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -711,12 +822,12 @@
         {
           "SUBENT": {
             "N1": "11407005",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -777,16 +888,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -802,11 +913,67 @@
               ]
             }
           ],
+          "DECAY-MON": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "nuclide": "49-IN-116-M1",
+                "half-life": {
+                  "value": 54.0,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1028.0
+                    ],
+                    "intensity": 0.848
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer code",
+                " in MONITOR corrected, DECAY-MON added"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -848,12 +1015,12 @@
         {
           "SUBENT": {
             "N1": "11407006",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -914,16 +1081,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -944,7 +1111,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -966,11 +1133,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -1012,12 +1208,12 @@
         {
           "SUBENT": {
             "N1": "11407007",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -1078,16 +1274,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -1108,7 +1304,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -1130,11 +1326,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -1176,12 +1401,12 @@
         {
           "SUBENT": {
             "N1": "11407008",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -1242,16 +1467,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -1272,7 +1497,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -1294,11 +1519,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -1340,12 +1594,12 @@
         {
           "SUBENT": {
             "N1": "11407009",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -1406,16 +1660,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -1436,7 +1690,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -1458,11 +1712,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -1504,12 +1787,12 @@
         {
           "SUBENT": {
             "N1": "11407010",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -1579,16 +1862,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -1600,8 +1883,47 @@
                 }
               },
               "free_text": [
-                "",
-                "Based on in115 capture=195mb(to 54min"
+                ""
+              ]
+            }
+          ],
+          "DECAY-MON": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "nuclide": "49-IN-116-M1",
+                "half-life": {
+                  "value": 54.0,
+                  "unit": "MIN"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1028.0
+                    ],
+                    "intensity": 0.848
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer code",
+                " in MONITOR corrected, DECAY-MON added"
               ]
             }
           ],
@@ -1609,7 +1931,23 @@
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -1651,12 +1989,12 @@
         {
           "SUBENT": {
             "N1": "11407011",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -1717,16 +2055,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -1747,7 +2085,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -1769,11 +2107,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -1815,12 +2182,12 @@
         {
           "SUBENT": {
             "N1": "11407012",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -1881,16 +2248,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -1911,7 +2278,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -1933,11 +2300,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -1979,12 +2375,12 @@
         {
           "SUBENT": {
             "N1": "11407013",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -2046,20 +2442,20 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,INL)49-IN-115-M,,SIG,G",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,INL)49-IN-115-M,,SIG,G",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,INL)49-IN-115-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
-                        "process": "INL",
-                        "product": "49-IN-115-M",
-                        "quantity": ",SIG,G",
+                        "process": "G",
+                        "product": "49-IN-116-M1+M2",
+                        "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
-                        "quantity_236": ",SIG,G"
+                        "quantity_236": ",SIG"
                       }
                     }
                   ],
@@ -2076,7 +2472,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -2098,11 +2494,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, MONITOR",
+                " corrected, isomer code in DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -2144,12 +2569,12 @@
         {
           "SUBENT": {
             "N1": "11407014",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -2210,20 +2635,20 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,INL)49-IN-115-M,,SIG,G",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,INL)49-IN-115-M,,SIG,G",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,INL)49-IN-115-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
-                        "process": "INL",
-                        "product": "49-IN-115-M",
-                        "quantity": ",SIG,G",
+                        "process": "G",
+                        "product": "49-IN-116-M1+M2",
+                        "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
-                        "quantity_236": ",SIG,G"
+                        "quantity_236": ",SIG"
                       }
                     }
                   ],
@@ -2240,7 +2665,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -2262,11 +2687,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, MONITOR",
+                " corrected, isomer code in DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -2308,12 +2762,12 @@
         {
           "SUBENT": {
             "N1": "11407015",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -2374,16 +2828,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -2404,7 +2858,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -2426,11 +2880,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -2472,12 +2955,12 @@
         {
           "SUBENT": {
             "N1": "11407016",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -2538,16 +3021,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -2568,7 +3051,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -2590,11 +3073,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -2636,12 +3148,12 @@
         {
           "SUBENT": {
             "N1": "11407017",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -2702,16 +3214,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -2732,7 +3244,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -2754,11 +3266,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -2800,12 +3341,12 @@
         {
           "SUBENT": {
             "N1": "11407018",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -2866,16 +3407,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -2896,7 +3437,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -2918,11 +3459,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -2964,12 +3534,12 @@
         {
           "SUBENT": {
             "N1": "11407019",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -3030,16 +3600,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -3060,7 +3630,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -3082,11 +3652,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -3265,12 +3864,12 @@
         {
           "SUBENT": {
             "N1": "11407021",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -3331,16 +3930,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -3361,7 +3960,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -3383,11 +3982,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -3429,12 +4057,12 @@
         {
           "SUBENT": {
             "N1": "11407022",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -3495,16 +4123,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -3525,7 +4153,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -3547,11 +4175,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -3593,12 +4250,12 @@
         {
           "SUBENT": {
             "N1": "11407023",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -3668,16 +4325,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -3698,7 +4355,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -3720,11 +4377,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -3766,12 +4452,12 @@
         {
           "SUBENT": {
             "N1": "11407024",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -3832,16 +4518,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -3862,7 +4548,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -3884,11 +4570,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -3930,12 +4645,12 @@
         {
           "SUBENT": {
             "N1": "11407025",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -3996,16 +4711,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -4026,7 +4741,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -4048,11 +4763,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -4094,12 +4838,12 @@
         {
           "SUBENT": {
             "N1": "11407026",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -4160,16 +4904,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -4190,7 +4934,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -4212,11 +4956,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -4258,12 +5031,12 @@
         {
           "SUBENT": {
             "N1": "11407027",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -4324,16 +5097,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -4354,7 +5127,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -4376,11 +5149,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -4422,12 +5224,12 @@
         {
           "SUBENT": {
             "N1": "11407028",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -4488,16 +5290,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -4518,7 +5320,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -4540,11 +5342,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -4586,12 +5417,12 @@
         {
           "SUBENT": {
             "N1": "11407029",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -4652,16 +5483,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -4682,7 +5513,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -4704,11 +5535,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -4750,12 +5610,12 @@
         {
           "SUBENT": {
             "N1": "11407030",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -4816,16 +5676,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -4846,7 +5706,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -4868,11 +5728,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -4914,12 +5803,12 @@
         {
           "SUBENT": {
             "N1": "11407031",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -4980,16 +5869,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -5010,7 +5899,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -5032,11 +5921,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -5078,12 +5996,12 @@
         {
           "SUBENT": {
             "N1": "11407032",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -5153,16 +6071,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -5183,7 +6101,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -5205,11 +6123,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -5251,12 +6198,12 @@
         {
           "SUBENT": {
             "N1": "11407033",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -5326,16 +6273,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -5356,7 +6303,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -5378,11 +6325,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -5424,12 +6400,12 @@
         {
           "SUBENT": {
             "N1": "11407034",
-            "N2": 20091005,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1357"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -5491,16 +6467,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                  "code": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "49-IN-115(N,G)49-IN-116-M,,SIG",
+                      "unit": "49-IN-115(N,G)49-IN-116-M1+M2,,SIG",
                       "field": {
-                        "reaction": "49-IN-115(N,G)49-IN-116-M",
+                        "reaction": "49-IN-115(N,G)49-IN-116-M1+M2",
                         "target": "49-IN-115",
                         "projectile": "N",
                         "process": "G",
-                        "product": "49-IN-116-M",
+                        "product": "49-IN-116-M1+M2",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -5521,7 +6497,7 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "49-IN-116-M",
+                "nuclide": "49-IN-116-M1",
                 "half-life": {
                   "value": 54.0,
                   "unit": "MIN"
@@ -5543,11 +6519,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260110,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT-ERR moved from sub.1, isomer codes",
+                " in MONITOR and DECAY-MON corrected"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MONIT-ERR"
+            ],
+            "unit": [
+              "MB"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },

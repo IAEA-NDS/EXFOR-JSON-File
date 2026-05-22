@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:29:12+0000",
+  "time_stamp": "2026-05-22T20:41:03+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "11830",
-        "N2": 20220822,
+        "N2": 20260110,
         "alteration_flag": " ",
-        "transmission_identification": "1500"
+        "transmission_identification": "1525"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "11830001",
-            "N2": 20220822,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1500"
+            "transmission_identification": "1525"
           },
           "BIB": {
             "N1": 9,
@@ -149,10 +149,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "H.L.Brown Jr+",
+                "reference": {
+                  "code": "J,ANS,5,375,1962",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ANS",
+                      "number": null,
+                      "volume": "5",
+                      "part": null,
+                      "issue": null,
+                      "page": "375"
+                    },
+                    "date": 1962
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Text on p.376,J,ANS,5,375,1962"
               ]
             }
@@ -197,6 +212,16 @@
               "free_text": [
                 " OS. REACTION corrected in sub.2, added",
                 " FACILITY, STATUS"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260102,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. Correction in Sub.3"
               ]
             }
           ],
@@ -339,28 +364,28 @@
         {
           "SUBENT": {
             "N1": "11830003",
-            "N2": 19830919,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "75-RE-185(N,G)75-RE-186,,RI",
+                "code": "75-RE-185(N,G)75-RE-186-G,,RI",
                 "code_unit": [
                   {
-                    "unit": "75-RE-185(N,G)75-RE-186,,RI",
+                    "unit": "75-RE-185(N,G)75-RE-186-G,,RI",
                     "field": {
-                      "reaction": "75-RE-185(N,G)75-RE-186",
+                      "reaction": "75-RE-185(N,G)75-RE-186-G",
                       "target": "75-RE-185",
                       "projectile": "N",
                       "process": "G",
-                      "product": "75-RE-186",
+                      "product": "75-RE-186-G",
                       "quantity": ",RI",
                       "data_type": null,
                       "general_quantity_modifier": null,
@@ -380,7 +405,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "75-RE-186",
+                "nuclide": "75-RE-186-G",
                 "half-life": {
                   "value": 90.0,
                   "unit": "HR"
@@ -389,6 +414,18 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260102,
+                "history": "A"
+              },
+              "free_text": [
+                "  -G added to REACTION SF4"
               ]
             }
           ],

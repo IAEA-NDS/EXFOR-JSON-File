@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:48:23+0000",
+  "time_stamp": "2026-05-22T20:41:07+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "13585",
-        "N2": 20171113,
+        "N2": 20260110,
         "alteration_flag": " ",
-        "transmission_identification": "1436"
+        "transmission_identification": "1525"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "13585001",
-            "N2": 20171113,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1436"
+            "transmission_identification": "1525"
           },
           "BIB": {
             "N1": 14,
@@ -59,7 +59,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1016/0375-9474(94)90199-6"
               ]
             }
           ],
@@ -270,6 +271,16 @@
                 " OS. Data of sub.5 moved back to sub.4,",
                 " therefore sub.5 deleted"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260105,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. REACTION coding modified in sub.2"
+              ]
             }
           ],
           "ENDBIB": {
@@ -288,41 +299,27 @@
         {
           "SUBENT": {
             "N1": "13585002",
-            "N2": 19930810,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "(48-CD-0(N,EL)48-CD-0,,DA)+(48-CD-0(N,INL)48-CD-0,PAR,DA)",
+                "code": "48-CD-0(N,SCT)48-CD-0,PAR,DA",
                 "code_unit": [
                   {
-                    "unit": "48-CD-0(N,EL)48-CD-0,,DA",
+                    "unit": "48-CD-0(N,SCT)48-CD-0,PAR,DA",
                     "field": {
-                      "reaction": "48-CD-0(N,EL)48-CD-0",
+                      "reaction": "48-CD-0(N,SCT)48-CD-0",
                       "target": "48-CD-0",
                       "projectile": "N",
-                      "process": "EL",
-                      "product": "48-CD-0",
-                      "quantity": ",DA",
-                      "data_type": null,
-                      "general_quantity_modifier": null,
-                      "quantity_236": ",DA"
-                    }
-                  },
-                  {
-                    "unit": "48-CD-0(N,INL)48-CD-0,PAR,DA",
-                    "field": {
-                      "reaction": "48-CD-0(N,INL)48-CD-0",
-                      "target": "48-CD-0",
-                      "projectile": "N",
-                      "process": "INL",
+                      "process": "SCT",
                       "product": "48-CD-0",
                       "quantity": "PAR,DA",
                       "data_type": null,
@@ -331,10 +328,22 @@
                     }
                   }
                 ],
-                "unit_combination": "((%)+(%))"
+                "unit_combination": "(%)"
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260105,
+                "history": "A"
+              },
+              "free_text": [
+                " REACTION changed to (N,SCT)"
               ]
             }
           ],
@@ -343,18 +352,22 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0,
             "pointer": [
+              "",
               ""
             ],
             "heading": [
+              "E-LVL",
               "E-LVL"
             ],
             "unit": [
+              "MEV",
               "MEV"
             ],
             "value": [
+              0.0,
               0.65
             ]
           },

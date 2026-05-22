@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:25:14+0000",
+  "time_stamp": "2026-05-22T20:40:57+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "11343",
-        "N2": 20190329,
+        "N2": 20260110,
         "alteration_flag": " ",
-        "transmission_identification": "1449"
+        "transmission_identification": "1525"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "11343001",
-            "N2": 20190329,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1449"
+            "transmission_identification": "1525"
           },
           "BIB": {
             "N1": 6,
@@ -130,6 +130,16 @@
                 " BP: Updated to new date formats,lower",
                 "case. Corrections according last EXFOR rules and",
                 "Dict. Added sample information, subs. 37-65."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260102,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. Correction in sub.31"
               ]
             }
           ],
@@ -6326,28 +6336,28 @@
         {
           "SUBENT": {
             "N1": "11343031",
-            "N2": 20190329,
+            "N2": 20260110,
             "alteration_flag": " ",
-            "transmission_identification": "1449"
+            "transmission_identification": "1525"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "75-RE-185(N,G)75-RE-186,,RI",
+                "code": "75-RE-185(N,G)75-RE-186-G,,RI",
                 "code_unit": [
                   {
-                    "unit": "75-RE-185(N,G)75-RE-186,,RI",
+                    "unit": "75-RE-185(N,G)75-RE-186-G,,RI",
                     "field": {
-                      "reaction": "75-RE-185(N,G)75-RE-186",
+                      "reaction": "75-RE-185(N,G)75-RE-186-G",
                       "target": "75-RE-185",
                       "projectile": "N",
                       "process": "G",
-                      "product": "75-RE-186",
+                      "product": "75-RE-186-G",
                       "quantity": ",RI",
                       "data_type": null,
                       "general_quantity_modifier": null,
@@ -6432,16 +6442,16 @@
               "coded_information": {
                 "heading": "MONIT2",
                 "reaction": {
-                  "code": "75-RE-185(N,G)75-RE-186,,SIG",
+                  "code": "75-RE-185(N,G)75-RE-186-G,,SIG",
                   "code_unit": [
                     {
-                      "unit": "75-RE-185(N,G)75-RE-186,,SIG",
+                      "unit": "75-RE-185(N,G)75-RE-186-G,,SIG",
                       "field": {
-                        "reaction": "75-RE-185(N,G)75-RE-186",
+                        "reaction": "75-RE-185(N,G)75-RE-186-G",
                         "target": "75-RE-185",
                         "projectile": "N",
                         "process": "G",
-                        "product": "75-RE-186",
+                        "product": "75-RE-186-G",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -6465,11 +6475,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.P.Harris+",
+                "reference": {
+                  "code": "J,PR,79,11,1950",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "79",
+                      "part": null,
+                      "issue": null,
+                      "page": "11"
+                    },
+                    "date": 1950
+                  }
+                }
               },
               "free_text": [
-                " Table III, page 13."
+                " Table III, page 13"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260102,
+                "history": "A"
+              },
+              "free_text": [
+                " Added -G to SF4 in REACTION and MONIT2"
               ]
             }
           ],
