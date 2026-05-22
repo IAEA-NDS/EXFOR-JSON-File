@@ -1,26 +1,52 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:29:29+0000",
+  "time_stamp": "2026-05-22T22:09:17+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C0524",
-        "N2": 19990726,
+        "N2": 20260401,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "C257"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C0524001",
-            "N2": 19990726,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C257"
           },
           "BIB": {
             "N1": 16,
             "N2": 0
           },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Excitation of 0+,2+,0+',2+',4+ analog states in the",
+                " even selenium isotopes with 19-25 MeV protons;",
+                " coupled-channel analysis"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "C.Wong",
+                "S.M.Grimes",
+                "C.H.Poppe",
+                "V.R.Brown",
+                "V.A.Madsen"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "INSTITUTE": [
             {
               "pointer": "",
@@ -37,10 +63,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,PR/C,26,889,198209",
+                "code": "J,PR/C,26,889,1982",
                 "code_unit": [
                   {
-                    "unit": "J,PR/C,26,889,198209",
+                    "unit": "J,PR/C,26,889,1982",
                     "doi": "10.1103/PhysRevC.26.889",
                     "field": {
                       "reference_type": "J",
@@ -52,7 +78,7 @@
                         "issue": null,
                         "page": "889"
                       },
-                      "date": 198209
+                      "date": 1982
                     }
                   }
                 ],
@@ -63,38 +89,12 @@
               ]
             }
           ],
-          "AUTHOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "C.WONG",
-                "S.M.GRIMES",
-                "C.H.POPPE",
-                "V.R.BROWN",
-                "V.A.MADSEN"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "TITLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Excitation of 0+,2+,0+,4+ analog states in the even",
-                " selenium isotopes with 19-25 MeV protons; coupled-",
-                " channel analysis"
-              ]
-            }
-          ],
           "FACILITY": [
             {
               "pointer": "",
               "coded_information": {
                 "facility": [
-                  "VDGT"
+                  "CYGFF"
                 ],
                 "institute": "1USALRL"
               },
@@ -118,7 +118,7 @@
               "coded_information": null,
               "free_text": [
                 "Samples enriched to >97% in selenium isotopes",
-                " evaporated onto Mylar."
+                " evaporated onto Mylar"
               ]
             }
           ],
@@ -144,7 +144,10 @@
                 " 80Se(p,n) and 82Se (p,n) at 19 MeV.  For these states,",
                 " the time spectra were converted to excitation energy",
                 " spectra and the areas of the 2-phonon peaks",
-                " integrated with a planimeter."
+                " integrated with a planimeter.",
+                "Data normalized to low beam current runs at 19, 22 and",
+                " 25 MeV by comparing sum of counts in the ground state",
+                " analog neutron group at five forward angles."
               ]
             }
           ],
@@ -155,10 +158,7 @@
                 "SCIN"
               ],
               "free_text": [
-                " NE213 biased scintillators.",
-                "Data normalized to low beam current runs at 19, 22 and",
-                " 25 MeV by comparing sum of counts in the ground state",
-                " analog neutron group at five forward angles."
+                " NE213 biased scintillators."
               ]
             }
           ],
@@ -189,8 +189,9 @@
                 }
               },
               "free_text": [
-                " Detector efficiency measured",
-                " using evaluated cross sections from Drosg."
+                "",
+                "Detector efficiency measured using evaluated cross",
+                " sections from Drosg."
               ]
             }
           ],
@@ -199,8 +200,8 @@
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "subentry_number": null,
-                "author": "DROSG",
+                "subentry_number": "D0003005",
+                "author": "M.Drosg+",
                 "reference": {
                   "code": "J,NSE,67,190,1978",
                   "field": {
@@ -255,8 +256,35 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "No reply from S.M. Grimes to author proof.",
-                "Data taken from Table I in reference."
+                "No reply from S.M. Grimes to author proof."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "C.Wong+",
+                "reference": {
+                  "code": "J,PR/C,26,889,1982",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "26",
+                      "part": null,
+                      "issue": null,
+                      "page": "889"
+                    },
+                    "date": 1982
+                  }
+                }
+              },
+              "free_text": [
+                " Table I"
               ]
             }
           ],
@@ -269,6 +297,16 @@
               },
               "free_text": [
                 " VM"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "A"
+              },
+              "free_text": [
+                " On. Major alterations in 002-004."
               ]
             }
           ],
@@ -288,25 +326,25 @@
         {
           "SUBENT": {
             "N1": "C0524002",
-            "N2": 19990630,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C257"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "34-SE-0(P,N)35-BR-76,PAR,DA",
+                "code": "34-SE-76(P,N)35-BR-76,PAR,DA",
                 "code_unit": [
                   {
-                    "unit": "34-SE-0(P,N)35-BR-76,PAR,DA",
+                    "unit": "34-SE-76(P,N)35-BR-76,PAR,DA",
                     "field": {
-                      "reaction": "34-SE-0(P,N)35-BR-76",
-                      "target": "34-SE-0",
+                      "reaction": "34-SE-76(P,N)35-BR-76",
+                      "target": "34-SE-76",
                       "projectile": "P",
                       "process": "N",
                       "product": "35-BR-76",
@@ -328,7 +366,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "LVL-NUMB",
+                "heading": "IAS-NUMB",
                 "particle": "34-SE-76"
               },
               "free_text": [
@@ -343,7 +381,7 @@
                 "flag": null,
                 "nuclide": "34-SE-76",
                 "level_identification": {
-                  "field_identifier": "LVL-NUMB",
+                  "field_identifier": "IAS-NUMB",
                   "value": 0.0
                 },
                 "level_properties": [
@@ -371,7 +409,7 @@
                 "flag": null,
                 "nuclide": "34-SE-76",
                 "level_identification": {
-                  "field_identifier": "LVL-NUMB",
+                  "field_identifier": "IAS-NUMB",
                   "value": 1.0
                 },
                 "level_properties": [
@@ -399,7 +437,7 @@
                 "flag": null,
                 "nuclide": "34-SE-76",
                 "level_identification": {
-                  "field_identifier": "LVL-NUMB",
+                  "field_identifier": "IAS-NUMB",
                   "value": 2.0
                 },
                 "level_properties": [
@@ -424,6 +462,19 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "A"
+              },
+              "free_text": [
+                " On. REACTION(SF1): 34-SE-0 -> 34-SE-76;",
+                " LVL-NUMB -> IAS-NUMB"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
@@ -443,7 +494,7 @@
               ""
             ],
             "heading": [
-              "LVL-NUMB",
+              "IAS-NUMB",
               "EN",
               "ANG-CM",
               "DATA-CM",
@@ -1017,25 +1068,25 @@
         {
           "SUBENT": {
             "N1": "C0524003",
-            "N2": 19990630,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C257"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "34-SE-0(P,N)35-BR-80,PAR,DA",
+                "code": "34-SE-80(P,N)35-BR-80,PAR,DA",
                 "code_unit": [
                   {
-                    "unit": "34-SE-0(P,N)35-BR-80,PAR,DA",
+                    "unit": "34-SE-80(P,N)35-BR-80,PAR,DA",
                     "field": {
-                      "reaction": "34-SE-0(P,N)35-BR-80",
-                      "target": "34-SE-0",
+                      "reaction": "34-SE-80(P,N)35-BR-80",
+                      "target": "34-SE-80",
                       "projectile": "P",
                       "process": "N",
                       "product": "35-BR-80",
@@ -1057,7 +1108,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "LVL-NUMB",
+                "heading": "IAS-NUMB",
                 "particle": "34-SE-80"
               },
               "free_text": [
@@ -1072,7 +1123,7 @@
                 "flag": null,
                 "nuclide": "34-SE-80",
                 "level_identification": {
-                  "field_identifier": "LVL-NUMB",
+                  "field_identifier": "IAS-NUMB",
                   "value": 0.0
                 },
                 "level_properties": [
@@ -1100,7 +1151,7 @@
                 "flag": null,
                 "nuclide": "34-SE-80",
                 "level_identification": {
-                  "field_identifier": "LVL-NUMB",
+                  "field_identifier": "IAS-NUMB",
                   "value": 1.0
                 },
                 "level_properties": [
@@ -1123,6 +1174,19 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "A"
+              },
+              "free_text": [
+                " On. REACTION(SF1): 34-SE-0 -> 34-SE-80;",
+                " LVL-NUMB -> IAS-NUMB"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
@@ -1142,7 +1206,7 @@
               ""
             ],
             "heading": [
-              "LVL-NUMB",
+              "IAS-NUMB",
               "EN",
               "ANG-CM",
               "DATA-CM",
@@ -1835,25 +1899,25 @@
         {
           "SUBENT": {
             "N1": "C0524004",
-            "N2": 19990630,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C257"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "34-SE-0(P,N)35-BR-82,PAR,DA",
+                "code": "34-SE-82(P,N)35-BR-82,PAR,DA",
                 "code_unit": [
                   {
-                    "unit": "34-SE-0(P,N)35-BR-82,PAR,DA",
+                    "unit": "34-SE-82(P,N)35-BR-82,PAR,DA",
                     "field": {
-                      "reaction": "34-SE-0(P,N)35-BR-82",
-                      "target": "34-SE-0",
+                      "reaction": "34-SE-82(P,N)35-BR-82",
+                      "target": "34-SE-82",
                       "projectile": "P",
                       "process": "N",
                       "product": "35-BR-82",
@@ -1875,7 +1939,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "LVL-NUMB",
+                "heading": "IAS-NUMB",
                 "particle": "34-SE-82"
               },
               "free_text": [
@@ -1890,7 +1954,7 @@
                 "flag": null,
                 "nuclide": "34-SE-82",
                 "level_identification": {
-                  "field_identifier": "LVL-NUMB",
+                  "field_identifier": "IAS-NUMB",
                   "value": 0.0
                 },
                 "level_properties": [
@@ -1918,7 +1982,7 @@
                 "flag": null,
                 "nuclide": "34-SE-82",
                 "level_identification": {
-                  "field_identifier": "LVL-NUMB",
+                  "field_identifier": "IAS-NUMB",
                   "value": 1.0
                 },
                 "level_properties": [
@@ -1941,6 +2005,19 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "A"
+              },
+              "free_text": [
+                " On. REACTION(SF1): 34-SE-0 -> 34-SE-82.",
+                " LVL-NUMB -> IAS-NUMB"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
@@ -1960,7 +2037,7 @@
               ""
             ],
             "heading": [
-              "LVL-NUMB",
+              "IAS-NUMB",
               "EN",
               "ANG-CM",
               "DATA-CM",

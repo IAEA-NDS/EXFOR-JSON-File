@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:32:13+0000",
+  "time_stamp": "2026-05-22T22:09:18+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C0720",
-        "N2": 20230616,
+        "N2": 20260206,
         "alteration_flag": " ",
-        "transmission_identification": "C232"
+        "transmission_identification": "C257"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C0720001",
-            "N2": 20230616,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "C232"
+            "transmission_identification": "C257"
           },
           "BIB": {
             "N1": 9,
@@ -129,7 +129,7 @@
                 " A shielded 7.6 cm x 7.6 cm NaI(Tl) crystal",
                 "was used in conjunction with a 400 channel analyser",
                 "to measure gamma-spectra. X-ray activities were",
-                "measured  using a 0.65 cm x 5.1 cm NaI(Tl) crystal",
+                "measured using a 0.65 cm x 5.1 cm NaI(Tl) crystal",
                 "coupled to a single channel analyser and scaler."
               ]
             }
@@ -253,6 +253,16 @@
               "free_text": [
                 " BP: Minor fix in subentries 4,7 per",
                 "WP2023-21, replaced RCHEM to CHSEP, added doi."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260206,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: Updated subentry 4."
               ]
             }
           ],
@@ -800,12 +810,12 @@
         {
           "SUBENT": {
             "N1": "C0720004",
-            "N2": 20230616,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "C232"
+            "transmission_identification": "C257"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -881,6 +891,15 @@
               ]
             }
           ],
+          "ADD-RES": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Cross section at 0 MeV is 0.04+-0.07 micro barns."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -921,6 +940,17 @@
               "free_text": [
                 " BP: Added cross section at 0 MeV."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260206,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: Moved cross section to ADD-RES",
+                "            following WP2023-21."
+              ]
             }
           ],
           "ENDBIB": {
@@ -933,7 +963,7 @@
           },
           "DATA": {
             "N1": 4,
-            "N2": 10,
+            "N2": 9,
             "pointer": [
               "",
               "",
@@ -953,12 +983,6 @@
               "MICRO-B"
             ],
             "value": [
-              [
-                0.0,
-                null,
-                0.04,
-                0.07
-              ],
               [
                 1.6,
                 2.7,

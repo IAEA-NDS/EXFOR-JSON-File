@@ -1,68 +1,33 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:29:19+0000",
+  "time_stamp": "2026-05-22T22:09:14+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C0511",
-        "N2": 20100201,
+        "N2": 20260401,
         "alteration_flag": " ",
-        "transmission_identification": "C099"
+        "transmission_identification": "C257"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C0511001",
-            "N2": 20100201,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "C099"
+            "transmission_identification": "C257"
           },
           "BIB": {
             "N1": 11,
             "N2": 0
           },
-          "INSTITUTE": [
+          "TITLE": [
             {
               "pointer": "",
-              "coded_information": [
-                "1USALAS",
-                "2GERHAM",
-                "1USALRL",
-                "2GERBON",
-                "2ITYMIL"
-              ],
+              "coded_information": null,
               "free_text": [
-                ""
-              ]
-            }
-          ],
-          "REFERENCE": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "J,PR/C,47,1647,199303",
-                "code_unit": [
-                  {
-                    "unit": "J,PR/C,47,1647,199303",
-                    "doi": "10.1103/PhysRevC.47.1647",
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "PR/C",
-                        "number": null,
-                        "volume": "47",
-                        "part": null,
-                        "issue": null,
-                        "page": "1647"
-                      },
-                      "date": 199303
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
+                "Double differential cross sections for neutron",
+                " emission induced by 256 MeV and 800 MeV protons"
               ]
             }
           ],
@@ -84,13 +49,48 @@
               ]
             }
           ],
-          "TITLE": [
+          "INSTITUTE": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": [
+                "2GERHAM",
+                "1USALAS",
+                "1USALRL",
+                "2GERBON",
+                "2ITYMIL"
+              ],
               "free_text": [
-                "Double differential cross sections for neutron",
-                " emission induced by 256 MeV and 800 MeV protons"
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,PR/C,47,1647,1993",
+                "code_unit": [
+                  {
+                    "unit": "J,PR/C,47,1647,1993",
+                    "doi": "10.1103/PhysRevC.47.1647",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "PR/C",
+                        "number": null,
+                        "volume": "47",
+                        "part": null,
+                        "issue": null,
+                        "page": "1647"
+                      },
+                      "date": 1993
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -99,12 +99,12 @@
               "pointer": "",
               "coded_information": {
                 "facility": [
-                  "MESON"
+                  "LINAC"
                 ],
                 "institute": "1USALAS"
               },
               "free_text": [
-                " WNR facility at LAMPF."
+                " WNR facility at LAMPF"
               ]
             }
           ],
@@ -113,8 +113,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Samples were metal foils of 70 - 150 mg/cm2 thickness,",
-                " and were located in thin-walled scattering chambers."
+                "Metal foils (70-150 mg/cm2) located in thin-walled",
+                " scattering chambers"
               ]
             }
           ],
@@ -125,7 +125,7 @@
                 "TOF"
               ],
               "free_text": [
-                " Neutron energy measured by time-of-flight."
+                ""
               ]
             }
           ],
@@ -150,15 +150,67 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Includes systematic and statistical",
-                " uncertainty.",
-                "Systematic uncertainties include:",
-                "                         256 MeV      800 MeV",
-                " Detector efficiency      10.6%        20.0%",
-                " Flux attenuation         10.0%        10.0%",
-                " Beam current              2.0%         5.4%",
-                " Target thickness          1.5%         1.5%",
-                " Solid angle             0.2-0.8%      0.2-0.8%"
+                " Includes statistical uncertainty and"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Detector efficiency (10.6%/20.0%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Flux attenuation          (10.0%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Beam current          (2.0%/5.4%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-4",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Target thickness           (1.5%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-5",
+                "minimum_value": 0.2,
+                "maximum_value": 0.8,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Solid angle    (0.2-0.8%)"
               ]
             }
           ],
@@ -213,6 +265,16 @@
               "free_text": [
                 " BIB update"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "A"
+              },
+              "free_text": [
+                " On. Major alterations in 002-009."
+              ]
             }
           ],
           "ENDBIB": {
@@ -231,12 +293,12 @@
         {
           "SUBENT": {
             "N1": "C0511002",
-            "N2": 19980901,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C257"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -294,8 +356,8 @@
                 }
               },
               "free_text": [
-                " Detector efficiency",
-                " normalized to ground + 0.43-eV states."
+                "",
+                " Detector efficiency normalized to g.s.+0.43-MeV states"
               ]
             }
           ],
@@ -308,24 +370,52 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "A"
+              },
+              "free_text": [
+                " On. ERR-1 to ERR-4 added. ANG-CM -> ANG."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 5,
             "N2": 0,
             "pointer": [
+              "",
+              "",
+              "",
+              "",
               ""
             ],
             "heading": [
-              "EN"
+              "EN",
+              "ERR-1",
+              "ERR-2",
+              "ERR-3",
+              "ERR-4"
             ],
             "unit": [
-              "MEV"
+              "MEV",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT"
             ],
             "value": [
-              256.0
+              256.0,
+              10.6,
+              10.0,
+              2.0,
+              1.5
             ]
           },
           "ENDCOMMON": {
@@ -343,9 +433,9 @@
               ""
             ],
             "heading": [
-              "ANG-CM",
-              "E-MIN",
-              "E-MAX",
+              "ANG",
+              "E-CM-MIN",
+              "E-CM-MAX",
               "DATA-CM",
               "ERR-T"
             ],
@@ -10507,9 +10597,9 @@
         {
           "SUBENT": {
             "N1": "C0511003",
-            "N2": 20100201,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "C099"
+            "transmission_identification": "C257"
           },
           "BIB": {
             "N1": 3,
@@ -10567,6 +10657,16 @@
                 " Data at ends of spectra, generally below",
                 " 1.0E-5 MB/SR/MEV eliminated. Changed ANG-CM to ANG."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "A"
+              },
+              "free_text": [
+                " On. ERR-1 to ERR-4 added."
+              ]
             }
           ],
           "ENDBIB": {
@@ -10574,19 +10674,35 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 5,
             "N2": 0,
             "pointer": [
+              "",
+              "",
+              "",
+              "",
               ""
             ],
             "heading": [
-              "EN"
+              "EN",
+              "ERR-1",
+              "ERR-2",
+              "ERR-3",
+              "ERR-4"
             ],
             "unit": [
-              "MEV"
+              "MEV",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT"
             ],
             "value": [
-              800.0
+              800.0,
+              20.0,
+              10.0,
+              5.4,
+              1.5
             ]
           },
           "ENDCOMMON": {
@@ -10605,8 +10721,8 @@
             ],
             "heading": [
               "ANG",
-              "E-MIN",
-              "E-MAX",
+              "E-CM-MIN",
+              "E-CM-MAX",
               "DATA-CM",
               "ERR-T"
             ],
@@ -26277,12 +26393,12 @@
         {
           "SUBENT": {
             "N1": "C0511004",
-            "N2": 19980901,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C257"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -26340,8 +26456,8 @@
                 }
               },
               "free_text": [
-                " Detector efficiency",
-                " normalized to ground + 0.43-eV states."
+                "",
+                " Detector efficiency normalized to g.s.+0.43-MeV states"
               ]
             }
           ],
@@ -26354,24 +26470,52 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "A"
+              },
+              "free_text": [
+                " On. ERR-1 to ERR-4 added. ANG-CM -> ANG."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 5,
             "N2": 0,
             "pointer": [
+              "",
+              "",
+              "",
+              "",
               ""
             ],
             "heading": [
-              "EN"
+              "EN",
+              "ERR-1",
+              "ERR-2",
+              "ERR-3",
+              "ERR-4"
             ],
             "unit": [
-              "MEV"
+              "MEV",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT"
             ],
             "value": [
-              256.0
+              256.0,
+              10.6,
+              10.0,
+              2.0,
+              1.5
             ]
           },
           "ENDCOMMON": {
@@ -26389,9 +26533,9 @@
               ""
             ],
             "heading": [
-              "ANG-CM",
-              "E-MIN",
-              "E-MAX",
+              "ANG",
+              "E-CM-MIN",
+              "E-CM-MAX",
               "DATA-CM",
               "ERR-T"
             ],
@@ -36560,9 +36704,9 @@
         {
           "SUBENT": {
             "N1": "C0511005",
-            "N2": 20100201,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "C099"
+            "transmission_identification": "C257"
           },
           "BIB": {
             "N1": 3,
@@ -36620,6 +36764,16 @@
                 " Data at ends of spectra, generally below",
                 " 1.0E-5 MB/SR/MEV eliminated. Changed ANG-CM to ANG."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "A"
+              },
+              "free_text": [
+                " On. ERR-1 to ERR-4 added."
+              ]
             }
           ],
           "ENDBIB": {
@@ -36627,19 +36781,35 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 5,
             "N2": 0,
             "pointer": [
+              "",
+              "",
+              "",
+              "",
               ""
             ],
             "heading": [
-              "EN"
+              "EN",
+              "ERR-1",
+              "ERR-2",
+              "ERR-3",
+              "ERR-4"
             ],
             "unit": [
-              "MEV"
+              "MEV",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT"
             ],
             "value": [
-              800.0
+              800.0,
+              20.0,
+              10.0,
+              5.4,
+              1.5
             ]
           },
           "ENDCOMMON": {
@@ -36658,8 +36828,8 @@
             ],
             "heading": [
               "ANG",
-              "E-MIN",
-              "E-MAX",
+              "E-CM-MIN",
+              "E-CM-MAX",
               "DATA-CM",
               "ERR-T"
             ],
@@ -55522,12 +55692,12 @@
         {
           "SUBENT": {
             "N1": "C0511006",
-            "N2": 19980901,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C257"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -55585,8 +55755,8 @@
                 }
               },
               "free_text": [
-                " Detector efficiency",
-                " normalized to ground + 0.43-eV states."
+                "",
+                " Detector efficiency normalized to g.s.+0.43-MeV states"
               ]
             }
           ],
@@ -55599,24 +55769,52 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "A"
+              },
+              "free_text": [
+                " On. ERR-1 to ERR-4 added. ANG-CM -> ANG."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 5,
             "N2": 0,
             "pointer": [
+              "",
+              "",
+              "",
+              "",
               ""
             ],
             "heading": [
-              "EN"
+              "EN",
+              "ERR-1",
+              "ERR-2",
+              "ERR-3",
+              "ERR-4"
             ],
             "unit": [
-              "MEV"
+              "MEV",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT"
             ],
             "value": [
-              256.0
+              256.0,
+              10.6,
+              10.0,
+              2.0,
+              1.5
             ]
           },
           "ENDCOMMON": {
@@ -55634,9 +55832,9 @@
               ""
             ],
             "heading": [
-              "ANG-CM",
-              "E-MIN",
-              "E-MAX",
+              "ANG",
+              "E-CM-MIN",
+              "E-CM-MAX",
               "DATA-CM",
               "ERR-T"
             ],
@@ -65784,9 +65982,9 @@
         {
           "SUBENT": {
             "N1": "C0511007",
-            "N2": 20100201,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "C099"
+            "transmission_identification": "C257"
           },
           "BIB": {
             "N1": 3,
@@ -65844,6 +66042,16 @@
                 " Data at ends of spectra, generally below",
                 " 1.0E-5 MB/SR/MEV eliminated. Changed ANG-CM to ANG."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "A"
+              },
+              "free_text": [
+                " On. ERR-1 to ERR-4 added."
+              ]
             }
           ],
           "ENDBIB": {
@@ -65851,19 +66059,35 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 5,
             "N2": 0,
             "pointer": [
+              "",
+              "",
+              "",
+              "",
               ""
             ],
             "heading": [
-              "EN"
+              "EN",
+              "ERR-1",
+              "ERR-2",
+              "ERR-3",
+              "ERR-4"
             ],
             "unit": [
-              "MEV"
+              "MEV",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT"
             ],
             "value": [
-              800.0
+              800.0,
+              20.0,
+              10.0,
+              5.4,
+              1.5
             ]
           },
           "ENDCOMMON": {
@@ -65882,8 +66106,8 @@
             ],
             "heading": [
               "ANG",
-              "E-MIN",
-              "E-MAX",
+              "E-CM-MIN",
+              "E-CM-MAX",
               "DATA-CM",
               "ERR-T"
             ],
@@ -86552,12 +86776,12 @@
         {
           "SUBENT": {
             "N1": "C0511008",
-            "N2": 19980901,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C257"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -86615,8 +86839,8 @@
                 }
               },
               "free_text": [
-                " Detector efficiency",
-                " normalized to ground + 0.43-eV states."
+                "",
+                " Detector efficiency normalized to g.s.+0.43-MeV states"
               ]
             }
           ],
@@ -86629,24 +86853,52 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "A"
+              },
+              "free_text": [
+                " On. ERR-1 to ERR-4 added. ANG-CM -> ANG."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 5,
             "N2": 0,
             "pointer": [
+              "",
+              "",
+              "",
+              "",
               ""
             ],
             "heading": [
-              "EN"
+              "EN",
+              "ERR-1",
+              "ERR-2",
+              "ERR-3",
+              "ERR-4"
             ],
             "unit": [
-              "MEV"
+              "MEV",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT"
             ],
             "value": [
-              256.0
+              256.0,
+              10.6,
+              10.0,
+              2.0,
+              1.5
             ]
           },
           "ENDCOMMON": {
@@ -86664,9 +86916,9 @@
               ""
             ],
             "heading": [
-              "ANG-CM",
-              "E-MIN",
-              "E-MAX",
+              "ANG",
+              "E-CM-MIN",
+              "E-CM-MAX",
               "DATA-CM",
               "ERR-T"
             ],
@@ -96828,9 +97080,9 @@
         {
           "SUBENT": {
             "N1": "C0511009",
-            "N2": 20100201,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "C099"
+            "transmission_identification": "C257"
           },
           "BIB": {
             "N1": 3,
@@ -96888,6 +97140,16 @@
                 " Data at ends of spectra, generally below",
                 " 1.0E-5 MB/SR/MEV eliminated. Changed ANG-CM to ANG."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "A"
+              },
+              "free_text": [
+                " On. ERR-1 to ERR-4 added."
+              ]
             }
           ],
           "ENDBIB": {
@@ -96895,19 +97157,35 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 5,
             "N2": 0,
             "pointer": [
+              "",
+              "",
+              "",
+              "",
               ""
             ],
             "heading": [
-              "EN"
+              "EN",
+              "ERR-1",
+              "ERR-2",
+              "ERR-3",
+              "ERR-4"
             ],
             "unit": [
-              "MEV"
+              "MEV",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT"
             ],
             "value": [
-              800.0
+              800.0,
+              20.0,
+              10.0,
+              5.4,
+              1.5
             ]
           },
           "ENDCOMMON": {
@@ -96926,8 +97204,8 @@
             ],
             "heading": [
               "ANG",
-              "E-MIN",
-              "E-MAX",
+              "E-CM-MIN",
+              "E-CM-MAX",
               "DATA-CM",
               "ERR-T"
             ],
