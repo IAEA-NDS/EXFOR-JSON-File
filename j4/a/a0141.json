@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:06:31+0000",
+  "time_stamp": "2026-05-22T20:48:46+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0141",
-        "N2": 20200531,
+        "N2": 20251202,
         "alteration_flag": " ",
-        "transmission_identification": "A095"
+        "transmission_identification": "A129"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0141001",
-            "N2": 20200531,
+            "N2": 20251202,
             "alteration_flag": " ",
-            "transmission_identification": "A095"
+            "transmission_identification": "A129"
           },
           "BIB": {
             "N1": 16,
@@ -171,13 +171,12 @@
               "coded_information": null,
               "free_text": [
                 "The target stack consisted of three high purity",
-                "Al-foils 10 mu-m thick, followed by a carbon",
-                "guard foil and a copper target foil covered by two",
-                "carbon foils serving as forward and backward recoil",
-                "catchers. The copper targets were  20 mg/cm2,",
-                "approximately and the target stack had a total",
-                "thickness 150 mg/cm2. The total energy loss through",
-                "the was  30 MeV, approximately."
+                "Al-foils 10 um thick, followed by a carbon guard foil",
+                "and a copper target foil covered by two carbon foils",
+                "serving as forward and backward recoil catchers.",
+                "The copper targets were ~20 mg/cm2, and the target",
+                "stack had a total thickness 150 mg/cm2.",
+                "The total energy loss through the target was ~30 MeV."
               ]
             }
           ],
@@ -233,7 +232,7 @@
                 "MISC1"
               ],
               "free_text": [
-                " 2*W(F+B)  'W' is the target thickness",
+                " 2*W(F+B) 'W' is the target thickness",
                 "in mg/cm2"
               ]
             }
@@ -285,7 +284,7 @@
                 "COMP"
               ],
               "free_text": [
-                ".Monte-Carlo cascade evaporation calculations."
+                " Monte-Carlo cascade evaporation calculations."
               ]
             },
             {
@@ -306,11 +305,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "T.Lund+",
+                "reference": {
+                  "code": "J,ZP/A,306,43,1982",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ZP/A",
+                      "number": null,
+                      "volume": "306",
+                      "part": null,
+                      "issue": null,
+                      "page": "43"
+                    },
+                    "date": 1982
+                  }
+                }
               },
               "free_text": [
-                " Tbl.2 from Zeitschrift fuer Phys.,A306(1982)43"
+                " Tbl.2"
               ]
             }
           ],
@@ -320,26 +333,6 @@
               "coded_information": {
                 "date": 19820808,
                 "history": "C"
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 19820902,
-                "history": "U"
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 19820910,
-                "history": "U"
               },
               "free_text": [
                 ""
@@ -363,8 +356,18 @@
               },
               "free_text": [
                 " SD: Corrections in all Subents. BIB updated",
-                "The accuracy of data presentation  has been revised.",
-                "Energy units(value) changed (MEV -> MEV/A)."
+                "The accuracy of data presentation has been revised.",
+                "Energy units (value) changed (MEV -> MEV/A)."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251202,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Correction in Subent 003."
               ]
             }
           ],
@@ -761,9 +764,9 @@
         {
           "SUBENT": {
             "N1": "A0141003",
-            "N2": 20200531,
+            "N2": 20251202,
             "alteration_flag": " ",
-            "transmission_identification": "A095"
+            "transmission_identification": "A129"
           },
           "BIB": {
             "N1": 3,
@@ -1616,7 +1619,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": 26.0,
-                "nuclide": "11-NA-24-G",
+                "nuclide": "11-NA-24",
                 "half-life": {
                   "value": 15.0,
                   "unit": "HR"
@@ -1692,6 +1695,16 @@
                 " SD: SF9=EXP deleted from REACTION code.",
                 "MISC3 -> MISC1-ERR; MISC4 -> MISC2-ERR. Data from",
                 "Subent 004 added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251202,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Na-24g -> Na-24 in DECAY-DATA."
               ]
             }
           ],

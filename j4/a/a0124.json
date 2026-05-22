@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:06:26+0000",
+  "time_stamp": "2026-05-22T20:48:45+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0124",
-        "N2": 20200531,
+        "N2": 20260126,
         "alteration_flag": " ",
-        "transmission_identification": "A095"
+        "transmission_identification": "A129"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0124001",
-            "N2": 20200531,
+            "N2": 20260126,
             "alteration_flag": " ",
-            "transmission_identification": "A095"
+            "transmission_identification": "A129"
           },
           "BIB": {
             "N1": 10,
@@ -26,8 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "On the reaction 19-F(p,alpha)16-O in the range of",
-                "bombarding energy from 2.2- To 3.4-MeV."
+                "On the reaction 19F(p,alpha)16O in the range of",
+                "bombarding energy from 2.2- to 3.4-MeV"
               ]
             }
           ],
@@ -86,16 +86,6 @@
               ]
             }
           ],
-          "SAMPLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "The Ca-F2 target of 75 mu-g/cm2 thickness",
-                "evaporated onto carbon foil."
-              ]
-            }
-          ],
           "FACILITY": [
             {
               "pointer": "",
@@ -107,6 +97,16 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The Ca-F2 target of 75 ug/cm2 thickness evaporated",
+                "onto thin carbon foil of about 20 ug/cm2 thickness."
               ]
             }
           ],
@@ -189,6 +189,16 @@
               "free_text": [
                 " SD: Corrections in all Subents. BIB updated"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260126,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Small correction in Subent 002."
+              ]
             }
           ],
           "ENDBIB": {
@@ -227,9 +237,9 @@
         {
           "SUBENT": {
             "N1": "A0124002",
-            "N2": 20200531,
+            "N2": 20260126,
             "alteration_flag": " ",
-            "transmission_identification": "A095"
+            "transmission_identification": "A129"
           },
           "BIB": {
             "N1": 3,
@@ -259,7 +269,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                " Arbitrary units. No other information."
               ]
             }
           ],
@@ -271,11 +282,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.Morita+",
+                "reference": {
+                  "code": "J,JPJ,21,2435,1966",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JPJ",
+                      "number": null,
+                      "volume": "21",
+                      "part": null,
+                      "issue": null,
+                      "page": "2435"
+                    },
+                    "date": 1966
+                  }
+                }
               },
               "free_text": [
-                " Tbl.I from J.Phys.Soc.Japan,21(1966)2435"
+                " Tbl.I"
               ]
             }
           ],
@@ -290,6 +315,16 @@
                 " SD: SF9=EXP deleted from REACTION code.",
                 "PART-DET, EN-SEC deleted. The accuracy of data",
                 "presentation revised."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260126,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: NUMBER-CM -> NUMBER. STATUS updated."
               ]
             }
           ],
@@ -327,7 +362,7 @@
               ""
             ],
             "heading": [
-              "NUMBER-CM",
+              "NUMBER",
               "EN",
               "DATA-CM",
               "ERR-T"

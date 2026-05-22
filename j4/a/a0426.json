@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:09:59+0000",
+  "time_stamp": "2026-05-22T20:48:50+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0426",
-        "N2": 20120120,
+        "N2": 20251207,
         "alteration_flag": " ",
-        "transmission_identification": "Y008"
+        "transmission_identification": "A129"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0426001",
-            "N2": 20120120,
+            "N2": 20251207,
             "alteration_flag": " ",
-            "transmission_identification": "Y008"
+            "transmission_identification": "A129"
           },
           "BIB": {
-            "N1": 13,
+            "N1": 12,
             "N2": 0
           },
           "TITLE": [
@@ -28,6 +28,22 @@
               "free_text": [
                 "Proton capture cross section of Sr isotopes and their",
                 "importance for nucleosynthesis of proton-rich nuclides"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "Gy.Gyurky",
+                "E.Somorjai",
+                "Zs.Fulop",
+                "S.Harissopulos",
+                "P.Demetriou",
+                "T.Rauscher"
+              ],
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -89,48 +105,30 @@
               ]
             }
           ],
-          "AUTHOR": [
+          "INSTITUTE": [
             {
               "pointer": "",
               "coded_information": [
-                "Gy.Gyurky",
-                "E.Somorjai",
-                "Zs.Fulop",
-                "S.Harissopulos",
-                "P.Demetriou",
-                "T.Rauscher"
+                "3HUNDEB",
+                "2GRCATH",
+                "2SWTBAS"
               ],
               "free_text": [
                 ""
               ]
             }
           ],
-          "INSTITUTE": [
+          "FACILITY": [
             {
               "pointer": "",
-              "coded_information": [
-                "3HUNDEB"
-              ],
+              "coded_information": {
+                "facility": [
+                  "VDG"
+                ],
+                "institute": "3HUNDEB"
+              },
               "free_text": [
                 ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2GRCATH"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2SWTBAS"
-              ],
-              "free_text": [
-                " Department fuer physik und astronomie"
               ]
             }
           ],
@@ -140,8 +138,8 @@
               "coded_information": null,
               "free_text": [
                 "Natural Sr-F/2 targets evaporated onto thick carbon",
-                "backings were used.  The number of target atoms was",
-                "determined by proton induced X-Ray emission.  The",
+                "backings were used. The number of target atoms was",
+                "determined by proton induced X-Ray emission. The",
                 "results were checked by Rutherford backscattering of",
                 "alpha particles."
               ]
@@ -199,46 +197,16 @@
               ]
             }
           ],
-          "FACILITY": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "VDG"
-                ],
-                "institute": "3HUNDEB"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "METHOD": [
             {
               "pointer": "",
               "coded_information": [
-                "EXTB"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "BCINT"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "ACTIV",
+                "BCINT",
                 "SITA"
               ],
               "free_text": [
-                "See sample"
+                ""
               ]
             },
             {
@@ -248,7 +216,7 @@
               ],
               "free_text": [
                 " The irradiations lasted between 6 and 24 hours",
-                "with a beam current of typically 5 -10 microamperes."
+                "with a beam current of typically 5 -10 mA."
               ]
             },
             {
@@ -259,6 +227,33 @@
               "free_text": [
                 " The gamma spectra were taken for at least 48",
                 "hours."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information about source of uncertainty"
+              ]
+            }
+          ],
+          "ADD-RES": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "COMP"
+              ],
+              "free_text": [
+                " With calculations \"Non-Smoker\" and \"Most\" codes",
+                "astrophysical reaction rates derived from new data",
+                "S-factor is given on figs 6, 7."
               ]
             }
           ],
@@ -293,44 +288,16 @@
                 " NDS(VZ): REL-REF: ND/B->NDS in 002,003,005,",
                 "            006,008."
               ]
-            }
-          ],
-          "ERR-ANALYS": [
+            },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "ERR-T",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
+                "date": 20251207,
+                "history": "A"
               },
               "free_text": [
-                " The uncertainty is shown in data tables or on",
-                "figure."
-              ]
-            }
-          ],
-          "MISC-COL": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "MISC"
-              ],
-              "free_text": [
-                " The effective value of sum of kinetic energies",
-                "of beam and target particles."
-              ]
-            }
-          ],
-          "ADD-RES": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "COMP"
-              ],
-              "free_text": [
-                " With calculations \"Non-Smoker\" and \"Most\" codes",
-                "astrophysical reaction rates derived from new data"
+                " SD: Corrections in all Subents.",
+                "Subents 009-011 deleted (see ADD-RES). ERR-T->DATA-ERR."
               ]
             }
           ],
@@ -350,12 +317,12 @@
         {
           "SUBENT": {
             "N1": "A0426002",
-            "N2": 20120120,
+            "N2": 20251207,
             "alteration_flag": " ",
-            "transmission_identification": "Y008"
+            "transmission_identification": "A129"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
@@ -437,7 +404,7 @@
               "coded_information": {
                 "code": "R",
                 "subentry_number": null,
-                "author": "H.SIEVERS",
+                "author": "H.Sievers",
                 "reference": {
                   "code": "J,NDS,62,271,1991",
                   "field": {
@@ -455,7 +422,8 @@
                 }
               },
               "free_text": [
-                ""
+                "  Decay parameters of",
+                " the Y product nuclei"
               ]
             }
           ],
@@ -466,7 +434,7 @@
                 "DECAY"
               ],
               "free_text": [
-                " The authors determined that 151.16-KeV gamma",
+                " The authors determined that 151.16-keV gamma",
                 "ray abundance is wrong."
               ]
             }
@@ -481,6 +449,36 @@
               ]
             }
           ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "Gy.Gyurky+",
+                "reference": {
+                  "code": "J,PR/C,64,065803,2001",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "64",
+                      "part": null,
+                      "issue": null,
+                      "page": "065803"
+                    },
+                    "date": 2001
+                  }
+                }
+              },
+              "free_text": [
+                " Tbl.II"
+              ]
+            }
+          ],
           "HISTORY": [
             {
               "pointer": "",
@@ -490,6 +488,17 @@
               },
               "free_text": [
                 " NDS(VZ): REL-REF: ND/B->NDS"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251207,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Energy changed on values given in the",
+                "table. BIB updated. EN -> EN-CM; ERR-T -> DATA-ERR."
               ]
             }
           ],
@@ -502,110 +511,93 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 4,
+            "N1": 3,
             "N2": 14,
             "pointer": [
-              "",
               "",
               "",
               ""
             ],
             "heading": [
-              "EN",
+              "EN-CM",
               "DATA",
-              "ERR-T",
-              "MISC"
+              "DATA-ERR"
             ],
             "unit": [
               "KEV",
               "MICRO-B",
-              "MICRO-B",
-              "KEV"
+              "MICRO-B"
             ],
             "value": [
               [
-                2997.0,
+                2962.0,
                 574.8,
-                47.7,
-                2962.0
+                47.7
               ],
               [
-                2870.0,
+                2836.0,
                 210.5,
-                18.7,
-                2836.0
+                18.7
               ],
               [
-                2797.0,
+                2764.0,
                 133.5,
-                11.9,
-                2764.0
+                11.9
               ],
               [
-                2696.0,
+                2664.0,
                 140.0,
-                12.8,
-                2664.0
+                12.8
               ],
               [
-                2597.0,
+                2566.0,
                 95.4,
-                8.4,
-                2566.0
+                8.4
               ],
               [
-                2497.0,
+                2468.0,
                 87.0,
-                7.3,
-                2468.0
+                7.3
               ],
               [
-                2396.0,
+                2368.0,
                 67.6,
-                6.0,
-                2368.0
+                6.0
               ],
               [
-                2294.0,
+                2267.0,
                 34.5,
-                2.9,
-                2267.0
+                2.9
               ],
               [
-                2196.0,
+                2170.0,
                 29.6,
-                2.5,
-                2170.0
+                2.5
               ],
               [
-                2096.0,
+                2071.0,
                 18.5,
-                1.7,
-                2071.0
+                1.7
               ],
               [
-                1996.0,
+                1973.0,
                 13.0,
-                1.2,
-                1973.0
+                1.2
               ],
               [
-                1893.0,
+                1871.0,
                 7.54,
-                0.7,
-                1871.0
+                0.7
               ],
               [
-                1795.0,
+                1774.0,
                 4.39,
-                0.4,
-                1774.0
+                0.4
               ],
               [
-                1693.0,
+                1673.0,
                 0.851,
-                0.27,
-                1673.0
+                0.27
               ]
             ]
           },
@@ -621,12 +613,12 @@
         {
           "SUBENT": {
             "N1": "A0426003",
-            "N2": 20120120,
+            "N2": 20251207,
             "alteration_flag": " ",
-            "transmission_identification": "Y008"
+            "transmission_identification": "A129"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -699,7 +691,7 @@
               "coded_information": {
                 "code": "R",
                 "subentry_number": null,
-                "author": "H.SIEVERS",
+                "author": "H.Sievers",
                 "reference": {
                   "code": "J,NDS,62,271,1991",
                   "field": {
@@ -717,7 +709,8 @@
                 }
               },
               "free_text": [
-                ""
+                " Decay parameters of",
+                " the Y product nuclei"
               ]
             }
           ],
@@ -731,6 +724,36 @@
               ]
             }
           ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "Gy.Gyurky+",
+                "reference": {
+                  "code": "J,PR/C,64,065803,2001",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "64",
+                      "part": null,
+                      "issue": null,
+                      "page": "065803"
+                    },
+                    "date": 2001
+                  }
+                }
+              },
+              "free_text": [
+                " Tbl.II"
+              ]
+            }
+          ],
           "HISTORY": [
             {
               "pointer": "",
@@ -740,6 +763,17 @@
               },
               "free_text": [
                 " NDS(VZ): REL-REF: ND/B->NDS"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251207,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Energy changed on values given in the",
+                "table. BIB updated. EN -> EN-CM; ERR-T -> DATA-ERR."
               ]
             }
           ],
@@ -752,110 +786,93 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 4,
+            "N1": 3,
             "N2": 14,
             "pointer": [
-              "",
               "",
               "",
               ""
             ],
             "heading": [
-              "EN",
+              "EN-CM",
               "DATA",
-              "ERR-T",
-              "MISC"
+              "DATA-ERR"
             ],
             "unit": [
               "KEV",
               "MICRO-B",
-              "MICRO-B",
-              "KEV"
+              "MICRO-B"
             ],
             "value": [
               [
-                2997.0,
+                2962.0,
                 424.6,
-                99.7,
-                2962.0
+                99.7
               ],
               [
-                2870.0,
+                2836.0,
                 372.5,
-                65.8,
-                2836.0
+                65.8
               ],
               [
-                2797.0,
+                2764.0,
                 251.9,
-                47.5,
-                2764.0
+                47.5
               ],
               [
-                2696.0,
+                2664.0,
                 228.1,
-                44.1,
-                2664.0
+                44.1
               ],
               [
-                2597.0,
+                2566.0,
                 161.9,
-                30.3,
-                2566.0
+                30.3
               ],
               [
-                2497.0,
+                2468.0,
                 119.9,
-                28.0,
-                2468.0
+                28.0
               ],
               [
-                2396.0,
+                2368.0,
                 101.6,
-                20.2,
-                2368.0
+                20.2
               ],
               [
-                2294.0,
+                2267.0,
                 47.8,
-                11.6,
-                2267.0
+                11.6
               ],
               [
-                2196.0,
+                2170.0,
                 45.6,
-                10.7,
-                2170.0
+                10.7
               ],
               [
-                2096.0,
+                2071.0,
                 19.5,
-                5.2,
-                2071.0
+                5.2
               ],
               [
-                1996.0,
+                1973.0,
                 22.0,
-                5.3,
-                1973.0
+                5.3
               ],
               [
-                1893.0,
+                1871.0,
                 10.9,
-                2.7,
-                1871.0
+                2.7
               ],
               [
-                1795.0,
+                1774.0,
                 5.22,
-                1.5,
-                1774.0
+                1.5
               ],
               [
-                1693.0,
+                1673.0,
                 2.3,
-                0.9,
-                1673.0
+                0.9
               ]
             ]
           },
@@ -871,12 +888,12 @@
         {
           "SUBENT": {
             "N1": "A0426004",
-            "N2": 20021217,
+            "N2": 20251207,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A129"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -908,6 +925,34 @@
             }
           ],
           "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "Gy.Gyurky+",
+                "reference": {
+                  "code": "J,PR/C,64,065803,2001",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "64",
+                      "part": null,
+                      "issue": null,
+                      "page": "065803"
+                    },
+                    "date": 2001
+                  }
+                }
+              },
+              "free_text": [
+                " Tbl.II"
+              ]
+            },
             {
               "pointer": "",
               "coded_information": {
@@ -947,6 +992,29 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251207,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated. ERR-T -> DATA-ERR."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251207,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Energy changed on values given in the",
+                "table. BIB updated. EN -> EN-CM; ERR-T -> DATA-ERR."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
@@ -956,110 +1024,93 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 4,
+            "N1": 3,
             "N2": 14,
             "pointer": [
-              "",
               "",
               "",
               ""
             ],
             "heading": [
-              "EN",
+              "EN-CM",
               "DATA",
-              "ERR-T",
-              "MISC"
+              "DATA-ERR"
             ],
             "unit": [
               "KEV",
               "MICRO-B",
-              "MICRO-B",
-              "KEV"
+              "MICRO-B"
             ],
             "value": [
               [
-                2997.0,
+                2962.0,
                 999.4,
-                147.4,
-                2962.0
+                147.4
               ],
               [
-                2870.0,
+                2836.0,
                 583.0,
-                84.5,
-                2836.0
+                84.5
               ],
               [
-                2797.0,
+                2764.0,
                 385.4,
-                59.4,
-                2764.0
+                59.4
               ],
               [
-                2696.0,
+                2664.0,
                 368.1,
-                56.9,
-                2664.0
+                56.9
               ],
               [
-                2597.0,
+                2566.0,
                 257.3,
-                38.7,
-                2566.0
+                38.7
               ],
               [
-                2497.0,
+                2468.0,
                 206.9,
-                35.3,
-                2468.0
+                35.3
               ],
               [
-                2396.0,
+                2368.0,
                 169.2,
-                26.2,
-                2368.0
+                26.2
               ],
               [
-                2294.0,
+                2267.0,
                 82.3,
-                14.5,
-                2267.0
+                14.5
               ],
               [
-                2196.0,
+                2170.0,
                 75.2,
-                13.2,
-                2170.0
+                13.2
               ],
               [
-                2096.0,
+                2071.0,
                 38.0,
-                6.9,
-                2071.0
+                6.9
               ],
               [
-                1996.0,
+                1973.0,
                 35.0,
-                6.5,
-                1973.0
+                6.5
               ],
               [
-                1893.0,
+                1871.0,
                 18.4,
-                3.4,
-                1871.0
+                3.4
               ],
               [
-                1795.0,
+                1774.0,
                 9.61,
-                1.9,
-                1774.0
+                1.9
               ],
               [
-                1693.0,
+                1673.0,
                 3.15,
-                1.2,
-                1673.0
+                1.2
               ]
             ]
           },
@@ -1075,12 +1126,12 @@
         {
           "SUBENT": {
             "N1": "A0426005",
-            "N2": 20120120,
+            "N2": 20251207,
             "alteration_flag": " ",
-            "transmission_identification": "Y008"
+            "transmission_identification": "A129"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -1153,7 +1204,7 @@
               "coded_information": {
                 "code": "R",
                 "subentry_number": null,
-                "author": "H.SIEVERS",
+                "author": "H.Sievers",
                 "reference": {
                   "code": "J,NDS,62,327,1991",
                   "field": {
@@ -1171,7 +1222,8 @@
                 }
               },
               "free_text": [
-                ""
+                " Decay parameters of",
+                " the Y product nuclei"
               ]
             }
           ],
@@ -1181,15 +1233,45 @@
               "coded_information": null,
               "free_text": [
                 "- By authors:",
-                "1.  At 2.67 MeV bombarding energy the 87-Sr(P,N)",
+                "1. At 2.67 MeV bombarding energy the 87-Sr(p,n)",
                 "channel opens; hence above this energy only the sum of",
-                "the cross section of 86-Sr(P,g)87-Y and 87-Sr(P,N)",
-                "reactions can be deduced.  However, calculations show",
-                "that in the investigated energy region the (P,N)",
+                "the cross section of 86-Sr(p,gamma)87-Y and 87-Sr(p,n)",
+                "reactions can be deduced. However, calculations show",
+                "that in the investigated energy region the (p,n)",
                 "channel is much - about two orders of magnitude -",
-                "weaker than the (P,g).",
+                "weaker than the (p,gamma).",
                 "2. The resulting cross sections are significantly lower",
                 "than the values of the model calculations."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "Gy.Gyurky+",
+                "reference": {
+                  "code": "J,PR/C,64,065803,2001",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "64",
+                      "part": null,
+                      "issue": null,
+                      "page": "065803"
+                    },
+                    "date": 2001
+                  }
+                }
+              },
+              "free_text": [
+                " Tbl.III"
               ]
             }
           ],
@@ -1203,6 +1285,17 @@
               "free_text": [
                 " NDS(VZ): REL-REF: ND/B->NDS"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251207,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Energy changed on values given in the",
+                "table. BIB updated. EN -> EN-CM; ERR-T -> DATA-ERR."
+              ]
             }
           ],
           "ENDBIB": {
@@ -1214,122 +1307,103 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 4,
+            "N1": 3,
             "N2": 16,
             "pointer": [
-              "",
               "",
               "",
               ""
             ],
             "heading": [
-              "EN",
+              "EN-CM",
               "DATA",
-              "ERR-T",
-              "MISC"
+              "DATA-ERR"
             ],
             "unit": [
               "KEV",
               "MICRO-B",
-              "MICRO-B",
-              "KEV"
+              "MICRO-B"
             ],
             "value": [
               [
-                2997.0,
+                2963.0,
                 496.0,
-                39.7,
-                2963.0
+                39.7
               ],
               [
-                2897.0,
+                2864.0,
                 311.6,
-                27.0,
-                2864.0
+                27.0
               ],
               [
-                2797.0,
+                2765.0,
                 227.6,
-                19.4,
-                2765.0
+                19.4
               ],
               [
-                2696.0,
+                2665.0,
                 172.4,
-                15.0,
-                2665.0
+                15.0
               ],
               [
-                2597.0,
+                2567.0,
                 152.8,
-                12.8,
-                2567.0
+                12.8
               ],
               [
-                2497.0,
+                2468.0,
                 128.4,
-                10.5,
-                2468.0
+                10.5
               ],
               [
-                2396.0,
+                2368.0,
                 99.9,
-                8.52,
-                2368.0
+                8.52
               ],
               [
-                2294.0,
+                2268.0,
                 52.0,
-                4.15,
-                2268.0
+                4.15
               ],
               [
-                2196.0,
+                2171.0,
                 33.0,
-                2.65,
-                2171.0
+                2.65
               ],
               [
-                2096.0,
+                2072.0,
                 26.6,
-                2.06,
-                2072.0
+                2.06
               ],
               [
-                1996.0,
+                1973.0,
                 18.4,
-                1.43,
-                1973.0
+                1.43
               ],
               [
-                1893.0,
+                1871.0,
                 9.14,
-                0.72,
-                1871.0
+                0.72
               ],
               [
-                1795.0,
+                1774.0,
                 7.46,
-                0.59,
-                1774.0
+                0.59
               ],
               [
-                1692.0,
+                1673.0,
                 3.25,
-                0.25,
-                1673.0
+                0.25
               ],
               [
-                1595.0,
+                1577.0,
                 1.3,
-                0.1,
-                1577.0
+                0.1
               ],
               [
-                1494.0,
+                1477.0,
                 0.637,
-                0.05,
-                1477.0
+                0.05
               ]
             ]
           },
@@ -1345,12 +1419,12 @@
         {
           "SUBENT": {
             "N1": "A0426006",
-            "N2": 20120120,
+            "N2": 20251207,
             "alteration_flag": " ",
-            "transmission_identification": "Y008"
+            "transmission_identification": "A129"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -1414,7 +1488,7 @@
               "coded_information": {
                 "code": "R",
                 "subentry_number": null,
-                "author": "H.SIEVERS",
+                "author": "H.Sievers",
                 "reference": {
                   "code": "J,NDS,62,327,1991",
                   "field": {
@@ -1432,7 +1506,8 @@
                 }
               },
               "free_text": [
-                ""
+                " Decay parameters of",
+                " the Y product nuclei"
               ]
             }
           ],
@@ -1442,15 +1517,45 @@
               "coded_information": null,
               "free_text": [
                 "- By authors:",
-                "1.  At 2.67 MeV bombarding energy the 87-Sr(P,N)",
+                "1.  At 2.67 MeV bombarding energy the 87-Sr(p,n)",
                 "channel opens; hence above this energy only the sum of",
-                "the cross section of 86-Sr(P,g)87-Y and 87-Sr(P,N)",
+                "the cross section of 86-Sr(p,gamma)87-Y and 87-Sr(p,n)",
                 "reactions can be deduced.  However, calculations show",
-                "that in the investigated energy region the (P,N)",
+                "that in the investigated energy region the (p,n)",
                 "channel is much - about two orders of magnitude -weaker",
-                "than the (P,g).",
+                "than the (p,gamma).",
                 "2. The resulting cross sections are significantly lower",
                 "than the values of the model calculations."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "Gy.Gyurky+",
+                "reference": {
+                  "code": "J,PR/C,64,065803,2001",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "64",
+                      "part": null,
+                      "issue": null,
+                      "page": "065803"
+                    },
+                    "date": 2001
+                  }
+                }
+              },
+              "free_text": [
+                " Tbl.II"
               ]
             }
           ],
@@ -1464,6 +1569,17 @@
               "free_text": [
                 " NDS(VZ): REL-REF: ND/B->NDS"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251207,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Energy changed on values given in the",
+                "table. BIB updated. EN -> EN-CM; ERR-T -> DATA-ERR."
+              ]
             }
           ],
           "ENDBIB": {
@@ -1475,122 +1591,103 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 4,
+            "N1": 3,
             "N2": 16,
             "pointer": [
-              "",
               "",
               "",
               ""
             ],
             "heading": [
-              "EN",
+              "EN-CM",
               "DATA",
-              "ERR-T",
-              "MISC"
+              "DATA-ERR"
             ],
             "unit": [
               "KEV",
               "MICRO-B",
-              "MICRO-B",
-              "KEV"
+              "MICRO-B"
             ],
             "value": [
               [
-                2997.0,
+                2963.0,
                 136.5,
-                10.2,
-                2963.0
+                10.2
               ],
               [
-                2897.0,
+                2864.0,
                 98.0,
-                7.98,
-                2864.0
+                7.98
               ],
               [
-                2797.0,
+                2765.0,
                 57.9,
-                4.71,
-                2765.0
+                4.71
               ],
               [
-                2696.0,
+                2665.0,
                 46.1,
-                3.86,
-                2665.0
+                3.86
               ],
               [
-                2597.0,
+                2567.0,
                 38.8,
-                3.13,
-                2567.0
+                3.13
               ],
               [
-                2497.0,
+                2468.0,
                 40.7,
-                3.1,
-                2468.0
+                3.1
               ],
               [
-                2396.0,
+                2368.0,
                 31.7,
-                2.58,
-                2368.0
+                2.58
               ],
               [
-                2294.0,
+                2268.0,
                 10.7,
-                0.8,
-                2268.0
+                0.8
               ],
               [
-                2196.0,
+                2171.0,
                 10.3,
-                0.77,
-                2171.0
+                0.77
               ],
               [
-                2096.0,
+                2072.0,
                 8.39,
-                0.62,
-                2072.0
+                0.62
               ],
               [
-                1996.0,
+                1973.0,
                 5.11,
-                0.38,
-                1973.0
+                0.38
               ],
               [
-                1893.0,
+                1871.0,
                 2.13,
-                0.16,
-                1871.0
+                0.16
               ],
               [
-                1795.0,
+                1774.0,
                 1.49,
-                0.11,
-                1774.0
+                0.11
               ],
               [
-                1692.0,
+                1673.0,
                 0.462,
-                0.035,
-                1673.0
+                0.035
               ],
               [
-                1595.0,
+                1577.0,
                 0.206,
-                0.016,
-                1577.0
+                0.016
               ],
               [
-                1494.0,
+                1477.0,
                 0.095,
-                0.007,
-                1477.0
+                0.007
               ]
             ]
           },
@@ -1606,12 +1703,12 @@
         {
           "SUBENT": {
             "N1": "A0426007",
-            "N2": 20021217,
+            "N2": 20251207,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A129"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1642,7 +1739,53 @@
               ]
             }
           ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "- By authors:",
+                "1.  At 2.67 MeV bombarding energy the 87-Sr(P,N)",
+                "channel opens; hence above this energy only the sum of",
+                "the cross section of 86-Sr(P,g)87-Y and 87-Sr(P,N)",
+                "reactions can be deduced.  However, calculations show",
+                "that in the investigated energy region the (P,N)",
+                "channel is much - about two orders of magnitude -weaker",
+                "than the (P,g).",
+                "2. The resulting cross sections are significantly lower",
+                "than the values of the model calculations."
+              ]
+            }
+          ],
           "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "Gy.Gyurky+",
+                "reference": {
+                  "code": "J,PR/C,64,065803,2001",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "64",
+                      "part": null,
+                      "issue": null,
+                      "page": "065803"
+                    },
+                    "date": 2001
+                  }
+                }
+              },
+              "free_text": [
+                " Tbl.II"
+              ]
+            },
             {
               "pointer": "",
               "coded_information": {
@@ -1672,21 +1815,16 @@
               ]
             }
           ],
-          "COMMENT": [
+          "HISTORY": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "date": 20251207,
+                "history": "A"
+              },
               "free_text": [
-                "- By authors:",
-                "1.  At 2.67 MeV bombarding energy the 87-Sr(P,N)",
-                "channel opens; hence above this energy only the sum of",
-                "the cross section of 86-Sr(P,g)87-Y and 87-Sr(P,N)",
-                "reactions can be deduced.  However, calculations show",
-                "that in the investigated energy region the (P,N)",
-                "channel is much - about two orders of magnitude -weaker",
-                "than the (P,g).",
-                "2. The resulting cross sections are significantly lower",
-                "than the values of the model calculations."
+                " SD: Energy changed on values given in the",
+                "table. BIB updated. EN -> EN-CM; ERR-T -> DATA-ERR."
               ]
             }
           ],
@@ -1699,122 +1837,103 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 4,
+            "N1": 3,
             "N2": 16,
             "pointer": [
-              "",
               "",
               "",
               ""
             ],
             "heading": [
-              "EN",
+              "EN-CM",
               "DATA",
-              "ERR-T",
-              "MISC"
+              "DATA-ERR"
             ],
             "unit": [
               "KEV",
               "MICRO-B",
-              "MICRO-B",
-              "KEV"
+              "MICRO-B"
             ],
             "value": [
               [
-                2997.0,
+                2963.0,
                 632.5,
-                49.9,
-                2963.0
+                49.9
               ],
               [
-                2897.0,
+                2864.0,
                 409.6,
-                35.0,
-                2864.0
+                35.0
               ],
               [
-                2797.0,
+                2765.0,
                 285.5,
-                24.1,
-                2765.0
+                24.1
               ],
               [
-                2696.0,
+                2665.0,
                 218.5,
-                18.9,
-                2665.0
+                18.9
               ],
               [
-                2597.0,
+                2567.0,
                 191.6,
-                15.9,
-                2567.0
+                15.9
               ],
               [
-                2497.0,
+                2468.0,
                 169.1,
-                13.6,
-                2468.0
+                13.6
               ],
               [
-                2396.0,
+                2368.0,
                 131.6,
-                11.1,
-                2368.0
+                11.1
               ],
               [
-                2294.0,
+                2268.0,
                 62.7,
-                4.95,
-                2268.0
+                4.95
               ],
               [
-                2196.0,
+                2171.0,
                 43.3,
-                3.42,
-                2171.0
+                3.42
               ],
               [
-                2096.0,
+                2072.0,
                 35.0,
-                2.68,
-                2072.0
+                2.68
               ],
               [
-                1996.0,
+                1973.0,
                 23.5,
-                1.81,
-                1973.0
+                1.81
               ],
               [
-                1893.0,
+                1871.0,
                 11.3,
-                0.88,
-                1871.0
+                0.88
               ],
               [
-                1795.0,
+                1774.0,
                 8.94,
-                0.7,
-                1774.0
+                0.7
               ],
               [
-                1692.0,
+                1673.0,
                 3.71,
-                0.29,
-                1673.0
+                0.29
               ],
               [
-                1595.0,
+                1577.0,
                 1.51,
-                0.12,
-                1577.0
+                0.12
               ],
               [
-                1494.0,
+                1477.0,
                 0.732,
-                0.06,
-                1477.0
+                0.06
               ]
             ]
           },
@@ -1830,12 +1949,12 @@
         {
           "SUBENT": {
             "N1": "A0426008",
-            "N2": 20120120,
+            "N2": 20251207,
             "alteration_flag": " ",
-            "transmission_identification": "Y008"
+            "transmission_identification": "A129"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -1900,21 +2019,6 @@
               "free_text": [
                 ""
               ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "39-Y-88-M",
-                "half-life": {
-                  "value": 0.0139,
-                  "unit": "SEC"
-                },
-                "radiation": []
-              },
-              "free_text": [
-                " Isomer transition =100%"
-              ]
             }
           ],
           "REL-REF": [
@@ -1923,7 +2027,7 @@
               "coded_information": {
                 "code": "R",
                 "subentry_number": null,
-                "author": "H.-W.MUELLER",
+                "author": "H.-W.Mueller",
                 "reference": {
                   "code": "J,NDS,54,1,1988",
                   "field": {
@@ -1941,7 +2045,38 @@
                 }
               },
               "free_text": [
-                ""
+                " Decay parameters of",
+                " the 88Y product nuclei"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "Gy.Gyurky+",
+                "reference": {
+                  "code": "J,PR/C,64,065803,2001",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "64",
+                      "part": null,
+                      "issue": null,
+                      "page": "065803"
+                    },
+                    "date": 2001
+                  }
+                }
+              },
+              "free_text": [
+                " Tbl.II"
               ]
             }
           ],
@@ -1955,6 +2090,18 @@
               "free_text": [
                 " NDS(VZ): REL-REF: ND/B->NDS"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251207,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Energy changed on values given in the",
+                "table. BIB updated. EN -> EN-CM; ERR-T -> DATA-ERR.",
+                "DECAY-DATA deleted."
+              ]
             }
           ],
           "ENDBIB": {
@@ -1966,116 +2113,98 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 4,
+            "N1": 3,
             "N2": 15,
             "pointer": [
-              "",
               "",
               "",
               ""
             ],
             "heading": [
-              "EN",
+              "EN-CM",
               "DATA",
-              "ERR-T",
-              "MISC"
+              "DATA-ERR"
             ],
             "unit": [
               "KEV",
               "MICRO-B",
-              "MICRO-B",
-              "KEV"
+              "MICRO-B"
             ],
             "value": [
               [
-                2997.0,
+                2963.0,
                 629.2,
-                47.1,
-                2963.0
+                47.1
               ],
               [
-                2897.0,
+                2864.0,
                 340.3,
-                27.7,
-                2864.0
+                27.7
               ],
               [
-                2797.0,
+                2765.0,
                 332.5,
-                27.1,
-                2765.0
+                27.1
               ],
               [
-                2696.0,
+                2665.0,
                 262.7,
-                22.0,
-                2665.0
+                22.0
               ],
               [
-                2597.0,
+                2567.0,
                 232.0,
-                18.7,
-                2567.0
+                18.7
               ],
               [
-                2497.0,
+                2469.0,
                 156.0,
-                12.0,
-                2469.0
+                12.0
               ],
               [
-                2396.0,
+                2369.0,
                 121.0,
-                9.9,
-                2369.0
+                9.9
               ],
               [
-                2294.0,
+                2268.0,
                 67.7,
-                5.12,
-                2268.0
+                5.12
               ],
               [
-                2196.0,
+                2171.0,
                 48.6,
-                3.71,
-                2171.0
+                3.71
               ],
               [
-                2096.0,
+                2072.0,
                 30.1,
-                2.28,
-                2072.0
+                2.28
               ],
               [
-                1996.0,
+                1973.0,
                 15.7,
-                1.31,
-                1973.0
+                1.31
               ],
               [
-                1893.0,
+                1871.0,
                 8.18,
-                0.67,
-                1871.0
+                0.67
               ],
               [
-                1795.0,
+                1775.0,
                 5.04,
-                0.42,
-                1775.0
+                0.42
               ],
               [
-                1693.0,
+                1674.0,
                 2.03,
-                0.19,
-                1674.0
+                0.19
               ],
               [
-                1595.0,
+                1577.0,
                 1.39,
-                0.16,
-                1577.0
+                0.16
               ]
             ]
           },
@@ -2089,693 +2218,24 @@
           }
         },
         {
-          "SUBENT": {
+          "NOSUBENT": {
             "N1": "A0426009",
-            "N2": 20021217,
-            "alteration_flag": " ",
-            "transmission_identification": "0000"
-          },
-          "BIB": {
-            "N1": 3,
-            "N2": 0
-          },
-          "REACTION": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "38-SR-84(P,G)39-Y-85,,SIG,,SFC",
-                "code_unit": [
-                  {
-                    "unit": "38-SR-84(P,G)39-Y-85,,SIG,,SFC",
-                    "field": {
-                      "reaction": "38-SR-84(P,G)39-Y-85",
-                      "target": "38-SR-84",
-                      "projectile": "P",
-                      "process": "G",
-                      "product": "39-Y-85",
-                      "quantity": ",SIG,,SFC",
-                      "data_type": null,
-                      "general_quantity_modifier": null,
-                      "quantity_236": ",SIG,,SFC"
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "CURVE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " By CAJAD from figure 6"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "DEP"
-                ],
-                "subentry_number": "A0426004",
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "EN-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Data point reader uncertainty"
-              ]
-            }
-          ],
-          "ENDBIB": {
-            "N1": 0,
-            "N2": 0
-          },
-          "COMMON": {
-            "N1": 1,
-            "N2": 0,
-            "pointer": [
-              ""
-            ],
-            "heading": [
-              "EN-ERR"
-            ],
-            "unit": [
-              "MEV"
-            ],
-            "value": [
-              0.005
-            ]
-          },
-          "ENDCOMMON": {
-            "N1": 0,
-            "N2": 0
-          },
-          "DATA": {
-            "N1": 4,
-            "N2": 14,
-            "pointer": [
-              "",
-              "",
-              "",
-              ""
-            ],
-            "heading": [
-              "EN",
-              "DATA",
-              "ERR-T",
-              "MISC"
-            ],
-            "unit": [
-              "MEV",
-              "B*MEV",
-              "B*MEV",
-              "MEV"
-            ],
-            "value": [
-              [
-                1.693,
-                19000000.0,
-                6000000.0,
-                1.673
-              ],
-              [
-                1.795,
-                26000000.0,
-                5000000.0,
-                1.774
-              ],
-              [
-                1.893,
-                25000000.0,
-                5000000.0,
-                1.871
-              ],
-              [
-                1.996,
-                25000000.0,
-                5000000.0,
-                1.973
-              ],
-              [
-                2.096,
-                14800000.0,
-                2600000.0,
-                2.071
-              ],
-              [
-                2.196,
-                16900000.0,
-                2900000.0,
-                2.17
-              ],
-              [
-                2.294,
-                11200000.0,
-                2000000.0,
-                2.267
-              ],
-              [
-                2.396,
-                14100000.0,
-                2300000.0,
-                2.368
-              ],
-              [
-                2.497,
-                10700000.0,
-                1800000.0,
-                2.468
-              ],
-              [
-                2.597,
-                8700000.0,
-                1300000.0,
-                2.566
-              ],
-              [
-                2.696,
-                8400000.0,
-                1300000.0,
-                2.664
-              ],
-              [
-                2.797,
-                5700000.0,
-                1000000.0,
-                2.764
-              ],
-              [
-                2.87,
-                6100000.0,
-                900000.0,
-                2.836
-              ],
-              [
-                2.997,
-                7600000.0,
-                1100000.0,
-                2.962
-              ]
-            ]
-          },
-          "ENDDATA": {
-            "N1": 0,
-            "N2": 0
-          },
-          "ENDSUBENT": {
-            "N1": 0,
-            "N2": 0
+            "N2": 20251207,
+            "transmission_identification": "A129"
           }
         },
         {
-          "SUBENT": {
+          "NOSUBENT": {
             "N1": "A0426010",
-            "N2": 20021217,
-            "alteration_flag": " ",
-            "transmission_identification": "0000"
-          },
-          "BIB": {
-            "N1": 3,
-            "N2": 0
-          },
-          "REACTION": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "38-SR-86(P,G)39-Y-87,,SIG,,SFC",
-                "code_unit": [
-                  {
-                    "unit": "38-SR-86(P,G)39-Y-87,,SIG,,SFC",
-                    "field": {
-                      "reaction": "38-SR-86(P,G)39-Y-87",
-                      "target": "38-SR-86",
-                      "projectile": "P",
-                      "process": "G",
-                      "product": "39-Y-87",
-                      "quantity": ",SIG,,SFC",
-                      "data_type": null,
-                      "general_quantity_modifier": null,
-                      "quantity_236": ",SIG,,SFC"
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "CURVE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " By CAJAD from figure 6"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "DEP"
-                ],
-                "subentry_number": "A0426007",
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "EN-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Data point reader uncertainty"
-              ]
-            }
-          ],
-          "ENDBIB": {
-            "N1": 0,
-            "N2": 0
-          },
-          "COMMON": {
-            "N1": 1,
-            "N2": 0,
-            "pointer": [
-              ""
-            ],
-            "heading": [
-              "EN-ERR"
-            ],
-            "unit": [
-              "MEV"
-            ],
-            "value": [
-              0.005
-            ]
-          },
-          "ENDCOMMON": {
-            "N1": 0,
-            "N2": 0
-          },
-          "DATA": {
-            "N1": 4,
-            "N2": 16,
-            "pointer": [
-              "",
-              "",
-              "",
-              ""
-            ],
-            "heading": [
-              "EN",
-              "DATA",
-              "ERR-T",
-              "MISC"
-            ],
-            "unit": [
-              "MEV",
-              "B*MEV",
-              "B*MEV",
-              "KEV"
-            ],
-            "value": [
-              [
-                1.494,
-                24600000.0,
-                3000000.0,
-                1.477
-              ],
-              [
-                1.595,
-                20400000.0,
-                2400000.0,
-                1.577
-              ],
-              [
-                1.692,
-                22100000.0,
-                2600000.0,
-                1.673
-              ],
-              [
-                1.795,
-                24600000.0,
-                3000000.0,
-                1.774
-              ],
-              [
-                1.893,
-                15700000.0,
-                1700000.0,
-                1.871
-              ],
-              [
-                1.996,
-                17100000.0,
-                1800000.0,
-                1.973
-              ],
-              [
-                2.096,
-                14100000.0,
-                1600000.0,
-                2.072
-              ],
-              [
-                2.196,
-                10100000.0,
-                1000000.0,
-                2.171
-              ],
-              [
-                2.294,
-                8800000.0,
-                1000000.0,
-                2.268
-              ],
-              [
-                2.396,
-                11300000.0,
-                1400000.0,
-                2.368
-              ],
-              [
-                2.497,
-                9300000.0,
-                1000000.0,
-                2.468
-              ],
-              [
-                2.597,
-                7200000.0,
-                700000.0,
-                2.567
-              ],
-              [
-                2.696,
-                5600000.0,
-                400000.0,
-                2.665
-              ],
-              [
-                2.797,
-                4910000.0,
-                240000.0,
-                2.765
-              ],
-              [
-                2.897,
-                4970000.0,
-                240000.0,
-                2.864
-              ],
-              [
-                2.997,
-                5360000.0,
-                240000.0,
-                2.963
-              ]
-            ]
-          },
-          "ENDDATA": {
-            "N1": 0,
-            "N2": 0
-          },
-          "ENDSUBENT": {
-            "N1": 0,
-            "N2": 0
+            "N2": 20251207,
+            "transmission_identification": "A129"
           }
         },
         {
-          "SUBENT": {
+          "NOSUBENT": {
             "N1": "A0426011",
-            "N2": 20021217,
-            "alteration_flag": " ",
-            "transmission_identification": "0000"
-          },
-          "BIB": {
-            "N1": 3,
-            "N2": 0
-          },
-          "REACTION": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "38-SR-87(P,G)39-Y-88,,SIG,,SFC",
-                "code_unit": [
-                  {
-                    "unit": "38-SR-87(P,G)39-Y-88,,SIG,,SFC",
-                    "field": {
-                      "reaction": "38-SR-87(P,G)39-Y-88",
-                      "target": "38-SR-87",
-                      "projectile": "P",
-                      "process": "G",
-                      "product": "39-Y-88",
-                      "quantity": ",SIG,,SFC",
-                      "data_type": null,
-                      "general_quantity_modifier": null,
-                      "quantity_236": ",SIG,,SFC"
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "CURVE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " By CAJAD from figure 7"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "DEP"
-                ],
-                "subentry_number": "A0426008",
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "EN-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Data point reader uncertainty"
-              ]
-            }
-          ],
-          "ENDBIB": {
-            "N1": 0,
-            "N2": 0
-          },
-          "COMMON": {
-            "N1": 1,
-            "N2": 0,
-            "pointer": [
-              ""
-            ],
-            "heading": [
-              "EN-ERR"
-            ],
-            "unit": [
-              "MEV"
-            ],
-            "value": [
-              0.005
-            ]
-          },
-          "ENDCOMMON": {
-            "N1": 0,
-            "N2": 0
-          },
-          "DATA": {
-            "N1": 4,
-            "N2": 15,
-            "pointer": [
-              "",
-              "",
-              "",
-              ""
-            ],
-            "heading": [
-              "EN",
-              "DATA",
-              "ERR-T",
-              "MISC"
-            ],
-            "unit": [
-              "MEV",
-              "B*MEV",
-              "B*MEV",
-              "MEV"
-            ],
-            "value": [
-              [
-                1.595,
-                18600000.0,
-                2800000.0,
-                1.577
-              ],
-              [
-                1.693,
-                12100000.0,
-                1700000.0,
-                1.674
-              ],
-              [
-                1.795,
-                13500000.0,
-                1900000.0,
-                1.775
-              ],
-              [
-                1.893,
-                11100000.0,
-                1400000.0,
-                1.871
-              ],
-              [
-                1.996,
-                10800000.0,
-                1400000.0,
-                1.973
-              ],
-              [
-                2.096,
-                11400000.0,
-                1400000.0,
-                2.072
-              ],
-              [
-                2.196,
-                10400000.0,
-                1300000.0,
-                2.171
-              ],
-              [
-                2.294,
-                8800000.0,
-                1100000.0,
-                2.268
-              ],
-              [
-                2.396,
-                9500000.0,
-                1300000.0,
-                2.369
-              ],
-              [
-                2.497,
-                7300000.0,
-                1000000.0,
-                2.469
-              ],
-              [
-                2.597,
-                7200000.0,
-                900000.0,
-                2.567
-              ],
-              [
-                2.696,
-                5000000.0,
-                800000.0,
-                2.665
-              ],
-              [
-                2.797,
-                4100000.0,
-                600000.0,
-                2.765
-              ],
-              [
-                2.897,
-                2200000.0,
-                400000.0,
-                2.864
-              ],
-              [
-                2.997,
-                3700000.0,
-                400000.0,
-                2.963
-              ]
-            ]
-          },
-          "ENDDATA": {
-            "N1": 0,
-            "N2": 0
-          },
-          "ENDSUBENT": {
-            "N1": 0,
-            "N2": 0
+            "N2": 20251207,
+            "transmission_identification": "A129"
           }
         }
       ],

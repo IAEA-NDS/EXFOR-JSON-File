@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:06:04+0000",
+  "time_stamp": "2026-05-22T20:48:43+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0073",
-        "N2": 20231220,
+        "N2": 20260126,
         "alteration_flag": " ",
-        "transmission_identification": "A107"
+        "transmission_identification": "A129"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0073001",
-            "N2": 20231220,
+            "N2": 20260126,
             "alteration_flag": " ",
-            "transmission_identification": "A107"
+            "transmission_identification": "A129"
           },
           "BIB": {
             "N1": 10,
@@ -26,8 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Cross section ratios of production 77m,g Br, 80m,g Br",
-                "and 82m,g Br isomeric pairs in (p,n) reactions"
+                "Cross section ratios of production 77m,gBr, 80m,gBr",
+                "and 82m,gBr isomeric pairs in (p,n) reactions"
               ]
             }
           ],
@@ -106,7 +106,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Enriched by needed Se isotope foil."
+                "Isotopically enriched Se"
               ]
             }
           ],
@@ -201,11 +201,21 @@
               "pointer": "",
               "coded_information": {
                 "date": 20231220,
-                "history": "U"
+                "history": "A"
               },
               "free_text": [
                 " SD: Correction in all Subents. MISC deleted",
                 "Information from MISC moved to ADD-RES."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260126,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Correction in Subent 004."
               ]
             }
           ],
@@ -514,12 +524,12 @@
         {
           "SUBENT": {
             "N1": "A0073004",
-            "N2": 20040301,
+            "N2": 20260126,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A129"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0
           },
           "REACTION": [
@@ -550,6 +560,19 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260126,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: MISC deleted (Information from MISC",
+                "moved to ADD-RES)."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
@@ -559,10 +582,9 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 4,
+            "N1": 3,
             "N2": 4,
             "pointer": [
-              "",
               "",
               "",
               ""
@@ -570,12 +592,10 @@
             "heading": [
               "EN",
               "DATA",
-              "DATA-ERR",
-              "MISC"
+              "DATA-ERR"
             ],
             "unit": [
               "MEV",
-              "NO-DIM",
               "NO-DIM",
               "NO-DIM"
             ],
@@ -583,26 +603,22 @@
               [
                 4.0,
                 0.0,
-                0.24,
-                0.15
+                0.24
               ],
               [
                 6.9,
                 0.11,
-                0.18,
-                0.34
+                0.18
               ],
               [
                 8.1,
                 0.32,
-                0.27,
-                0.43
+                0.27
               ],
               [
                 9.1,
                 0.46,
-                0.38,
-                0.52
+                0.38
               ]
             ]
           },
