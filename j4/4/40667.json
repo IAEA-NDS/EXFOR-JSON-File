@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:55:49+0000",
+  "time_stamp": "2026-05-22T22:06:18+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "40667",
-        "N2": 20160601,
+        "N2": 20260415,
         "alteration_flag": " ",
-        "transmission_identification": "4176"
+        "transmission_identification": "4228"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "40667001",
-            "N2": 20160601,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "4176"
+            "transmission_identification": "4228"
           },
           "BIB": {
-            "N1": 15,
+            "N1": 13,
             "N2": 0
           },
           "TITLE": [
@@ -27,8 +27,8 @@
               "coded_information": null,
               "free_text": [
                 "Investigation of averaged cross-sections for (n,alpha)",
-                "reactions involving Te-123, Nd-143, Sm-147 and",
-                "Sm-149 nuclei"
+                "reactions involving 123Te, 143Nd, 147Sm and 149Sm",
+                "nuclei"
               ]
             }
           ],
@@ -48,18 +48,36 @@
               ]
             }
           ],
-          "INSTITUTE": [
+          "REFERENCE": [
             {
               "pointer": "",
-              "coded_information": [
-                "4ZZZDUB"
-              ],
+              "coded_information": {
+                "code": "R,INDC(CCP)-177,7,1982",
+                "code_unit": [
+                  {
+                    "unit": "R,INDC(CCP)-177,7,1982",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "R",
+                      "reference": {
+                        "code": "INDC(CCP)-",
+                        "number": "177",
+                        "volume": null,
+                        "part": null,
+                        "issue": null,
+                        "page": "7"
+                      },
+                      "date": 1982
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
               "free_text": [
-                ""
+                " Engl.translation of",
+                "           J,YK,,(1/40),13,1981 ."
               ]
-            }
-          ],
-          "REFERENCE": [
+            },
             {
               "pointer": "",
               "coded_information": {
@@ -102,35 +120,6 @@
               },
               "free_text": [
                 ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "R,INDC(CCP)-177,7,1982",
-                "code_unit": [
-                  {
-                    "unit": "R,INDC(CCP)-177,7,1982",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "R",
-                      "reference": {
-                        "code": "INDC(CCP)-",
-                        "number": "177",
-                        "volume": null,
-                        "part": null,
-                        "issue": null,
-                        "page": "7"
-                      },
-                      "date": 1982
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                " Engl.translation of",
-                "           J,YK,,(1/40),13,1981 ."
               ]
             },
             {
@@ -186,7 +175,9 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " Engl. translation of J,YF,32."
+                " Engl. translation of J,YF,32.",
+                " \"Investigation of averaged cross sections for",
+                " (n,alpha) reaction on 123Te, 143Nd,147Sm, and 149Sm"
               ]
             },
             {
@@ -214,7 +205,9 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                " \"Spectrometry of alpha-particles from reaction",
+                "143Nd(n,alpha)140Ce on resonance neutrons."
               ]
             },
             {
@@ -241,6 +234,20 @@
                 ],
                 "unit_combination": "(%)"
               },
+              "free_text": [
+                "",
+                " \"On the constancy of average alpha widths of 144Nd and",
+                "148Sm compound nuclei excited by neutrons with energies",
+                "up to 30 keV\""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "4ZZZDUB"
+              ],
               "free_text": [
                 ""
               ]
@@ -309,17 +316,6 @@
               ],
               "free_text": [
                 "        Cylindrical ionization chamber"
-              ]
-            }
-          ],
-          "PART-DET": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "A"
-              ],
-              "free_text": [
-                ""
               ]
             }
           ],
@@ -443,18 +439,14 @@
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
               "free_text": [
                 " Errors are not specified"
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                " Data taken from references"
               ]
             }
           ],
@@ -547,7 +539,7 @@
                 "history": "U"
               },
               "free_text": [
-                " SD: 81GRENOB: page 543 -> 453). Title and",
+                " SD: 81GRENOB: page 543 -> 453. Title and",
                 "list of authors update following publ. of",
                 "INDC(CCP)-177,7,1982."
               ]
@@ -562,6 +554,19 @@
                 " M.M. Previous correction of SD was",
                 "checked at CJD.",
                 " J,YK,1981,(1/40),13,1981 -> J,YK,,(1/40),13,1981"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260415,
+                "history": "A"
+              },
+              "free_text": [
+                " Subents 006, 011, 013 were corrected.",
+                " STATUS was updated for new rules.",
+                " \"PART-DET   (A)\" was deleted according to a comment",
+                " of N.Otsuka (NDS,IAEA)."
               ]
             }
           ],
@@ -581,9 +586,9 @@
         {
           "SUBENT": {
             "N1": "40667002",
-            "N2": 20140320,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "4163"
+            "transmission_identification": "4228"
           },
           "BIB": {
             "N1": 4,
@@ -613,20 +618,16 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " Averaged Over",
-                "              Energy Interval Given in the Table"
+                ""
               ]
             }
           ],
-          "EN-SEC": [
+          "ANALYSIS": [
             {
               "pointer": "",
-              "coded_information": {
-                "heading": "E-LVL",
-                "particle": "50-SN-120"
-              },
+              "coded_information": null,
               "free_text": [
-                ""
+                " CS averaged over energy interval given in the table"
               ]
             }
           ],
@@ -638,11 +639,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.Andzheevski+",
+                "reference": {
+                  "code": "R,INDC(CCP)-177,7,1982",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "177",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "7"
+                    },
+                    "date": 1982
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of J,YK.",
+                " Table 1",
                 " Table 3 of J,YF,32,(6),1496,1980."
               ]
             }
@@ -666,6 +681,17 @@
               },
               "free_text": [
                 " Last checking has been done."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260415,
+                "history": "A"
+              },
+              "free_text": [
+                " \"EN-SEC (E-LVL,50-SN-120)\" was deleted",
+                " according to a comment of N.Otsuka (NDS,IAEA)."
               ]
             }
           ],
@@ -767,12 +793,12 @@
         {
           "SUBENT": {
             "N1": "40667003",
-            "N2": 20140320,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "4163"
+            "transmission_identification": "4228"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -799,8 +825,16 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                "  Averaged Over",
-                "         Energy Interval Given in the Table"
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " CS averaged over energy interval given in the table"
               ]
             }
           ],
@@ -812,11 +846,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.Andzheevski+",
+                "reference": {
+                  "code": "R,INDC(CCP)-177,7,1982",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "177",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "7"
+                    },
+                    "date": 1982
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of J,YK.",
+                " Table 1",
                 " Table 3 of J,YF,32,(6),1496,1980."
               ]
             }
@@ -905,12 +953,12 @@
         {
           "SUBENT": {
             "N1": "40667004",
-            "N2": 20140320,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "4163"
+            "transmission_identification": "4228"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -937,8 +985,16 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " Averaged Over",
-                "          Energy Interval Given in the Table"
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " CS averaged over energy interval given in the table"
               ]
             }
           ],
@@ -950,11 +1006,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.Andzheevski+",
+                "reference": {
+                  "code": "R,INDC(CCP)-177,7,1982",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "177",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "7"
+                    },
+                    "date": 1982
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of J,YK.",
+                " Table 2",
                 " Table 4 of J,YF,32,(6),1496,1980."
               ]
             }
@@ -1054,9 +1124,9 @@
         {
           "SUBENT": {
             "N1": "40667005",
-            "N2": 20140320,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "4163"
+            "transmission_identification": "4228"
           },
           "BIB": {
             "N1": 2,
@@ -1099,11 +1169,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.Andzheevski+",
+                "reference": {
+                  "code": "R,INDC(CCP)-177,7,1982",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "177",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "7"
+                    },
+                    "date": 1982
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of J,YK.",
+                " Table 2",
                 " Table 3 of J,YF,32,(6),1496,1980."
               ]
             }
@@ -1176,12 +1260,12 @@
         {
           "SUBENT": {
             "N1": "40667006",
-            "N2": 20140320,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "4163"
+            "transmission_identification": "4228"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -1212,18 +1296,6 @@
               ]
             }
           ],
-          "EN-SEC": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "LVL-NUMB",
-                "particle": "60-ND-144"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "STATUS": [
             {
               "pointer": "",
@@ -1232,11 +1304,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.Andzheevski+",
+                "reference": {
+                  "code": "R,INDC(CCP)-177,7,1982",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "177",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "7"
+                    },
+                    "date": 1982
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of J,YK.",
+                " Table 3",
                 " Table 4 of J,YF,32,(6),1496,1980."
               ]
             }
@@ -1262,6 +1348,18 @@
                 " LVL-NUMB =0 was deleted according to a",
                 "comment of N.Otsuka (NDS,IAEA)."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260414,
+                "history": "A"
+              },
+              "free_text": [
+                " Data were re-sorted.",
+                " \"EN-SEC (LVL-NUMB,60-ND-144)\" was deleted",
+                " according to a comment of N.Otsuka (NDS,IAEA)."
+              ]
             }
           ],
           "ENDBIB": {
@@ -1284,83 +1382,83 @@
               ""
             ],
             "heading": [
+              "E-LVL",
+              "LVL-NUMB",
               "EN-MIN",
               "EN-MAX",
-              "LVL-NUMB",
-              "E-LVL",
               "DATA",
               "DATA-ERR"
             ],
             "unit": [
               "KEV",
-              "KEV",
               "NO-DIM",
+              "KEV",
               "KEV",
               "MICRO-B",
               "MICRO-B"
             ],
             "value": [
               [
+                0.0,
+                null,
                 0.25,
                 0.5,
-                null,
-                0.0,
                 260.0,
                 50.0
               ],
               [
-                0.25,
-                0.5,
-                1.0,
+                0.0,
                 null,
-                220.0,
-                50.0
-              ],
-              [
                 0.7,
                 1.5,
-                null,
-                0.0,
                 180.0,
                 40.0
               ],
               [
-                0.7,
-                1.5,
-                1.0,
+                0.0,
                 null,
-                160.0,
-                35.0
-              ],
-              [
                 1.5,
                 3.3,
-                null,
-                0.0,
                 110.0,
                 25.0
               ],
               [
-                1.5,
-                3.3,
-                1.0,
+                0.0,
                 null,
-                90.0,
-                20.0
-              ],
-              [
                 3.3,
                 8.5,
-                null,
-                0.0,
                 70.0,
                 20.0
               ],
               [
+                null,
+                1.0,
+                0.25,
+                0.5,
+                220.0,
+                50.0
+              ],
+              [
+                null,
+                1.0,
+                0.7,
+                1.5,
+                160.0,
+                35.0
+              ],
+              [
+                null,
+                1.0,
+                1.5,
+                3.3,
+                90.0,
+                20.0
+              ],
+              [
+                null,
+                1.0,
                 3.3,
                 8.5,
-                1.0,
-                null,
                 55.0,
                 15.0
               ]
@@ -1378,9 +1476,9 @@
         {
           "SUBENT": {
             "N1": "40667007",
-            "N2": 20140320,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "4163"
+            "transmission_identification": "4228"
           },
           "BIB": {
             "N1": 3,
@@ -1448,11 +1546,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.Andzheevski+",
+                "reference": {
+                  "code": "R,INDC(CCP)-177,7,1982",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "177",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "7"
+                    },
+                    "date": 1982
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of J,YK.",
+                " Table 1",
                 " Table 3 of J,YF,32,(6),1496,1980."
               ]
             }
@@ -1593,9 +1705,9 @@
         {
           "SUBENT": {
             "N1": "40667008",
-            "N2": 20140320,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "4163"
+            "transmission_identification": "4228"
           },
           "BIB": {
             "N1": 3,
@@ -1663,11 +1775,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.Andzheevski+",
+                "reference": {
+                  "code": "R,INDC(CCP)-177,7,1982",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "177",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "7"
+                    },
+                    "date": 1982
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of J,YK.",
+                " Table 1",
                 "        Table of C,81GRENOB .",
                 " Table 3 of J,YF,32,(6),1496,1980."
               ]
@@ -1837,9 +1963,9 @@
         {
           "SUBENT": {
             "N1": "40667009",
-            "N2": 20140320,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "4163"
+            "transmission_identification": "4228"
           },
           "BIB": {
             "N1": 3,
@@ -1881,11 +2007,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.Andzheevski+",
+                "reference": {
+                  "code": "R,INDC(CCP)-177,7,1982",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "177",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "7"
+                    },
+                    "date": 1982
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of J,YK."
+                " Table 2"
               ]
             },
             {
@@ -1999,9 +2139,9 @@
         {
           "SUBENT": {
             "N1": "40667010",
-            "N2": 20140320,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "4163"
+            "transmission_identification": "4228"
           },
           "BIB": {
             "N1": 3,
@@ -2043,11 +2183,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.Andzheevski+",
+                "reference": {
+                  "code": "R,INDC(CCP)-177,7,1982",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "177",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "7"
+                    },
+                    "date": 1982
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of J,YK.",
+                " Table 2",
                 " Table 3 of J,YF,32,(6),1496,1980."
               ]
             }
@@ -2132,12 +2286,12 @@
         {
           "SUBENT": {
             "N1": "40667011",
-            "N2": 20140320,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "4163"
+            "transmission_identification": "4228"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -2179,28 +2333,6 @@
               ]
             }
           ],
-          "EN-SEC": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "LVL-NUMB",
-                "particle": "60-ND-144"
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "E-LVL",
-                "particle": "60-ND-144"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "STATUS": [
             {
               "pointer": "",
@@ -2209,11 +2341,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.Andzheevski+",
+                "reference": {
+                  "code": "R,INDC(CCP)-177,7,1982",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "177",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "7"
+                    },
+                    "date": 1982
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of J,YK."
+                " Table 3"
               ]
             },
             {
@@ -2284,6 +2430,18 @@
                 " LVL-NUMB =0 was deleted according to a",
                 "comment of N.Otsuka (NDS,IAEA)."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260414,
+                "history": "A"
+              },
+              "free_text": [
+                " Data were re-sorted.",
+                "\"EN-SEC (LVL-NUMB,60-ND-144) and (E-LVL,60-ND-144)\" was",
+                "deleted according to a comment of N.Otsuka(NDS,IAEA)."
+              ]
             }
           ],
           "ENDBIB": {
@@ -2306,83 +2464,83 @@
               ""
             ],
             "heading": [
+              "E-LVL",
+              "LVL-NUMB",
               "EN-RES-MIN",
               "EN-RES-MAX",
-              "LVL-NUMB",
-              "E-LVL",
               "DATA",
               "DATA-ERR"
             ],
             "unit": [
               "KEV",
-              "KEV",
               "NO-DIM",
+              "KEV",
               "KEV",
               "NO-DIM",
               "NO-DIM"
             ],
             "value": [
               [
+                0.0,
+                null,
                 0.25,
                 0.5,
-                null,
-                0.0,
                 6e-08,
                 3e-08
               ],
               [
-                0.25,
-                0.5,
-                1.0,
+                0.0,
                 null,
-                5.5e-08,
-                2e-08
-              ],
-              [
                 0.7,
                 1.5,
-                null,
-                0.0,
                 9e-08,
                 3e-08
               ],
               [
-                0.7,
-                1.5,
-                1.0,
+                0.0,
                 null,
-                7e-08,
-                2e-08
-              ],
-              [
                 1.5,
                 3.3,
-                null,
-                0.0,
                 1e-07,
                 3e-08
               ],
               [
-                1.5,
-                3.3,
-                1.0,
+                0.0,
                 null,
-                7e-08,
-                1.8e-08
-              ],
-              [
                 3.3,
                 8.5,
-                null,
-                0.0,
                 1.25e-07,
                 4e-08
               ],
               [
+                null,
+                1.0,
+                0.25,
+                0.5,
+                5.5e-08,
+                2e-08
+              ],
+              [
+                null,
+                1.0,
+                0.7,
+                1.5,
+                7e-08,
+                2e-08
+              ],
+              [
+                null,
+                1.0,
+                1.5,
+                3.3,
+                7e-08,
+                1.8e-08
+              ],
+              [
+                null,
+                1.0,
                 3.3,
                 8.5,
-                1.0,
-                null,
                 1e-07,
                 2.8e-08
               ]
@@ -2400,9 +2558,9 @@
         {
           "SUBENT": {
             "N1": "40667012",
-            "N2": 20100325,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "4149"
+            "transmission_identification": "4228"
           },
           "BIB": {
             "N1": 4,
@@ -2438,10 +2596,10 @@
             {
               "pointer": "2",
               "coded_information": {
-                "code": "60-ND-143(N,A),,WID,,AV",
+                "code": "60-ND-143(N,A),,WID",
                 "code_unit": [
                   {
-                    "unit": "60-ND-143(N,A),,WID,,AV",
+                    "unit": "60-ND-143(N,A),,WID",
                     "field": {
                       "reaction": "60-ND-143(N,A)",
                       "target": "60-ND-143",
@@ -2450,7 +2608,7 @@
                       "product": "",
                       "quantity": ",WID",
                       "data_type": null,
-                      "general_quantity_modifier": "AV",
+                      "general_quantity_modifier": null,
                       "quantity_236": ",WID"
                     }
                   }
@@ -2470,11 +2628,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.Andzheevski+",
+                "reference": {
+                  "code": "R,JINR-3-80-564,1980",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "JINR-",
+                      "number": "3-80-564",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1980
+                  }
+                }
               },
               "free_text": [
-                "   Data from Table 2 of R,JINR-3-80-564."
+                " Table 2"
               ]
             }
           ],
@@ -2508,6 +2680,18 @@
               },
               "free_text": [
                 " Last checking has been done."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260415,
+                "history": "A"
+              },
+              "free_text": [
+                " Code \"AV\" was deleted in REACTION 2 -",
+                "no averaging, data for specified resonance energy",
+                "given as DATA 1."
               ]
             }
           ],
@@ -2778,12 +2962,12 @@
         {
           "SUBENT": {
             "N1": "40667013",
-            "N2": 20100325,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "4149"
+            "transmission_identification": "4228"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -2824,18 +3008,6 @@
               ]
             }
           ],
-          "EN-SEC": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "LVL-NUMB",
-                "particle": "60-ND-144"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "STATUS": [
             {
               "pointer": "",
@@ -2844,11 +3016,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.Andzheevski+",
+                "reference": {
+                  "code": "C,81GRENOB,,453,1981",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "81GRENOB",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "453"
+                    },
+                    "date": 1981
+                  }
+                }
               },
               "free_text": [
-                " Table of C,81GRENOB ."
+                ""
               ]
             },
             {
@@ -2862,7 +3048,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                " Subent 013 supersedes Subent 011"
               ]
             },
             {
@@ -2871,12 +3057,12 @@
                 "status": [
                   "DEP"
                 ],
-                "subentry_number": "40606001",
+                "subentry_number": "40605001",
                 "author": null,
                 "reference": null
               },
               "free_text": [
-                ""
+                " Data used for re-analyzation."
               ]
             },
             {
@@ -2890,7 +3076,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                " Data used for re-analyzation."
               ]
             }
           ],
@@ -2903,6 +3089,18 @@
               },
               "free_text": [
                 ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260414,
+                "history": "A"
+              },
+              "free_text": [
+                " Data were re-sorted.",
+                " \"EN-SEC (LVL-NUMB,60-ND-144)\" was deleted",
+                " according to a comment of N.Otsuka (NDS,IAEA)."
               ]
             }
           ],
@@ -2926,131 +3124,131 @@
               ""
             ],
             "heading": [
-              "EN-RES-MIN",
-              "EN-RES-MAX",
               "LVL-NUMB",
               "E-LVL",
+              "EN-RES-MIN",
+              "EN-RES-MAX",
               "DATA",
               "DATA-ERR"
             ],
             "unit": [
-              "KEV",
-              "KEV",
               "NO-DIM",
+              "KEV",
+              "KEV",
               "KEV",
               "NO-DIM",
               "NO-DIM"
             ],
             "value": [
               [
+                null,
+                0.0,
                 0.0,
                 0.2,
-                0.0,
-                0.0,
                 6.5e-08,
                 4e-08
               ],
               [
-                0.0,
-                0.2,
-                1.0,
                 null,
-                2.5e-08,
-                1.5e-08
-              ],
-              [
+                0.0,
                 0.25,
                 0.5,
-                0.0,
-                0.0,
                 6e-08,
                 3e-08
               ],
               [
-                0.25,
-                0.5,
-                1.0,
                 null,
-                5.5e-08,
-                2e-08
-              ],
-              [
+                0.0,
                 0.7,
                 1.5,
-                0.0,
-                0.0,
                 9e-08,
                 3e-08
               ],
               [
-                0.7,
-                1.5,
-                1.0,
                 null,
-                7e-08,
-                2e-08
-              ],
-              [
+                0.0,
                 1.5,
                 3.3,
-                0.0,
-                0.0,
                 1e-07,
                 3e-08
               ],
               [
-                1.5,
-                3.3,
-                1.0,
                 null,
-                7e-08,
-                1.8e-08
-              ],
-              [
+                0.0,
                 1.7,
                 2.3,
-                0.0,
-                0.0,
                 1.1e-07,
                 2e-08
               ],
               [
-                1.7,
-                2.3,
-                1.0,
                 null,
-                6.5e-08,
-                1.1e-08
-              ],
-              [
+                0.0,
                 3.3,
                 8.5,
-                0.0,
-                0.0,
                 1.25e-07,
                 4e-08
               ],
               [
-                3.3,
-                8.5,
-                1.0,
                 null,
-                1e-07,
-                2.8e-08
-              ],
-              [
+                0.0,
                 23.0,
                 26.0,
-                0.0,
-                0.0,
                 1.4e-07,
                 3.4e-08
               ],
               [
-                23.0,
-                26.0,
                 1.0,
                 null,
+                0.0,
+                0.2,
+                2.5e-08,
+                1.5e-08
+              ],
+              [
+                1.0,
+                null,
+                0.25,
+                0.5,
+                5.5e-08,
+                2e-08
+              ],
+              [
+                1.0,
+                null,
+                0.7,
+                1.5,
+                7e-08,
+                2e-08
+              ],
+              [
+                1.0,
+                null,
+                1.5,
+                3.3,
+                7e-08,
+                1.8e-08
+              ],
+              [
+                1.0,
+                null,
+                1.7,
+                2.3,
+                6.5e-08,
+                1.1e-08
+              ],
+              [
+                1.0,
+                null,
+                3.3,
+                8.5,
+                1e-07,
+                2.8e-08
+              ],
+              [
+                1.0,
+                null,
+                23.0,
+                26.0,
                 1e-07,
                 2.4e-08
               ]
@@ -3068,9 +3266,9 @@
         {
           "SUBENT": {
             "N1": "40667014",
-            "N2": 20100325,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "4149"
+            "transmission_identification": "4228"
           },
           "BIB": {
             "N1": 4,
@@ -3122,11 +3320,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.Andzheevski+",
+                "reference": {
+                  "code": "R,INDC(CCP)-177,7,1982",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "177",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "7"
+                    },
+                    "date": 1982
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of J,YK."
+                " Table 2"
               ]
             },
             {
@@ -3140,7 +3352,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                " Subent 014 supersedes Subent 009"
               ]
             },
             {
@@ -3154,7 +3366,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                " Data used for re-analyzation."
               ]
             },
             {
@@ -3168,7 +3380,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                " Data used for re-analyzation."
               ]
             }
           ],

@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:54:41+0000",
+  "time_stamp": "2026-05-22T22:06:18+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "40533",
-        "N2": 20240122,
+        "N2": 20260414,
         "alteration_flag": " ",
-        "transmission_identification": "4216"
+        "transmission_identification": "4228"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "40533001",
-            "N2": 20240122,
+            "N2": 20260414,
             "alteration_flag": " ",
-            "transmission_identification": "4216"
+            "transmission_identification": "4228"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 11,
             "N2": 0
           },
           "TITLE": [
@@ -168,17 +168,6 @@
               ]
             }
           ],
-          "ANALYSIS": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "4PI1A"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "MONITOR": [
             {
               "pointer": "",
@@ -294,6 +283,18 @@
                 " Subent 002 was corrected.",
                 " STATUS was corrected according to now-day rules."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260414,
+                "history": "A"
+              },
+              "free_text": [
+                " REACTION in Subent 002 was corrected",
+                " \"ANALYSIS  (4PI1A)\" was deleted according to a comment",
+                " of N.Otsuka(NDS,IAEA)"
+              ]
             }
           ],
           "ENDBIB": {
@@ -336,9 +337,9 @@
         {
           "SUBENT": {
             "N1": "40533002",
-            "N2": 20240122,
+            "N2": 20260414,
             "alteration_flag": " ",
-            "transmission_identification": "4216"
+            "transmission_identification": "4228"
           },
           "BIB": {
             "N1": 3,
@@ -348,20 +349,20 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "74-W-0(N,X)0-G-0,,DE",
+                "code": "74-W-0(N,X)0-G-0,,DA/DE,,4PI",
                 "code_unit": [
                   {
-                    "unit": "74-W-0(N,X)0-G-0,,DE",
+                    "unit": "74-W-0(N,X)0-G-0,,DA/DE,,4PI",
                     "field": {
                       "reaction": "74-W-0(N,X)0-G-0",
                       "target": "74-W-0",
                       "projectile": "N",
                       "process": "X",
                       "product": "0-G-0",
-                      "quantity": ",DE",
+                      "quantity": ",DA/DE,,4PI",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",DE"
+                      "quantity_236": ",DA/DE,,4PI"
                     }
                   }
                 ],
@@ -380,11 +381,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.V.Savin+",
+                "reference": {
+                  "code": "R,YFI-27,5,1979",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "YFI-",
+                      "number": "27",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "5"
+                    },
+                    "date": 1979
+                  }
+                }
               },
               "free_text": [
-                " Table of YFI-27,p.5,1979",
+                "",
                 " Prelim.data on Fig. of INDC(CCP)-118,v.2,p.103,1977"
               ]
             }
@@ -409,6 +424,17 @@
               "free_text": [
                 " Lines with DATA&ERR-S&ERR-T = 0. were",
                 "deleted ( blanks in initial compilation)."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260414,
+                "history": "A"
+              },
+              "free_text": [
+                " REACTION was corrected",
+                " SF5-SF8: ,DE -> ,DA/DE,,4PI"
               ]
             }
           ],
