@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:06:48+0000",
+  "time_stamp": "2026-05-22T21:54:38+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F1251",
-        "N2": 20180112,
+        "N2": 20260117,
         "alteration_flag": " ",
-        "transmission_identification": "F067"
+        "transmission_identification": "F108"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F1251001",
-            "N2": 20180112,
+            "N2": 20260117,
             "alteration_flag": " ",
-            "transmission_identification": "F067"
+            "transmission_identification": "F108"
           },
           "BIB": {
             "N1": 13,
@@ -109,16 +109,16 @@
                 "subentry_number": null,
                 "author": null,
                 "reference": {
-                  "code": "B,PH-DAT,29-1,1985",
+                  "code": "B,PH-DAT,29-1,,1985",
                   "field": {
                     "reference_type": "B",
                     "reference": {
                       "code": "PH-DAT",
                       "number": null,
-                      "volume": null,
+                      "volume": "29-1",
                       "part": null,
                       "issue": null,
-                      "page": null
+                      "page": ""
                     },
                     "date": 1985
                   }
@@ -149,7 +149,7 @@
               "coded_information": null,
               "free_text": [
                 "Beam intensity was (3-6)*10**11 part/sec. Energy spread",
-                "of the beam was from 1.0 to 1.5 percents."
+                "of the beam was from 1.0 to 1.5%."
               ]
             }
           ],
@@ -182,15 +182,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "ASPEC"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "ASPEC",
                 "BCINT"
               ],
               "free_text": [
@@ -203,7 +195,7 @@
                 "ASEP"
               ],
               "free_text": [
-                "  Kinematic separator VASSILISSA was used for",
+                " Kinematic separator VASILISA was used for",
                 "separation of nuclei."
               ]
             },
@@ -220,6 +212,15 @@
           "ERR-ANALYS": [
             {
               "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Accuracy of cross section consists of accuracy",
+                "of measurements of separation efficiency, target",
+                "measurements, beam current measurement."
+              ]
+            },
+            {
+              "pointer": "",
               "coded_information": {
                 "heading": "ERR-S",
                 "minimum_value": null,
@@ -227,7 +228,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                "      Statistical error"
+                " Statistical error"
               ]
             },
             {
@@ -239,11 +240,8 @@
                 "correlation_property": null
               },
               "free_text": [
-                "     Accuracy of the target thickness",
-                "determination",
-                "Accuracy of cross section consists of accuracy",
-                "of measurements of separation efficiency, target",
-                "measurements, beam current measurement."
+                " Accuracy of the target thickness",
+                "determination"
               ]
             }
           ],
@@ -255,11 +253,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.N.Andreev+",
+                "reference": {
+                  "code": "J,KSO,,(6/45),60,1990",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "KSO",
+                      "number": null,
+                      "volume": "",
+                      "part": null,
+                      "issue": "6/45",
+                      "page": "60"
+                    },
+                    "date": 1990
+                  }
+                }
               },
               "free_text": [
-                " Table from the reference, p. 63."
+                " Tbl., p.63."
               ]
             }
           ],
@@ -282,6 +294,16 @@
               },
               "free_text": [
                 " Volume number was removed from Reference."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260117,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in Subent 001."
               ]
             }
           ],

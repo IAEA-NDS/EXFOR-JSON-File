@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:03:35+0000",
+  "time_stamp": "2026-05-22T21:54:28+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F0998",
-        "N2": 20090302,
+        "N2": 20251224,
         "alteration_flag": " ",
-        "transmission_identification": "F035"
+        "transmission_identification": "F108"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F0998001",
-            "N2": 20090302,
+            "N2": 20251224,
             "alteration_flag": " ",
-            "transmission_identification": "F035"
+            "transmission_identification": "F108"
           },
           "BIB": {
             "N1": 14,
@@ -60,6 +60,34 @@
             {
               "pointer": "",
               "coded_information": {
+                "code": "J,BAS,73,156,2009",
+                "code_unit": [
+                  {
+                    "unit": "J,BAS,73,156,2009",
+                    "doi": "10.3103/S1062873809020051",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "BAS",
+                        "number": null,
+                        "volume": "73",
+                        "part": null,
+                        "issue": null,
+                        "page": "156"
+                      },
+                      "date": 2009
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                " English translation"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
                 "code": "J,IZV,73,167,2009",
                 "code_unit": [
                   {
@@ -84,34 +112,6 @@
               "free_text": [
                 ""
               ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "J,BAS,73,156,2009",
-                "code_unit": [
-                  {
-                    "unit": "J,BAS,73,156,2009",
-                    "doi": "10.3103/S1062873809020051",
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "BAS",
-                        "number": null,
-                        "volume": "73",
-                        "part": null,
-                        "issue": null,
-                        "page": "156"
-                      },
-                      "date": 2009
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
             }
           ],
           "FACILITY": [
@@ -121,19 +121,8 @@
                 "facility": [
                   "VDGT"
                 ],
-                "institute": null
+                "institute": "4RUSEPA"
               },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "PART-DET": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "N"
-              ],
               "free_text": [
                 ""
               ]
@@ -143,13 +132,23 @@
             {
               "pointer": "",
               "coded_information": [
-                "D4PI"
+                "HE3SP"
               ],
               "free_text": [
-                " Neutrons were detected by the 4-pi detector with",
-                "SNM-18 3He counters enclosed in a polyethylene",
+                " Neutrons were detected by the 4-pi detector",
+                "with SNM-18 3He counters enclosed in a polyethylene",
                 "moderator shaped as a cylinder 420 mm long and 520 mm",
-                "in diameter."
+                "in diameter. A through channel 120 mm in diameter was",
+                "made along the moderator axis to accommodate the target",
+                "chamber in the form of a steel tube electrically",
+                "insulated from the accelerator's ion guide and the",
+                "detector; therefore, it also served as a Faraday cup",
+                "for ion current measurement. The moderator housed",
+                "22 counters located as far from the detector axis as",
+                "92 mm (four counters in total, three were used),",
+                "104 mm (six in total, four used), 155 mm (six in",
+                "total, three used), and 195 mm (four in total, three",
+                "used)."
               ]
             }
           ],
@@ -157,15 +156,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "ACTIV"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "ACTIV",
                 "BCINT"
               ],
               "free_text": [
@@ -239,8 +230,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The target was a LiF layer (210 mu-g/cm2) of natural",
-                "isotope composition on a tantalum backing 300 mu-m",
+                "The target was a LiF layer (210 ug/cm2) of natural",
+                "isotope composition on a tantalum backing 300 um",
                 "thick. The energy thickness of the layer in the triton",
                 "energy range under study was 20-28 keV."
               ]
@@ -268,7 +259,18 @@
                 "correlation_property": null
               },
               "free_text": [
-                "   Statistical error is about 1.5%."
+                " Statistical error is about 1.5%."
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "*By author*  The distances to the detector axis in the",
+                "article are incorrect. The correct values are specified",
+                "under DETECTOR record in Sub 001."
               ]
             }
           ],
@@ -297,6 +299,27 @@
               },
               "free_text": [
                 ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20090302,
+                "history": "R"
+              },
+              "free_text": [
+                " Data from Dr.L.N.Generalov"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251224,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Corrections in both Subents.",
+                "DETECTOR was updated. COMMENT was added."
               ]
             }
           ],
@@ -344,12 +367,12 @@
         {
           "SUBENT": {
             "N1": "F0998002",
-            "N2": 20090302,
+            "N2": 20251224,
             "alteration_flag": " ",
-            "transmission_identification": "F035"
+            "transmission_identification": "F108"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -413,11 +436,38 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "L.N.Generalov+",
+                "reference": {
+                  "code": "J,BAS,73,156,2009",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "73",
+                      "part": null,
+                      "issue": null,
+                      "page": "156"
+                    },
+                    "date": 2009
+                  }
+                }
               },
               "free_text": [
-                " Data were presented by author (Fig.4)"
+                " Data were",
+                "presented on Fig.4"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251224,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -431,7 +481,7 @@
           },
           "DATA": {
             "N1": 3,
-            "N2": 237,
+            "N2": 229,
             "pointer": [
               "",
               "",
@@ -1109,11 +1159,6 @@
                 0.54268
               ],
               [
-                8.569,
-                36.17883,
-                0.54268
-              ],
-              [
                 8.619,
                 36.17883,
                 0.54268
@@ -1127,16 +1172,6 @@
                 8.72,
                 35.78558,
                 0.53678
-              ],
-              [
-                8.72,
-                35.78558,
-                0.53678
-              ],
-              [
-                8.77,
-                35.19571,
-                0.52794
               ],
               [
                 8.77,
@@ -1349,11 +1384,6 @@
                 0.4483
               ],
               [
-                9.821,
-                29.88686,
-                0.4483
-              ],
-              [
                 9.871,
                 28.70712,
                 0.43061
@@ -1412,11 +1442,6 @@
                 10.122,
                 27.52737,
                 0.41291
-              ],
-              [
-                10.172,
-                27.92062,
-                0.41881
               ],
               [
                 10.172,
@@ -1489,11 +1514,6 @@
                 0.39227
               ],
               [
-                10.522,
-                26.151,
-                0.39227
-              ],
-              [
                 10.572,
                 26.151,
                 0.39227
@@ -1544,11 +1564,6 @@
                 0.40111
               ],
               [
-                10.772,
-                26.74088,
-                0.40111
-              ],
-              [
                 10.823,
                 26.34763,
                 0.39521
@@ -1577,11 +1592,6 @@
                 10.923,
                 24.18476,
                 0.36277
-              ],
-              [
-                10.973,
-                26.34763,
-                0.39521
               ],
               [
                 10.973,

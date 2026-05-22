@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:06:22+0000",
+  "time_stamp": "2026-05-22T21:54:37+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F1216",
-        "N2": 20171114,
+        "N2": 20260116,
         "alteration_flag": " ",
-        "transmission_identification": "F066"
+        "transmission_identification": "F108"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F1216001",
-            "N2": 20171114,
+            "N2": 20260116,
             "alteration_flag": " ",
-            "transmission_identification": "F066"
+            "transmission_identification": "F108"
           },
           "BIB": {
             "N1": 15,
@@ -60,34 +60,6 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,YF,44,(4),876,1986",
-                "code_unit": [
-                  {
-                    "unit": "J,YF,44,(4),876,1986",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "YF",
-                        "number": null,
-                        "volume": "44",
-                        "part": null,
-                        "issue": "4",
-                        "page": "876"
-                      },
-                      "date": 1986
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
                 "code": "J,SNP,44,565,1986",
                 "code_unit": [
                   {
@@ -110,7 +82,35 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                "  English translation"
+                " English translation"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,YF,44,876,1986",
+                "code_unit": [
+                  {
+                    "unit": "J,YF,44,876,1986",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "YF",
+                        "number": null,
+                        "volume": "44",
+                        "part": null,
+                        "issue": null,
+                        "page": "876"
+                      },
+                      "date": 1986
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -178,15 +178,6 @@
             }
           ],
           "METHOD": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "MASSP"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
             {
               "pointer": "",
               "coded_information": [
@@ -273,26 +264,27 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR1",
+                "heading": "ERR-1",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                "  Error of the absolute cross section",
-                "determination"
+                " Error of relative measurements of the yields of",
+                "Rb isotopes in the mass spectrometer"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR2",
+                "heading": "ERR-2",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                " Error of relative measurements of Rb yield"
+                " Error of the absolute cross section",
+                "determination excluding ERR-1."
               ]
             }
           ],
@@ -304,11 +296,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "B.N.Belyaev+",
+                "reference": {
+                  "code": "J,SNP,44,565,1986",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "44",
+                      "part": null,
+                      "issue": null,
+                      "page": "565"
+                    },
+                    "date": 1986
+                  }
+                }
               },
               "free_text": [
-                " Table from the reference, page 879."
+                " Table I"
               ]
             }
           ],
@@ -332,6 +338,17 @@
               "free_text": [
                 " REL-REF was corrected."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260116,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Corrections in all Subents.",
+                "DATA-ERR1 -> ERR-1."
+              ]
             }
           ],
           "ENDBIB": {
@@ -351,7 +368,7 @@
             ],
             "heading": [
               "EN",
-              "DATA-ERR1",
+              "ERR-1",
               "ELEMENT",
               "EN-NRM",
               "MONIT",
@@ -386,12 +403,12 @@
         {
           "SUBENT": {
             "N1": "F1216002",
-            "N2": 20140710,
+            "N2": 20260116,
             "alteration_flag": " ",
-            "transmission_identification": "F055"
+            "transmission_identification": "F108"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0
           },
           "REACTION": [
@@ -422,6 +439,18 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260116,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: DATA-ERR2 -> ERR-2."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
@@ -441,7 +470,7 @@
             "heading": [
               "MASS",
               "DATA",
-              "DATA-ERR2"
+              "ERR-2"
             ],
             "unit": [
               "NO-DIM",

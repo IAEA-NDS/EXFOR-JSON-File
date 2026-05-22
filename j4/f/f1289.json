@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:07:35+0000",
+  "time_stamp": "2026-05-22T21:54:40+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F1289",
-        "N2": 20180422,
+        "N2": 20260117,
         "alteration_flag": " ",
-        "transmission_identification": "F069"
+        "transmission_identification": "F108"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F1289001",
-            "N2": 20180422,
+            "N2": 20260117,
             "alteration_flag": " ",
-            "transmission_identification": "F069"
+            "transmission_identification": "F108"
           },
           "BIB": {
             "N1": 9,
@@ -26,19 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Elastic and inelastic scattering of Li-6 on C-12 at",
+                "Elastic and inelastic scattering of 6Li on 12C at",
                 "63 MeV."
-              ]
-            }
-          ],
-          "INSTITUTE": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "4ZZZDUB"
-              ],
-              "free_text": [
-                " Laboratory of Nuclear Reactions"
               ]
             }
           ],
@@ -68,35 +57,18 @@
               ]
             }
           ],
-          "REFERENCE": [
+          "INSTITUTE": [
             {
               "pointer": "",
-              "coded_information": {
-                "code": "J,IZV,69,(11),1578,2005",
-                "code_unit": [
-                  {
-                    "unit": "J,IZV,69,(11),1578,2005",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "IZV",
-                        "number": null,
-                        "volume": "69",
-                        "part": null,
-                        "issue": "11",
-                        "page": "1578"
-                      },
-                      "date": 2005
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
+              "coded_information": [
+                "4ZZZDUB"
+              ],
               "free_text": [
-                ""
+                " Laboratory of Nuclear Reactions"
               ]
-            },
+            }
+          ],
+          "REFERENCE": [
             {
               "pointer": "",
               "coded_information": {
@@ -123,6 +95,34 @@
               },
               "free_text": [
                 " English translation"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,IZV,69,(11),1578,2005",
+                "code_unit": [
+                  {
+                    "unit": "J,IZV,69,(11),1578,2005",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "IZV",
+                        "number": null,
+                        "volume": "69",
+                        "part": null,
+                        "issue": "11",
+                        "page": "1578"
+                      },
+                      "date": 2005
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
               ]
             },
             {
@@ -230,7 +230,7 @@
                 "with scintillation part was used. The working mixture",
                 "of the chamber was C4H10 gas. Proportional counters",
                 "were used for determination of position of charged",
-                "particles. Scintillation part consisted of NE-102",
+                "particles. Scintillation part consisted of NE102",
                 "scintillator and photomultipliers."
               ]
             }
@@ -239,7 +239,6 @@
             {
               "pointer": "",
               "coded_information": [
-                "MASSP",
                 "EDE"
               ],
               "free_text": [
@@ -266,6 +265,16 @@
               },
               "free_text": [
                 " SD: Ref. JINR-P7 corrected."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260117,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents."
               ]
             }
           ],
@@ -305,12 +314,12 @@
         {
           "SUBENT": {
             "N1": "F1289002",
-            "N2": 20161004,
+            "N2": 20260117,
             "alteration_flag": " ",
-            "transmission_identification": "F063"
+            "transmission_identification": "F108"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -349,11 +358,47 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.A.Maslov+",
+                "reference": {
+                  "code": "J,BAS,69,1761,2005",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "69",
+                      "part": null,
+                      "issue": null,
+                      "page": "1761"
+                    },
+                    "date": 2005
+                  }
+                }
               },
               "free_text": [
-                " Figure 2a from (J,IZV,69,(11),1578,2005)."
+                " Fig, 2a"
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "By compiler: On fig.2 data are given in lab.system (see",
+                "text on p.1763 and fig.4 of JINR-P7-2003-132)."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260117,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -377,7 +422,7 @@
               "PER-CENT"
             ],
             "value": [
-              0.18,
+              0.2,
               5.0
             ]
           },
@@ -515,12 +560,12 @@
         {
           "SUBENT": {
             "N1": "F1289003",
-            "N2": 20161004,
+            "N2": 20260117,
             "alteration_flag": " ",
-            "transmission_identification": "F063"
+            "transmission_identification": "F108"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -555,8 +600,18 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "E-LVL",
+                "heading": "E-LVL1",
                 "particle": "6-C-12"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "E-LVL2",
+                "particle": "3-LI-6"
               },
               "free_text": [
                 ""
@@ -571,11 +626,48 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.A.Maslov+",
+                "reference": {
+                  "code": "J,BAS,69,1761,2005",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "69",
+                      "part": null,
+                      "issue": null,
+                      "page": "1761"
+                    },
+                    "date": 2005
+                  }
+                }
               },
               "free_text": [
-                " Figure 2b from (J,IZV,69,(11),1578,2005)."
+                " Fig, 2b"
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "By compiler: On fig.2 data are given in lab.system (see",
+                "text on p.1763 and fig.4 of JINR-P7-2003-132)."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260117,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated. Value at 60. degr.",
+                "was added. E-LVL -> E-LVL1. E-LVL2 added."
               ]
             }
           ],
@@ -584,25 +676,29 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0,
             "pointer": [
+              "",
               "",
               "",
               ""
             ],
             "heading": [
-              "E-LVL",
+              "E-LVL1",
+              "E-LVL2",
               "ANG-ERR-D",
               "ERR-DIG"
             ],
             "unit": [
+              "MEV",
               "MEV",
               "ADEG",
               "PER-CENT"
             ],
             "value": [
               4.44,
+              0.0,
               0.109,
               4.0
             ]
@@ -613,7 +709,7 @@
           },
           "DATA": {
             "N1": 2,
-            "N2": 20,
+            "N2": 21,
             "pointer": [
               "",
               ""
@@ -702,6 +798,10 @@
               [
                 51.924,
                 0.1603
+              ],
+              [
+                59.082,
+                0.01093
               ],
               [
                 63.044,

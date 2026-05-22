@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:07:50+0000",
+  "time_stamp": "2026-05-22T21:54:42+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F1318",
-        "N2": 20170718,
+        "N2": 20260117,
         "alteration_flag": " ",
-        "transmission_identification": "F065"
+        "transmission_identification": "F108"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F1318001",
-            "N2": 20170718,
+            "N2": 20260117,
             "alteration_flag": " ",
-            "transmission_identification": "F065"
+            "transmission_identification": "F108"
           },
           "BIB": {
-            "N1": 10,
+            "N1": 9,
             "N2": 0
           },
           "TITLE": [
@@ -26,8 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Activation of aluminum foils by He-4 ions at 25-45",
-                "MeV energy."
+                "Activation of aluminum foils by 4He ions at 25-45 MeV",
+                "energy."
               ]
             }
           ],
@@ -60,10 +60,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "C,92ALMAAT,291,1992",
+                "code": "C,92ALMAAT,,291,1992",
                 "code_unit": [
                   {
-                    "unit": "C,92ALMAAT,291,1992",
+                    "unit": "C,92ALMAAT,,291,1992",
                     "doi": null,
                     "field": {
                       "reference_type": "C",
@@ -73,7 +73,7 @@
                         "volume": null,
                         "part": null,
                         "issue": null,
-                        "page": null
+                        "page": "291"
                       },
                       "date": 1992
                     }
@@ -132,32 +132,6 @@
               ]
             }
           ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "EN-ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Energy digitizing error"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "    Data digitizing error"
-              ]
-            }
-          ],
           "STATUS": [
             {
               "pointer": "",
@@ -166,11 +140,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.A.Karamyan+",
+                "reference": {
+                  "code": "C,92ALMAAT,,291,1992",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "92ALMAAT",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "291"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
-                " Figure from the reference."
+                " Fig.,p.291"
               ]
             }
           ],
@@ -183,6 +171,16 @@
               },
               "free_text": [
                 ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260117,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small correction in Subent 001."
               ]
             }
           ],

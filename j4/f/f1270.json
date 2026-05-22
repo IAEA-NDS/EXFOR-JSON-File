@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:07:06+0000",
+  "time_stamp": "2026-05-22T21:54:39+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F1270",
-        "N2": 20151105,
+        "N2": 20260117,
         "alteration_flag": " ",
-        "transmission_identification": "F060"
+        "transmission_identification": "F108"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F1270001",
-            "N2": 20151105,
+            "N2": 20260117,
             "alteration_flag": " ",
-            "transmission_identification": "F060"
+            "transmission_identification": "F108"
           },
           "BIB": {
-            "N1": 11,
+            "N1": 10,
             "N2": 0
           },
           "TITLE": [
@@ -27,7 +27,7 @@
               "coded_information": null,
               "free_text": [
                 "Fusion-fission and quasifission of superheavy systems",
-                "with Z=10-116 formed in Ca-48 induced reactions."
+                "with Z=10-116 formed in Ca-48 induced reactions"
               ]
             }
           ],
@@ -167,69 +167,13 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "MISC1-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "  Digitizing error of compound nucleus",
-                "             excitation energy"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "MISC2-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "  Error of compound nucleus excitation",
-                "             energy from the graphic bars"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "    Data digitizing error"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
                 "heading": "DATA-ERR",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                "   No source of uncertainties for the graphic",
-                "             bars is given"
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "CURVE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Figure 11 (b,c).",
-                "No response from authors was received."
+                " No information about source of uncertainties"
               ]
             }
           ],
@@ -242,6 +186,18 @@
               },
               "free_text": [
                 ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260117,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents.",
+                "MISC1-ERR deleted (uncertainty in digitizing was",
+                "included in E-EXC-C-ER)."
               ]
             }
           ],
@@ -277,12 +233,12 @@
         {
           "SUBENT": {
             "N1": "F1270002",
-            "N2": 20151106,
+            "N2": 20260117,
             "alteration_flag": " ",
-            "transmission_identification": "F060"
+            "transmission_identification": "F108"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -321,8 +277,52 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Layer of Pu-244 with 180-220 mu-g/cm2 thickness was",
-                "deposited on a 40-50 mu-g/cm2 carbon backing."
+                "Layer of Pu-244 with 180-220 ug/cm2 thickness was",
+                "deposited on a 40-50 ug/cm2 carbon backing."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "E.M.Kozulin+",
+                "reference": {
+                  "code": "J,PR/C,90,054608,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "90",
+                      "part": null,
+                      "issue": null,
+                      "page": "054608"
+                    },
+                    "date": 2014
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 11(b).",
+                "No response from authors was received."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260117,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated. MISC2-ERR -> E-EXC-C-ER;",
+                "MISC1-ERR deleted."
               ]
             }
           ],
@@ -331,22 +331,18 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 1,
             "N2": 0,
             "pointer": [
-              "",
               ""
             ],
             "heading": [
-              "MISC1-ERR",
               "ERR-DIG"
             ],
             "unit": [
-              "MEV",
               "PER-CENT"
             ],
             "value": [
-              0.128,
               3.6
             ]
           },
@@ -365,7 +361,7 @@
             ],
             "heading": [
               "E-EXC-CMP",
-              "MISC2-ERR",
+              "E-EXC-C-ER",
               "DATA",
               "DATA-ERR"
             ],
@@ -377,26 +373,26 @@
             ],
             "value": [
               [
-                26.161,
-                3.019,
+                26.16,
+                3.02,
                 1.304,
                 0.6533
               ],
               [
-                29.357,
-                1.887,
+                29.36,
+                1.89,
                 5.007,
                 2.508
               ],
               [
-                37.069,
-                2.076,
+                37.07,
+                2.08,
                 67.32,
                 33.72
               ],
               [
-                41.214,
-                2.076,
+                41.21,
+                2.08,
                 129.1,
                 64.65
               ]
@@ -414,12 +410,12 @@
         {
           "SUBENT": {
             "N1": "F1270003",
-            "N2": 20151106,
+            "N2": 20260117,
             "alteration_flag": " ",
-            "transmission_identification": "F060"
+            "transmission_identification": "F108"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -463,9 +459,53 @@
               },
               "free_text": [
                 " The Cm-248 target with",
-                "125 mu-g/cm2 thickness was deposited on Al-27",
-                "20 mu-g/cm2 backing and covered on both sides by",
-                "carbon with 40 mu-g/cm2 thickness."
+                "125 ug/cm2 thickness was deposited on Al-27",
+                "20 ug/cm2 backing and covered on both sides by",
+                "carbon with 40 ug/cm2 thickness."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "E.M.Kozulin+",
+                "reference": {
+                  "code": "J,PR/C,90,054608,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "90",
+                      "part": null,
+                      "issue": null,
+                      "page": "054608"
+                    },
+                    "date": 2014
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 11(c).",
+                "No response from authors was received."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260117,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated. MISC2-ERR -> E-EXC-C-ER.",
+                "MISC1-ERR -> E-ERR-DIG."
               ]
             }
           ],
@@ -481,7 +521,7 @@
               ""
             ],
             "heading": [
-              "MISC1-ERR",
+              "E-ERR-DIG",
               "ERR-DIG"
             ],
             "unit": [
@@ -489,7 +529,7 @@
               "PER-CENT"
             ],
             "value": [
-              0.078,
+              0.08,
               2.7
             ]
           },
@@ -508,7 +548,7 @@
             ],
             "heading": [
               "E-EXC-CMP",
-              "MISC2-ERR",
+              "E-EXC-C-ER",
               "DATA",
               "DATA-ERR"
             ],
@@ -520,26 +560,26 @@
             ],
             "value": [
               [
-                27.394,
-                1.896,
+                27.39,
+                1.9,
                 4.597,
                 2.293
               ],
               [
-                30.803,
-                1.898,
+                30.8,
+                1.9,
                 11.04,
                 5.509
               ],
               [
-                32.501,
-                2.087,
+                32.5,
+                2.09,
                 36.6,
                 18.25
               ],
               [
                 37.43,
-                1.893,
+                1.89,
                 69.88,
                 34.86
               ]

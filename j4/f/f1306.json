@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:07:43+0000",
+  "time_stamp": "2026-05-22T21:54:41+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F1306",
-        "N2": 20160212,
+        "N2": 20260117,
         "alteration_flag": " ",
-        "transmission_identification": "F064"
+        "transmission_identification": "F108"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F1306001",
-            "N2": 20160212,
+            "N2": 20260117,
             "alteration_flag": " ",
-            "transmission_identification": "F064"
+            "transmission_identification": "F108"
           },
           "BIB": {
             "N1": 12,
@@ -143,14 +143,27 @@
               ]
             }
           ],
-          "COMMENT": [
+          "ANG-SEC": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "heading": "ANG1",
+                "particle": "P"
+              },
               "free_text": [
-                "ANG1 is an angle between beam direction and a backward",
-                "going proton; ANG2 is an angle between beam direction",
-                "and a forward going proton."
+                " Angle between beam direction and a backward",
+                "going proton;"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ANG2",
+                "particle": "P"
+              },
+              "free_text": [
+                " Angle between beam direction and a forward",
+                "going proton."
               ]
             }
           ],
@@ -164,20 +177,8 @@
                 "correlation_property": null
               },
               "free_text": [
-                "  Digitizing error of ANG2 (an angle of a",
-                "             forward going proton)"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "    Data digitizing error"
+                " Digitizing error of ANG2 (an angle of a",
+                "            forward going proton)"
               ]
             },
             {
@@ -189,7 +190,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                "   No source of uncertainties is given"
+                " No source of uncertainties is given"
               ]
             }
           ],
@@ -201,8 +202,22 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.N.Baturin+",
+                "reference": {
+                  "code": "J,NP/A,736,283,2004",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "736",
+                      "part": null,
+                      "issue": null,
+                      "page": "283"
+                    },
+                    "date": 2004
+                  }
+                }
               },
               "free_text": [
                 " Fig. 8",
@@ -219,6 +234,16 @@
               },
               "free_text": [
                 ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260117,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in Subent 001."
               ]
             }
           ],

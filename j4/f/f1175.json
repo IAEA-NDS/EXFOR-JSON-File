@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:05:35+0000",
+  "time_stamp": "2026-05-22T21:54:29+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "F1175",
-        "N2": 20121129,
+        "N2": 20260116,
         "alteration_flag": " ",
-        "transmission_identification": "F048"
+        "transmission_identification": "F108"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "F1175001",
-            "N2": 20121129,
+            "N2": 20260116,
             "alteration_flag": " ",
-            "transmission_identification": "F048"
+            "transmission_identification": "F108"
           },
           "BIB": {
-            "N1": 10,
+            "N1": 9,
             "N2": 0
           },
           "TITLE": [
@@ -26,7 +26,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Isobaric analogue states of Ca-47."
+                "Isobaric analogue states of 47Ca"
               ]
             }
           ],
@@ -117,9 +117,9 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The Ca-46 target with natural relative abundance of Ca-",
-                "0.0033% was used. The thickness in Ca-46 was about",
-                "15 mu-g/cm2. The isotopic purity was better than 99%.",
+                "The 46Ca target with natural relative abundance of",
+                "Ca - 0.0033% was used. The thickness in 46Ca was about",
+                "15 ug/cm2. The isotopic purity was better than 99%.",
                 "Inhomogeneities in the target thickness made it",
                 "necessary to measure relative yields in two angles."
               ]
@@ -136,20 +136,6 @@
               ]
             }
           ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "    Data digitizing error"
-              ]
-            }
-          ],
           "HISTORY": [
             {
               "pointer": "",
@@ -159,6 +145,16 @@
               },
               "free_text": [
                 ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260116,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Corrections in all Subents."
               ]
             }
           ],
@@ -178,9 +174,9 @@
         {
           "SUBENT": {
             "N1": "F1175002",
-            "N2": 20121129,
+            "N2": 20260116,
             "alteration_flag": " ",
-            "transmission_identification": "F048"
+            "transmission_identification": "F108"
           },
           "BIB": {
             "N1": 4,
@@ -190,10 +186,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "20-CA-46(P,EL)20-CA-46,,DA,,RSD/REL",
+                "code": "20-CA-46(P,EL)20-CA-46,,DA,,RSD",
                 "code_unit": [
                   {
-                    "unit": "20-CA-46(P,EL)20-CA-46,,DA,,RSD/REL",
+                    "unit": "20-CA-46(P,EL)20-CA-46,,DA,,RSD",
                     "field": {
                       "reaction": "20-CA-46(P,EL)20-CA-46",
                       "target": "20-CA-46",
@@ -202,7 +198,7 @@
                       "product": "20-CA-46",
                       "quantity": ",DA,,RSD",
                       "data_type": null,
-                      "general_quantity_modifier": "REL",
+                      "general_quantity_modifier": null,
                       "quantity_236": ",DA,,RSD"
                     }
                   }
@@ -214,28 +210,7 @@
               ]
             }
           ],
-          "COMMENT": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "No explanation of relative units is given."
-              ]
-            }
-          ],
           "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "EN-ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Energy digitizing error"
-              ]
-            },
             {
               "pointer": "",
               "coded_information": {
@@ -245,7 +220,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                "      Statistical error"
+                " Statistical error"
               ]
             }
           ],
@@ -257,11 +232,40 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "C.Gaarde+",
+                "reference": {
+                  "code": "J,NP/A,102,1,1967",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "102",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 1967
+                  }
+                }
               },
               "free_text": [
                 " Fig.3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260116,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: SF8=RSD/REL -> RSD in REACTION code.",
+                "Data units were changed (ARB-UNITS -> NO-DIM). The",
+                "accuracy of data presentation was revised. BIB updated.",
+                "Data from Subent 003 were added."
               ]
             }
           ],
@@ -285,12 +289,12 @@
             "unit": [
               "ADEG",
               "MEV",
-              "ARB-UNITS"
+              "NO-DIM"
             ],
             "value": [
               159.0,
-              0.0006,
-              0.0032
+              0.0007,
+              0.005
             ]
           },
           "ENDCOMMON": {
@@ -299,7 +303,7 @@
           },
           "DATA": {
             "N1": 3,
-            "N2": 217,
+            "N2": 534,
             "pointer": [
               "",
               "",
@@ -312,188 +316,188 @@
             ],
             "unit": [
               "MEV",
-              "ARB-UNITS",
-              "ARB-UNITS"
+              "NO-DIM",
+              "NO-DIM"
             ],
             "value": [
               [
                 1.7675,
-                0.9408,
+                0.941,
                 null
               ],
               [
                 1.7725,
-                0.87426,
+                0.874,
                 null
               ],
               [
                 1.777,
-                0.94047,
+                0.94,
                 null
               ],
               [
                 1.7815,
-                0.93146,
+                0.931,
                 null
               ],
               [
                 1.7865,
-                0.92686,
+                0.927,
                 null
               ],
               [
                 1.7921,
-                0.97533,
+                0.975,
                 null
               ],
               [
                 1.7961,
-                0.94865,
+                0.949,
                 null
               ],
               [
                 1.8016,
-                0.93075,
+                0.931,
                 null
               ],
               [
                 1.8067,
-                0.94385,
+                0.944,
                 null
               ],
               [
                 1.8111,
-                0.89502,
+                0.895,
                 null
               ],
               [
                 1.8134,
-                0.91264,
+                0.913,
                 null
               ],
               [
                 1.8168,
-                0.9435,
+                0.944,
                 null
               ],
               [
                 1.819,
-                0.9036,
+                0.904,
                 null
               ],
               [
                 1.8212,
-                0.89024,
+                0.89,
                 null
               ],
               [
                 1.824,
-                0.85918,
+                0.859,
                 null
               ],
               [
                 1.8257,
-                0.87681,
+                0.877,
                 null
               ],
               [
                 1.828,
-                0.92098,
+                0.921,
                 null
               ],
               [
                 1.8313,
-                0.90759,
+                0.908,
                 null
               ],
               [
                 1.8341,
-                0.89422,
+                0.894,
                 null
               ],
               [
                 1.8358,
-                0.88531,
+                0.885,
                 null
               ],
               [
                 1.8391,
-                0.85422,
+                0.854,
                 null
               ],
               [
                 1.8408,
-                0.88071,
+                0.881,
                 null
               ],
               [
                 1.8431,
-                0.88063,
+                0.859,
                 null
               ],
               [
                 1.8431,
-                0.85851,
+                0.881,
                 null
               ],
               [
                 1.8447,
-                0.8319,
+                0.832,
                 null
               ],
               [
                 1.8458,
-                0.81416,
+                0.814,
                 null
               ],
               [
                 1.847,
-                0.83625,
+                0.836,
                 null
               ],
               [
                 1.8481,
-                0.90257,
+                0.903,
                 null
               ],
               [
                 1.8492,
-                0.88484,
+                0.885,
                 null
               ],
               [
                 1.8509,
-                0.90247,
+                0.902,
                 null
               ],
               [
                 1.852,
-                0.86704,
+                0.867,
                 null
               ],
               [
                 1.8531,
-                0.81391,
+                0.814,
                 null
               ],
               [
                 1.8548,
-                0.83597,
+                0.836,
                 null
               ],
               [
                 1.8554,
-                0.8094,
+                0.809,
                 null
               ],
               [
                 1.857,
-                0.7651,
+                0.765,
                 null
               ],
               [
                 1.8593,
-                0.7783,
+                0.778,
                 null
               ],
               [
@@ -503,182 +507,182 @@
               ],
               [
                 1.8609,
-                0.72072,
+                0.721,
                 null
               ],
               [
                 1.8626,
-                0.65872,
+                0.659,
                 null
               ],
               [
                 1.8631,
-                0.61003,
+                0.61,
                 null
               ],
               [
                 1.8648,
-                0.64979,
+                0.65,
                 null
               ],
               [
                 1.8654,
-                0.66304,
+                0.663,
                 null
               ],
               [
                 1.8659,
-                0.70284,
+                0.703,
                 null
               ],
               [
                 1.8665,
-                0.74264,
+                0.743,
                 null
               ],
               [
                 1.8671,
-                0.83996,
+                0.84,
                 null
               ],
               [
                 1.8683,
-                0.92399,
+                0.924,
                 null
               ],
               [
                 1.8684,
-                1.0434,
+                1.043,
                 null
               ],
               [
                 1.869,
-                1.1275,
+                1.127,
                 null
               ],
               [
                 1.869,
-                1.2469,
+                1.247,
                 null
               ],
               [
                 1.8696,
-                1.2779,
+                1.176,
                 null
               ],
               [
                 1.8696,
-                1.1761,
+                1.278,
                 null
               ],
               [
                 1.8707,
-                1.2115,
+                1.212,
                 null
               ],
               [
                 1.8713,
-                1.1849,
+                1.185,
                 null
               ],
               [
                 1.8718,
-                1.1584,
+                1.158,
                 null
               ],
               [
                 1.8724,
-                1.2114,
+                1.211,
                 null
               ],
               [
                 1.8735,
-                1.2424,
+                1.242,
                 null
               ],
               [
                 1.874,
-                1.1494,
+                1.149,
                 null
               ],
               [
                 1.8746,
-                1.1892,
+                1.189,
                 null
               ],
               [
                 1.8763,
-                1.1494,
+                1.149,
                 null
               ],
               [
                 1.8774,
-                1.1316,
+                1.096,
                 null
               ],
               [
                 1.8774,
-                1.0962,
+                1.132,
                 null
               ],
               [
                 1.8785,
-                1.0696,
+                1.07,
                 null
               ],
               [
                 1.879,
-                1.0917,
+                1.092,
                 null
               ],
               [
                 1.8802,
-                1.1315,
+                1.083,
                 null
               ],
               [
                 1.8802,
-                1.0828,
+                1.131,
                 null
               ],
               [
                 1.8813,
-                1.1005,
+                1.101,
                 null
               ],
               [
                 1.8819,
-                1.1447,
+                1.145,
                 null
               ],
               [
                 1.883,
-                1.1314,
+                1.131,
                 null
               ],
               [
                 1.8835,
-                1.1004,
+                1.1,
                 null
               ],
               [
                 1.8847,
-                1.1181,
+                1.118,
                 null
               ],
               [
                 1.8858,
-                1.1313,
+                1.131,
                 null
               ],
               [
                 1.888,
-                1.1401,
+                1.14,
                 null
               ],
               [
                 1.8886,
-                1.0781,
+                1.078,
                 null
               ],
               [
@@ -688,52 +692,52 @@
               ],
               [
                 1.8913,
-                1.0338,
+                1.034,
                 null
               ],
               [
                 1.8925,
-                1.0559,
+                1.056,
                 null
               ],
               [
                 1.8936,
-                1.0426,
+                1.043,
                 null
               ],
               [
                 1.8953,
-                1.0558,
+                1.056,
                 null
               ],
               [
                 1.8958,
-                1.0425,
+                1.042,
                 null
               ],
               [
                 1.8969,
-                1.0026,
+                1.003,
                 null
               ],
               [
                 1.8992,
-                0.98927,
+                0.989,
                 null
               ],
               [
                 1.9008,
-                0.94496,
+                0.945,
                 null
               ],
               [
                 1.9014,
-                0.98476,
+                0.985,
                 null
               ],
               [
                 1.9026,
-                1.1086,
+                1.109,
                 null
               ],
               [
@@ -743,27 +747,22 @@
               ],
               [
                 1.9048,
-                1.0422,
+                1.042,
                 null
               ],
               [
                 1.9065,
-                1.0731,
+                1.029,
                 null
               ],
               [
                 1.9065,
-                1.0288,
+                1.073,
                 null
               ],
               [
                 1.9076,
-                1.0553,
-                null
-              ],
-              [
-                1.9104,
-                1.0597,
+                1.055,
                 null
               ],
               [
@@ -772,13 +771,18 @@
                 null
               ],
               [
+                1.9104,
+                1.06,
+                null
+              ],
+              [
                 1.9121,
-                1.0552,
+                1.055,
                 null
               ],
               [
                 1.9132,
-                0.97108,
+                0.971,
                 null
               ],
               [
@@ -788,38 +792,38 @@
               ],
               [
                 1.9154,
-                0.97985,
+                0.98,
                 null
               ],
               [
                 1.9176,
-                1.0019,
+                1.002,
                 null
               ],
               [
                 1.9177,
-                1.0373,
+                1.037,
                 null
               ],
               [
                 1.9199,
-                1.0461,
+                1.046,
                 null
               ],
               [
                 1.9227,
-                1.0327,
+                1.033,
                 null
               ],
               [
                 1.9238,
-                1.0105,
+                1.01,
                 null
               ],
               [
                 1.9266,
-                0.99715,
-                0.022122
+                0.997,
+                0.022
               ],
               [
                 1.9294,
@@ -828,172 +832,172 @@
               ],
               [
                 1.9322,
-                1.0323,
+                1.032,
                 null
               ],
               [
                 1.9339,
-                0.98362,
+                0.984,
                 null
               ],
               [
                 1.9401,
-                0.99225,
+                0.992,
                 null
               ],
               [
                 1.9446,
-                1.0717,
+                1.072,
                 null
               ],
               [
                 1.949,
-                1.0052,
+                1.005,
                 null
               ],
               [
                 1.953,
-                1.0493,
+                1.049,
                 null
               ],
               [
                 1.9585,
-                1.0005,
+                1.0,
                 null
               ],
               [
                 1.9636,
-                0.99585,
+                0.996,
                 null
               ],
               [
                 1.9692,
-                1.0178,
+                1.018,
                 null
               ],
               [
                 1.9731,
-                0.99552,
+                0.996,
                 null
               ],
               [
                 1.977,
-                1.0219,
+                1.022,
                 null
               ],
               [
                 1.9827,
-                1.0306,
+                1.031,
                 null
               ],
               [
                 1.9877,
-                1.0392,
+                1.039,
                 null
               ],
               [
                 1.9932,
-                0.94171,
+                0.942,
                 null
               ],
               [
                 1.9977,
-                0.95041,
+                0.95,
                 null
               ],
               [
                 2.0022,
-                1.0122,
+                1.012,
                 null
               ],
               [
                 2.0073,
-                0.97662,
+                0.977,
                 null
               ],
               [
                 2.0112,
-                1.0694,
+                1.069,
                 null
               ],
               [
                 2.0168,
-                0.99398,
+                0.994,
                 null
               ],
               [
                 2.0201,
-                0.94077,
+                0.941,
                 null
               ],
               [
                 2.0257,
-                0.95827,
+                0.958,
                 null
               ],
               [
                 2.0308,
-                0.97579,
+                0.976,
                 null
               ],
               [
                 2.0353,
-                0.98448,
+                0.984,
                 null
               ],
               [
                 2.0403,
-                0.96218,
+                0.962,
                 null
               ],
               [
                 2.0453,
-                0.92219,
+                0.922,
                 null
               ],
               [
                 2.0498,
-                0.97512,
+                0.975,
                 null
               ],
               [
                 2.0555,
-                0.99262,
+                0.993,
                 null
               ],
               [
                 2.0605,
-                1.0234,
+                1.023,
                 null
               ],
               [
                 2.0644,
-                0.96133,
+                0.961,
                 null
               ],
               [
                 2.0695,
-                1.0364,
+                1.036,
                 null
               ],
               [
                 2.0745,
-                0.99195,
+                0.992,
                 null
               ],
               [
                 2.0795,
-                0.96965,
+                0.97,
                 null
               ],
               [
                 2.0835,
-                0.97394,
+                0.974,
                 null
               ],
               [
                 2.0885,
-                1.0224,
+                1.022,
                 null
               ],
               [
@@ -1003,7 +1007,7 @@
               ],
               [
                 2.0986,
-                0.94244,
+                0.942,
                 null
               ],
               [
@@ -1013,32 +1017,32 @@
               ],
               [
                 2.1075,
-                0.96424,
-                0.026566
+                0.964,
+                0.027
               ],
               [
                 2.1132,
-                0.98174,
+                0.982,
                 null
               ],
               [
                 2.1176,
-                0.95946,
+                0.959,
                 null
               ],
               [
                 2.1221,
-                0.91506,
+                0.915,
                 null
               ],
               [
                 2.1271,
-                0.91488,
+                0.915,
                 null
               ],
               [
                 2.1316,
-                0.93242,
+                0.932,
                 null
               ],
               [
@@ -1048,107 +1052,107 @@
               ],
               [
                 2.1412,
-                1.0648,
+                1.065,
                 null
               ],
               [
                 2.1468,
-                1.0027,
+                1.003,
                 null
               ],
               [
                 2.1513,
-                1.0291,
+                1.029,
                 null
               ],
               [
                 2.1557,
-                0.99794,
+                0.998,
                 null
               ],
               [
                 2.1608,
-                0.98892,
+                0.989,
                 null
               ],
               [
                 2.1652,
-                0.95779,
+                0.958,
                 null
               ],
               [
                 2.1703,
-                0.98858,
+                0.989,
                 null
               ],
               [
                 2.1748,
-                1.0061,
+                1.006,
                 null
               ],
               [
                 2.1804,
-                0.93514,
+                0.935,
                 null
               ],
               [
                 2.1843,
-                0.9173,
+                0.917,
                 null
               ],
               [
                 2.1888,
-                0.97908,
+                0.979,
                 null
               ],
               [
                 2.195,
-                0.99214,
+                0.992,
                 null
               ],
               [
                 2.1994,
-                0.98313,
+                0.983,
                 null
               ],
               [
                 2.2045,
-                1.0316,
+                1.032,
                 null
               ],
               [
                 2.2095,
-                0.99163,
+                0.992,
                 null
               ],
               [
                 2.2134,
-                0.93397,
+                0.934,
                 null
               ],
               [
                 2.2179,
-                0.90284,
+                0.903,
                 null
               ],
               [
                 2.2229,
-                0.94249,
+                0.942,
                 null
               ],
               [
                 2.2246,
-                0.98667,
+                0.987,
                 null
               ],
               [
                 2.2286,
-                1.0131,
+                1.013,
                 null
               ],
               [
                 2.233,
-                0.9731,
+                0.973,
                 null
               ],
               [
@@ -1158,7 +1162,7 @@
               ],
               [
                 2.2426,
-                0.99047,
+                0.99,
                 null
               ],
               [
@@ -1168,844 +1172,682 @@
               ],
               [
                 2.2521,
-                0.99013,
+                0.99,
                 null
               ],
               [
                 2.2571,
-                0.95898,
+                0.959,
                 null
               ],
               [
                 2.2628,
-                1.0075,
+                1.008,
                 null
               ],
               [
                 2.2667,
-                0.99404,
+                0.994,
                 null
               ],
               [
                 2.2717,
-                0.94077,
+                0.941,
                 null
               ],
               [
                 2.2773,
-                1.0025,
+                1.002,
                 null
               ],
               [
                 2.2807,
-                0.97143,
+                0.971,
                 null
               ],
               [
                 2.2863,
-                0.97123,
+                0.971,
                 null
               ],
               [
                 2.2913,
-                0.98875,
+                0.989,
                 null
               ],
               [
                 2.2953,
-                1.0373,
+                1.037,
                 null
               ],
               [
                 2.2992,
-                1.0239,
+                1.024,
                 null
               ],
               [
                 2.3009,
-                1.0238,
+                1.024,
                 null
               ],
               [
                 2.3059,
-                0.97497,
+                0.975,
                 null
               ],
               [
                 2.3115,
-                0.95707,
+                0.957,
                 null
               ],
               [
                 2.3159,
-                0.94807,
-                0.03099
+                0.948,
+                0.031
               ],
               [
                 2.3199,
-                0.95235,
+                0.952,
                 null
               ],
               [
                 2.3249,
-                0.99642,
+                0.996,
                 null
               ],
               [
                 2.3305,
-                1.0095,
+                1.01,
                 null
               ],
               [
                 2.3351,
-                1.0934,
+                1.093,
                 null
               ],
               [
                 2.3401,
-                1.0003,
+                1.0,
                 null
               ],
               [
                 2.3434,
-                0.95152,
+                0.952,
                 null
               ],
               [
                 2.3491,
-                1.2168,
+                1.217,
                 null
               ],
               [
                 2.3547,
-                1.0839,
+                1.084,
                 null
               ],
               [
                 2.3587,
-                1.2474,
+                1.247,
                 null
               ],
               [
                 2.3653,
-                1.0746,
+                1.075,
                 null
               ],
               [
                 2.3698,
-                0.99927,
+                0.999,
                 null
               ],
               [
                 2.3748,
-                0.99909,
+                0.999,
                 null
               ],
               [
                 2.3793,
-                0.99008,
+                0.99,
                 null
               ],
               [
                 2.3838,
-                1.0563,
+                1.056,
                 null
               ],
               [
                 2.39,
-                1.1003,
+                1.1,
                 null
               ],
               [
                 2.3939,
-                1.0604,
+                1.06,
+                null
+              ],
+              [
+                2.3968,
+                1.054,
                 null
               ],
               [
                 2.3995,
-                1.0203,
+                1.02,
+                null
+              ],
+              [
+                2.4011,
+                0.969,
                 null
               ],
               [
                 2.404,
-                1.0954,
+                1.095,
                 null
               ],
               [
                 2.4084,
-                0.99791,
+                0.998,
+                null
+              ],
+              [
+                2.4095,
+                1.05,
+                null
+              ],
+              [
+                2.4138,
+                1.009,
                 null
               ],
               [
                 2.4141,
-                1.1968,
+                1.197,
+                null
+              ],
+              [
+                2.418,
+                0.982,
                 null
               ],
               [
                 2.4186,
-                1.1347,
+                1.135,
+                null
+              ],
+              [
+                2.4208,
+                1.144,
+                null
+              ],
+              [
+                2.4236,
+                1.122,
                 null
               ],
               [
                 2.4247,
-                1.0504,
+                1.05,
                 null
               ],
               [
                 2.4298,
-                1.1299,
+                1.13,
+                null
+              ],
+              [
+                2.4306,
+                1.081,
                 null
               ],
               [
                 2.4336,
-                0.96163,
+                0.962,
+                null
+              ],
+              [
+                2.4349,
+                0.942,
+                null
+              ],
+              [
+                2.4349,
+                1.054,
                 null
               ],
               [
                 2.4393,
-                1.1119,
+                1.112,
+                null
+              ],
+              [
+                2.4419,
+                0.955,
                 null
               ],
               [
                 2.4437,
-                0.97012,
+                0.97,
+                null
+              ],
+              [
+                2.4447,
+                1.009,
+                null
+              ],
+              [
+                2.449,
+                0.933,
                 null
               ],
               [
                 2.4493,
-                0.98762,
+                0.988,
                 null
               ],
               [
                 2.4538,
-                1.1069,
+                1.107,
+                null
+              ],
+              [
+                2.4546,
+                1.095,
                 null
               ],
               [
                 2.4583,
-                1.0404,
+                1.04,
+                null
+              ],
+              [
+                2.4602,
+                1.068,
                 null
               ],
               [
                 2.4634,
-                1.1862,
+                1.186,
+                null
+              ],
+              [
+                2.4673,
+                1.108,
                 null
               ],
               [
                 2.4685,
-                1.1728,
+                1.173,
+                null
+              ],
+              [
+                2.4729,
+                1.032,
                 null
               ],
               [
                 2.4734,
                 1.062,
                 null
-              ]
-            ]
-          },
-          "ENDDATA": {
-            "N1": 0,
-            "N2": 0
-          },
-          "ENDSUBENT": {
-            "N1": 0,
-            "N2": 0
-          }
-        },
-        {
-          "SUBENT": {
-            "N1": "F1175003",
-            "N2": 20121129,
-            "alteration_flag": " ",
-            "transmission_identification": "F048"
-          },
-          "BIB": {
-            "N1": 4,
-            "N2": 0
-          },
-          "REACTION": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "20-CA-46(P,EL)20-CA-46,,DA,,RSD/REL",
-                "code_unit": [
-                  {
-                    "unit": "20-CA-46(P,EL)20-CA-46,,DA,,RSD/REL",
-                    "field": {
-                      "reaction": "20-CA-46(P,EL)20-CA-46",
-                      "target": "20-CA-46",
-                      "projectile": "P",
-                      "process": "EL",
-                      "product": "20-CA-46",
-                      "quantity": ",DA,,RSD",
-                      "data_type": null,
-                      "general_quantity_modifier": "REL",
-                      "quantity_236": ",DA,,RSD"
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "COMMENT": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "No explanation of relative units is given."
-              ]
-            }
-          ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "EN-ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Energy digitizing error"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-S",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "      Statistical error"
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "CURVE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Fig.3"
-              ]
-            }
-          ],
-          "ENDBIB": {
-            "N1": 0,
-            "N2": 0
-          },
-          "COMMON": {
-            "N1": 3,
-            "N2": 0,
-            "pointer": [
-              "",
-              "",
-              ""
-            ],
-            "heading": [
-              "ANG",
-              "EN-ERR-DIG",
-              "ERR-DIG"
-            ],
-            "unit": [
-              "ADEG",
-              "MEV",
-              "ARB-UNITS"
-            ],
-            "value": [
-              159.0,
-              0.0007,
-              0.0056
-            ]
-          },
-          "ENDCOMMON": {
-            "N1": 0,
-            "N2": 0
-          },
-          "DATA": {
-            "N1": 3,
-            "N2": 319,
-            "pointer": [
-              "",
-              "",
-              ""
-            ],
-            "heading": [
-              "EN",
-              "DATA",
-              "ERR-S"
-            ],
-            "unit": [
-              "MEV",
-              "ARB-UNITS",
-              "ARB-UNITS"
-            ],
-            "value": [
-              [
-                2.3968,
-                1.0541,
-                null
-              ],
-              [
-                2.4011,
-                0.96853,
-                null
-              ],
-              [
-                2.4095,
-                1.0496,
-                null
-              ],
-              [
-                2.4095,
-                0.99558,
-                null
-              ],
-              [
-                2.4138,
-                1.0091,
-                null
-              ],
-              [
-                2.418,
-                0.9821,
-                null
-              ],
-              [
-                2.4208,
-                1.1442,
-                null
-              ],
-              [
-                2.4236,
-                1.1217,
-                null
-              ],
-              [
-                2.4306,
-                1.0812,
-                null
-              ],
-              [
-                2.4349,
-                1.0542,
-                null
-              ],
-              [
-                2.4349,
-                1.0182,
-                null
-              ],
-              [
-                2.4349,
-                0.94162,
-                null
-              ],
-              [
-                2.4419,
-                0.95515,
-                null
-              ],
-              [
-                2.4447,
-                1.0092,
-                null
-              ],
-              [
-                2.449,
-                0.93266,
-                null
-              ],
-              [
-                2.4546,
-                1.0948,
-                null
-              ],
-              [
-                2.4602,
-                1.0678,
-                null
-              ],
-              [
-                2.4673,
-                1.1084,
-                null
-              ],
-              [
-                2.4729,
-                1.0318,
-                null
               ],
               [
                 2.4785,
-                1.0679,
+                1.068,
                 null
               ],
               [
                 2.487,
-                1.0364,
+                1.036,
                 null
               ],
               [
                 2.4926,
-                1.0724,
+                1.072,
                 null
               ],
               [
                 2.4969,
-                1.0274,
+                1.027,
                 null
               ],
               [
                 2.5053,
-                0.98688,
+                0.987,
                 null
               ],
               [
                 2.5095,
-                1.0499,
+                1.05,
                 null
               ],
               [
                 2.518,
-                1.0139,
+                1.014,
                 null
               ],
               [
                 2.5236,
-                0.96893,
+                0.969,
                 null
               ],
               [
                 2.5279,
-                0.94192,
+                0.942,
                 null
               ],
               [
                 2.5349,
-                0.99598,
+                0.996,
                 null
               ],
               [
                 2.5419,
-                1.2032,
+                1.203,
                 null
               ],
               [
                 2.542,
-                0.94197,
+                0.942,
                 null
               ],
               [
                 2.5489,
-                1.2077,
+                1.208,
                 null
               ],
               [
                 2.556,
-                1.1852,
+                1.185,
                 null
               ],
               [
                 2.5602,
-                1.0546,
+                1.055,
                 null
               ],
               [
                 2.5659,
-                0.95555,
+                0.956,
                 null
               ],
               [
                 2.5729,
-                0.92405,
+                0.924,
                 null
               ],
               [
                 2.5786,
-                0.87904,
+                0.879,
                 null
               ],
               [
                 2.5856,
-                0.86555,
+                0.866,
                 null
               ],
               [
                 2.5913,
-                0.87457,
+                0.875,
                 null
               ],
               [
                 2.5983,
-                0.88811,
+                0.888,
                 null
               ],
               [
                 2.6039,
-                0.9827,
+                0.983,
                 null
               ],
               [
                 2.6096,
-                0.95569,
+                0.956,
                 null
               ],
               [
                 2.618,
-                1.0008,
+                1.001,
                 null
               ],
               [
                 2.6194,
-                1.0323,
+                1.032,
                 null
               ],
               [
                 2.6292,
-                1.0278,
+                1.028,
                 null
               ],
               [
                 2.6349,
-                1.0368,
+                1.037,
                 null
               ],
               [
                 2.6405,
-                0.97831,
+                0.978,
                 null
               ],
               [
                 2.6461,
-                1.0414,
+                1.041,
                 null
               ],
               [
                 2.6532,
-                0.98285,
+                0.983,
                 null
               ],
               [
                 2.6602,
-                1.0144,
+                1.014,
                 null
               ],
               [
                 2.6659,
-                0.9919,
+                0.992,
                 null
               ],
               [
                 2.6673,
-                0.90634,
+                0.906,
                 null
               ],
               [
                 2.6687,
-                0.86581,
+                0.866,
                 null
               ],
               [
                 2.6744,
-                0.90636,
+                0.906,
                 null
               ],
               [
                 2.6771,
-                1.0009,
+                1.001,
                 null
               ],
               [
                 2.68,
-                0.94691,
+                0.947,
                 null
               ],
               [
                 2.6842,
-                0.94242,
+                0.942,
                 null
               ],
               [
                 2.6884,
-                0.93793,
-                0.018018
+                0.938,
+                0.018
               ],
               [
                 2.6899,
-                0.87489,
+                0.875,
                 null
               ],
               [
                 2.6927,
-                0.8749,
+                0.875,
                 null
               ],
               [
                 2.6955,
-                0.85689,
+                0.857,
                 null
               ],
               [
                 2.6969,
-                0.73981,
+                0.74,
                 null
               ],
               [
                 2.7025,
-                0.87043,
+                0.87,
                 null
               ],
               [
                 2.7053,
-                0.96501,
+                0.965,
                 null
               ],
               [
                 2.7067,
-                0.91547,
+                0.915,
                 null
               ],
               [
                 2.711,
-                0.98304,
+                0.983,
                 null
               ],
               [
                 2.7152,
-                0.90649,
+                0.803,
                 null
               ],
               [
                 2.7152,
-                0.80292,
+                0.906,
                 null
               ],
               [
                 2.7209,
-                0.81644,
+                0.816,
                 null
               ],
               [
                 2.7222,
-                0.90201,
+                0.902,
                 null
               ],
               [
                 2.7265,
-                0.87951,
+                0.88,
                 null
               ],
               [
                 2.7293,
-                0.92906,
+                0.929,
                 null
               ],
               [
                 2.7321,
-                0.86602,
+                0.78,
                 null
               ],
               [
                 2.7321,
-                0.79847,
+                0.798,
                 null
               ],
               [
                 2.7321,
-                0.78045,
+                0.866,
                 null
               ],
               [
                 2.735,
-                0.72192,
+                0.722,
                 null
               ],
               [
                 2.7364,
-                0.6949,
+                0.695,
                 null
               ],
               [
                 2.7379,
-                0.48775,
+                0.488,
                 null
               ],
               [
                 2.7392,
-                0.60935,
+                0.609,
                 null
               ],
               [
                 2.7407,
-                0.4157,
+                0.416,
                 null
               ],
               [
                 2.7435,
-                0.37969,
+                0.38,
                 null
               ],
               [
                 2.7449,
-                0.37969,
+                0.38,
                 null
               ],
               [
                 2.7477,
-                0.44725,
+                0.447,
                 null
               ],
               [
                 2.7477,
-                0.60037,
+                0.6,
                 null
               ],
               [
                 2.7478,
-                0.41122,
+                0.411,
                 null
               ],
               [
                 2.7504,
-                0.82555,
+                0.826,
                 null
               ],
               [
                 2.7546,
-                1.1813,
+                0.938,
                 null
               ],
               [
                 2.7546,
-                0.93815,
+                1.118,
                 null
               ],
               [
                 2.7546,
-                1.1183,
+                1.181,
                 null
               ],
               [
                 2.7588,
-                1.2264,
+                1.226,
                 null
               ],
               [
                 2.7588,
-                1.2624,
+                1.262,
                 null
               ],
               [
@@ -2015,162 +1857,157 @@
               ],
               [
                 2.7644,
-                1.2804,
+                1.28,
                 null
               ],
               [
                 2.7658,
-                1.2624,
+                1.262,
                 null
               ],
               [
                 2.7687,
-                1.1363,
+                1.136,
                 null
               ],
               [
                 2.7715,
-                1.1589,
+                1.159,
                 null
               ],
               [
                 2.7728,
-                1.3075,
+                1.308,
                 null
               ],
               [
                 2.7771,
-                1.2174,
+                1.217,
                 null
               ],
               [
                 2.7771,
-                1.2444,
+                1.244,
                 null
               ],
               [
                 2.7799,
-                1.0508,
+                1.051,
                 null
               ],
               [
                 2.7856,
-                1.1274,
+                1.127,
                 null
               ],
               [
                 2.7884,
-                1.1409,
+                1.141,
                 null
               ],
               [
                 2.7912,
-                1.1589,
+                1.159,
                 null
               ],
               [
                 2.794,
-                1.1049,
+                1.105,
                 null
               ],
               [
                 2.7969,
-                1.0103,
+                1.01,
                 null
               ],
               [
                 2.7983,
-                0.9608,
+                0.961,
                 null
               ],
               [
                 2.8011,
-                0.87975,
+                0.88,
                 null
               ],
               [
                 2.8053,
-                0.95632,
+                0.956,
                 null
               ],
               [
                 2.8081,
-                1.1635,
+                1.163,
                 null
               ],
               [
                 2.8137,
-                1.0509,
+                1.051,
                 null
               ],
               [
                 2.8138,
-                0.99238,
+                0.992,
                 null
               ],
               [
                 2.8166,
-                1.0374,
+                1.037,
                 null
               ],
               [
                 2.8208,
-                1.0554,
+                1.055,
                 null
               ],
               [
                 2.8236,
-                1.0014,
+                1.001,
                 null
               ],
               [
                 2.8265,
-                0.96089,
+                0.961,
                 null
               ],
               [
                 2.8293,
-                0.90236,
+                0.902,
                 null
               ],
               [
                 2.8321,
-                0.83932,
+                0.839,
                 null
               ],
               [
                 2.8349,
-                1.0465,
+                1.046,
                 null
               ],
               [
                 2.8377,
-                1.1185,
+                1.119,
                 null
               ],
               [
                 2.8419,
-                0.97896,
+                0.979,
                 null
               ],
               [
                 2.8447,
-                1.2312,
+                1.231,
                 null
               ],
               [
                 2.8475,
-                1.1546,
+                1.155,
                 null
               ],
               [
                 2.8517,
-                1.2312,
-                null
-              ],
-              [
-                2.856,
-                1.1186,
+                1.231,
                 null
               ],
               [
@@ -2179,238 +2016,243 @@
                 null
               ],
               [
+                2.856,
+                1.119,
+                null
+              ],
+              [
                 2.8602,
-                1.0646,
+                1.065,
                 null
               ],
               [
                 2.8659,
-                0.90698,
+                0.907,
                 null
               ],
               [
                 2.8771,
-                1.0016,
+                1.002,
                 null
               ],
               [
                 2.8813,
-                1.1772,
+                1.177,
                 null
               ],
               [
                 2.8842,
-                1.0286,
+                1.029,
                 null
               ],
               [
                 2.8926,
-                1.0151,
-                0.018014
+                1.015,
+                0.018
               ],
               [
                 2.8969,
-                0.96112,
+                0.961,
                 null
               ],
               [
                 2.9025,
-                0.98816,
+                0.988,
                 null
               ],
               [
                 2.911,
-                0.94765,
+                0.948,
                 null
               ],
               [
                 2.9165,
-                1.2404,
+                1.24,
                 null
               ],
               [
                 2.9193,
-                1.2854,
+                1.285,
                 null
               ],
               [
                 2.9264,
-                1.1188,
+                1.119,
                 null
               ],
               [
                 2.9321,
-                0.95673,
+                0.957,
                 null
               ],
               [
                 2.9405,
-                1.0108,
+                1.011,
                 null
               ],
               [
                 2.9447,
-                1.0558,
+                1.056,
                 null
               ],
               [
                 2.9546,
-                1.0874,
+                1.087,
                 null
               ],
               [
                 2.9574,
-                1.0739,
+                1.074,
                 null
               ],
               [
                 2.9645,
-                0.92081,
+                0.921,
                 null
               ],
               [
                 2.9672,
-                1.4117,
+                1.412,
                 null
               ],
               [
                 2.9758,
-                0.93435,
+                0.934,
                 null
               ],
               [
                 2.9841,
-                1.3397,
+                1.34,
                 null
               ],
               [
                 2.9869,
-                1.2451,
+                1.245,
                 null
               ],
               [
                 2.994,
-                1.1371,
+                1.137,
                 null
               ],
               [
                 2.9982,
-                1.1731,
+                1.173,
                 null
               ],
               [
                 3.001,
-                1.1416,
+                1.142,
                 null
               ],
               [
                 3.0053,
-                0.96147,
+                0.961,
                 null
               ],
               [
                 3.0067,
-                1.0651,
+                1.065,
                 null
               ],
               [
                 3.0096,
-                0.8579,
+                0.858,
                 null
               ],
               [
                 3.0138,
-                0.97501,
+                0.975,
                 null
               ],
               [
                 3.0194,
-                1.0876,
+                1.088,
                 null
               ],
               [
                 3.0209,
-                0.85344,
+                0.853,
                 null
               ],
               [
                 3.025,
-                1.0021,
+                1.002,
                 null
               ],
               [
                 3.025,
-                1.0876,
+                1.088,
                 null
               ],
               [
                 3.0307,
-                1.0021,
+                1.002,
                 null
               ],
               [
                 3.0362,
-                1.3894,
+                1.389,
                 null
               ],
               [
                 3.0433,
-                1.1642,
+                1.164,
                 null
               ],
               [
                 3.0489,
-                1.1102,
+                1.11,
                 null
               ],
               [
                 3.0532,
-                0.95261,
+                0.953,
                 null
               ],
               [
                 3.0588,
-                0.98866,
+                0.989,
                 null
               ],
               [
                 3.0673,
-                0.96167,
+                0.962,
                 null
               ],
               [
                 3.0729,
-                1.1148,
+                1.115,
                 null
               ],
               [
                 3.0799,
-                1.2589,
+                1.259,
                 null
               ],
               [
                 3.087,
-                1.1689,
+                1.169,
                 null
               ],
               [
                 3.0898,
-                1.0293,
+                1.029,
                 null
               ],
               [
                 3.0969,
-                0.92573,
+                0.926,
                 null
               ],
               [
                 3.1039,
-                0.92576,
+                0.926,
                 null
               ],
               [
                 3.1082,
-                0.80868,
+                0.809,
                 null
               ],
               [
@@ -2420,22 +2262,22 @@
               ],
               [
                 3.1208,
-                1.0429,
+                1.043,
                 null
               ],
               [
                 3.1292,
-                1.0699,
+                1.07,
                 null
               ],
               [
                 3.1335,
-                1.0294,
+                1.029,
                 null
               ],
               [
                 3.1377,
-                0.90335,
+                0.903,
                 null
               ],
               [
@@ -2445,107 +2287,107 @@
               ],
               [
                 3.1517,
-                1.3312,
+                1.331,
                 null
               ],
               [
                 3.1559,
-                1.2277,
+                1.228,
                 null
               ],
               [
                 3.1658,
-                1.1061,
+                1.106,
                 null
               ],
               [
                 3.1673,
-                0.97099,
+                0.971,
                 null
               ],
               [
                 3.1771,
-                1.2683,
+                1.268,
                 null
               ],
               [
                 3.1799,
-                1.0521,
+                1.052,
                 null
               ],
               [
                 3.187,
-                1.1242,
+                1.124,
                 null
               ],
               [
                 3.1926,
-                0.97108,
+                0.971,
                 null
               ],
               [
                 3.1997,
-                1.0161,
+                1.016,
                 null
               ],
               [
                 3.2039,
-                1.0297,
+                1.03,
                 null
               ],
               [
                 3.2137,
-                1.2774,
+                1.277,
                 null
               ],
               [
                 3.2165,
-                1.1738,
+                1.174,
                 null
               ],
               [
                 3.225,
-                1.1738,
+                1.174,
                 null
               ],
               [
                 3.2306,
-                1.1153,
+                1.115,
                 null
               ],
               [
                 3.2377,
-                1.1694,
+                1.169,
                 null
               ],
               [
                 3.2461,
-                1.2415,
+                1.242,
                 null
               ],
               [
                 3.2545,
-                1.2775,
+                1.278,
                 null
               ],
               [
                 3.2602,
-                1.1424,
+                1.142,
                 null
               ],
               [
                 3.2701,
-                0.91278,
+                0.913,
                 null
               ],
               [
                 3.273,
-                0.85425,
+                0.854,
                 null
               ],
               [
                 3.2771,
-                1.0524,
+                1.052,
                 null
               ],
               [
@@ -2555,12 +2397,12 @@
               ],
               [
                 3.2912,
-                1.0299,
+                1.03,
                 null
               ],
               [
                 3.2954,
-                1.3227,
+                1.323,
                 null
               ],
               [
@@ -2575,97 +2417,97 @@
               ],
               [
                 3.3152,
-                0.78233,
+                0.782,
                 null
               ],
               [
                 3.3208,
-                1.1471,
+                1.147,
                 null
               ],
               [
                 3.3235,
-                1.2642,
+                1.264,
                 null
               ],
               [
                 3.335,
-                0.78239,
+                0.782,
                 null
               ],
               [
                 3.349,
-                1.0616,
+                1.062,
                 null
               ],
               [
                 3.3547,
-                0.86352,
+                0.864,
                 null
               ],
               [
                 3.3673,
-                1.1067,
+                1.107,
                 null
               ],
               [
                 3.3743,
-                1.0257,
+                1.026,
                 null
               ],
               [
                 3.3813,
-                1.1428,
+                1.143,
                 null
               ],
               [
                 3.3856,
-                1.1248,
+                1.125,
                 null
               ],
               [
                 3.3912,
-                0.9537,
+                0.954,
                 null
               ],
               [
                 3.3968,
-                1.1203,
+                1.12,
                 null
               ],
               [
                 3.401,
-                1.1609,
+                1.161,
                 null
               ],
               [
                 3.4081,
-                0.99429,
+                0.994,
                 null
               ],
               [
                 3.4151,
-                1.1744,
+                1.174,
                 null
               ],
               [
                 3.4222,
-                0.97632,
+                0.976,
                 null
               ],
               [
                 3.4265,
-                0.85924,
+                0.859,
                 null
               ],
               [
                 3.4335,
-                0.82324,
+                0.823,
                 null
               ],
               [
                 3.4391,
-                0.98088,
+                0.981,
                 null
               ],
               [
@@ -2675,137 +2517,137 @@
               ],
               [
                 3.4532,
-                0.97191,
+                0.972,
                 null
               ],
               [
                 3.4589,
-                0.91339,
+                0.913,
                 null
               ],
               [
                 3.4659,
-                0.84586,
+                0.846,
                 null
               ],
               [
                 3.4673,
-                1.0575,
+                1.058,
                 null
               ],
               [
                 3.4772,
-                0.95398,
+                0.954,
                 null
               ],
               [
                 3.4799,
-                1.2152,
+                1.215,
                 null
               ],
               [
                 3.4869,
-                1.1837,
+                1.184,
                 null
               ],
               [
                 3.494,
-                1.2332,
+                1.233,
                 null
               ],
               [
                 3.4997,
-                1.0576,
+                1.058,
                 null
               ],
               [
                 3.5066,
-                1.2558,
+                1.256,
                 null
               ],
               [
                 3.511,
-                0.98561,
+                0.986,
                 null
               ],
               [
                 3.518,
-                0.96762,
+                0.968,
                 null
               ],
               [
                 3.5265,
-                0.83705,
+                0.837,
                 null
               ],
               [
                 3.5277,
-                1.5306,
+                1.531,
                 null
               ],
               [
                 3.5349,
-                1.0217,
+                1.022,
                 null
               ],
               [
                 3.5404,
-                1.4991,
+                1.499,
                 null
               ],
               [
                 3.5461,
-                1.2965,
+                1.296,
                 null
               ],
               [
                 3.5545,
-                1.2965,
+                1.296,
                 null
               ],
               [
                 3.5632,
-                0.71557,
+                0.716,
                 null
               ],
               [
                 3.5673,
-                1.0083,
+                1.008,
                 null
               ],
               [
                 3.5714,
-                1.3055,
+                1.306,
                 null
               ],
               [
                 3.5771,
-                1.0444,
+                1.044,
                 null
               ],
               [
                 3.5856,
-                0.99936,
+                0.999,
                 null
               ],
               [
                 3.594,
-                1.1705,
+                1.171,
                 null
               ],
               [
                 3.6037,
-                1.6254,
+                1.625,
                 null
               ],
               [
                 3.608,
-                1.3327,
+                1.333,
                 null
               ],
               [
                 3.6137,
-                1.2201,
+                1.22,
                 null
               ],
               [
@@ -2815,112 +2657,112 @@
               ],
               [
                 3.6265,
-                0.84187,
+                0.842,
                 null
               ],
               [
                 3.632,
-                1.3688,
+                1.369,
                 null
               ],
               [
                 3.6391,
-                1.1797,
+                1.18,
                 null
               ],
               [
                 3.6476,
-                0.99956,
+                1.0,
                 null
               ],
               [
                 3.6504,
-                1.0671,
+                1.067,
                 null
               ],
               [
                 3.656,
-                0.99058,
+                0.991,
                 null
               ],
               [
                 3.6644,
-                1.0807,
+                1.081,
                 null
               ],
               [
                 3.6687,
-                0.94559,
+                0.946,
                 null
               ],
               [
                 3.6743,
-                0.98163,
+                0.982,
                 null
               ],
               [
                 3.6854,
-                1.6527,
+                1.653,
                 null
               ],
               [
                 3.6856,
-                0.84656,
+                0.847,
                 null
               ],
               [
                 3.6924,
-                1.7022,
+                1.702,
                 null
               ],
               [
                 3.7011,
-                1.0448,
+                1.045,
                 null
               ],
               [
                 3.7081,
-                0.95022,
+                0.95,
                 null
               ],
               [
                 3.7109,
-                1.0718,
+                1.072,
                 null
               ],
               [
                 3.718,
-                1.1124,
+                1.112,
                 null
               ],
               [
                 3.7251,
-                0.90524,
+                0.905,
                 null
               ],
               [
                 3.7321,
-                1.0494,
+                1.049,
                 null
               ],
               [
                 3.7377,
-                0.90528,
+                0.905,
                 null
               ],
               [
                 3.7476,
-                0.92782,
+                0.928,
                 null
               ],
               [
                 3.7504,
-                0.79724,
+                0.797,
                 null
               ],
               [
                 3.7589,
-                0.94587,
+                0.946,
                 null
               ],
               [
@@ -2930,82 +2772,82 @@
               ],
               [
                 3.7673,
-                1.0585,
+                1.059,
                 null
               ],
               [
                 3.7744,
-                0.85135,
+                0.851,
                 null
               ],
               [
                 3.7829,
-                0.71628,
+                0.716,
                 null
               ],
               [
                 3.7857,
-                0.80185,
+                0.802,
                 null
               ],
               [
                 3.7927,
-                0.89645,
+                0.896,
                 null
               ],
               [
                 3.7967,
-                1.4369,
+                1.437,
                 null
               ],
               [
                 3.8066,
-                1.2793,
+                1.279,
                 null
               ],
               [
                 3.8124,
-                0.85148,
+                0.851,
                 null
               ],
               [
                 3.818,
-                0.82898,
+                0.829,
                 null
               ],
               [
                 3.8251,
-                0.77946,
+                0.779,
                 null
               ],
               [
                 3.8308,
-                0.6759,
+                0.676,
                 null
               ],
               [
                 3.8378,
-                0.56334,
+                0.563,
                 null
               ],
               [
                 3.8447,
-                1.1983,
+                1.198,
                 null
               ],
               [
                 3.8463,
-                0.61741,
+                0.617,
                 null
               ],
               [
                 3.8533,
-                0.79757,
+                0.798,
                 null
               ],
               [
                 3.8617,
-                0.78859,
+                0.789,
                 null
               ],
               [
@@ -3015,37 +2857,37 @@
               ],
               [
                 3.8745,
-                0.59498,
+                0.595,
                 null
               ],
               [
                 3.8815,
-                0.64904,
+                0.649,
                 null
               ],
               [
                 3.8873,
-                0.1762,
+                0.176,
                 null
               ],
               [
                 3.8942,
-                0.48246,
+                0.482,
                 null
               ],
               [
                 3.8955,
-                0.95982,
+                0.96,
                 null
               ],
               [
                 3.9069,
-                0.4825,
+                0.482,
                 null
               ],
               [
                 3.9095,
-                1.2751,
+                1.275,
                 null
               ],
               [
@@ -3055,97 +2897,97 @@
               ],
               [
                 3.9253,
-                0.1448,
+                0.145,
                 null
               ],
               [
                 3.9266,
-                0.50058,
+                0.501,
                 null
               ],
               [
                 3.9294,
-                0.69873,
+                0.699,
                 null
               ],
               [
                 3.9363,
-                0.86989,
+                0.87,
                 null
               ],
               [
                 3.9405,
-                1.0951,
+                1.095,
                 null
               ],
               [
                 3.9474,
-                1.4148,
+                1.415,
                 null
               ],
               [
                 3.9502,
-                1.5815,
+                1.581,
                 null
               ],
               [
                 3.9573,
-                1.5365,
+                1.536,
                 null
               ],
               [
                 3.9657,
-                1.4509,
+                1.451,
                 null
               ],
               [
                 3.9714,
-                1.2798,
+                1.28,
                 null
               ],
               [
                 3.9756,
-                1.4149,
+                1.415,
                 null
               ],
               [
                 3.9812,
-                1.4825,
+                1.482,
                 null
               ],
               [
                 3.9911,
-                1.3654,
+                1.365,
                 null
               ],
               [
                 3.9953,
-                1.4195,
+                1.419,
                 null
               ],
               [
                 4.0038,
-                1.3114,
-                0.049538
+                1.311,
+                0.05
               ],
               [
                 4.008,
-                1.4826,
+                1.483,
                 null
               ],
               [
                 4.0149,
-                1.8654,
+                1.865,
                 null
               ],
               [
                 4.0192,
-                1.7438,
+                1.744,
                 null
               ],
               [
                 4.0262,
-                1.7258,
+                1.726,
                 null
               ]
             ]
@@ -3160,11 +3002,18 @@
           }
         },
         {
+          "NOSUBENT": {
+            "N1": "F1175003",
+            "N2": 20260116,
+            "transmission_identification": "F108"
+          }
+        },
+        {
           "SUBENT": {
             "N1": "F1175004",
-            "N2": 20121129,
+            "N2": 20260116,
             "alteration_flag": " ",
-            "transmission_identification": "F048"
+            "transmission_identification": "F108"
           },
           "BIB": {
             "N1": 4,
@@ -3174,10 +3023,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "20-CA-46(P,EL)20-CA-46,,DA,,RSD/REL",
+                "code": "20-CA-46(P,EL)20-CA-46,,DA,,RSD",
                 "code_unit": [
                   {
-                    "unit": "20-CA-46(P,EL)20-CA-46,,DA,,RSD/REL",
+                    "unit": "20-CA-46(P,EL)20-CA-46,,DA,,RSD",
                     "field": {
                       "reaction": "20-CA-46(P,EL)20-CA-46",
                       "target": "20-CA-46",
@@ -3186,7 +3035,7 @@
                       "product": "20-CA-46",
                       "quantity": ",DA,,RSD",
                       "data_type": null,
-                      "general_quantity_modifier": "REL",
+                      "general_quantity_modifier": null,
                       "quantity_236": ",DA,,RSD"
                     }
                   }
@@ -3194,32 +3043,12 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
-              ]
-            }
-          ],
-          "COMMENT": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "No explanation of relative units is given."
+                "",
+                "The resonance at E(lab) = 1.863 MeV"
               ]
             }
           ],
           "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "EN-ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Energy digitizing error"
-              ]
-            },
             {
               "pointer": "",
               "coded_information": {
@@ -3229,7 +3058,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                "      Statistical error"
+                " Statistical error"
               ]
             }
           ],
@@ -3241,11 +3070,39 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "C.Gaarde+",
+                "reference": {
+                  "code": "J,NP/A,102,1,1967",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "102",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 1967
+                  }
+                }
               },
               "free_text": [
                 " Fig.4"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260116,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: SF8=RSD/REL -> RSD in REACTION code.",
+                "Data units were changed (ARB-UNITS -> NO-DIM). The",
+                "accuracy of data presentation was revised. BIB updated."
               ]
             }
           ],
@@ -3269,12 +3126,12 @@
             "unit": [
               "ADEG",
               "MEV",
-              "ARB-UNITS"
+              "NO-DIM"
             ],
             "value": [
               140.0,
               0.0001,
-              0.0011
+              0.001
             ]
           },
           "ENDCOMMON": {
@@ -3296,138 +3153,138 @@
             ],
             "unit": [
               "MEV",
-              "ARB-UNITS",
-              "ARB-UNITS"
+              "NO-DIM",
+              "NO-DIM"
             ],
             "value": [
               [
                 1.8079,
-                1.0677,
+                1.068,
                 null
               ],
               [
                 1.8101,
-                1.0524,
+                1.052,
                 null
               ],
               [
                 1.8124,
-                1.0632,
+                1.063,
                 null
               ],
               [
                 1.8147,
-                1.0878,
+                1.088,
                 null
               ],
               [
                 1.8173,
-                1.0771,
+                1.077,
                 null
               ],
               [
                 1.8196,
-                1.0987,
+                1.099,
                 null
               ],
               [
                 1.8219,
-                1.1233,
+                1.123,
                 null
               ],
               [
                 1.8245,
-                1.0572,
-                0.023077
+                1.057,
+                0.023
               ],
               [
                 1.8268,
-                1.0742,
+                1.074,
                 null
               ],
               [
                 1.8293,
-                1.0127,
+                1.013,
                 null
               ],
               [
                 1.8316,
-                1.0696,
+                1.07,
                 null
               ],
               [
                 1.8337,
-                1.0404,
+                1.04,
                 null
               ],
               [
                 1.8361,
-                1.0697,
+                1.07,
                 null
               ],
               [
                 1.8385,
-                1.0543,
+                1.054,
                 null
               ],
               [
                 1.8396,
-                1.0405,
+                1.04,
                 null
               ],
               [
                 1.841,
-                1.0344,
+                1.034,
                 null
               ],
               [
                 1.8418,
-                1.0605,
+                1.061,
                 null
               ],
               [
                 1.843,
-                1.0667,
+                1.067,
                 null
               ],
               [
                 1.8442,
-                1.0544,
+                1.054,
                 null
               ],
               [
                 1.8453,
-                1.0021,
+                1.002,
                 null
               ],
               [
                 1.8466,
-                0.98677,
+                0.987,
                 null
               ],
               [
                 1.848,
-                1.0637,
+                1.064,
                 null
               ],
               [
                 1.8487,
-                1.0453,
+                1.045,
                 null
               ],
               [
                 1.8501,
-                1.0761,
+                1.076,
                 null
               ],
               [
                 1.8511,
-                1.0422,
-                0.018461
+                1.042,
+                0.018
               ],
               [
                 1.8525,
-                1.0161,
+                1.016,
                 null
               ],
               [
@@ -3437,192 +3294,192 @@
               ],
               [
                 1.8546,
-                0.97766,
+                0.978,
                 null
               ],
               [
                 1.8558,
-                0.98845,
+                0.988,
                 null
               ],
               [
                 1.8569,
-                0.98077,
+                0.981,
                 null
               ],
               [
                 1.8582,
-                0.99463,
+                0.995,
                 null
               ],
               [
                 1.8596,
-                0.97158,
+                0.972,
                 null
               ],
               [
                 1.8606,
-                0.94852,
+                0.949,
                 null
               ],
               [
                 1.8615,
-                0.91315,
+                0.913,
                 null
               ],
               [
                 1.8625,
-                0.91316,
+                0.913,
                 null
               ],
               [
                 1.863,
-                0.87778,
+                0.878,
                 null
               ],
               [
                 1.8635,
-                0.87779,
+                0.878,
                 null
               ],
               [
                 1.8639,
-                0.82549,
+                0.825,
                 null
               ],
               [
                 1.8646,
-                0.83165,
+                0.832,
                 null
               ],
               [
                 1.8652,
-                0.8132,
+                0.813,
                 null
               ],
               [
                 1.8658,
-                0.78398,
+                0.784,
                 null
               ],
               [
                 1.8663,
-                0.84091,
+                0.841,
                 null
               ],
               [
                 1.8676,
-                0.86093,
+                0.861,
                 null
               ],
               [
                 1.8678,
-                0.89939,
+                0.899,
                 null
               ],
               [
                 1.8685,
-                0.88248,
+                0.882,
                 null
               ],
               [
                 1.8692,
-                0.92864,
+                0.929,
                 null
               ],
               [
                 1.8694,
-                0.97788,
+                0.978,
                 null
               ],
               [
                 1.8699,
-                1.0071,
+                1.007,
                 null
               ],
               [
                 1.8709,
-                1.0656,
+                1.066,
                 null
               ],
               [
                 1.8716,
-                1.1118,
+                1.112,
                 null
               ],
               [
                 1.872,
-                1.1318,
+                1.132,
                 null
               ],
               [
                 1.8728,
-                1.1595,
+                1.159,
                 null
               ],
               [
                 1.873,
-                1.1641,
+                1.164,
                 null
               ],
               [
                 1.8738,
-                1.1703,
+                1.17,
                 null
               ],
               [
                 1.8742,
-                1.1749,
+                1.175,
                 null
               ],
               [
                 1.8748,
-                1.1549,
+                1.155,
                 null
               ],
               [
                 1.8752,
-                1.1087,
+                1.109,
                 null
               ],
               [
                 1.876,
-                1.1811,
+                1.181,
                 null
               ],
               [
                 1.8766,
-                1.1288,
+                1.129,
                 null
               ],
               [
                 1.8772,
-                1.1441,
+                1.144,
                 null
               ],
               [
                 1.8779,
-                1.1672,
+                1.167,
                 null
               ],
               [
                 1.8784,
-                1.1411,
+                1.141,
                 null
               ],
               [
                 1.8791,
-                1.1473,
+                1.147,
                 null
               ],
               [
                 1.8795,
-                1.1273,
+                1.127,
                 null
               ],
               [
                 1.8802,
-                1.1227,
+                1.123,
                 null
               ],
               [
@@ -3632,7 +3489,7 @@
               ],
               [
                 1.8811,
-                1.1534,
+                1.153,
                 null
               ],
               [
@@ -3647,72 +3504,72 @@
               ],
               [
                 1.8848,
-                1.1473,
+                1.147,
                 null
               ],
               [
                 1.886,
-                1.1181,
+                1.118,
                 null
               ],
               [
                 1.8871,
-                1.1335,
+                1.133,
                 null
               ],
               [
                 1.8883,
-                1.1612,
+                1.161,
                 null
               ],
               [
                 1.8893,
-                1.1612,
+                1.161,
                 null
               ],
               [
                 1.8907,
-                1.1182,
-                0.010769
+                1.118,
+                0.011
               ],
               [
                 1.8915,
-                1.1521,
+                1.152,
                 null
               ],
               [
                 1.8931,
-                1.1275,
+                1.127,
                 null
               ],
               [
                 1.8943,
-                1.1659,
+                1.166,
                 null
               ],
               [
                 1.8952,
-                1.1506,
+                1.151,
                 null
               ],
               [
                 1.8963,
-                1.1352,
+                1.135,
                 null
               ],
               [
                 1.8974,
-                1.1075,
+                1.107,
                 null
               ],
               [
                 1.8988,
-                1.0814,
+                1.081,
                 null
               ],
               [
                 1.8998,
-                1.1383,
+                1.138,
                 null
               ],
               [
@@ -3722,22 +3579,22 @@
               ],
               [
                 1.9031,
-                1.1215,
+                1.121,
                 null
               ],
               [
                 1.9054,
-                1.1507,
+                1.151,
                 null
               ],
               [
                 1.9079,
-                1.1508,
+                1.151,
                 null
               ],
               [
                 1.9105,
-                1.1523,
+                1.152,
                 null
               ],
               [
@@ -3747,32 +3604,32 @@
               ],
               [
                 1.915,
-                1.1401,
+                1.14,
                 null
               ],
               [
                 1.9175,
-                1.1478,
+                1.148,
                 null
               ],
               [
                 1.9196,
-                1.0986,
+                1.099,
                 null
               ],
               [
                 1.9221,
-                1.1417,
+                1.142,
                 null
               ],
               [
                 1.9242,
-                1.1202,
+                1.12,
                 null
               ],
               [
                 1.9266,
-                1.1141,
+                1.114,
                 null
               ]
             ]
@@ -3789,12 +3646,12 @@
         {
           "SUBENT": {
             "N1": "F1175005",
-            "N2": 20121129,
+            "N2": 20260116,
             "alteration_flag": " ",
-            "transmission_identification": "F048"
+            "transmission_identification": "F108"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -3829,25 +3686,13 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "EN-ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Energy digitizing error"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
                 "heading": "DATA-ERR",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                "   Error from the graphic bars"
+                " No information about source of uncertainty"
               ]
             }
           ],
@@ -3859,11 +3704,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "C.Gaarde+",
+                "reference": {
+                  "code": "J,NP/A,102,1,1967",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "102",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 1967
+                  }
+                }
               },
               "free_text": [
                 " Fig.5"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260116,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -3881,22 +3752,22 @@
               ""
             ],
             "heading": [
-              "ANG",
               "E-LVL",
+              "ANG",
               "EN-ERR-DIG",
               "ERR-DIG"
             ],
             "unit": [
-              "ADEG",
               "MEV",
+              "ADEG",
               "MEV",
               "MB/SR"
             ],
             "value": [
-              159.0,
               2.878,
+              159.0,
               0.0002,
-              0.0075
+              0.008
             ]
           },
           "ENDCOMMON": {
@@ -3924,43 +3795,43 @@
             "value": [
               [
                 2.7515,
-                0.029355,
-                0.12289
+                0.029,
+                0.123
               ],
               [
                 2.7595,
-                0.52662,
-                0.11172
+                0.527,
+                0.112
               ],
               [
                 2.7633,
-                1.1132,
-                0.11268
+                1.113,
+                0.113
               ],
               [
                 2.7678,
-                1.5546,
-                0.10614
+                1.555,
+                0.106
               ],
               [
                 2.7716,
-                0.84518,
-                0.13407
+                0.845,
+                0.134
               ],
               [
                 2.7763,
-                0.63856,
-                0.078205
+                0.639,
+                0.078
               ],
               [
                 2.7803,
-                0.27551,
-                0.12268
+                0.276,
+                0.123
               ],
               [
                 2.7879,
-                0.03541,
-                0.067033
+                0.035,
+                0.067
               ]
             ]
           },
@@ -3976,9 +3847,9 @@
         {
           "SUBENT": {
             "N1": "F1175006",
-            "N2": 20121129,
+            "N2": 20260116,
             "alteration_flag": " ",
-            "transmission_identification": "F048"
+            "transmission_identification": "F108"
           },
           "BIB": {
             "N1": 4,
@@ -3988,10 +3859,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "20-CA-46(P,EL)20-CA-46,,DA,,MSC/REL",
+                "code": "(20-CA-46(P,EL)20-CA-46,,DA)//(20-CA-46(P,EL)20-CA-46,,DA)",
                 "code_unit": [
                   {
-                    "unit": "20-CA-46(P,EL)20-CA-46,,DA,,MSC/REL",
+                    "unit": "20-CA-46(P,EL)20-CA-46,,DA",
                     "field": {
                       "reaction": "20-CA-46(P,EL)20-CA-46",
                       "target": "20-CA-46",
@@ -4000,42 +3871,34 @@
                       "product": "20-CA-46",
                       "quantity": ",DA",
                       "data_type": null,
-                      "general_quantity_modifier": "MSC/REL",
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",DA"
+                    }
+                  },
+                  {
+                    "unit": "20-CA-46(P,EL)20-CA-46,,DA",
+                    "field": {
+                      "reaction": "20-CA-46(P,EL)20-CA-46",
+                      "target": "20-CA-46",
+                      "projectile": "P",
+                      "process": "EL",
+                      "product": "20-CA-46",
+                      "quantity": ",DA",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
                       "quantity_236": ",DA"
                     }
                   }
                 ],
-                "unit_combination": "(%)"
+                "unit_combination": "((%)//(%))"
               },
               "free_text": [
                 "",
-                "The  cross section ratio for two angles (135/80) is",
-                "presented."
-              ]
-            }
-          ],
-          "COMMENT": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "No explanation of relative units is given."
+                "The resonance at E(lab) = 2.878 MeV in more detail."
               ]
             }
           ],
           "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "EN-ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Energy digitizing error"
-              ]
-            },
             {
               "pointer": "",
               "coded_information": {
@@ -4045,7 +3908,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                "   Error from the graphic bars"
+                " No information about source of uncertainty"
               ]
             }
           ],
@@ -4057,11 +3920,39 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "C.Gaarde+",
+                "reference": {
+                  "code": "J,NP/A,102,1,1967",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "102",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 1967
+                  }
+                }
               },
               "free_text": [
                 " Fig.5"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260116,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: SF8=MSC/REL deleted from REACTION code.",
+                "REACTION code was converted to ratio. BIB updated.",
+                "Data units were changed (ARB-UNITS -> NO-DIM)."
               ]
             }
           ],
@@ -4079,8 +3970,8 @@
               ""
             ],
             "heading": [
-              "ANG1",
-              "ANG2",
+              "ANG-NM",
+              "ANG-DN",
               "EN-ERR-DIG",
               "ERR-DIG"
             ],
@@ -4088,13 +3979,13 @@
               "ADEG",
               "ADEG",
               "MEV",
-              "ARB-UNITS"
+              "NO-DIM"
             ],
             "value": [
               135.0,
               80.0,
               0.0001,
-              0.0039
+              0.004
             ]
           },
           "ENDCOMMON": {
@@ -4116,229 +4007,229 @@
             ],
             "unit": [
               "MEV",
-              "ARB-UNITS",
-              "ARB-UNITS"
+              "NO-DIM",
+              "NO-DIM"
             ],
             "value": [
               [
                 2.6945,
-                0.7579,
+                0.758,
                 null
               ],
               [
                 2.7003,
-                0.80334,
+                0.803,
                 null
               ],
               [
                 2.7062,
-                0.79772,
+                0.798,
                 null
               ],
               [
                 2.7123,
-                0.83466,
-                0.034035
+                0.835,
+                0.034
               ],
               [
                 2.7181,
-                0.7553,
+                0.755,
                 null
               ],
               [
                 2.7211,
-                0.74114,
+                0.741,
                 null
               ],
               [
                 2.7242,
-                0.86598,
+                0.866,
                 null
               ],
               [
                 2.7271,
-                0.78659,
+                0.787,
                 null
               ],
               [
                 2.7301,
-                0.8008,
+                0.801,
                 null
               ],
               [
                 2.7332,
-                0.76679,
+                0.767,
                 null
               ],
               [
                 2.7359,
-                0.80086,
+                0.801,
                 null
               ],
               [
                 2.7384,
-                0.74983,
+                0.75,
                 null
               ],
               [
                 2.7416,
-                0.68178,
+                0.682,
                 null
               ],
               [
                 2.7447,
-                0.67331,
+                0.673,
                 null
               ],
               [
                 2.746,
-                0.70168,
+                0.702,
                 null
               ],
               [
                 2.7474,
-                0.76126,
+                0.761,
                 null
               ],
               [
                 2.7489,
-                0.76979,
+                0.77,
                 null
               ],
               [
                 2.7506,
-                0.77831,
+                0.778,
                 null
               ],
               [
                 2.7518,
-                0.74996,
+                0.75,
                 null
               ],
               [
                 2.7529,
-                0.74146,
+                0.741,
                 null
               ],
               [
                 2.7558,
-                0.6876,
-                0.031199
+                0.688,
+                0.031
               ],
               [
                 2.7585,
-                0.58835,
+                0.588,
                 null
               ],
               [
                 2.7617,
-                0.53733,
+                0.537,
                 null
               ],
               [
                 2.7631,
-                0.47778,
+                0.478,
                 null
               ],
               [
                 2.7642,
-                0.50048,
+                0.5,
                 null
               ],
               [
                 2.7658,
-                0.47213,
+                0.472,
                 null
               ],
               [
                 2.7686,
-                0.44379,
+                0.444,
                 null
               ],
               [
                 2.7702,
-                0.52323,
+                0.523,
                 null
               ],
               [
                 2.7715,
-                0.64804,
+                0.648,
                 null
               ],
               [
                 2.7729,
-                0.72464,
-                0.022691
+                0.725,
+                0.023
               ],
               [
                 2.774,
-                0.68494,
+                0.685,
                 null
               ],
               [
                 2.7759,
-                0.75871,
+                0.759,
                 null
               ],
               [
                 2.7771,
-                0.75588,
+                0.756,
                 null
               ],
               [
                 2.7786,
-                0.80695,
+                0.807,
                 null
               ],
               [
                 2.7798,
-                0.93177,
+                0.932,
                 null
               ],
               [
                 2.7821,
-                0.96583,
+                0.966,
                 null
               ],
               [
                 2.7832,
-                0.8694,
+                0.869,
                 null
               ],
               [
                 2.7847,
-                0.87793,
+                0.878,
                 null
               ],
               [
                 2.7905,
-                0.91202,
+                0.912,
                 null
               ],
               [
                 2.7962,
-                0.84968,
+                0.85,
                 null
               ],
               [
                 2.8022,
-                0.85257,
+                0.853,
                 null
               ],
               [
                 2.8047,
-                0.89514,
+                0.895,
                 null
               ],
               [
                 2.8108,
-                0.93208,
+                0.932,
                 null
               ],
               [
                 2.8169,
-                0.84137,
-                0.034037
+                0.841,
+                0.034
               ],
               [
                 2.8229,
@@ -4347,12 +4238,12 @@
               ],
               [
                 2.8284,
-                0.90673,
+                0.907,
                 null
               ],
               [
                 2.8344,
-                0.80751,
+                0.808,
                 null
               ]
             ]
@@ -4369,9 +4260,9 @@
         {
           "SUBENT": {
             "N1": "F1175007",
-            "N2": 20121129,
+            "N2": 20260116,
             "alteration_flag": " ",
-            "transmission_identification": "F048"
+            "transmission_identification": "F108"
           },
           "BIB": {
             "N1": 4,
@@ -4381,10 +4272,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "20-CA-46(P,EL)20-CA-46,,DA,,MSC/REL",
+                "code": "(20-CA-46(P,EL)20-CA-46,,DA)//(20-CA-46(P,EL)20-CA-46,,DA)",
                 "code_unit": [
                   {
-                    "unit": "20-CA-46(P,EL)20-CA-46,,DA,,MSC/REL",
+                    "unit": "20-CA-46(P,EL)20-CA-46,,DA",
                     "field": {
                       "reaction": "20-CA-46(P,EL)20-CA-46",
                       "target": "20-CA-46",
@@ -4393,42 +4284,34 @@
                       "product": "20-CA-46",
                       "quantity": ",DA",
                       "data_type": null,
-                      "general_quantity_modifier": "MSC/REL",
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",DA"
+                    }
+                  },
+                  {
+                    "unit": "20-CA-46(P,EL)20-CA-46,,DA",
+                    "field": {
+                      "reaction": "20-CA-46(P,EL)20-CA-46",
+                      "target": "20-CA-46",
+                      "projectile": "P",
+                      "process": "EL",
+                      "product": "20-CA-46",
+                      "quantity": ",DA",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
                       "quantity_236": ",DA"
                     }
                   }
                 ],
-                "unit_combination": "(%)"
+                "unit_combination": "((%)//(%))"
               },
               "free_text": [
                 "",
-                "The  cross section ratio for two angles (135/80) is",
-                "presented."
-              ]
-            }
-          ],
-          "COMMENT": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "No explanation of relative units is given."
+                "The resonance at E(lab) = 4.049 MeV in more detail."
               ]
             }
           ],
           "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "EN-ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Energy digitizing error"
-              ]
-            },
             {
               "pointer": "",
               "coded_information": {
@@ -4438,7 +4321,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                "   Error from the graphic bars"
+                " No information about source of uncertainty"
               ]
             }
           ],
@@ -4450,11 +4333,39 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "C.Gaarde+",
+                "reference": {
+                  "code": "J,NP/A,102,1,1967",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "102",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 1967
+                  }
+                }
               },
               "free_text": [
                 " Fig.6"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260116,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: SF8=MSC/REL deleted from REACTION code.",
+                "REACTION code was converted to ratio. BIB updated.",
+                "Data units were changed (ARB-UNITS -> NO-DIM)."
               ]
             }
           ],
@@ -4472,8 +4383,8 @@
               ""
             ],
             "heading": [
-              "ANG1",
-              "ANG2",
+              "ANG-NM",
+              "ANG-DN",
               "EN-ERR-DIG",
               "ERR-DIG"
             ],
@@ -4481,13 +4392,13 @@
               "ADEG",
               "ADEG",
               "MEV",
-              "ARB-UNITS"
+              "NO-DIM"
             ],
             "value": [
               135.0,
               80.0,
-              0.0014,
-              0.0032
+              0.001,
+              0.003
             ]
           },
           "ENDCOMMON": {
@@ -4509,148 +4420,148 @@
             ],
             "unit": [
               "MEV",
-              "ARB-UNITS",
-              "ARB-UNITS"
+              "NO-DIM",
+              "NO-DIM"
             ],
             "value": [
               [
                 3.5137,
-                0.82854,
+                0.829,
                 null
               ],
               [
                 3.5188,
-                0.7493,
+                0.749,
                 null
               ],
               [
                 3.5259,
-                0.60547,
+                0.605,
                 null
               ],
               [
                 3.5331,
-                1.2164,
+                1.216,
                 null
               ],
               [
                 3.5377,
-                0.80531,
+                0.805,
                 null
               ],
               [
                 3.5465,
-                0.94638,
+                0.946,
                 null
               ],
               [
                 3.5525,
-                0.90239,
+                0.902,
                 null
               ],
               [
                 3.5592,
-                1.0846,
+                1.085,
                 null
               ],
               [
                 3.5657,
-                0.69989,
+                0.7,
                 null
               ],
               [
                 3.5725,
-                0.82332,
+                0.823,
                 null
               ],
               [
                 3.5785,
-                0.86156,
+                0.862,
                 null
               ],
               [
                 3.5836,
-                0.79407,
+                0.794,
                 null
               ],
               [
                 3.5906,
-                0.71191,
+                0.712,
                 null
               ],
               [
                 3.5985,
-                0.82066,
+                0.821,
                 null
               ],
               [
                 3.6037,
-                0.66506,
+                0.665,
                 null
               ],
               [
                 3.61,
-                1.1644,
+                1.164,
                 null
               ],
               [
                 3.6182,
-                0.97067,
+                0.971,
                 null
               ],
               [
                 3.6242,
-                0.9678,
+                0.968,
                 null
               ],
               [
                 3.6295,
-                0.73584,
+                0.736,
                 null
               ],
               [
                 3.6375,
-                0.72711,
+                0.727,
                 null
               ],
               [
                 3.643,
-                1.0855,
+                1.085,
                 null
               ],
               [
                 3.6503,
-                0.8976,
+                0.898,
                 null
               ],
               [
                 3.6563,
-                0.8771,
+                0.877,
                 null
               ],
               [
                 3.6625,
-                0.6804,
+                0.68,
                 null
               ],
               [
                 3.6744,
-                0.73927,
-                0.023495
+                0.739,
+                0.023
               ],
               [
                 3.6814,
-                0.70117,
+                0.701,
                 null
               ],
               [
                 3.6872,
-                0.8422,
+                0.842,
                 null
               ],
               [
                 3.6941,
-                0.93039,
+                0.93,
                 null
               ],
               [
@@ -4660,402 +4571,402 @@
               ],
               [
                 3.7079,
-                1.0891,
+                1.089,
                 null
               ],
               [
                 3.7153,
-                0.76909,
+                0.769,
                 null
               ],
               [
                 3.7231,
-                0.83672,
+                0.837,
                 null
               ],
               [
                 3.7291,
-                0.86322,
+                0.863,
                 null
               ],
               [
                 3.7322,
-                0.80452,
+                0.805,
                 null
               ],
               [
                 3.7411,
-                0.82811,
+                0.828,
                 null
               ],
               [
                 3.7501,
-                0.83996,
+                0.84,
                 null
               ],
               [
                 3.7532,
-                0.69902,
+                0.699,
                 null
               ],
               [
                 3.7612,
-                0.72848,
+                0.728,
                 null
               ],
               [
                 3.7673,
-                0.64337,
+                0.643,
                 null
               ],
               [
                 3.7742,
-                0.72862,
+                0.729,
                 null
               ],
               [
                 3.7831,
-                0.72578,
+                0.726,
                 null
               ],
               [
                 3.7841,
-                0.76104,
+                0.761,
                 null
               ],
               [
                 3.7942,
-                0.64073,
+                0.641,
                 null
               ],
               [
                 3.8011,
-                0.67899,
-                0.032295
+                0.679,
+                0.032
               ],
               [
                 3.8062,
-                0.60856,
+                0.609,
                 null
               ],
               [
                 3.8123,
-                0.57338,
+                0.573,
                 null
               ],
               [
                 3.8174,
-                1.2636,
+                1.264,
                 null
               ],
               [
                 3.8249,
-                0.86134,
+                0.861,
                 null
               ],
               [
                 3.8321,
-                0.63528,
+                0.635,
                 null
               ],
               [
                 3.84,
-                0.69704,
+                0.697,
                 null
               ],
               [
                 3.8441,
-                0.65891,
+                0.659,
                 null
               ],
               [
                 3.8512,
-                0.5092,
+                0.509,
                 null
               ],
               [
                 3.8562,
-                0.53275,
+                0.533,
                 null
               ],
               [
                 3.8573,
-                0.46815,
+                0.468,
                 null
               ],
               [
                 3.8622,
-                0.47995,
+                0.48,
                 null
               ],
               [
                 3.8668,
-                0.81775,
+                0.818,
                 null
               ],
               [
                 3.8719,
-                0.75319,
+                0.753,
                 null
               ],
               [
                 3.8741,
-                0.59756,
+                0.598,
                 null
               ],
               [
                 3.8781,
-                0.57998,
+                0.58,
                 null
               ],
               [
                 3.882,
-                0.65345,
+                0.653,
                 null
               ],
               [
                 3.8849,
-                0.67991,
+                0.68,
                 null
               ],
               [
                 3.8891,
-                0.53018,
+                0.53,
                 null
               ],
               [
                 3.8932,
-                0.43037,
+                0.43,
                 null
               ],
               [
                 3.9,
-                0.57141,
+                0.571,
                 null
               ],
               [
                 3.9072,
-                0.45695,
+                0.457,
                 null
               ],
               [
                 3.9103,
-                0.35419,
+                0.354,
                 null
               ],
               [
                 3.9134,
-                0.28374,
+                0.284,
                 null
               ],
               [
                 3.9151,
-                0.48347,
+                0.483,
                 null
               ],
               [
                 3.9179,
-                0.6744,
+                0.674,
                 null
               ],
               [
                 3.9189,
-                0.63917,
+                0.639,
                 null
               ],
               [
                 3.924,
-                0.58343,
+                0.583,
                 null
               ],
               [
                 3.9251,
-                0.50414,
+                0.504,
                 null
               ],
               [
                 3.9292,
-                0.38671,
+                0.387,
                 null
               ],
               [
                 3.934,
-                0.5013,
+                0.501,
                 null
               ],
               [
                 3.9379,
-                0.57183,
+                0.572,
                 null
               ],
               [
                 3.9421,
-                0.42797,
+                0.428,
                 null
               ],
               [
                 3.9441,
-                0.40156,
+                0.402,
                 null
               ],
               [
                 3.9462,
-                0.34872,
+                0.349,
                 null
               ],
               [
                 3.9491,
-                0.43098,
+                0.431,
                 null
               ],
               [
                 3.9571,
-                0.43107,
+                0.431,
                 null
               ],
               [
                 3.9599,
-                0.52802,
+                0.528,
                 null
               ],
               [
                 3.968,
-                0.48699,
+                0.487,
                 null
               ],
               [
                 3.9691,
-                1.1977,
+                1.198,
                 null
               ],
               [
                 3.9734,
-                0.91291,
+                0.913,
                 null
               ],
               [
                 3.9776,
-                0.77786,
+                0.778,
                 null
               ],
               [
                 3.9794,
-                0.90416,
+                0.904,
                 null
               ],
               [
                 3.9825,
-                0.82784,
+                0.828,
                 null
               ],
               [
                 3.9895,
-                0.82204,
+                0.822,
                 null
               ],
               [
                 3.9986,
-                0.69292,
+                0.693,
                 null
               ],
               [
                 4.0024,
-                0.87505,
+                0.875,
                 null
               ],
               [
                 4.0102,
-                1.0279,
+                1.028,
                 null
               ],
               [
                 4.0176,
-                0.65495,
+                0.655,
                 null
               ],
               [
                 4.0244,
-                0.78131,
+                0.781,
                 null
               ],
               [
                 4.0314,
-                0.79313,
+                0.793,
                 null
               ],
               [
                 4.0385,
-                0.69629,
+                0.696,
                 null
               ],
               [
                 4.0434,
-                0.81676,
+                0.817,
                 null
               ],
               [
                 4.0482,
-                0.9666,
+                0.967,
                 null
               ],
               [
                 4.0553,
-                0.84039,
+                0.84,
                 null
               ],
               [
                 4.0644,
-                0.75238,
+                0.752,
                 null
               ],
               [
                 4.0685,
-                1.4162,
+                1.416,
                 null
               ],
               [
                 4.075,
-                1.0374,
+                1.037,
                 null
               ],
               [
                 4.0823,
-                0.80838,
+                0.808,
                 null
               ],
               [
                 4.0922,
-                0.80262,
+                0.803,
                 null
               ],
               [
                 4.0962,
-                0.85259,
+                0.853,
                 null
               ],
               [
                 4.1043,
-                0.77044,
+                0.77,
                 null
               ],
               [
                 4.1076,
-                1.2609,
+                1.261,
                 null
               ],
               [
                 4.1181,
-                0.87045,
+                0.87,
                 null
               ],
               [
                 4.1227,
-                1.1407,
+                1.141,
                 null
               ],
               [
                 4.1312,
-                0.78836,
+                0.788,
                 null
               ],
               [
@@ -5065,7 +4976,7 @@
               ],
               [
                 4.1426,
-                1.2173,
+                1.217,
                 null
               ]
             ]
@@ -5082,12 +4993,12 @@
         {
           "SUBENT": {
             "N1": "F1175008",
-            "N2": 20121129,
+            "N2": 20260116,
             "alteration_flag": " ",
-            "transmission_identification": "F048"
+            "transmission_identification": "F108"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -5122,25 +5033,13 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "ANG-ERR-D",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "  Angle digitizing error"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
                 "heading": "DATA-ERR",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                "   Error from the graphic bars"
+                " No information about source of uncertainty"
               ]
             }
           ],
@@ -5152,11 +5051,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "C.Gaarde+",
+                "reference": {
+                  "code": "J,NP/A,102,1,1967",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "102",
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 1967
+                  }
+                }
               },
               "free_text": [
                 " Fig.6"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260116,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -5188,7 +5113,7 @@
             "value": [
               135.0,
               4.05,
-              0.0015,
+              0.002,
               0.002
             ]
           },
@@ -5217,158 +5142,158 @@
             "value": [
               [
                 3.742,
-                0.21474,
-                0.10495
+                0.215,
+                0.105
               ],
               [
                 3.749,
-                0.36285,
-                0.12964
+                0.363,
+                0.13
               ],
               [
                 3.756,
-                0.25787,
-                0.10312
+                0.258,
+                0.103
               ],
               [
-                3.8071,
-                0.75144,
-                0.16526
+                3.807,
+                0.751,
+                0.165
               ],
               [
-                3.8151,
-                0.54152,
-                0.17283
+                3.815,
+                0.542,
+                0.173
               ],
               [
-                3.8212,
-                1.1464,
-                0.18518
+                3.821,
+                1.146,
+                0.185
               ],
               [
-                3.8271,
-                0.84393,
-                0.23455
+                3.827,
+                0.844,
+                0.235
               ],
               [
-                3.8351,
-                0.70192,
-                0.20371
+                3.835,
+                0.702,
+                0.204
               ],
               [
-                3.8431,
-                0.96113,
-                0.20983
+                3.843,
+                0.961,
+                0.21
               ],
               [
-                3.8541,
-                0.93639,
-                0.16047
+                3.854,
+                0.936,
+                0.16
               ],
               [
-                3.8651,
-                0.5351,
-                0.18516
+                3.865,
+                0.535,
+                0.185
               ],
               [
-                3.8751,
-                0.43011,
-                0.19143
+                3.875,
+                0.43,
+                0.191
               ],
               [
-                3.8831,
-                0.86216,
-                0.19752
+                3.883,
+                0.862,
+                0.198
               ],
               [
-                3.8931,
-                1.0473,
-                0.20987
+                3.893,
+                1.047,
+                0.21
               ],
               [
-                3.9041,
-                1.0164,
-                0.20769
+                3.904,
+                1.016,
+                0.208
               ],
               [
-                3.9132,
-                1.7077,
-                0.19755
+                3.913,
+                1.708,
+                0.198
               ],
               [
-                3.9202,
-                1.5842,
-                0.19136
+                3.92,
+                1.584,
+                0.191
               ],
               [
-                3.9262,
+                3.926,
                 1.257,
-                0.21604
+                0.216
               ],
               [
-                3.9342,
-                1.2446,
-                0.20975
+                3.934,
+                1.245,
+                0.21
               ],
               [
-                3.9412,
-                1.2508,
-                0.20848
+                3.941,
+                1.251,
+                0.208
               ],
               [
-                3.9453,
-                1.9483,
-                0.21606
+                3.945,
+                1.948,
+                0.216
               ],
               [
-                3.9523,
-                2.0161,
-                0.17285
+                3.952,
+                2.016,
+                0.173
               ],
               [
-                3.9592,
-                1.6766,
-                0.21606
+                3.959,
+                1.677,
+                0.216
               ],
               [
-                3.9692,
-                1.4173,
-                0.20371
+                3.969,
+                1.417,
+                0.204
               ],
               [
-                3.9802,
-                1.4111,
-                0.20989
+                3.98,
+                1.411,
+                0.21
               ],
               [
-                3.9892,
-                1.4974,
-                0.21413
+                3.989,
+                1.497,
+                0.214
               ],
               [
-                3.9961,
-                0.92949,
-                0.18528
+                3.996,
+                0.929,
+                0.185
               ],
               [
-                4.0091,
-                0.78745,
-                0.17913
+                4.009,
+                0.787,
+                0.179
               ],
               [
-                4.0201,
-                0.84912,
-                0.16839
+                4.02,
+                0.849,
+                0.168
               ],
               [
-                4.0302,
-                1.1577,
-                0.1852
+                4.03,
+                1.158,
+                0.185
               ],
               [
-                4.0411,
-                0.44778,
-                0.15433
+                4.041,
+                0.448,
+                0.154
               ]
             ]
           },
