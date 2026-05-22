@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:10:24+0000",
+  "time_stamp": "2026-05-22T21:03:12+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0455",
-        "N2": 20021111,
+        "N2": 20260202,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "A130"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0455001",
-            "N2": 20021111,
+            "N2": 20260202,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A130"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 11,
             "N2": 0
           },
           "TITLE": [
@@ -68,43 +68,10 @@
             {
               "pointer": "",
               "coded_information": [
-                "2JPNIPC"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2JPNTOK"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2JPNTIT"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2JPNJPN"
-              ],
-              "free_text": [
-                " National institute of radiological sciences,",
-                " NIRS"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "2JPNIPC",
+                "2JPNTOK",
+                "2JPNTIT",
+                "2JPNIRS",
                 "2JPNTOH"
               ],
               "free_text": [
@@ -142,39 +109,6 @@
               ]
             }
           ],
-          "HISTORY": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 20021002,
-                "history": "C"
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 20021108,
-                "history": "R"
-              },
-              "free_text": [
-                " Corrected data table from S. Momota was",
-                "received."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 20021111,
-                "history": "U"
-              },
-              "free_text": [
-                " Last checking has been done."
-              ]
-            }
-          ],
           "ADD-RES": [
             {
               "pointer": "",
@@ -184,9 +118,9 @@
               "free_text": [
                 " A simple model based on Fermi momentum of",
                 "removed nucleons inside the projectile nucleus",
-                "introduced by Goldhaber . The production cross sections",
+                "introduced by Goldhaber. The production cross sections",
                 "of projectile-like fragments can be predicted by an",
-                "empirical parametrization such as EPAX."
+                "empirical parameterization such as EPAX."
               ]
             },
             {
@@ -199,22 +133,11 @@
               ]
             }
           ],
-          "PART-DET": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "RCL"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "DETECTOR": [
             {
               "pointer": "",
               "coded_information": [
-                "SOLST"
+                "SI"
               ],
               "free_text": [
                 " Silicon detectors to measure energy loss and",
@@ -240,8 +163,8 @@
               "free_text": [
                 " The beam current was monitored by two sets of",
                 "monitor counters consisting of three plastic",
-                "scintillators at the Be-9 and by a secondary electron",
-                "monitor at the C-12 target."
+                "scintillators at the 9Be and by a secondary electron",
+                "monitor at the 12C target."
               ]
             }
           ],
@@ -249,17 +172,17 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "ERR-T",
+                "heading": "DATA-ERR",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                ".The uncertainty is given in data table.",
+                " No information about source of uncertainty",
                 "The typical value for errors of the production rate",
                 "derived from the experimental results was 10%. The main",
-                "part of this error came from the ambiguity of the beam-",
-                "current monitor."
+                "part of this error came from the ambiguity of the",
+                "beam-current monitor."
               ]
             }
           ],
@@ -282,11 +205,70 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.Momota",
+                "reference": {
+                  "code": "J,NP/A,701,150,2002",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "701",
+                      "part": null,
+                      "issue": null,
+                      "page": "150"
+                    },
+                    "date": 2002
+                  }
+                }
               },
               "free_text": [
-                " From S. Momota"
+                " Tables were",
+                "received from the authors. Values presented on",
+                "figs in the article."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20021002,
+                "history": "C"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20021108,
+                "history": "R"
+              },
+              "free_text": [
+                " Corrected data table from S.Momota."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20021111,
+                "history": "U"
+              },
+              "free_text": [
+                " Last checking has been done."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260202,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents.",
+                "ERR-T -> DATA-ERR."
               ]
             }
           ],
@@ -306,12 +288,12 @@
         {
           "SUBENT": {
             "N1": "A0455002",
-            "N2": 20021111,
+            "N2": 20260202,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A130"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -347,7 +329,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "A 0.5-mm thick Be-9 target."
+                "A 0.5-mm thick 9Be target."
               ]
             }
           ],
@@ -361,19 +343,20 @@
                 "institute": "2JPNIPC"
               },
               "free_text": [
-                " RIKEN ring cyclotron."
+                " RIKEN ring cyclotron and isotope",
+                "separator."
               ]
-            },
+            }
+          ],
+          "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "facility": [
-                  "OLMS"
-                ],
-                "institute": "2JPNIPC"
+                "date": 20260202,
+                "history": "U"
               },
               "free_text": [
-                " Isotope separator."
+                " SD: BIB updated. ERR-T -> DATA-ERR."
               ]
             }
           ],
@@ -414,7 +397,7 @@
               "ELEMENT",
               "MASS",
               "DATA",
-              "ERR-T"
+              "DATA-ERR"
             ],
             "unit": [
               "NO-DIM",
@@ -1133,12 +1116,12 @@
         {
           "SUBENT": {
             "N1": "A0455003",
-            "N2": 20021111,
+            "N2": 20260202,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A130"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1174,7 +1157,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "A 1.0-mm thick C-12 target was used."
+                "A 1.0-mm thick 12C target was used."
               ]
             }
           ],
@@ -1183,24 +1166,24 @@
               "pointer": "",
               "coded_information": {
                 "facility": [
-                  "CYCLO"
+                  "SYNCH"
                 ],
-                "institute": "2JPNJPN"
+                "institute": "2JPNIRS"
               },
               "free_text": [
-                " By HIMAC at NIRS."
+                " By HIMAC and isotope separator at NIRS."
               ]
-            },
+            }
+          ],
+          "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "facility": [
-                  "OLMS"
-                ],
-                "institute": "2JPNJPN"
+                "date": 20260202,
+                "history": "U"
               },
               "free_text": [
-                " Isotope separator at NIRS."
+                " SD: BIB updated. ERR-T -> DATA-ERR."
               ]
             }
           ],
@@ -1241,7 +1224,7 @@
               "ELEMENT",
               "MASS",
               "DATA",
-              "ERR-T"
+              "DATA-ERR"
             ],
             "unit": [
               "NO-DIM",

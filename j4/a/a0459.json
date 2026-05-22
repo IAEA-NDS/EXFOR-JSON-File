@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:10:25+0000",
+  "time_stamp": "2026-05-22T21:03:13+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0459",
-        "N2": 20030715,
+        "N2": 20260202,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "A130"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0459001",
-            "N2": 20030715,
+            "N2": 20260202,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A130"
           },
           "BIB": {
             "N1": 13,
@@ -26,8 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Complete  and incomplete fusion reactions in the 12-C +",
-                "169-Tm"
+                "Complete and incomplete fusion reactions in the",
+                "12C + 169Tm"
               ]
             }
           ],
@@ -53,20 +53,11 @@
             {
               "pointer": "",
               "coded_information": [
-                "3INDTRM"
+                "3INDTRM",
+                "3INDVUU"
               ],
               "free_text": [
-                " Radiochemistry division"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "3INDIND"
-              ],
-              "free_text": [
-                " School of studies in physics, Vikram",
-                "university"
+                ""
               ]
             }
           ],
@@ -100,6 +91,20 @@
               ]
             }
           ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "VDGT"
+                ],
+                "institute": "3INDTRM"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "SAMPLE": [
             {
               "pointer": "",
@@ -107,8 +112,8 @@
               "free_text": [
                 "For the excitation function measurements,",
                 "self-supporting metal foils of thulium having thickness",
-                "around 1 mg/cm**2 backed by 2 mg/cm**2 thick aluminium",
-                "catcher foils were bombarded with 12-C beam.  In each",
+                "around 1 mg/cm2 backed by 2 mg/cm2 thick aluminium",
+                "catcher foils were bombarded with 12C beam. In each",
                 "irradiation a stack of two such target catcher",
                 "assemblies was used."
               ]
@@ -125,39 +130,16 @@
               ]
             }
           ],
-          "FACILITY": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "VDGT"
-                ],
-                "institute": "3INDTRM"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "METHOD": [
             {
               "pointer": "",
               "coded_information": [
-                "STTA"
-              ],
-              "free_text": [
-                " See sample"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "STTA",
                 "ACTIV"
               ],
               "free_text": [
-                "  The duration of irradiation was about one hour",
-                "with the total charge collection of about 400 micro",
-                " Coulombs"
+                " The duration of irradiation was about one",
+                "hour with the total charge collection of about 400 muC."
               ]
             },
             {
@@ -179,10 +161,10 @@
                 " The time elapsed between the stoppage of beam",
                 "and the start of counting of the sample on detector",
                 "was about 5 minutes. Thus the excitation function",
-                "measurements could be carried out only for evaporation",
-                "residues having half-life more than 5 minutes.",
-                "Initially the counting time was kept as 100 seconds and",
-                "was subsequently increased to longer periods for",
+                "measurements could be carried out only for",
+                "evaporation residues having half-life more than 5 min.",
+                "Initially the counting time was kept as 100 sec.",
+                "and was subsequently increased to longer periods for",
                 "counting long-lived products."
               ]
             }
@@ -192,14 +174,111 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "-By authors.  The radioactivity produced due to",
-                "bombardment of aluminium catcher foil by the 12-C beam",
-                "is due to 146 KeV gamma-ray of 34-Cl-m which has a",
-                "half-life of 32 min.  This does not interfere with",
-                "gamma-ray energies of interest.  All other reaction",
-                "products of 12-C + 27-Al do not have suitable half",
+                "-By authors. The radioactivity produced due to",
+                "bombardment of aluminium catcher foil by the 12C beam",
+                "is due to 146 keV gamma-ray of 34Cl-m which has a",
+                "half-life of 32 min. This does not interfere with",
+                "gamma-ray energies of interest. All other reaction",
+                "products of 12C + 27Al do not have suitable half",
                 "lives or gamma-rays so as to cause any interference",
                 "with the gamma-rays of interest."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " The errors on the cross section values are",
+                "in the range of 10-20%."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " The major factors contributing to the errors",
+                "are that due to the target thickness (5%),"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Uncertainty due to detection efficiency (5%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": 1.0,
+                "maximum_value": 15.0,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistical and fitting error on the",
+                "peak area (1-15%)."
+              ]
+            }
+          ],
+          "ADD-RES": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "RANGE"
+              ],
+              "free_text": [
+                "",
+                "Complete and incomplete fusion cross sections for some",
+                "products."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "S.Chakrabarty+",
+                "reference": {
+                  "code": "J,NP/A,678,355,2000",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "678",
+                      "part": null,
+                      "issue": null,
+                      "page": "355"
+                    },
+                    "date": 2000
+                  }
+                }
+              },
+              "free_text": [
+                "  Data from",
+                "authors. Values presented on figs in the article."
               ]
             }
           ],
@@ -243,65 +322,15 @@
               "free_text": [
                 " Last checking has been done."
               ]
-            }
-          ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-T",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " The errors on the cross section values are in",
-                "the range of 10-20%.  The major factors contributing to",
-                "the errors are that due to the target thickness (5%),",
-                "detection efficiency (5%) and statistical and fitting",
-                "error on the peak area (1-15%)."
-              ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "EN-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
+                "date": 20260202,
+                "history": "A"
               },
               "free_text": [
-                " The uncertainty is shown on figure without",
-                "any analysis."
-              ]
-            }
-          ],
-          "ADD-RES": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "RANGE"
-              ],
-              "free_text": [
-                "",
-                "Complete and incomplete fusion cross sections for some",
-                "products."
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                ""
+                " SD: Corrections in Subents 001, 008."
               ]
             }
           ],
@@ -310,19 +339,27 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 3,
             "N2": 0,
             "pointer": [
+              "",
+              "",
               ""
             ],
             "heading": [
-              "EN-ERR"
+              "EN-ERR",
+              "ERR-1",
+              "ERR-2"
             ],
             "unit": [
-              "MEV"
+              "MEV",
+              "PER-CENT",
+              "PER-CENT"
             ],
             "value": [
-              1.1
+              1.1,
+              5.0,
+              5.0
             ]
           },
           "ENDCOMMON": {
@@ -1306,32 +1343,32 @@
         {
           "SUBENT": {
             "N1": "A0459008",
-            "N2": 20030715,
+            "N2": 20260202,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A130"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "69-TM-169(6-C-12,X)71-LU-172-G,IND/M+,SIG",
+                "code": "69-TM-169(6-C-12,X)71-LU-172-G,M+,SIG",
                 "code_unit": [
                   {
-                    "unit": "69-TM-169(6-C-12,X)71-LU-172-G,IND/M+,SIG",
+                    "unit": "69-TM-169(6-C-12,X)71-LU-172-G,M+,SIG",
                     "field": {
                       "reaction": "69-TM-169(6-C-12,X)71-LU-172-G",
                       "target": "69-TM-169",
                       "projectile": "6-C-12",
                       "process": "X",
                       "product": "71-LU-172-G",
-                      "quantity": "IND/M+,SIG",
+                      "quantity": "M+,SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "IND/M+,SIG"
+                      "quantity_236": "M+,SIG"
                     }
                   }
                 ],
@@ -1377,10 +1414,22 @@
                 "- By compiler. Lu-172 production due to Hf-172 decay is",
                 "negligible, because half-life of Hf-172 is equal 1.87",
                 "years.",
-                "- By authors.  The calculated cross section is",
-                "negligible compared to experimental data.  This shows",
+                "- By authors. The calculated cross section is",
+                "negligible compared to experimental data. This shows",
                 "that 172-Lu and 171-Lu are formed purely by incomplete",
                 "fusion reaction such as 169-Tm(C-12,Be-8)173-Lu."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260202,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: SF5=IND/M+ -> M+ in RREACTION code."
               ]
             }
           ],

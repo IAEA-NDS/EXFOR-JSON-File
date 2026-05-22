@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:10:03+0000",
+  "time_stamp": "2026-05-22T21:03:10+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0430",
-        "N2": 20110825,
+        "N2": 20260130,
         "alteration_flag": " ",
-        "transmission_identification": "A073"
+        "transmission_identification": "A130"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0430001",
-            "N2": 20110825,
+            "N2": 20260130,
             "alteration_flag": " ",
-            "transmission_identification": "A073"
+            "transmission_identification": "A130"
           },
           "BIB": {
-            "N1": 14,
+            "N1": 15,
             "N2": 0
           },
           "TITLE": [
@@ -26,8 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "First measurement of the D(P,G)3-He cross section down",
-                "to the solar Gamow peak"
+                "First measurement of the d(p,gamma)3He cross section",
+                "down to the solar Gamow peak"
               ]
             }
           ],
@@ -112,97 +112,16 @@
             {
               "pointer": "",
               "coded_information": [
-                "2ITYMIL"
-              ],
-              "free_text": [
-                " Instituto di Fisica And INFN"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2ITYGVA"
-              ],
-              "free_text": [
-                " Dipartimento di Fisica and INFN"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2ITYNAP"
-              ],
-              "free_text": [
-                " Dipartimento di Scienze Fisiche"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2ITYPAD"
-              ],
-              "free_text": [
-                " INFN"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2PRTFNL"
-              ],
-              "free_text": [
-                "  Centra de Fisica Nuclear da Universidade de",
-                " Lisboa"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2ITYFSN"
-              ],
-              "free_text": [
-                " Dipartimento di Scienze Ambientali"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2GERBOC"
-              ],
-              "free_text": [
-                " Institut fuer Physik mit Ionenstrahlen"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "3HUNDEB"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2ITYTUR"
-              ],
-              "free_text": [
-                " Dipartimento di Fisica Sperimentale and INFN"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2ITYLGS"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "2ITYMIL",
+                "2ITYGVA",
+                "2ITYNAP",
+                "2ITYPAD",
+                "2PRTLIS",
+                "2ITYFSN",
+                "2GERBOC",
+                "3HUNDEB",
+                "2ITYTUR",
+                "2ITYLGS",
                 "2ITYOAC"
               ],
               "free_text": [
@@ -237,15 +156,6 @@
             {
               "pointer": "",
               "coded_information": [
-                "SITA"
-              ],
-              "free_text": [
-                " See sample"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
                 "BCINT"
               ],
               "free_text": [
@@ -274,18 +184,6 @@
               ]
             }
           ],
-          "EN-SEC": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "E-APRX",
-                "particle": "G"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "DETECTOR": [
             {
               "pointer": "",
@@ -294,10 +192,25 @@
               ],
               "free_text": [
                 " It is shaped as a 28 cm long cylinder with a",
-                "coaxial hole of a 6 cm diameter.  Radial thickness of",
-                "the detector is 7 cm.  The cristal is optically divided",
-                "into six sectors, each covering an azimutal angle of 60",
-                "degrees."
+                "coaxial hole of a 6 cm diameter. Radial thickness of",
+                "the detector is 7 cm. The crystal is optically",
+                "divided into six sectors, each covering an azimuthal",
+                "angle of 60 degrees.",
+                "The detection efficiency for 5.5 MeV gamma-rays is",
+                "about 70% with an energy resolution in the total",
+                "absorption peak of 8%."
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "To increase the beam current the analyzing magnet was",
+                "tuned to select different beams: 1H+, 2H+ and",
+                "3H+. In fact the extraction efficiency turned out",
+                "to be higher for the molecular beams 1H+ and 3H+."
               ]
             }
           ],
@@ -305,50 +218,67 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "EN-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
+                "heading": "ERR-SYS",
+                "minimum_value": 3.6,
+                "maximum_value": 5.3,
                 "correlation_property": null
               },
               "free_text": [
-                " Uncertainty in the beam energy"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-1",
-                "minimum_value": null,
-                "maximum_value": 1.0,
-                "correlation_property": null
-              },
-              "free_text": [
-                " High limit of an uncertainty of the",
-                "pressure of deuterium gas."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-S",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Accidental uncertainty"
+                " The systematic uncertainties ranged",
+                "from 3.6% (Eeff = 21.23 keV, highest measured energy)",
+                "to 5.3% (Eeff = 2.52 keV, lowest measured energy) and",
+                "are negligible in comparison with the accidental errors"
               ]
             }
           ],
-          "ANALYSIS": [
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The contribution of natural radioactive isotopes",
+                "is visible below 3 MeV"
+              ]
+            }
+          ],
+          "MISC-COL": [
             {
               "pointer": "",
               "coded_information": [
-                "AREA"
+                "MISC"
               ],
               "free_text": [
-                " The contribution of natural radioactive isotopes",
-                "is visible below 3 MeV"
+                " Proton beam energy in laboratory system"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "C.Casella+",
+                "reference": {
+                  "code": "J,NP/A,706,203,2002",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "706",
+                      "part": null,
+                      "issue": null,
+                      "page": "203"
+                    },
+                    "date": 2002
+                  }
+                }
+              },
+              "free_text": [
+                " Tbl. 1"
               ]
             }
           ],
@@ -370,19 +300,19 @@
                 "history": "A"
               },
               "free_text": [
-                " \"LUNA Collaboration\" as 1st author was",
-                "added, according M.Bossant comment-SB"
+                " \"LUNA Collaboration\" as the first author",
+                "was added, according to M.Bossant comment-SB."
               ]
-            }
-          ],
-          "MISC-COL": [
+            },
             {
               "pointer": "",
-              "coded_information": [
-                "MISC"
-              ],
+              "coded_information": {
+                "date": 20260130,
+                "history": "A"
+              },
               "free_text": [
-                " It is proton beam energy in laboratory system"
+                " SD: Small corrections in Subent 001.",
+                "E-APRX deleted (relevant to detector efficiency)."
               ]
             }
           ],
@@ -391,23 +321,19 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 1,
             "N2": 0,
             "pointer": [
-              "",
               ""
             ],
             "heading": [
-              "EN-ERR",
-              "E-APRX"
+              "EN-ERR"
             ],
             "unit": [
-              "PER-CENT",
-              "MEV"
+              "PER-CENT"
             ],
             "value": [
-              0.01,
-              5.5
+              0.01
             ]
           },
           "ENDCOMMON": {

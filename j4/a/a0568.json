@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:11:30+0000",
+  "time_stamp": "2026-05-22T21:03:16+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0568",
-        "N2": 20190716,
+        "N2": 20260203,
         "alteration_flag": " ",
-        "transmission_identification": "A092"
+        "transmission_identification": "A130"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0568001",
-            "N2": 20190716,
+            "N2": 20260203,
             "alteration_flag": " ",
-            "transmission_identification": "A092"
+            "transmission_identification": "A130"
           },
           "BIB": {
             "N1": 14,
@@ -112,11 +112,11 @@
               "coded_information": null,
               "free_text": [
                 "High purity natural V in metallic form was used as a",
-                "target material for irradiations. The thicknesses of V",
-                "foils were determined by weight and area measurements",
+                "target material for irradiations. The thicknesses of",
+                "V foils were determined by weight and area measurements",
                 "for each individual foil. The stack consisting of 25",
                 "numbered circular V foils (the foils weighed between-",
-                " 0.8573 g and 0.8950 g ,had thicknesses about 0.5 mm",
+                " 0.8573 g and 0.8950 g, had thicknesses about 0.5 mm",
                 "and were cut into 19 mm diam. discs) was exposed to",
                 "an external proton beam."
               ]
@@ -128,10 +128,10 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "13-AL-27(P,X)11-NA-22,CUM,SIG,,,EVAL",
+                  "code": "13-AL-27(P,X)11-NA-22,CUM,SIG",
                   "code_unit": [
                     {
-                      "unit": "13-AL-27(P,X)11-NA-22,CUM,SIG,,,EVAL",
+                      "unit": "13-AL-27(P,X)11-NA-22,CUM,SIG",
                       "field": {
                         "reaction": "13-AL-27(P,X)11-NA-22",
                         "target": "13-AL-27",
@@ -139,7 +139,7 @@
                         "process": "X",
                         "product": "11-NA-22",
                         "quantity": "CUM,SIG",
-                        "data_type": "EVAL",
+                        "data_type": null,
                         "general_quantity_modifier": null,
                         "quantity_236": "CUM,SIG"
                       }
@@ -192,9 +192,9 @@
               "free_text": [
                 " The gamma-ray spectra from separate foils were",
                 "measured using a computerized gamma-spectroscopy",
-                "system, CICERO-8K equipped with a HPGe detector in JINR",
-                "The spectrometer was calibrated for gamma-ray energy",
-                "using calibrated radionuclide sources of 133Ba",
+                "system, CICERO-8K equipped with a HPGe detector in",
+                "JINR. The spectrometer was calibrated for gamma-ray",
+                "energy using calibrated radionuclide sources of 133Ba",
                 "and 152Eu."
               ]
             }
@@ -206,22 +206,14 @@
                 "STTA",
                 "ACTIV",
                 "BCINT",
-                "EXTB"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "EXTB",
                 "GSPEC"
               ],
               "free_text": [
                 "",
-                "A target containing 7.7 g/cm**2  25 foils in the stack",
+                "A target containing 7.7 g/cm2 25 foils in the stack",
                 "of vanadium was bombarded at a proton beam current of",
-                "160 nanoAmperes approximately for 406 hours -during",
+                "160 nA approximately for 406 hours - during",
                 "intermittent bombardment over a period of 4.5 years."
               ]
             }
@@ -231,14 +223,15 @@
               "pointer": "",
               "coded_information": {
                 "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
+                "minimum_value": 15.0,
+                "maximum_value": 20.0,
                 "correlation_property": null
               },
               "free_text": [
-                " The total errors in the cross section were",
-                "obtained by taking square roots of the sums of the",
-                "squares of all the individual errors, like those in:",
+                " The total errors in the cross",
+                "section were obtained by taking square roots of the",
+                "sums of the squares of all the individual errors, like",
+                "those in:",
                 "  * the detection efficiency,",
                 "  * counting geometry and statistics,",
                 "  * attenuation corrections,",
@@ -246,7 +239,7 @@
                 "  * proton beam monitoring,",
                 "  * decay schemes,",
                 "  * computer spectral integration, etc.",
-                " The resulting total error  is thus partly systematic",
+                " The resulting total error is thus partly systematic",
                 "and amounts to between 15-20%. Authors assumed for the",
                 "cross sections an error of 20%."
               ]
@@ -259,8 +252,8 @@
                 "COMP"
               ],
               "free_text": [
-                ".Hybrid Model of Nuclear Reactions using the well",
-                "developed Computer Code overlaid ALICE."
+                " Hybrid Model of nuclear reactions using the well",
+                "developed computer code overlaid ALICE."
               ]
             },
             {
@@ -281,11 +274,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "N.G.Zaitseva+",
+                "reference": {
+                  "code": "J,RCA,65,157,1994",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "RCA",
+                      "number": null,
+                      "volume": "65",
+                      "part": null,
+                      "issue": null,
+                      "page": "157"
+                    },
+                    "date": 1994
+                  }
+                }
               },
               "free_text": [
-                " Tbl. 1 from Radiochimica Acta,65(1994)157"
+                " Tbl. 1"
               ]
             }
           ],
@@ -321,29 +328,23 @@
                 "updated. ERR-T->DATA-ERR. DATA-ERR moved to Subent 001.",
                 "Corrections in all Subents. DETECTOR corrected."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260203,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small correction in Subent 001."
+              ]
             }
           ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 1,
-            "N2": 0,
-            "pointer": [
-              ""
-            ],
-            "heading": [
-              "DATA-ERR"
-            ],
-            "unit": [
-              "PER-CENT"
-            ],
-            "value": [
-              20.0
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },

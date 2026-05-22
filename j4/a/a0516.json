@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:11:03+0000",
+  "time_stamp": "2026-05-22T21:03:15+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0516",
-        "N2": 20160229,
+        "N2": 20260202,
         "alteration_flag": " ",
-        "transmission_identification": "A084"
+        "transmission_identification": "A130"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0516001",
-            "N2": 20160229,
+            "N2": 20260202,
             "alteration_flag": " ",
-            "transmission_identification": "A084"
+            "transmission_identification": "A130"
           },
           "BIB": {
             "N1": 14,
@@ -52,24 +52,8 @@
             {
               "pointer": "",
               "coded_information": [
-                "2GERUH"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2GERKLN"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "2GERUH",
+                "2GERKLN",
                 "2GERJUL"
               ],
               "free_text": [
@@ -201,7 +185,7 @@
                 }
               },
               "free_text": [
-                "  Final",
+                " Final",
                 "data for Rb target are given."
               ]
             }
@@ -223,10 +207,10 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "13-AL-27(P,X)11-NA-22,CUM/(M),SIG,,,EVAL",
+                  "code": "13-AL-27(P,X)11-NA-22,CUM/(M),SIG",
                   "code_unit": [
                     {
-                      "unit": "13-AL-27(P,X)11-NA-22,CUM/(M),SIG,,,EVAL",
+                      "unit": "13-AL-27(P,X)11-NA-22,CUM/(M),SIG",
                       "field": {
                         "reaction": "13-AL-27(P,X)11-NA-22",
                         "target": "13-AL-27",
@@ -234,7 +218,7 @@
                         "process": "X",
                         "product": "11-NA-22",
                         "quantity": "CUM/(M),SIG",
-                        "data_type": "EVAL",
+                        "data_type": null,
                         "general_quantity_modifier": null,
                         "quantity_236": "CUM/(M),SIG"
                       }
@@ -296,24 +280,8 @@
             {
               "pointer": "",
               "coded_information": [
-                "STTA"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "ACTIV"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "STTA",
+                "ACTIV",
                 "GSPEC"
               ],
               "free_text": [
@@ -374,11 +342,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.Luepke+",
+                "reference": {
+                  "code": "P,INDC(GER)-036,51,1992",
+                  "field": {
+                    "reference_type": "P",
+                    "reference": {
+                      "code": "INDC(GER)-",
+                      "number": "036",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "51"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of  INDC(GER)-036/L,51,1992"
+                " Table 1"
               ]
             }
           ],
@@ -432,8 +414,18 @@
                 "history": "A"
               },
               "free_text": [
-                " SD: Data update in Subent 010. Author's",
+                " SD: Data updated in Subent 010. Author's",
                 "name corrected."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260202,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small correction in Subent 001."
               ]
             }
           ],
@@ -453,11 +445,11 @@
               "ASSUM"
             ],
             "unit": [
-              "MEV",
+              "GEV",
               "MB"
             ],
             "value": [
-              1600.0,
+              1.6,
               13.22
             ]
           },

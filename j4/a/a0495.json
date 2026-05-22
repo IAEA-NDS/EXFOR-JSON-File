@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:10:44+0000",
+  "time_stamp": "2026-05-22T21:03:14+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0495",
-        "N2": 20030919,
+        "N2": 20260202,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "A130"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0495001",
-            "N2": 20030919,
+            "N2": 20260202,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A130"
           },
           "BIB": {
             "N1": 13,
@@ -147,13 +147,29 @@
               ]
             }
           ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "2BLGLEU",
+                "2BLGBRU",
+                "2UK EDG",
+                "2ITYLNS",
+                "2FR GAN",
+                "2FR CSN"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "REL-REF": [
             {
               "pointer": "",
               "coded_information": {
                 "code": "N",
                 "subentry_number": null,
-                "author": "T.DAVINSON+",
+                "author": "T.Davinson+",
                 "reference": {
                   "code": "J,NIM/A,454,350,2000",
                   "field": {
@@ -171,64 +187,22 @@
                 }
               },
               "free_text": [
-                "  LEDA Detector",
+                " LEDA Detector",
                 "system."
               ]
             }
           ],
-          "INSTITUTE": [
+          "FACILITY": [
             {
               "pointer": "",
-              "coded_information": [
-                "2BLGLEU"
-              ],
+              "coded_information": {
+                "facility": [
+                  "CYCLO"
+                ],
+                "institute": "2BLGLEU"
+              },
               "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2BLGBRU"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2UK EDG"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2ITYLNS"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2FR CAE"
-              ],
-              "free_text": [
-                " GANIL,"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2FR CSN"
-              ],
-              "free_text": [
-                ""
+                " RIB facility"
               ]
             }
           ],
@@ -239,9 +213,9 @@
               "free_text": [
                 "The target consisted of a thin polyethylene",
                 "self-supporting foil with a very thin Au coating",
-                "evaporated on its upstream face.  The Au layer was used",
-                "for normalization.  The effect of this Au layer on the",
-                "beam energy loss was negligible."
+                "evaporated on its upstream face. The Au layer was",
+                "used for normalization. The effect of this Au layer",
+                "on the beam energy loss was negligible."
               ]
             }
           ],
@@ -280,32 +254,17 @@
             {
               "pointer": "",
               "coded_information": [
-                "SOLST"
+                "SI"
               ],
               "free_text": [
                 " Two PIPS (passivated implanted planar silicon)",
-                "detectors located at 60 degree.",
-                "The recoil protons were detected in two LEDA 4",
-                "multi-strip systems located at 12.6 and 61.7 cm from",
-                "the target.  A 12 mum thick Mylar foil was positioned",
+                "detectors located at 60 degrees.",
+                "The recoil protons were detected in two LEDA",
+                "4 multi-strip systems located at 12.6 and 61.7 cm from",
+                "the target. A 12 um thick Mylar foil was positioned",
                 "in front of all LEDA sectors to stop the high energy",
                 "scattered 7Be and the recoil 12C particles for the",
                 "beam energies of 6.2 and 5.6 MeV."
-              ]
-            }
-          ],
-          "FACILITY": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "ACCEL"
-                ],
-                "institute": "2BLGLEU"
-              },
-              "free_text": [
-                " The experiment was carried out at He",
-                " RIB facility of the Centre de Recherches du Cyclotron."
               ]
             }
           ],
@@ -318,6 +277,55 @@
               ],
               "free_text": [
                 " Be-7 beam has been used."
+              ]
+            }
+          ],
+          "ADD-RES": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "THEO",
+                "STRUC"
+              ],
+              "free_text": [
+                " From a R-matrix analysis of the cross",
+                "section data, the energy and the width of the 1+",
+                "resonance (Ex = 0.77 MeV) have been obtained. The",
+                "l = 0 scattering lengths a/01 = 25+/-9 fm (channel",
+                "spin I = 1) and a/02 = -7+/-3 fm (channel spin I = 2)",
+                "have been deduced. Implications on the low energy",
+                "S-factor of the 7Be(p,gamma) 8B reaction are discussed."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "C.Angulo+",
+                "reference": {
+                  "code": "J,NP/A,716,211,2003",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "716",
+                      "part": null,
+                      "issue": null,
+                      "page": "211"
+                    },
+                    "date": 2003
+                  }
+                }
+              },
+              "free_text": [
+                " Data from the",
+                "authors. Values presented on figs in the article."
               ]
             }
           ],
@@ -351,35 +359,15 @@
               "free_text": [
                 " Last checking has been done."
               ]
-            }
-          ],
-          "ANALYSIS": [
+            },
             {
               "pointer": "",
-              "coded_information": [
-                "RFN"
-              ],
+              "coded_information": {
+                "date": 20260202,
+                "history": "A"
+              },
               "free_text": [
-                ""
-              ]
-            }
-          ],
-          "ADD-RES": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "THEO",
-                "STRUC"
-              ],
-              "free_text": [
-                "",
-                "From a R-matrix analysis of the cross section data,   a",
-                "the energy and the width of the 1+ resonance (ex = 0.77",
-                "MeV) has been obtained.  The l = 0 scattering lengths",
-                "a/01 = 25+/-9 fm (channel spin I = 1) and a/02 = -7+/-3",
-                "Fm (channel spin I = 2) have been deduced.",
-                "Implications on the low energy S-factor of the",
-                " 7Be(p,g)8B reaction are discussed."
+                " SD: Corrections in all Subents."
               ]
             }
           ],
@@ -399,12 +387,12 @@
         {
           "SUBENT": {
             "N1": "A0495002",
-            "N2": 20030919,
+            "N2": 20260202,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A130"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -439,13 +427,25 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "ERR-T",
+                "heading": "DATA-ERR",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                " The uncertainty is given in data table."
+                " No information about source of uncertainty"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260202,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated. ERR-T -> DATA-ERR."
               ]
             }
           ],
@@ -469,8 +469,8 @@
             "heading": [
               "EN-CM",
               "ANG-CM",
-              "DATA",
-              "ERR-T"
+              "DATA-CM",
+              "DATA-ERR"
             ],
             "unit": [
               "MEV",

@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:08:24+0000",
+  "time_stamp": "2026-05-22T21:03:08+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0283",
-        "N2": 20210122,
+        "N2": 20260127,
         "alteration_flag": " ",
-        "transmission_identification": "A096"
+        "transmission_identification": "A130"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0283001",
-            "N2": 20210122,
+            "N2": 20260127,
             "alteration_flag": " ",
-            "transmission_identification": "A096"
+            "transmission_identification": "A130"
           },
           "BIB": {
             "N1": 16,
@@ -180,17 +180,6 @@
               ]
             }
           ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "GELI"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "FACILITY": [
             {
               "pointer": "",
@@ -201,8 +190,19 @@
                 "institute": "2GERJUL"
               },
               "free_text": [
-                "  80 MeV deuteron beam.",
+                " 80 MeV deuteron beam.",
                 "10 min irradiation, beam current of 40 nA."
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "GELI"
+              ],
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -245,10 +245,10 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "13-AL-27(D,X)11-NA-24,CUM,SIG,,,EVAL",
+                  "code": "13-AL-27(D,X)11-NA-24,CUM,SIG",
                   "code_unit": [
                     {
-                      "unit": "13-AL-27(D,X)11-NA-24,CUM,SIG,,,EVAL",
+                      "unit": "13-AL-27(D,X)11-NA-24,CUM,SIG",
                       "field": {
                         "reaction": "13-AL-27(D,X)11-NA-24",
                         "target": "13-AL-27",
@@ -256,7 +256,7 @@
                         "process": "X",
                         "product": "11-NA-24",
                         "quantity": "CUM,SIG",
-                        "data_type": "EVAL",
+                        "data_type": null,
                         "general_quantity_modifier": null,
                         "quantity_236": "CUM,SIG"
                       }
@@ -313,14 +313,14 @@
               "coded_information": {
                 "heading": "ERR-T",
                 "minimum_value": null,
-                "maximum_value": null,
+                "maximum_value": 30.0,
                 "correlation_property": null
               },
               "free_text": [
                 " The final results are weighted averages of",
                 "the cross sections derived from different",
-                "gamma-lines. Though the total error of the absolute",
-                "cross sections is about 30%"
+                "gamma-lines. The total error of the absolute cross",
+                "sections is about 30%."
               ]
             }
           ],
@@ -329,9 +329,9 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "- By Compiler: All Gamma-Ray Intensity were Calculated",
-                "By Compiler from Authors' Data For Transition",
-                "Intensities and Internal Conversion Coefficients."
+                "- By Compiler: All gamma-ray intensity were calculated",
+                "by compiler from authors' data for transition",
+                "intensities and internal conversion coefficients."
               ]
             }
           ],
@@ -343,11 +343,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Bisplinghoff+",
+                "reference": {
+                  "code": "J,NP/A,228,180,1974",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "228",
+                      "part": null,
+                      "issue": null,
+                      "page": "180"
+                    },
+                    "date": 1974
+                  }
+                }
               },
               "free_text": [
-                " Tbl.2 from Nucl.Phys.,A228(1974)180"
+                " Tbl.2"
               ]
             }
           ],
@@ -381,6 +395,16 @@
               "free_text": [
                 " SD: BIB updated. Correction in Subent 008."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260127,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Small corrections in Subent 001."
+              ]
             }
           ],
           "ENDBIB": {
@@ -388,23 +412,19 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 1,
             "N2": 0,
             "pointer": [
-              "",
               ""
             ],
             "heading": [
-              "EN-ERR",
-              "ERR-T"
+              "EN-ERR"
             ],
             "unit": [
-              "MEV",
-              "PER-CENT"
+              "MEV"
             ],
             "value": [
-              0.24,
-              30.0
+              0.24
             ]
           },
           "ENDCOMMON": {

@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:10:17+0000",
+  "time_stamp": "2026-05-22T21:03:12+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0444",
-        "N2": 20020913,
+        "N2": 20260130,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "A130"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0444001",
-            "N2": 20020913,
+            "N2": 20260130,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A130"
           },
           "BIB": {
-            "N1": 11,
+            "N1": 10,
             "N2": 0
           },
           "TITLE": [
@@ -26,7 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "22-Ne(A,N)25-Mg: the Key Neutron Source in Massive Star"
+                "22Ne(alpha,n)25Mg: the key neutron source in",
+                "massive stars"
               ]
             }
           ],
@@ -34,24 +35,13 @@
             {
               "pointer": "",
               "coded_information": [
-                "M.JAEGER",
-                "R.KUNZ",
-                "A.MAYER",
-                "J.W.HAMMER",
-                "G.STAUDT",
-                "K.L.KRATZ",
-                "B.PFEIFFER"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "INSTITUTE": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "2GERIFS"
+                "M.Jaeger",
+                "R.Kunz",
+                "A.Mayer",
+                "J.W.Hammer",
+                "G.Staudt",
+                "K.L.Kratz",
+                "B.Pfeiffer"
               ],
               "free_text": [
                 ""
@@ -88,33 +78,11 @@
               ]
             }
           ],
-          "SAMPLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "The 99.9% Enriched 22-Ne Target Gas."
-              ]
-            }
-          ],
-          "DETECTOR": [
+          "INSTITUTE": [
             {
               "pointer": "",
               "coded_information": [
-                "D4PI"
-              ],
-              "free_text": [
-                " The Reaction Neutrons were Thermalized in a",
-                "Cylindrical Polyethylene Moderator and Subsequently",
-                "Captured by a Setup of 12 Proportional Counters."
-              ]
-            }
-          ],
-          "PART-DET": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "N"
+                "2GERTHS"
               ],
               "free_text": [
                 ""
@@ -128,10 +96,36 @@
                 "facility": [
                   "DYNAM"
                 ],
-                "institute": "2GERIFS"
+                "institute": "2GERTHS"
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "nuclide": "10-NE-22",
+                "field_identifier": "ENR",
+                "value": 0.999
+              },
+              "free_text": [
+                " The 99.9% enriched 22Ne target gas"
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "D4PI"
+              ],
+              "free_text": [
+                " The reaction neutrons were thermalized in a",
+                "cylindrical polyethylene moderator and subsequently",
+                "captured by a setup of 12 proportional counters."
               ]
             }
           ],
@@ -142,16 +136,38 @@
                 "EXTB"
               ],
               "free_text": [
-                " He+ Beam of About 1 Millimeter Diameter"
+                " He+ beam of about 1 mm diameter."
               ]
-            },
+            }
+          ],
+          "STATUS": [
             {
               "pointer": "",
-              "coded_information": [
-                "SITA"
-              ],
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "M.Jaeger+",
+                "reference": {
+                  "code": "J,PRL,87,202501,2001",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PRL",
+                      "number": null,
+                      "volume": "87",
+                      "part": null,
+                      "issue": null,
+                      "page": "202501"
+                    },
+                    "date": 2001
+                  }
+                }
+              },
               "free_text": [
-                " See Sample"
+                " Data from the",
+                "authors. Values presented on figs in the article."
               ]
             }
           ],
@@ -173,7 +189,7 @@
                 "history": "R"
               },
               "free_text": [
-                " Data Table was Sent by R.Kunz"
+                " Data table was sent by R.Kunz"
               ]
             },
             {
@@ -185,21 +201,15 @@
               "free_text": [
                 " Last checking has been done."
               ]
-            }
-          ],
-          "STATUS": [
+            },
             {
               "pointer": "",
               "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
+                "date": 20260130,
+                "history": "A"
               },
               "free_text": [
-                ""
+                " SD: Corrections in all Subents."
               ]
             }
           ],
@@ -219,12 +229,12 @@
         {
           "SUBENT": {
             "N1": "A0444002",
-            "N2": 20020913,
+            "N2": 20260130,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A130"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -251,7 +261,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "No information about units."
               ]
             }
           ],
@@ -265,8 +276,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " The Uncertainties are Given in Data Tables",
-                "Without any Analysis."
+                " No information about source of uncertainty."
               ]
             }
           ],
@@ -275,8 +285,20 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "- By Authors: at the Tails of the Resonanses the",
-                "\"Yield\" can be Taken As Cross Section in Micro-Barns."
+                "- By Authors: At the tails of the resonances the",
+                "\"Yield\" can be taken as cross section in micro-barns."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260130,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -1356,12 +1378,12 @@
         {
           "SUBENT": {
             "N1": "A0444003",
-            "N2": 20020913,
+            "N2": 20260130,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A130"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1392,29 +1414,7 @@
               ]
             }
           ],
-          "COMMENT": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "-By Authors: the Widths are Given in Laboratory System"
-              ]
-            }
-          ],
           "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "EN-RES-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " The Uncertainties are Given in Data Table",
-                "Without any Analysis."
-              ]
-            },
             {
               "pointer": "",
               "coded_information": {
@@ -1424,8 +1424,49 @@
                 "correlation_property": null
               },
               "free_text": [
-                " The Uncertainties are Given in Data Tables",
-                "Without any Analysis."
+                " No information about source of uncertainty."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "M.Jaeger+",
+                "reference": {
+                  "code": "J,PRL,87,202501,2001",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PRL",
+                      "number": null,
+                      "volume": "87",
+                      "part": null,
+                      "issue": null,
+                      "page": "202501"
+                    },
+                    "date": 2001
+                  }
+                }
+              },
+              "free_text": [
+                " Tbl. I"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260130,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: BIB updated."
               ]
             }
           ],
@@ -1527,12 +1568,12 @@
         {
           "SUBENT": {
             "N1": "A0444004",
-            "N2": 20020913,
+            "N2": 20260130,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A130"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1563,30 +1604,7 @@
               ]
             }
           ],
-          "COMMENT": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "- By Authors: the Resonance Strenght are Given in",
-                "Centre-Of-Mass Frame."
-              ]
-            }
-          ],
           "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "EN-RES-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " The Uncertainties are Given in Data Table",
-                "Without any Analysis"
-              ]
-            },
             {
               "pointer": "",
               "coded_information": {
@@ -1596,8 +1614,49 @@
                 "correlation_property": null
               },
               "free_text": [
-                " The Uncertainties are Given in Data Tables",
-                "Without any Analysis."
+                " No information about source of uncertainty."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "M.Jaeger+",
+                "reference": {
+                  "code": "J,PRL,87,202501,2001",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PRL",
+                      "number": null,
+                      "volume": "87",
+                      "part": null,
+                      "issue": null,
+                      "page": "202501"
+                    },
+                    "date": 2001
+                  }
+                }
+              },
+              "free_text": [
+                " Tbl. I"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260130,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: BIB updated. DATA -> DATA-CM."
               ]
             }
           ],
@@ -1622,8 +1681,8 @@
             "heading": [
               "EN-RES",
               "EN-RES-ERR",
-              "DATA",
-              "DATA-MAX",
+              "DATA-CM",
+              "DATA-MX-CM",
               "DATA-ERR"
             ],
             "unit": [
@@ -1718,9 +1777,9 @@
         {
           "SUBENT": {
             "N1": "A0444005",
-            "N2": 20020913,
+            "N2": 20260130,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A130"
           },
           "BIB": {
             "N1": 6,
@@ -1730,10 +1789,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "10-NE-22(A,N)12-MG-25,,SGV,,MXW,RECOM",
+                "code": "10-NE-22(A,N)12-MG-25,,SGV,,,RECOM",
                 "code_unit": [
                   {
-                    "unit": "10-NE-22(A,N)12-MG-25,,SGV,,MXW,RECOM",
+                    "unit": "10-NE-22(A,N)12-MG-25,,SGV,,,RECOM",
                     "field": {
                       "reaction": "10-NE-22(A,N)12-MG-25",
                       "target": "10-NE-22",
@@ -1742,7 +1801,7 @@
                       "product": "12-MG-25",
                       "quantity": ",SGV",
                       "data_type": "RECOM",
-                      "general_quantity_modifier": "MXW",
+                      "general_quantity_modifier": null,
                       "quantity_236": ",SGV"
                     }
                   }
@@ -1754,33 +1813,13 @@
               ]
             }
           ],
-          "MISC-COL": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "MISC1"
-              ],
-              "free_text": [
-                " High Limit of the Reaction Rate"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "MISC2"
-              ],
-              "free_text": [
-                " Low Limit of the Reaction Rate"
-              ]
-            }
-          ],
           "REL-REF": [
             {
               "pointer": "",
               "coded_information": {
                 "code": "N",
                 "subentry_number": null,
-                "author": "C.ANGULO+",
+                "author": "C.Angulo+",
                 "reference": {
                   "code": "J,NP/A,656,3,1999",
                   "field": {
@@ -1806,7 +1845,7 @@
               "coded_information": {
                 "code": "N",
                 "subentry_number": null,
-                "author": "F.KAEPPELER+",
+                "author": "F.Kaeppeler+",
                 "reference": {
                   "code": "J,AJ,437,396,1994",
                   "field": {
@@ -1832,7 +1871,7 @@
               "coded_information": {
                 "code": "N",
                 "subentry_number": null,
-                "author": "G.R.CAUGHLAN+",
+                "author": "G.R.Caughlan+",
                 "reference": {
                   "code": "J,AND,40,283,1988",
                   "field": {
@@ -1851,8 +1890,8 @@
               },
               "free_text": [
                 "",
-                "All the Publicaitions are Compilations of Reaction",
-                "Rates."
+                "All the publications are compilations of reaction",
+                "rates."
               ]
             }
           ],
@@ -1863,12 +1902,40 @@
                 "COMP"
               ],
               "free_text": [
-                " With Data from Rel-Ref.",
-                "Analytical Expression of Reaction Rate is Presented"
+                " With data from REL-REF.",
+                "Analytical expression of reaction rate is presented"
               ]
             }
           ],
           "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "M.Jaeger+",
+                "reference": {
+                  "code": "J,PRL,87,202501,2001",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PRL",
+                      "number": null,
+                      "volume": "87",
+                      "part": null,
+                      "issue": null,
+                      "page": "202501"
+                    },
+                    "date": 2001
+                  }
+                }
+              },
+              "free_text": [
+                " Tbl. II"
+              ]
+            },
             {
               "pointer": "",
               "coded_information": {
@@ -1889,9 +1956,23 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "- By Authors: at T9=0.2 the Reduction of the",
-                "Uncertainty Obtained in the Present Work is About a",
-                "Factor of 100."
+                "- By Authors: at T9=0.2 the reduction of the",
+                "uncertainty obtained in the present work is about a",
+                "factor of 100."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260130,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: SF8=MXW deleted from REACTION code.",
+                "BIB updated. MISC1 -> DATA-MAX; MISC2 -> DATA-MIN.",
+                "MISC deleted."
               ]
             }
           ],
@@ -1915,8 +1996,8 @@
             "heading": [
               "KT",
               "DATA",
-              "MISC1",
-              "MISC2"
+              "DATA-MAX",
+              "DATA-MIN"
             ],
             "unit": [
               "K9",

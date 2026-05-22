@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:11:32+0000",
+  "time_stamp": "2026-05-22T21:03:17+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0571",
-        "N2": 20160228,
+        "N2": 20260203,
         "alteration_flag": " ",
-        "transmission_identification": "A084"
+        "transmission_identification": "A130"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0571001",
-            "N2": 20160228,
+            "N2": 20260203,
             "alteration_flag": " ",
-            "transmission_identification": "A084"
+            "transmission_identification": "A130"
           },
           "BIB": {
-            "N1": 13,
+            "N1": 14,
             "N2": 0
           },
           "TITLE": [
@@ -52,35 +52,10 @@
             {
               "pointer": "",
               "coded_information": [
-                "3POLIPJ"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "3KDRKDR"
-              ],
-              "free_text": [
-                " Institute of Radiochemistry,Pyongyang,D.P.R.",
-                "Korea."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "3POLIPJ",
+                "4ZZZDUB",
+                "3KDRPYN",
                 "4RUSFVE"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "4ZZZDUB"
               ],
               "free_text": [
                 ""
@@ -141,7 +116,40 @@
                 }
               },
               "free_text": [
-                " Experim.methods"
+                " Experim. methods"
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "LINAC"
+                ],
+                "institute": "4RUSFVE"
+              },
+              "free_text": [
+                " Lu-100 at the Institute for High",
+                "Energy Physics in Serpukhuv (RUSSIA). The duration of",
+                "irradiations vas 2-5 hours. Proton beam intensity was",
+                "limited to low currents which varied from lO to 200 nA."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "SPECC"
+                ],
+                "institute": "4ZZZDUB"
+              },
+              "free_text": [
+                " The amount of 127-Cs and 127-Xe was",
+                "measured by recording gamma-ray spectra of each CsCl",
+                "pellet with calibrated Ge(Li) detector after",
+                "transportation the stacks from Serpukhov to J.I.N.R.",
+                "in Dubna."
               ]
             }
           ],
@@ -156,7 +164,7 @@
                 "area measurement.",
                 "The weight of pressed Cs-Cl pellets varied throughout",
                 "the stacked thin CsCl discs according to the required",
-                "energy loss of protons in  each  discs.  About  twenty",
+                "energy loss of protons in each discs. About twenty",
                 "pellets were placed in an aluminum target holder."
               ]
             }
@@ -168,7 +176,7 @@
                 "COMP"
               ],
               "free_text": [
-                " Hybrid Model of Nuclear Reactions using the well",
+                " Hybrid Model of nuclear reactions using the well",
                 "developed computer code overlaid ALICE."
               ]
             },
@@ -199,10 +207,10 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "13-AL-27(P,X)11-NA-24,CUM,SIG,,,EVAL",
+                  "code": "13-AL-27(P,X)11-NA-24,CUM,SIG",
                   "code_unit": [
                     {
-                      "unit": "13-AL-27(P,X)11-NA-24,CUM,SIG,,,EVAL",
+                      "unit": "13-AL-27(P,X)11-NA-24,CUM,SIG",
                       "field": {
                         "reaction": "13-AL-27(P,X)11-NA-24",
                         "target": "13-AL-27",
@@ -210,7 +218,7 @@
                         "process": "X",
                         "product": "11-NA-24",
                         "quantity": "CUM,SIG",
-                        "data_type": "EVAL",
+                        "data_type": null,
                         "general_quantity_modifier": null,
                         "quantity_236": "CUM,SIG"
                       }
@@ -224,39 +232,6 @@
               ]
             }
           ],
-          "FACILITY": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "LINAC"
-                ],
-                "institute": "4RUSFVE"
-              },
-              "free_text": [
-                " Lu-100 at the Institute for High",
-                "Energy Physics in Serpukhuv (RUSSIA). The duration of",
-                "Irradiations vas 2-5 hours. Proton beam intensity was",
-                "limited to low currents which varied from lO to 200 nA."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "SPECC"
-                ],
-                "institute": "4ZZZDUB"
-              },
-              "free_text": [
-                " The amount of 127-Cs and 127-Xe was",
-                "measured by recording ,gamma-ray spectra of each CsCl",
-                "pellet with calibrated Ge(Li) detector after",
-                "transportation the stacks from Serpukhov to J.I.N.R.",
-                "in Dubna."
-              ]
-            }
-          ],
           "METHOD": [
             {
               "pointer": "",
@@ -264,7 +239,7 @@
                 "STTA"
               ],
               "free_text": [
-                " Proton beam current was varied from 30 to 200 Na"
+                " Proton beam current was varied from 30 to 200 nA"
               ]
             },
             {
@@ -273,7 +248,7 @@
                 "EXTB"
               ],
               "free_text": [
-                " The Duration of irradiation was 2 - 5 hours."
+                " The duration of irradiation was 2 - 5 hours."
               ]
             },
             {
@@ -291,8 +266,17 @@
                 "GSPEC"
               ],
               "free_text": [
-                "  The stacks were repeatedly measured over a",
-                "period of several day."
+                " The stacks were repeatedly measured over a",
+                "period of several days."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "No information about uncertainty"
               ]
             }
           ],
@@ -304,11 +288,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.Rurarz+",
+                "reference": {
+                  "code": "J,NKA,37,3,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NKA",
+                      "number": null,
+                      "volume": "37",
+                      "part": null,
+                      "issue": null,
+                      "page": "3"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
-                " NKA,37,3,1992"
+                " Table 1"
               ]
             }
           ],
@@ -341,7 +339,17 @@
               },
               "free_text": [
                 " SD: DECAY-DATA corrected in Subent 002;",
-                "BIB update."
+                "BIB updated."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260203,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small correction in Subent 001."
               ]
             }
           ],

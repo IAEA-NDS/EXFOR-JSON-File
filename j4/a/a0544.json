@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:11:13+0000",
+  "time_stamp": "2026-05-22T21:03:15+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0544",
-        "N2": 20160226,
+        "N2": 20260202,
         "alteration_flag": " ",
-        "transmission_identification": "A084"
+        "transmission_identification": "A130"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0544001",
-            "N2": 20160226,
+            "N2": 20260202,
             "alteration_flag": " ",
-            "transmission_identification": "A084"
+            "transmission_identification": "A130"
           },
           "BIB": {
             "N1": 12,
@@ -52,6 +52,34 @@
             {
               "pointer": "",
               "coded_information": {
+                "code": "J,BAS,56,718,1992",
+                "code_unit": [
+                  {
+                    "unit": "J,BAS,56,718,1992",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "BAS",
+                        "number": null,
+                        "volume": "56",
+                        "part": null,
+                        "issue": null,
+                        "page": "718"
+                      },
+                      "date": 1992
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                " English transl. of"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
                 "code": "J,IZV,56,(5),102,1992",
                 "code_unit": [
                   {
@@ -76,34 +104,6 @@
               "free_text": [
                 ""
               ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "J,BAS,56,718,1992",
-                "code_unit": [
-                  {
-                    "unit": "J,BAS,56,718,1992",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "BAS",
-                        "number": null,
-                        "volume": "56",
-                        "part": null,
-                        "issue": null,
-                        "page": "718"
-                      },
-                      "date": 1992
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                " English transl. of IZV,56,(5),102"
-              ]
             }
           ],
           "INSTITUTE": [
@@ -127,7 +127,7 @@
                 "institute": "4UKRIJD"
               },
               "free_text": [
-                ". U-240 Isochronous Cyclotron."
+                " U-240 Isochronous Cyclotron."
               ]
             }
           ],
@@ -135,15 +135,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "ACTIV"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "ACTIV",
                 "GSPEC"
               ],
               "free_text": [
@@ -270,7 +262,7 @@
                 "subentry_number": null,
                 "author": "E.Browne+",
                 "reference": {
-                  "code": "B,BROWNE,,1986",
+                  "code": "B,BROWNE,,,1986",
                   "field": {
                     "reference_type": "B",
                     "reference": {
@@ -279,7 +271,7 @@
                       "volume": null,
                       "part": null,
                       "issue": null,
-                      "page": null
+                      "page": ""
                     },
                     "date": 1986
                   }
@@ -295,15 +287,14 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "EN-ERR",
+                "heading": "ERR-S",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                " The energy spread",
-                " * The maximum of systematic uncertainty of",
-                "   beam energy was less than 1.5%"
+                " Statistical error (error is absent in cases,",
+                "when it is less than size of the point)."
               ]
             }
           ],
@@ -349,9 +340,19 @@
               "free_text": [
                 " SD: DECAY-DATA corrected in Subent 010.",
                 "Small corrections in all Subents. STATUS moved to",
-                "Subents 002-011. ERR-ANALYS update. Subent 007 deleted",
+                "Subents 002-011. ERR-ANALYS updated. Subent 007 deleted",
                 " (not from this experiment). Data were re-digitized.",
                 "DATA-ERR -> ERR-DIG."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260202,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents."
               ]
             }
           ],
@@ -395,12 +396,12 @@
         {
           "SUBENT": {
             "N1": "A0544002",
-            "N2": 20160226,
+            "N2": 20260202,
             "alteration_flag": " ",
-            "transmission_identification": "A084"
+            "transmission_identification": "A130"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -477,23 +478,11 @@
                 "correlation_property": null
               },
               "free_text": [
-                "  The errors of the absolute cross",
+                " The errors of the absolute cross",
                 "sections are mainly due to inaccurate determinations of",
                 "  * the target thickness,",
                 "  * the gamma-detector efficiency and",
                 "  * the errors in cross sections, used as ref. points"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-S",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Statistical error"
               ]
             }
           ],
@@ -505,11 +494,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "O.N.Vysotsky+",
+                "reference": {
+                  "code": "J,BAS,56,718,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "56",
+                      "part": null,
+                      "issue": null,
+                      "page": "718"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
-                " Fig.1 from IZV,56,(5),102,1992"
+                " Fig.1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260202,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -599,12 +614,12 @@
         {
           "SUBENT": {
             "N1": "A0544003",
-            "N2": 20160226,
+            "N2": 20260202,
             "alteration_flag": " ",
-            "transmission_identification": "A084"
+            "transmission_identification": "A130"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -690,23 +705,11 @@
                 "correlation_property": null
               },
               "free_text": [
-                "  The errors of the absolute cross",
+                " The errors of the absolute cross",
                 "sections are mainly due to inaccurate determinations of",
                 "  * the target thickness,",
                 "  * the gamma-detector efficiency and",
                 "  * the errors in cross sections, used as ref. points"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-S",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Statistical error"
               ]
             }
           ],
@@ -718,11 +721,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "O.N.Vysotsky+",
+                "reference": {
+                  "code": "J,BAS,56,718,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "56",
+                      "part": null,
+                      "issue": null,
+                      "page": "718"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
-                " Fig.1 from IZV,56,(5),102,1992"
+                " Fig.1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260202,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -822,12 +851,12 @@
         {
           "SUBENT": {
             "N1": "A0544004",
-            "N2": 20160226,
+            "N2": 20260202,
             "alteration_flag": " ",
-            "transmission_identification": "A084"
+            "transmission_identification": "A130"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -904,23 +933,11 @@
                 "correlation_property": null
               },
               "free_text": [
-                "  The errors of the absolute cross",
+                " The errors of the absolute cross",
                 "sections are mainly due to inaccurate determinations of",
                 "  * the target thickness,",
                 "  * the gamma-detector efficiency and",
                 "  * the errors in cross sections, used as ref. points"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-S",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Statistical error"
               ]
             }
           ],
@@ -932,11 +949,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "O.N.Vysotsky+",
+                "reference": {
+                  "code": "J,BAS,56,718,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "56",
+                      "part": null,
+                      "issue": null,
+                      "page": "718"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
-                " Fig.1 from IZV,56,(5),102,1992"
+                " Fig.1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260202,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -1031,12 +1074,12 @@
         {
           "SUBENT": {
             "N1": "A0544005",
-            "N2": 20160226,
+            "N2": 20260202,
             "alteration_flag": " ",
-            "transmission_identification": "A084"
+            "transmission_identification": "A130"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -1099,7 +1142,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                " gamma spectrum measurement"
+                " Gamma spectrum measurement"
               ]
             }
           ],
@@ -1113,24 +1156,11 @@
                 "correlation_property": null
               },
               "free_text": [
-                "  The errors of the absolute cross",
+                " The errors of the absolute cross",
                 "sections are mainly due to inaccurate determinations of",
                 "  * the target thickness,",
                 "  * the gamma-detector efficiency and",
                 "  * the errors in cross sections, used as ref. points"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-S",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Statistical error (less that the size of point",
-                " on fig.)."
               ]
             }
           ],
@@ -1142,11 +1172,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "O.N.Vysotsky+",
+                "reference": {
+                  "code": "J,BAS,56,718,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "56",
+                      "part": null,
+                      "issue": null,
+                      "page": "718"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
-                " Fig.1 from IZV,56,(5),102,1992"
+                " Fig.1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260202,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -1226,12 +1282,12 @@
         {
           "SUBENT": {
             "N1": "A0544006",
-            "N2": 20160226,
+            "N2": 20260202,
             "alteration_flag": " ",
-            "transmission_identification": "A084"
+            "transmission_identification": "A130"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
@@ -1328,13 +1384,13 @@
               "coded_information": null,
               "free_text": [
                 "* by Author *",
-                "206Po Yield had been  determined  from  combined  alpha",
-                "spectrum  of  206 and 210Po after 3-5 day of cooling by",
-                "subtracting 210Po yield.  But 210Po yield due to  210Bi",
-                "decay  is  unknown.   It creates additional uncertainty",
+                "206Po yield had been determined from combined alpha",
+                "spectrum of 206 and 210Po after 3-5 day of cooling by",
+                "subtracting 210Po yield. But 210Po yield due to 210Bi",
+                "decay is unknown. It creates additional uncertainty",
                 " (15-20%) for 206Po yield.",
-                "- By Authors - Cumulative cross section is",
-                "Bi-209(He3,6n)+Bi-209(5n+p) reactions cross sections."
+                "- By authors - Cumulative cross section is",
+                "209Bi(He3,6n) + 209Bi(5n+p) reactions cross sections."
               ]
             }
           ],
@@ -1353,27 +1409,15 @@
               "coded_information": {
                 "heading": "ERR-T",
                 "minimum_value": null,
-                "maximum_value": null,
+                "maximum_value": 30.0,
                 "correlation_property": null
               },
               "free_text": [
-                "  The errors of the absolute cross sections are",
-                "mainly due to inaccurate determinations of:",
+                " The errors of the absolute cross sections",
+                "are mainly due to inaccurate determinations of:",
                 "  * the target thickness,",
                 "  * the gamma-detector efficiency and",
                 "  * the errors in cross sections, used as ref. points"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-S",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Statistical error"
               ]
             }
           ],
@@ -1385,11 +1429,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "O.N.Vysotsky+",
+                "reference": {
+                  "code": "J,BAS,56,718,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "56",
+                      "part": null,
+                      "issue": null,
+                      "page": "718"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
-                " Fig.2 from IZV,56,(5),102,1992"
+                " Fig.2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260202,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -1491,12 +1561,12 @@
         {
           "SUBENT": {
             "N1": "A0544008",
-            "N2": 20160226,
+            "N2": 20260202,
             "alteration_flag": " ",
-            "transmission_identification": "A084"
+            "transmission_identification": "A130"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
@@ -1590,10 +1660,10 @@
               "coded_information": null,
               "free_text": [
                 "*by Compiler* the angle between X and Y axes",
-                "On this figure is not equal 90 ang. degree.",
+                "on this figure is not equal to 90 ang. degrees.",
                 " This deviation is -2.67E-02 radians.",
-                "- By Authors - Cumulative cross section is",
-                "Bi-209(He3,2n)+Bi-209(n+p) Reactions cross section."
+                "- By authors - Cumulative cross section is",
+                "Bi-209(He3,2n)+Bi-209(n+p) reactions cross section."
               ]
             }
           ],
@@ -1612,27 +1682,15 @@
               "coded_information": {
                 "heading": "ERR-T",
                 "minimum_value": null,
-                "maximum_value": null,
+                "maximum_value": 30.0,
                 "correlation_property": null
               },
               "free_text": [
-                "  The errors of the absolute cross sections are",
-                "mainly due to inaccurate determinations of:",
+                " The errors of the absolute cross sections",
+                "are mainly due to inaccurate determinations of:",
                 "  * the target thickness,",
                 "  * the gamma-detector efficiency and",
                 "  * the errors in cross sections, used as ref. points"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-S",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Statistical error"
               ]
             }
           ],
@@ -1644,11 +1702,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "O.N.Vysotsky+",
+                "reference": {
+                  "code": "J,BAS,56,718,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "56",
+                      "part": null,
+                      "issue": null,
+                      "page": "718"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
-                " Fig.2 from IZV,56,(5),102,1992"
+                " Fig.2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260202,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -1783,12 +1867,12 @@
         {
           "SUBENT": {
             "N1": "A0544009",
-            "N2": 20160226,
+            "N2": 20260202,
             "alteration_flag": " ",
-            "transmission_identification": "A084"
+            "transmission_identification": "A130"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
@@ -1824,7 +1908,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "- By Authors - Cumulative cross section is",
+                "- By authors - Cumulative cross section is",
                 "S/At-206/+0.15*S/Po-206/+S/Bi-206/, where S/X/ is",
                 "independent cross section of X production cross",
                 "section."
@@ -1872,7 +1956,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                " gamma spectrum measurement"
+                " Gamma spectrum measurement"
               ]
             }
           ],
@@ -1886,24 +1970,11 @@
                 "correlation_property": null
               },
               "free_text": [
-                "  The errors of the absolute cross",
+                " The errors of the absolute cross",
                 "sections are mainly due to inaccurate determinations of",
                 "  * the target thickness,",
                 "  * the gamma-detector efficiency and",
                 "  * the errors in cross sections, used as ref. points"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-S",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Statistical error (only in one point, for other",
-                "points error is less than size of the points)."
               ]
             }
           ],
@@ -1915,11 +1986,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "O.N.Vysotsky+",
+                "reference": {
+                  "code": "J,BAS,56,718,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "56",
+                      "part": null,
+                      "issue": null,
+                      "page": "718"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
-                " Fig.3 from IZV,56,(5),102,1992"
+                " Fig.3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260202,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -2004,9 +2101,9 @@
         {
           "SUBENT": {
             "N1": "A0544010",
-            "N2": 20160226,
+            "N2": 20260202,
             "alteration_flag": " ",
-            "transmission_identification": "A084"
+            "transmission_identification": "A130"
           },
           "BIB": {
             "N1": 7,
@@ -2138,7 +2235,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                " gamma spectrum measurement"
+                " Gamma spectrum measurement"
               ]
             }
           ],
@@ -2152,23 +2249,11 @@
                 "correlation_property": null
               },
               "free_text": [
-                "  The errors of the absolute cross",
+                " The errors of the absolute cross",
                 "sections are mainly due to inaccurate determinations of",
                 "  * the target thickness,",
                 "  * the gamma-detector efficiency and",
                 "  * the errors in cross sections, used as ref. points"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-S",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Statistical error"
               ]
             }
           ],
@@ -2180,11 +2265,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "O.N.Vysotsky+",
+                "reference": {
+                  "code": "J,BAS,56,718,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "56",
+                      "part": null,
+                      "issue": null,
+                      "page": "718"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
-                " Fig.3 from IZV,56,(5),102,1992"
+                " Fig.3"
               ]
             }
           ],
@@ -2198,6 +2297,16 @@
               "free_text": [
                 " SD: hl= 1.02hr -> 11.2hr in DECAY-DATA",
                 "according to Tbl.1 from IZV,56,718."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260202,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -2292,12 +2401,12 @@
         {
           "SUBENT": {
             "N1": "A0544011",
-            "N2": 20160226,
+            "N2": 20260202,
             "alteration_flag": " ",
-            "transmission_identification": "A084"
+            "transmission_identification": "A130"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
@@ -2333,7 +2442,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "- By Authors - Cumulative cross section is",
+                "- By authors - Cumulative cross section is",
                 "0.7*S/At-203/+S/Po-203/+1.13*S/Bi-203/+S/Pb-203/+",
                 "0.1*S/At-207/, where S/X/ is cross section of",
                 "independent production of X."
@@ -2432,7 +2541,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                " gamma spectrum measurement"
+                " Gamma spectrum measurement"
               ]
             }
           ],
@@ -2446,24 +2555,11 @@
                 "correlation_property": null
               },
               "free_text": [
-                "  The errors of the absolute cross",
+                " The errors of the absolute cross",
                 "sections are mainly due to inaccurate determinations of",
                 "  * the target thickness,",
                 "  * the gamma-detector efficiency and",
                 "  * the errors in cross sections, used as ref. points"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-S",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Statistical error (only in one point, for other",
-                "points error is less than size of the points)."
               ]
             }
           ],
@@ -2475,11 +2571,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "O.N.Vysotsky+",
+                "reference": {
+                  "code": "J,BAS,56,718,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "56",
+                      "part": null,
+                      "issue": null,
+                      "page": "718"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
-                " Fig.3 from IZV,56,(5),102,1992"
+                " Fig.3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260202,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],

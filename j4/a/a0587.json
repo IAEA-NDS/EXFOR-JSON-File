@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:11:39+0000",
+  "time_stamp": "2026-05-22T21:03:17+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0587",
-        "N2": 20040213,
+        "N2": 20260202,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "A130"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0587001",
-            "N2": 20040213,
+            "N2": 20260202,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A130"
           },
           "BIB": {
-            "N1": 9,
+            "N1": 10,
             "N2": 0
           },
           "TITLE": [
@@ -27,7 +27,7 @@
               "coded_information": null,
               "free_text": [
                 "Cross sections of barium isotopes in the interaction of",
-                "60 MeV/nucleon 18-O with 238-U"
+                "60 MeV/nucleon 18O with 238U"
               ]
             }
           ],
@@ -104,7 +104,9 @@
                 "HPGE"
               ],
               "free_text": [
-                ""
+                " Gamma-ray detector with an efficiency of 70%",
+                "and an energy resolution of 2.6 keV (FWHM) for the",
+                "1.33 MeV line of 60Co."
               ]
             }
           ],
@@ -113,7 +115,7 @@
               "pointer": "",
               "coded_information": {
                 "facility": [
-                  "ACCEL"
+                  "CYCLO"
                 ],
                 "institute": "3CPRIMP"
               },
@@ -129,7 +131,7 @@
                 "EXTB"
               ],
               "free_text": [
-                " The 60 MeV/u 18-O beam"
+                " The 60 MeV/u 18O beam"
               ]
             },
             {
@@ -138,18 +140,8 @@
                 "ACTIV"
               ],
               "free_text": [
-                " Beam current intensity of 30-40 electric",
-                "nanoampere was used to irradiate target for 30 and  120",
-                "minutes."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "RCHEM"
-              ],
-              "free_text": [
-                ""
+                " Beam current intensity of 30-40 nA was used",
+                "to irradiate target for 30 and 120 min."
               ]
             },
             {
@@ -159,6 +151,36 @@
               ],
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "Xu Yanbing+",
+                "reference": {
+                  "code": "J,JRN,251,341,2002",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JRN",
+                      "number": null,
+                      "volume": "251",
+                      "part": null,
+                      "issue": null,
+                      "page": "341"
+                    },
+                    "date": 2002
+                  }
+                }
+              },
+              "free_text": [
+                " Table 1."
               ]
             }
           ],
@@ -182,6 +204,17 @@
               "free_text": [
                 " Last checking has been done."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260202,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: BIB updated. Value in col.EN changed",
+                "according to presentation in the article."
+              ]
             }
           ],
           "ENDBIB": {
@@ -198,10 +231,10 @@
               "EN"
             ],
             "unit": [
-              "MEV"
+              "MEV/A"
             ],
             "value": [
-              1080.0
+              60.0
             ]
           },
           "ENDCOMMON": {

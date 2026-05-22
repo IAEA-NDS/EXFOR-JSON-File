@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:11:40+0000",
+  "time_stamp": "2026-05-22T21:03:18+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0589",
-        "N2": 20031229,
+        "N2": 20260204,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "A130"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0589001",
-            "N2": 20031229,
+            "N2": 20260204,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A130"
           },
           "BIB": {
-            "N1": 13,
+            "N1": 12,
             "N2": 0
           },
           "TITLE": [
@@ -27,7 +27,7 @@
               "coded_information": null,
               "free_text": [
                 "Absence of fusion suppression due to breakup in the",
-                "12C+7Li reaction"
+                "12C + 7Li reaction"
               ]
             }
           ],
@@ -51,20 +51,11 @@
             {
               "pointer": "",
               "coded_information": [
-                "3AULCBR"
-              ],
-              "free_text": [
-                " Department of nuclear physics and  department",
-                "of electronic materials engineering"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "3AULCBR",
                 "3BZLUFF"
               ],
               "free_text": [
-                " Instituto de fisica"
+                ""
               ]
             }
           ],
@@ -102,17 +93,17 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "N",
+                "code": "I",
                 "subentry_number": null,
-                "author": "H.TIMMERS+",
+                "author": "H.Timmers+",
                 "reference": {
-                  "code": "J,NIM/B,136,611,1998",
+                  "code": "J,NIM/B,136-138,611,1998",
                   "field": {
                     "reference_type": "J",
                     "reference": {
                       "code": "NIM/B",
                       "number": null,
-                      "volume": "136",
+                      "volume": "136-138",
                       "part": null,
                       "issue": null,
                       "page": "611"
@@ -128,17 +119,17 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "N",
+                "code": "I",
                 "subentry_number": null,
-                "author": "H.TIMMERS+",
+                "author": "H.Timmers+",
                 "reference": {
-                  "code": "J,NIM/B,161,19,2000",
+                  "code": "J,NIM/B,161-163,19,2000",
                   "field": {
                     "reference_type": "J",
                     "reference": {
                       "code": "NIM/B",
                       "number": null,
-                      "volume": "161",
+                      "volume": "161-163",
                       "part": null,
                       "issue": null,
                       "page": "19"
@@ -154,9 +145,9 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "N",
+                "code": "I",
                 "subentry_number": null,
-                "author": "H.TIMMERS+",
+                "author": "H.Timmers+",
                 "reference": {
                   "code": "J,NIM/A,447,536,2000",
                   "field": {
@@ -182,23 +173,26 @@
           "SAMPLE": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "nuclide": "3-LI-7",
+                "field_identifier": "ENR",
+                "value": 0.999
+              },
               "free_text": [
-                "An existing target of 7-Li/F, having 99.9% enrichment",
-                "of 7-Li, was used.  The target was of thickness ~80",
-                "microgramm/cm**2, evaporated onto a ~35",
-                "microgramm/cm**2 carbon backing.  A very thin layer of",
-                "Au (~4 microgramm/cm**2) was deposited on the target",
-                "for beam dose and solid angle normalisation.  The",
-                "composition of the target was determined by elastic",
-                "recoil detection analysis using a 58-Ni beam of energy",
-                "60 MeV, which is less than half the Coulomb barrier",
-                "energy for all target components.  In terms of number",
-                "of nuclei/cm2, the abundance of the various target",
-                "components relative to 7-Li were measured to be:",
-                "Li:F:C:O:Au",
-                "= 1.00 :  1.00+/-0.01 :  0.96+/-0.01",
-                ":  0.0427+/-0.0004 :  0.0069+/-0.0003."
+                " An existing target of 7-Li/F,",
+                "having 99.9% enrichment of 7Li, was used. The target",
+                "was of thickness ~80 ug/cm2, evaporated onto a",
+                "~35 ug/cm2 carbon backing. A very thin layer of",
+                "Au (~4 ug/cm2) was deposited on the target for beam",
+                "dose and solid angle normalization. The composition of",
+                "the target was determined by elastic recoil detection",
+                "analysis using a 58Ni beam of energy 60 MeV, which is",
+                "less than half the Coulomb barrier energy for all",
+                "target components. In terms of number of nuclei/cm2,",
+                "the abundance of the various target components",
+                "relative to 7-Li were measured to be: Li:F:C:O:Au =",
+                "1.00 : 1.00+/-0.01 : 0.96+/-0.01 : 0.0427+/-0.0004 :",
+                "0.0069+/-0.0003."
               ]
             }
           ],
@@ -233,17 +227,6 @@
               ]
             }
           ],
-          "PART-DET": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "RCL"
-              ],
-              "free_text": [
-                " From alpha upto fluorine."
-              ]
-            }
-          ],
           "DETECTOR": [
             {
               "pointer": "",
@@ -251,10 +234,10 @@
                 "IOCH"
               ],
               "free_text": [
-                " Special ionization chamber.  The full energy of",
-                "the ions entering the detector was measured using a 21",
-                "cm long grid electrode, whilst the energy loss signal",
-                "was obtained from a separate 3.2 cm long anode."
+                " Special ionization chamber. The full energy of",
+                "the ions entering the detector was measured using a",
+                "21 cm long grid electrode, whilst the energy loss",
+                "signal was obtained from a separate 3.2 cm long anode."
               ]
             }
           ],
@@ -268,8 +251,8 @@
                 "institute": "3AULCBR"
               },
               "free_text": [
-                " The experiment was performed with a 12-C",
-                "beam of energy 10.5 MeV, from the 14UD Pelletron",
+                " The experiment was performed with a",
+                "12C beam of energy 10.5 MeV, from the 14UD Pelletron",
                 "accelerator."
               ]
             }
@@ -278,24 +261,8 @@
             {
               "pointer": "",
               "coded_information": [
-                "EDE"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "SITA"
-              ],
-              "free_text": [
-                " See SAMPLE"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "EDE",
+                "SITA",
                 "EXTB"
               ],
               "free_text": [
@@ -334,6 +301,16 @@
               "free_text": [
                 " Last checking has been done."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260204,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents."
+              ]
             }
           ],
           "ENDBIB": {
@@ -368,12 +345,12 @@
         {
           "SUBENT": {
             "N1": "A0589002",
-            "N2": 20031229,
+            "N2": 20260204,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A130"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
@@ -412,7 +389,7 @@
               ],
               "free_text": [
                 " Fusion cross section after correction on low",
-                "energy evaporated residues.  See COMMENT"
+                "energy evaporated residues. See COMMENT"
               ]
             }
           ],
@@ -420,13 +397,13 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "ERR-T",
+                "heading": "DATA-ERR",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                " Noany analysis is presented"
+                " No information about source of uncertainty"
               ]
             },
             {
@@ -438,7 +415,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Noany analysis is presented."
+                " No information about source of uncertainty"
               ]
             }
           ],
@@ -447,24 +424,25 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "- By authors. It needs to be emphasized here that this",
-                "cross-section, excluding evaporated residues having",
-                "kinetic energies below 4 MeV and also excluding the",
-                "evaporated residues C and B, is indeed the lower limit",
-                "to the fusion cross-section at this energy.",
-                "To compare with gamma-ray measurements, an estimate is",
-                "needed of the cross-sections of evaporated residues",
-                "with kinetic energies below 4 MeV, not available from",
-                "the present measurement.  Statistical model",
-                "calculations performed using the code PACE, which",
-                "reproduces the energy and angular dependence of the",
-                "evaporated residues, predicted the contribution of",
-                "evaporated residues below 4 MeV to be 20% of the total",
-                "fusion cross-section.  However, to take into account",
-                "the possible dependence of the calculation on the",
-                "various parameters in the code, this contribution below",
-                "4 MeV has been taken to be (20+/-8)%, where the",
-                "uncertainty has been estimated very conservatively."
+                "- By authors. It needs to be emphasized here that",
+                "this cross-section, excluding evaporated residues",
+                "having kinetic energies below 4 MeV and also",
+                "excluding the evaporated residues C and B, is indeed",
+                "the lower limit to the fusion cross-section at this",
+                "energy. To compare with gamma-ray measurements, an",
+                "estimate is needed of the cross- sections of",
+                "evaporated residues with kinetic energies below 4 MeV,",
+                "not available from the present measurement.",
+                "Statistical model calculations performed using the",
+                "code PACE, which reproduces the energy and angular",
+                "dependence of the evaporated residues, predicted the",
+                "contribution of evaporated residues below 4 MeV to be",
+                "20% of the total fusion cross-section. However, to",
+                "take into account the possible dependence of the",
+                "calculation on the various parameters in the code,",
+                "this contribution below 4 MeV has been taken to be",
+                " (20+/-8) %, where the uncertainty has been estimated",
+                "very conservatively."
               ]
             }
           ],
@@ -474,7 +452,7 @@
               "coded_information": {
                 "code": "A",
                 "subentry_number": "O0946001",
-                "author": "A.MUKHERJEE+",
+                "author": "A.Mukherjee+",
                 "reference": {
                   "code": "J,NP/A,596,299,1996",
                   "field": {
@@ -500,7 +478,7 @@
               "coded_information": {
                 "code": "D",
                 "subentry_number": null,
-                "author": "J.TAKAHASHI+",
+                "author": "J.Takahashi+",
                 "reference": {
                   "code": "J,PRL,78,30,1997",
                   "field": {
@@ -519,6 +497,50 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "A.Mukherjee+",
+                "reference": {
+                  "code": "J,PL/B,526,295,2002",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PL/B",
+                      "number": null,
+                      "volume": "526",
+                      "part": null,
+                      "issue": null,
+                      "page": "295"
+                    },
+                    "date": 2002
+                  }
+                }
+              },
+              "free_text": [
+                " From the text",
+                " on p. 299"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260204,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated. STATUS added.",
+                "ERR-T -> DATA-ERR."
               ]
             }
           ],
@@ -541,7 +563,7 @@
             ],
             "heading": [
               "DATA",
-              "ERR-T",
+              "DATA-ERR",
               "MISC",
               "MISC-ERR"
             ],

@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:07:38+0000",
+  "time_stamp": "2026-05-22T21:03:00+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0245",
-        "N2": 20220410,
+        "N2": 20260126,
         "alteration_flag": " ",
-        "transmission_identification": "A100"
+        "transmission_identification": "A130"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0245001",
-            "N2": 20220410,
+            "N2": 20260126,
             "alteration_flag": " ",
-            "transmission_identification": "A100"
+            "transmission_identification": "A130"
           },
           "BIB": {
             "N1": 10,
@@ -26,7 +26,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Absolute cross section of p(Be-7,g)B-8 using a",
+                "Absolute cross section of p(7Be,gamma)8B using a",
                 "novel approach"
               ]
             }
@@ -149,10 +149,10 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "4-BE-7(P,EL)4-BE-7,,DA,,,EVAL",
+                  "code": "4-BE-7(P,EL)4-BE-7,,DA",
                   "code_unit": [
                     {
-                      "unit": "4-BE-7(P,EL)4-BE-7,,DA,,,EVAL",
+                      "unit": "4-BE-7(P,EL)4-BE-7,,DA",
                       "field": {
                         "reaction": "4-BE-7(P,EL)4-BE-7",
                         "target": "4-BE-7",
@@ -160,7 +160,7 @@
                         "process": "EL",
                         "product": "4-BE-7",
                         "quantity": ",DA",
-                        "data_type": "EVAL",
+                        "data_type": null,
                         "general_quantity_modifier": null,
                         "quantity_236": ",DA"
                       }
@@ -205,7 +205,7 @@
               ],
               "free_text": [
                 " The recoil separator includes a magnetic",
-                "quadrupole triplet, a 30-degree switching magnet, a",
+                "quadrupole triplet, a 30 degrees switching magnet, a",
                 "magnetic quadrupole doublet, a Wien filter, and a",
                 "conventional delta-E-E ionization chamber."
               ]
@@ -228,11 +228,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "L.Gialanella+",
+                "reference": {
+                  "code": "J,EPJ/A,7,303,2000",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "EPJ/A",
+                      "number": null,
+                      "volume": "7",
+                      "part": null,
+                      "issue": null,
+                      "page": "303"
+                    },
+                    "date": 2000
+                  }
+                }
               },
               "free_text": [
-                " Abstract of Eur.Phys.J.,A7(2000)303"
+                " Value from",
+                "the Abstract"
               ]
             }
           ],
@@ -266,6 +281,16 @@
               "free_text": [
                 " SD: Corrections in all Subents.",
                 "Ref. ZP/A,356,107 added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260126,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in Subent 001."
               ]
             }
           ],
