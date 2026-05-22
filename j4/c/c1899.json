@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:47:15+0000",
+  "time_stamp": "2026-05-22T21:18:20+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C1899",
-        "N2": 20140418,
+        "N2": 20260309,
         "alteration_flag": " ",
-        "transmission_identification": "C141"
+        "transmission_identification": "C255"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C1899001",
-            "N2": 20140418,
+            "N2": 20260309,
             "alteration_flag": " ",
-            "transmission_identification": "C141"
+            "transmission_identification": "C255"
           },
           "BIB": {
             "N1": 14,
@@ -149,7 +149,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "RCHEM",
+                "CHSEP",
                 "GSPEC",
                 "STTA",
                 "ACTIV"
@@ -334,6 +334,16 @@
               "free_text": [
                 " SD: Author's name corrected."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260307,
+                "history": "U"
+              },
+              "free_text": [
+                " OS. Minor correction in sub.2"
+              ]
             }
           ],
           "ENDBIB": {
@@ -384,12 +394,12 @@
         {
           "SUBENT": {
             "N1": "C1899002",
-            "N2": 20120307,
+            "N2": 20260309,
             "alteration_flag": " ",
-            "transmission_identification": "C116"
+            "transmission_identification": "C255"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -428,10 +438,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.A.Molecke+",
+                "reference": {
+                  "code": "J,PR/C,15,(2),719,1977",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "15",
+                      "part": null,
+                      "issue": "2",
+                      "page": "719"
+                    },
+                    "date": 1977
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Table II, page 722."
               ]
             }
@@ -645,7 +670,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": 6.0,
-                "nuclide": "55-CS-125-G",
+                "nuclide": "55-CS-125",
                 "half-life": {
                   "value": 45.0,
                   "unit": "MIN"
@@ -679,6 +704,18 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260307,
+                "history": "U"
+              },
+              "free_text": [
+                " Minor correction in DECAY-DATA"
               ]
             }
           ],

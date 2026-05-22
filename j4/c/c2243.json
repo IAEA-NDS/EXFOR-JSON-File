@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:50:23+0000",
+  "time_stamp": "2026-05-22T21:18:21+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C2243",
-        "N2": 20171107,
+        "N2": 20260309,
         "alteration_flag": " ",
-        "transmission_identification": "C170"
+        "transmission_identification": "C255"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C2243001",
-            "N2": 20171107,
+            "N2": 20260309,
             "alteration_flag": " ",
-            "transmission_identification": "C170"
+            "transmission_identification": "C255"
           },
           "BIB": {
             "N1": 13,
@@ -87,7 +87,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1016/j.nimb.2016.09.018"
               ]
             }
           ],
@@ -526,6 +527,16 @@
               },
               "free_text": [
                 " ASV+On. Major revision in 013."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260307,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. Correction in sub.5"
               ]
             }
           ],
@@ -1060,32 +1071,32 @@
         {
           "SUBENT": {
             "N1": "C2243005",
-            "N2": 20171107,
+            "N2": 20260309,
             "alteration_flag": " ",
-            "transmission_identification": "C170"
+            "transmission_identification": "C255"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "29-CU-0(P,X)27-CO-58-G,M-,SIG",
+                "code": "29-CU-0(P,X)27-CO-58-G,,SIG",
                 "code_unit": [
                   {
-                    "unit": "29-CU-0(P,X)27-CO-58-G,M-,SIG",
+                    "unit": "29-CU-0(P,X)27-CO-58-G,,SIG",
                     "field": {
                       "reaction": "29-CU-0(P,X)27-CO-58-G",
                       "target": "29-CU-0",
                       "projectile": "P",
                       "process": "X",
                       "product": "27-CO-58-G",
-                      "quantity": "M-,SIG",
+                      "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "M-,SIG"
+                      "quantity_236": ",SIG"
                     }
                   }
                 ],
@@ -1142,11 +1153,38 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.A.Graves+",
+                "reference": {
+                  "code": "J,NIM/B,386,44,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "386",
+                      "part": null,
+                      "issue": null,
+                      "page": "44"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Table 2 of Nucl.Instrum.Meth.B386(2016)44"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260307,
+                "history": "A"
+              },
+              "free_text": [
+                " REACTION SF5 deleted."
               ]
             }
           ],

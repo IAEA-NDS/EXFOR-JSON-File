@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:48:16+0000",
+  "time_stamp": "2026-05-22T21:18:20+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C2008",
-        "N2": 20130524,
+        "N2": 20260309,
         "alteration_flag": " ",
-        "transmission_identification": "C132"
+        "transmission_identification": "C255"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C2008001",
-            "N2": 20130524,
+            "N2": 20260309,
             "alteration_flag": " ",
-            "transmission_identification": "C132"
+            "transmission_identification": "C255"
           },
           "BIB": {
             "N1": 12,
@@ -80,7 +80,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1139/v63-320"
               ]
             }
           ],
@@ -132,7 +133,7 @@
               "pointer": "",
               "coded_information": [
                 "ACTIV",
-                "RCHEM"
+                "CHSEP"
               ],
               "free_text": [
                 " Activation method with radiochemical",
@@ -300,6 +301,16 @@
               },
               "free_text": [
                 " Compiled by S.H."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260307,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. Corrections in subs.5,17"
               ]
             }
           ],
@@ -803,32 +814,32 @@
         {
           "SUBENT": {
             "N1": "C2008005",
-            "N2": 20130524,
+            "N2": 20260309,
             "alteration_flag": " ",
-            "transmission_identification": "C132"
+            "transmission_identification": "C255"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "23-V-51(P,X)23-V-48,IND,SIG",
+                "code": "23-V-51(P,X)23-V-48,,SIG",
                 "code_unit": [
                   {
-                    "unit": "23-V-51(P,X)23-V-48,IND,SIG",
+                    "unit": "23-V-51(P,X)23-V-48,,SIG",
                     "field": {
                       "reaction": "23-V-51(P,X)23-V-48",
                       "target": "23-V-51",
                       "projectile": "P",
                       "process": "X",
                       "product": "23-V-48",
-                      "quantity": "IND,SIG",
+                      "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "IND,SIG"
+                      "quantity_236": ",SIG"
                     }
                   }
                 ],
@@ -836,22 +847,6 @@
               },
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Data taken from tab. 2 of the reference"
               ]
             }
           ],
@@ -868,7 +863,7 @@
                 "radiation": [
                   {
                     "radiation_type": [
-                      "AR"
+                      "DG"
                     ],
                     "energy": [
                       986.0
@@ -877,10 +872,10 @@
                   },
                   {
                     "radiation_type": [
-                      "DG"
+                      "AR"
                     ],
                     "energy": [
-                      0.511
+                      511.0
                     ],
                     "intensity": 0.55
                   }
@@ -888,6 +883,58 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for 48Cr decay contribution"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "S.Hontzeas+",
+                "reference": {
+                  "code": "J,CJC,41,2194,1963",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CJC",
+                      "number": null,
+                      "volume": "41",
+                      "part": null,
+                      "issue": null,
+                      "page": "2194"
+                    },
+                    "date": 1963
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data taken from tab. 2 of the reference"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260307,
+                "history": "A"
+              },
+              "free_text": [
+                " DECAY-DATA corrected, REACTION code updated"
               ]
             }
           ],
@@ -2506,12 +2553,12 @@
         {
           "SUBENT": {
             "N1": "C2008017",
-            "N2": 20130524,
+            "N2": 20260309,
             "alteration_flag": " ",
-            "transmission_identification": "C132"
+            "transmission_identification": "C255"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -2539,22 +2586,6 @@
               },
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Data taken from tab. 3 of the reference"
               ]
             }
           ],
@@ -2591,6 +2622,59 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "CRITIQUE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The measured 34mCl productions are due to Ca(p,x)34mCl",
+                "originated from 0.04% impurity of Ca. (A.Konobeev)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "S.Hontzeas+",
+                "reference": {
+                  "code": "J,CJC,41,2194,1963",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CJC",
+                      "number": null,
+                      "volume": "41",
+                      "part": null,
+                      "issue": null,
+                      "page": "2194"
+                    },
+                    "date": 1963
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data taken from tab. 3 of the reference"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260307,
+                "history": "A"
+              },
+              "free_text": [
+                " CRITIQUE added"
               ]
             }
           ],

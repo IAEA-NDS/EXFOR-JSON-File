@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:34:41+0000",
+  "time_stamp": "2026-05-22T21:18:16+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C0880",
-        "N2": 20020822,
+        "N2": 20260309,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "C255"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C0880001",
-            "N2": 20020822,
+            "N2": 20260309,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C255"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 13,
             "N2": 0
           },
           "INSTITUTE": [
@@ -42,10 +42,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,PR/C,66,014606,200207",
+                "code": "J,PR/C,66,014606,2002",
                 "code_unit": [
                   {
-                    "unit": "J,PR/C,66,014606,200207",
+                    "unit": "J,PR/C,66,014606,2002",
                     "doi": "10.1103/PhysRevC.66.014606",
                     "field": {
                       "reference_type": "J",
@@ -57,23 +57,24 @@
                         "issue": null,
                         "page": "014606"
                       },
-                      "date": 200207
+                      "date": 2002
                     }
                   }
                 ],
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1103/PhysRevC.66.014606"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,PR/C,63,024608,200102",
+                "code": "J,PR/C,63,024608,2001",
                 "code_unit": [
                   {
-                    "unit": "J,PR/C,63,024608,200102",
+                    "unit": "J,PR/C,63,024608,2001",
                     "doi": "10.1103/PhysRevC.63.024608",
                     "field": {
                       "reference_type": "J",
@@ -85,14 +86,43 @@
                         "issue": null,
                         "page": "024608"
                       },
-                      "date": 200102
+                      "date": 2001
                     }
                   }
                 ],
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " 0 degree data."
+                " 0 degree data.",
+                "#doi:10.1103/PhysRevC.63.024608"
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "O",
+                "subentry_number": "C0804002",
+                "author": "X.Wang+",
+                "reference": {
+                  "code": "J,PR/C,63,024608,2001",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "63",
+                      "part": null,
+                      "issue": null,
+                      "page": "024608"
+                    },
+                    "date": 2001
+                  }
+                }
+              },
+              "free_text": [
+                " 160 MeV data"
               ]
             }
           ],
@@ -234,22 +264,22 @@
                 "reference": null
               },
               "free_text": [
-                " Approved by J. Rapaport, 25 June 2002.",
-                "Data received by email from J. Rapaport, 16 May 2002."
+                " Approved by J. Rapaport, 25 June 2002."
               ]
             },
             {
               "pointer": "",
               "coded_information": {
                 "status": [
-                  "COREL"
+                  "TABLE"
                 ],
-                "subentry_number": "C0804001",
+                "subentry_number": null,
                 "author": null,
                 "reference": null
               },
               "free_text": [
-                ""
+                " Data received by email from J. Rapaport,",
+                " 16 May 2002."
               ]
             }
           ],
@@ -262,6 +292,16 @@
               },
               "free_text": [
                 " VM"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260306,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. Major changes in sub.2; REL-REF added"
               ]
             }
           ],
@@ -297,32 +337,32 @@
         {
           "SUBENT": {
             "N1": "C0880002",
-            "N2": 20020603,
+            "N2": 20260309,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C255"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "6-C-13(P,N)7-N-13,,DA/DE,,FCT",
+                "code": "6-C-13(P,N)7-N-13,ICL,DA/DE,N/RSD,FCT",
                 "code_unit": [
                   {
-                    "unit": "6-C-13(P,N)7-N-13,,DA/DE,,FCT",
+                    "unit": "6-C-13(P,N)7-N-13,ICL,DA/DE,N/RSD,FCT",
                     "field": {
                       "reaction": "6-C-13(P,N)7-N-13",
                       "target": "6-C-13",
                       "projectile": "P",
                       "process": "N",
                       "product": "7-N-13",
-                      "quantity": ",DA/DE",
+                      "quantity": "ICL,DA/DE,N/RSD",
                       "data_type": null,
                       "general_quantity_modifier": "FCT",
-                      "quantity_236": ",DA/DE"
+                      "quantity_236": "ICL,DA/DE,*/*"
                     }
                   }
                 ],
@@ -330,11 +370,20 @@
               },
               "free_text": [
                 "",
-                " Units given are mb/sr/100 keV."
+                " Data originally given in units mb/sr/100 keV."
               ]
             }
           ],
           "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Absolute uncertainties include also a 7% uncertainty",
+                " due to uncertainty in target thickness, enrichment of",
+                " 13C, and neutron polarimeter efficiency."
+              ]
+            },
             {
               "pointer": "",
               "coded_information": {
@@ -344,10 +393,20 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Statistical uncertainties given.",
-                " Absolute uncertainties include also a 7% uncertainty",
-                " due to uncertainty in target thickness, enrichment of",
-                " 13C, and neutron polarimeter efficiency."
+                " Statistical uncertainties given."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260306,
+                "history": "A"
+              },
+              "free_text": [
+                " REACTION and data units changed, minor",
+                "change in ERR-ANALYS"
               ]
             }
           ],
@@ -377,8 +436,8 @@
             "unit": [
               "ADEG",
               "MEV",
-              "NO-DIM",
-              "NO-DIM"
+              "MB/SR/MEV",
+              "MB/SR/MEV"
             ],
             "value": [
               [

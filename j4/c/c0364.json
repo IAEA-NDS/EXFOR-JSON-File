@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:27:43+0000",
+  "time_stamp": "2026-05-22T21:18:16+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "C0364",
-        "N2": 20220824,
+        "N2": 20260309,
         "alteration_flag": " ",
-        "transmission_identification": "C218"
+        "transmission_identification": "C255"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "C0364001",
-            "N2": 20220824,
+            "N2": 20260309,
             "alteration_flag": " ",
-            "transmission_identification": "C218"
+            "transmission_identification": "C255"
           },
           "BIB": {
             "N1": 14,
@@ -58,7 +58,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1103/PhysRev.115.1053"
               ]
             }
           ],
@@ -207,12 +208,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.T.Hunter+",
+                "reference": {
+                  "code": "J,PR,115,1053,1959",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "115",
+                      "part": null,
+                      "issue": null,
+                      "page": "1053"
+                    },
+                    "date": 1959
+                  }
+                }
               },
               "free_text": [
-                " Data taken from PR,115,1053,1959--Tables I and",
-                " II."
+                "",
+                " Data taken from PR,115,1053,1959--Tables I and II."
               ]
             }
           ],
@@ -268,6 +283,16 @@
               "free_text": [
                 " OS. DECAY-DATA corrections in subs.2,3,5"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260306,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. DECAY-DATA correction in sub.2"
+              ]
             }
           ],
           "ENDBIB": {
@@ -306,9 +331,9 @@
         {
           "SUBENT": {
             "N1": "C0364002",
-            "N2": 20220824,
+            "N2": 20260309,
             "alteration_flag": " ",
-            "transmission_identification": "C218"
+            "transmission_identification": "C255"
           },
           "BIB": {
             "N1": 3,
@@ -814,10 +839,10 @@
               "pointer": "",
               "coded_information": {
                 "flag": 32.0,
-                "nuclide": "79-AU-196-M",
+                "nuclide": "79-AU-196-G",
                 "half-life": {
-                  "value": 14.0,
-                  "unit": "HR"
+                  "value": 5.6,
+                  "unit": "D"
                 },
                 "radiation": []
               },
@@ -876,6 +901,17 @@
               "free_text": [
                 " DECAY-DATA: radiation type fields deleted,",
                 " compiler's comment added"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260306,
+                "history": "A"
+              },
+              "free_text": [
+                " DECAY-DATA. 1 isomer code and related",
+                "  half-life changed"
               ]
             }
           ],

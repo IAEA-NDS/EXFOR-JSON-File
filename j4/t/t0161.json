@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T01:10:52+0000",
+  "time_stamp": "2026-05-22T21:18:27+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "T0161",
-        "N2": 20010723,
+        "N2": 20260309,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "C255"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "T0161001",
-            "N2": 20010723,
+            "N2": 20260309,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "C255"
           },
           "BIB": {
             "N1": 13,
@@ -67,7 +67,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1016/0375-9474(81)90131-7"
               ]
             }
           ],
@@ -128,7 +129,8 @@
             {
               "pointer": "",
               "coded_information": [
-                "PSSCN"
+                "PS",
+                "SCIN"
               ],
               "free_text": [
                 " Tritons momentum analyzed in energy-loss",
@@ -194,6 +196,18 @@
                 " Uncertainty scanned from figures in",
                 "  reference."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Accuracy of overall normalization"
+              ]
             }
           ],
           "ADD-RES": [
@@ -224,10 +238,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "R.C.Weiss+",
+                "reference": {
+                  "code": "J,NP/A,355,45,1981",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "355",
+                      "part": null,
+                      "issue": null,
+                      "page": "45"
+                    },
+                    "date": 1981
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data read from figures in reference at CAJAD."
               ]
             },
@@ -256,6 +285,16 @@
               "free_text": [
                 " SB+VM"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260307,
+                "history": "A"
+              },
+              "free_text": [
+                " OS. MONIT-ERR  ->  ERR-1"
+              ]
             }
           ],
           "ENDBIB": {
@@ -273,7 +312,7 @@
             "heading": [
               "EN",
               "ANG-NRM",
-              "MONIT-ERR"
+              "ERR-1"
             ],
             "unit": [
               "MEV",
