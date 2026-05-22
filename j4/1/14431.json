@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T20:01:46+0000",
+  "time_stamp": "2026-05-22T21:27:33+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "14431",
-        "N2": 20171113,
+        "N2": 20260317,
         "alteration_flag": " ",
-        "transmission_identification": "1436"
+        "transmission_identification": "1528"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "14431001",
-            "N2": 20171113,
+            "N2": 20260317,
             "alteration_flag": " ",
-            "transmission_identification": "1436"
+            "transmission_identification": "1528"
           },
           "BIB": {
-            "N1": 9,
+            "N1": 10,
             "N2": 0
           },
           "TITLE": [
@@ -103,7 +103,7 @@
               ],
               "free_text": [
                 " Fission Fragments were counted in the fast",
-                "ionisation chamber. The chamber was filled with an",
+                "ionization chamber. The chamber was filled with an",
                 "Ar+10%C02 mixture up to 1.2 bar."
               ]
             }
@@ -116,11 +116,12 @@
                 "PSD"
               ],
               "free_text": [
-                " Time of flight was used to determine neutron",
-                "energy, pulse shape discrimination was used to",
-                "distinguish between detected neutrons and gamma rays.",
-                "More than 70 short run measurements with total",
-                "measurement time of 4500 hr were made within 4 years."
+                " DYnamic THreshold method (DYTH method):",
+                "Time of flight was used to determine neutron energy,",
+                "pulse shape discrimination was used to distinguish",
+                "between detected neutrons and gamma rays. More than",
+                "70 short run measurements with total measurement time",
+                "of 4500 hr were made within 4 years."
               ]
             }
           ],
@@ -130,7 +131,7 @@
               "coded_information": null,
               "free_text": [
                 "Comment by Nikolay Kornilov (2015-07-31): Spectra for",
-                "each \"short runs\" were normalised in traditional way",
+                "each \"short runs\" were normalized in traditional way",
                 "for fragments count rate, solid angle, and measured",
                 "time. For verification of this procedure, ratios of",
                 "experimental data to Cf-standard were calculated. The",
@@ -147,13 +148,51 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
+                "heading": "ERR-S",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                " No information given"
+                " The error bars were found as a standard",
+                "deviation of data for each Run. From the discussion and",
+                "the AIACHNE (AI/ML Informed cAlifornium CHi Nuclear",
+                "data Experiment) analysis of the late Nikolay Kornilov",
+                "data, the uncertainties are statistical per his Ohio",
+                "University collaborator Dr. Thomas N. Massey analysis.",
+                "However, the estimated uncertainties of experimental",
+                "results are less than the error bars accepted for the",
+                "Cf standard. There are two possibilities:",
+                "1. The experimental data are correct (systematical",
+                "errors less than uncertainties of standard spectrum)",
+                "and the Cf standards should be re-evaluated taking into",
+                " account recommendation of this paper (for example the",
+                "linear deviation from the standard spectrum).",
+                "2. The deviation from the standard spectrum is due to",
+                "the systematical error of the DYTH method. In this case",
+                " one may estimate the uncertainties of the method.",
+                "Estimated uncertainties for the DYTH method:",
+                "E1-E2, MeV dS/S, %",
+                "< 3        3.0",
+                "3-7        2.0",
+                "7-10       2.5",
+                "10-13      4.0"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "APRVD"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Approved by Thomas N. Massey on March 16, 2026."
               ]
             }
           ],
@@ -177,6 +216,17 @@
               "free_text": [
                 " OS. REACTION updated in sub.2"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260313,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: Updated uncertainty information using",
+                "                the original author files."
+              ]
             }
           ],
           "ENDBIB": {
@@ -195,9 +245,9 @@
         {
           "SUBENT": {
             "N1": "14431002",
-            "N2": 20171113,
+            "N2": 20260317,
             "alteration_flag": " ",
-            "transmission_identification": "1436"
+            "transmission_identification": "1528"
           },
           "BIB": {
             "N1": 3,
@@ -239,11 +289,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "N.V.Kornilov",
+                "reference": {
+                  "code": "R,INDC(USA)-108,2015",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(USA)-",
+                      "number": "108",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 2015
+                  }
+                }
               },
               "free_text": [
-                " Data taken from tab. 6 of the reference"
+                " Table - 6",
+                "Data were provided by Th.N. Massey on July 16, 2024."
               ]
             }
           ],
@@ -257,6 +322,16 @@
               "free_text": [
                 " Added SF8=NPD"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260313,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: Updated STATUS, uncertainties."
+              ]
             }
           ],
           "ENDBIB": {
@@ -269,7 +344,7 @@
           },
           "DATA": {
             "N1": 3,
-            "N2": 90,
+            "N2": 91,
             "pointer": [
               "",
               "",
@@ -278,7 +353,7 @@
             "heading": [
               "E",
               "DATA",
-              "DATA-ERR"
+              "ERR-S"
             ],
             "unit": [
               "MEV",
@@ -286,6 +361,11 @@
               "1/MEV"
             ],
             "value": [
+              [
+                1.8,
+                0.2663,
+                0.00313
+              ],
               [
                 2.0,
                 0.244,

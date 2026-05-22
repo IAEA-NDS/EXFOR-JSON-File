@@ -1,31 +1,42 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:49:51+0000",
+  "time_stamp": "2026-05-22T21:27:33+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "13650",
-        "N2": 19970416,
+        "N2": 20260313,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "1528"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "13650001",
-            "N2": 19970416,
+            "N2": 20260313,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1528"
           },
           "BIB": {
-            "N1": 11,
+            "N1": 12,
             "N2": 0
           },
-          "INSTITUTE": [
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Measurement of the (n,H3) Cross Section in Nitrogen",
+                "and Its Relationship to the Tritium Production in the",
+                "Atmosphere"
+              ]
+            }
+          ],
+          "AUTHOR": [
             {
               "pointer": "",
               "coded_information": [
-                "1USABNL"
+                "E.L.Fireman"
               ],
               "free_text": [
                 ""
@@ -36,10 +47,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,PR,91,922,5308",
+                "code": "J,PR,91,922,1953",
                 "code_unit": [
                   {
-                    "unit": "J,PR,91,922,5308",
+                    "unit": "J,PR,91,922,1953",
                     "doi": "10.1103/PhysRev.91.922",
                     "field": {
                       "reference_type": "J",
@@ -51,36 +62,41 @@
                         "issue": null,
                         "page": "922"
                       },
-                      "date": 195308
+                      "date": 1953
                     }
                   }
                 ],
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1103/PhysRev.91.922"
               ]
             }
           ],
-          "AUTHOR": [
+          "INSTITUTE": [
             {
               "pointer": "",
               "coded_information": [
-                "E.L.FIREMAN"
+                "1USABNL"
               ],
               "free_text": [
                 ""
               ]
             }
           ],
-          "TITLE": [
+          "FACILITY": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": "1USABNL"
+              },
               "free_text": [
-                "Measurement of the (n,H3) Cross Section in Nitrogen and",
-                " Its Relationship to the Tritium Production in the",
-                " Atmosphere"
+                " The fission plate facility of the",
+                "Brookhaven reactor."
               ]
             }
           ],
@@ -93,25 +109,57 @@
               ]
             }
           ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "GEMUC",
+                "IOCH"
+              ],
+              "free_text": [
+                " Geiger counter and the cloud chamber."
+              ]
+            }
+          ],
           "SAMPLE": [
             {
               "pointer": "",
               "coded_information": null,
               "free_text": [
                 "Stainless steel container filled with mixture of",
-                " nitrogen and hydrogen, or nitrogen, hydrogen, and",
-                " ammonia."
+                "nitrogen and hydrogen, or nitrogen, hydrogen, and",
+                "ammonia."
               ]
             }
           ],
-          "DETECTOR": [
+          "METHOD": [
             {
               "pointer": "",
               "coded_information": [
-                "GEMUC"
+                "EXTB",
+                "CHSEP"
               ],
               "free_text": [
-                ""
+                " The stainless steel container was placed",
+                "in the fission plate facility. Most irradiations were",
+                "done with a 50-50 mixture of nitrogen and hydrogen.",
+                "The gas is irradiated for four or five days; the",
+                "container is not very radioactive upon removal so no",
+                "special handling precautions are necessary. The gas",
+                "is emptied directly from the container into an",
+                "expansion cloud chamber of 10-liter volume or into a",
+                "Bask connected to a palladium thimble and counter",
+                "filling system. In the 119-hour irradiation, the",
+                "mixture is let into the cloud chamber by bubbling",
+                "through a water tower. Titration of the water with",
+                "HC1 showed 99 percent of the NH3 to be trapped in the",
+                "water. In the 140-hour irradiation, the mixture",
+                "passes first through a liquid air trap and then",
+                "through a water tower into the chamber. Titration",
+                "showed 99 percent of the NH3 to be taken out in the",
+                "liquid air trap. This trapped NH3 is later decomposed",
+                "over hot Mg, passed through palladium, and put into a",
+                "Geiger counter."
               ]
             }
           ],
@@ -119,7 +167,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": null,
+                "heading": "MONIT1",
                 "reaction": {
                   "code": "16-S-32(N,P)15-P-32,,SIG,,FIS",
                   "code_unit": [
@@ -144,23 +192,48 @@
               "free_text": [
                 ""
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "MONIT2",
+                "reaction": {
+                  "code": "12-MG-24(N,P)11-NA-24,,SIG,,FIS",
+                  "code_unit": [
+                    {
+                      "unit": "12-MG-24(N,P)11-NA-24,,SIG,,FIS",
+                      "field": {
+                        "reaction": "12-MG-24(N,P)11-NA-24",
+                        "target": "12-MG-24",
+                        "projectile": "N",
+                        "process": "P",
+                        "product": "11-NA-24",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": "FIS",
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
             }
           ],
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
               "free_text": [
-                "No information."
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Data taken from article."
+                " No information on sources of uncertainties."
               ]
             }
           ],
@@ -168,11 +241,24 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 970416,
+                "date": 19970416,
                 "history": "C"
               },
               "free_text": [
                 ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260313,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: Updated to new date formats, lower",
+                "           case. Corrections according last EXFOR rules",
+                "            and Dict. Added FACILITY, METHOD, doi,",
+                "           individual irradiations."
               ]
             }
           ],
@@ -180,7 +266,31 @@
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 3,
+            "N2": 0,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "KT-DUMMY",
+              "MONIT1",
+              "MONIT2"
+            ],
+            "unit": [
+              "MEV",
+              "MB",
+              "MB"
+            ],
+            "value": [
+              1.32,
+              50.0,
+              1.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -192,12 +302,211 @@
         {
           "SUBENT": {
             "N1": "13650002",
-            "N2": 19970416,
+            "N2": 20260313,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1528"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "7-N-14(N,T)6-C-12,,SIG,,FIS/AV",
+                "code_unit": [
+                  {
+                    "unit": "7-N-14(N,T)6-C-12,,SIG,,FIS/AV",
+                    "field": {
+                      "reaction": "7-N-14(N,T)6-C-12",
+                      "target": "7-N-14",
+                      "projectile": "N",
+                      "process": "T",
+                      "product": "6-C-12",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS/AV",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The average of the five runs."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "13650003",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "13650004",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "13650005",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "13650006",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "13650007",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "E.L.Fireman",
+                "reference": {
+                  "code": "J,PR,91,922,1953",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "91",
+                      "part": null,
+                      "issue": null,
+                      "page": "922"
+                    },
+                    "date": 1953
+                  }
+                }
+              },
+              "free_text": [
+                " Page - 925"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260313,
+                "history": "A"
+              },
+              "free_text": [
+                " BP: Updated entry."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                11.0,
+                2.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "13650003",
+            "N2": 20260313,
+            "alteration_flag": " ",
+            "transmission_identification": "1528"
+          },
+          "BIB": {
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -228,6 +537,57 @@
               ]
             }
           ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "50% of N2 and 50% of H2."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "E.L.Fireman",
+                "reference": {
+                  "code": "J,PR,91,922,1953",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "91",
+                      "part": null,
+                      "issue": null,
+                      "page": "922"
+                    },
+                    "date": 1953
+                  }
+                }
+              },
+              "free_text": [
+                " Table - I"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260313,
+                "history": "C"
+              },
+              "free_text": [
+                " BP"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
@@ -237,32 +597,562 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 4,
+            "N1": 2,
             "N2": 1,
             "pointer": [
-              "",
-              "",
               "",
               ""
             ],
             "heading": [
-              "EN-DUMMY",
               "DATA",
-              "DATA-ERR",
-              "MONIT"
+              "DATA-ERR"
             ],
             "unit": [
-              "MEV",
-              "MB",
               "MB",
               "MB"
             ],
             "value": [
               [
-                4.4,
-                11.0,
-                2.0,
-                50.0
+                10.7,
+                4.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "13650004",
+            "N2": 20260313,
+            "alteration_flag": " ",
+            "transmission_identification": "1528"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "7-N-14(N,T)6-C-12,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "7-N-14(N,T)6-C-12,,SIG,,FIS",
+                    "field": {
+                      "reaction": "7-N-14(N,T)6-C-12",
+                      "target": "7-N-14",
+                      "projectile": "N",
+                      "process": "T",
+                      "product": "6-C-12",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "50% of N2 and 50% of H2."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "E.L.Fireman",
+                "reference": {
+                  "code": "J,PR,91,922,1953",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "91",
+                      "part": null,
+                      "issue": null,
+                      "page": "922"
+                    },
+                    "date": 1953
+                  }
+                }
+              },
+              "free_text": [
+                " Table - I"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260313,
+                "history": "C"
+              },
+              "free_text": [
+                " BP"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                12.5,
+                2.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "13650005",
+            "N2": 20260313,
+            "alteration_flag": " ",
+            "transmission_identification": "1528"
+          },
+          "BIB": {
+            "N1": 4,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "7-N-14(N,T)6-C-12,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "7-N-14(N,T)6-C-12,,SIG,,FIS",
+                    "field": {
+                      "reaction": "7-N-14(N,T)6-C-12",
+                      "target": "7-N-14",
+                      "projectile": "N",
+                      "process": "T",
+                      "product": "6-C-12",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "50% of N2 and 50% of H2."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "E.L.Fireman",
+                "reference": {
+                  "code": "J,PR,91,922,1953",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "91",
+                      "part": null,
+                      "issue": null,
+                      "page": "922"
+                    },
+                    "date": 1953
+                  }
+                }
+              },
+              "free_text": [
+                " Table - I"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260313,
+                "history": "C"
+              },
+              "free_text": [
+                " BP"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                11.6,
+                2.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "13650006",
+            "N2": 20260313,
+            "alteration_flag": " ",
+            "transmission_identification": "1528"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "7-N-14(N,T)6-C-12,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "7-N-14(N,T)6-C-12,,SIG,,FIS",
+                    "field": {
+                      "reaction": "7-N-14(N,T)6-C-12",
+                      "target": "7-N-14",
+                      "projectile": "N",
+                      "process": "T",
+                      "product": "6-C-12",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "50% of N2, 48.5% of H2, and 1.5% NH3."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "In the last two irradiations 10 percent need be added",
+                "to the cross section to account for the tritium",
+                "trapped in the NH3."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "E.L.Fireman",
+                "reference": {
+                  "code": "J,PR,91,922,1953",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "91",
+                      "part": null,
+                      "issue": null,
+                      "page": "922"
+                    },
+                    "date": 1953
+                  }
+                }
+              },
+              "free_text": [
+                " Table - I"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260313,
+                "history": "C"
+              },
+              "free_text": [
+                " BP"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                8.5,
+                2.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "13650007",
+            "N2": 20260313,
+            "alteration_flag": " ",
+            "transmission_identification": "1528"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "7-N-14(N,T)6-C-12,,SIG,,FIS",
+                "code_unit": [
+                  {
+                    "unit": "7-N-14(N,T)6-C-12,,SIG,,FIS",
+                    "field": {
+                      "reaction": "7-N-14(N,T)6-C-12",
+                      "target": "7-N-14",
+                      "projectile": "N",
+                      "process": "T",
+                      "product": "6-C-12",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": "FIS",
+                      "quantity_236": ",SIG"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "50% of N2, 48.5% of H2, and 1.5% NH3."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "In the last two irradiations 10 percent need be added",
+                "to the cross section to account for the tritium",
+                "trapped in the NH3."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "E.L.Fireman",
+                "reference": {
+                  "code": "J,PR,91,922,1953",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR",
+                      "number": null,
+                      "volume": "91",
+                      "part": null,
+                      "issue": null,
+                      "page": "922"
+                    },
+                    "date": 1953
+                  }
+                }
+              },
+              "free_text": [
+                " Table - I"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260313,
+                "history": "C"
+              },
+              "free_text": [
+                " BP"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 1,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MB",
+              "MB"
+            ],
+            "value": [
+              [
+                9.3,
+                2.0
               ]
             ]
           },
@@ -277,7 +1167,7 @@
         }
       ],
       "ENDENTRY": {
-        "N1": 2,
+        "N1": 7,
         "N2": 0
       }
     }
