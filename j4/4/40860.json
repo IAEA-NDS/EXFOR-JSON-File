@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:57:17+0000",
+  "time_stamp": "2026-05-22T20:53:15+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "40860",
-        "N2": 20231226,
+        "N2": 20251006,
         "alteration_flag": " ",
-        "transmission_identification": "4216"
+        "transmission_identification": "4226"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "40860001",
-            "N2": 20231226,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4216"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 11,
@@ -26,9 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                " Total neutron cross-sections for radioactive isotope",
-                " Gd-153 (half-life = 241.6 days) and stable isotope",
-                " Gd-152"
+                " Total neutron cross sections of radioactive 153Gd",
+                "and stable 152Gd"
               ]
             }
           ],
@@ -36,11 +35,11 @@
             {
               "pointer": "",
               "coded_information": [
-                "V.P.Vertebnyy",
+                "V.P.Vertebnyi",
                 "P.N.Vorona",
                 "A.I.Kal'chenko",
                 "V.G.Krivenko",
-                "V.Yu.Chervjakov"
+                "V.Yu.Chervyakov"
               ],
               "free_text": [
                 ""
@@ -108,10 +107,26 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "C,83KIEV,3,43,198310",
+                "code": "(S,INDC(CCP)-235,(3),43,1984)=(C,83KIEV,3,43,1983)",
                 "code_unit": [
                   {
-                    "unit": "C,83KIEV,3,43,198310",
+                    "unit": "S,INDC(CCP)-235,(3),43,1984",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "S",
+                      "reference": {
+                        "code": "INDC(CCP)-",
+                        "number": "235",
+                        "volume": "(3)",
+                        "part": null,
+                        "issue": null,
+                        "page": "43"
+                      },
+                      "date": 1984
+                    }
+                  },
+                  {
+                    "unit": "C,83KIEV,3,43,1983",
                     "doi": null,
                     "field": {
                       "reference_type": "C",
@@ -123,11 +138,11 @@
                         "issue": null,
                         "page": "43"
                       },
-                      "date": 198310
+                      "date": 1983
                     }
                   }
                 ],
-                "unit_combination": "(%)"
+                "unit_combination": "((%)=(%))"
               },
               "free_text": [
                 "  Figures only."
@@ -219,6 +234,30 @@
                 "  Error due to the nuclei concentration",
                 "         uncertainty"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistical error"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total error"
+              ]
             }
           ],
           "STATUS": [
@@ -233,7 +272,7 @@
                 "reference": null
               },
               "free_text": [
-                "  Vertebnyy, 1985-05",
+                "  Vertebnyi, 1985-05",
                 " . This Entry 40860 supersedes Entry 40882."
               ]
             }
@@ -271,6 +310,17 @@
               "free_text": [
                 " Minor correction in Subent 001."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "A"
+              },
+              "free_text": [
+                " Ref. S,INDC(CCP)-235 was added.",
+                "STATUS was corrected for new rules."
+              ]
             }
           ],
           "ENDBIB": {
@@ -289,9 +339,9 @@
         {
           "SUBENT": {
             "N1": "40860002",
-            "N2": 20110713,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4153"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 2,
@@ -337,8 +387,8 @@
                 "reference": null
               },
               "free_text": [
-                " Data were received from V.Vertebnyj.",
-                "      Data are given on Fig.1v of J,AE,57,(4),260,1984"
+                " Data were received from V.Vertebnyi.",
+                "      Data are given on Fig.1c of J,AE,57,260,1984"
               ]
             }
           ],
@@ -642,9 +692,9 @@
         {
           "SUBENT": {
             "N1": "40860003",
-            "N2": 20110713,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4153"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -707,8 +757,8 @@
                 "reference": null
               },
               "free_text": [
-                " Data were received from V.Vertebnyj.",
-                "      Data are given on Fig.1v of J,AE,57,(4),260,1984"
+                " Data were received from V.Vertebnyi.",
+                "      Data are given on Fig.1c of J,AE,57,260,1984"
               ]
             }
           ],

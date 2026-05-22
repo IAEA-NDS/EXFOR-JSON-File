@@ -1,31 +1,44 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:52:52+0000",
+  "time_stamp": "2026-05-22T20:53:06+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "40363",
-        "N2": 20200929,
+        "N2": 20260115,
         "alteration_flag": " ",
-        "transmission_identification": "4191"
+        "transmission_identification": "4226"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "40363001",
-            "N2": 20200929,
+            "N2": 20260115,
             "alteration_flag": " ",
-            "transmission_identification": "4191"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 9,
             "N2": 0
           },
-          "INSTITUTE": [
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " The yield of U235 fission products in the rare-earth",
+                " region"
+              ]
+            }
+          ],
+          "AUTHOR": [
             {
               "pointer": "",
               "coded_information": [
-                "4RUSITE"
+                "V.K.Gorshkov",
+                "R.N.Ivanov",
+                "G.M.Kukavadze",
+                "I.A.Reformatsky"
               ],
               "free_text": [
                 ""
@@ -58,7 +71,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " Eng.transl.of AE,3,(7),11,1957"
+                " Eng.transl.of AE,3,11,1957"
               ]
             },
             {
@@ -118,27 +131,14 @@
               ]
             }
           ],
-          "AUTHOR": [
+          "INSTITUTE": [
             {
               "pointer": "",
               "coded_information": [
-                "V.K.Gorshkov",
-                "R.N.Ivanov",
-                "G.M.Kukavadze",
-                "I.A.Reformatsky"
+                "4RUSITE"
               ],
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "TITLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                " The yield of U-235 fission products in the rare-earth",
-                " region"
               ]
             }
           ],
@@ -195,7 +195,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Mass spectrograph"
+                "Mass spectrograph of resolution 1:800."
               ]
             }
           ],
@@ -264,29 +264,24 @@
                 " Ref. J,JNE,8,69,1958 was added.",
                 " Minor correction of free text."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260115,
+                "history": "A"
+              },
+              "free_text": [
+                " MONIT was moved in Subent 002.",
+                " STATUS was updated for new rules."
+              ]
             }
           ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 1,
-            "N2": 0,
-            "pointer": [
-              ""
-            ],
-            "heading": [
-              "MONIT"
-            ],
-            "unit": [
-              "PC/FIS"
-            ],
-            "value": [
-              3.2
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -298,9 +293,9 @@
         {
           "SUBENT": {
             "N1": "40363002",
-            "N2": 20200929,
+            "N2": 20260115,
             "alteration_flag": " ",
-            "transmission_identification": "4191"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 7,
@@ -393,7 +388,8 @@
                 "correlation_property": null
               },
               "free_text": [
-                "  Error is not specified"
+                " Type of uncertainty is not explained in the",
+                " article."
               ]
             }
           ],
@@ -405,11 +401,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.K.Gorshkov",
+                "reference": {
+                  "code": "J,SJA,3,729,1957",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SJA",
+                      "number": null,
+                      "volume": "3",
+                      "part": null,
+                      "issue": null,
+                      "page": "729"
+                    },
+                    "date": 1957
+                  }
+                }
               },
               "free_text": [
-                " Tbl. 1 from At.Energy,v.3,is.7,p.11,1957"
+                " Table 1."
               ]
             }
           ],
@@ -430,19 +440,23 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0,
             "pointer": [
+              "",
               ""
             ],
             "heading": [
-              "EN-DUMMY"
+              "EN-DUMMY",
+              "MONIT"
             ],
             "unit": [
-              "EV"
+              "EV",
+              "PC/FIS"
             ],
             "value": [
-              0.025
+              0.025,
+              3.2
             ]
           },
           "ENDCOMMON": {
@@ -551,9 +565,9 @@
         {
           "SUBENT": {
             "N1": "40363003",
-            "N2": 20200929,
+            "N2": 20260115,
             "alteration_flag": " ",
-            "transmission_identification": "4191"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 7,
@@ -618,9 +632,9 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Pm-147 neutron absorbtion cross-section was determined",
+                "Pm-147 neutron absorption cross-section was determined",
                 "by dividing equation (1) from equation (2) by measured",
-                "fission yields of Pm-147 and Nd-146, theier decay",
+                "fission yields of Pm-147 and Nd-146, their decay",
                 "constants, irradiation and cooling times."
               ]
             }
@@ -635,7 +649,8 @@
                 "correlation_property": null
               },
               "free_text": [
-                "  Error is not specified"
+                " Type of uncertainty is not explained in the",
+                " article."
               ]
             }
           ],
@@ -647,11 +662,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.K.Gorshkov",
+                "reference": {
+                  "code": "J,SJA,3,729,1957",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SJA",
+                      "number": null,
+                      "volume": "3",
+                      "part": null,
+                      "issue": null,
+                      "page": "729"
+                    },
+                    "date": 1957
+                  }
+                }
               },
               "free_text": [
-                " From the text of At.Energy,v.3,is.7,p.11,1957"
+                " Text page 731"
               ]
             }
           ],
@@ -663,7 +692,7 @@
                 "history": "A"
               },
               "free_text": [
-                " Reaction was corrected N,ANS -> N,G",
+                " Reaction was corrected N,ABS -> N,G",
                 "according to a comment from NDS, IAEA."
               ]
             }
@@ -714,9 +743,9 @@
         {
           "SUBENT": {
             "N1": "40363004",
-            "N2": 20200929,
+            "N2": 20260115,
             "alteration_flag": " ",
-            "transmission_identification": "4191"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 6,
@@ -764,10 +793,10 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Sm-147 absorbtion cross section was determined by",
+                "Sm-147 absorption cross section was determined by",
                 "solving equation (3) simultaneously with other",
                 "equations, analogous (1) and (2), using the measured",
-                "fission yields of Pm-147 and Sm-147, theier decay",
+                "fission yields of Pm-147 and Sm-147, their decay",
                 "constants, irradiation and cooling times."
               ]
             }
@@ -782,7 +811,8 @@
                 "correlation_property": null
               },
               "free_text": [
-                "  Error is not specified"
+                " Type of uncertainty is not explained in the",
+                " article."
               ]
             }
           ],
@@ -794,11 +824,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.K.Gorshkov",
+                "reference": {
+                  "code": "J,SJA,3,729,1957",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SJA",
+                      "number": null,
+                      "volume": "3",
+                      "part": null,
+                      "issue": null,
+                      "page": "729"
+                    },
+                    "date": 1957
+                  }
+                }
               },
               "free_text": [
-                " From the text of At.Energy,v.3,is.7,p.11,1957"
+                " Text page 732"
               ]
             }
           ],
@@ -861,12 +905,12 @@
         {
           "SUBENT": {
             "N1": "40363005",
-            "N2": 20200929,
+            "N2": 20260115,
             "alteration_flag": " ",
-            "transmission_identification": "4191"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -911,10 +955,25 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Sm-149 absorbtion cross section was determined by",
+                "Sm-149 absorption cross section was determined by",
                 "solving simultaneously equations, analogous (1) and (2)",
                 ",using the measured fission yields of Nd-146 and Sm-149",
-                ",theier decay constants, irradiation and cooling times."
+                ",their decay constants, irradiation and cooling times.4"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Type of uncertainty is not explained in the",
+                " article."
               ]
             }
           ],
@@ -926,11 +985,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.K.Gorshkov",
+                "reference": {
+                  "code": "J,SJA,3,729,1957",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SJA",
+                      "number": null,
+                      "volume": "3",
+                      "part": null,
+                      "issue": null,
+                      "page": "729"
+                    },
+                    "date": 1957
+                  }
+                }
               },
               "free_text": [
-                " From the text of At.Energy,v.3,is.7,p.11,1957"
+                " Text page 733"
               ]
             }
           ],
@@ -953,7 +1026,7 @@
               },
               "free_text": [
                 " DATA-ERR was added.",
-                " Reaction was corrected N,ANS -> N,G according to a",
+                " Reaction was corrected N,ABS -> N,G according to a",
                 "comment from NDS, IAEA."
               ]
             }
@@ -1004,12 +1077,12 @@
         {
           "SUBENT": {
             "N1": "40363006",
-            "N2": 20200929,
+            "N2": 20260115,
             "alteration_flag": " ",
-            "transmission_identification": "4191"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
@@ -1101,6 +1174,18 @@
               ]
             }
           ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Of compiler M.M.",
+                " Reaction was not coded as ratio",
+                " ELEM/MASS,CUM,FY / ELEM,CHG,FY",
+                " due to disagreement of N.Otsuka (NDS,IAEA)"
+              ]
+            }
+          ],
           "ERR-ANALYS": [
             {
               "pointer": "",
@@ -1111,7 +1196,8 @@
                 "correlation_property": null
               },
               "free_text": [
-                "  Error is not specified"
+                " Type of uncertainty is not explained in the",
+                " article."
               ]
             }
           ],
@@ -1123,11 +1209,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.K.Gorshkov",
+                "reference": {
+                  "code": "J,SJA,3,729,1957",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SJA",
+                      "number": null,
+                      "volume": "3",
+                      "part": null,
+                      "issue": null,
+                      "page": "729"
+                    },
+                    "date": 1957
+                  }
+                }
               },
               "free_text": [
-                " Tbl. 2 from At.Energy,v.3,is.7,p.11,1957"
+                " Table 2"
               ]
             }
           ],
@@ -1186,45 +1286,45 @@
             "value": [
               [
                 143.0,
-                0.248,
-                0.005,
-                0.25,
-                0.001
+                24.8,
+                0.5,
+                25.0,
+                0.1
               ],
               [
                 144.0,
-                0.286,
-                0.005,
-                0.285,
-                0.002
+                28.6,
+                0.5,
+                28.5,
+                0.2
               ],
               [
                 145.0,
-                0.188,
-                0.003,
-                0.188,
-                0.001
+                18.8,
+                0.3,
+                18.8,
+                0.1
               ],
               [
                 146.0,
-                0.155,
-                0.003,
-                0.153,
-                0.001
+                15.5,
+                0.3,
+                15.3,
+                0.1
               ],
               [
                 148.0,
-                0.082,
-                0.003,
-                0.083,
-                0.001
+                8.2,
+                0.3,
+                8.3,
+                0.1
               ],
               [
                 150.0,
-                0.041,
-                0.002,
-                0.046,
-                0.001
+                4.1,
+                0.2,
+                4.6,
+                0.1
               ]
             ]
           },
@@ -1240,12 +1340,12 @@
         {
           "SUBENT": {
             "N1": "40363007",
-            "N2": 20200929,
+            "N2": 20260115,
             "alteration_flag": " ",
-            "transmission_identification": "4191"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
@@ -1304,6 +1404,18 @@
               ]
             }
           ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Of compiler M.M.",
+                " Reaction was not coded as ratio",
+                " ELEM/MASS,CUM,FY / ELEM,CHG,FY",
+                " due to disagreement of N.Otsuka (NDS,IAEA)"
+              ]
+            }
+          ],
           "ERR-ANALYS": [
             {
               "pointer": "",
@@ -1314,7 +1426,8 @@
                 "correlation_property": null
               },
               "free_text": [
-                "  Error is not specified"
+                " Type of uncertainty is not explained in the",
+                " article."
               ]
             }
           ],
@@ -1326,11 +1439,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.K.Gorshkov",
+                "reference": {
+                  "code": "J,SJA,3,729,1957",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SJA",
+                      "number": null,
+                      "volume": "3",
+                      "part": null,
+                      "issue": null,
+                      "page": "729"
+                    },
+                    "date": 1957
+                  }
+                }
               },
               "free_text": [
-                " Tbl. 3 from At.Energy,v.3,is.7,p.11,1957"
+                " Table 3"
               ]
             }
           ],
@@ -1383,23 +1510,23 @@
             "value": [
               [
                 147.0,
-                0.4,
-                0.03
+                40.0,
+                3.0
               ],
               [
                 148.0,
-                0.15,
-                0.02
+                15.0,
+                2.0
               ],
               [
                 150.0,
-                0.38,
-                0.03
+                38.0,
+                3.0
               ],
               [
                 152.0,
-                0.07,
-                0.02
+                7.0,
+                2.0
               ]
             ]
           },
@@ -1415,9 +1542,9 @@
         {
           "SUBENT": {
             "N1": "40363008",
-            "N2": 20200929,
+            "N2": 20260115,
             "alteration_flag": " ",
-            "transmission_identification": "4191"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 6,
@@ -1502,7 +1629,8 @@
                 "correlation_property": null
               },
               "free_text": [
-                "  Error is not specified"
+                " Type of uncertainty is not explained in the",
+                " article."
               ]
             }
           ],
@@ -1514,11 +1642,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.K.Gorshkov",
+                "reference": {
+                  "code": "J,SJA,3,729,1957",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SJA",
+                      "number": null,
+                      "volume": "3",
+                      "part": null,
+                      "issue": null,
+                      "page": "729"
+                    },
+                    "date": 1957
+                  }
+                }
               },
               "free_text": [
-                " Text,page 732 of Sov.At.Energy,v.3,p.729,1957"
+                " Text page 732."
               ]
             }
           ],

@@ -1,31 +1,47 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:57:03+0000",
+  "time_stamp": "2026-05-22T20:53:12+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "40831",
-        "N2": 20191214,
+        "N2": 20251006,
         "alteration_flag": " ",
-        "transmission_identification": "4185"
+        "transmission_identification": "4226"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "40831001",
-            "N2": 20191214,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4185"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 8,
             "N2": 0
           },
-          "INSTITUTE": [
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Measurement of the fission cross-section ratio",
+                " 238U/235U for fast neutrons"
+              ]
+            }
+          ],
+          "AUTHOR": [
             {
               "pointer": "",
               "coded_information": [
-                "4RUSFEI"
+                "A.A.Goverdovskii",
+                "A.K.Gordyushin",
+                "B.D.Kuz'minov",
+                "V.F.Mitrofanov",
+                "A.I.Sergachev",
+                "A.I.Solov'ev",
+                "S.M.Soloshenkov"
               ],
               "free_text": [
                 ""
@@ -36,7 +52,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "(C,83KIEV,2,159,1983)=(R,INDC(CCP)-235,159,1984)",
+                "code": "(C,83KIEV,2,159,1983)=(S,INDC(CCP)-235,(2),159,1984)",
                 "code_unit": [
                   {
                     "unit": "C,83KIEV,2,159,1983",
@@ -55,14 +71,14 @@
                     }
                   },
                   {
-                    "unit": "R,INDC(CCP)-235,159,1984",
+                    "unit": "S,INDC(CCP)-235,(2),159,1984",
                     "doi": null,
                     "field": {
-                      "reference_type": "R",
+                      "reference_type": "S",
                       "reference": {
                         "code": "INDC(CCP)-",
                         "number": "235",
-                        "volume": null,
+                        "volume": "(2)",
                         "part": null,
                         "issue": null,
                         "page": "159"
@@ -192,30 +208,14 @@
               ]
             }
           ],
-          "AUTHOR": [
+          "INSTITUTE": [
             {
               "pointer": "",
               "coded_information": [
-                "A.A.Goverdovskii",
-                "A.K.Gordyushin",
-                "B.D.Kuz'minov",
-                "V.F.Mitrofanov",
-                "A.I.Sergachev",
-                "A.I.Solov'ev",
-                "S.M.Soloshenkov"
+                "4RUSFEI"
               ],
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "TITLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                " Measurement of the fission cross-section ratio",
-                " U-238/U-235  for fast neutrons"
               ]
             }
           ],
@@ -275,7 +275,7 @@
                 " M.M. Upper -> lower case correction.",
                 " Dates were corrected for 4-digits year.",
                 " Refs. SJA,56,173,1984 , SJA,56,176,1984 ,",
-                " INDC(CCP)-235,159,1984 were added.",
+                " INDC(CCP)-235,(2),159,1984 were added.",
                 " BIB information was added.",
                 " COMMENT was added."
               ]
@@ -288,6 +288,17 @@
               },
               "free_text": [
                 " Minor correction in Subent 004 Status."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "A"
+              },
+              "free_text": [
+                " Ref. S,INDC(CCP)-235 was corrected.",
+                "STATUS was corrected for new rules."
               ]
             }
           ],
@@ -307,9 +318,9 @@
         {
           "SUBENT": {
             "N1": "40831002",
-            "N2": 20180323,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 7,
@@ -377,9 +388,9 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                " Sample  number  2 contains  6.864 % of U-235,",
+                " Sample number 2 contains 6.864 % of U-235,",
                 "        0.020 % of U-236, 93.116 % of U-238 .",
-                "  3-d sample contains  3.213 % of U-235,",
+                "  3-d sample contains 3.213 % of U-235,",
                 "        0.007 % of U-236, 96.78 % U-238 ."
               ]
             }
@@ -435,11 +446,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.A.Goverdovskii",
+                "reference": {
+                  "code": "J,SJA,56,173,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SJA",
+                      "number": null,
+                      "volume": "56",
+                      "part": null,
+                      "issue": null,
+                      "page": "173"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of AE,56,(3),162,1984"
+                " Table 1"
               ]
             }
           ],
@@ -499,9 +524,9 @@
         {
           "SUBENT": {
             "N1": "40831003",
-            "N2": 20180323,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 10,
@@ -706,7 +731,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                "  Error due to the  total deceleration",
+                "  Error due to the total deceleration",
                 "         of the fragments in the layer"
               ]
             },
@@ -773,7 +798,7 @@
                 "reference": null
               },
               "free_text": [
-                "  Gordjushin, 1984-12-20"
+                "  Gordyushin, 1984-12-20"
               ]
             },
             {
@@ -783,11 +808,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.A.Goverdovskii",
+                "reference": {
+                  "code": "J,SJA,56,173,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SJA",
+                      "number": null,
+                      "volume": "56",
+                      "part": null,
+                      "issue": null,
+                      "page": "173"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                "  Table 2 of SJA,56,173,1984",
+                " Table 2",
                 "Table 3 of 83KIEV,2,159,1983 - data for",
                 "EN=5.44-14.76 MeV ."
               ]
@@ -1073,9 +1112,9 @@
         {
           "SUBENT": {
             "N1": "40831004",
-            "N2": 20191214,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4185"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 9,
@@ -1332,7 +1371,7 @@
                 "reference": null
               },
               "free_text": [
-                "  Gordjushin, 1984-12-20"
+                "  Gordyushin, 1984-12-20"
               ]
             },
             {
@@ -1342,11 +1381,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.A.Goverdovskii",
+                "reference": {
+                  "code": "J,SJA,56,176,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SJA",
+                      "number": null,
+                      "volume": "56",
+                      "part": null,
+                      "issue": null,
+                      "page": "176"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of Sov.J.Atom.Energy 56(1984)176,",
+                " Table 1",
                 "Table 3 of Conf.Proc.83KIEV,v.2,p.159,1983 - data for",
                 "EN=5.44-14.76 MeV ."
               ]

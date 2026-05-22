@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:57:25+0000",
+  "time_stamp": "2026-05-22T20:53:16+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "40874",
-        "N2": 20110125,
+        "N2": 20251006,
         "alteration_flag": " ",
-        "transmission_identification": "4153"
+        "transmission_identification": "4226"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "40874001",
-            "N2": 20110125,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4153"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 10,
@@ -36,10 +36,26 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "C,83KIEV,2,298,198310",
+                "code": "(S,INDC(CCP)-235,(2),298,1984)=(C,83KIEV,2,298,1983)",
                 "code_unit": [
                   {
-                    "unit": "C,83KIEV,2,298,198310",
+                    "unit": "S,INDC(CCP)-235,(2),298,1984",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "S",
+                      "reference": {
+                        "code": "INDC(CCP)-",
+                        "number": "235",
+                        "volume": "(2)",
+                        "part": null,
+                        "issue": null,
+                        "page": "298"
+                      },
+                      "date": 1984
+                    }
+                  },
+                  {
+                    "unit": "C,83KIEV,2,298,1983",
                     "doi": null,
                     "field": {
                       "reference_type": "C",
@@ -51,11 +67,11 @@
                         "issue": null,
                         "page": "298"
                       },
-                      "date": 198310
+                      "date": 1983
                     }
                   }
                 ],
-                "unit_combination": "(%)"
+                "unit_combination": "((%)=(%))"
               },
               "free_text": [
                 ""
@@ -201,8 +217,19 @@
               },
               "free_text": [
                 " Entry corrected according to comments of",
-                " V.Pronyaev (CJD) and NDS IAEA.",
+                " V.Pronyaev (CJD) and NDS,IAEA.",
                 "     A.A.Bojcov -> A.A.Boytsov."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "A"
+              },
+              "free_text": [
+                " Ref. S,INDC(CCP)-235 was added.",
+                "STATUS was corrected for new rules."
               ]
             }
           ],

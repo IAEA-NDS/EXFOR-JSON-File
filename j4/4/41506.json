@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:02:27+0000",
+  "time_stamp": "2026-05-22T20:53:19+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "41506",
-        "N2": 20120120,
+        "N2": 20260206,
         "alteration_flag": " ",
-        "transmission_identification": "Y008"
+        "transmission_identification": "4226"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "41506001",
-            "N2": 20120120,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "Y008"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 16,
+            "N1": 15,
             "N2": 0
           },
           "TITLE": [
@@ -27,10 +27,10 @@
               "coded_information": null,
               "free_text": [
                 " Measurement of absolute intensities of some prompt",
-                " gamma-lines from the Zr-41, Nd-143, Hf-177 and",
-                "Sn-116, -118, -119, -120, -122, -124 (n,gamma)",
-                "reactions and isomeric cross-sections of Sn-123m, -125m",
-                "by in-beam gamma-spectroscopy method."
+                " gamma-lines from the 91Zr, 143Nd, 177Hf and",
+                "116, 118-120, 122, 124Sn (n,gamma) reactions and",
+                "isomeric cross-sections of 123m,125mSn by in-beam",
+                "gamma-spectroscopy method"
               ]
             }
           ],
@@ -231,6 +231,15 @@
               "free_text": [
                 " In-beam gamma-spectroscopy."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "MOMIX"
+              ],
+              "free_text": [
+                ""
+              ]
             }
           ],
           "MONITOR": [
@@ -264,12 +273,12 @@
               ]
             }
           ],
-          "DECAY-DATA": [
+          "DECAY-MON": [
             {
               "pointer": "",
               "coded_information": {
-                "flag": null,
-                "nuclide": "13-AL-28-G",
+                "heading": null,
+                "nuclide": "13-AL-28",
                 "half-life": {
                   "value": 2.24,
                   "unit": "MIN"
@@ -287,7 +296,8 @@
                 ]
               },
               "free_text": [
-                ""
+                "",
+                "2.24+-0.01 min, 1778.988+-0.009 keV"
               ]
             }
           ],
@@ -299,7 +309,7 @@
                 "subentry_number": null,
                 "author": "Mughabghab+",
                 "reference": {
-                  "code": "B,NEUT.CS 1A,,1981",
+                  "code": "B,NEUT.CS 1A,,,1981",
                   "field": {
                     "reference_type": "B",
                     "reference": {
@@ -308,7 +318,7 @@
                       "volume": null,
                       "part": null,
                       "issue": null,
-                      "page": null,
+                      "page": "",
                       "version": null,
                       "material_number": null
                     },
@@ -331,36 +341,6 @@
                 " Ratio of areas of gamma-lines from n,gamma",
                 "spectra of isotope in question and standard was used to",
                 "determine absolute gamma-intensities or cross-sections."
-              ]
-            }
-          ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-1",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Experimental error consists  of errors of",
-                "  gamma-line areas measurement and gamma-efficiency of",
-                "  spectrometer."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-T",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Total error includes also isotope abundance and",
-                " neutron capture cross-section uncertainties of",
-                " normalization."
               ]
             }
           ],
@@ -394,6 +374,19 @@
               },
               "free_text": [
                 " NDS(VZ): REL-REF: ND/B->NDS in 011,012"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260206,
+                "history": "A"
+              },
+              "free_text": [
+                " DECAY-DATA: 13-AL-28-G -> 13-AL-28 .",
+                " Subent 012 reaction was corrected.",
+                " STATUS was updated for new rules.",
+                " ERR-ANALYS was moved in data Subents."
               ]
             }
           ],
@@ -441,12 +434,12 @@
         {
           "SUBENT": {
             "N1": "41506002",
-            "N2": 20080218,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "4143"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -511,6 +504,36 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Experimental error consists of errors of",
+                "  gamma-line areas measurement and gamma-efficiency of",
+                "  spectrometer."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total error includes also isotope abundance and",
+                " neutron capture cross-section uncertainties of",
+                " normalization."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -519,11 +542,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.I.Egorov+",
+                "reference": {
+                  "code": "J,ARI,65,1290,2007",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "65",
+                      "part": null,
+                      "issue": null,
+                      "page": "1290"
+                    },
+                    "date": 2007
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of reference."
+                " Table 1."
               ]
             }
           ],
@@ -581,12 +618,12 @@
         {
           "SUBENT": {
             "N1": "41506003",
-            "N2": 20080218,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "4143"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -651,6 +688,36 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Experimental error consists of errors of",
+                "  gamma-line areas measurement and gamma-efficiency of",
+                "  spectrometer."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total error includes also isotope abundance and",
+                " neutron capture cross-section uncertainties of",
+                " normalization."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -659,11 +726,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.I.Egorov+",
+                "reference": {
+                  "code": "J,ARI,65,1290,2007",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "65",
+                      "part": null,
+                      "issue": null,
+                      "page": "1290"
+                    },
+                    "date": 2007
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of reference."
+                " Table 1."
               ]
             }
           ],
@@ -728,12 +809,12 @@
         {
           "SUBENT": {
             "N1": "41506004",
-            "N2": 20080218,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "4143"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -798,6 +879,36 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Experimental error consists of errors of",
+                "  gamma-line areas measurement and gamma-efficiency of",
+                "  spectrometer."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total error includes also isotope abundance and",
+                " neutron capture cross-section uncertainties of",
+                " normalization."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -806,11 +917,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.I.Egorov+",
+                "reference": {
+                  "code": "J,ARI,65,1290,2007",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "65",
+                      "part": null,
+                      "issue": null,
+                      "page": "1290"
+                    },
+                    "date": 2007
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of reference."
+                " Table 1."
               ]
             }
           ],
@@ -868,12 +993,12 @@
         {
           "SUBENT": {
             "N1": "41506005",
-            "N2": 20080218,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "4143"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -936,6 +1061,36 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Experimental error consists of errors of",
+                "  gamma-line areas measurement and gamma-efficiency of",
+                "  spectrometer."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total error includes also isotope abundance and",
+                " neutron capture cross-section uncertainties of",
+                " normalization."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -944,11 +1099,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.I.Egorov+",
+                "reference": {
+                  "code": "J,ARI,65,1290,2007",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "65",
+                      "part": null,
+                      "issue": null,
+                      "page": "1290"
+                    },
+                    "date": 2007
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of reference."
+                " Table 2."
               ]
             }
           ],
@@ -1027,12 +1196,12 @@
         {
           "SUBENT": {
             "N1": "41506006",
-            "N2": 20080218,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "4143"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -1095,6 +1264,36 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Experimental error consists of errors of",
+                "  gamma-line areas measurement and gamma-efficiency of",
+                "  spectrometer."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total error includes also isotope abundance and",
+                " neutron capture cross-section uncertainties of",
+                " normalization."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -1103,11 +1302,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.I.Egorov+",
+                "reference": {
+                  "code": "J,ARI,65,1290,2007",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "65",
+                      "part": null,
+                      "issue": null,
+                      "page": "1290"
+                    },
+                    "date": 2007
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of reference."
+                " Table 2."
               ]
             }
           ],
@@ -1193,12 +1406,12 @@
         {
           "SUBENT": {
             "N1": "41506007",
-            "N2": 20080218,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "4143"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -1261,6 +1474,36 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Experimental error consists of errors of",
+                "  gamma-line areas measurement and gamma-efficiency of",
+                "  spectrometer."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total error includes also isotope abundance and",
+                " neutron capture cross-section uncertainties of",
+                " normalization."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -1269,11 +1512,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.I.Egorov+",
+                "reference": {
+                  "code": "J,ARI,65,1290,2007",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "65",
+                      "part": null,
+                      "issue": null,
+                      "page": "1290"
+                    },
+                    "date": 2007
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of reference."
+                " Table 2."
               ]
             }
           ],
@@ -1366,12 +1623,12 @@
         {
           "SUBENT": {
             "N1": "41506008",
-            "N2": 20080218,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "4143"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -1434,6 +1691,36 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Experimental error consists of errors of",
+                "  gamma-line areas measurement and gamma-efficiency of",
+                "  spectrometer."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total error includes also isotope abundance and",
+                " neutron capture cross-section uncertainties of",
+                " normalization."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -1442,11 +1729,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.I.Egorov+",
+                "reference": {
+                  "code": "J,ARI,65,1290,2007",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "65",
+                      "part": null,
+                      "issue": null,
+                      "page": "1290"
+                    },
+                    "date": 2007
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of reference."
+                " Table 3."
               ]
             }
           ],
@@ -1532,12 +1833,12 @@
         {
           "SUBENT": {
             "N1": "41506009",
-            "N2": 20080218,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "4143"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -1601,6 +1902,36 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Experimental error consists of errors of",
+                "  gamma-line areas measurement and gamma-efficiency of",
+                "  spectrometer."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total error includes also isotope abundance and",
+                " neutron capture cross-section uncertainties of",
+                " normalization."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -1609,11 +1940,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.I.Egorov+",
+                "reference": {
+                  "code": "J,ARI,65,1290,2007",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "65",
+                      "part": null,
+                      "issue": null,
+                      "page": "1290"
+                    },
+                    "date": 2007
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of reference."
+                " Table 3."
               ]
             },
             {
@@ -1627,7 +1972,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                " Measured CS for Sn-123m"
               ]
             }
           ],
@@ -1699,12 +2044,12 @@
         {
           "SUBENT": {
             "N1": "41506010",
-            "N2": 20080218,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "4143"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -1768,6 +2113,36 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Experimental error consists of errors of",
+                "  gamma-line areas measurement and gamma-efficiency of",
+                "  spectrometer."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Total error includes also isotope abundance and",
+                " neutron capture cross-section uncertainties of",
+                " normalization."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -1776,11 +2151,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.I.Egorov+",
+                "reference": {
+                  "code": "J,ARI,65,1290,2007",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "65",
+                      "part": null,
+                      "issue": null,
+                      "page": "1290"
+                    },
+                    "date": 2007
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of reference."
+                " Table 3."
               ]
             },
             {
@@ -1794,7 +2183,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                " Measured CS for Sn-125m"
               ]
             }
           ],
@@ -1852,12 +2241,12 @@
         {
           "SUBENT": {
             "N1": "41506011",
-            "N2": 20120120,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "Y008"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
@@ -1922,6 +2311,7 @@
               },
               "free_text": [
                 "",
+                " 40.08+-0.07 min, 160.3+-0.2 keV, (85.7+-0.4 ) %.",
                 " Data from REL-REF about beta-decay of isomer were",
                 " used for cross-section determination. Gamma-ray was",
                 " observed in measured gamma-spectrum in equilibrium",
@@ -1935,9 +2325,9 @@
               "coded_information": {
                 "code": "R",
                 "subentry_number": null,
-                "author": "J.Katakura",
+                "author": "S.Ohya+",
                 "reference": {
-                  "code": "J,NDS,70,533,1993",
+                  "code": "J,NDS,70,531,1993",
                   "field": {
                     "reference_type": "J",
                     "reference": {
@@ -1946,7 +2336,7 @@
                       "volume": "70",
                       "part": null,
                       "issue": null,
-                      "page": "533"
+                      "page": "531"
                     },
                     "date": 1993
                   }
@@ -1958,6 +2348,21 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Type of uncertainty is not explained in the",
+                "article."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -1966,11 +2371,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.I.Egorov+",
+                "reference": {
+                  "code": "J,ARI,65,1290,2007",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "65",
+                      "part": null,
+                      "issue": null,
+                      "page": "1290"
+                    },
+                    "date": 2007
+                  }
+                }
               },
               "free_text": [
-                " Text of reference, p.1291."
+                " Text, p.1291."
               ]
             }
           ],
@@ -2028,28 +2447,28 @@
         {
           "SUBENT": {
             "N1": "41506012",
-            "N2": 20120120,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "Y008"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "50-SN-122(N,G)50-SN-123-M,,SIG",
+                "code": "50-SN-124(N,G)50-SN-125-M,,SIG",
                 "code_unit": [
                   {
-                    "unit": "50-SN-122(N,G)50-SN-123-M,,SIG",
+                    "unit": "50-SN-124(N,G)50-SN-125-M,,SIG",
                     "field": {
-                      "reaction": "50-SN-122(N,G)50-SN-123-M",
-                      "target": "50-SN-122",
+                      "reaction": "50-SN-124(N,G)50-SN-125-M",
+                      "target": "50-SN-124",
                       "projectile": "N",
                       "process": "G",
-                      "product": "50-SN-123-M",
+                      "product": "50-SN-125-M",
                       "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
@@ -2098,6 +2517,7 @@
               },
               "free_text": [
                 "",
+                " 9.52+-0.05 min, 332.04+-0.04 keV, 9(97.3+-0.2) %.",
                 " Data from REL-REF about beta-decay of isomer were",
                 " used for cross-section determination. Gamma-ray was",
                 " observed in measured gamma-spectrum in equilibrium",
@@ -2134,6 +2554,21 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Type of uncertainty is not explained in the",
+                "article."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -2142,11 +2577,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.I.Egorov+",
+                "reference": {
+                  "code": "J,ARI,65,1290,2007",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "65",
+                      "part": null,
+                      "issue": null,
+                      "page": "1290"
+                    },
+                    "date": 2007
+                  }
+                }
               },
               "free_text": [
-                " Text of reference, p.1291."
+                " Text, p.1291."
               ]
             }
           ],
@@ -2159,6 +2608,16 @@
               },
               "free_text": [
                 " NDS(VZ): REL-REF: ND/B->NDS"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260206,
+                "history": "A"
+              },
+              "free_text": [
+                " SF1: Sn122 -> Sn124, SF4: Sn123 -> Sn125."
               ]
             }
           ],

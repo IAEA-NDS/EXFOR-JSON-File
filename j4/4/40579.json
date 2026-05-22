@@ -1,40 +1,51 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:54:58+0000",
+  "time_stamp": "2026-05-22T20:53:08+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "40579",
-        "N2": 20180128,
+        "N2": 20251006,
         "alteration_flag": " ",
-        "transmission_identification": "4177"
+        "transmission_identification": "4226"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "40579001",
-            "N2": 20180128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4177"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 11,
             "N2": 0
           },
-          "INSTITUTE": [
+          "TITLE": [
             {
               "pointer": "",
-              "coded_information": [
-                "4RUSMIF"
-              ],
+              "coded_information": null,
               "free_text": [
-                ""
+                " Integral radiation capture cross-sections",
+                " in thermal and resonance energy region",
+                " for Th-230, Pa-231,232,233, U-236, Np-237"
               ]
-            },
+            }
+          ],
+          "AUTHOR": [
             {
               "pointer": "",
               "coded_information": [
-                "4RUSITE"
+                "L.N.Yurova",
+                "A.A.Polyakov",
+                "V.P.Rukhlo",
+                "Yu.E.Titarenko",
+                "S.F.Komin",
+                "Yu.V.Stogov",
+                "O.V.Shvedov",
+                "B.F.Myasoedov",
+                "A.V.Davydov",
+                "S.S.Travnikov"
               ],
               "free_text": [
                 ""
@@ -45,24 +56,8 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "(J,YK,,(1/55),3,1984)=(R,INDC(CCP)-226,3,1984)",
+                "code": "(R,INDC(CCP)-226,3,1984)=(J,YK,,(1/55),3,1984)",
                 "code_unit": [
-                  {
-                    "unit": "J,YK,,(1/55),3,1984",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "YK",
-                        "number": null,
-                        "volume": "",
-                        "part": null,
-                        "issue": "1/55",
-                        "page": "3"
-                      },
-                      "date": 1984
-                    }
-                  },
                   {
                     "unit": "R,INDC(CCP)-226,3,1984",
                     "doi": null,
@@ -78,19 +73,52 @@
                       },
                       "date": 1984
                     }
+                  },
+                  {
+                    "unit": "J,YK,,(1/55),3,1984",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "YK",
+                        "number": null,
+                        "volume": "",
+                        "part": null,
+                        "issue": "1/55",
+                        "page": "3"
+                      },
+                      "date": 1984
+                    }
                   }
                 ],
                 "unit_combination": "((%)=(%))"
               },
               "free_text": [
-                ""
+                "",
+                " In Russian."
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "code": "C,83KIEV,2,177,1983",
+                "code": "(S,INDC(CCP)-235,(2),177,1984)=(C,83KIEV,2,177,1983)",
                 "code_unit": [
+                  {
+                    "unit": "S,INDC(CCP)-235,(2),177,1984",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "S",
+                      "reference": {
+                        "code": "INDC(CCP)-",
+                        "number": "235",
+                        "volume": "(2)",
+                        "part": null,
+                        "issue": null,
+                        "page": "177"
+                      },
+                      "date": 1984
+                    }
+                  },
                   {
                     "unit": "C,83KIEV,2,177,1983",
                     "doi": null,
@@ -108,41 +136,31 @@
                     }
                   }
                 ],
-                "unit_combination": "(%)"
+                "unit_combination": "((%)=(%))"
               },
               "free_text": [
-                ""
+                "",
+                " In Russian."
               ]
             }
           ],
-          "AUTHOR": [
+          "INSTITUTE": [
             {
               "pointer": "",
               "coded_information": [
-                "L.N.Jurova",
-                "A.A.Poljakov",
-                "V.P.Rukhlo",
-                "Ju.E.Titarenko",
-                "S.F.Komin",
-                "Ju.V.Stogov",
-                "O.V.Shvedov",
-                "B.F.Mjasoedov",
-                "A.V.Davydov",
-                "S.S.Travnikov"
+                "4RUSMIF"
               ],
               "free_text": [
                 ""
               ]
-            }
-          ],
-          "TITLE": [
+            },
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": [
+                "4RUSITE"
+              ],
               "free_text": [
-                " Integral radiation capture cross-sections",
-                " in thermal and resonance energy region",
-                " for Th-230, Pa-231,232,233, U-236, Np-237"
+                ""
               ]
             }
           ],
@@ -212,7 +230,7 @@
                 "HPGE"
               ],
               "free_text": [
-                " 1.4cm3 volume hiper-pure Ge detector with",
+                " 1.4 cm3 volume hyper-pure Ge detector with",
                 "energy resolution 750 eV for 122 keV."
               ]
             }
@@ -284,6 +302,17 @@
                 "Resonance integrals were moved in new Subents.",
                 "BIB information was updated."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "A"
+              },
+              "free_text": [
+                " Ref. S,INDC(CCP)-235 was added.",
+                "STATUS was corrected for new rules."
+              ]
             }
           ],
           "ENDBIB": {
@@ -302,9 +331,9 @@
         {
           "SUBENT": {
             "N1": "40579002",
-            "N2": 20180128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4177"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 6,
@@ -455,11 +484,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "L.N.Yurova",
+                "reference": {
+                  "code": "R,INDC(CCP)-226,3,1984",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "226",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "3"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of J,YK,,(1/55),3,1984",
+                " Table 2.",
                 "        Table 1 of C,83KIEV,2,177,1983"
               ]
             }
@@ -544,9 +587,9 @@
         {
           "SUBENT": {
             "N1": "40579003",
-            "N2": 20180128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4177"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 6,
@@ -697,11 +740,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "L.N.Yurova",
+                "reference": {
+                  "code": "R,INDC(CCP)-226,3,1984",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "226",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "3"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of J,YK,,(1/55),3,1984",
+                " Table 2.",
                 "        Table 1 of C,83KIEV,2,177,1983"
               ]
             }
@@ -788,9 +845,9 @@
         {
           "SUBENT": {
             "N1": "40579004",
-            "N2": 20180128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4177"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 6,
@@ -910,11 +967,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "L.N.Yurova",
+                "reference": {
+                  "code": "R,INDC(CCP)-226,3,1984",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "226",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "3"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of J,YK,,(1/55),3,1984",
+                " Table 3.",
                 "        Table 2 of C,83KIEV,2,177,1983"
               ]
             }
@@ -999,9 +1070,9 @@
         {
           "SUBENT": {
             "N1": "40579005",
-            "N2": 20180128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4177"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 5,
@@ -1109,11 +1180,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "L.N.Yurova",
+                "reference": {
+                  "code": "R,INDC(CCP)-226,3,1984",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "226",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "3"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 4 of J,YK,,(1/55),3,1984",
+                " Table 4.",
                 "        Table 3 of C,83KIEV,2,177,1983"
               ]
             }
@@ -1196,9 +1281,9 @@
         {
           "SUBENT": {
             "N1": "40579006",
-            "N2": 20180128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4177"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 6,
@@ -1370,11 +1455,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "L.N.Yurova",
+                "reference": {
+                  "code": "R,INDC(CCP)-226,3,1984",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "226",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "3"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of J,YK,,(1/55),3,1984",
+                " Table 2.",
                 "        Table 1 of C,83KIEV,2,177,1983"
               ]
             }
@@ -1459,9 +1558,9 @@
         {
           "SUBENT": {
             "N1": "40579007",
-            "N2": 20180128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4177"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 6,
@@ -1632,11 +1731,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "L.N.Yurova",
+                "reference": {
+                  "code": "R,INDC(CCP)-226,3,1984",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "226",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "3"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of J,YK,,(1/55),3,1984",
+                " Table 2.",
                 "        Table 1 of C,83KIEV,2,177,1983"
               ]
             }
@@ -1722,9 +1835,9 @@
         {
           "SUBENT": {
             "N1": "40579008",
-            "N2": 20180128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4177"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 6,
@@ -1865,7 +1978,7 @@
               ],
               "free_text": [
                 " Cadmium filter thickness for resonance",
-                "       integral  measurement"
+                "       integral measurement"
               ]
             }
           ],
@@ -1877,11 +1990,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "L.N.Yurova",
+                "reference": {
+                  "code": "R,INDC(CCP)-226,3,1984",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "226",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "3"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of J,YK,,(1/55),3,1984",
+                " Table 2.",
                 "        Table 1 of C,83KIEV,2,177,1983"
               ]
             }
@@ -1968,9 +2095,9 @@
         {
           "SUBENT": {
             "N1": "40579009",
-            "N2": 20180128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4177"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 6,
@@ -2122,11 +2249,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "L.N.Yurova",
+                "reference": {
+                  "code": "R,INDC(CCP)-226,3,1984",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "226",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "3"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of J,YK,,(1/55),3,1984",
+                " Table 2.",
                 "        Table 1 of C,83KIEV,2,177,1983"
               ]
             }
@@ -2219,9 +2360,9 @@
         {
           "SUBENT": {
             "N1": "40579010",
-            "N2": 20180128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4177"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 6,
@@ -2340,11 +2481,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "L.N.Yurova",
+                "reference": {
+                  "code": "R,INDC(CCP)-226,3,1984",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "226",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "3"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of J,YK,,(1/55),3,1984",
+                " Table 3.",
                 "        Table 2 of C,83KIEV,2,177,1983"
               ]
             }
@@ -2431,9 +2586,9 @@
         {
           "SUBENT": {
             "N1": "40579011",
-            "N2": 20180128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4177"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 6,
@@ -2606,11 +2761,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "L.N.Yurova",
+                "reference": {
+                  "code": "R,INDC(CCP)-226,3,1984",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "226",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "3"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of J,YK,,(1/55),3,1984",
+                " Table 2.",
                 "        Table 1 of C,83KIEV,2,177,1983"
               ]
             }
@@ -2697,9 +2866,9 @@
         {
           "SUBENT": {
             "N1": "40579012",
-            "N2": 20180128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4177"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 6,
@@ -2871,11 +3040,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "L.N.Yurova",
+                "reference": {
+                  "code": "R,INDC(CCP)-226,3,1984",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "226",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "3"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of J,YK,,(1/55),3,1984",
+                " Table 2.",
                 "        Table 1 of C,83KIEV,2,177,1983"
               ]
             }

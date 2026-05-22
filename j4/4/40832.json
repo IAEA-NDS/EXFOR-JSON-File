@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:57:05+0000",
+  "time_stamp": "2026-05-22T20:53:13+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "40832",
-        "N2": 20250801,
+        "N2": 20251006,
         "alteration_flag": " ",
-        "transmission_identification": "4224"
+        "transmission_identification": "4226"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "40832001",
-            "N2": 20250801,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4224"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 12,
@@ -72,13 +72,14 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " 84UPPSAL. Data are given ."
+                " =",
+                " C,84UPPSAL,,315,1984. Data are given ."
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "code": "C,83KIEV,2,193,1983",
+                "code": "(C,83KIEV,2,193,1983)=(S,INDC(CCP)-235,(2),193,1984)",
                 "code_unit": [
                   {
                     "unit": "C,83KIEV,2,193,1983",
@@ -95,9 +96,25 @@
                       },
                       "date": 1983
                     }
+                  },
+                  {
+                    "unit": "S,INDC(CCP)-235,(2),193,1984",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "S",
+                      "reference": {
+                        "code": "INDC(CCP)-",
+                        "number": "235",
+                        "volume": "(2)",
+                        "part": null,
+                        "issue": null,
+                        "page": "193"
+                      },
+                      "date": 1984
+                    }
                   }
                 ],
-                "unit_combination": "(%)"
+                "unit_combination": "((%)=(%))"
               },
               "free_text": [
                 "  Preliminary data"
@@ -211,7 +228,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "  From C,84UPPSAL. Reference not checked."
+                "  From C,84UPPSAL. The article was not checked."
               ]
             }
           ],
@@ -252,6 +269,17 @@
                 " Subent 003 was deleted according to a comment of",
                 "N.Otsuka (NDS, IAEA) - data are the same as in",
                 "Subent 40921.002"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "A"
+              },
+              "free_text": [
+                " Ref. S,INDC(CCP)-235 and",
+                "C,84UPPSAL,,315,1984 were added."
               ]
             }
           ],

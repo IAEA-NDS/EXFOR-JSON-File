@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:56:38+0000",
+  "time_stamp": "2026-05-22T20:53:11+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "40757",
-        "N2": 20231113,
+        "N2": 20260212,
         "alteration_flag": " ",
-        "transmission_identification": "4216"
+        "transmission_identification": "4226"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "40757001",
-            "N2": 20231113,
+            "N2": 20260212,
             "alteration_flag": " ",
-            "transmission_identification": "4216"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 8,
@@ -258,6 +258,16 @@
                 " DEP code was added in STATUS of data Subents.",
                 "  Units were corrected: NO-DIM -> PRT/FIS",
                 "  Subents 005-007 were added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260212,
+                "history": "A"
+              },
+              "free_text": [
+                " Subents 005, 006 were corrected."
               ]
             }
           ],
@@ -1002,19 +1012,19 @@
         {
           "SUBENT": {
             "N1": "40757005",
-            "N2": 20231113,
+            "N2": 20260212,
             "alteration_flag": " ",
-            "transmission_identification": "4216"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 7,
+            "N1": 8,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "94-PU-239(N,F),PR,NU,,MXW",
+                "code": "(94-PU-239(N,F),PR,NU,,MXW)/(94-PU-240(0,F),PR,NU)",
                 "code_unit": [
                   {
                     "unit": "94-PU-239(N,F),PR,NU,,MXW",
@@ -1029,12 +1039,26 @@
                       "general_quantity_modifier": "MXW",
                       "quantity_236": "PR,NU"
                     }
+                  },
+                  {
+                    "unit": "94-PU-240(0,F),PR,NU",
+                    "field": {
+                      "reaction": "94-PU-240(0,F)",
+                      "target": "94-PU-240",
+                      "projectile": "0",
+                      "process": "F",
+                      "product": "",
+                      "quantity": "PR,NU",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": "PR,NU"
+                    }
                   }
                 ],
-                "unit_combination": "(%)"
+                "unit_combination": "((%)/(%))"
               },
               "free_text": [
-                "/(94-PU-240(0,F),PR,NU)"
+                ""
               ]
             }
           ],
@@ -1074,7 +1098,7 @@
                 "COINC"
               ],
               "free_text": [
-                " Fission fragmants and neutrons coincidence.",
+                " Fission fragments and neutrons coincidence.",
                 " Two series of measurement:",
                 "Ser. Isotope  Nfragments  Ncoincidences  NU*w*eta",
                 "I    Pu239    33,826      4,375          0.128+-0.002",
@@ -1090,6 +1114,14 @@
           "ERR-ANALYS": [
             {
               "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Systematic error is sufficiently small - comment of",
+                "authors in the article."
+              ]
+            },
+            {
+              "pointer": "",
               "coded_information": {
                 "heading": "ERR-S",
                 "minimum_value": null,
@@ -1097,9 +1129,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Statistical error.",
-                "Systematic error is sufficiently small - comment of",
-                "authors in the article."
+                " Statistical error."
               ]
             }
           ],
@@ -1131,6 +1161,18 @@
               "free_text": [
                 "",
                 " Text on page 129"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260212,
+                "history": "A"
+              },
+              "free_text": [
+                " REACTION : brackets were added"
               ]
             }
           ],
@@ -1180,12 +1222,12 @@
         {
           "SUBENT": {
             "N1": "40757006",
-            "N2": 20231113,
+            "N2": 20260212,
             "alteration_flag": " ",
-            "transmission_identification": "4216"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -1210,6 +1252,37 @@
                   }
                 ],
                 "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "92-U-235(N,F),PR,NU,,MXW",
+                  "code_unit": [
+                    {
+                      "unit": "92-U-235(N,F),PR,NU,,MXW",
+                      "field": {
+                        "reaction": "92-U-235(N,F)",
+                        "target": "92-U-235",
+                        "projectile": "N",
+                        "process": "F",
+                        "product": "",
+                        "quantity": "PR,NU",
+                        "data_type": null,
+                        "general_quantity_modifier": "MXW",
+                        "quantity_236": "PR,NU"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
               },
               "free_text": [
                 ""
@@ -1267,7 +1340,7 @@
                 "status": [
                   "DEP"
                 ],
-                "subentry_number": "40756005",
+                "subentry_number": "40757005",
                 "author": null,
                 "reference": null
               },
@@ -1286,7 +1359,20 @@
                 "reference": null
               },
               "free_text": [
-                " Pu239"
+                " Pu239 measured relative to U235"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260212,
+                "history": "A"
+              },
+              "free_text": [
+                " STATUS : 40756005 -> 40757005 .",
+                " MONITOR was added."
               ]
             }
           ],

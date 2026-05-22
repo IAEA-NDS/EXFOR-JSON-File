@@ -1,31 +1,46 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:55:05+0000",
+  "time_stamp": "2026-05-22T20:53:08+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "40603",
-        "N2": 20221027,
+        "N2": 20260211,
         "alteration_flag": " ",
-        "transmission_identification": "4210"
+        "transmission_identification": "4226"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "40603001",
-            "N2": 20221027,
+            "N2": 20260211,
             "alteration_flag": " ",
-            "transmission_identification": "4210"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 14,
+            "N1": 15,
             "N2": 0
           },
-          "INSTITUTE": [
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Differential cross-sections of elastic and inelastic",
+                " neutrons scattering from tantalum and bismuth in the",
+                "energy range 5-8 MeV"
+              ]
+            }
+          ],
+          "AUTHOR": [
             {
               "pointer": "",
               "coded_information": [
-                "4RUSFEI"
+                "S.P.Simakov",
+                "G.N.Lovchikova",
+                "O.A.Sal'nikov",
+                "A.M.Trufanov",
+                "G.V.Kotel'nikova"
               ],
               "free_text": [
                 ""
@@ -81,7 +96,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,YK,,(3-4),74,1992",
+                "code": "(J,YK,,(3-4),74,1992)=(R,INDC(CCP)-358,74,1992)",
                 "code_unit": [
                   {
                     "unit": "J,YK,,(3-4),74,1992",
@@ -98,39 +113,69 @@
                       },
                       "date": 1992
                     }
+                  },
+                  {
+                    "unit": "R,INDC(CCP)-358,74,1992",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "R",
+                      "reference": {
+                        "code": "INDC(CCP)-",
+                        "number": "358",
+                        "volume": null,
+                        "part": null,
+                        "issue": null,
+                        "page": "74"
+                      },
+                      "date": 1992
+                    }
                   }
                 ],
-                "unit_combination": "(%)"
+                "unit_combination": "((%)=(%))"
               },
               "free_text": [
                 "",
-                " Subents 008-011"
+                "In English.  Subents 008-011"
               ]
             }
           ],
-          "AUTHOR": [
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "O",
+                "subentry_number": "41155001",
+                "author": "S.P.Simakov",
+                "reference": {
+                  "code": "R,INDC(CCP)-358,74,1992",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "358",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "74"
+                    },
+                    "date": 1992
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Co-59, Y-89, Nb-93, M0-93, In-115 data."
+              ]
+            }
+          ],
+          "INSTITUTE": [
             {
               "pointer": "",
               "coded_information": [
-                "S.P.Simakov",
-                "G.N.Lovchikova",
-                "O.A.Sal'nikov",
-                "G.V.Kotel'nikova",
-                "A.M.Trufanov"
+                "4RUSFEI"
               ],
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "TITLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "  Elastic and inelastic scattering of the neutrons",
-                "  with the energies from 5 to 8 MeV on bismuth",
-                "  and tantalum ."
               ]
             }
           ],
@@ -405,6 +450,18 @@
               "free_text": [
                 " Subent 003 was corrected."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260211,
+                "history": "A"
+              },
+              "free_text": [
+                " ANG-RSL was moved to 003, 005-007",
+                " TITLE was corrected. STATUS was updated.",
+                " Subents 006 - 009 were corrected."
+              ]
             }
           ],
           "ENDBIB": {
@@ -412,22 +469,18 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 1,
             "N2": 0,
             "pointer": [
-              "",
               ""
             ],
             "heading": [
-              "ANG-RSL",
               "ERR-2"
             ],
             "unit": [
-              "ADEG",
               "PER-CENT"
             ],
             "value": [
-              1.0,
               4.0
             ]
           },
@@ -443,9 +496,9 @@
         {
           "SUBENT": {
             "N1": "40603002",
-            "N2": 20200827,
+            "N2": 20260211,
             "alteration_flag": " ",
-            "transmission_identification": "4189"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 5,
@@ -496,12 +549,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.P.Simakov+",
+                "reference": {
+                  "code": "R,INDC(CCP)-197,17,1982",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "197",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "17"
+                    },
+                    "date": 1982
+                  }
+                }
               },
               "free_text": [
-                " From author.",
-                "Data are given in Table 2 of Yad.Konst.,is.5,p.17,1982."
+                " Table 2",
+                "The same data from author."
               ]
             },
             {
@@ -609,9 +676,9 @@
         {
           "SUBENT": {
             "N1": "40603003",
-            "N2": 20221027,
+            "N2": 20260211,
             "alteration_flag": " ",
-            "transmission_identification": "4210"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 5,
@@ -691,12 +758,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.P.Simakov+",
+                "reference": {
+                  "code": "R,INDC(CCP)-197,17,1982",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "197",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "17"
+                    },
+                    "date": 1982
+                  }
+                }
               },
               "free_text": [
-                " From author.",
-                "Data are given in Table 2 of Yad.Konst.,is.5,p.17,1982."
+                " Table 2",
+                "Almost the same data from author."
               ]
             }
           ],
@@ -741,19 +822,23 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0,
             "pointer": [
+              "",
               ""
             ],
             "heading": [
-              "E-EXC-MX-A"
+              "E-EXC-MX-A",
+              "ANG-RSL"
             ],
             "unit": [
-              "MEV"
+              "MEV",
+              "ADEG"
             ],
             "value": [
-              1.1
+              1.1,
+              1.0
             ]
           },
           "ENDCOMMON": {
@@ -994,9 +1079,9 @@
         {
           "SUBENT": {
             "N1": "40603004",
-            "N2": 20200827,
+            "N2": 20260211,
             "alteration_flag": " ",
-            "transmission_identification": "4189"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 5,
@@ -1047,12 +1132,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.P.Simakov+",
+                "reference": {
+                  "code": "R,INDC(CCP)-197,17,1982",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "197",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "17"
+                    },
+                    "date": 1982
+                  }
+                }
               },
               "free_text": [
-                " From author.",
-                "Data are given in Table 2 of Yad.Konst.,is.5,p.17,1982."
+                " Table 2",
+                "The same data from author."
               ]
             },
             {
@@ -1160,9 +1259,9 @@
         {
           "SUBENT": {
             "N1": "40603005",
-            "N2": 20200319,
+            "N2": 20260211,
             "alteration_flag": " ",
-            "transmission_identification": "4186"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 5,
@@ -1213,12 +1312,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.P.Simakov+",
+                "reference": {
+                  "code": "R,INDC(CCP)-197,17,1982",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "197",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "17"
+                    },
+                    "date": 1982
+                  }
+                }
               },
               "free_text": [
-                " From author.",
-                "Data are given in Table 2 of Yad.Konst.,is.5,p.17,1982."
+                " Table 2",
+                "The same data from author."
               ]
             }
           ],
@@ -1259,7 +1372,23 @@
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "ANG-RSL"
+            ],
+            "unit": [
+              "ADEG"
+            ],
+            "value": [
+              1.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -1497,9 +1626,9 @@
         {
           "SUBENT": {
             "N1": "40603006",
-            "N2": 20130226,
+            "N2": 20260211,
             "alteration_flag": " ",
-            "transmission_identification": "4160"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 4,
@@ -1509,20 +1638,20 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "83-BI-209(N,INL)83-BI-209,,DA/DE",
+                "code": "83-BI-209(N,X)0-NN-1,EM,DA/DE",
                 "code_unit": [
                   {
-                    "unit": "83-BI-209(N,INL)83-BI-209,,DA/DE",
+                    "unit": "83-BI-209(N,X)0-NN-1,EM,DA/DE",
                     "field": {
-                      "reaction": "83-BI-209(N,INL)83-BI-209",
+                      "reaction": "83-BI-209(N,X)0-NN-1",
                       "target": "83-BI-209",
                       "projectile": "N",
-                      "process": "INL",
-                      "product": "83-BI-209",
-                      "quantity": ",DA/DE",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": "EM,DA/DE",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",DA/DE"
+                      "quantity_236": "EM,DA/DE"
                     }
                   }
                 ],
@@ -1550,8 +1679,22 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.P.Simakov",
+                "reference": {
+                  "code": "W,SIMAKOV,19830419",
+                  "field": {
+                    "reference_type": "W",
+                    "reference": {
+                      "code": "SIMAKOV",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 19830419
+                  }
+                }
               },
               "free_text": [
                 " From author."
@@ -1566,8 +1709,8 @@
                 "history": "A"
               },
               "free_text": [
-                "  Vector Common Data Set Transformed Into",
-                "             Linear One",
+                "  Vector Common data set transformed into",
+                "             linear one",
                 "             Data merged from the old SAN 006 - 009"
               ]
             },
@@ -1590,13 +1733,41 @@
               "free_text": [
                 " Last checking has been done."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260211,
+                "history": "A"
+              },
+              "free_text": [
+                " Reaction: (N,INL)83-BI-209,,DA/DE) ->",
+                "                      (N,X)0-NN-1,EM,DA/DE)",
+                "according to a comment of N.Otsuka (NDS,IAEA)"
+              ]
             }
           ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "ANG-RSL"
+            ],
+            "unit": [
+              "ADEG"
+            ],
+            "value": [
+              1.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -10378,9 +10549,9 @@
         {
           "SUBENT": {
             "N1": "40603007",
-            "N2": 20130226,
+            "N2": 20260211,
             "alteration_flag": " ",
-            "transmission_identification": "4160"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 5,
@@ -10390,20 +10561,20 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "73-TA-181(N,INL)73-TA-181,,DA/DE",
+                "code": "73-TA-181(N,X)0-NN-1,EM,DA/DE",
                 "code_unit": [
                   {
-                    "unit": "73-TA-181(N,INL)73-TA-181,,DA/DE",
+                    "unit": "73-TA-181(N,X)0-NN-1,EM,DA/DE",
                     "field": {
-                      "reaction": "73-TA-181(N,INL)73-TA-181",
+                      "reaction": "73-TA-181(N,X)0-NN-1",
                       "target": "73-TA-181",
                       "projectile": "N",
-                      "process": "INL",
-                      "product": "73-TA-181",
-                      "quantity": ",DA/DE",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": "EM,DA/DE",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",DA/DE"
+                      "quantity_236": "EM,DA/DE"
                     }
                   }
                 ],
@@ -10443,8 +10614,22 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.P.Simakov",
+                "reference": {
+                  "code": "W,SIMAKOV,19830419",
+                  "field": {
+                    "reference_type": "W",
+                    "reference": {
+                      "code": "SIMAKOV",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 19830419
+                  }
+                }
               },
               "free_text": [
                 " From author."
@@ -10473,13 +10658,41 @@
               "free_text": [
                 " Reaction corrected."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260211,
+                "history": "A"
+              },
+              "free_text": [
+                " Reaction: (N,INL)73-TA-181,,DA/DE) ->",
+                "                      (N,X)0-NN-1,EM,DA/DE)",
+                "according to a comment of N.Otsuka (NDS,IAEA)"
+              ]
             }
           ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "ANG-RSL"
+            ],
+            "unit": [
+              "ADEG"
+            ],
+            "value": [
+              1.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -20317,9 +20530,9 @@
         {
           "SUBENT": {
             "N1": "40603008",
-            "N2": 20201020,
+            "N2": 20260211,
             "alteration_flag": " ",
-            "transmission_identification": "4189"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 6,
@@ -20329,20 +20542,20 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "73-TA-181(N,INL)73-TA-181,,DE",
+                "code": "73-TA-181(N,X)0-NN-1,EM,DE",
                 "code_unit": [
                   {
-                    "unit": "73-TA-181(N,INL)73-TA-181,,DE",
+                    "unit": "73-TA-181(N,X)0-NN-1,EM,DE",
                     "field": {
-                      "reaction": "73-TA-181(N,INL)73-TA-181",
+                      "reaction": "73-TA-181(N,X)0-NN-1",
                       "target": "73-TA-181",
                       "projectile": "N",
-                      "process": "INL",
-                      "product": "73-TA-181",
-                      "quantity": ",DE",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": "EM,DE",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",DE"
+                      "quantity_236": "EM,DE"
                     }
                   }
                 ],
@@ -20383,7 +20596,7 @@
                 " Of author S.Simakov.",
                 "There are misprints in the incident neutron energy",
                 "7.45 -> 7.49 MeV in Table 3 of Yad.Konst.,3-4,p.74 and",
-                "in Table 3  of INDC(NDS)-272,,147"
+                "in Table 3 of INDC(NDS)-272,,147"
               ]
             }
           ],
@@ -20395,12 +20608,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.P.Simakov+",
+                "reference": {
+                  "code": "J,YK,,(3-4),74,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "YK",
+                      "number": null,
+                      "volume": "",
+                      "part": null,
+                      "issue": "3-4",
+                      "page": "74"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of Yad.Konst.,is.3-4,p.74,1992",
-                "        Table 3 of INDC(NDS)-272,,147,1993"
+                " Table 3"
               ]
             },
             {
@@ -20427,7 +20653,7 @@
               },
               "free_text": [
                 " Incident energy was corrected according to",
-                "aothor's comment: 7.45 -> 7.49 MeV"
+                "author's comment: 7.45 -> 7.49 MeV"
               ]
             },
             {
@@ -20438,6 +20664,18 @@
               },
               "free_text": [
                 " Subent was moved from Subent 41155008"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260211,
+                "history": "A"
+              },
+              "free_text": [
+                " Reaction: (N,INL)73-TA-181,,DE) ->",
+                "                      (N,X)0-NN-1,EM,DE)",
+                "according to a comment of N.Otsuka (NDS,IAEA)"
               ]
             }
           ],
@@ -21293,9 +21531,9 @@
         {
           "SUBENT": {
             "N1": "40603009",
-            "N2": 20200920,
+            "N2": 20260211,
             "alteration_flag": " ",
-            "transmission_identification": "4189"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 5,
@@ -21305,20 +21543,20 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "83-BI-209(N,INL)83-BI-209,,DE",
+                "code": "83-BI-209(N,X)0-NN-1,EM,DE",
                 "code_unit": [
                   {
-                    "unit": "83-BI-209(N,INL)83-BI-209,,DE",
+                    "unit": "83-BI-209(N,X)0-NN-1,EM,DE",
                     "field": {
-                      "reaction": "83-BI-209(N,INL)83-BI-209",
+                      "reaction": "83-BI-209(N,X)0-NN-1",
                       "target": "83-BI-209",
                       "projectile": "N",
-                      "process": "INL",
-                      "product": "83-BI-209",
-                      "quantity": ",DE",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": "EM,DE",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",DE"
+                      "quantity_236": "EM,DE"
                     }
                   }
                 ],
@@ -21359,12 +21597,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.P.Simakov+",
+                "reference": {
+                  "code": "J,YK,,(3-4),74,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "YK",
+                      "number": null,
+                      "volume": "",
+                      "part": null,
+                      "issue": "3-4",
+                      "page": "74"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of Yad.Konst.,is.3-4,p.74,1992",
-                "        Table 3 of INDC(NDS)-272,,147,1993"
+                " Table 3"
               ]
             },
             {
@@ -21391,6 +21642,18 @@
               },
               "free_text": [
                 " Subent was moved from Subent 41155009"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260211,
+                "history": "A"
+              },
+              "free_text": [
+                " Reaction: (N,INL)83-BI-209,,DE) ->",
+                "                      (N,X)0-NN-1,EM,DE)",
+                "according to a comment of N.Otsuka (NDS,IAEA)"
               ]
             }
           ],
@@ -22169,9 +22432,9 @@
         {
           "SUBENT": {
             "N1": "40603010",
-            "N2": 20200827,
+            "N2": 20260211,
             "alteration_flag": " ",
-            "transmission_identification": "4189"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 5,
@@ -22181,20 +22444,20 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "73-TA-181(N,INL)73-TA-181,,SIG",
+                "code": "73-TA-181(N,X)0-NN-1,EM,SIG",
                 "code_unit": [
                   {
-                    "unit": "73-TA-181(N,INL)73-TA-181,,SIG",
+                    "unit": "73-TA-181(N,X)0-NN-1,EM,SIG",
                     "field": {
-                      "reaction": "73-TA-181(N,INL)73-TA-181",
+                      "reaction": "73-TA-181(N,X)0-NN-1",
                       "target": "73-TA-181",
                       "projectile": "N",
-                      "process": "INL",
-                      "product": "73-TA-181",
-                      "quantity": ",SIG",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": "EM,SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",SIG"
+                      "quantity_236": "EM,SIG"
                     }
                   }
                 ],
@@ -22235,12 +22498,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.P.Simakov+",
+                "reference": {
+                  "code": "J,YK,,(3-4),74,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "YK",
+                      "number": null,
+                      "volume": "",
+                      "part": null,
+                      "issue": "3-4",
+                      "page": "74"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
-                " Table 5 of Yad.Konst.,is.3-4,p.74,1992",
-                "        Table 5 of INDC(NDS)-272,,147,1993"
+                " Table 5"
               ]
             },
             {
@@ -22255,7 +22531,7 @@
               },
               "free_text": [
                 " DE",
-                " This Subent 40603.010 superseds Subent 40603.002"
+                " This Subent 40603.010 supersedes Subent 40603.002"
               ]
             }
           ],
@@ -22268,6 +22544,17 @@
               },
               "free_text": [
                 " Subent was moved from Subent 41155016"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260211,
+                "history": "A"
+              },
+              "free_text": [
+                " (N,INL)73-TA-181,,SIG ->",
+                "            (N,X)0-NN-1,EM,,SIG"
               ]
             }
           ],
@@ -22339,9 +22626,9 @@
         {
           "SUBENT": {
             "N1": "40603011",
-            "N2": 20200827,
+            "N2": 20260211,
             "alteration_flag": " ",
-            "transmission_identification": "4189"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 5,
@@ -22351,20 +22638,20 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "83-BI-209(N,INL)83-BI-209,,SIG",
+                "code": "83-BI-209(N,X)0-NN-1,EM,SIG",
                 "code_unit": [
                   {
-                    "unit": "83-BI-209(N,INL)83-BI-209,,SIG",
+                    "unit": "83-BI-209(N,X)0-NN-1,EM,SIG",
                     "field": {
-                      "reaction": "83-BI-209(N,INL)83-BI-209",
+                      "reaction": "83-BI-209(N,X)0-NN-1",
                       "target": "83-BI-209",
                       "projectile": "N",
-                      "process": "INL",
-                      "product": "83-BI-209",
-                      "quantity": ",SIG",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": "EM,SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",SIG"
+                      "quantity_236": "EM,SIG"
                     }
                   }
                 ],
@@ -22405,12 +22692,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.P.Simakov+",
+                "reference": {
+                  "code": "J,YK,,(3-4),74,1992",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "YK",
+                      "number": null,
+                      "volume": "",
+                      "part": null,
+                      "issue": "3-4",
+                      "page": "74"
+                    },
+                    "date": 1992
+                  }
+                }
               },
               "free_text": [
-                " Table 5 of Yad.Konst.,is.3-4,p.74,1992",
-                "        Table 5 of INDC(NDS)-272,,147,1993"
+                " Table 5"
               ]
             },
             {
@@ -22425,7 +22725,7 @@
               },
               "free_text": [
                 " DE",
-                " This Subent superseds Subent 40603.004"
+                " This Subent supersedes Subent 40603.004"
               ]
             }
           ],
@@ -22438,6 +22738,17 @@
               },
               "free_text": [
                 " Subent was moved from Subent 41155017"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260211,
+                "history": "A"
+              },
+              "free_text": [
+                " (N,INL)83-BI-209,,SIG ->",
+                "            (N,X)0-NN-1,EM,,SIG"
               ]
             }
           ],

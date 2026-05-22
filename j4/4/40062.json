@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:50:37+0000",
+  "time_stamp": "2026-05-22T20:53:04+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "40062",
-        "N2": 20220127,
+        "N2": 20260209,
         "alteration_flag": " ",
-        "transmission_identification": "4204"
+        "transmission_identification": "4226"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "40062001",
-            "N2": 20220127,
+            "N2": 20260209,
             "alteration_flag": " ",
-            "transmission_identification": "4204"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 8,
@@ -51,34 +51,6 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,AE,23,316,196710",
-                "code_unit": [
-                  {
-                    "unit": "J,AE,23,316,196710",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "AE",
-                        "number": null,
-                        "volume": "23",
-                        "part": null,
-                        "issue": null,
-                        "page": "316"
-                      },
-                      "date": 196710
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                " Issue 4."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
                 "code": "J,SJA,23,1059,1967",
                 "code_unit": [
                   {
@@ -103,6 +75,34 @@
               "free_text": [
                 "  Engl.transl.of J,AE,23,316,1967",
                 "#doi:10.1007/BF01120465"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,AE,23,316,196710",
+                "code_unit": [
+                  {
+                    "unit": "J,AE,23,316,196710",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "AE",
+                        "number": null,
+                        "volume": "23",
+                        "part": null,
+                        "issue": null,
+                        "page": "316"
+                      },
+                      "date": 196710
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                " Issue 4."
               ]
             },
             {
@@ -206,10 +206,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.A.Bak+",
+                "reference": {
+                  "code": "J,SJA,23,1059,1967",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SJA",
+                      "number": null,
+                      "volume": "23",
+                      "part": null,
+                      "issue": null,
+                      "page": "1059"
+                    },
+                    "date": 1967
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Table 2 of At.Energy,v.23,is.4,p.316,1967 .",
                 " = Table 1 of INDC(CCP)-1,p.51,1967"
               ]
@@ -258,6 +273,17 @@
               "free_text": [
                 " Ref. INDC(CCP) was added.",
                 "Update for current rules and dictionaries."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260209,
+                "history": "A"
+              },
+              "free_text": [
+                " Subent 003 was corrected.",
+                " STATUS was updated for new rules."
               ]
             }
           ],
@@ -555,12 +581,12 @@
         {
           "SUBENT": {
             "N1": "40062003",
-            "N2": 20220127,
+            "N2": 20260209,
             "alteration_flag": " ",
-            "transmission_identification": "4204"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 13,
             "N2": 0
           },
           "REACTION": [
@@ -653,19 +679,19 @@
               ]
             }
           ],
-          "MONITOR": [
+          "ASSUMED": [
             {
               "pointer": "",
               "coded_information": {
-                "heading": "MONIT1",
+                "heading": "ASSUM",
                 "reaction": {
-                  "code": "95-AM-242-M1(N,F),,SIG",
+                  "code": "95-AM-242-M(N,F),,SIG",
                   "code_unit": [
                     {
-                      "unit": "95-AM-242-M1(N,F),,SIG",
+                      "unit": "95-AM-242-M(N,F),,SIG",
                       "field": {
-                        "reaction": "95-AM-242-M1(N,F)",
-                        "target": "95-AM-242-M1",
+                        "reaction": "95-AM-242-M(N,F)",
+                        "target": "95-AM-242-M",
                         "projectile": "N",
                         "process": "F",
                         "product": "",
@@ -682,7 +708,9 @@
               "free_text": [
                 ""
               ]
-            },
+            }
+          ],
+          "MONITOR": [
             {
               "pointer": "",
               "coded_information": {
@@ -710,8 +738,7 @@
               },
               "free_text": [
                 "",
-                " For measuring of neutron flux gold",
-                "was used"
+                " For measuring of neutron flux - gold was used"
               ]
             },
             {
@@ -741,16 +768,15 @@
               },
               "free_text": [
                 "",
-                " For measuring of neutron flux neptunium",
-                "was used"
+                " For measuring of neutron flux - neptunium was used"
               ]
             }
           ],
-          "MONIT-REF": [
+          "REL-REF": [
             {
               "pointer": "",
               "coded_information": {
-                "heading": "MONIT1",
+                "code": "R",
                 "subentry_number": "12563002",
                 "author": "K.Wolfsberg+",
                 "reference": {
@@ -763,16 +789,14 @@
                       "volume": "20",
                       "part": null,
                       "issue": null,
-                      "page": "588",
-                      "version": null,
-                      "material_number": null
+                      "page": "588"
                     },
                     "date": 1966
                   }
                 }
               },
               "free_text": [
-                ""
+                " ASSUM"
               ]
             }
           ],
@@ -843,6 +867,18 @@
                 " AM-242-M1 -> AM-242-M was corrected in",
                 "Reaction according to the comment of N.Otsuka(NDS,IAEA)"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260209,
+                "history": "A"
+              },
+              "free_text": [
+                " MONITOR: 95-AM-242-M1 -> 95-AM-242-M and",
+                "moved in ASSUMED according to a comment of N.Otsuka",
+                " (NDS, IAEA)."
+              ]
             }
           ],
           "ENDBIB": {
@@ -862,8 +898,8 @@
             "heading": [
               "EN-MIN",
               "EN-MAX",
-              "MONIT1",
-              "MONIT1-ERR",
+              "ASSUM",
+              "ASSUM-ERR",
               "EN-NRM"
             ],
             "unit": [

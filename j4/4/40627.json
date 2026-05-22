@@ -1,31 +1,45 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:55:13+0000",
+  "time_stamp": "2026-05-22T20:53:09+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "40627",
-        "N2": 20200311,
+        "N2": 20260216,
         "alteration_flag": " ",
-        "transmission_identification": "4186"
+        "transmission_identification": "4226"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "40627001",
-            "N2": 20200311,
+            "N2": 20260216,
             "alteration_flag": " ",
-            "transmission_identification": "4186"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 15,
+            "N1": 16,
             "N2": 0
           },
-          "INSTITUTE": [
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Inelastic scattering of the neutrons with energies",
+                " from 5 to 8 MeV on yttrium"
+              ]
+            }
+          ],
+          "AUTHOR": [
             {
               "pointer": "",
               "coded_information": [
-                "4RUSFEI"
+                "S.P.Simakov",
+                "G.N.Lovchikova",
+                "V.P.Lunev",
+                "O.A.Sal'nikov",
+                "S.E.Sukhikh"
               ],
               "free_text": [
                 ""
@@ -59,7 +73,8 @@
               },
               "free_text": [
                 "   Proceedings of the 12-th",
-                " International Symposium on Nuclear Physics,Gaussig,GDR"
+                " International Symposium on Nuclear Physics,Gaussig,GDR",
+                " In Russian."
               ]
             },
             {
@@ -135,28 +150,14 @@
               ]
             }
           ],
-          "AUTHOR": [
+          "INSTITUTE": [
             {
               "pointer": "",
               "coded_information": [
-                "S.P.Simakov",
-                "G.N.Lovchikova",
-                "V.P.Lunev",
-                "O.A.Sal'nikov",
-                "S.E.Sukhikh"
+                "4RUSFEI"
               ],
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "TITLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                " Inelastic scattering of the neutrons with  energies",
-                " from 5 to 8 MeV on yttrium"
               ]
             }
           ],
@@ -249,7 +250,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                " Metallic yttrium"
+                "Metallic yttrium of 4.4 cm height, 3.0 cm inner",
+                "diameter, 4.5 cm outer diameter."
               ]
             }
           ],
@@ -260,7 +262,8 @@
                 "TOF"
               ],
               "free_text": [
-                " Flight base is 401 cm"
+                " Flight base is 200 cm (scattered neutron",
+                "registration), 401 cm (flux monitoring)."
               ]
             }
           ],
@@ -308,6 +311,36 @@
                     }
                   ],
                   "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": null,
+                "author": "A.Horsley",
+                "reference": {
+                  "code": "J,ND/A,2,243,1966",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ND/A",
+                      "number": null,
+                      "volume": "2",
+                      "part": null,
+                      "issue": null,
+                      "page": "243",
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 1966
+                  }
                 }
               },
               "free_text": [
@@ -440,6 +473,17 @@
                 "Subents 003-007 were merged into Subent 003 according",
                 "to a comment of N.Otsuka (NDS,IAEA)"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260216,
+                "history": "A"
+              },
+              "free_text": [
+                " ANG-RSL was moved to Subent 003.",
+                " STATUS was corrected for new rules."
+              ]
             }
           ],
           "ENDBIB": {
@@ -447,22 +491,18 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 1,
             "N2": 0,
             "pointer": [
-              "",
               ""
             ],
             "heading": [
-              "ANG-RSL",
               "ERR-5"
             ],
             "unit": [
-              "ADEG",
               "PER-CENT"
             ],
             "value": [
-              1.0,
               4.0
             ]
           },
@@ -478,32 +518,32 @@
         {
           "SUBENT": {
             "N1": "40627002",
-            "N2": 20200311,
+            "N2": 20260216,
             "alteration_flag": " ",
-            "transmission_identification": "4186"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "39-Y-89(N,INL)39-Y-89,,SIG",
+                "code": "39-Y-89(N,X)0-NN-1,EM,SIG",
                 "code_unit": [
                   {
-                    "unit": "39-Y-89(N,INL)39-Y-89,,SIG",
+                    "unit": "39-Y-89(N,X)0-NN-1,EM,SIG",
                     "field": {
-                      "reaction": "39-Y-89(N,INL)39-Y-89",
+                      "reaction": "39-Y-89(N,X)0-NN-1",
                       "target": "39-Y-89",
                       "projectile": "N",
-                      "process": "INL",
-                      "product": "39-Y-89",
-                      "quantity": ",SIG",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": "EM,SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",SIG"
+                      "quantity_236": "EM,SIG"
                     }
                   }
                 ],
@@ -511,6 +551,33 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "INTED",
+                "INTAD"
+              ],
+              "free_text": [
+                "",
+                "Exp. spectra were extrapolated in region below exp.",
+                "threshold 0.6 MeV using Maxwellian distributions with",
+                "parameter T determined in scattered neutrons energy",
+                "range 0.6 - 2.0 MeV."
+              ]
+            }
+          ],
+          "MISC-COL": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "MISC"
+              ],
+              "free_text": [
+                " Parameter T, see ANALYSIS"
               ]
             }
           ],
@@ -522,11 +589,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
+                "author": "S.Simakov+",
+                "reference": {
+                  "code": "R,ZFK-491,206,1982",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "ZFK-",
+                      "number": "491",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "206"
+                    },
+                    "date": 1982
+                  }
+                }
+              },
+              "free_text": [
+                " Table 1."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "DEP"
+                ],
+                "subentry_number": "40627003",
                 "author": null,
                 "reference": null
               },
               "free_text": [
-                " Table 5 of INDC(CCP)-358,74,1992"
+                " DA/DE"
               ]
             },
             {
@@ -541,7 +636,20 @@
               },
               "free_text": [
                 " Superseded according to a comment of",
-                "the author S.Simakov ( the same data)"
+                "the author S.Simakov ( almost the same data)"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260216,
+                "history": "A"
+              },
+              "free_text": [
+                " MISC data were added.",
+                " (N,INL)39-Y-89,,SIG -> (N,X)0-NN-1,EM,,SIG"
               ]
             }
           ],
@@ -554,9 +662,11 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 4,
+            "N1": 6,
             "N2": 4,
             "pointer": [
+              "",
+              "",
               "",
               "",
               "",
@@ -566,37 +676,49 @@
               "EN",
               "EN-ERR",
               "DATA",
-              "ERR-T"
+              "ERR-T",
+              "MISC",
+              "MISC-ERR"
             ],
             "unit": [
               "MEV",
               "MEV",
               "B",
-              "B"
+              "B",
+              "MEV",
+              "MEV"
             ],
             "value": [
               [
                 4.86,
                 0.06,
                 1.73,
-                0.14
+                0.14,
+                0.72,
+                0.04
               ],
               [
                 6.08,
                 0.07,
                 1.89,
-                0.15
+                0.15,
+                0.56,
+                0.03
               ],
               [
                 7.02,
                 0.08,
                 1.97,
-                0.16
+                0.16,
+                0.7,
+                0.04
               ],
               [
                 7.94,
                 0.09,
                 1.87,
+                0.14,
+                1.8,
                 0.14
               ]
             ]
@@ -613,32 +735,32 @@
         {
           "SUBENT": {
             "N1": "40627003",
-            "N2": 20200311,
+            "N2": 20260216,
             "alteration_flag": " ",
-            "transmission_identification": "4186"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "39-Y-89(N,INL)39-Y-89,,DA/DE",
+                "code": "39-Y-89(N,X)0-NN-1,EM,DA/DE",
                 "code_unit": [
                   {
-                    "unit": "39-Y-89(N,INL)39-Y-89,,DA/DE",
+                    "unit": "39-Y-89(N,X)0-NN-1,EM,DA/DE",
                     "field": {
-                      "reaction": "39-Y-89(N,INL)39-Y-89",
+                      "reaction": "39-Y-89(N,X)0-NN-1",
                       "target": "39-Y-89",
                       "projectile": "N",
-                      "process": "INL",
-                      "product": "39-Y-89",
-                      "quantity": ",DA/DE",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": "EM,DA/DE",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",DA/DE"
+                      "quantity_236": "EM,DA/DE"
                     }
                   }
                 ],
@@ -665,11 +787,42 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260216,
+                "history": "A"
+              },
+              "free_text": [
+                " REACTION: (N,INL)39-Y-89,,DA/DE ->",
+                "                      (N,X)0-NN-1,EM,DA/DE",
+                "according to a comment of N.Otsuka (NDS,IAEA).",
+                " Data format : E -> F(fixed point)."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "ANG-RSL"
+            ],
+            "unit": [
+              "ADEG"
+            ],
+            "value": [
+              1.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },

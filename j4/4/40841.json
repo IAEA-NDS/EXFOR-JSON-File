@@ -1,31 +1,53 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:57:10+0000",
+  "time_stamp": "2026-05-22T20:53:14+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "40841",
-        "N2": 20160603,
+        "N2": 20251006,
         "alteration_flag": " ",
-        "transmission_identification": "4176"
+        "transmission_identification": "4226"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "40841001",
-            "N2": 20160603,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4176"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 12,
             "N2": 0
           },
-          "INSTITUTE": [
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "  Absolute measurements of fission cross-sections",
+                "of 234U, 236U, 240Pu, 241Pu1 and 243Am by the neutrons",
+                "of CF-252 fission spectrum"
+              ]
+            }
+          ],
+          "AUTHOR": [
             {
               "pointer": "",
               "coded_information": [
-                "4RUSRI"
+                "V.M.Adamov",
+                "S.E.Gusev",
+                "L.V.Drapchinskiy",
+                "V.V.Kol'tsov",
+                "S.S.Kovalenko",
+                "O.I.Kostochkin",
+                "K.A.Petrzhak",
+                "L.A.Pleskachevskiy",
+                "A.M.Sokolov",
+                "S.M.Solov'ev",
+                "P.S.Soloshenkov",
+                "V.A.Trenkin"
               ],
               "free_text": [
                 ""
@@ -36,8 +58,24 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "(C,83KIEV,2,134,1983)=(R,INDC(CCP)-235,134,1983)",
+                "code": "(S,INDC(CCP)-235,(2),134,1984)=(C,83KIEV,2,134,1983)",
                 "code_unit": [
+                  {
+                    "unit": "S,INDC(CCP)-235,(2),134,1984",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "S",
+                      "reference": {
+                        "code": "INDC(CCP)-",
+                        "number": "235",
+                        "volume": "(2)",
+                        "part": null,
+                        "issue": null,
+                        "page": "134"
+                      },
+                      "date": 1984
+                    }
+                  },
                   {
                     "unit": "C,83KIEV,2,134,1983",
                     "doi": null,
@@ -53,61 +91,23 @@
                       },
                       "date": 1983
                     }
-                  },
-                  {
-                    "unit": "R,INDC(CCP)-235,134,1983",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "R",
-                      "reference": {
-                        "code": "INDC(CCP)-",
-                        "number": "235",
-                        "volume": null,
-                        "part": null,
-                        "issue": null,
-                        "page": "134"
-                      },
-                      "date": 1983
-                    }
                   }
                 ],
                 "unit_combination": "((%)=(%))"
               },
               "free_text": [
-                " Part II"
+                " Vol. II"
               ]
             }
           ],
-          "AUTHOR": [
+          "INSTITUTE": [
             {
               "pointer": "",
               "coded_information": [
-                "V.M.Adamov",
-                "S.E.Gusev",
-                "L.V.Drapchinskij",
-                "V.V.Kol'tsov",
-                "S.S.Kovalenko",
-                "O.I.Kostochkin",
-                "K.A.Petrzhak",
-                "L.A.Pleskachevskij",
-                "A.M.Sokolov",
-                "S.M.Solov'ev",
-                "P.S.Soloshenkov",
-                "V.A.Trenkin"
+                "4RUSRI"
               ],
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "TITLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "  Absolute measurement of fission cross-sections",
-                "  of U-234, U-236, Pu-240, Pu-241 and Am-243",
-                "  by the neutrons of CF-252 fission spectrum"
               ]
             }
           ],
@@ -218,7 +218,7 @@
                 }
               },
               "free_text": [
-                "Reference for",
+                " Reference for",
                 "                                     half-lives."
               ]
             },
@@ -255,13 +255,13 @@
                 "subentry_number": null,
                 "author": "V.M.Adamov+",
                 "reference": {
-                  "code": "R,INDC(CCP)-099,19,1976",
+                  "code": "S,INDC(CCP)-099,(4),19,1976",
                   "field": {
-                    "reference_type": "R",
+                    "reference_type": "S",
                     "reference": {
                       "code": "INDC(CCP)-",
                       "number": "099",
-                      "volume": null,
+                      "volume": "(4)",
                       "part": null,
                       "issue": null,
                       "page": "19"
@@ -271,7 +271,7 @@
                 }
               },
               "free_text": [
-                " Part 4",
+                "",
                 " Experim.details"
               ]
             },
@@ -462,8 +462,19 @@
                 "checked at CJD.",
                 "J,YK,1982,(4/48),3,1982 -> J,YK,,(4/48),3,1982 -REL-REF",
                 "Two refs. INDC(CCP)- reps. were added .",
-                "EN-DUMMY=1.5 MeV -> KT-DUMMY=1.42 MeV accoreding to",
+                "EN-DUMMY=1.5 MeV -> KT-DUMMY=1.42 MeV according to",
                 "a comment of N.Otsuka (NDS,IAEA) ."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "A"
+              },
+              "free_text": [
+                " Ref. S,INDC(CCP)-235 was corrected.",
+                "STATUS was corrected for new rules."
               ]
             }
           ],
@@ -519,9 +530,9 @@
         {
           "SUBENT": {
             "N1": "40841002",
-            "N2": 20090417,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4146"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -561,7 +572,7 @@
               "coded_information": null,
               "free_text": [
                 " Half-life of 92-U-234 alpha-decay 2.445E+5 +-0.010E+5",
-                " years  was used to define the number of nucleus in",
+                " years was used to define the number of nucleus in",
                 " sample."
               ]
             }
@@ -574,11 +585,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.M.Adamov+",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(2),134,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(2)",
+                      "part": null,
+                      "issue": null,
+                      "page": "134"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of C,83KIEV,2,134,1983 ."
+                "",
+                " Table 1"
               ]
             }
           ],
@@ -648,9 +674,9 @@
         {
           "SUBENT": {
             "N1": "40841003",
-            "N2": 20090417,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4146"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 4,
@@ -690,7 +716,7 @@
               "coded_information": null,
               "free_text": [
                 "Half-life of 92-U-236 alpha-decay 2.3416E+7+-0.0039E+7",
-                " years  was used to define the number of nucleus in",
+                " years was used to define the number of nucleus in",
                 " sample."
               ]
             }
@@ -720,11 +746,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.M.Adamov+",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(2),134,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(2)",
+                      "part": null,
+                      "issue": null,
+                      "page": "134"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of C,83KIEV,2,134,1983 ."
+                "",
+                " Table 1"
               ]
             }
           ],
@@ -794,12 +835,12 @@
         {
           "SUBENT": {
             "N1": "40841004",
-            "N2": 20090417,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4146"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
@@ -857,6 +898,35 @@
               ]
             }
           ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "A",
+                "subentry_number": "12821004",
+                "author": "J.A.Gundl",
+                "reference": {
+                  "code": "J,ANS,44,533,1983",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ANS",
+                      "number": null,
+                      "volume": "44",
+                      "part": null,
+                      "issue": null,
+                      "page": "533"
+                    },
+                    "date": 1983
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " 1.337 +- 0.032 b"
+              ]
+            }
+          ],
           "ERR-ANALYS": [
             {
               "pointer": "",
@@ -892,11 +962,38 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.M.Adamov+",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(2),134,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(2)",
+                      "part": null,
+                      "issue": null,
+                      "page": "134"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of C,83KIEV,2,134,1983 ."
+                "",
+                " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "U"
+              },
+              "free_text": [
+                " REL-REF was added."
               ]
             }
           ],
@@ -974,12 +1071,12 @@
         {
           "SUBENT": {
             "N1": "40841005",
-            "N2": 20160603,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4176"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
@@ -1016,7 +1113,7 @@
               "coded_information": null,
               "free_text": [
                 " Half-life of 94-Pu-241 alpha-decay 6.04E+5 +-0.06E+5",
-                " years  was used to define the number of nucleus in",
+                " years was used to define the number of nucleus in",
                 " sample."
               ]
             }
@@ -1027,6 +1124,35 @@
               "coded_information": null,
               "free_text": [
                 "Pu-241 alpha-decay HL = 6.04E+5 +-0.06E+5 yr"
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "A",
+                "subentry_number": "12821005",
+                "author": "J.A.Gundl",
+                "reference": {
+                  "code": "J,ANS,44,533,1983",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ANS",
+                      "number": null,
+                      "volume": "44",
+                      "part": null,
+                      "issue": null,
+                      "page": "533"
+                    },
+                    "date": 1983
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " 1.617 +- 0.080 b"
               ]
             }
           ],
@@ -1065,11 +1191,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.M.Adamov+",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(2),134,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(2)",
+                      "part": null,
+                      "issue": null,
+                      "page": "134"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of C,83KIEV,2,134,1983 ."
+                "",
+                " Table 1"
               ]
             }
           ],
@@ -1083,6 +1224,16 @@
               "free_text": [
                 " SD: DECAY-DATA corrected following",
                 "MEMO CP-D/888."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "U"
+              },
+              "free_text": [
+                " REL-REF was added."
               ]
             }
           ],
@@ -1160,9 +1311,9 @@
         {
           "SUBENT": {
             "N1": "40841006",
-            "N2": 20090417,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4146"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 5,
@@ -1258,11 +1409,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.M.Adamov+",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(2),134,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(2)",
+                      "part": null,
+                      "issue": null,
+                      "page": "134"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of C,83KIEV,2,134,1983 ."
+                "",
+                " Table 1"
               ]
             }
           ],

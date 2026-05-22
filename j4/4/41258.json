@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:00:13+0000",
+  "time_stamp": "2026-05-22T20:53:18+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "41258",
-        "N2": 20140902,
+        "N2": 20260212,
         "alteration_flag": " ",
-        "transmission_identification": "4165"
+        "transmission_identification": "4226"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "41258001",
-            "N2": 20140902,
+            "N2": 20260212,
             "alteration_flag": " ",
-            "transmission_identification": "4165"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 17,
@@ -26,7 +26,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                " On the Absorption of Fast Neutrons by Heavy Nuclei"
+                " On the absorption of fast neutrons by heavy nuclei"
               ]
             }
           ],
@@ -41,25 +41,14 @@
               ]
             }
           ],
-          "INSTITUTE": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "4RUSRI"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "REFERENCE": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,DOK,48,(8),583,1945",
+                "code": "J,DOK,48,583,1945",
                 "code_unit": [
                   {
-                    "unit": "J,DOK,48,(8),583,1945",
+                    "unit": "J,DOK,48,583,1945",
                     "doi": null,
                     "field": {
                       "reference_type": "J",
@@ -68,7 +57,7 @@
                         "number": null,
                         "volume": "48",
                         "part": null,
-                        "issue": "8",
+                        "issue": null,
                         "page": "583"
                       },
                       "date": 1945
@@ -78,7 +67,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                "     Data Table is given"
+                " Issue 8. Data Table is given."
               ]
             },
             {
@@ -110,6 +99,17 @@
                 " Engl.translation - in journal Comptes Rendus (Doklady)",
                 "de L'Academie Des Sciences de L'URSS, vol.XLVIII,",
                 "number 8, page 555, 1945, PHYSICS."
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "4RUSRI"
+              ],
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -280,11 +280,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.G.Meshcheryakov",
+                "reference": {
+                  "code": "J,CRD,48,555,1945",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CRD",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": null,
+                      "page": "555"
+                    },
+                    "date": 1945
+                  }
+                }
               },
               "free_text": [
-                " Table of J,DOK,48,(8),583,1945 ."
+                "",
+                " =Table of J,DOK,48,(8),583,1945 ."
               ]
             }
           ],
@@ -296,7 +311,7 @@
                 "history": "C"
               },
               "free_text": [
-                "  + +  Compiled at the Center - CJD (S.M.) +"
+                "  + +  Compiled at the center - CJD (S.M.) +"
               ]
             },
             {
@@ -306,7 +321,7 @@
                 "history": "U"
               },
               "free_text": [
-                "  * *  Reference Page Corrected            +"
+                "  * *  Reference page corrected"
               ]
             },
             {
@@ -316,7 +331,7 @@
                 "history": "U"
               },
               "free_text": [
-                "  . .  New Dates. Monitor Kw Deleted"
+                "  . .  New dates. Monitor KW deleted"
               ]
             },
             {
@@ -350,6 +365,16 @@
               "free_text": [
                 " Ref. J,CRD,48,555,1945 was added."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20240212,
+                "history": "A"
+              },
+              "free_text": [
+                " Subent 022 was corrected. EN -> EN-MAX."
+              ]
             }
           ],
           "ENDBIB": {
@@ -364,7 +389,7 @@
               ""
             ],
             "heading": [
-              "EN",
+              "EN-MAX",
               "ERR-1"
             ],
             "unit": [
@@ -3438,9 +3463,9 @@
         {
           "SUBENT": {
             "N1": "41258022",
-            "N2": 20140401,
+            "N2": 20260212,
             "alteration_flag": " ",
-            "transmission_identification": "4163"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -3450,16 +3475,16 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "(83-BI-209(N,G)83-BI-210,,SIG)/(23-V-51(N,G)23-V-52,,SIG)",
+                "code": "(83-BI-209(N,G)83-BI-210-G,,SIG)/(23-V-51(N,G)23-V-52,,SIG)",
                 "code_unit": [
                   {
-                    "unit": "83-BI-209(N,G)83-BI-210,,SIG",
+                    "unit": "83-BI-209(N,G)83-BI-210-G,,SIG",
                     "field": {
-                      "reaction": "83-BI-209(N,G)83-BI-210",
+                      "reaction": "83-BI-209(N,G)83-BI-210-G",
                       "target": "83-BI-209",
                       "projectile": "N",
                       "process": "G",
-                      "product": "83-BI-210",
+                      "product": "83-BI-210-G",
                       "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
@@ -3532,6 +3557,17 @@
               },
               "free_text": [
                 " Last checking has been done."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260212,
+                "history": "A"
+              },
+              "free_text": [
+                "  SF4: -G was added according to a comment",
+                "of N.Otsuka (NDS,IAEA)."
               ]
             }
           ],

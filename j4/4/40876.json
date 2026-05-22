@@ -1,62 +1,35 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:57:26+0000",
+  "time_stamp": "2026-05-22T20:53:16+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "40876",
-        "N2": 20200214,
+        "N2": 20251006,
         "alteration_flag": " ",
-        "transmission_identification": "4186"
+        "transmission_identification": "4226"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "40876001",
-            "N2": 20200214,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4186"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 12,
             "N2": 0
           },
-          "INSTITUTE": [
+          "TITLE": [
             {
               "pointer": "",
-              "coded_information": [
-                "4RUSFEI"
-              ],
+              "coded_information": null,
               "free_text": [
-                "  Grigoriev(=Grigor'ev),Koshcheev,Manturov,",
-                "           Sinitsa"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "4ZZZDUB"
-              ],
-              "free_text": [
-                "  Bakalov,Ilchev,Zamyatnin"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "4RUSKUR"
-              ],
-              "free_text": [
-                "  Muradyan"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "3BULBLA"
-              ],
-              "free_text": [
-                "  Yaneva,Georgiev,Ivanov,Sirakov."
+                "Measurement and analysis of the resonance structure",
+                "characteristics of the total cross-section and the",
+                "radiative capture cross-section of uranium-238 in the",
+                "0.465-200 keV energy range"
               ]
             }
           ],
@@ -78,19 +51,8 @@
                 "G.Ilchev"
               ],
               "free_text": [
-                ""
-              ]
-            }
-          ],
-          "TITLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Measurement and analysis of the resonance structure",
-                "characteristics of the total cross-section and the",
-                "radiative capture cross-section of uranium-238 in the",
-                "0.465-200 keV energy range"
+                "",
+                "Yu.V.Grigor'ev = Yu.V.Grigoriev"
               ]
             }
           ],
@@ -212,7 +174,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "(C,83KIEV,2,243,1983)=(R,INDC(CCP)-235,243,1983)",
+                "code": "(C,83KIEV,2,243,1983)=(S,INDC(CCP)-235,(2),243,1984)",
                 "code_unit": [
                   {
                     "unit": "C,83KIEV,2,243,1983",
@@ -231,26 +193,26 @@
                     }
                   },
                   {
-                    "unit": "R,INDC(CCP)-235,243,1983",
+                    "unit": "S,INDC(CCP)-235,(2),243,1984",
                     "doi": null,
                     "field": {
-                      "reference_type": "R",
+                      "reference_type": "S",
                       "reference": {
                         "code": "INDC(CCP)-",
                         "number": "235",
-                        "volume": null,
+                        "volume": "(2)",
                         "part": null,
                         "issue": null,
                         "page": "243"
                       },
-                      "date": 1983
+                      "date": 1984
                     }
                   }
                 ],
                 "unit_combination": "((%)=(%))"
               },
               "free_text": [
-                "  Part 2",
+                "",
                 "Total scattering cross-section"
               ]
             },
@@ -280,6 +242,45 @@
               },
               "free_text": [
                 "   First publication"
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "4RUSFEI"
+              ],
+              "free_text": [
+                "  Grigoriev(=Grigor'ev),Koshcheev,Manturov,",
+                "           Sinitsa"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "4ZZZDUB"
+              ],
+              "free_text": [
+                "  Bakalov,Ilchev,Zamyatnin"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "4RUSKUR"
+              ],
+              "free_text": [
+                "  Muradyan"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "3BULBLA"
+              ],
+              "free_text": [
+                "  Yaneva,Georgiev,Ivanov,Sirakov."
               ]
             }
           ],
@@ -533,6 +534,17 @@
                 "according to request of NDS,IAEA - see REL-REFs added.",
                 "Correction in STATUS in data Subents."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "A"
+              },
+              "free_text": [
+                " Ref. S,INDC(CCP)-235 was corrected.",
+                "STATUS was corrected for new rules."
+              ]
             }
           ],
           "ENDBIB": {
@@ -567,9 +579,9 @@
         {
           "SUBENT": {
             "N1": "40876002",
-            "N2": 20200214,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4186"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 6,
@@ -611,10 +623,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.V.Grigor'ev",
+                "reference": {
+                  "code": "T,GRIGORIEV,2005",
+                  "field": {
+                    "reference_type": "T",
+                    "reference": {
+                      "code": "GRIGORIEV",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 2005
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Table 38 of T,GRIGORIEV,2005,",
                 " Table 1 of Conf.Proc.83KIEV,2,243,1983 ."
               ]
@@ -627,7 +654,7 @@
               "free_text": [
                 "Of compiler. If in data line a value of error is not",
                 "given - this data line from C,83KIEV,2,243,1983",
-                "                           = R,INDC(CCP)-235,243,1983"
+                "                      = S,INDC(CCP)-235,(2),243,1983"
               ]
             }
           ],
@@ -1265,16 +1292,16 @@
         {
           "NOSUBENT": {
             "N1": "40876003",
-            "N2": 20200214,
-            "transmission_identification": "4186"
+            "N2": 20251006,
+            "transmission_identification": "4226"
           }
         },
         {
           "SUBENT": {
             "N1": "40876004",
-            "N2": 20200214,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4186"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 5,
@@ -1304,9 +1331,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                "",
-                "                             Transmission =",
-                "   self-indication function for total scattering ."
+                ""
               ]
             }
           ],
@@ -1315,7 +1340,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "   Thickness in mm is given in Subent 003."
+                "   Thickness in mm is given in Subent 002."
               ]
             }
           ],
@@ -1327,11 +1352,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.V.Grigor'ev",
+                "reference": {
+                  "code": "T,GRIGORIEV,2005",
+                  "field": {
+                    "reference_type": "T",
+                    "reference": {
+                      "code": "GRIGORIEV",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 2005
+                  }
+                }
               },
               "free_text": [
-                " Table 38 of T,GRIGORIEV,2005,",
+                "",
+                "   Table 38 of T,GRIGORIEV,2005,",
                 "   Table 1 of Yad.Konst.,is.4,p.26,1991"
               ]
             }
@@ -1814,9 +1854,9 @@
         {
           "SUBENT": {
             "N1": "40876005",
-            "N2": 20200214,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4186"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 5,
@@ -1882,12 +1922,27 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.V.Grigor'ev",
+                "reference": {
+                  "code": "T,GRIGORIEV,2005",
+                  "field": {
+                    "reference_type": "T",
+                    "reference": {
+                      "code": "GRIGORIEV",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 2005
+                  }
+                }
               },
               "free_text": [
-                " Table 38 of T,GRIGORIEV,2005,",
-                "              Table 1 of Yad.Konst.,is.4,p.26,1991"
+                "",
+                "        Table 38 of T,GRIGORIEV,2005,",
+                "        Table 1 of Yad.Konst.,is.4,p.26,1991"
               ]
             }
           ],
@@ -1900,7 +1955,7 @@
               },
               "free_text": [
                 " REACTION was corrected : RAW/AV -> SPA .",
-                " Misprints in data values were  corrected."
+                " Misprints in data values were corrected."
               ]
             },
             {
@@ -2333,23 +2388,23 @@
         {
           "NOSUBENT": {
             "N1": "40876006",
-            "N2": 20200214,
-            "transmission_identification": "4186"
+            "N2": 20251006,
+            "transmission_identification": "4226"
           }
         },
         {
           "NOSUBENT": {
             "N1": "40876007",
-            "N2": 20200214,
-            "transmission_identification": "4186"
+            "N2": 20251006,
+            "transmission_identification": "4226"
           }
         },
         {
           "SUBENT": {
             "N1": "40876008",
-            "N2": 20200214,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4186"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -2419,11 +2474,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.V.Grigor'ev",
+                "reference": {
+                  "code": "R,INDC(CCP)-372,1,1994",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "372",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "1"
+                    },
+                    "date": 1994
+                  }
+                }
               },
               "free_text": [
-                "    Table 4 of Yad.Konst.,is.4,p.26,1991"
+                " Table 4.",
+                "         = Table 4 of Yad.Konst.,is.4,p.26,1991"
               ]
             }
           ],
@@ -2505,15 +2575,15 @@
         {
           "NOSUBENT": {
             "N1": "40876009",
-            "N2": 20200214,
-            "transmission_identification": "4186"
+            "N2": 20251006,
+            "transmission_identification": "4226"
           }
         },
         {
           "NOSUBENT": {
             "N1": "40876010",
-            "N2": 20200214,
-            "transmission_identification": "4186"
+            "N2": 20251006,
+            "transmission_identification": "4226"
           }
         }
       ],

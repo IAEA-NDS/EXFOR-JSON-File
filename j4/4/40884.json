@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:57:28+0000",
+  "time_stamp": "2026-05-22T20:53:17+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "40884",
-        "N2": 20130128,
+        "N2": 20251006,
         "alteration_flag": " ",
-        "transmission_identification": "4159"
+        "transmission_identification": "4226"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "40884001",
-            "N2": 20130128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4159"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 13,
+            "N1": 12,
             "N2": 0
           },
           "TITLE": [
@@ -28,8 +28,8 @@
               "free_text": [
                 " Measurement of the average SIGMA-TOT and SIGMA-SCT",
                 " cross-sections and resonance blocking-factors",
-                " for the  niobium, molybdenum and cadmium",
-                " at neutron energy 24.4 keV."
+                " for the niobium, molybdenum and cadmium",
+                " at neutron energy 24.4 keV"
               ]
             }
           ],
@@ -59,10 +59,26 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "C,83KIEV,3,139,198310",
+                "code": "(S,INDC(CCP)-235,(3),139,1984)=(C,83KIEV,3,139,1983)",
                 "code_unit": [
                   {
-                    "unit": "C,83KIEV,3,139,198310",
+                    "unit": "S,INDC(CCP)-235,(3),139,1984",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "S",
+                      "reference": {
+                        "code": "INDC(CCP)-",
+                        "number": "235",
+                        "volume": "(3)",
+                        "part": null,
+                        "issue": null,
+                        "page": "139"
+                      },
+                      "date": 1984
+                    }
+                  },
+                  {
+                    "unit": "C,83KIEV,3,139,1983",
                     "doi": null,
                     "field": {
                       "reference_type": "C",
@@ -74,11 +90,11 @@
                         "issue": null,
                         "page": "139"
                       },
-                      "date": 198310
+                      "date": 1983
                     }
                   }
                 ],
-                "unit_combination": "(%)"
+                "unit_combination": "((%)=(%))"
               },
               "free_text": [
                 ""
@@ -95,7 +111,7 @@
                 "institute": "4RUSFEI"
               },
               "free_text": [
-                "  Thermal power reactor of obninsk Atomic",
+                "  Thermal power reactor of Obninsk Atomic",
                 "power station"
               ]
             }
@@ -145,7 +161,7 @@
               ],
               "free_text": [
                 " Battery of ten He-3 counters of the 'CHM-18'",
-                "        (alias SNM-18) type , places as ring  plex",
+                "       (alias SNM-18) type , placed as ring plexiglass",
                 "cylinder of 350 mm long, inner diameter 65 mm, outer",
                 "diameter 140 mm. Detector was covered by Cd of 1mm",
                 "thickness."
@@ -167,15 +183,6 @@
               "coded_information": null,
               "free_text": [
                 "Background was measured by Ti filter."
-              ]
-            }
-          ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                ".Given in proper subents if relevant"
               ]
             }
           ],
@@ -212,6 +219,19 @@
                 " Duplicative line in Subent 016 DATA block was deleted.",
                 " SIG,,SPA/RAW=SIF,,SPA -> TRN .",
                 " Subent 017 was added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "A"
+              },
+              "free_text": [
+                " Ref. S,INDC(CCP)-235 was added.",
+                " STATUS was corrected for new rules.",
+                " ERR-ANALYS was moved in Subents 003, 006, 008-009,",
+                " 012, 014, 016-017."
               ]
             }
           ],
@@ -251,9 +271,9 @@
         {
           "SUBENT": {
             "N1": "40884002",
-            "N2": 20130128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4159"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 2,
@@ -283,7 +303,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                "   Transmission"
+                ""
               ]
             }
           ],
@@ -295,10 +315,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.V.Grigor'ev",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(3),139,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "139"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Table 2 of C,83KIEV,3,139,1983."
               ]
             }
@@ -369,12 +404,12 @@
         {
           "SUBENT": {
             "N1": "40884003",
-            "N2": 20130128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4159"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -405,7 +440,51 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Type of uncertainty is not explained in the",
+                "article."
+              ]
+            }
+          ],
           "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "Yu.V.Grigor'ev",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(3),139,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "139"
+                    },
+                    "date": 1984
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "        Table 3 of C,83KIEV,3,139,1983."
+              ]
+            },
             {
               "pointer": "",
               "coded_information": {
@@ -417,21 +496,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Table 3 of C,83KIEV,3,139,1983."
+                " Measured transmission"
               ]
             }
           ],
@@ -477,9 +542,9 @@
         {
           "SUBENT": {
             "N1": "40884004",
-            "N2": 20130128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4159"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 2,
@@ -509,8 +574,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                "  Self-indication",
-                "     function for scattering"
+                ""
               ]
             }
           ],
@@ -522,11 +586,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.V.Grigor'ev",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(3),139,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "139"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of C,83KIEV,3,139,1983."
+                "",
+                "        Table 2 of C,83KIEV,3,139,1983."
               ]
             }
           ],
@@ -584,9 +663,9 @@
         {
           "SUBENT": {
             "N1": "40884005",
-            "N2": 20130128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4159"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 2,
@@ -616,7 +695,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " Transmission"
+                ""
               ]
             }
           ],
@@ -628,11 +707,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.V.Grigor'ev",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(3),139,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "139"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of C,83KIEV,3,139,1983."
+                "",
+                "        Table 3 of C,83KIEV,3,139,1983."
               ]
             }
           ],
@@ -702,12 +796,12 @@
         {
           "SUBENT": {
             "N1": "40884006",
-            "N2": 20130128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4159"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -738,7 +832,51 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Type of uncertainty is not explained in the",
+                "article."
+              ]
+            }
+          ],
           "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "Yu.V.Grigor'ev",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(3),139,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "139"
+                    },
+                    "date": 1984
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "        Table 3 of C,83KIEV,3,139,1983."
+              ]
+            },
             {
               "pointer": "",
               "coded_information": {
@@ -750,21 +888,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Table 3 of C,83KIEV,3,139,1983."
+                " Measured transmission"
               ]
             }
           ],
@@ -810,9 +934,9 @@
         {
           "SUBENT": {
             "N1": "40884007",
-            "N2": 20130128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4159"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 2,
@@ -842,7 +966,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " Transmission"
+                ""
               ]
             }
           ],
@@ -854,11 +978,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.V.Grigor'ev",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(3),139,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "139"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of C,83KIEV,3,139,1983."
+                "",
+                "        Table 2 of C,83KIEV,3,139,1983."
               ]
             }
           ],
@@ -928,12 +1067,12 @@
         {
           "SUBENT": {
             "N1": "40884008",
-            "N2": 20130128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4159"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -964,7 +1103,51 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Type of uncertainty is not explained in the",
+                "article."
+              ]
+            }
+          ],
           "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "Yu.V.Grigor'ev",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(3),139,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "139"
+                    },
+                    "date": 1984
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "        Table 3 of C,83KIEV,3,139,1983."
+              ]
+            },
             {
               "pointer": "",
               "coded_information": {
@@ -976,21 +1159,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Table 3 of C,83KIEV,3,139,1983."
+                " Measured transmission"
               ]
             }
           ],
@@ -1036,12 +1205,12 @@
         {
           "SUBENT": {
             "N1": "40884009",
-            "N2": 20130128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4159"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -1136,7 +1305,51 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Type of uncertainty is not explained in the",
+                "article."
+              ]
+            }
+          ],
           "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "Yu.V.Grigor'ev",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(3),139,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "139"
+                    },
+                    "date": 1984
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "        Table 1 of C,83KIEV,3,139,1983."
+              ]
+            },
             {
               "pointer": "",
               "coded_information": {
@@ -1148,21 +1361,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Table 1 of C,83KIEV,3,139,1983."
+                " Self-indication function"
               ]
             }
           ],
@@ -1216,9 +1415,9 @@
         {
           "SUBENT": {
             "N1": "40884010",
-            "N2": 20130128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4159"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 2,
@@ -1248,8 +1447,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                "   Self-indication",
-                "           function for scattering"
+                ""
               ]
             }
           ],
@@ -1261,11 +1459,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.V.Grigor'ev",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(3),139,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "139"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of C,83KIEV,3,139,1983."
+                "",
+                "        Table 2 of C,83KIEV,3,139,1983."
               ]
             }
           ],
@@ -1335,9 +1548,9 @@
         {
           "SUBENT": {
             "N1": "40884011",
-            "N2": 20130128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4159"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 2,
@@ -1367,8 +1580,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                "    Self-",
-                "      indication function for scattering"
+                ""
               ]
             }
           ],
@@ -1380,11 +1592,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.V.Grigor'ev",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(3),139,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "139"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of C,83KIEV,3,139,1983."
+                "",
+                "        Table 2 of C,83KIEV,3,139,1983."
               ]
             }
           ],
@@ -1454,12 +1681,12 @@
         {
           "SUBENT": {
             "N1": "40884012",
-            "N2": 20130128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4159"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -1554,7 +1781,51 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Type of uncertainty is not explained in the",
+                "article."
+              ]
+            }
+          ],
           "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "Yu.V.Grigor'ev",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(3),139,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "139"
+                    },
+                    "date": 1984
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "        Table 1 of C,83KIEV,3,139,1983."
+              ]
+            },
             {
               "pointer": "",
               "coded_information": {
@@ -1566,21 +1837,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Table 1 of C,83KIEV,3,139,1983."
+                " Self-indication function"
               ]
             }
           ],
@@ -1634,9 +1891,9 @@
         {
           "SUBENT": {
             "N1": "40884013",
-            "N2": 20130128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4159"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 2,
@@ -1666,7 +1923,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " Transmission"
+                ""
               ]
             }
           ],
@@ -1678,11 +1935,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.V.Grigor'ev",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(3),139,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "139"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of C,83KIEV,3,139,1983."
+                "",
+                "        Table 2 of C,83KIEV,3,139,1983."
               ]
             }
           ],
@@ -1752,12 +2024,12 @@
         {
           "SUBENT": {
             "N1": "40884014",
-            "N2": 20130128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4159"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -1788,7 +2060,51 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Type of uncertainty is not explained in the",
+                "article."
+              ]
+            }
+          ],
           "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "Yu.V.Grigor'ev",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(3),139,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "139"
+                    },
+                    "date": 1984
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "        Table 3 of C,83KIEV,3,139,1983."
+              ]
+            },
             {
               "pointer": "",
               "coded_information": {
@@ -1800,21 +2116,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Table 3 of C,83KIEV,3,139,1983."
+                " Measured transmission"
               ]
             }
           ],
@@ -1860,9 +2162,9 @@
         {
           "SUBENT": {
             "N1": "40884015",
-            "N2": 20130128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4159"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 2,
@@ -1892,8 +2194,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                "    Self-indication",
-                "                  function for scattering"
+                ""
               ]
             }
           ],
@@ -1905,11 +2206,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Yu.V.Grigor'ev",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(3),139,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "139"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of C,83KIEV,3,139,1983."
+                "",
+                "        Table 2 of C,83KIEV,3,139,1983."
               ]
             }
           ],
@@ -1979,12 +2295,12 @@
         {
           "SUBENT": {
             "N1": "40884016",
-            "N2": 20130128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4159"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -2079,7 +2395,51 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Type of uncertainty is not explained in the",
+                "article."
+              ]
+            }
+          ],
           "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "Yu.V.Grigor'ev",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(3),139,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "139"
+                    },
+                    "date": 1984
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "        Table 1 of C,83KIEV,3,139,1983."
+              ]
+            },
             {
               "pointer": "",
               "coded_information": {
@@ -2091,21 +2451,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Table 1 of C,83KIEV,3,139,1983."
+                " Self-indication function"
               ]
             }
           ],
@@ -2159,12 +2505,12 @@
         {
           "SUBENT": {
             "N1": "40884017",
-            "N2": 20130128,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4159"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -2205,7 +2551,51 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Type of uncertainty is not explained in the",
+                "article."
+              ]
+            }
+          ],
           "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "Yu.V.Grigor'ev",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(3),139,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "139"
+                    },
+                    "date": 1984
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                "        Table 1 of C,83KIEV,3,139,1983."
+              ]
+            },
             {
               "pointer": "",
               "coded_information": {
@@ -2217,7 +2607,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                " Transmission"
               ]
             },
             {
@@ -2231,21 +2621,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Table 1 of C,83KIEV,3,139,1983."
+                " Self-indication function"
               ]
             }
           ],

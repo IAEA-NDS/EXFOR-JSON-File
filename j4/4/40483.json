@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:54:11+0000",
+  "time_stamp": "2026-05-22T20:53:07+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "40483",
-        "N2": 20220215,
+        "N2": 20260112,
         "alteration_flag": " ",
-        "transmission_identification": "4204"
+        "transmission_identification": "4226"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "40483001",
-            "N2": 20220215,
+            "N2": 20260112,
             "alteration_flag": " ",
-            "transmission_identification": "4204"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 6,
@@ -51,34 +51,6 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "P,YFI-20,9,1975",
-                "code_unit": [
-                  {
-                    "unit": "P,YFI-20,9,1975",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "P",
-                      "reference": {
-                        "code": "YFI-",
-                        "number": "20",
-                        "volume": null,
-                        "part": null,
-                        "issue": null,
-                        "page": "9"
-                      },
-                      "date": 1975
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                " Data of U-238 SIGMA(fiss)-Subent 002"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
                 "code": "R,INDC(CCP)-66,6,1976",
                 "code_unit": [
                   {
@@ -102,6 +74,34 @@
               },
               "free_text": [
                 " Engl.transl. of YFI-20,9,1975."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "P,YFI-20,9,1975",
+                "code_unit": [
+                  {
+                    "unit": "P,YFI-20,9,1975",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "P",
+                      "reference": {
+                        "code": "YFI-",
+                        "number": "20",
+                        "volume": null,
+                        "part": null,
+                        "issue": null,
+                        "page": "9"
+                      },
+                      "date": 1975
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                " Data of U-238 SIGMA(fiss)-Subent 002"
               ]
             },
             {
@@ -314,33 +314,24 @@
               "free_text": [
                 " Correction of free text."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260112,
+                "history": "A"
+              },
+              "free_text": [
+                " EN-NRM and MONIT were moved in Subent 002.",
+                " STATUS lines were updated for new rules."
+              ]
             }
           ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "EN-NRM",
-              "MONIT"
-            ],
-            "unit": [
-              "MEV",
-              "MB"
-            ],
-            "value": [
-              1.0,
-              16.0
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -352,12 +343,12 @@
         {
           "SUBENT": {
             "N1": "40483002",
-            "N2": 20220215,
+            "N2": 20260112,
             "alteration_flag": " ",
-            "transmission_identification": "4204"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 10,
+            "N1": 11,
             "N2": 0
           },
           "REACTION": [
@@ -393,7 +384,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                " Metallic foil, U-235 content less then 3.E-5"
+                " Metallic foil, U-235 admixture less then 3.E-5"
               ]
             }
           ],
@@ -498,8 +489,20 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                " were introduced on fission of U-235, fission by the",
-                "  scattered neutrons and photofission"
+                " were introduced on fission of U-235 admixture,",
+                "fission by the scattered neutrons and photofission."
+              ]
+            }
+          ],
+          "FLAG": [
+            {
+              "pointer": "",
+              "coded_information": [
+                1.0
+              ],
+              "free_text": [
+                " Suspicious value of EN, 1367 keV value is given",
+                "twice in the article."
               ]
             }
           ],
@@ -525,11 +528,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "P.E.Vorotnikov+",
+                "reference": {
+                  "code": "R,INDC(CCP)-66,6,1976",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "66",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "6"
+                    },
+                    "date": 1976
+                  }
+                }
               },
               "free_text": [
-                " Table of rep.INDC(CCP)-66,p.6,1976",
+                "",
+                "Table on page 7.",
                 "Subent 40483.002 supersedes Subent 40325.002 - the",
                 "same data."
               ]
@@ -545,20 +563,51 @@
               "free_text": [
                 " Correction of free text in STATUS."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260112,
+                "history": "U"
+              },
+              "free_text": [
+                " FLAG was added."
+              ]
             }
           ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 2,
+            "N2": 0,
+            "pointer": [
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-NRM",
+              "MONIT"
+            ],
+            "unit": [
+              "KEV",
+              "MB"
+            ],
+            "value": [
+              1000.0,
+              16.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
           "DATA": {
-            "N1": 4,
+            "N1": 5,
             "N2": 71,
             "pointer": [
+              "",
               "",
               "",
               "",
@@ -568,440 +617,513 @@
               "EN",
               "EN-RSL",
               "DATA",
-              "DATA-ERR"
+              "DATA-ERR",
+              "FLAG"
             ],
             "unit": [
               "KEV",
               "KEV",
               "MB",
-              "MB"
+              "MB",
+              "NO-DIM"
             ],
             "value": [
               [
                 160.0,
                 25.0,
                 0.03,
-                0.02
+                0.02,
+                null
               ],
               [
                 240.0,
                 26.0,
                 0.06,
-                0.03
+                0.03,
+                null
               ],
               [
                 310.0,
                 30.0,
                 0.12,
-                0.04
+                0.04,
+                null
               ],
               [
                 326.0,
                 28.0,
                 0.102,
-                0.025
+                0.025,
+                null
               ],
               [
                 350.0,
                 25.0,
                 0.16,
-                0.06
+                0.06,
+                null
               ],
               [
                 367.0,
                 28.0,
                 0.24,
-                0.045
+                0.045,
+                null
               ],
               [
                 386.0,
                 12.0,
                 0.26,
-                0.115
+                0.115,
+                null
               ],
               [
                 400.0,
                 27.0,
                 0.32,
-                0.057
+                0.057,
+                null
               ],
               [
                 400.1,
                 27.0,
                 0.29,
-                0.046
+                0.046,
+                null
               ],
               [
                 402.0,
                 12.0,
                 0.3,
-                0.105
+                0.105,
+                null
               ],
               [
                 407.0,
                 30.0,
                 0.26,
-                0.022
+                0.022,
+                null
               ],
               [
                 420.0,
                 12.0,
                 0.41,
-                0.12
+                0.12,
+                null
               ],
               [
                 420.1,
                 26.0,
                 0.4,
-                0.036
+                0.036,
+                null
               ],
               [
                 432.0,
                 12.0,
                 0.42,
-                0.115
+                0.115,
+                null
               ],
               [
                 440.0,
                 29.0,
                 0.39,
-                0.027
+                0.027,
+                null
               ],
               [
                 454.0,
                 11.0,
                 0.26,
-                0.105
+                0.105,
+                null
               ],
               [
                 473.0,
                 25.0,
                 0.28,
-                0.075
+                0.075,
+                null
               ],
               [
                 477.0,
                 27.0,
                 0.34,
-                0.06
+                0.06,
+                null
               ],
               [
                 497.0,
                 41.0,
                 0.3,
-                0.044
+                0.044,
+                null
               ],
               [
                 502.0,
                 41.0,
                 0.4,
-                0.045
+                0.045,
+                null
               ],
               [
                 537.0,
                 35.0,
                 0.6,
-                0.045
+                0.045,
+                null
               ],
               [
                 539.0,
                 40.0,
                 0.79,
-                0.1
+                0.1,
+                null
               ],
               [
                 568.0,
                 11.0,
                 0.92,
-                0.2
+                0.2,
+                null
               ],
               [
                 598.0,
                 28.0,
                 1.25,
-                0.086
+                0.086,
+                null
               ],
               [
                 604.0,
                 11.0,
                 1.24,
-                0.26
+                0.26,
+                null
               ],
               [
                 610.0,
                 39.0,
                 0.96,
-                0.062
+                0.062,
+                null
               ],
               [
                 615.0,
                 40.0,
                 1.18,
-                0.093
+                0.093,
+                null
               ],
               [
                 628.0,
                 11.0,
                 1.34,
-                0.22
+                0.22,
+                null
               ],
               [
                 650.0,
                 40.0,
                 1.42,
-                0.12
+                0.12,
+                null
               ],
               [
                 653.0,
                 36.0,
                 1.16,
-                0.076
+                0.076,
+                null
               ],
               [
                 659.0,
                 10.0,
                 1.26,
-                0.22
+                0.22,
+                null
               ],
               [
                 661.0,
                 40.0,
                 1.24,
-                0.12
+                0.12,
+                null
               ],
               [
                 681.0,
                 38.0,
                 1.46,
-                0.95
+                0.95,
+                null
               ],
               [
                 686.0,
                 10.0,
                 1.74,
-                0.26
+                0.26,
+                null
               ],
               [
                 716.0,
                 36.0,
                 2.09,
-                0.15
+                0.15,
+                null
               ],
               [
                 732.0,
                 39.0,
                 2.5,
-                0.22
+                0.22,
+                null
               ],
               [
                 753.0,
                 39.0,
                 2.8,
-                0.31
+                0.31,
+                null
               ],
               [
                 758.0,
                 35.0,
                 2.9,
-                0.21
+                0.21,
+                null
               ],
               [
                 795.0,
                 35.0,
                 3.85,
-                0.24
+                0.24,
+                null
               ],
               [
                 810.0,
                 39.0,
                 4.7,
-                0.5
+                0.5,
+                null
               ],
               [
                 856.0,
                 38.0,
                 8.09,
-                1.1
+                1.1,
+                null
               ],
               [
                 896.0,
                 36.0,
                 10.3,
-                0.6
+                0.6,
+                null
               ],
               [
                 906.0,
                 37.0,
                 14.0,
-                1.6
+                1.6,
+                null
               ],
               [
                 940.0,
                 36.0,
                 15.0,
-                0.9
+                0.9,
+                null
               ],
               [
                 956.0,
                 36.0,
                 15.6,
-                1.7
+                1.7,
+                null
               ],
               [
                 962.0,
                 35.0,
                 15.5,
-                0.9
+                0.9,
+                null
               ],
               [
                 977.0,
                 26.0,
                 18.9,
-                1.1
+                1.1,
+                null
               ],
               [
                 980.0,
                 38.0,
                 16.1,
-                1.2
+                1.2,
+                null
               ],
               [
                 995.0,
                 35.0,
                 16.2,
-                1.4
+                1.4,
+                null
               ],
               [
                 1015.0,
                 35.0,
                 14.5,
-                0.9
+                0.9,
+                null
               ],
               [
                 1024.0,
                 38.0,
                 18.0,
-                1.4
+                1.4,
+                null
               ],
               [
                 1050.0,
                 35.0,
                 20.4,
-                1.3
+                1.3,
+                null
               ],
               [
                 1106.0,
                 31.0,
                 26.1,
-                1.5
+                1.5,
+                null
               ],
               [
                 1122.0,
                 34.0,
                 33.0,
-                1.9
+                1.9,
+                null
               ],
               [
                 1151.0,
                 30.0,
                 34.5,
-                2.0
+                2.0,
+                null
               ],
               [
                 1172.0,
                 34.0,
                 42.8,
-                2.5
+                2.5,
+                null
               ],
               [
                 1202.0,
                 37.0,
                 39.0,
-                2.5
+                2.5,
+                null
               ],
               [
                 1204.0,
                 25.0,
                 40.1,
-                2.4
+                2.4,
+                null
               ],
               [
                 1230.0,
                 34.0,
                 43.0,
-                2.4
+                2.4,
+                null
               ],
               [
                 1253.0,
                 30.0,
                 46.0,
-                3.0
+                3.0,
+                null
               ],
               [
                 1276.0,
                 33.0,
                 51.5,
-                3.1
+                3.1,
+                null
               ],
               [
                 1305.0,
                 30.0,
                 58.0,
-                3.4
+                3.4,
+                null
               ],
               [
                 1327.0,
                 33.0,
                 70.0,
-                4.3
+                4.3,
+                null
               ],
               [
                 1356.0,
                 30.0,
                 88.0,
-                5.0
+                5.0,
+                null
               ],
               [
                 1367.0,
                 29.0,
                 100.0,
-                5.8
+                5.8,
+                null
               ],
               [
-                1367.1,
+                1367.0,
                 29.0,
                 94.0,
-                5.4
+                5.4,
+                1.0
               ],
               [
                 1403.0,
                 29.0,
                 145.0,
-                8.7
+                8.7,
+                null
               ],
               [
                 1453.0,
                 29.0,
                 230.0,
-                14.0
+                14.0,
+                null
               ],
               [
                 1479.0,
                 21.0,
                 290.0,
-                18.0
+                18.0,
+                null
               ],
               [
                 1495.0,
                 28.0,
                 320.0,
-                19.0
+                19.0,
+                null
               ],
               [
                 1554.0,
                 28.0,
                 390.0,
-                24.0
+                24.0,
+                null
               ]
             ]
           },
@@ -1017,9 +1139,9 @@
         {
           "SUBENT": {
             "N1": "40483003",
-            "N2": 20220215,
+            "N2": 20260112,
             "alteration_flag": " ",
-            "transmission_identification": "4204"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 8,
@@ -1138,11 +1260,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "P.E.Vorotnikov+",
+                "reference": {
+                  "code": "R,INDC(CCP)-118,(3),239,1977",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "118",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "239"
+                    },
+                    "date": 1977
+                  }
+                }
               },
               "free_text": [
-                " Text p.241 of rep.INDC(CCP)-118,v.3,p.239,1977",
+                "",
+                "Text p.241 of rep.INDC(CCP)-118,v.3,p.239,1977",
                 " = Text of rep.YFI-25,p.42,1977"
               ]
             }
@@ -1201,6 +1338,17 @@
               "free_text": [
                 " ERR-HL was added in DATA block."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260112,
+                "history": "A"
+              },
+              "free_text": [
+                " ERR-HL was moved in free text according to",
+                " a comment of N.Otsuka (NDS,IAEA)."
+              ]
             }
           ],
           "ENDBIB": {
@@ -1212,10 +1360,9 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 4,
+            "N1": 3,
             "N2": 1,
             "pointer": [
-              "",
               "",
               "",
               ""
@@ -1223,21 +1370,18 @@
             "heading": [
               "EN-MIN",
               "EN-MAX",
-              "DATA-APRX",
-              "ERR-HL"
+              "DATA-APRX"
             ],
             "unit": [
               "MEV",
               "MEV",
-              "MB",
-              "NSEC"
+              "MB"
             ],
             "value": [
               [
                 2.9,
                 4.7,
-                0.1,
-                32.0
+                0.1
               ]
             ]
           },

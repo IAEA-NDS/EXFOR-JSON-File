@@ -1,31 +1,42 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:57:05+0000",
+  "time_stamp": "2026-05-22T20:53:13+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "40834",
-        "N2": 20110718,
+        "N2": 20251006,
         "alteration_flag": " ",
-        "transmission_identification": "4153"
+        "transmission_identification": "4226"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "40834001",
-            "N2": 20110718,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4153"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 7,
+            "N1": 8,
             "N2": 0
           },
-          "INSTITUTE": [
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Measurement of the fission cross section of the 235U",
+                "isomer by thermal neutrons"
+              ]
+            }
+          ],
+          "AUTHOR": [
             {
               "pointer": "",
               "coded_information": [
-                "4RUSKUR"
+                "V.I.Mostovoi",
+                "G.I.Ustroev"
               ],
               "free_text": [
                 ""
@@ -36,66 +47,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,AE,57,(4),241,198410",
+                "code": "J,SJA,57,692,1984",
                 "code_unit": [
                   {
-                    "unit": "J,AE,57,(4),241,198410",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "AE",
-                        "number": null,
-                        "volume": "57",
-                        "part": null,
-                        "issue": "4",
-                        "page": "241"
-                      },
-                      "date": 198410
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "C,83KIEV,1,295,198310",
-                "code_unit": [
-                  {
-                    "unit": "C,83KIEV,1,295,198310",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "C",
-                      "reference": {
-                        "code": "83KIEV",
-                        "number": null,
-                        "volume": "1",
-                        "part": null,
-                        "issue": null,
-                        "page": "295"
-                      },
-                      "date": 198310
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "J,SJA,57,(4),692,1984",
-                "code_unit": [
-                  {
-                    "unit": "J,SJA,57,(4),692,1984",
+                    "unit": "J,SJA,57,692,1984",
                     "doi": "10.1007/BF01123638",
                     "field": {
                       "reference_type": "J",
@@ -104,7 +59,7 @@
                         "number": null,
                         "volume": "57",
                         "part": null,
-                        "issue": "4",
+                        "issue": null,
                         "page": "692"
                       },
                       "date": 1984
@@ -117,27 +72,88 @@
                 " Engl.translation of J,AE .",
                 "#doi:10.1007/BF01123638"
               ]
-            }
-          ],
-          "AUTHOR": [
+            },
             {
               "pointer": "",
-              "coded_information": [
-                "V.I.Mostovoy",
-                "G.I.Ustroev"
-              ],
+              "coded_information": {
+                "code": "J,AE,57,241,198410",
+                "code_unit": [
+                  {
+                    "unit": "J,AE,57,241,198410",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "AE",
+                        "number": null,
+                        "volume": "57",
+                        "part": null,
+                        "issue": null,
+                        "page": "241"
+                      },
+                      "date": 198410
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                " Issue 4."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "(S,INDC(CCP)-235,(1),295,1984)=(C,83KIEV,1,295,1983)",
+                "code_unit": [
+                  {
+                    "unit": "S,INDC(CCP)-235,(1),295,1984",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "S",
+                      "reference": {
+                        "code": "INDC(CCP)-",
+                        "number": "235",
+                        "volume": "(1)",
+                        "part": null,
+                        "issue": null,
+                        "page": "295"
+                      },
+                      "date": 1984
+                    }
+                  },
+                  {
+                    "unit": "C,83KIEV,1,295,1983",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "C",
+                      "reference": {
+                        "code": "83KIEV",
+                        "number": null,
+                        "volume": "1",
+                        "part": null,
+                        "issue": null,
+                        "page": "295"
+                      },
+                      "date": 1983
+                    }
+                  }
+                ],
+                "unit_combination": "((%)=(%))"
+              },
               "free_text": [
                 ""
               ]
             }
           ],
-          "TITLE": [
+          "INSTITUTE": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": [
+                "4RUSKUR"
+              ],
               "free_text": [
-                "Measurement of the fission cross section of the U-235",
-                "isomer by thermal neutrons ."
+                ""
               ]
             }
           ],
@@ -162,9 +178,19 @@
                 "SOLST"
               ],
               "free_text": [
-                " Semiconductor breakdown detector",
+                " Semiconductor breakdown detector.",
                 " FF registration efficiency was defined by Cf-252",
                 " calibration."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Background from backing and detector ( 0.98 1/min;",
+                " 6-12 % of the total count ) was subtracted."
               ]
             }
           ],
@@ -191,6 +217,17 @@
                 "BIB information was added.",
                 "Ref. J,SJA was added."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "A"
+              },
+              "free_text": [
+                " Ref. S,INDC(CCP)-235 was added.",
+                "STATUS was corrected for new rules."
+              ]
             }
           ],
           "ENDBIB": {
@@ -209,12 +246,12 @@
         {
           "SUBENT": {
             "N1": "40834002",
-            "N2": 20110718,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4153"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
@@ -264,20 +301,9 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "  Thermal  reactor spectrum, spectrum temperature",
-                "  360 degree Kelvin",
-                "  Thermal neutron beam 0.7E+10 /cm**2/sec."
-              ]
-            }
-          ],
-          "PART-DET": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "FF"
-              ],
-              "free_text": [
-                ""
+                "  Thermal reactor spectrum, spectrum temperature",
+                "  360 degree Kelvin.",
+                "  Thermal neutron flux 0.7E+10 /(cm**2*sec)."
               ]
             }
           ],
@@ -286,8 +312,11 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                " U-235-M sample was produced via alpha decay of Pu-239.",
-                " Pu-239 monitor sample."
+                " U-235-M (1/2+, 76.8 eV) sample was produced via alpha",
+                "decay of Pu-239. ~ 10 ng, area 0.2 cm2.",
+                " Pu-239 monitor sample.",
+                " Number of nuclei was calculated from alpha-spectra",
+                " measurement."
               ]
             }
           ],
@@ -308,6 +337,21 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Type of uncertainty is not explained in the",
+                "article."
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -316,11 +360,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.I.Mostovoi+",
+                "reference": {
+                  "code": "J,SJA,57,692,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SJA",
+                      "number": null,
+                      "volume": "57",
+                      "part": null,
+                      "issue": null,
+                      "page": "692"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Text, page 242, of J,AE,57,(4),241,1984."
+                "",
+                " Text, page 693."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "U"
+              },
+              "free_text": [
+                " \"PART-DET   (FF)\" was deleted according to",
+                "a comment of N.Otsuka (NDS,IAEA)"
               ]
             }
           ],
@@ -352,7 +424,7 @@
             ],
             "value": [
               [
-                0.025,
+                0.0253,
                 2.2,
                 0.4
               ]

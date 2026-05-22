@@ -1,31 +1,46 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:57:12+0000",
+  "time_stamp": "2026-05-22T20:53:14+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "40845",
-        "N2": 20180309,
+        "N2": 20251006,
         "alteration_flag": " ",
-        "transmission_identification": "4178"
+        "transmission_identification": "4226"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "40845001",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 13,
+            "N1": 14,
             "N2": 0
           },
-          "INSTITUTE": [
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Angular anisotropy of inelastic neutron scattering",
+                " on Se nuclei, and the role of the direct mechanisms",
+                " at En = 1 MeV"
+              ]
+            }
+          ],
+          "AUTHOR": [
             {
               "pointer": "",
               "coded_information": [
-                "4RUSJIA"
+                "E.S.Konobeevskii",
+                "Yu.G.Kudenko",
+                "M.V.Mordovskoi",
+                "V.I.Popov",
+                "V.M.Skorkin"
               ],
               "free_text": [
                 ""
@@ -33,6 +48,34 @@
             }
           ],
           "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,BAS,48,(2),169,1984",
+                "code_unit": [
+                  {
+                    "unit": "J,BAS,48,(2),169,1984",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "BAS",
+                        "number": null,
+                        "volume": "48",
+                        "part": null,
+                        "issue": "2",
+                        "page": "169"
+                      },
+                      "date": 1984
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                " Engl.transl.of IZV,48,389,1984"
+              ]
+            },
             {
               "pointer": "",
               "coded_information": {
@@ -64,38 +107,26 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,BAS,48,(2),169,1984",
+                "code": "(S,INDC(CCP)-235,(3),157,1984)=(C,83KIEV,3,157,1983)",
                 "code_unit": [
                   {
-                    "unit": "J,BAS,48,(2),169,1984",
+                    "unit": "S,INDC(CCP)-235,(3),157,1984",
                     "doi": null,
                     "field": {
-                      "reference_type": "J",
+                      "reference_type": "S",
                       "reference": {
-                        "code": "BAS",
-                        "number": null,
-                        "volume": "48",
+                        "code": "INDC(CCP)-",
+                        "number": "235",
+                        "volume": "(3)",
                         "part": null,
-                        "issue": "2",
-                        "page": "169"
+                        "issue": null,
+                        "page": "157"
                       },
                       "date": 1984
                     }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                " Engl.transl.of IZV,48,(2),389"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "C,83KIEV,3,157,198310",
-                "code_unit": [
+                  },
                   {
-                    "unit": "C,83KIEV,3,157,198310",
+                    "unit": "C,83KIEV,3,157,1983",
                     "doi": null,
                     "field": {
                       "reference_type": "C",
@@ -107,40 +138,25 @@
                         "issue": null,
                         "page": "157"
                       },
-                      "date": 198310
+                      "date": 1983
                     }
                   }
                 ],
-                "unit_combination": "(%)"
+                "unit_combination": "((%)=(%))"
               },
               "free_text": [
                 ""
               ]
             }
           ],
-          "AUTHOR": [
+          "INSTITUTE": [
             {
               "pointer": "",
               "coded_information": [
-                "E.S.Konobeevskii",
-                "Yu.G.Kudenko",
-                "M.V.Mordovskoi",
-                "V.I.Popov",
-                "V.M.Skorkin"
+                "4RUSJIA"
               ],
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "TITLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                " Angular anisotropy of inelastic neutron scattering",
-                " on se nuclei, and the role of the direct mechanisms",
-                " at En = 1. MeV"
               ]
             }
           ],
@@ -154,7 +170,24 @@
                 "institute": "4RUSJIA"
               },
               "free_text": [
-                ""
+                " EG-2.5 accelerator in pulse mode."
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "P-T"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                " Proton beam of 2 MeV energy,",
+                "3 nsec pulse duration,",
+                "3-4 muA current on solid tritium target of 60 keV",
+                "thickness."
               ]
             }
           ],
@@ -163,7 +196,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                " Metallic Selenium,  particular isotope enrichment",
+                " Metallic selenium,  particular isotope enrichment",
                 " is 92 - 99 percent,sample weight 50 - 100 gram"
               ]
             }
@@ -325,6 +358,17 @@
                 "STATUS was added in data Subents.",
                 "Monitor was corrected."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "A"
+              },
+              "free_text": [
+                " Ref. S,INDC(CCP)-235 was added.",
+                "STATUS was corrected for new rules."
+              ]
             }
           ],
           "ENDBIB": {
@@ -343,9 +387,9 @@
         {
           "SUBENT": {
             "N1": "40845002",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 4,
@@ -379,18 +423,6 @@
               ]
             }
           ],
-          "EN-SEC": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "E-LVL",
-                "particle": "34-SE-76"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "ERR-ANALYS": [
             {
               "pointer": "",
@@ -413,11 +445,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.S.Konobeevskii+",
+                "reference": {
+                  "code": "J,BAS,48,(2),169,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "2",
+                      "page": "169"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of BAS,48,(2),169,1984"
+                "",
+                "Table 1."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "U"
+              },
+              "free_text": [
+                " \"EN-SEC (E-LVL,34-SE-76)\" was deleted",
+                "according to acomment of N.Otsuka (NDS,IAEA)."
               ]
             }
           ],
@@ -503,9 +563,9 @@
         {
           "SUBENT": {
             "N1": "40845003",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 4,
@@ -539,18 +599,6 @@
               ]
             }
           ],
-          "EN-SEC": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "E-LVL",
-                "particle": "34-SE-78"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "ERR-ANALYS": [
             {
               "pointer": "",
@@ -573,11 +621,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.S.Konobeevskii+",
+                "reference": {
+                  "code": "J,BAS,48,(2),169,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "2",
+                      "page": "169"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of BAS,48,(2),169,1984"
+                "",
+                "Table 1."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "U"
+              },
+              "free_text": [
+                " \"EN-SEC (E-LVL,34-SE-78)\" was deleted",
+                "according to acomment of N.Otsuka (NDS,IAEA)."
               ]
             }
           ],
@@ -663,9 +739,9 @@
         {
           "SUBENT": {
             "N1": "40845004",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 4,
@@ -699,18 +775,6 @@
               ]
             }
           ],
-          "EN-SEC": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "E-LVL",
-                "particle": "34-SE-80"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "ERR-ANALYS": [
             {
               "pointer": "",
@@ -733,11 +797,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.S.Konobeevskii+",
+                "reference": {
+                  "code": "J,BAS,48,(2),169,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "2",
+                      "page": "169"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of BAS,48,(2),169,1984"
+                "",
+                "Table 1."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "U"
+              },
+              "free_text": [
+                " \"EN-SEC (E-LVL,34-SE-80)\" was deleted",
+                "according to acomment of N.Otsuka (NDS,IAEA)."
               ]
             }
           ],
@@ -823,9 +915,9 @@
         {
           "SUBENT": {
             "N1": "40845005",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 4,
@@ -859,18 +951,6 @@
               ]
             }
           ],
-          "EN-SEC": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "E-LVL",
-                "particle": "34-SE-82"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "ERR-ANALYS": [
             {
               "pointer": "",
@@ -893,11 +973,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.S.Konobeevskii+",
+                "reference": {
+                  "code": "J,BAS,48,(2),169,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "2",
+                      "page": "169"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of BAS,48,(2),169,1984"
+                "",
+                "Table 1."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "U"
+              },
+              "free_text": [
+                " \"EN-SEC (E-LVL,34-SE-82)\" was deleted",
+                "according to acomment of N.Otsuka (NDS,IAEA)."
               ]
             }
           ],
@@ -983,9 +1091,9 @@
         {
           "SUBENT": {
             "N1": "40845006",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -1041,11 +1149,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.S.Konobeevskii+",
+                "reference": {
+                  "code": "J,BAS,48,(2),169,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "2",
+                      "page": "169"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of BAS,48,(2),169,1984"
+                "",
+                "Table 2."
               ]
             }
           ],
@@ -1103,9 +1226,9 @@
         {
           "SUBENT": {
             "N1": "40845007",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -1161,11 +1284,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.S.Konobeevskii+",
+                "reference": {
+                  "code": "J,BAS,48,(2),169,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "2",
+                      "page": "169"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of BAS,48,(2),169,1984"
+                "",
+                "Table 2."
               ]
             }
           ],
@@ -1223,9 +1361,9 @@
         {
           "SUBENT": {
             "N1": "40845008",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -1281,11 +1419,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.S.Konobeevskii+",
+                "reference": {
+                  "code": "J,BAS,48,(2),169,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "2",
+                      "page": "169"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of BAS,48,(2),169,1984"
+                "",
+                "Table 2."
               ]
             }
           ],
@@ -1343,9 +1496,9 @@
         {
           "SUBENT": {
             "N1": "40845009",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -1401,11 +1554,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.S.Konobeevskii+",
+                "reference": {
+                  "code": "J,BAS,48,(2),169,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "2",
+                      "page": "169"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of BAS,48,(2),169,1984"
+                "",
+                "Table 2."
               ]
             }
           ],
@@ -1463,9 +1631,9 @@
         {
           "SUBENT": {
             "N1": "40845010",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -1521,11 +1689,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.S.Konobeevskii+",
+                "reference": {
+                  "code": "J,BAS,48,(2),169,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "2",
+                      "page": "169"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of BAS,48,(2),169,1984"
+                "",
+                "Table 2."
               ]
             }
           ],
@@ -1583,9 +1766,9 @@
         {
           "SUBENT": {
             "N1": "40845011",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -1641,11 +1824,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.S.Konobeevskii+",
+                "reference": {
+                  "code": "J,BAS,48,(2),169,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "2",
+                      "page": "169"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of BAS,48,(2),169,1984"
+                "",
+                "Table 2."
               ]
             }
           ],
@@ -1703,9 +1901,9 @@
         {
           "SUBENT": {
             "N1": "40845012",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -1761,11 +1959,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.S.Konobeevskii+",
+                "reference": {
+                  "code": "J,BAS,48,(2),169,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "2",
+                      "page": "169"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of BAS,48,(2),169,1984"
+                "",
+                "Table 2."
               ]
             }
           ],
@@ -1823,9 +2036,9 @@
         {
           "SUBENT": {
             "N1": "40845013",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -1881,11 +2094,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.S.Konobeevskii+",
+                "reference": {
+                  "code": "J,BAS,48,(2),169,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "2",
+                      "page": "169"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of BAS,48,(2),169,1984"
+                "",
+                "Table 2."
               ]
             }
           ],
@@ -1943,9 +2171,9 @@
         {
           "SUBENT": {
             "N1": "40845014",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -2001,11 +2229,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.S.Konobeevskii+",
+                "reference": {
+                  "code": "J,BAS,48,(2),169,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "2",
+                      "page": "169"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of BAS,48,(2),169,1984"
+                "",
+                "Table 2."
               ]
             }
           ],
@@ -2063,9 +2306,9 @@
         {
           "SUBENT": {
             "N1": "40845015",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -2121,11 +2364,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.S.Konobeevskii+",
+                "reference": {
+                  "code": "J,BAS,48,(2),169,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "2",
+                      "page": "169"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of BAS,48,(2),169,1984"
+                "",
+                "Table 2."
               ]
             }
           ],
@@ -2183,9 +2441,9 @@
         {
           "SUBENT": {
             "N1": "40845016",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -2241,11 +2499,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.S.Konobeevskii+",
+                "reference": {
+                  "code": "J,BAS,48,(2),169,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "2",
+                      "page": "169"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of BAS,48,(2),169,1984"
+                "",
+                "Table 2."
               ]
             }
           ],
@@ -2303,9 +2576,9 @@
         {
           "SUBENT": {
             "N1": "40845017",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -2361,11 +2634,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.S.Konobeevskii+",
+                "reference": {
+                  "code": "J,BAS,48,(2),169,1984",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "48",
+                      "part": null,
+                      "issue": "2",
+                      "page": "169"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of BAS,48,(2),169,1984"
+                "",
+                "Table 2."
               ]
             }
           ],
@@ -2423,9 +2711,9 @@
         {
           "SUBENT": {
             "N1": "40845018",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -2481,11 +2769,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.S.Konobeevskii+",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(3),157,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "157"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table of C,83KIEV,3,157,1983"
+                "",
+                "Table on page 161"
               ]
             }
           ],
@@ -2539,9 +2842,9 @@
         {
           "SUBENT": {
             "N1": "40845019",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -2597,11 +2900,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.S.Konobeevskii+",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(3),157,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "157"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table of C,83KIEV,3,157,1983"
+                "",
+                "Table on page 161"
               ]
             }
           ],
@@ -2655,9 +2973,9 @@
         {
           "SUBENT": {
             "N1": "40845020",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -2713,11 +3031,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.S.Konobeevskii+",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(3),157,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "157"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table of C,83KIEV,3,157,1983"
+                "",
+                "Table on page 161"
               ]
             }
           ],
@@ -2771,9 +3104,9 @@
         {
           "SUBENT": {
             "N1": "40845021",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -2829,11 +3162,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.S.Konobeevskii+",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(3),157,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "157"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table of C,83KIEV,3,157,1983"
+                "",
+                "Table on page 161"
               ]
             }
           ],
@@ -2887,9 +3235,9 @@
         {
           "SUBENT": {
             "N1": "40845022",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -2949,7 +3297,8 @@
                 "reference": null
               },
               "free_text": [
-                " From author  Kudenko, 1985-06"
+                " From author Yu.Kudenko, 1985-06",
+                " Data are on Fig.1 of S,INDC(CCP)-235,(3),157,1984"
               ]
             }
           ],
@@ -3063,9 +3412,9 @@
         {
           "SUBENT": {
             "N1": "40845023",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 4,
@@ -3099,18 +3448,6 @@
               ]
             }
           ],
-          "EN-SEC": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "LVL-NUMB",
-                "particle": "34-SE-76"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "ERR-ANALYS": [
             {
               "pointer": "",
@@ -3137,7 +3474,20 @@
                 "reference": null
               },
               "free_text": [
-                " From author  Kudenko, 1985-06"
+                " From author Yu.Kudenko, 1985-06",
+                " Data are on Fig.2 of S,INDC(CCP)-235,(3),157,1984"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "A"
+              },
+              "free_text": [
+                " LVL-NUMB=2 -> E-LVL=0.555 MeV"
               ]
             }
           ],
@@ -3157,19 +3507,19 @@
             "heading": [
               "EN",
               "EN-RSL",
-              "LVL-NUMB",
+              "E-LVL",
               "ANG-RSL"
             ],
             "unit": [
               "MEV",
               "MEV",
-              "NO-DIM",
+              "MEV",
               "ADEG"
             ],
             "value": [
               1.08,
               0.04,
-              2.0,
+              0.555,
               2.0
             ]
           },
@@ -3255,9 +3605,9 @@
         {
           "SUBENT": {
             "N1": "40845024",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -3317,7 +3667,8 @@
                 "reference": null
               },
               "free_text": [
-                " From author  Kudenko, 1985-06"
+                " From author Yu.Kudenko, 1985-06",
+                " Data are on Fig.1 of S,INDC(CCP)-235,(3),157,1984"
               ]
             }
           ],
@@ -3431,9 +3782,9 @@
         {
           "SUBENT": {
             "N1": "40845025",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 4,
@@ -3467,18 +3818,6 @@
               ]
             }
           ],
-          "EN-SEC": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "LVL-NUMB",
-                "particle": "34-SE-78"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "ERR-ANALYS": [
             {
               "pointer": "",
@@ -3505,7 +3844,20 @@
                 "reference": null
               },
               "free_text": [
-                " From author  Kudenko, 1985-06"
+                " From author Yu.Kudenko, 1985-06",
+                " Data are on Fig.2 of S,INDC(CCP)-235,(3),157,1984"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "A"
+              },
+              "free_text": [
+                " LVL-NUMB=2 -> E-LVL=0.615 MeV"
               ]
             }
           ],
@@ -3525,19 +3877,19 @@
             "heading": [
               "EN",
               "EN-RSL",
-              "LVL-NUMB",
+              "E-LVL",
               "ANG-RSL"
             ],
             "unit": [
               "MEV",
               "MEV",
-              "NO-DIM",
+              "MEV",
               "ADEG"
             ],
             "value": [
               1.14,
               0.04,
-              2.0,
+              0.615,
               2.0
             ]
           },
@@ -3623,9 +3975,9 @@
         {
           "SUBENT": {
             "N1": "40845026",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -3685,7 +4037,8 @@
                 "reference": null
               },
               "free_text": [
-                " From author  Kudenko, 1985-06"
+                " From author Kudenko, 1985-06",
+                " Data are on Fig.1 of S,INDC(CCP)-235,(3),157,1984"
               ]
             }
           ],
@@ -3799,9 +4152,9 @@
         {
           "SUBENT": {
             "N1": "40845027",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 4,
@@ -3835,18 +4188,6 @@
               ]
             }
           ],
-          "EN-SEC": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "LVL-NUMB",
-                "particle": "34-SE-80"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "ERR-ANALYS": [
             {
               "pointer": "",
@@ -3873,7 +4214,20 @@
                 "reference": null
               },
               "free_text": [
-                " From author  Kudenko, 1985-06"
+                " From author Yu.Kudenko, 1985-06",
+                " Data are on Fig.2 of S,INDC(CCP)-235,(3),157,1984"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "A"
+              },
+              "free_text": [
+                " LVL-NUMB=2 -> E-LVL=0.665 MeV"
               ]
             }
           ],
@@ -3893,19 +4247,19 @@
             "heading": [
               "EN",
               "EN-RSL",
-              "LVL-NUMB",
+              "E-LVL",
               "ANG-RSL"
             ],
             "unit": [
               "MEV",
               "MEV",
-              "NO-DIM",
+              "MEV",
               "ADEG"
             ],
             "value": [
               1.19,
               0.04,
-              2.0,
+              0.665,
               2.0
             ]
           },
@@ -3991,9 +4345,9 @@
         {
           "SUBENT": {
             "N1": "40845028",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 3,
@@ -4053,7 +4407,8 @@
                 "reference": null
               },
               "free_text": [
-                " From author  Kudenko, 1985-06"
+                " From author Yu.Kudenko, 1985-06",
+                " Data are on Fig.1 of S,INDC(CCP)-235,(3),157,1984"
               ]
             }
           ],
@@ -4167,9 +4522,9 @@
         {
           "SUBENT": {
             "N1": "40845029",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 4,
@@ -4203,18 +4558,6 @@
               ]
             }
           ],
-          "EN-SEC": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "LVL-NUMB",
-                "particle": "34-SE-82"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "ERR-ANALYS": [
             {
               "pointer": "",
@@ -4241,7 +4584,20 @@
                 "reference": null
               },
               "free_text": [
-                " From author  Kudenko, 1985-06"
+                " From author Yu.Kudenko, 1985-06",
+                " Data are on Fig.2 of S,INDC(CCP)-235,(3),157,1984"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "A"
+              },
+              "free_text": [
+                " LVL-NUMB=2 -> E-LVL=0.655 MeV"
               ]
             }
           ],
@@ -4261,19 +4617,19 @@
             "heading": [
               "EN",
               "EN-RSL",
-              "LVL-NUMB",
+              "E-LVL",
               "ANG-RSL"
             ],
             "unit": [
               "MEV",
               "MEV",
-              "NO-DIM",
+              "MEV",
               "ADEG"
             ],
             "value": [
               1.18,
               0.04,
-              2.0,
+              0.655,
               2.0
             ]
           },
@@ -4359,9 +4715,9 @@
         {
           "SUBENT": {
             "N1": "40845030",
-            "N2": 20180309,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4178"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 5,
@@ -4427,11 +4783,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.S.Konobeevskii+",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(3),157,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(3)",
+                      "part": null,
+                      "issue": null,
+                      "page": "157"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table of C,83KIEV,3,157,1983"
+                "",
+                "Table on page 161"
               ]
             }
           ],

@@ -1,31 +1,44 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:57:27+0000",
+  "time_stamp": "2026-05-22T20:53:17+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "40879",
-        "N2": 20210319,
+        "N2": 20260212,
         "alteration_flag": " ",
-        "transmission_identification": "4195"
+        "transmission_identification": "4226"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "40879001",
-            "N2": 20210319,
+            "N2": 20260212,
             "alteration_flag": " ",
-            "transmission_identification": "4195"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 8,
             "N2": 0
           },
-          "INSTITUTE": [
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Search for the neutron resonances of the Eu-152",
+                " (half-life = 9.3 hour)"
+              ]
+            }
+          ],
+          "AUTHOR": [
             {
               "pointer": "",
               "coded_information": [
-                "4UKRIJD"
+                "V.A.Pshenichnyy",
+                "V.P.Vertebnyy",
+                "E.A.Gritsay",
+                "P.N.Vorona"
               ],
               "free_text": [
                 ""
@@ -107,27 +120,14 @@
               ]
             }
           ],
-          "AUTHOR": [
+          "INSTITUTE": [
             {
               "pointer": "",
               "coded_information": [
-                "V.A.Pshenichnyy",
-                "V.P.Vertebnyy",
-                "E.A.Gritsay",
-                "P.N.Vorona"
+                "4UKRIJD"
               ],
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "TITLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                " Search for the neutron resonances of the Eu-152",
-                " (half-life = 9.3 hour)"
               ]
             }
           ],
@@ -186,6 +186,17 @@
                 " Subent 002 was corrected.",
                 " Ref. INDC(CCP)-235,(2),361,1984 was inserted."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260212,
+                "history": "A"
+              },
+              "free_text": [
+                " Subent 002 was corrected.",
+                " STATUS was corrected for new rules."
+              ]
             }
           ],
           "ENDBIB": {
@@ -204,9 +215,9 @@
         {
           "SUBENT": {
             "N1": "40879002",
-            "N2": 20210319,
+            "N2": 20260212,
             "alteration_flag": " ",
-            "transmission_identification": "4195"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 8,
@@ -329,13 +340,13 @@
               "coded_information": {
                 "heading": "ASSUM",
                 "reaction": {
-                  "code": "63-EU-152-M(N,G),,WID",
+                  "code": "63-EU-152-M1(N,G),,WID",
                   "code_unit": [
                     {
-                      "unit": "63-EU-152-M(N,G),,WID",
+                      "unit": "63-EU-152-M1(N,G),,WID",
                       "field": {
-                        "reaction": "63-EU-152-M(N,G)",
-                        "target": "63-EU-152-M",
+                        "reaction": "63-EU-152-M1(N,G)",
+                        "target": "63-EU-152-M1",
                         "projectile": "N",
                         "process": "G",
                         "product": "",
@@ -408,11 +419,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "V.A.Pshenichnyy",
+                "reference": {
+                  "code": "R,INDC(CCP)-235,(2),361,1984",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(2)",
+                      "part": null,
+                      "issue": null,
+                      "page": "361"
+                    },
+                    "date": 1984
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of INDC(CCP)-235,vol.2,p.361,1984"
+                "",
+                " Table 2"
               ]
             }
           ],
@@ -426,6 +452,16 @@
               "free_text": [
                 " SF1 was corrected; EU-152-M -> EU-152-M1",
                 " DATA-ERR -> ERR-S"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260212,
+                "history": "A"
+              },
+              "free_text": [
+                " ASSUMED: 63-EU-152-M -> 63-EU-152-M1"
               ]
             }
           ],

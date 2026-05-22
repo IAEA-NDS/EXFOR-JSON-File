@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:04:54+0000",
+  "time_stamp": "2026-05-22T20:53:21+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "41731",
-        "N2": 20210125,
+        "N2": 20260206,
         "alteration_flag": " ",
-        "transmission_identification": "4192"
+        "transmission_identification": "4226"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "41731001",
-            "N2": 20210125,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "4192"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 11,
@@ -194,6 +194,17 @@
               "free_text": [
                 "  M.M."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260206,
+                "history": "A"
+              },
+              "free_text": [
+                " Subent 003 was corrected.",
+                " STATUS was updated for new rules."
+              ]
             }
           ],
           "ENDBIB": {
@@ -228,9 +239,9 @@
         {
           "SUBENT": {
             "N1": "41731002",
-            "N2": 20210125,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "4192"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 5,
@@ -374,11 +385,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.N.Gudkov+",
+                "reference": {
+                  "code": "R,INDC(CCP)-260,56,1986",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "260",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "56"
+                    },
+                    "date": 1986
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of INDC(CCP)-260,56,1986"
+                " Table 1."
               ]
             },
             {
@@ -507,12 +532,12 @@
         {
           "SUBENT": {
             "N1": "41731003",
-            "N2": 20210125,
+            "N2": 20260206,
             "alteration_flag": " ",
-            "transmission_identification": "4192"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -540,6 +565,38 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "92-U-235(N,F),DL,NU",
+                  "code_unit": [
+                    {
+                      "unit": "92-U-235(N,F),DL,NU",
+                      "field": {
+                        "reaction": "92-U-235(N,F)",
+                        "target": "92-U-235",
+                        "projectile": "N",
+                        "process": "F",
+                        "product": "",
+                        "quantity": "DL,NU",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": "DL,NU"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                " For absolute efficiency of",
+                "delayed neutron radiometer."
               ]
             }
           ],
@@ -621,11 +678,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.N.Gudkov+",
+                "reference": {
+                  "code": "R,INDC(CCP)-260,56,1986",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "260",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "56"
+                    },
+                    "date": 1986
+                  }
+                }
               },
               "free_text": [
-                " Table 1 of INDC(CCP)-260,56,1986"
+                " Table 1."
               ]
             },
             {
@@ -644,24 +715,41 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260206,
+                "history": "A"
+              },
+              "free_text": [
+                " MONITOR was added according to a comment of",
+                " N.Otsuka (NDS, IAEA)"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0,
             "pointer": [
+              "",
               ""
             ],
             "heading": [
-              "MONIT"
+              "MONIT",
+              "MONIT-ERR"
             ],
             "unit": [
+              "PC/FIS",
               "PC/FIS"
             ],
             "value": [
-              1.65
+              1.65,
+              0.08
             ]
           },
           "ENDCOMMON": {

@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:56:13+0000",
+  "time_stamp": "2026-05-22T20:53:09+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "40703",
-        "N2": 20231113,
+        "N2": 20251006,
         "alteration_flag": " ",
-        "transmission_identification": "4216"
+        "transmission_identification": "4226"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "40703001",
-            "N2": 20231113,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4216"
+            "transmission_identification": "4226"
           },
           "BIB": {
             "N1": 10,
@@ -107,29 +107,30 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "C,83KIEV,2,388,1983",
+                "code": "S,INDC(CCP)-235,(2),388,1984",
                 "code_unit": [
                   {
-                    "unit": "C,83KIEV,2,388,1983",
+                    "unit": "S,INDC(CCP)-235,(2),388,1984",
                     "doi": null,
                     "field": {
-                      "reference_type": "C",
+                      "reference_type": "S",
                       "reference": {
-                        "code": "83KIEV",
-                        "number": null,
-                        "volume": "2",
+                        "code": "INDC(CCP)-",
+                        "number": "235",
+                        "volume": "(2)",
                         "part": null,
                         "issue": null,
                         "page": "388"
                       },
-                      "date": 1983
+                      "date": 1984
                     }
                   }
                 ],
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "=(C,83KIEV,2,388,1983))",
+                " In Russian"
               ]
             },
             {
@@ -172,6 +173,92 @@
               ]
             }
           ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "O",
+                "subentry_number": "41400002",
+                "author": "Yu.M.Gledenov+",
+                "reference": {
+                  "code": "R,JINR-P3-89-351,1989",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "JINR-P3-",
+                      "number": "89-351",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1989
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Final data for Cl-35 ( Table 1 of",
+                " S,INDC(CCP)-235,(2),388,1984) WID"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "O",
+                "subentry_number": "41352003",
+                "author": "Yu.M.Gledenov+",
+                "reference": {
+                  "code": "J,PAN,62,818,1999",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PAN",
+                      "number": null,
+                      "volume": "62",
+                      "part": null,
+                      "issue": null,
+                      "page": "818"
+                    },
+                    "date": 1999
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Final data for Cl-35  Table 1 of",
+                " S,INDC(CCP)-235,(2),388,1984)  WID/STR"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "O",
+                "subentry_number": "41596002",
+                "author": "Yu.M.Gledenov+",
+                "reference": {
+                  "code": "J,ZP/A,322,685,1985",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ZP/A",
+                      "number": null,
+                      "volume": "322",
+                      "part": null,
+                      "issue": null,
+                      "page": "685"
+                    },
+                    "date": 1985
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Final data for Cl-36 ( the same as in",
+                " S,INDC(CCP)-235,(2),388,1984 Table 1)"
+              ]
+            }
+          ],
           "FACILITY": [
             {
               "pointer": "",
@@ -186,17 +273,6 @@
               ]
             }
           ],
-          "SAMPLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                " Na-22 sample on polycarbon layer of 500 microCurie on",
-                " a polycarbon film of 4 micrometer thickness.",
-                " Li-6 or B-10 was place on inverse side."
-              ]
-            }
-          ],
           "METHOD": [
             {
               "pointer": "",
@@ -204,11 +280,9 @@
                 "TOF"
               ],
               "free_text": [
-                "",
-                "Run number  Resolution,microsec  Measuring time,hr",
-                " 1            4.5                  48.",
-                " 2            0.2                  91.",
-                " 3            3.0                  47."
+                " TOF base from 20 m to 85 m.",
+                " Li-6 was used for energy calibration and normalization",
+                "of cross-sections."
               ]
             }
           ],
@@ -216,12 +290,11 @@
             {
               "pointer": "",
               "coded_information": [
-                "SOLST"
+                "SIBAR",
+                "IOCH"
               ],
               "free_text": [
-                " Silicon semiconductor detector of 8 cm2 area,",
-                "202 micrometer thick sensitive layer, placed at 40 mm",
-                "from samples. Registered protons up to ~ 5.2 MeV."
+                ""
               ]
             }
           ],
@@ -285,6 +358,17 @@
                 " Reaction was corrected in Subent 002.",
                 " Subent 003 was added."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "A"
+              },
+              "free_text": [
+                " Ref. S,INDC(CCP)-235 was added.",
+                " Subents 004, 005 were added."
+              ]
             }
           ],
           "ENDBIB": {
@@ -303,12 +387,12 @@
         {
           "SUBENT": {
             "N1": "40703002",
-            "N2": 20231113,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4216"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 8,
             "N2": 0
           },
           "REACTION": [
@@ -391,6 +475,45 @@
               ]
             }
           ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Na-22 sample on polycarbon layer of 500 microCurie on",
+                " a polycarbon film of 4 micrometer thickness.",
+                " Li-6 or B-10 was placed on inverse side."
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "TOF"
+              ],
+              "free_text": [
+                "",
+                "Run number  Resolution,microsec  Measuring time,hr",
+                " 1            4.5                  48.",
+                " 2            0.2                  91.",
+                " 3            3.0                  47."
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "SOLST"
+              ],
+              "free_text": [
+                " Silicon semiconductor detector of 8 cm2 area,",
+                "202 micrometer thick sensitive layer, placed at 40 mm",
+                "from samples. Registered protons up to ~ 5.2 MeV."
+              ]
+            }
+          ],
           "ANALYSIS": [
             {
               "pointer": "",
@@ -429,7 +552,8 @@
               "free_text": [
                 "",
                 " Text on page 59.",
-                " DATA 3 (GAMMAp1) in Abstract of article - 114+-20 eV."
+                " Text page 150 of 82ANTWER,,150,1982",
+                " Text page 389 of S,INDC(CCP)-235,(2),388,1983"
               ]
             },
             {
@@ -447,6 +571,19 @@
               ]
             }
           ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Of compiler. DATA 3 (GAMMAp1) in :",
+                "abstract of ZP/A,308,57,1982,",
+                "82ANTWER,,150,1982,",
+                "text page 389 of INDC(CCP)-235,(2),388,1984",
+                "- 114+-20 eV."
+              ]
+            }
+          ],
           "HISTORY": [
             {
               "pointer": "",
@@ -456,7 +593,18 @@
               },
               "free_text": [
                 " PAR was added in Reaction 3.",
-                " MOMENTUM L2 and E 3 were added in COMMON."
+                " MOMENTUM L2 and E 3 were added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": null
+              },
+              "free_text": [
+                " DATA 3 were corrected :",
+                " 45.+-20. -> 114.+-20. eV - see comment of compiler."
               ]
             }
           ],
@@ -464,54 +612,40 @@
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "2",
-              "3"
-            ],
-            "heading": [
-              "MOMENTUM L",
-              "E"
-            ],
-            "unit": [
-              "NO-DIM",
-              "MEV"
-            ],
-            "value": [
-              0.0,
-              2.25
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
           "DATA": {
-            "N1": 6,
+            "N1": 8,
             "N2": 1,
             "pointer": [
               "1",
               "1",
               "2",
               "2",
+              "2",
+              "3",
               "3",
               "3"
             ],
             "heading": [
               "DATA",
               "DATA-ERR",
+              "MOMENTUM L",
               "DATA",
               "DATA-ERR",
+              "E",
               "DATA",
               "DATA-ERR"
             ],
             "unit": [
               "EV",
               "EV",
+              "NO-DIM",
               "EV",
               "EV",
+              "MEV",
               "EV",
               "EV"
             ],
@@ -519,9 +653,11 @@
               [
                 145.0,
                 11.0,
+                0.0,
                 1.6,
                 0.2,
-                45.0,
+                2.25,
+                114.0,
                 20.0
               ]
             ]
@@ -538,12 +674,12 @@
         {
           "SUBENT": {
             "N1": "40703003",
-            "N2": 20231113,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "4216"
+            "transmission_identification": "4226"
           },
           "BIB": {
-            "N1": 7,
+            "N1": 9,
             "N2": 0
           },
           "REACTION": [
@@ -571,6 +707,17 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " Na-22 sample on polycarbon layer of 500 microCurie on",
+                " a polycarbon film of 4 micrometer thickness.",
+                " Li-6 or B-10 was placed on inverse side."
               ]
             }
           ],
@@ -723,6 +870,19 @@
               "free_text": [
                 "",
                 " at thermal energy."
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "SOLST"
+              ],
+              "free_text": [
+                " Silicon semiconductor detector of 8 cm2 area,",
+                "202 micrometer thick sensitive layer, placed at 40 mm",
+                "from samples. Registered protons up to ~ 5.2 MeV."
               ]
             }
           ],
@@ -942,10 +1102,381 @@
             "N1": 0,
             "N2": 0
           }
+        },
+        {
+          "SUBENT": {
+            "N1": "40703004",
+            "N2": 20251006,
+            "alteration_flag": " ",
+            "transmission_identification": "4226"
+          },
+          "BIB": {
+            "N1": 6,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "19-K-40(N,A),,WID/STR",
+                "code_unit": [
+                  {
+                    "unit": "19-K-40(N,A),,WID/STR",
+                    "field": {
+                      "reaction": "19-K-40(N,A)",
+                      "target": "19-K-40",
+                      "projectile": "N",
+                      "process": "A",
+                      "product": "",
+                      "quantity": ",WID/STR",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",WID/STR"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " 630 cm2 square, K-40 enrichment 2.7 %,",
+                " K-40 content 2.6*10**17 at/cm2."
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "21726003",
+                "author": "H.Weigmann",
+                "reference": {
+                  "code": "J,NP/A,368,(1),117,1981",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "368",
+                      "part": null,
+                      "issue": "1",
+                      "page": "117"
+                    },
+                    "date": 1981
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data used for comparison."
+              ]
+            }
+          ],
+          "ADD-RES": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "  Table 3 of S,INDC(CCP)-235,(2),388,1984",
+                "E,eV    Np      Na    Np/Na Np/N6 Na/N6 Np/Na(Weigmann)",
+                "0.61    23100   2600   8.9  2.2   0.25    5.0",
+                "0.18    51000   5000  10.2  2.2   0.22    6.7",
+                "0.059  132200  10400  12.7  1.9   0.15    9.3",
+                "0.039  148100  12000  12.3  2.2   0.17   10.8",
+                "0.028   98100   8500  11.5  2.2   0.18   12.4",
+                "0.017   62900   5500  11.4  2.1   0.18   15.7",
+                "0.013   38800   3400  11.4  2.3   0.19   18.3",
+                "Na - counts of K-40(n,alpha) reaction,",
+                "Np - counts of K-40(n,p) reaction        ,",
+                "N6 - counts of B-10(n,a) reaction ( B-10 - admixture",
+                "in sample)."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "Yu.M.Gledenov+",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(2),388,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(2)",
+                      "part": null,
+                      "issue": null,
+                      "page": "388"
+                    },
+                    "date": 1984
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table 2."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "C"
+              },
+              "free_text": [
+                " M.M. Subent was added."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 4,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-RES-MIN",
+              "EN-RES-MAX",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "KEV",
+              "KEV",
+              "EV",
+              "EV"
+            ],
+            "value": [
+              [
+                1.13,
+                1.13,
+                42.0,
+                7.0
+              ],
+              [
+                2.29,
+                2.29,
+                27.0,
+                9.0
+              ],
+              [
+                5.18,
+                5.18,
+                1140.0,
+                230.0
+              ],
+              [
+                5.9,
+                9.8,
+                380.0,
+                160.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "40703005",
+            "N2": 20251006,
+            "alteration_flag": " ",
+            "transmission_identification": "4226"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "19-K-40(N,P),,WID/STR",
+                "code_unit": [
+                  {
+                    "unit": "19-K-40(N,P),,WID/STR",
+                    "field": {
+                      "reaction": "19-K-40(N,P)",
+                      "target": "19-K-40",
+                      "projectile": "N",
+                      "process": "P",
+                      "product": "",
+                      "quantity": ",WID/STR",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",WID/STR"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                " 630 cm2 square, K-40 enrichment 2.7 %,",
+                " K-40 content 2.6*10**17 at/cm2."
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "N",
+                "subentry_number": "21726003",
+                "author": "H.Weigmann",
+                "reference": {
+                  "code": "J,NP/A,368,(1),117,1981",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "368",
+                      "part": null,
+                      "issue": "1",
+                      "page": "117"
+                    },
+                    "date": 1981
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data used for comparison."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "Yu.M.Gledenov+",
+                "reference": {
+                  "code": "S,INDC(CCP)-235,(2),388,1984",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "INDC(CCP)-",
+                      "number": "235",
+                      "volume": "(2)",
+                      "part": null,
+                      "issue": null,
+                      "page": "388"
+                    },
+                    "date": 1984
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Table 2."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "C"
+              },
+              "free_text": [
+                " M.M. Subent was added."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 1,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN-RES",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "KEV",
+              "EV",
+              "EV"
+            ],
+            "value": [
+              [
+                3.06,
+                6.5,
+                5.5
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
         }
       ],
       "ENDENTRY": {
-        "N1": 3,
+        "N1": 5,
         "N2": 0
       }
     }
