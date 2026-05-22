@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:29:41+0000",
+  "time_stamp": "2026-05-22T21:29:57+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "30322",
-        "N2": 20100531,
+        "N2": 20260327,
         "alteration_flag": " ",
-        "transmission_identification": "3145"
+        "transmission_identification": "3222"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "30322001",
-            "N2": 20100531,
+            "N2": 20260327,
             "alteration_flag": " ",
-            "transmission_identification": "3145"
+            "transmission_identification": "3222"
           },
           "BIB": {
-            "N1": 18,
+            "N1": 19,
             "N2": 0
           },
           "TITLE": [
@@ -27,7 +27,7 @@
               "coded_information": null,
               "free_text": [
                 "Cross-sections of 14 MeV neutron reactions producing",
-                "short-lived nuclides."
+                " short-lived nuclides."
               ]
             }
           ],
@@ -82,61 +82,141 @@
               "free_text": [
                 ""
               ]
-            },
+            }
+          ],
+          "REL-REF": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,CA,17,(3),703,1972",
-                "code_unit": [
-                  {
-                    "unit": "J,CA,17,(3),703,1972",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "CA",
-                        "number": null,
-                        "volume": "17",
-                        "part": null,
-                        "issue": "3",
-                        "page": "703"
-                      },
-                      "date": 1972
-                    }
+                "code": "M",
+                "subentry_number": null,
+                "author": "J.Janczyszyn+",
+                "reference": {
+                  "code": "J,CA,17,703,1972",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CA",
+                      "number": null,
+                      "volume": "17",
+                      "part": null,
+                      "issue": null,
+                      "page": "703"
+                    },
+                    "date": 1972
                   }
-                ],
-                "unit_combination": "(%)"
+                }
               },
               "free_text": [
-                " Exp.detail."
+                "",
+                " Experimental detail"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,RRL,8,363,197112",
-                "code_unit": [
-                  {
-                    "unit": "J,RRL,8,363,197112",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "RRL",
-                        "number": null,
-                        "volume": "8",
-                        "part": null,
-                        "issue": null,
-                        "page": "363"
-                      },
-                      "date": 197112
-                    }
+                "code": "M",
+                "subentry_number": null,
+                "author": "J.Janczyszyn+",
+                "reference": {
+                  "code": "J,RRL,8,363,197112",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "RRL",
+                      "number": null,
+                      "volume": "8",
+                      "part": null,
+                      "issue": null,
+                      "page": "363"
+                    },
+                    "date": 197112
                   }
-                ],
-                "unit_combination": "(%)"
+                }
               },
               "free_text": [
+                "",
                 " Brief description of experiment."
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "CCW"
+                ],
+                "institute": null
+              },
+              "free_text": [
+                " Neutron generator. In order to obtain the",
+                " irradiation times 0.1 to 1 sec. A deflecting electrode",
+                " was placed in the generator tube."
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "D-T"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                " T(d,n)He reaction."
+              ]
+            }
+          ],
+          "INC-SPECT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "14 MeV neutrons, flux was 5 x 10.**7 to",
+                " 2x 10.**8 n/cm2/sec."
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "NAICR"
+              ],
+              "free_text": [
+                " NaI(Tl) 3 * 3 inch, with a 400-channel analyser",
+                " Victoreen ST 400 dm."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "SCIN"
+              ],
+              "free_text": [
+                " Scintillation counter, Hornyak NE 450, with a",
+                " photomultiplier EMI6097F for neutron monitoring."
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "ACTIV"
+              ],
+              "free_text": [
+                " Cyclic neutron activation method with the",
+                " 0.2 sec. fast pneumatic tube system (mean velocity",
+                " 30 m/s). Each sample was irradiated for 3 half-lives",
+                " of the investigated nuclide. Counting time equaled",
+                " irradiation time, unless shortening was necessary to",
+                " avoid decay from long-lived nuclides. After a pause",
+                " of 5-10 half-lives, a second measurement with the",
+                " same counting time was performed."
               ]
             }
           ],
@@ -169,96 +249,16 @@
               "free_text": [
                 "",
                 "Neutron flux was determined on the basis of the 'Texas",
-                "convention',R.L.Heath,Proc.Intern.Conf.Modern Trends in",
-                "Activation Analysis,College Station,Texas,1965,p.389.",
-                "*Specification of Texas convention,",
-                " The effective fluxes for sample activations are to be",
-                " measured by exposing high-purity copper disks of 0.25-",
-                " mm thickness and 1-cm and/or 2.5-cm dia for 1 min to",
+                " convention',R.L.Heath,Proc.Intern.Conf.Modern Trends",
+                " in Activation Analysis,College Station,Texas,1965,",
+                " p.389.",
+                "*Specification of Texas convention, The effective",
+                " fluxes for sample activations are to be measured by",
+                " exposing high-purity copper disks of 0.25-mm thickness",
+                " and 1 cm and/or 2.5 cm diameter for 1 min to",
                 " the n-flux to be measured. ----And the disintegration",
-                " rate of Cu-62 activity is determined. Then the flux is",
+                " rate of 62Cu activity is determined. Then the flux is",
                 " given in disint./min/(gram of copper)."
-              ]
-            }
-          ],
-          "FACILITY": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "CCW"
-                ],
-                "institute": null
-              },
-              "free_text": [
-                " Neutron generator. In order to obtain the irradi-",
-                "ation times 0.1 to 1 sec. A deflecting electrode was",
-                "placed in the generator tube."
-              ]
-            }
-          ],
-          "INC-SOURCE": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "incident_source": [
-                  "D-T"
-                ],
-                "reaction": null
-              },
-              "free_text": [
-                " T(d,n)He reaction."
-              ]
-            }
-          ],
-          "INC-SPECT": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "14 MeV neutrons, flux was 5 x 10.**7 to",
-                "                               2x 10.**8 n/cm2/sec."
-              ]
-            }
-          ],
-          "METHOD": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "ACTIV"
-              ],
-              "free_text": [
-                " Cyclic neutron activation method with the 0.2-",
-                "second fast pneumatic tube system (mean velocity,30m/s)",
-                "each sample was irradiated for 3 half-lives of the",
-                "investigated nuclide. And the counting time was equal",
-                "to the irradiation,unless the shortening of the former",
-                "was necessary to avoid the 'long-lived' nuclide decay.",
-                "After a pause of 5 to 10 half-lives of nuclide, a 2nd",
-                "measurement with the same counting time as the 1st one",
-                "was followed."
-              ]
-            }
-          ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "NAICR"
-              ],
-              "free_text": [
-                " NaI(Tl) 3 * 3inch, with a 400-channel analyser",
-                "Victoreen ST 400 dm."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "SCIN"
-              ],
-              "free_text": [
-                " Scintillation counter, Hornyak NE 450, with a",
-                "photomultiplier EMI6097F for neutron monitoring."
               ]
             }
           ],
@@ -279,8 +279,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The dead time of the multichannel analyser was correct-",
-                "ed."
+                "The dead time of the multichannel analyser was",
+                " corrected"
               ]
             }
           ],
@@ -292,7 +292,7 @@
                 "When the same isomer arises from two different isotopes",
                 "of the same elements as a result of the (n,n') and",
                 " (n,2n) reactions, the weighed mean cross-section was",
-                "calculated, taking isotopic abundances as weights."
+                " calculated, taking isotopic abundances as weights."
               ]
             }
           ],
@@ -316,11 +316,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Total error is given. The large errors",
-                "for some of cross-sections may partially be due to",
-                "instrumental imperfections and to the fact that the",
-                "cross-section was not the main purpose of this",
-                "facility of automatic activation analysis."
+                " No information about source of uncertainty"
               ]
             }
           ],
@@ -330,26 +326,12 @@
               "coded_information": null,
               "free_text": [
                 "In a few cases the conversion coefficient is not",
-                "known, and is assumed to be 0 with the number of",
-                "quanta per disintegration to be 1."
+                " known, and is assumed to be 0 with the number of",
+                " quanta per disintegration to be 1."
               ]
             }
           ],
           "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " From table 1 of J.Radioanal.Chem.,14(1973)201."
-              ]
-            },
             {
               "pointer": "",
               "coded_information": {
@@ -362,6 +344,34 @@
               },
               "free_text": [
                 " Approved by Janczyczyn with notes, 29/04/1976."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "J.Janczyszyn+",
+                "reference": {
+                  "code": "J,JRC,14,201,1973",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JRC",
+                      "number": null,
+                      "volume": "14",
+                      "part": null,
+                      "issue": null,
+                      "page": "201"
+                    },
+                    "date": 1973
+                  }
+                }
+              },
+              "free_text": [
+                " Table 1"
               ]
             }
           ],
@@ -437,6 +447,16 @@
               },
               "free_text": [
                 "SD:Evaluator remark was added to Sub.022.002"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260327,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Revision in 008-011, 013-015, 017, 019"
               ]
             }
           ],
@@ -1069,12 +1089,12 @@
         {
           "SUBENT": {
             "N1": "30322008",
-            "N2": 20090115,
+            "N2": 20260327,
             "alteration_flag": " ",
-            "transmission_identification": "3134"
+            "transmission_identification": "3222"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1110,7 +1130,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "21-SC-46-M1",
+                "nuclide": "21-SC-46-M",
                 "half-life": {
                   "value": 20.0,
                   "unit": "SEC"
@@ -1128,6 +1148,18 @@
               "coded_information": null,
               "free_text": [
                 "Ti-O(2)."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260327,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DECAY-DATA: M1->M replaced"
               ]
             }
           ],
@@ -1173,12 +1205,12 @@
         {
           "SUBENT": {
             "N1": "30322009",
-            "N2": 20090115,
+            "N2": 20260327,
             "alteration_flag": " ",
-            "transmission_identification": "3134"
+            "transmission_identification": "3222"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -1214,7 +1246,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "21-SC-50-M1",
+                "nuclide": "21-SC-50-M",
                 "half-life": {
                   "value": 0.35,
                   "unit": "SEC"
@@ -1241,7 +1273,19 @@
               "coded_information": null,
               "free_text": [
                 "The number of quanta per disintegration is assumed to",
-                "be 1."
+                " be 1."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260327,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DECAY-DATA: M1->M replaced"
               ]
             }
           ],
@@ -1287,12 +1331,12 @@
         {
           "SUBENT": {
             "N1": "30322010",
-            "N2": 20090115,
+            "N2": 20260327,
             "alteration_flag": " ",
-            "transmission_identification": "3134"
+            "transmission_identification": "3222"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1328,7 +1372,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "35-BR-79-M1",
+                "nuclide": "35-BR-79-M",
                 "half-life": {
                   "value": 4.8,
                   "unit": "SEC"
@@ -1346,6 +1390,18 @@
               "coded_information": null,
               "free_text": [
                 "KBr."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260327,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DECAY-DATA: M1->M replaced"
               ]
             }
           ],
@@ -1391,12 +1447,12 @@
         {
           "SUBENT": {
             "N1": "30322011",
-            "N2": 20090115,
+            "N2": 20260327,
             "alteration_flag": " ",
-            "transmission_identification": "3134"
+            "transmission_identification": "3222"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1432,7 +1488,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "40-ZR-90-M1",
+                "nuclide": "40-ZR-90-M",
                 "half-life": {
                   "value": 0.81,
                   "unit": "SEC"
@@ -1450,6 +1506,18 @@
               "coded_information": null,
               "free_text": [
                 "Zr-O(2)."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260327,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DECAY-DATA: M1->M replaced"
               ]
             }
           ],
@@ -1706,12 +1774,12 @@
         {
           "SUBENT": {
             "N1": "30322013",
-            "N2": 20090115,
+            "N2": 20260327,
             "alteration_flag": " ",
-            "transmission_identification": "3134"
+            "transmission_identification": "3222"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1747,7 +1815,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "56-BA-136-M1",
+                "nuclide": "56-BA-136-M",
                 "half-life": {
                   "value": 0.32,
                   "unit": "SEC"
@@ -1765,6 +1833,18 @@
               "coded_information": null,
               "free_text": [
                 "Ba-(NO3)2."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260327,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DECAY-DATA: M1->M replaced"
               ]
             }
           ],
@@ -1810,12 +1890,12 @@
         {
           "SUBENT": {
             "N1": "30322014",
-            "N2": 20090115,
+            "N2": 20260327,
             "alteration_flag": " ",
-            "transmission_identification": "3134"
+            "transmission_identification": "3222"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1851,7 +1931,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "58-CE-139-M1",
+                "nuclide": "58-CE-139-M",
                 "half-life": {
                   "value": 55.0,
                   "unit": "SEC"
@@ -1875,8 +1955,20 @@
                 "reference": null
               },
               "free_text": [
-                " Old data ( 630+-80 mb) was recalculated after",
-                "correction.  (Letter from author,29/04/1976)."
+                " Old data ( 630+/-80 mb) was recalculated after",
+                " correction.  (Letter from author,29/04/1976)."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260327,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DECAY-DATA: M1->M replaced"
               ]
             }
           ],
@@ -1922,12 +2014,12 @@
         {
           "SUBENT": {
             "N1": "30322015",
-            "N2": 20090115,
+            "N2": 20260327,
             "alteration_flag": " ",
-            "transmission_identification": "3134"
+            "transmission_identification": "3222"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1963,7 +2055,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "68-ER-167-M1",
+                "nuclide": "68-ER-167-M",
                 "half-life": {
                   "value": 2.3,
                   "unit": "SEC"
@@ -1971,7 +2063,7 @@
                 "radiation": []
               },
               "free_text": [
-                " = 2.3 sec."
+                ""
               ]
             }
           ],
@@ -1981,6 +2073,18 @@
               "coded_information": null,
               "free_text": [
                 "Er(2)-O(3)."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260327,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DECAY-DATA: M1->M replaced"
               ]
             }
           ],
@@ -2130,12 +2234,12 @@
         {
           "SUBENT": {
             "N1": "30322017",
-            "N2": 20090115,
+            "N2": 20260327,
             "alteration_flag": " ",
-            "transmission_identification": "3134"
+            "transmission_identification": "3222"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -2171,7 +2275,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "74-W-183-M1",
+                "nuclide": "74-W-183-M",
                 "half-life": {
                   "value": 5.3,
                   "unit": "SEC"
@@ -2180,6 +2284,18 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260327,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DECAY-DATA: M1->M replaced"
               ]
             }
           ],

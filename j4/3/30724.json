@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:35:06+0000",
+  "time_stamp": "2026-05-22T21:30:08+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "30724",
-        "N2": 20180212,
+        "N2": 20260108,
         "alteration_flag": " ",
-        "transmission_identification": "3182"
+        "transmission_identification": "3222"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "30724001",
-            "N2": 20180212,
+            "N2": 20260108,
             "alteration_flag": " ",
-            "transmission_identification": "3182"
+            "transmission_identification": "3222"
           },
           "BIB": {
             "N1": 13,
@@ -214,8 +214,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Thulium oxide powder, purity 99.99%, 330 mg/cm2.",
-                "tantalum metal, purity 99.9%, 36.7mg/cm2."
+                ". Tm: oxide powder, purity 99.99%, 330 mg/cm2",
+                ". Ta: metal, purity 99.9%, 36.7mg/cm2"
               ]
             }
           ],
@@ -381,11 +381,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Zhao Wenrong+",
+                "reference": {
+                  "code": "R,INDC(CPR)-16,1989",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INDC(CPR)-",
+                      "number": "16",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1989
+                  }
+                }
               },
               "free_text": [
-                " Tables 1 and 3 of INDC(CPR)-16"
+                " Tables 1+3"
               ]
             }
           ],
@@ -450,6 +464,16 @@
               "free_text": [
                 " On. REFERENCE(82ANTWER): A comma added."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260108,
+                "history": "A"
+              },
+              "free_text": [
+                " On. EN-NRM and MONIT moved to 002-003."
+              ]
             }
           ],
           "ENDBIB": {
@@ -457,43 +481,27 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 8,
+            "N1": 4,
             "N2": 0,
             "pointer": [
-              "",
-              "",
-              "",
-              "",
               "",
               "",
               "",
               ""
             ],
             "heading": [
-              "EN-NRM",
-              "EN-NRM-RSL",
-              "MONIT",
-              "MONIT-ERR",
               "ERR-1",
               "ERR-2",
               "ERR-6",
               "ERR-7"
             ],
             "unit": [
-              "MEV",
-              "MEV",
-              "MB",
-              "MB",
               "PER-CENT",
               "PER-CENT",
               "PER-CENT",
               "PER-CENT"
             ],
             "value": [
-              14.59,
-              0.2,
-              114.68,
-              5.73,
               0.5,
               1.5,
               0.2,
@@ -512,12 +520,12 @@
         {
           "SUBENT": {
             "N1": "30724002",
-            "N2": 20090906,
+            "N2": 20260108,
             "alteration_flag": " ",
-            "transmission_identification": "3140"
+            "transmission_identification": "3222"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
@@ -603,7 +611,7 @@
               },
               "free_text": [
                 "",
-                "Aluminium foil,purity 99.998%, 0.02mm thick at 14.6MeV."
+                " Al foil, purity 99.998%, 0.02mm thick at 14.6 MeV."
               ]
             }
           ],
@@ -613,7 +621,7 @@
               "coded_information": {
                 "heading": null,
                 "subentry_number": null,
-                "author": "S.TAGESEN+",
+                "author": "S.Tagesen+",
                 "reference": {
                   "code": "R,IAEA-227,59,1983",
                   "field": {
@@ -634,8 +642,12 @@
               },
               "free_text": [
                 "",
-                " Contrary to published values",
-                " data were renormalized to INDC-recommended standard."
+                "*Letter from Lu Hanlin to Wang Da Hai (1986-11-06):",
+                "This data have renormalized with reference cross",
+                " section of Al(n,a) by S.Tagesen and H.Vonach, except",
+                " the point of neutron energy 8.62 MeV.",
+                "*By compiler (2026-01-08):",
+                "114.68 mb+/-0.5% at 14.59+/-0.20 MeV on the letter."
               ]
             }
           ],
@@ -680,29 +692,57 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260108,
+                "history": "A"
+              },
+              "free_text": [
+                " On. EN-NRM and MONIT moved from 001."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
           "COMMON": {
-            "N1": 3,
+            "N1": 7,
             "N2": 0,
             "pointer": [
+              "",
+              "",
+              "",
+              "",
               "",
               "",
               ""
             ],
             "heading": [
+              "EN-NRM",
+              "EN-NRM-RSL",
+              "MONIT",
+              "MONIT-ERR",
               "ERR-3",
               "ERR-4",
               "ERR-5"
             ],
             "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB",
               "PER-CENT",
               "PER-CENT",
               "PER-CENT"
             ],
             "value": [
+              14.59,
+              0.2,
+              114.68,
+              5.73,
               2.0,
               2.6,
               1.0
@@ -844,9 +884,9 @@
         {
           "SUBENT": {
             "N1": "30724003",
-            "N2": 20130429,
+            "N2": 20260108,
             "alteration_flag": " ",
-            "transmission_identification": "3159"
+            "transmission_identification": "3222"
           },
           "BIB": {
             "N1": 7,
@@ -944,7 +984,7 @@
               },
               "free_text": [
                 "",
-                "Aluminium foil,purity 99.998%, 0.02mm thick at 14.6MeV."
+                " Al foil, purity 99.998%, 0.02mm thick at 14.6 MeV."
               ]
             }
           ],
@@ -975,8 +1015,12 @@
               },
               "free_text": [
                 "",
-                "Contrary to published values.",
-                "Data were renormalized to INDC-recommended standard."
+                "*Letter from Lu Hanlin to Wang Da Hai (1986-11-06):",
+                "This data have renormalized with reference cross",
+                " section of Al(n,a) by S.Tagesen and H.Vonach, except",
+                " the point of neutron energy 8.62 MeV.",
+                "*By compiler (2026-01-08):",
+                "114.68 mb+/-0.5% at 14.59+/-0.20 MeV on the letter."
               ]
             }
           ],
@@ -1007,13 +1051,32 @@
               ]
             }
           ],
-          "COMMENT": [
+          "REL-REF": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "code": "O",
+                "subentry_number": "30733002",
+                "author": "Fan Peiguo+",
+                "reference": {
+                  "code": "J,CNP,7,242,1985",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CNP",
+                      "number": null,
+                      "volume": "7",
+                      "part": null,
+                      "issue": null,
+                      "page": "242"
+                    },
+                    "date": 1985
+                  }
+                }
+              },
               "free_text": [
-                "For additional cross-section at 8.62 MeV see EXFOR",
-                "entry 30733"
+                "",
+                " 243 +/- 18 mb at 8.62 MeV compiled separately"
               ]
             }
           ],
@@ -1037,6 +1100,16 @@
               "free_text": [
                 " On. REACTION(SF4): 73-TA-180-M->73-TA-180-G"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260108,
+                "history": "A"
+              },
+              "free_text": [
+                " On. EN-NRM and MONIT moved from 001."
+              ]
             }
           ],
           "ENDBIB": {
@@ -1044,21 +1117,37 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 6,
             "N2": 0,
             "pointer": [
+              "",
+              "",
+              "",
+              "",
               "",
               ""
             ],
             "heading": [
+              "EN-NRM",
+              "EN-NRM-RSL",
+              "MONIT",
+              "MONIT-ERR",
               "ERR-3",
               "ERR-5"
             ],
             "unit": [
+              "MEV",
+              "MEV",
+              "MB",
+              "MB",
               "PER-CENT",
               "PER-CENT"
             ],
             "value": [
+              14.59,
+              0.2,
+              114.68,
+              5.73,
               1.2,
               1.4
             ]
@@ -1301,9 +1390,9 @@
         {
           "SUBENT": {
             "N1": "30724004",
-            "N2": 20090906,
+            "N2": 20260108,
             "alteration_flag": " ",
-            "transmission_identification": "3140"
+            "transmission_identification": "3222"
           },
           "BIB": {
             "N1": 5,
@@ -1391,7 +1480,7 @@
                 }
               },
               "free_text": [
-                " At 18.2 MeV."
+                " at 18.2 MeV"
               ]
             }
           ],

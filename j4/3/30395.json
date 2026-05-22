@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:31:02+0000",
+  "time_stamp": "2026-05-22T21:29:58+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "30395",
-        "N2": 20160929,
+        "N2": 20260325,
         "alteration_flag": " ",
-        "transmission_identification": "3175"
+        "transmission_identification": "3222"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "30395001",
-            "N2": 20160929,
+            "N2": 20260325,
             "alteration_flag": " ",
-            "transmission_identification": "3175"
+            "transmission_identification": "3222"
           },
           "BIB": {
             "N1": 14,
@@ -26,7 +26,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Resonant neutron capture in Ca-40."
+                "Resonant neutron capture in 40Ca"
               ]
             }
           ],
@@ -34,7 +34,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "A.R.de L.Musgrove",
+                "A.R.De L.Musgrove",
                 "B.J.Allen",
                 "J.W.Boldeman",
                 "D.M.H.Chan",
@@ -49,19 +49,12 @@
             {
               "pointer": "",
               "coded_information": [
-                "3AULAUA"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "3AULAUA",
+                "3AULAML",
                 "1USAORL"
               ],
               "free_text": [
-                " Last author's address."
+                ""
               ]
             }
           ],
@@ -119,8 +112,8 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                "No correction factor for neutron",
-                " capture cross-section is requ."
+                " No correction factor for",
+                " neutron capture cross-section is requ."
               ]
             },
             {
@@ -232,22 +225,114 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " STF,D,G-wid av. s0(other author"
+                " STF,D,G-wid av. s0"
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "LINAC"
+                ],
+                "institute": "1USAORL"
+              },
+              "free_text": [
+                " ORNL Electron Linear Accelerator"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "VDG"
+                ],
+                "institute": null
+              },
+              "free_text": [
+                " AAEC 3 MeV pulsed Van de Graaff at Lucas heights",
+                " with a flight path of 30 cm for gamma-ray spectra",
+                " experiment."
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "PHOTO"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                "  for ORELA exp."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "P-LI7"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                "  for AAEC 3MV Van de Graaff."
               ]
             }
           ],
           "SAMPLE": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "nuclide": "20-CA-40",
+                "field_identifier": "ENR",
+                "value": 0.9973
+              },
               "free_text": [
-                " -Capture cross-section measurement.-",
-                "Enriched(99.973% of Ca-40) sample of Ca-Co(3)",
-                "with dimensions 5.2*2.61*0.845 cm. The thickness of Ca-",
-                "40 was 0.00875 atoms/b.",
-                "  -Gamma-ray spectra measurement-",
-                "A granular target(20*20 cm) of natural calcium, 0.0496",
-                "atoms/b."
+                " 40CaCO3 with",
+                " dimensions 5.2*2.61*0.845 cm and thickness",
+                " 0.00875 atoms/b.",
+                "Gamma-ray spectra measurement:",
+                "A granular target (20*20 cm) of natural calcium,",
+                " 0.0496 atoms/b."
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "SCIN"
+              ],
+              "free_text": [
+                " Two non-hydrogeneous liquid scintillators.",
+                "The efficiency of the detector was proportional to the",
+                "total gamma ray energy release and was independent of",
+                "the nature of spectrum.",
+                "A 0.5 mm 6Li glass detector was used as the neutron",
+                " flux monitor."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "GELI"
+              ],
+              "free_text": [
+                " Ge(Li) detector."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "MOXR"
+              ],
+              "free_text": [
+                " Moxon-Rae detector with a natural cadmium sample",
+                " for the relative energy dependence of the neutron flux"
               ]
             }
           ],
@@ -278,61 +363,8 @@
                 }
               },
               "free_text": [
-                " for normalization of capt.data"
-              ]
-            }
-          ],
-          "FACILITY": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "LINAC"
-                ],
-                "institute": "1USAORL"
-              },
-              "free_text": [
-                " ORNL Electron Linear Accelerator, ORELA",
-                "40 m flght station. -Capture cross-section measurement-"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "VDG"
-                ],
-                "institute": null
-              },
-              "free_text": [
-                " AAEC 3 MeV pulsed Van de Graaff at Lucas heights.",
-                "with a flight path of 30 cm. -Gamma-ray spectra exp.-"
-              ]
-            }
-          ],
-          "INC-SOURCE": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "incident_source": [
-                  "PHOTO"
-                ],
-                "reaction": null
-              },
-              "free_text": [
-                "  for ORELA exp."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "incident_source": [
-                  "P-LI7"
-                ],
-                "reaction": null
-              },
-              "free_text": [
-                "  for AAEC 3MV Van de Graaff."
+                " for normalization of capture",
+                " data"
               ]
             }
           ],
@@ -347,50 +379,6 @@
               ]
             }
           ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                " -Capture cross-section measurement.-"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "SCIN"
-              ],
-              "free_text": [
-                " Two non-hydrogeneous liquid scintillators.",
-                "The efficiency of the detector was proportional to the",
-                "total gamma ray energy release and was independent of",
-                "the nature of spectrum.",
-                ".0.5 mm Li-6 glass detector was used as the neutron",
-                "flux monitor.",
-                " -Gamma-ray spectra measurement.-"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "GELI"
-              ],
-              "free_text": [
-                " Ge(Li) detector."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "MOXR"
-              ],
-              "free_text": [
-                "",
-                ".Moxon-Rae detector with a natural cadmium sample for",
-                "the relative energy dependence of the neutron flux."
-              ]
-            }
-          ],
           "PART-DET": [
             {
               "pointer": "",
@@ -398,7 +386,7 @@
                 "G"
               ],
               "free_text": [
-                " Gammas."
+                ""
               ]
             }
           ],
@@ -407,7 +395,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                " -Capture cross-section measurement.-"
+                "-Capture cross-section measurement.-"
               ]
             },
             {
@@ -530,6 +518,16 @@
               "free_text": [
                 " VS. Reference C,75WASH corrected."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260325,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Revision in 002-006"
+              ]
             }
           ],
           "ENDBIB": {
@@ -548,9 +546,9 @@
         {
           "SUBENT": {
             "N1": "30395002",
-            "N2": 20090105,
+            "N2": 20260325,
             "alteration_flag": " ",
-            "transmission_identification": "3134"
+            "transmission_identification": "3222"
           },
           "BIB": {
             "N1": 5,
@@ -662,6 +660,26 @@
               ]
             }
           ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "The 89 keV resonance is assigned as s-wave. (It is",
+                " listed as p-wave in BNL-325 3rd vol.I(1973)). This",
+                " resonance is possibly a triplet."
+              ]
+            },
+            {
+              "pointer": "4",
+              "coded_information": null,
+              "free_text": [
+                "In this subentry momentum is only taken to",
+                " distinguish p- and d- wave. More details of",
+                " momentum l are in subentry 30395003"
+              ]
+            }
+          ],
           "ERR-ANALYS": [
             {
               "pointer": "",
@@ -672,30 +690,10 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Below 200keV the absolute normalisation",
-                "error of the capture area is to be better than 10%,",
-                "increasing to about 15% at 300 keV.",
+                " Below 200 keV the absolute normalization",
+                " error of the capture area is to be better than 10%,",
+                " increasing to about 15% at 300 keV.",
                 "No further information for other resonance parameters."
-              ]
-            }
-          ],
-          "COMMENT": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "The 89 keV resonance is assigned as s-wave. (It is",
-                "listed as p-wave in BNL-325 3rd vol.I(1973)). This",
-                "resonance is possibly a triplet."
-              ]
-            },
-            {
-              "pointer": "4",
-              "coded_information": null,
-              "free_text": [
-                "In this subentry momentum is only taken to",
-                "distinguish p- and d- wave. More details of",
-                "momentum l are in subentry 30395003"
               ]
             }
           ],
@@ -707,12 +705,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.R.De L.Musgrove+",
+                "reference": {
+                  "code": "J,NP/A,259,365,1976",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "259",
+                      "part": null,
+                      "issue": null,
+                      "page": "365"
+                    },
+                    "date": 1976
+                  }
+                }
               },
               "free_text": [
-                " Data taken from Table 1 and 2 of",
-                "                               Nucl.Phys.A259(76)365"
+                "",
+                " Table 1 and 2"
               ]
             }
           ],
@@ -735,7 +747,18 @@
               },
               "free_text": [
                 " DG.-Reduction of number of data",
-                "    fields after BNL 83/03/21 letter."
+                " fields after BNL 83/03/21 letter."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260324,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Data restored is presented in the",
+                " data source and STATUS updated"
               ]
             }
           ],
@@ -1405,9 +1428,9 @@
         {
           "SUBENT": {
             "N1": "30395003",
-            "N2": 20090105,
+            "N2": 20260325,
             "alteration_flag": " ",
-            "transmission_identification": "3134"
+            "transmission_identification": "3222"
           },
           "BIB": {
             "N1": 7,
@@ -1557,7 +1580,7 @@
                 }
               },
               "free_text": [
-                "  Assumed for analysis."
+                " Assumed for analysis."
               ]
             },
             {
@@ -1599,7 +1622,7 @@
                 1.0
               ],
               "free_text": [
-                "Momentum assignment from gamma-ray spectra."
+                " Momentum assignment from gamma-ray spectra."
               ]
             },
             {
@@ -1608,8 +1631,22 @@
                 2.0
               ],
               "free_text": [
-                "Assignment from large high energy component of",
-                "spectrum."
+                " Assignment from large high energy component of",
+                " spectrum."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information on the source of uncertainty"
               ]
             }
           ],
@@ -1621,12 +1658,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.R.De L.Musgrove+",
+                "reference": {
+                  "code": "J,NP/A,259,365,1976",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "259",
+                      "part": null,
+                      "issue": null,
+                      "page": "365"
+                    },
+                    "date": 1976
+                  }
+                }
               },
               "free_text": [
-                " Data taken from Table 1 and 2 of",
-                "                            Nucl.Phys.A259(76)365."
+                "",
+                " Table 1 and 2"
               ]
             }
           ],
@@ -1651,19 +1702,16 @@
                 " DG.-Reduction of number of data fields",
                 "  after BNL 83/03/21 letter"
               ]
-            }
-          ],
-          "ERR-ANALYS": [
+            },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
+                "date": 20260324,
+                "history": "A"
               },
               "free_text": [
-                " No further inform."
+                " VT. Data restored is presented in the",
+                " data source and STATUS updated"
               ]
             }
           ],
@@ -2793,9 +2841,9 @@
         {
           "SUBENT": {
             "N1": "30395004",
-            "N2": 20090105,
+            "N2": 20260325,
             "alteration_flag": " ",
-            "transmission_identification": "3134"
+            "transmission_identification": "3222"
           },
           "BIB": {
             "N1": 4,
@@ -2830,6 +2878,20 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistical error"
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -2838,12 +2900,27 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.R.De L.Musgrove+",
+                "reference": {
+                  "code": "J,NP/A,259,365,1976",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "259",
+                      "part": null,
+                      "issue": null,
+                      "page": "365"
+                    },
+                    "date": 1976
+                  }
+                }
               },
               "free_text": [
-                " Data taken from Nucl.Phys.A259(1976)365.(P.372)",
-                "This entry replaces  EXFOR30288.010."
+                "",
+                " Text (P.372)",
+                "This entry replaces EXFOR 30288.010."
               ]
             }
           ],
@@ -2857,19 +2934,16 @@
               "free_text": [
                 " DG.-Convert.from ISO-QUANT to REACTION form"
               ]
-            }
-          ],
-          "ERR-ANALYS": [
+            },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "ERR-S",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
+                "date": 20260324,
+                "history": "A"
               },
               "free_text": [
-                " Statistical error"
+                " VT. Data restored is presented in the",
+                " data source and STATUS updated"
               ]
             }
           ],
@@ -2919,12 +2993,12 @@
         {
           "SUBENT": {
             "N1": "30395005",
-            "N2": 20090105,
+            "N2": 20260325,
             "alteration_flag": " ",
-            "transmission_identification": "3134"
+            "transmission_identification": "3222"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -2952,25 +3026,8 @@
               },
               "free_text": [
                 "",
-                " Gamma-ray intensities from the decay of resonances at",
+                "Gamma-ray intensities from the decay of resonances at",
                 " (19.3, 20.4), 34.5 and 42.1 keV."
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Data taken from table 6 of",
-                "                             Nucl.Phys..A259(1976)325."
               ]
             }
           ],
@@ -2984,7 +3041,50 @@
                 "correlation_property": null
               },
               "free_text": [
-                " No further information."
+                " No information on the source of uncertainty"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "A.R.De L.Musgrove+",
+                "reference": {
+                  "code": "J,NP/A,259,365,1976",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "259",
+                      "part": null,
+                      "issue": null,
+                      "page": "365"
+                    },
+                    "date": 1976
+                  }
+                }
+              },
+              "free_text": [
+                " Table 6"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260324,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Data restored is presented in the",
+                " TRANS.3046 and STATUS updated"
               ]
             }
           ],
@@ -2997,9 +3097,10 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 7,
-            "N2": 55,
+            "N1": 8,
+            "N2": 35,
             "pointer": [
+              "",
               "",
               "",
               "",
@@ -3009,15 +3110,17 @@
               ""
             ],
             "heading": [
+              "EN",
               "EN-MIN",
               "EN-MAX",
               "E",
-              "LVL-FIN",
+              "E-LVL-FIN",
               "DATA",
               "DATA-ERR",
               "DATA-MAX"
             ],
             "unit": [
+              "KEV",
               "KEV",
               "KEV",
               "KEV",
@@ -3028,141 +3131,17 @@
             ],
             "value": [
               [
+                null,
                 19.3,
                 20.4,
-                3482.0,
-                4882.0,
-                1.6,
-                1.0,
-                null
+                8364.0,
+                0.0,
+                null,
+                null,
+                1.0
               ],
               [
-                19.3,
-                20.4,
-                3531.0,
-                4833.0,
-                2.4,
-                1.0,
-                null
-              ],
-              [
-                19.3,
-                20.4,
-                3610.0,
-                4753.0,
-                0.8,
-                0.5,
-                null
-              ],
-              [
-                19.3,
-                20.4,
-                3633.0,
-                4730.0,
-                5.5,
-                1.5,
-                null
-              ],
-              [
-                19.3,
-                20.4,
-                3760.0,
-                4604.0,
-                3.8,
-                1.0,
-                null
-              ],
-              [
-                19.3,
-                20.4,
-                4419.0,
-                3944.0,
-                1.1,
-                0.5,
-                null
-              ],
-              [
-                19.3,
-                20.4,
-                4519.0,
-                3845.0,
-                5.5,
-                2.0,
-                null
-              ],
-              [
-                19.3,
-                20.4,
-                4750.0,
-                3613.0,
-                1.7,
-                0.5,
-                null
-              ],
-              [
-                19.3,
-                20.4,
-                4869.0,
-                3495.0,
-                3.5,
-                1.0,
-                null
-              ],
-              [
-                19.3,
-                20.4,
-                4963.0,
-                3400.0,
-                2.0,
-                1.0,
-                null
-              ],
-              [
-                19.3,
-                20.4,
-                5314.0,
-                3050.0,
-                2.7,
-                1.0,
-                null
-              ],
-              [
-                19.3,
-                20.4,
-                5694.0,
-                2670.0,
-                5.0,
-                1.0,
-                null
-              ],
-              [
-                19.3,
-                20.4,
-                5758.0,
-                2604.0,
-                7.0,
-                1.0,
-                null
-              ],
-              [
-                19.3,
-                20.4,
-                5786.0,
-                2576.0,
-                6.7,
-                1.0,
-                null
-              ],
-              [
-                19.3,
-                20.4,
-                5901.0,
-                2462.0,
-                12.5,
-                1.5,
-                null
-              ],
-              [
+                null,
                 19.3,
                 20.4,
                 6421.0,
@@ -3172,8 +3151,159 @@
                 null
               ],
               [
+                null,
                 19.3,
                 20.4,
+                5901.0,
+                2462.0,
+                12.5,
+                1.5,
+                null
+              ],
+              [
+                null,
+                19.3,
+                20.4,
+                5786.0,
+                2576.0,
+                6.7,
+                1.0,
+                null
+              ],
+              [
+                null,
+                19.3,
+                20.4,
+                5758.0,
+                2604.0,
+                7.0,
+                1.0,
+                null
+              ],
+              [
+                null,
+                19.3,
+                20.4,
+                5694.0,
+                2670.0,
+                5.0,
+                1.0,
+                null
+              ],
+              [
+                null,
+                19.3,
+                20.4,
+                5314.0,
+                3050.0,
+                2.7,
+                1.0,
+                null
+              ],
+              [
+                null,
+                19.3,
+                20.4,
+                4963.0,
+                3400.0,
+                2.0,
+                1.0,
+                null
+              ],
+              [
+                null,
+                19.3,
+                20.4,
+                4869.0,
+                3495.0,
+                3.5,
+                1.0,
+                null
+              ],
+              [
+                null,
+                19.3,
+                20.4,
+                4750.0,
+                3613.0,
+                1.7,
+                0.5,
+                null
+              ],
+              [
+                null,
+                19.3,
+                20.4,
+                4519.0,
+                3845.0,
+                5.5,
+                2.0,
+                null
+              ],
+              [
+                null,
+                19.3,
+                20.4,
+                4419.0,
+                3944.0,
+                1.1,
+                0.5,
+                null
+              ],
+              [
+                null,
+                19.3,
+                20.4,
+                3760.0,
+                4604.0,
+                3.8,
+                1.0,
+                null
+              ],
+              [
+                null,
+                19.3,
+                20.4,
+                3633.0,
+                4730.0,
+                5.5,
+                1.5,
+                null
+              ],
+              [
+                null,
+                19.3,
+                20.4,
+                3610.0,
+                4753.0,
+                0.8,
+                0.5,
+                null
+              ],
+              [
+                null,
+                19.3,
+                20.4,
+                3531.0,
+                4833.0,
+                2.4,
+                1.0,
+                null
+              ],
+              [
+                null,
+                19.3,
+                20.4,
+                3482.0,
+                4882.0,
+                1.6,
+                1.0,
+                null
+              ],
+              [
+                34.5,
+                null,
+                null,
                 8364.0,
                 0.0,
                 null,
@@ -3182,345 +3312,173 @@
               ],
               [
                 34.5,
-                34.5,
-                3482.0,
-                4882.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              [
-                34.5,
-                34.5,
-                3531.0,
-                4833.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              [
-                34.5,
-                34.5,
-                3586.0,
-                4778.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              [
-                34.5,
-                34.5,
-                3610.0,
-                4753.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              [
-                34.5,
-                34.5,
-                3633.0,
-                4730.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              [
-                34.5,
-                34.5,
-                3760.0,
-                4604.0,
-                5.0,
-                1.0,
-                0.0
-              ],
-              [
-                34.5,
-                34.5,
-                4419.0,
-                3944.0,
-                3.0,
-                1.0,
-                0.0
-              ],
-              [
-                34.5,
-                34.5,
-                4519.0,
-                3845.0,
-                9.0,
-                1.5,
-                0.0
-              ],
-              [
-                34.5,
-                34.5,
-                4634.0,
-                3730.0,
-                6.0,
-                1.5,
-                0.0
-              ],
-              [
-                34.5,
-                34.5,
-                4750.0,
-                3613.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              [
-                34.5,
-                34.5,
-                4869.0,
-                3495.0,
-                6.0,
-                1.5,
-                0.0
-              ],
-              [
-                34.5,
-                34.5,
-                4963.0,
-                3400.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              [
-                34.5,
-                34.5,
-                5314.0,
-                3050.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              [
-                34.5,
-                34.5,
-                5694.0,
-                2670.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              [
-                34.5,
-                34.5,
-                5758.0,
-                2604.0,
-                4.0,
-                1.0,
-                0.0
-              ],
-              [
-                34.5,
-                34.5,
-                5786.0,
-                2576.0,
-                6.0,
-                1.5,
-                0.0
-              ],
-              [
-                34.5,
-                34.5,
-                5901.0,
-                2462.0,
-                12.0,
-                1.0,
-                0.0
-              ],
-              [
-                34.5,
-                34.5,
+                null,
+                null,
                 6421.0,
                 1943.0,
                 34.0,
                 2.5,
-                0.0
+                null
               ],
               [
                 34.5,
-                34.5,
-                8364.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0
-              ],
-              [
-                42.1,
-                42.1,
-                3482.0,
-                4882.0,
-                0.0,
-                0.0,
-                1.0
-              ],
-              [
-                42.1,
-                42.1,
-                3531.0,
-                4882.0,
-                0.0,
-                0.0,
-                1.0
-              ],
-              [
-                42.1,
-                42.1,
-                3586.0,
-                4778.0,
-                5.8,
-                1.5,
-                1.0
-              ],
-              [
-                42.1,
-                42.1,
-                3610.0,
-                4753.0,
-                2.2,
-                1.0,
-                1.0
-              ],
-              [
-                42.1,
-                42.1,
-                3633.0,
-                4730.0,
-                0.0,
-                0.0,
-                1.0
-              ],
-              [
-                42.1,
-                42.1,
-                3760.0,
-                4604.0,
-                12.4,
-                1.5,
-                1.0
-              ],
-              [
-                42.1,
-                42.1,
-                4419.0,
-                3944.0,
-                14.7,
-                1.5,
-                1.0
-              ],
-              [
-                42.1,
-                42.1,
-                4519.0,
-                3845.0,
-                3.1,
-                1.0,
-                1.0
-              ],
-              [
-                42.1,
-                42.1,
-                4634.0,
-                3730.0,
-                0.0,
-                0.0,
-                1.0
-              ],
-              [
-                42.1,
-                42.1,
-                4750.0,
-                3613.0,
-                2.6,
-                1.0,
-                1.0
-              ],
-              [
-                42.1,
-                42.1,
-                4869.0,
-                3495.0,
-                0.0,
-                0.0,
-                1.0
-              ],
-              [
-                42.1,
-                42.1,
-                4963.0,
-                3400.0,
-                0.0,
-                0.0,
-                1.0
-              ],
-              [
-                42.1,
-                42.1,
-                5314.0,
-                3050.0,
-                0.0,
-                0.0,
-                1.0
-              ],
-              [
-                42.1,
-                42.1,
-                5694.0,
-                2670.0,
-                0.0,
-                0.0,
-                1.0
-              ],
-              [
-                42.1,
-                42.1,
-                5758.0,
-                2604.0,
-                0.0,
-                0.0,
-                1.0
-              ],
-              [
-                42.1,
-                42.1,
-                5786.0,
-                2576.0,
-                0.0,
-                0.0,
-                1.0
-              ],
-              [
-                42.1,
-                42.1,
+                null,
+                null,
                 5901.0,
                 2462.0,
-                25.4,
-                2.5,
-                1.0
+                12.0,
+                1.0,
+                null
+              ],
+              [
+                34.5,
+                null,
+                null,
+                5786.0,
+                2576.0,
+                6.0,
+                1.5,
+                null
+              ],
+              [
+                34.5,
+                null,
+                null,
+                5758.0,
+                2604.0,
+                4.0,
+                1.0,
+                null
+              ],
+              [
+                34.5,
+                null,
+                null,
+                4869.0,
+                3495.0,
+                6.0,
+                1.5,
+                null
+              ],
+              [
+                34.5,
+                null,
+                null,
+                4634.0,
+                3730.0,
+                6.0,
+                1.5,
+                null
+              ],
+              [
+                34.5,
+                null,
+                null,
+                4519.0,
+                3845.0,
+                9.0,
+                1.5,
+                null
+              ],
+              [
+                34.5,
+                null,
+                null,
+                4419.0,
+                3944.0,
+                3.0,
+                1.0,
+                null
+              ],
+              [
+                34.5,
+                null,
+                null,
+                3760.0,
+                4604.0,
+                5.0,
+                1.0,
+                null
               ],
               [
                 42.1,
-                42.1,
+                null,
+                null,
                 6421.0,
                 1943.0,
                 19.0,
                 2.0,
-                1.0
+                null
               ],
               [
                 42.1,
+                null,
+                null,
+                5901.0,
+                2462.0,
+                25.4,
+                2.5,
+                null
+              ],
+              [
                 42.1,
-                8364.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0
+                null,
+                null,
+                4750.0,
+                3613.0,
+                2.6,
+                1.0,
+                null
+              ],
+              [
+                42.1,
+                null,
+                null,
+                4519.0,
+                3845.0,
+                3.1,
+                1.0,
+                null
+              ],
+              [
+                42.1,
+                null,
+                null,
+                4419.0,
+                3944.0,
+                14.7,
+                1.5,
+                null
+              ],
+              [
+                42.1,
+                null,
+                null,
+                3760.0,
+                4604.0,
+                12.4,
+                1.5,
+                null
+              ],
+              [
+                42.1,
+                null,
+                null,
+                3610.0,
+                4753.0,
+                2.2,
+                1.0,
+                null
+              ],
+              [
+                42.1,
+                null,
+                null,
+                3586.0,
+                4778.0,
+                5.8,
+                1.5,
+                null
               ]
             ]
           },
@@ -3536,9 +3494,9 @@
         {
           "SUBENT": {
             "N1": "30395006",
-            "N2": 20090105,
+            "N2": 20260325,
             "alteration_flag": " ",
-            "transmission_identification": "3134"
+            "transmission_identification": "3222"
           },
           "BIB": {
             "N1": 5,
@@ -3630,7 +3588,7 @@
               "coded_information": null,
               "free_text": [
                 "Porter-Thomas statistics indicate several small d-wave",
-                "resonances are undetected in d-wave average spacing."
+                " resonances are undetected in d-wave average spacing."
               ]
             },
             {
@@ -3638,9 +3596,23 @@
               "coded_information": null,
               "free_text": [
                 "The average value of the s-wave strength functions",
-                "from Singh et al.,Nucl.Phys.A252(1975)62, and",
-                "     Nebe,Kirouac, Nucl.Phys.A185(1972)113",
-                "are given to be ' 2.95E-4 '."
+                " from Singh et al.,Nucl.Phys.A252(1975)62, and",
+                " Nebe,Kirouac, Nucl.Phys.A185(1972)113",
+                " are given to be ' 2.95E-4 '."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information on the source of uncertainty"
               ]
             }
           ],
@@ -3652,12 +3624,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.R.De L.Musgrove+",
+                "reference": {
+                  "code": "J,NP/A,259,365,1976",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "259",
+                      "part": null,
+                      "issue": null,
+                      "page": "365"
+                    },
+                    "date": 1976
+                  }
+                }
               },
               "free_text": [
-                " Data taken from Table 4 of",
-                "                             Nucl.Phys.A259(1976)325."
+                " Table 4"
               ]
             }
           ],
@@ -3679,21 +3664,18 @@
                 "history": "A"
               },
               "free_text": [
-                " DG.-Moved subentry  30395003 TO 30395006"
+                " DG.-Moved subentry  30395003 to 30395006"
               ]
-            }
-          ],
-          "ERR-ANALYS": [
+            },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
+                "date": 20260324,
+                "history": "A"
               },
               "free_text": [
-                " No further information."
+                " VT. Data restored is presented in the",
+                " data source and STATUS updated"
               ]
             }
           ],

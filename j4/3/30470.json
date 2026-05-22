@@ -1,26 +1,50 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:32:23+0000",
+  "time_stamp": "2026-05-22T21:30:06+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "30470",
-        "N2": 20090312,
+        "N2": 20260425,
         "alteration_flag": " ",
-        "transmission_identification": "3135"
+        "transmission_identification": "3222"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "30470001",
-            "N2": 20090312,
+            "N2": 20260425,
             "alteration_flag": " ",
-            "transmission_identification": "3135"
+            "transmission_identification": "3222"
           },
           "BIB": {
-            "N1": 14,
+            "N1": 12,
             "N2": 0
           },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Inelastic scattering of 14.8 MeV neutrons from deuteron"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "K.Gul",
+                "A.Waheed",
+                "M.Ahmed",
+                "M.Saleem",
+                "N.A.Khan"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "INSTITUTE": [
             {
               "pointer": "",
@@ -36,10 +60,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,JP/G,5,(8),1107,197908",
+                "code": "J,JP/G,5,1107,1979",
                 "code_unit": [
                   {
-                    "unit": "J,JP/G,5,(8),1107,197908",
+                    "unit": "J,JP/G,5,1107,1979",
                     "doi": "10.1088/0305-4616/5/8/014",
                     "field": {
                       "reference_type": "J",
@@ -48,10 +72,10 @@
                         "number": null,
                         "volume": "5",
                         "part": null,
-                        "issue": "8",
+                        "issue": null,
                         "page": "1107"
                       },
-                      "date": 197908
+                      "date": 1979
                     }
                   }
                 ],
@@ -86,41 +110,22 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " Int.rep.NPD-4(FNFG),preliminary."
-              ]
-            }
-          ],
-          "AUTHOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "K.Gul",
-                "A.Waheed",
-                "M.Ahmed",
-                "M.Saleem",
-                "N.A.Khan"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "TITLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Inelastic scattering of 14.8 MeV neutrons from deuteron"
+                "",
+                "Int.rep.NPD-4(FNFG),preliminary."
               ]
             }
           ],
           "FACILITY": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "facility": [
+                  "CCW"
+                ],
+                "institute": "3PAKNIL"
+              },
               "free_text": [
-                "Transformer type neutron generator",
-                "   at Pinstech, Nilore, Rawalpindi."
+                " Pinstech neutron generator facility"
               ]
             }
           ],
@@ -138,12 +143,18 @@
               ]
             }
           ],
-          "SAMPLE": [
+          "DETECTOR": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": [
+                "SCIN"
+              ],
               "free_text": [
-                "Deuterated benzene scintillator, NE-230."
+                " NE-213 scintillator, 2 inch X 2 inch, placed in",
+                " a borated wax and lead shielding.",
+                ". NE-230 scintillator as scatterer provided a stop",
+                " signal for the time-to-pulse amplitude converter.",
+                ". Neutron-gamma pulse shape discrimination was applied."
               ]
             }
           ],
@@ -160,46 +171,82 @@
               ]
             }
           ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "SCIN"
-              ],
-              "free_text": [
-                " .NE-213 scintillator, 2inch * 2inch, placed in a",
-                "borated wax and lead shielding.",
-                ".NE-230 scintillator as scatterer provided a stop",
-                "signal for the time-to-pulse amplitude converter.",
-                ".Neutron-gamma pulse shape discrimination was applied."
-              ]
-            }
-          ],
           "MONITOR": [
             {
               "pointer": "",
               "coded_information": null,
               "free_text": [
                 "No standard used. Neutron flux was determined by",
-                "associated particle method. The absolute efficiency of",
-                "the neutron detector was experimentally determined from",
-                "its response to the known flux of monoenergetic",
-                "neutrons. (See Waheed et al.,Pinstech Int.Rep.No.5(NPD)",
+                " associated particle method. The absolute efficiency",
+                " of the neutron detector was experimentally determined",
+                " from its response to the known flux of monoenergetic",
+                " neutrons.(See Waheed et al.,Pinstech Int.Rep.No.5(NPD)",
                 " (FNPG).  Then the measured efficiency was fitted to",
-                "the value obtained with Monte Carlo calculation.",
+                " the value obtained with Monte Carlo calculation.",
                 "The side experiment of carbon breakup was used to",
-                "verify the efficiency curve."
+                " verify the efficiency curve."
               ]
             }
           ],
-          "PART-DET": [
+          "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": [
-                "N"
-              ],
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
               "free_text": [
-                ""
+                " An over all error of 10% includes:"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " background statistics about (7%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " the number of deuterons in the scatterer (2%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " the efficiency of the neutron detector (7%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " multiple scattering correction (1%)"
               ]
             }
           ],
@@ -220,6 +267,17 @@
             }
           ],
           "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19790317,
+                "history": "R"
+              },
+              "free_text": [
+                " Data received from K.Gul as private",
+                " communication (1979-03-17)"
+              ]
+            },
             {
               "pointer": "",
               "coded_information": {
@@ -257,46 +315,17 @@
                 "history": "A"
               },
               "free_text": [
-                " SD:Updated to new date formats,lower case."
-              ]
-            }
-          ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-T",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " An over all error of 10% includes:"
+                " SD: Updated to new date formats, lower case"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "ERR-S",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
+                "date": 20260325,
+                "history": "A"
               },
               "free_text": [
-                " Uncertainty of background statistics = about 7%"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-1",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Uncertainty of the number of deuterons in the",
-                "scatterer (from the specification)  =  2%."
+                " VT. Revision in 002-005"
               ]
             }
           ],
@@ -305,23 +334,35 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 5,
             "N2": 0,
             "pointer": [
+              "",
+              "",
+              "",
               "",
               ""
             ],
             "heading": [
+              "EN",
               "ERR-S",
-              "ERR-1"
+              "ERR-1",
+              "ERR-2",
+              "ERR-3"
             ],
             "unit": [
+              "MEV",
+              "PER-CENT",
+              "PER-CENT",
               "PER-CENT",
               "PER-CENT"
             ],
             "value": [
+              14.8,
               7.0,
-              2.0
+              2.0,
+              7.0,
+              1.0
             ]
           },
           "ENDCOMMON": {
@@ -336,9 +377,9 @@
         {
           "SUBENT": {
             "N1": "30470002",
-            "N2": 20090312,
+            "N2": 20260425,
             "alteration_flag": " ",
-            "transmission_identification": "3135"
+            "transmission_identification": "3222"
           },
           "BIB": {
             "N1": 3,
@@ -380,13 +421,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "K.Gul+",
+                "reference": {
+                  "code": "J,JP/G,5,1107,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JP/G",
+                      "number": null,
+                      "volume": "5",
+                      "part": null,
+                      "issue": null,
+                      "page": "1107"
+                    },
+                    "date": 1979
+                  }
+                }
               },
               "free_text": [
-                " Data from K.Gul as priv.comm.,79/03/17, which",
-                "correspond to Fig. 5,6,7,8 and 9 of J.of Phys.Part G,",
-                " 5,(8),(1979)  (preprint)."
+                " Fig.5,6,7,8 and 9"
               ]
             }
           ],
@@ -400,35 +453,30 @@
               "free_text": [
                 " KO. -Minor change in BIB -"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260325,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DATA: dataset restored from TRANS.3033",
+                " and STATUS updated"
+              ]
             }
           ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 1,
-            "N2": 0,
-            "pointer": [
-              ""
-            ],
-            "heading": [
-              "EN"
-            ],
-            "unit": [
-              "MEV"
-            ],
-            "value": [
-              14.8
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
           "DATA": {
             "N1": 4,
-            "N2": 55,
+            "N2": 37,
             "pointer": [
               "",
               "",
@@ -516,30 +564,6 @@
               ],
               [
                 40.0,
-                3.0,
-                0.0,
-                0.0
-              ],
-              [
-                40.0,
-                3.5,
-                0.0,
-                0.0
-              ],
-              [
-                40.0,
-                4.0,
-                0.0,
-                0.0
-              ],
-              [
-                40.0,
-                4.5,
-                0.0,
-                0.0
-              ],
-              [
-                40.0,
                 5.0,
                 10.5,
                 1.1
@@ -573,30 +597,6 @@
                 8.75,
                 6.6,
                 0.7
-              ],
-              [
-                40.0,
-                9.75,
-                0.0,
-                0.0
-              ],
-              [
-                45.0,
-                3.0,
-                0.0,
-                0.0
-              ],
-              [
-                45.0,
-                3.5,
-                0.0,
-                0.0
-              ],
-              [
-                45.0,
-                4.0,
-                0.0,
-                0.0
               ],
               [
                 45.0,
@@ -641,12 +641,6 @@
                 0.7
               ],
               [
-                45.0,
-                9.75,
-                0.0,
-                0.0
-              ],
-              [
                 60.0,
                 3.0,
                 1.8,
@@ -673,7 +667,7 @@
               [
                 60.0,
                 5.0,
-                4.03,
+                4.0,
                 0.4
               ],
               [
@@ -687,30 +681,6 @@
                 6.0,
                 3.3,
                 0.3
-              ],
-              [
-                60.0,
-                6.75,
-                0.0,
-                0.0
-              ],
-              [
-                60.0,
-                7.75,
-                0.0,
-                0.0
-              ],
-              [
-                60.0,
-                8.75,
-                0.0,
-                0.0
-              ],
-              [
-                60.0,
-                9.75,
-                0.0,
-                0.0
               ],
               [
                 75.0,
@@ -747,36 +717,6 @@
                 5.5,
                 3.5,
                 0.4
-              ],
-              [
-                75.0,
-                6.0,
-                0.0,
-                0.0
-              ],
-              [
-                75.0,
-                6.75,
-                0.0,
-                0.0
-              ],
-              [
-                75.0,
-                7.75,
-                0.0,
-                0.0
-              ],
-              [
-                75.0,
-                8.75,
-                0.0,
-                0.0
-              ],
-              [
-                75.0,
-                9.75,
-                0.0,
-                0.0
               ]
             ]
           },
@@ -792,9 +732,9 @@
         {
           "SUBENT": {
             "N1": "30470003",
-            "N2": 20090312,
+            "N2": 20260425,
             "alteration_flag": " ",
-            "transmission_identification": "3135"
+            "transmission_identification": "3222"
           },
           "BIB": {
             "N1": 5,
@@ -846,9 +786,9 @@
               "coded_information": null,
               "free_text": [
                 "The double differential cross-sections for neutron",
-                "emmissions were integrated with respect to energy.",
+                " emissions were integrated with respect to energy.",
                 ".For the extrapolation to 'zero' energy, it was assumed",
-                "that the cross-sections fall linearly zero at 0 energy.",
+                " that the cross-sections fall linearly zero at 0 energy",
                 " (This approximation agrees to the result by the theory",
                 "  of Aaron-Amade within the errors)"
               ]
@@ -862,13 +802,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "K.Gul+",
+                "reference": {
+                  "code": "J,JP/G,5,1107,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JP/G",
+                      "number": null,
+                      "volume": "5",
+                      "part": null,
+                      "issue": null,
+                      "page": "1107"
+                    },
+                    "date": 1979
+                  }
+                }
               },
               "free_text": [
-                " Data from K.Gul as priv.comm.,79/03/17, which",
-                "correspond to Fig.10 of J.of Phys.Part G,5(8)(1979)",
-                " (preprint)."
+                " Fig.10"
               ]
             },
             {
@@ -906,29 +858,24 @@
               "free_text": [
                 " KO. - Status(DEP) added. -"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260325,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DATA: dataset restored from TRANS.3033",
+                " and STATUS updated"
+              ]
             }
           ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 1,
-            "N2": 0,
-            "pointer": [
-              ""
-            ],
-            "heading": [
-              "EN"
-            ],
-            "unit": [
-              "MEV"
-            ],
-            "value": [
-              14.8
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -974,7 +921,7 @@
               [
                 75.0,
                 5.0,
-                0.5
+                1.0
               ]
             ]
           },
@@ -990,9 +937,9 @@
         {
           "SUBENT": {
             "N1": "30470004",
-            "N2": 20090312,
+            "N2": 20260425,
             "alteration_flag": " ",
-            "transmission_identification": "3135"
+            "transmission_identification": "3222"
           },
           "BIB": {
             "N1": 5,
@@ -1002,10 +949,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "1-H-2(N,2N)1-H-1,,SIG",
+                "code": "1-H-2(N,2N)1-H-1,,SIG,,,DERIV",
                 "code_unit": [
                   {
-                    "unit": "1-H-2(N,2N)1-H-1,,SIG",
+                    "unit": "1-H-2(N,2N)1-H-1,,SIG,,,DERIV",
                     "field": {
                       "reaction": "1-H-2(N,2N)1-H-1",
                       "target": "1-H-2",
@@ -1013,7 +960,7 @@
                       "process": "2N",
                       "product": "1-H-1",
                       "quantity": ",SIG",
-                      "data_type": null,
+                      "data_type": "DERIV",
                       "general_quantity_modifier": null,
                       "quantity_236": ",SIG"
                     }
@@ -1033,46 +980,23 @@
               "coded_information": null,
               "free_text": [
                 "Assuming a constant value for cross-section beyond 75",
-                "degree, the neutron emission cross-section in forward",
-                "hemisphere was obtained to be",
-                "    240 +- 30 milli-b,  this gives",
-                "    120 +- 15 milli-b  for proton emission(=deuteron",
-                "    break-up) cross-sections in forward hemisphere.",
+                " degree, the neutron emission cross-section in forward",
+                " hemisphere was obtained to be",
+                ". 240+/-30 mb, this gives",
+                ". 120+/-15 mb for proton emission(=deuteron",
+                " break-up) cross-sections in forward hemisphere.",
                 "The value of proton emission in the backward-",
-                "direction (=25 milli-b) by N.Koori was added."
+                " direction (=25 mb) by N.Koori was added."
               ]
             }
           ],
           "ASSUMED": [
             {
               "pointer": "",
-              "coded_information": {
-                "heading": "ASSUM",
-                "reaction": {
-                  "code": "1-H-2(N,2N)1-H-1,PAR,SIG,,,CALC",
-                  "code_unit": [
-                    {
-                      "unit": "1-H-2(N,2N)1-H-1,PAR,SIG,,,CALC",
-                      "field": {
-                        "reaction": "1-H-2(N,2N)1-H-1",
-                        "target": "1-H-2",
-                        "projectile": "N",
-                        "process": "2N",
-                        "product": "1-H-1",
-                        "quantity": "PAR,SIG",
-                        "data_type": "CALC",
-                        "general_quantity_modifier": null,
-                        "quantity_236": "PAR,SIG"
-                      }
-                    }
-                  ],
-                  "unit_combination": "(%)"
-                }
-              },
+              "coded_information": null,
               "free_text": [
-                "",
-                " Proton emission in the backward direction equal to",
-                " 25 milli-barn by N.Koori,J.Phys.Soc.Japan,32(1972)306"
+                "Proton emission in the backward direction equal to",
+                " 25 mb by N.Koori,J.Phys.Soc.Japan,32(1972)306"
               ]
             }
           ],
@@ -1084,11 +1008,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "K.Gul+",
+                "reference": {
+                  "code": "J,JP/G,5,1107,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JP/G",
+                      "number": null,
+                      "volume": "5",
+                      "part": null,
+                      "issue": null,
+                      "page": "1107"
+                    },
+                    "date": 1979
+                  }
+                }
               },
               "free_text": [
-                " Data taken from preprint to J.Phys.(G)."
+                " Text (p.1114)"
               ]
             }
           ],
@@ -1100,7 +1038,19 @@
                 "history": "A"
               },
               "free_text": [
-                " KO -Correction of data after final publ.-"
+                " KO -Correction of data after final",
+                " publication."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260325,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DATA: ASSUM deleted; dataset restored",
+                " from TRANS.3033 and STATUS updated"
               ]
             }
           ],
@@ -1113,32 +1063,24 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 4,
+            "N1": 2,
             "N2": 1,
             "pointer": [
-              "",
-              "",
               "",
               ""
             ],
             "heading": [
-              "EN",
               "DATA",
-              "ERR-T",
-              "ASSUM"
+              "ERR-T"
             ],
             "unit": [
-              "MEV",
-              "MB",
               "MB",
               "MB"
             ],
             "value": [
               [
-                14.8,
                 145.0,
-                15.0,
-                25.0
+                15.0
               ]
             ]
           },
@@ -1154,9 +1096,9 @@
         {
           "SUBENT": {
             "N1": "30470005",
-            "N2": 20090312,
+            "N2": 20260425,
             "alteration_flag": " ",
-            "transmission_identification": "3135"
+            "transmission_identification": "3222"
           },
           "BIB": {
             "N1": 4,
@@ -1196,11 +1138,11 @@
               "coded_information": null,
               "free_text": [
                 "Side experiment performed to check the present",
-                "measurements of deuteron break-up cross-section.",
-                ".At 14.8MeV of neutron energy, reaction A,",
-                "  (A) C-12  + n    =  Be-9*  +  a  =   3a  +  n",
+                " measurements of deuteron break-up cross-section.",
+                "At 14.8 MeV of neutron energy, reaction A,",
+                ".(A) 12C+n =  9*Be+a = 3a+n",
                 "can be neglected and only reaction B occurs.",
-                "  (B) C-12  + n    =  C-12*  +  a  =   3a  +  n'."
+                ".(B) 12C+n = 12*C+a = 3a+n'."
               ]
             }
           ],
@@ -1212,11 +1154,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "K.Gul+",
+                "reference": {
+                  "code": "J,JP/G,5,1107,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JP/G",
+                      "number": null,
+                      "volume": "5",
+                      "part": null,
+                      "issue": null,
+                      "page": "1107"
+                    },
+                    "date": 1979
+                  }
+                }
               },
               "free_text": [
-                " Data taken from Tbl.2 of preprint to J.Phys.(G)"
+                " Table 2"
               ]
             }
           ],
@@ -1228,7 +1184,18 @@
                 "history": "A"
               },
               "free_text": [
-                " KO.-Re-entry from final publ.-"
+                " KO.-Re-entry from final publication."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260325,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DATA: dataset restored from TRANS.3033",
+                " and STATUS updated"
               ]
             }
           ],
@@ -1237,26 +1204,18 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 3,
+            "N1": 1,
             "N2": 0,
             "pointer": [
-              "",
-              "",
               ""
             ],
             "heading": [
-              "EN",
-              "ERR-T",
               "E-EXC"
             ],
             "unit": [
-              "MEV",
-              "PER-CENT",
               "MEV"
             ],
             "value": [
-              14.8,
-              10.0,
               9.36
             ]
           },
@@ -1265,32 +1224,38 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 2,
+            "N1": 3,
             "N2": 3,
             "pointer": [
+              "",
               "",
               ""
             ],
             "heading": [
               "ANG-CM",
-              "DATA-CM"
+              "DATA-CM",
+              "ERR-T"
             ],
             "unit": [
               "ADEG",
+              "MB/SR",
               "MB/SR"
             ],
             "value": [
               [
                 78.0,
-                5.3
+                5.3,
+                0.5
               ],
               [
                 89.0,
-                5.6
+                5.6,
+                0.6
               ],
               [
                 99.0,
-                6.2
+                6.2,
+                0.6
               ]
             ]
           },
