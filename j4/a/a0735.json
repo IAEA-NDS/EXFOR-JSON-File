@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:13:04+0000",
+  "time_stamp": "2026-05-22T21:13:13+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0735",
-        "N2": 20080805,
+        "N2": 20260205,
         "alteration_flag": " ",
-        "transmission_identification": "A064"
+        "transmission_identification": "A131"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0735001",
-            "N2": 20080805,
+            "N2": 20260205,
             "alteration_flag": " ",
-            "transmission_identification": "A064"
+            "transmission_identification": "A131"
           },
           "BIB": {
             "N1": 10,
@@ -28,36 +28,6 @@
               "free_text": [
                 "Decay spectroscopy of suburanium isotopes following",
                 "projectile fragmentation of 238U at 1 GeV/u"
-              ]
-            }
-          ],
-          "REFERENCE": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "J,NIM/A,543,591,2005",
-                "code_unit": [
-                  {
-                    "unit": "J,NIM/A,543,591,2005",
-                    "doi": "10.1016/j.nima.2004.12.023",
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "NIM/A",
-                        "number": null,
-                        "volume": "543",
-                        "part": null,
-                        "issue": null,
-                        "page": "591"
-                      },
-                      "date": 2005
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
               ]
             }
           ],
@@ -96,70 +66,45 @@
               ]
             }
           ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,NIM/A,543,591,2005",
+                "code_unit": [
+                  {
+                    "unit": "J,NIM/A,543,591,2005",
+                    "doi": "10.1016/j.nima.2004.12.023",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "NIM/A",
+                        "number": null,
+                        "volume": "543",
+                        "part": null,
+                        "issue": null,
+                        "page": "591"
+                      },
+                      "date": 2005
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "INSTITUTE": [
             {
               "pointer": "",
               "coded_information": [
-                "2UK EDG"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "3POLWWA"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2GERGSI"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "1USAANL"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "2UK EDG",
+                "3POLWWA",
+                "2GERGSI",
+                "1USAANL",
                 "1USAORL"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "SAMPLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "A 1 g/cm2 beryllium target located at the entrance of",
-                "the FRS. To maximise the fraction of fully stripped",
-                "ions, a niobium foil of 221 mg/cm**2 was placed behind",
-                "the production target."
-              ]
-            }
-          ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "SPEC"
               ],
               "free_text": [
                 ""
@@ -176,17 +121,29 @@
                 "institute": "2GERGSI"
               },
               "free_text": [
-                " The heavy-ion synchrotron SIS."
+                " The heavy-ion synchrotron SIS with",
+                " fragment separator (FRS)."
               ]
-            },
+            }
+          ],
+          "SAMPLE": [
             {
               "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "FRS"
-                ],
-                "institute": "2GERGSI"
-              },
+              "coded_information": null,
+              "free_text": [
+                "A 1 g/cm2 beryllium target located at the entrance of",
+                "the FRS. To maximize the fraction of fully stripped",
+                "ions, a niobium foil of 221 mg/cm2 was placed behind",
+                "the production target."
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "SPEC"
+              ],
               "free_text": [
                 ""
               ]
@@ -216,6 +173,17 @@
               ]
             }
           ],
+          "ADD-RES": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "DECAY"
+              ],
+              "free_text": [
+                " Decay-data for observed products."
+              ]
+            }
+          ],
           "HISTORY": [
             {
               "pointer": "",
@@ -226,16 +194,15 @@
               "free_text": [
                 ""
               ]
-            }
-          ],
-          "ADD-RES": [
+            },
             {
               "pointer": "",
-              "coded_information": [
-                "DECAY"
-              ],
+              "coded_information": {
+                "date": 20260205,
+                "history": "U"
+              },
               "free_text": [
-                " Decay-data for observed products."
+                " SD: Small corrections in all Subents."
               ]
             }
           ],
@@ -271,12 +238,12 @@
         {
           "SUBENT": {
             "N1": "A0735002",
-            "N2": 20051031,
+            "N2": 20260205,
             "alteration_flag": " ",
-            "transmission_identification": "A064"
+            "transmission_identification": "A131"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -303,20 +270,11 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " Fully stripped",
-                "products."
-              ]
-            }
-          ],
-          "COMMENT": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "*By compiler*. The authors used-yield per day at beam",
-                "current of 1.E+7 particle per second",
-                "*By authors*. The dips at 219-Pa (T1/2=53 ns),",
-                "218-Th (T1/2=109 ns) and 217-Ac (T1/2=69 ns) are due",
+                "",
+                "Yield per day at beam current of 1.E+7 particle per",
+                "second.",
+                "*By authors*. The dips at 219Pa (T1/2=53 ns),",
+                "218Th (T1/2=109 ns) and 217Ac (T1/2=69 ns) are due",
                 "to the fact that their half-lives are shorter than",
                 "their time of flight from target to detector."
               ]
@@ -330,25 +288,37 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Z.Liu+",
+                "reference": {
+                  "code": "J,NIM/A,543,591,2005",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/A",
+                      "number": null,
+                      "volume": "543",
+                      "part": null,
+                      "issue": null,
+                      "page": "591"
+                    },
+                    "date": 2005
+                  }
+                }
               },
               "free_text": [
-                " By CAJAD."
+                " Fig.6"
               ]
             }
           ],
-          "ERR-ANALYS": [
+          "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "heading": "ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
+                "date": 20260205,
+                "history": "U"
               },
               "free_text": [
-                ".Data point reader uncertainty."
+                " SD: STATUS updated."
               ]
             }
           ],

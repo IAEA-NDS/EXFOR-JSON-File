@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:13:43+0000",
+  "time_stamp": "2026-05-22T21:13:15+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0849",
-        "N2": 20100402,
+        "N2": 20260205,
         "alteration_flag": " ",
-        "transmission_identification": "A068"
+        "transmission_identification": "A131"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0849001",
-            "N2": 20100402,
+            "N2": 20260205,
             "alteration_flag": " ",
-            "transmission_identification": "A068"
+            "transmission_identification": "A131"
           },
           "BIB": {
             "N1": 11,
@@ -54,15 +54,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "4ZZZDUB"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "4ZZZDUB",
                 "3POLIFJ"
               ],
               "free_text": [
@@ -98,54 +90,35 @@
               "free_text": [
                 ""
               ]
-            },
+            }
+          ],
+          "REL-REF": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,NP/A,701,29,2002",
-                "code_unit": [
-                  {
-                    "unit": "J,NP/A,701,29,2002",
-                    "doi": "10.1016/S0375-9474(01)01543-3",
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "NP/A",
-                        "number": null,
-                        "volume": "701",
-                        "part": null,
-                        "issue": null,
-                        "page": "29"
-                      },
-                      "date": 2002
-                    }
+                "code": "O",
+                "subentry_number": "D0218002",
+                "author": "R.Wolski+",
+                "reference": {
+                  "code": "J,NP/A,701,29,2002",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "701",
+                      "part": null,
+                      "issue": null,
+                      "page": "29"
+                    },
+                    "date": 2002
                   }
-                ],
-                "unit_combination": "(%)"
+                }
               },
               "free_text": [
-                " Cross sectiions obtained for the",
-                "He-8+He-4 elastic scattering were reported in D0218002."
-              ]
-            }
-          ],
-          "METHOD": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "EDE"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "TOF"
-              ],
-              "free_text": [
-                ""
+                " Cross",
+                "sections obtained for the 8He + 4He elastic",
+                "scattering were reported in D0218002."
               ]
             }
           ],
@@ -159,21 +132,31 @@
                 "institute": "4ZZZDUB"
               },
               "free_text": [
-                "the U-400M cyclotron of FLNR"
+                "the U-400M cyclotron of FLNR",
+                "The selection of He-8 and He-6 ions was realized by",
+                "double achromatic magnetic separator ACCULINNA"
               ]
-            },
+            }
+          ],
+          "SAMPLE": [
             {
               "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "PRJFS"
-                ],
-                "institute": "4ZZZDUB"
-              },
+              "coded_information": null,
               "free_text": [
-                " The selection of He-8 and He-6 ions was",
-                "realized by double achromatic magnetic separator",
-                "ACCULINNA"
+                "Gas targets, filled to l-10 atm and cooled down to",
+                "25-30 K, were used."
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "EDE",
+                "TOF"
+              ],
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -182,9 +165,9 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The secondary beam of He-8 was obtained via the",
+                "The secondary beam of 8He was obtained via the",
                 "bombardment of a beryllium target of a thickness of",
-                "350 mg/cm**2 by a 35 MeV/A primary beam of B-11."
+                "350 mg/cm2 by a 35 MeV/A primary beam of 11B."
               ]
             }
           ],
@@ -196,7 +179,7 @@
               ],
               "free_text": [
                 " The spectrometer ACCULINNA was used to separate",
-                "He-8 from all other reaction products."
+                "8He from all other reaction products."
               ]
             },
             {
@@ -220,32 +203,6 @@
               ]
             }
           ],
-          "SAMPLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Gas targets, filled to l-10 atm and cooled down to",
-                "25-30 K, were used."
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "CURVE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                ".By CAJAD."
-              ]
-            }
-          ],
           "HISTORY": [
             {
               "pointer": "",
@@ -255,6 +212,16 @@
               },
               "free_text": [
                 " SB"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260205,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Corrections in all Subents."
               ]
             }
           ],
@@ -290,46 +257,46 @@
         {
           "SUBENT": {
             "N1": "A0849002",
-            "N2": 20100405,
+            "N2": 20260205,
             "alteration_flag": " ",
-            "transmission_identification": "A068"
+            "transmission_identification": "A131"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "(1-H-1(2-HE-8,T)2-HE-6,PAR,DA)=(2-HE-8(P,T)2-HE-6,PAR,DA,RSD)",
+                "code": "(1-H-1(2-HE-8,T)2-HE-6,PAR,DA,RSD)=(2-HE-8(P,T)2-HE-6,PAR,DA)",
                 "code_unit": [
                   {
-                    "unit": "1-H-1(2-HE-8,T)2-HE-6,PAR,DA",
+                    "unit": "1-H-1(2-HE-8,T)2-HE-6,PAR,DA,RSD",
                     "field": {
                       "reaction": "1-H-1(2-HE-8,T)2-HE-6",
                       "target": "1-H-1",
                       "projectile": "2-HE-8",
                       "process": "T",
                       "product": "2-HE-6",
-                      "quantity": "PAR,DA",
+                      "quantity": "PAR,DA,RSD",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "PAR,DA"
+                      "quantity_236": "PAR,DA,*"
                     }
                   },
                   {
-                    "unit": "2-HE-8(P,T)2-HE-6,PAR,DA,RSD",
+                    "unit": "2-HE-8(P,T)2-HE-6,PAR,DA",
                     "field": {
                       "reaction": "2-HE-8(P,T)2-HE-6",
                       "target": "2-HE-8",
                       "projectile": "P",
                       "process": "T",
                       "product": "2-HE-6",
-                      "quantity": "PAR,DA,RSD",
+                      "quantity": "PAR,DA",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "PAR,DA,*"
+                      "quantity_236": "PAR,DA"
                     }
                   }
                 ],
@@ -350,43 +317,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                ".The error is reported by authors on fig."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ANG-ERR-D",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                ".Digitizing error of angle."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                ".Digitizing error of DATA"
-              ]
-            }
-          ],
-          "EN-SEC": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "E-LVL",
-                "particle": "2-HE-6"
-              },
-              "free_text": [
-                ""
+                " No information about source of uncertainty"
               ]
             }
           ],
@@ -445,6 +376,50 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "G.M.Ter-Akopian+",
+                "reference": {
+                  "code": "J,NP/A,734,295,2004",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "734",
+                      "part": null,
+                      "issue": null,
+                      "page": "295"
+                    },
+                    "date": 2004
+                  }
+                }
+              },
+              "free_text": [
+                " Fig.2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260205,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: SF7=RSD added to nominator and",
+                "SF7=RSD deleted from denominator in REACTION code.",
+                "STATUS added."
               ]
             }
           ],

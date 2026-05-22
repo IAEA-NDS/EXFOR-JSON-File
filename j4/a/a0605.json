@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:11:48+0000",
+  "time_stamp": "2026-05-22T21:13:03+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0605",
-        "N2": 20170206,
+        "N2": 20260204,
         "alteration_flag": " ",
-        "transmission_identification": "A086"
+        "transmission_identification": "A131"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0605001",
-            "N2": 20170206,
+            "N2": 20260204,
             "alteration_flag": " ",
-            "transmission_identification": "A086"
+            "transmission_identification": "A131"
           },
           "BIB": {
             "N1": 14,
@@ -140,8 +140,8 @@
                 }
               },
               "free_text": [
-                " Stopping Power",
-                "Data."
+                " Stopping power",
+                "data."
               ]
             },
             {
@@ -151,7 +151,7 @@
                 "subentry_number": null,
                 "author": "C.M.Lederer+",
                 "reference": {
-                  "code": "B,LEDERER-7,,1970",
+                  "code": "B,LEDERER-7,,,1970",
                   "field": {
                     "reference_type": "B",
                     "reference": {
@@ -160,7 +160,7 @@
                       "volume": null,
                       "part": null,
                       "issue": null,
-                      "page": null
+                      "page": ""
                     },
                     "date": 1970
                   }
@@ -171,15 +171,18 @@
               ]
             }
           ],
-          "ADD-RES": [
+          "FACILITY": [
             {
               "pointer": "",
-              "coded_information": [
-                "COMP"
-              ],
+              "coded_information": {
+                "facility": [
+                  "ISOCY"
+                ],
+                "institute": "3INDVEC"
+              },
               "free_text": [
-                " Pre-Equilibrium Model, Geometry Dependent",
-                "Hibrid Model."
+                " Variable Energy Cyclotron at VECC,",
+                "Calcutta, India."
               ]
             }
           ],
@@ -188,9 +191,9 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Rhodium foils of thickness 1.24 mg/cm**2. The purity",
-                "of the material was better than 99.9% specpure.",
-                "Aluminium degraders of thickness 6.25 mg/cm**2 were",
+                "Rhodium foils of thickness 1.24 mg/cm2 each. The purity",
+                "of the material was better than 99.9%.",
+                "Aluminium degraders of thickness 6.25 mg/cm2 were",
                 "used for degrading the alpha-particle beam incident",
                 "on individual foils."
               ]
@@ -212,38 +215,15 @@
               ]
             }
           ],
-          "FACILITY": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "ISOCY"
-                ],
-                "institute": "3INDVEC"
-              },
-              "free_text": [
-                " Variable Energy Cyclotron at VECC,",
-                "Calcutta,India."
-              ]
-            }
-          ],
           "METHOD": [
             {
               "pointer": "",
               "coded_information": [
+                "BCINT",
                 "STTA"
               ],
               "free_text": [
                 " Six rhodium foils were used."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "BCINT"
-              ],
-              "free_text": [
-                ""
               ]
             },
             {
@@ -261,52 +241,8 @@
                 "GSPEC"
               ],
               "free_text": [
-                " Number of measurements and duration its are",
+                " Number of measurements and its duration are",
                 "unknown."
-              ]
-            }
-          ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " No information about source of uncertainties"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "EN-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Alpha-particle energy spread within the target",
-                "thickness along with the inherent uncertainty in the",
-                "alpha-particle beam"
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Tbl.1 from IMP/E,5,345,1996"
               ]
             }
           ],
@@ -321,6 +257,62 @@
                 "gamma-rays, as well as gamma-rays having energies",
                 "higher than 1.5 MeV, are not taken into consideration",
                 "because of their low detection efficiencies."
+              ]
+            }
+          ],
+          "ADD-RES": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "COMP"
+              ],
+              "free_text": [
+                " Pre-Equilibrium Model, Geometry Dependent",
+                "Hibrid Model."
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information about source of uncertainty"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "M.Afzal Ansari+",
+                "reference": {
+                  "code": "J,IMP/E,5,345,1996",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "IMP/E",
+                      "number": null,
+                      "volume": "5",
+                      "part": null,
+                      "issue": null,
+                      "page": "345"
+                    },
+                    "date": 1996
+                  }
+                }
+              },
+              "free_text": [
+                " Tbl.1"
               ]
             }
           ],
@@ -366,6 +358,16 @@
                 "added. Small corrections in all Subents. Ref. in",
                 "REL-REF was corrected: R.C.Northcliffe+,J,ND/A,7,256 ->",
                 "L.C.Northcliffe+,J,ND/A,7,233. ERR-T -> DATA-ERR."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260204,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in Subent 001."
               ]
             }
           ],

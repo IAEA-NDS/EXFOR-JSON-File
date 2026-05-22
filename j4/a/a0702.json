@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:12:40+0000",
+  "time_stamp": "2026-05-22T21:13:10+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0702",
-        "N2": 20100519,
+        "N2": 20260205,
         "alteration_flag": " ",
-        "transmission_identification": "A068"
+        "transmission_identification": "A131"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0702001",
-            "N2": 20100519,
+            "N2": 20260205,
             "alteration_flag": " ",
-            "transmission_identification": "A068"
+            "transmission_identification": "A131"
           },
           "BIB": {
             "N1": 10,
@@ -27,7 +27,7 @@
               "coded_information": null,
               "free_text": [
                 "Complex nuclear-structure phenomena revealed from the",
-                "nuclide production in fragmentation reactions."
+                "nuclide production in fragmentation reactions"
               ]
             }
           ],
@@ -110,63 +110,9 @@
             {
               "pointer": "",
               "coded_information": [
-                "2GERGSI"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "4RUSFEI"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "2GERGSI",
+                "4RUSFEI",
                 "2FR PAR"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "SAMPLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "A 36 mg/cm**2 titanium target was used."
-              ]
-            }
-          ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "MAGSP"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "MWPC"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "SCIN"
               ],
               "free_text": [
                 ""
@@ -183,17 +129,29 @@
                 "institute": "2GERGSI"
               },
               "free_text": [
-                ""
+                " Synchrotron with fragment separator",
+                " (FRS). FRS is a two-stage, high-resolution,",
+                "magnetic forward spectrometer."
               ]
-            },
+            }
+          ],
+          "SAMPLE": [
             {
               "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "FRS"
-                ],
-                "institute": "2GERGSI"
-              },
+              "coded_information": null,
+              "free_text": [
+                "A 36 mg/cm2 titanium target"
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "MAGSP",
+                "MWPC",
+                "SCIN"
+              ],
               "free_text": [
                 ""
               ]
@@ -210,6 +168,20 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information about source of uncertainty"
+              ]
+            }
+          ],
           "HISTORY": [
             {
               "pointer": "",
@@ -220,35 +192,16 @@
               "free_text": [
                 " S.B"
               ]
-            }
-          ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "-ERR-T",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                ".The uncertainty is reported by authors in",
-                "table.They include both the statistical and the",
-                "systematic errors."
-              ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "+ERR-T",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
+                "date": 20260205,
+                "history": "U"
               },
               "free_text": [
-                ".The uncertainty is reported by authors in",
-                "table. They include both the statistical and the",
-                "systematic errors."
+                " SD: Small corrections in all Subents.",
+                "ERR-T -> DATA-ERR."
               ]
             }
           ],
@@ -284,12 +237,12 @@
         {
           "SUBENT": {
             "N1": "A0702002",
-            "N2": 20100405,
+            "N2": 20260205,
             "alteration_flag": " ",
-            "transmission_identification": "A068"
+            "transmission_identification": "A131"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -328,11 +281,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.V.Ricciardi",
+                "reference": {
+                  "code": "T,RICCIARDI,200502",
+                  "field": {
+                    "reference_type": "T",
+                    "reference": {
+                      "code": "RICCIARDI",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 200502
+                  }
+                }
               },
               "free_text": [
-                ".Table B.3 from T,RICCIARDI,200502"
+                " Table B.3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260205,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated. ERR-T -> DATA-ERR."
               ]
             }
           ],
@@ -374,8 +353,8 @@
               "ELEMENT",
               "MASS",
               "DATA",
-              "+ERR-T",
-              "-ERR-T"
+              "+DATA-ERR",
+              "-DATA-ERR"
             ],
             "unit": [
               "NO-DIM",
@@ -1183,12 +1162,12 @@
         {
           "SUBENT": {
             "N1": "A0702003",
-            "N2": 20100405,
+            "N2": 20260205,
             "alteration_flag": " ",
-            "transmission_identification": "A068"
+            "transmission_identification": "A131"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1241,11 +1220,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.V.Ricciardi",
+                "reference": {
+                  "code": "T,RICCIARDI,200502",
+                  "field": {
+                    "reference_type": "T",
+                    "reference": {
+                      "code": "RICCIARDI",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 200502
+                  }
+                }
               },
               "free_text": [
-                ".Table B.4 from T,RICCIARDI,200502"
+                " Table B.4"
               ]
             },
             {
@@ -1260,6 +1253,18 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260205,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated. ERR-T -> DATA-ERR."
               ]
             }
           ],
@@ -1285,8 +1290,8 @@
               "ELEMENT",
               "MASS",
               "DATA",
-              "+ERR-T",
-              "-ERR-T"
+              "+DATA-ERR",
+              "-DATA-ERR"
             ],
             "unit": [
               "NO-DIM",
@@ -2094,12 +2099,12 @@
         {
           "SUBENT": {
             "N1": "A0702004",
-            "N2": 20100405,
+            "N2": 20260205,
             "alteration_flag": " ",
-            "transmission_identification": "A068"
+            "transmission_identification": "A131"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -2138,11 +2143,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "M.V.Ricciardi",
+                "reference": {
+                  "code": "T,RICCIARDI,200502",
+                  "field": {
+                    "reference_type": "T",
+                    "reference": {
+                      "code": "RICCIARDI",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 200502
+                  }
+                }
               },
               "free_text": [
-                ".Table B.5 from T,RICCIARDI,200502"
+                " Table B.5"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260205,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated. ERR-T -> DATA-ERR."
               ]
             }
           ],
@@ -2168,8 +2199,8 @@
               "ELEMENT",
               "MASS",
               "DATA",
-              "+ERR-T",
-              "-ERR-T"
+              "+DATA-ERR",
+              "-DATA-ERR"
             ],
             "unit": [
               "NO-DIM",

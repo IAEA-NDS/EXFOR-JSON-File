@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:12:05+0000",
+  "time_stamp": "2026-05-22T21:13:04+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0629",
-        "N2": 20170808,
+        "N2": 20260204,
         "alteration_flag": " ",
-        "transmission_identification": "A088"
+        "transmission_identification": "A131"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0629001",
-            "N2": 20170808,
+            "N2": 20260204,
             "alteration_flag": " ",
-            "transmission_identification": "A088"
+            "transmission_identification": "A131"
           },
           "BIB": {
             "N1": 15,
@@ -27,7 +27,7 @@
               "coded_information": null,
               "free_text": [
                 "A study of pre-equilibrium emission in alpha-induced",
-                "reactions on 121,123Sb."
+                "reactions on 121,123Sb"
               ]
             }
           ],
@@ -123,8 +123,7 @@
                 "institute": "3INDVEC"
               },
               "free_text": [
-                "  Variable Energy Cyclotron Center,",
-                "Calcutta."
+                " Variable Energy Cyclotron Center,"
               ]
             }
           ],
@@ -135,8 +134,8 @@
                 "STTA"
               ],
               "free_text": [
-                " Energy degrading aluminium foils were used",
-                "to get the desired alpha-particle energy incident on",
+                " Energy degrading aluminium foils were used to",
+                "get the desired alpha-particle energy incident on",
                 "each foil."
               ]
             },
@@ -147,8 +146,8 @@
               ],
               "free_text": [
                 " The reaction cross section is determined",
-                "individually for each of emitted gamma rays and finally",
-                "their weighted average is taken."
+                "individually for each of emitted gamma rays and",
+                "finally their weighted average is taken."
               ]
             },
             {
@@ -157,8 +156,8 @@
                 "ACTIV"
               ],
               "free_text": [
-                " Beam currents of the order of 100 nano-amperes",
-                "were used. the irradiation period was about 2 hours."
+                " Beam currents of the order of 100 nA",
+                "were used. The irradiation period was about 2 hours."
               ]
             },
             {
@@ -176,9 +175,9 @@
                 "BCINT"
               ],
               "free_text": [
-                " The flux of the a beam calculated from the",
+                " The flux of the alpha beam calculated from the",
                 "charge collected in the Faraday cup was",
-                "                =8.47 x l10**11 (alpha particles/s/cm2."
+                "               =8.47 x l10**11 (alpha particles/s/cm2."
               ]
             }
           ],
@@ -200,10 +199,10 @@
                 "GELI"
               ],
               "free_text": [
-                " A high-resolution 100 ml Ge(Li) detector coupled",
-                "to a multichannel analyzer was used. Detector was",
-                "calibrated using various standard gamma sources",
-                "including a 152Eu source.."
+                " A high-resolution 100 ml Ge(Li) detector",
+                "coupled to a multichannel analyzer was used. Detector",
+                "was calibrated using various standard gamma sources",
+                "including a 152Eu source."
               ]
             }
           ],
@@ -212,7 +211,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Needed correction for dead time were included."
+                "Correction for dead time was included."
               ]
             }
           ],
@@ -223,9 +222,9 @@
               "free_text": [
                 "Natural antimony of spectroscopic purity better 99.9%",
                 " (natural abundance 121Sb = 57.3% and 123Sb = 42.7%)",
-                "was used for ma king the targets.",
+                "was used for making the targets.",
                 "Targets were prepared using a vacuum evaporation",
-                "technique, to a thickness of 1mg/cm2 of antimony on",
+                "technique, to a thickness of 1 mg/cm2 of antimony on",
                 "an aluminium backing of thickness 6.75 mg/cm2."
               ]
             }
@@ -270,6 +269,18 @@
           "ERR-ANALYS": [
             {
               "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "  * Uncertainty of detector efficiency, straggling",
+                "effects may introduce certain errors but are neglected",
+                "because for alpha particles the energy straggling at",
+                "the end of the stack is always much smaller than the",
+                "energy loss of beam in the target foil itself.",
+                "The influence of low-energy neutrons is also negligible"
+              ]
+            },
+            {
+              "pointer": "",
               "coded_information": {
                 "heading": "ERR-S",
                 "minimum_value": null,
@@ -279,7 +290,7 @@
               "free_text": [
                 " Statistical errors are given on figs (the size",
                 "of the circle includes the magnitude of the statistical",
-                "errors if no error bar is plotted.)"
+                "errors if no error bar plotted)."
               ]
             },
             {
@@ -304,26 +315,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Fluctuation in the beam current,",
-                "  * Uncertainty of detector efficiency, straggling",
-                "effects may introduce certain errors but are neglected",
-                "because for alpha particles the energy straggling at",
-                "the end of the stack is always much smaller than the",
-                "energy loss of beam in the target foil itself.",
-                "The influence of low-energy neutrons is also negligible"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "EN-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Energy spread in the alpha-particle beam",
-                "facing each foil given as horizontal bars on figs."
+                " Fluctuation in the beam current."
               ]
             }
           ],
@@ -365,8 +357,8 @@
                 "history": "U"
               },
               "free_text": [
-                " SD: Institute code update. FACILITY code",
-                "was changed (ISOCY -> CYCLO). BIB update in all Subents",
+                " SD: Institute code updated. FACILITY code",
+                "was changed (ISOCY->CYCLO). BIB updated in all Subents.",
                 "ERR-ANALYS moved to Subent 001. ERR-T -> ERR-S.",
                 "Data were re-digitized, statist. errors were added."
               ]
@@ -379,8 +371,18 @@
               },
               "free_text": [
                 " SD: Data in Subent 002 corrected. Cosmetic",
-                "corrections in all Subents.'AREA' deleted from ANALYSIS",
-                "EN-ERR -> EN-RSL-HW. INC-SPECT added."
+                "corrections in all Subents. 'AREA' deleted from",
+                "ANALYSIS. EN-ERR -> EN-RSL-HW. INC-SPECT added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260204,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents."
               ]
             }
           ],
@@ -420,9 +422,9 @@
         {
           "SUBENT": {
             "N1": "A0629002",
-            "N2": 20170808,
+            "N2": 20260204,
             "alteration_flag": " ",
-            "transmission_identification": "A088"
+            "transmission_identification": "A131"
           },
           "BIB": {
             "N1": 5,
@@ -499,7 +501,7 @@
               "free_text": [
                 "- By Author - The cross section was deduced from the",
                 "measured excitation function for the reaction",
-                "Sb-0(A,X)I-124."
+                "Sb(alpha,x)124I."
               ]
             }
           ],
@@ -511,11 +513,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "B.P.Singh+",
+                "reference": {
+                  "code": "J,CJP,69,1376,1991",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CJP",
+                      "number": null,
+                      "volume": "69",
+                      "part": null,
+                      "issue": null,
+                      "page": "1376"
+                    },
+                    "date": 1991
+                  }
+                }
               },
               "free_text": [
-                " Fig.1 from CJP,69,1376,1991"
+                " Fig.1"
               ]
             }
           ],
@@ -537,8 +553,18 @@
                 "history": "A"
               },
               "free_text": [
-                " SD: Text in STATUS update. Data corrected.",
+                " SD: Text in STATUS updated. Data corrected.",
                 "EN-ERR->EN-RSL-HW."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260204,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -664,9 +690,9 @@
         {
           "SUBENT": {
             "N1": "A0629003",
-            "N2": 20170808,
+            "N2": 20260204,
             "alteration_flag": " ",
-            "transmission_identification": "A088"
+            "transmission_identification": "A131"
           },
           "BIB": {
             "N1": 5,
@@ -746,11 +772,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "B.P.Singh+",
+                "reference": {
+                  "code": "J,CJP,69,1376,1991",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CJP",
+                      "number": null,
+                      "volume": "69",
+                      "part": null,
+                      "issue": null,
+                      "page": "1376"
+                    },
+                    "date": 1991
+                  }
+                }
               },
               "free_text": [
-                " Fig.2 from CJP,69,1376,1991"
+                " Fig.2"
               ]
             }
           ],
@@ -772,7 +812,18 @@
                 "history": "U"
               },
               "free_text": [
-                " SD: Text in STATUS update.EN-ERR->EN-RSL-HW"
+                " SD: Text in STATUS updated.",
+                "EN-ERR -> EN-RSL-HW."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260204,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -898,9 +949,9 @@
         {
           "SUBENT": {
             "N1": "A0629004",
-            "N2": 20170808,
+            "N2": 20260204,
             "alteration_flag": " ",
-            "transmission_identification": "A088"
+            "transmission_identification": "A131"
           },
           "BIB": {
             "N1": 4,
@@ -969,11 +1020,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "B.P.Singh+",
+                "reference": {
+                  "code": "J,CJP,69,1376,1991",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CJP",
+                      "number": null,
+                      "volume": "69",
+                      "part": null,
+                      "issue": null,
+                      "page": "1376"
+                    },
+                    "date": 1991
+                  }
+                }
               },
               "free_text": [
-                " Fig.3 from CJP,69,1376,1991"
+                " Fig.3"
               ]
             }
           ],
@@ -995,7 +1060,18 @@
                 "history": "U"
               },
               "free_text": [
-                " SD: Text in STATUS update.EN-ERR->EN-RSL-HW"
+                " SD: Text in STATUS updated.",
+                "EN-ERR -> EN-RSL-HW."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260204,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -1103,9 +1179,9 @@
         {
           "SUBENT": {
             "N1": "A0629005",
-            "N2": 20170808,
+            "N2": 20260204,
             "alteration_flag": " ",
-            "transmission_identification": "A088"
+            "transmission_identification": "A131"
           },
           "BIB": {
             "N1": 5,
@@ -1115,20 +1191,20 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "51-SB-121(A,X)52-TE-121-G,IND/M+,SIG",
+                "code": "51-SB-121(A,X)52-TE-121-G,M+,SIG",
                 "code_unit": [
                   {
-                    "unit": "51-SB-121(A,X)52-TE-121-G,IND/M+,SIG",
+                    "unit": "51-SB-121(A,X)52-TE-121-G,M+,SIG",
                     "field": {
                       "reaction": "51-SB-121(A,X)52-TE-121-G",
                       "target": "51-SB-121",
                       "projectile": "A",
                       "process": "X",
                       "product": "52-TE-121-G",
-                      "quantity": "IND/M+,SIG",
+                      "quantity": "M+,SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "IND/M+,SIG"
+                      "quantity_236": "M+,SIG"
                     }
                   }
                 ],
@@ -1184,11 +1260,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "B.P.Singh+",
+                "reference": {
+                  "code": "J,CJP,69,1376,1991",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CJP",
+                      "number": null,
+                      "volume": "69",
+                      "part": null,
+                      "issue": null,
+                      "page": "1376"
+                    },
+                    "date": 1991
+                  }
+                }
               },
               "free_text": [
-                " Fig.4 from CJP,69,1376,1991"
+                " Fig.4"
               ]
             },
             {
@@ -1226,7 +1316,19 @@
                 "history": "A"
               },
               "free_text": [
-                " SD: Text in STATUS update.EN-ERR->EN-RSL-HW"
+                " SD: Text in STATUS updated.",
+                "EN-ERR -> EN-RSL-HW."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260204,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: SF5=IND/M+ -> M+ in REACTION code.",
+                "STATUS updated."
               ]
             }
           ],
@@ -1334,9 +1436,9 @@
         {
           "SUBENT": {
             "N1": "A0629006",
-            "N2": 20170808,
+            "N2": 20260204,
             "alteration_flag": " ",
-            "transmission_identification": "A088"
+            "transmission_identification": "A131"
           },
           "BIB": {
             "N1": 4,
@@ -1414,11 +1516,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "B.P.Singh+",
+                "reference": {
+                  "code": "J,CJP,69,1376,1991",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CJP",
+                      "number": null,
+                      "volume": "69",
+                      "part": null,
+                      "issue": null,
+                      "page": "1376"
+                    },
+                    "date": 1991
+                  }
+                }
               },
               "free_text": [
-                " Fig.5 from CJP,69,1376,1991"
+                " Fig.5"
               ]
             }
           ],
@@ -1440,7 +1556,18 @@
                 "history": "U"
               },
               "free_text": [
-                " SD: Text in STATUS update.EN-ERR->EN-RSL-HW"
+                " SD: Text in STATUS updated.",
+                "EN-ERR -> EN-RSL-HW."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260204,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -1524,9 +1651,9 @@
         {
           "SUBENT": {
             "N1": "A0629007",
-            "N2": 20170808,
+            "N2": 20260204,
             "alteration_flag": " ",
-            "transmission_identification": "A088"
+            "transmission_identification": "A131"
           },
           "BIB": {
             "N1": 5,
@@ -1615,11 +1742,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "B.P.Singh+",
+                "reference": {
+                  "code": "J,CJP,69,1376,1991",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CJP",
+                      "number": null,
+                      "volume": "69",
+                      "part": null,
+                      "issue": null,
+                      "page": "1376"
+                    },
+                    "date": 1991
+                  }
+                }
               },
               "free_text": [
-                " Fig.6 from CJP,69,1376,1991"
+                " Fig.6"
               ]
             }
           ],
@@ -1641,7 +1782,18 @@
                 "history": "U"
               },
               "free_text": [
-                " SD: Text in STATUS update.EN-ERR->EN-RSL-HW"
+                " SD: Text in STATUS updated.",
+                "EN-ERR -> EN-RSL-HW."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260204,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -1767,9 +1919,9 @@
         {
           "SUBENT": {
             "N1": "A0629008",
-            "N2": 20170808,
+            "N2": 20260204,
             "alteration_flag": " ",
-            "transmission_identification": "A088"
+            "transmission_identification": "A131"
           },
           "BIB": {
             "N1": 5,
@@ -1835,7 +1987,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "- By Author - The cross section was deduced from the",
+                "- By author - The cross section was deduced from the",
                 "measured excitation function for the reaction",
                 "Sb-0(A,X)I-123."
               ]
@@ -1849,11 +2001,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "B.P.Singh+",
+                "reference": {
+                  "code": "J,CJP,69,1376,1991",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "CJP",
+                      "number": null,
+                      "volume": "69",
+                      "part": null,
+                      "issue": null,
+                      "page": "1376"
+                    },
+                    "date": 1991
+                  }
+                }
               },
               "free_text": [
-                " Fig.7 from CJP,69,1376,1991"
+                " Fig.7"
               ]
             }
           ],
@@ -1875,7 +2041,18 @@
                 "history": "U"
               },
               "free_text": [
-                " SD: Text in STATUS update.EN-ERR->EN-RSL-HW"
+                " SD: Text in STATUS updated.",
+                "EN-ERR -> EN-RSL-HW."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260204,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],

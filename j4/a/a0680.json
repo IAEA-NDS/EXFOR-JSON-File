@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:12:30+0000",
+  "time_stamp": "2026-05-22T21:13:09+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0680",
-        "N2": 20040715,
+        "N2": 20260205,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "A131"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0680001",
-            "N2": 20040715,
+            "N2": 20260205,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A131"
           },
           "BIB": {
-            "N1": 10,
+            "N1": 11,
             "N2": 0
           },
           "TITLE": [
@@ -26,8 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Isomer ratios for reaction yield of",
-                " 151-Eu(A,N)154-M2,M1,G-Tb."
+                "Isomer ratios of 151Eu(alpha,n)154m2,m1,g-Tb",
+                "reaction yield"
               ]
             }
           ],
@@ -38,17 +38,6 @@
                 "V.I.Gavriluk",
                 "V.A.Zheltonojskij",
                 "V.B.Kharlamov"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "INSTITUTE": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "4UKRIJI"
               ],
               "free_text": [
                 ""
@@ -85,13 +74,38 @@
               ]
             }
           ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "4UKRIJD"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "CYCLO"
+                ],
+                "institute": "4UKRIJD"
+              },
+              "free_text": [
+                " U-120 cyclotron"
+              ]
+            }
+          ],
           "REL-REF": [
             {
               "pointer": "",
               "coded_information": {
                 "code": "D",
                 "subentry_number": "A0466002",
-                "author": "V.I.GAVRILUK+",
+                "author": "V.I.Gavriluk+",
                 "reference": {
                   "code": "C,90LENING,,347,1990",
                   "field": {
@@ -116,23 +130,13 @@
           "SAMPLE": [
             {
               "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Enriched 151-Eu (92%) targets."
-              ]
-            }
-          ],
-          "FACILITY": [
-            {
-              "pointer": "",
               "coded_information": {
-                "facility": [
-                  "CYCLO"
-                ],
-                "institute": "4UKRIJI"
+                "nuclide": "63-EU-151",
+                "field_identifier": "ENR",
+                "value": 0.92
               },
               "free_text": [
-                " U-120 cyclotron"
+                " Enriched 151Eu (92%) targets."
               ]
             }
           ],
@@ -140,19 +144,56 @@
             {
               "pointer": "",
               "coded_information": [
-                "ACTIV"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "ACTIV",
                 "EDEG"
               ],
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information about source of uncertainty"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "V.I.Gavriluk+",
+                "reference": {
+                  "code": "C,89TASHKE,,372,1989",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "89TASHKE",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "372"
+                    },
+                    "date": 1989
+                  }
+                }
+              },
+              "free_text": [
+                " Table",
+                "on p.372"
               ]
             }
           ],
@@ -176,19 +217,15 @@
               "free_text": [
                 " Last checking has been done."
               ]
-            }
-          ],
-          "ERR-ANALYS": [
+            },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
+                "date": 20260205,
+                "history": "U"
               },
               "free_text": [
-                " Any analysis is not given."
+                " SD: Small corrections in Subent 001."
               ]
             }
           ],

@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:12:14+0000",
+  "time_stamp": "2026-05-22T21:13:07+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0643",
-        "N2": 20180126,
+        "N2": 20260204,
         "alteration_flag": " ",
-        "transmission_identification": "A089"
+        "transmission_identification": "A131"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0643001",
-            "N2": 20180126,
+            "N2": 20260204,
             "alteration_flag": " ",
-            "transmission_identification": "A089"
+            "transmission_identification": "A131"
           },
           "BIB": {
             "N1": 10,
@@ -26,7 +26,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Yield of 123-I in 124-Xe irradiation with protons in",
+                "Yield of 123I in 124Xe irradiation with protons in",
                 "the 16-21.5 MeV energy range"
               ]
             }
@@ -62,6 +62,34 @@
             {
               "pointer": "",
               "coded_information": {
+                "code": "J,SJA,67,639,1989",
+                "code_unit": [
+                  {
+                    "unit": "J,SJA,67,639,1989",
+                    "doi": "10.1007/BF01125262",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "SJA",
+                        "number": null,
+                        "volume": "67",
+                        "part": null,
+                        "issue": null,
+                        "page": "639"
+                      },
+                      "date": 1989
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                " Translation of"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
                 "code": "J,AE,67,129,1989",
                 "code_unit": [
                   {
@@ -86,33 +114,19 @@
               "free_text": [
                 " In Russian"
               ]
-            },
+            }
+          ],
+          "FACILITY": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,SJA,67,639,1989",
-                "code_unit": [
-                  {
-                    "unit": "J,SJA,67,639,1989",
-                    "doi": "10.1007/BF01125262",
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "SJA",
-                        "number": null,
-                        "volume": "67",
-                        "part": null,
-                        "issue": null,
-                        "page": "639"
-                      },
-                      "date": 1989
-                    }
-                  }
+                "facility": [
+                  "CYCLO"
                 ],
-                "unit_combination": "(%)"
+                "institute": "4RUSFEI"
               },
               "free_text": [
-                " In English"
+                ""
               ]
             }
           ],
@@ -126,8 +140,8 @@
               },
               "free_text": [
                 " Six thin gaseous targets",
-                " [16.6 mg/cm2] enriched to 99.9% 124-Xe were irradiared",
-                "simultaneously."
+                " [16.6 mg/cm2] enriched to 99.9% in 124-Xe were",
+                "irradiated simultaneously."
               ]
             }
           ],
@@ -137,10 +151,10 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "29-CU-65(P,N)30-ZN-65,,SIG,,,EVAL",
+                  "code": "29-CU-65(P,N)30-ZN-65,,SIG",
                   "code_unit": [
                     {
-                      "unit": "29-CU-65(P,N)30-ZN-65,,SIG,,,EVAL",
+                      "unit": "29-CU-65(P,N)30-ZN-65,,SIG",
                       "field": {
                         "reaction": "29-CU-65(P,N)30-ZN-65",
                         "target": "29-CU-65",
@@ -148,7 +162,7 @@
                         "process": "N",
                         "product": "30-ZN-65",
                         "quantity": ",SIG",
-                        "data_type": "EVAL",
+                        "data_type": null,
                         "general_quantity_modifier": null,
                         "quantity_236": ",SIG"
                       }
@@ -173,25 +187,12 @@
               ]
             }
           ],
-          "FACILITY": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "CYCLO"
-                ],
-                "institute": "4RUSFEI"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "METHOD": [
             {
               "pointer": "",
               "coded_information": [
-                "STTA"
+                "STTA",
+                "ACTIV"
               ],
               "free_text": [
                 ""
@@ -203,17 +204,8 @@
                 "GSPEC"
               ],
               "free_text": [
-                " Activity 123-I was measured at 16, 42, and 64",
-                "hours after irradiation."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "ACTIV"
-              ],
-              "free_text": [
-                ""
+                " Activity of 123I was measured at 16, 42, and",
+                "64 hours after irradiation."
               ]
             },
             {
@@ -222,7 +214,7 @@
                 "EXTB"
               ],
               "free_text": [
-                "  Beam current was 0.5 mu-Ampere."
+                " Beam current was 0.5 muA."
               ]
             }
           ],
@@ -254,7 +246,7 @@
                 "history": "A"
               },
               "free_text": [
-                " DATE is corrected"
+                " Date is corrected"
               ]
             },
             {
@@ -266,6 +258,16 @@
               "free_text": [
                 " SD: REACTION code was updated according to",
                 "MEMO CP-D/933rev. in Subent 002. BIB was updated."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260204,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents."
               ]
             }
           ],
@@ -285,9 +287,9 @@
         {
           "SUBENT": {
             "N1": "A0643002",
-            "N2": 20180126,
+            "N2": 20260204,
             "alteration_flag": " ",
-            "transmission_identification": "A089"
+            "transmission_identification": "A131"
           },
           "BIB": {
             "N1": 6,
@@ -326,13 +328,13 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "- By compiler - Main channel reaction is",
+                "- By compiler - Main reaction channel is",
                 "54-Xe-124(P,2N)55-Cs-123.",
-                "-By author - 121-Te activity was observed. The activity",
-                "is product of radioactive decay of 121-I produced by",
-                "124-Xe(P,A)121-I reaction.",
-                "*by compiler* the angle between X and Y axes",
-                "on this figure is not equal 90 degr.",
+                "-By author - 121Te activity was observed. The activity",
+                "is product of radioactive decay of 121I produced by",
+                "124Xe(P,A)121I reaction.",
+                "*By compiler* The angle between X and Y axes",
+                "on this figure is not equal to 90 degr.",
                 " This deviation is -2.62E-02 radians."
               ]
             }
@@ -371,8 +373,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " The error in determining the yield values.",
-                "No information about partial uncertainties."
+                " No information about partial uncertainties."
               ]
             }
           ],
@@ -384,11 +385,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "N.A.Konyakhin+",
+                "reference": {
+                  "code": "J,SJA,67,639,1989",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SJA",
+                      "number": null,
+                      "volume": "67",
+                      "part": null,
+                      "issue": null,
+                      "page": "639"
+                    },
+                    "date": 1989
+                  }
+                }
               },
               "free_text": [
-                " fig.4 from SJA,67,639,1989 by CAJAD."
+                " fig.4"
               ]
             }
           ],
@@ -402,6 +417,16 @@
               "free_text": [
                 " SD: SF3=2P ->X, SF8=DT -> PHY, SF9=EXP",
                 "deleted from REACTION code. ERR-T -> DATA-ERR."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260204,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
               ]
             }
           ],
@@ -417,16 +442,16 @@
               ""
             ],
             "heading": [
-              "DATA-ERR",
-              "EN-ERR-DIG"
+              "EN-ERR-DIG",
+              "DATA-ERR"
             ],
             "unit": [
-              "PER-CENT",
-              "MEV"
+              "MEV",
+              "PER-CENT"
             ],
             "value": [
-              10.0,
-              0.03
+              0.03,
+              10.0
             ]
           },
           "ENDCOMMON": {

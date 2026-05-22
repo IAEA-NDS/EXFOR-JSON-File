@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:13:01+0000",
+  "time_stamp": "2026-05-22T21:13:12+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0729",
-        "N2": 20050522,
+        "N2": 20260207,
         "alteration_flag": " ",
-        "transmission_identification": "A061"
+        "transmission_identification": "A131"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0729001",
-            "N2": 20050522,
+            "N2": 20260207,
             "alteration_flag": " ",
-            "transmission_identification": "A061"
+            "transmission_identification": "A131"
           },
           "BIB": {
-            "N1": 11,
+            "N1": 12,
             "N2": 0
           },
           "TITLE": [
@@ -27,6 +27,33 @@
               "coded_information": null,
               "free_text": [
                 "Mass distribution in 16-O induced fission of 232-Th"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "A.Goswami",
+                "A.V.R.Reddy",
+                "B.S.Tomar",
+                "P.P.Burte",
+                "S.B.Manohar",
+                "R.John"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "3INDTRM"
+              ],
+              "free_text": [
+                " Radiochemistry and nuclear physics divisions"
               ]
             }
           ],
@@ -60,30 +87,39 @@
               ]
             }
           ],
-          "AUTHOR": [
+          "FACILITY": [
             {
               "pointer": "",
-              "coded_information": [
-                "A.Goswami",
-                "A.V.R.Reddy",
-                "B.S.Tomar",
-                "P.P.Burte",
-                "S.B.Manohar",
-                "R.John"
-              ],
+              "coded_information": {
+                "facility": [
+                  "VDGT"
+                ],
+                "institute": "3INDTRM"
+              },
               "free_text": [
-                ""
+                " The BARC-TIFR PELLETRON accelerator"
               ]
             }
           ],
-          "INSTITUTE": [
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "A self supporting thorium target of thickness",
+                "2.5 mg/cm2 was covered with a 0.0025 cm aluminium",
+                "catcher foil to collect the recoiling fission products."
+              ]
+            }
+          ],
+          "DETECTOR": [
             {
               "pointer": "",
               "coded_information": [
-                "3INDTRM"
+                "HPGE"
               ],
               "free_text": [
-                " Radiochemistry and nuclear physics divisions."
+                ""
               ]
             }
           ],
@@ -93,7 +129,7 @@
               "coded_information": {
                 "code": "R",
                 "subentry_number": null,
-                "author": "U.REUS+",
+                "author": "U.Reus+",
                 "reference": {
                   "code": "J,AND,29,1,1983",
                   "field": {
@@ -115,69 +151,17 @@
               ]
             }
           ],
-          "SAMPLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "A self supporting thorium target of thickness 2.5",
-                "mg/cm2 was covered with a 0.0025 cm aluminium catcher",
-                "foil to collect the recoiling fission products."
-              ]
-            }
-          ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "HPGE"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "FACILITY": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "VDGT"
-                ],
-                "institute": "3INDTRM"
-              },
-              "free_text": [
-                " The BARC-TIFR PELLETRON accelerator"
-              ]
-            }
-          ],
           "METHOD": [
             {
               "pointer": "",
               "coded_information": [
-                "SITA"
-              ],
-              "free_text": [
-                " See SAMPLE"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "BCINT"
-              ],
-              "free_text": [
-                " An electron-suppressed faraday cup"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "SITA",
+                "BCINT",
                 "EXTB"
               ],
               "free_text": [
-                " Beam current on the target was in the range of",
-                "10 to 15 Na (particle)."
+                " Beam current on the target was in",
+                "the range of 10 to 15 nA (particle)."
               ]
             },
             {
@@ -205,6 +189,50 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information about source of uncertainty"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "A.Goswami+",
+                "reference": {
+                  "code": "J,RCA,62,173,1993",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "RCA",
+                      "number": null,
+                      "volume": "62",
+                      "part": null,
+                      "issue": null,
+                      "page": "173"
+                    },
+                    "date": 1993
+                  }
+                }
+              },
+              "free_text": [
+                " Table 2"
+              ]
+            }
+          ],
           "HISTORY": [
             {
               "pointer": "",
@@ -225,19 +253,15 @@
               "free_text": [
                 " Last checking has been done."
               ]
-            }
-          ],
-          "ERR-ANALYS": [
+            },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
+                "date": 20260207,
+                "history": "U"
               },
               "free_text": [
-                " An analysis is not given"
+                " SD: Small corrections in Subent 001."
               ]
             }
           ],

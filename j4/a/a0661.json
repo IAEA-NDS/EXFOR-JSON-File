@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:12:23+0000",
+  "time_stamp": "2026-05-22T21:13:08+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0661",
-        "N2": 20040212,
+        "N2": 20260207,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "A131"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0661001",
-            "N2": 20040212,
+            "N2": 20260207,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A131"
           },
           "BIB": {
-            "N1": 13,
+            "N1": 15,
             "N2": 0
           },
           "TITLE": [
@@ -26,7 +26,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The measurement of isotopic cross sections of 12-C beam",
+                "The measurement of isotopic cross sections of 12C beam",
                 "fragmentation on liquid hydrogen at 3.66 GeV/nucleon"
               ]
             }
@@ -51,20 +51,11 @@
             {
               "pointer": "",
               "coded_information": [
-                "3POLLOU"
-              ],
-              "free_text": [
-                " Division of Nuclear Physics and Radiation",
-                " Safety and Division of Experimental Physics."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "3POLLOU",
                 "4ZZZDUB"
               ],
               "free_text": [
-                " Laboratory of particle physics."
+                ""
               ]
             }
           ],
@@ -98,51 +89,6 @@
               ]
             }
           ],
-          "REL-REF": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "R",
-                "subentry_number": null,
-                "author": "B.M.BOBCHENKO+",
-                "reference": {
-                  "code": "J,YF,30,1553,1979",
-                  "field": {
-                    "reference_type": "J",
-                    "reference": {
-                      "code": "YF",
-                      "number": null,
-                      "volume": "30",
-                      "part": null,
-                      "issue": null,
-                      "page": "1553"
-                    },
-                    "date": 1979
-                  }
-                }
-              },
-              "free_text": [
-                " The value of the",
-                "inelastic cross section of the 12-C+P reaction was",
-                "taken as 250 +/- 2 mb."
-              ]
-            }
-          ],
-          "COMMENT": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "-By authors.  In this case all the nuclei produced by",
-                "beam fragmentation are emitted in a narrow cone along",
-                "the beam direction and their momenta per nucleon are",
-                "close to the projectile value.  Therefore, it is",
-                "possible to detect all the nuclei that are produced,",
-                "including those with very small energy in the",
-                "projectile reference frame."
-              ]
-            }
-          ],
           "FACILITY": [
             {
               "pointer": "",
@@ -157,6 +103,84 @@
               ]
             }
           ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "1-H-1(6-C-12,INL)1-H-1,,SIG",
+                  "code_unit": [
+                    {
+                      "unit": "1-H-1(6-C-12,INL)1-H-1,,SIG",
+                      "field": {
+                        "reaction": "1-H-1(6-C-12,INL)1-H-1",
+                        "target": "1-H-1",
+                        "projectile": "6-C-12",
+                        "process": "INL",
+                        "product": "1-H-1",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": null,
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": null,
+                "author": "B.M.Bobchenko+",
+                "reference": {
+                  "code": "J,YF,30,1553,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "YF",
+                      "number": null,
+                      "volume": "30",
+                      "part": null,
+                      "issue": null,
+                      "page": "1553",
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 1979
+                  }
+                }
+              },
+              "free_text": [
+                " The value of the",
+                "inelastic cross section of the 12C + p reaction was",
+                "taken as 250 +/- 2 mb."
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "-By authors. In this case all the nuclei produced by",
+                "beam fragmentation are emitted in a narrow cone along",
+                "the beam direction and their momenta per nucleon are",
+                "close to the projectile value. Therefore, it is",
+                "possible to detect all the nuclei that are produced,",
+                "including those with very small energy in the",
+                "projectile reference frame."
+              ]
+            }
+          ],
           "DETECTOR": [
             {
               "pointer": "",
@@ -164,19 +188,46 @@
                 "SPEC"
               ],
               "free_text": [
-                " The ANOMALON magnetic spectrometer is based on a",
-                "system of multiwire proportional chambers (MWPC) and an",
-                "analysing magnet.  It also includes a Cherenkov",
+                " The ANOMALON magnetic spectrometer is based on",
+                "a system of multiwire proportional chambers (MWPC)",
+                "and an analysing magnet. It also includes a Cherenkov",
                 "hodoscope for determining fragment charges, a trigger",
                 "system consisting of scintillation and Cherenkov",
-                "detectors, and a beam monitor.  For the beam",
+                "detectors, and a beam monitor. For the beam",
                 "fragmentation cross section measurements the ANOMALON",
                 "set-up was equipped with a liquid hydrogen target.",
-                " MWPCs constitute a coordinate detector for determining",
-                "The positions of the charged-particle tracks.",
-                "More detailed description see:",
-                "1. A.V.Zarubim et al., JINR B1-1-93-444 (1993)",
-                "2. Yu.T.Borzunov et al., JINR Rapid Commun. 1/81 (1997)"
+                "MWPCs constitute a coordinate detector for",
+                "determining. The positions of the charged-particle",
+                "tracks. More detailed description see:"
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "M",
+                "subentry_number": null,
+                "author": "Yu.T.Borzunov+",
+                "reference": {
+                  "code": "J,KSO,,(1/81),1,1997",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "KSO",
+                      "number": null,
+                      "volume": "",
+                      "part": null,
+                      "issue": "1/81",
+                      "page": "1"
+                    },
+                    "date": 1997
+                  }
+                }
+              },
+              "free_text": [
+                " and",
+                "A.V.Zarubin et al., JINR B1-1-93-444 (1993)"
               ]
             }
           ],
@@ -186,8 +237,8 @@
               "coded_information": null,
               "free_text": [
                 "The target is 59 mm in diameter and 136 mm long",
-                " (equivalent to 0.94 g/cm**2).  The total thickness of",
-                "the two mylar windows is 67 mg/cm**2."
+                " (equivalent to 0.94 g/cm2). The total thickness of",
+                "the two Mylar windows is 67 mg/cm2."
               ]
             }
           ],
@@ -196,42 +247,11 @@
               "pointer": "",
               "coded_information": [
                 "SITA",
-                "EXTB"
+                "EXTB",
+                "COINC"
               ],
               "free_text": [
                 ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "COINC",
-                "MASSP"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "HISTORY": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 20040212,
-                "history": "C"
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 20040212,
-                "history": "U"
-              },
-              "free_text": [
-                " Last checking has been done."
               ]
             }
           ],
@@ -270,7 +290,7 @@
               "free_text": [
                 " The systematic errors are due mainly to",
                 "uncertainty regarding the efficiency of track",
-                "reconstruction (varying with Z). Other Factors being",
+                "reconstruction (varying with Z). Other factors being",
                 "negligible."
               ]
             },
@@ -287,24 +307,66 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20040212,
+                "history": "C"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20040212,
+                "history": "U"
+              },
+              "free_text": [
+                " Last checking has been done."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260207,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Small corrections in all Subents.",
+                "Energy value updated according to presentation in the",
+                "article. REL-REF -> MONIT-REF. MONITOR added."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 3,
             "N2": 0,
             "pointer": [
+              "",
+              "",
               ""
             ],
             "heading": [
-              "EN"
+              "EN",
+              "MONIT",
+              "MONIT-ERR"
             ],
             "unit": [
-              "GEV"
+              "GEV/A",
+              "MB",
+              "MB"
             ],
             "value": [
-              43.32
+              3.66,
+              250.0,
+              2.0
             ]
           },
           "ENDCOMMON": {
@@ -319,19 +381,19 @@
         {
           "SUBENT": {
             "N1": "A0661002",
-            "N2": 20040212,
+            "N2": 20260207,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A131"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "1-H-1(6-C-12,X)ELEM/MASS,,SIG",
+                "code": "(1-H-1(6-C-12,X)ELEM/MASS,,SIG)=(6-C-12(P,X)ELEM/MASS,,SIG)",
                 "code_unit": [
                   {
                     "unit": "1-H-1(6-C-12,X)ELEM/MASS,,SIG",
@@ -346,9 +408,23 @@
                       "general_quantity_modifier": null,
                       "quantity_236": ",SIG"
                     }
+                  },
+                  {
+                    "unit": "6-C-12(P,X)ELEM/MASS,,SIG",
+                    "field": {
+                      "reaction": "6-C-12(P,X)ELEM/MASS",
+                      "target": "6-C-12",
+                      "projectile": "P",
+                      "process": "X",
+                      "product": "ELEM/MASS",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
                   }
                 ],
-                "unit_combination": "(%)"
+                "unit_combination": "((%)=(%))"
               },
               "free_text": [
                 ""
@@ -362,7 +438,50 @@
                 1.0
               ],
               "free_text": [
-                " Systematic error is approximately."
+                " Systematic error is given approximately."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "A.Korejwo+",
+                "reference": {
+                  "code": "J,JP/G,26,1171,2000",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JP/G",
+                      "number": null,
+                      "volume": "26",
+                      "part": null,
+                      "issue": null,
+                      "page": "1171"
+                    },
+                    "date": 2000
+                  }
+                }
+              },
+              "free_text": [
+                " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260207,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Right side was added to REACTION code.",
+                "STATUS added."
               ]
             }
           ],
@@ -599,19 +718,19 @@
         {
           "SUBENT": {
             "N1": "A0661003",
-            "N2": 20040212,
+            "N2": 20260207,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A131"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "1-H-1(6-C-12,X)ELEM,,SIG",
+                "code": "(1-H-1(6-C-12,X)ELEM,,SIG)=(6-C-12(P,X)ELEM,,SIG)",
                 "code_unit": [
                   {
                     "unit": "1-H-1(6-C-12,X)ELEM,,SIG",
@@ -626,9 +745,23 @@
                       "general_quantity_modifier": null,
                       "quantity_236": ",SIG"
                     }
+                  },
+                  {
+                    "unit": "6-C-12(P,X)ELEM,,SIG",
+                    "field": {
+                      "reaction": "6-C-12(P,X)ELEM",
+                      "target": "6-C-12",
+                      "projectile": "P",
+                      "process": "X",
+                      "product": "ELEM",
+                      "quantity": ",SIG",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",SIG"
+                    }
                   }
                 ],
-                "unit_combination": "(%)"
+                "unit_combination": "((%)=(%))"
               },
               "free_text": [
                 ""
@@ -643,6 +776,49 @@
               ],
               "free_text": [
                 " Systematic error is approximately."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "A.Korejwo+",
+                "reference": {
+                  "code": "J,JP/G,26,1171,2000",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JP/G",
+                      "number": null,
+                      "volume": "26",
+                      "part": null,
+                      "issue": null,
+                      "page": "1171"
+                    },
+                    "date": 2000
+                  }
+                }
+              },
+              "free_text": [
+                " Table 2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260207,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Right side was added to REACTION code.",
+                "STATUS added."
               ]
             }
           ],

@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:13:43+0000",
+  "time_stamp": "2026-05-22T21:13:14+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0848",
-        "N2": 20100401,
+        "N2": 20260205,
         "alteration_flag": " ",
-        "transmission_identification": "A068"
+        "transmission_identification": "A131"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0848001",
-            "N2": 20100401,
+            "N2": 20260205,
             "alteration_flag": " ",
-            "transmission_identification": "A068"
+            "transmission_identification": "A131"
           },
           "BIB": {
-            "N1": 13,
+            "N1": 12,
             "N2": 0
           },
           "TITLE": [
@@ -65,15 +65,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "4ZZZDUB"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "4ZZZDUB",
                 "2JPNIPC"
               ],
               "free_text": [
@@ -121,21 +113,9 @@
                 "institute": "4ZZZDUB"
               },
               "free_text": [
-                "the U-400M cyclotron of FLNR"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "PRJFS"
-                ],
-                "institute": "4ZZZDUB"
-              },
-              "free_text": [
-                " The primary triton beam delivered from",
-                "the cyclotron U-400M and the secondary one of 6He were",
-                "used."
+                "the U-400M cyclotron of FLNR",
+                "The primary triton beam delivered from the cyclotron",
+                "U-400M and the secondary one of 6He were used."
               ]
             }
           ],
@@ -167,7 +147,7 @@
               "coded_information": null,
               "free_text": [
                 "Liquid tritium and deuterium of the thickness of",
-                " 2.0E+21 cm**2 were used as targets."
+                " 2.0E+21 cm2 were used as targets."
               ]
             }
           ],
@@ -175,31 +155,15 @@
             {
               "pointer": "",
               "coded_information": [
-                "TELES"
-              ],
-              "free_text": [
-                " Two telescopes were intended for the",
-                "detection of coincident charged particles."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "TELES",
                 "SCIN"
               ],
               "free_text": [
-                " 41 scintillation modules of the neutron",
-                "spectrometer DEMON were used for the neutron detection",
-                "in experiments carried out with the triton beam."
-              ]
-            }
-          ],
-          "INC-SOURCE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "*EN-RSL*.The estimated instrumental resolution."
+                " Two telescopes were intended for the",
+                "detection of coincident charged particles.",
+                "41 scintillation modules of the neutron spectrometer",
+                "DEMON were used for the neutron detection in",
+                "experiments carried out with the triton beam."
               ]
             }
           ],
@@ -213,21 +177,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " The uncertainty is reported by authors on",
-                "figure."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "E-RL-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                ".The uncertainty is reported by authors on",
-                "figure."
+                " No information about source of uncertainty"
               ]
             }
           ],
@@ -253,6 +203,16 @@
               "free_text": [
                 " SB"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260205,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: Corrections in all Subents."
+              ]
             }
           ],
           "ENDBIB": {
@@ -271,39 +231,40 @@
         {
           "SUBENT": {
             "N1": "A0848002",
-            "N2": 20100405,
+            "N2": 20260205,
             "alteration_flag": " ",
-            "transmission_identification": "A068"
+            "transmission_identification": "A131"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "1-H-2(T,P)1-H-4,,DE,,REL",
+                "code": "1-H-2(T,N+P)1-H-3,,DE,N+T,REL",
                 "code_unit": [
                   {
-                    "unit": "1-H-2(T,P)1-H-4,,DE,,REL",
+                    "unit": "1-H-2(T,N+P)1-H-3,,DE,N+T,REL",
                     "field": {
-                      "reaction": "1-H-2(T,P)1-H-4",
+                      "reaction": "1-H-2(T,N+P)1-H-3",
                       "target": "1-H-2",
                       "projectile": "T",
-                      "process": "P",
-                      "product": "1-H-4",
-                      "quantity": ",DE",
+                      "process": "N+P",
+                      "product": "1-H-3",
+                      "quantity": ",DE,N+T",
                       "data_type": null,
                       "general_quantity_modifier": "REL",
-                      "quantity_236": ",DE"
+                      "quantity_236": ",DE,*+*"
                     }
                   }
                 ],
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " fig.1"
+                "",
+                "No information about units."
               ]
             }
           ],
@@ -334,15 +295,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "N"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "N",
                 "P"
               ],
               "free_text": [
@@ -358,11 +311,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.I.Sidorchuk+",
+                "reference": {
+                  "code": "J,NP/A,719,229,2003",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "719",
+                      "part": null,
+                      "issue": null,
+                      "page": "229"
+                    },
+                    "date": 2003
+                  }
+                }
               },
               "free_text": [
-                ".By CAJAD."
+                " Fig.1"
               ]
             },
             {
@@ -377,6 +344,19 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260205,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: SF3=P -> N+P; SF4=H-4 -> H-3 in",
+                "REACTION code. STATUS updated."
               ]
             }
           ],
@@ -618,9 +598,9 @@
         {
           "SUBENT": {
             "N1": "A0848003",
-            "N2": 20100405,
+            "N2": 20260205,
             "alteration_flag": " ",
-            "transmission_identification": "A068"
+            "transmission_identification": "A131"
           },
           "BIB": {
             "N1": 6,
@@ -630,16 +610,16 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "1-H-2(T,P)1-H-4,,DA/DA/DE,P/T/P",
+                "code": "1-H-2(T,N+P)1-H-3,,DA/DA/DE,P/T/P",
                 "code_unit": [
                   {
-                    "unit": "1-H-2(T,P)1-H-4,,DA/DA/DE,P/T/P",
+                    "unit": "1-H-2(T,N+P)1-H-3,,DA/DA/DE,P/T/P",
                     "field": {
-                      "reaction": "1-H-2(T,P)1-H-4",
+                      "reaction": "1-H-2(T,N+P)1-H-3",
                       "target": "1-H-2",
                       "projectile": "T",
-                      "process": "P",
-                      "product": "1-H-4",
+                      "process": "N+P",
+                      "product": "1-H-3",
                       "quantity": ",DA/DA/DE,P/T/P",
                       "data_type": null,
                       "general_quantity_modifier": null,
@@ -650,7 +630,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " fig.2"
+                ""
               ]
             }
           ],
@@ -666,47 +646,37 @@
               ]
             }
           ],
-          "PART-DET": [
+          "ANG-SEC": [
             {
               "pointer": "",
-              "coded_information": [
-                "T"
-              ],
+              "coded_information": {
+                "heading": "ANG1-MIN",
+                "particle": "N+T"
+              },
               "free_text": [
                 ""
               ]
             },
             {
               "pointer": "",
-              "coded_information": [
-                "P"
-              ],
+              "coded_information": {
+                "heading": "ANG1-MAX",
+                "particle": "N+T"
+              },
               "free_text": [
                 ""
               ]
             }
           ],
-          "ERR-ANALYS": [
+          "PART-DET": [
             {
               "pointer": "",
-              "coded_information": {
-                "heading": "ANG-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
+              "coded_information": [
+                "P",
+                "T"
+              ],
               "free_text": [
-                ".Error for proton angle"
-              ]
-            }
-          ],
-          "COMMENT": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "*By compiler*.Ang1-min and ANG1-MAX is proton-triton",
-                "coinciderence angle."
+                ""
               ]
             }
           ],
@@ -718,11 +688,38 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.I.Sidorchuk+",
+                "reference": {
+                  "code": "J,NP/A,719,229,2003",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "719",
+                      "part": null,
+                      "issue": null,
+                      "page": "229"
+                    },
+                    "date": 2003
+                  }
+                }
               },
               "free_text": [
-                ".By CAJAD."
+                " Fig.2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260205,
+                "history": "A"
+              },
+              "free_text": [
+                " SD: SF3=P -> N+P; SF4=H-4 -> H-3 in",
+                "REACTION code. STATUS updated."
               ]
             }
           ],
@@ -920,12 +917,12 @@
         {
           "SUBENT": {
             "N1": "A0848004",
-            "N2": 20100405,
+            "N2": 20260205,
             "alteration_flag": " ",
-            "transmission_identification": "A068"
+            "transmission_identification": "A131"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -990,11 +987,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.I.Sidorchuk+",
+                "reference": {
+                  "code": "J,NP/A,719,229,2003",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "719",
+                      "part": null,
+                      "issue": null,
+                      "page": "229"
+                    },
+                    "date": 2003
+                  }
+                }
               },
               "free_text": [
-                ".The value in text"
+                " The value",
+                "from the text on p.230"
               ]
             },
             {
@@ -1026,46 +1038,45 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260205,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: STATUS updated."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 1,
-            "N2": 0,
-            "pointer": [
-              ""
-            ],
-            "heading": [
-              "EN-RSL"
-            ],
-            "unit": [
-              "KEV"
-            ],
-            "value": [
-              400.0
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
           "DATA": {
-            "N1": 4,
+            "N1": 5,
             "N2": 1,
             "pointer": [
+              "",
               "1",
               "1",
               "2",
               "2"
             ],
             "heading": [
+              "EN-RSL",
               "DATA",
               "DATA-ERR",
               "DATA",
               "DATA-ERR"
             ],
             "unit": [
+              "KEV",
               "MEV",
               "MEV",
               "MEV",
@@ -1073,6 +1084,7 @@
             ],
             "value": [
               [
+                400.0,
                 3.3,
                 0.2,
                 4.1,
@@ -1092,12 +1104,12 @@
         {
           "SUBENT": {
             "N1": "A0848005",
-            "N2": 20100405,
+            "N2": 20260205,
             "alteration_flag": " ",
-            "transmission_identification": "A068"
+            "transmission_identification": "A131"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -1136,11 +1148,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.I.Sidorchuk+",
+                "reference": {
+                  "code": "J,NP/A,719,229,2003",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "719",
+                      "part": null,
+                      "issue": null,
+                      "page": "229"
+                    },
+                    "date": 2003
+                  }
+                }
               },
               "free_text": [
-                ".The value in text"
+                " The value",
+                "from the text on p.230"
               ]
             },
             {
@@ -1172,14 +1199,32 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260205,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: BIB updated."
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 4,
-            "N2": 0,
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 1,
             "pointer": [
+              "",
+              "",
               "",
               "",
               "",
@@ -1189,42 +1234,24 @@
               "EN",
               "EN-RSL",
               "ANG-CM-MIN",
-              "ANG-CM-MAX"
+              "ANG-CM-MAX",
+              "DATA-CM",
+              "DATA-ERR"
             ],
             "unit": [
               "MEV",
               "KEV",
               "ADEG",
-              "ADEG"
-            ],
-            "value": [
-              58.0,
-              400.0,
-              32.0,
-              52.0
-            ]
-          },
-          "ENDCOMMON": {
-            "N1": 0,
-            "N2": 0
-          },
-          "DATA": {
-            "N1": 2,
-            "N2": 1,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "DATA-CM",
-              "DATA-ERR"
-            ],
-            "unit": [
+              "ADEG",
               "MB/SR",
               "MB/SR"
             ],
             "value": [
               [
+                58.0,
+                400.0,
+                32.0,
+                52.0,
                 0.8,
                 0.4
               ]

@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:13:01+0000",
+  "time_stamp": "2026-05-22T21:13:12+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0728",
-        "N2": 20050513,
+        "N2": 20260207,
         "alteration_flag": " ",
-        "transmission_identification": "A061"
+        "transmission_identification": "A131"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0728001",
-            "N2": 20050513,
+            "N2": 20260207,
             "alteration_flag": " ",
-            "transmission_identification": "A061"
+            "transmission_identification": "A131"
           },
           "BIB": {
-            "N1": 14,
+            "N1": 15,
             "N2": 0
           },
           "TITLE": [
@@ -26,8 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Excitation functions for 208-211Fr produced in the 18O",
-                "+ 197Au fusion reaction"
+                "Excitation functions for 208-211Fr produced in the",
+                "18O + 197Au fusion reaction"
               ]
             }
           ],
@@ -61,35 +61,6 @@
               ]
             }
           ],
-          "REL-REF": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "N",
-                "subentry_number": null,
-                "author": "S.BEGHINI+",
-                "reference": {
-                  "code": "J,NIM/A,239,585,1985",
-                  "field": {
-                    "reference_type": "J",
-                    "reference": {
-                      "code": "NIM/A",
-                      "number": null,
-                      "volume": "239",
-                      "part": null,
-                      "issue": null,
-                      "page": "585"
-                    },
-                    "date": 1985
-                  }
-                }
-              },
-              "free_text": [
-                " Electrostatic",
-                "deflector."
-              ]
-            }
-          ],
           "AUTHOR": [
             {
               "pointer": "",
@@ -120,25 +91,44 @@
               ]
             }
           ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "I",
+                "subentry_number": null,
+                "author": "S.Beghini+",
+                "reference": {
+                  "code": "J,NIM/A,239,585,1985",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/A",
+                      "number": null,
+                      "volume": "239",
+                      "part": null,
+                      "issue": null,
+                      "page": "585"
+                    },
+                    "date": 1985
+                  }
+                }
+              },
+              "free_text": [
+                " Electrostatic",
+                "deflector."
+              ]
+            }
+          ],
           "INSTITUTE": [
             {
               "pointer": "",
               "coded_information": [
-                "2ITYPAD"
-              ],
-              "free_text": [
-                " Istituto Nazionale di Fisica Nucleare,",
-                " Laboratori Nazionali di Legnaro, Dipartimento di",
-                "Fisica."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "2ITYPAD",
                 "4ZZZDUB"
               ],
               "free_text": [
-                " Flerov Laboratory of Nuclear Reactions."
+                ""
               ]
             },
             {
@@ -147,9 +137,24 @@
                 "2ITYITY"
               ],
               "free_text": [
-                " Dipartimento di Fisica, Universita di",
-                " Ferrara, and Dipartimento di Fisica, Universita di",
-                " Siena."
+                " University of Siena and Ferrara University"
+              ]
+            }
+          ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "VDGT"
+                ],
+                "institute": "2ITYPAD"
+              },
+              "free_text": [
+                " The XTU-Tandem and fragment separator.",
+                "Francium isotopes were separated from beamlike",
+                "particles by means of an electrostatic deflector",
+                "connected to a sliding-seal scattering chamber."
               ]
             }
           ],
@@ -158,7 +163,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Self-supporting 150-mug/cm2 197Au target."
+                "Self-supporting 150-ug/cm2 197Au target."
               ]
             }
           ],
@@ -202,43 +207,13 @@
               "free_text": [
                 " Evaporation residues were directly implanted",
                 "into a silicon surface-barrier detector placed behind",
-                "the deflector.  Corresponding alpha-decays of stopped",
-                "evaporation residues were detected.",
-                "Additionally, four silicon detectors were installed",
-                "inside the scattering chamber to measure Rutherford",
-                "scattered beam particles for absolute normalization of",
-                "cross sections and relative normalization among",
-                "different runs."
-              ]
-            }
-          ],
-          "FACILITY": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "VDGT"
-                ],
-                "institute": "2ITYPAD"
-              },
-              "free_text": [
-                " The XTU-Tandem  of the Laboratori",
-                " Nazionali di Legnaro."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "FRS"
-                ],
-                "institute": "2ITYPAD"
-              },
-              "free_text": [
-                " Francium isotopes were separated from",
-                "beamlike particles by means of an electrostatic",
-                "deflector connected to a sliding-seal scattering",
-                "chamber."
+                "the deflector. Corresponding alpha-decays of stopped",
+                "evaporation residues were detected. Additionally,",
+                "four silicon detectors were installed inside the",
+                "scattering chamber to measure Rutherford scattered",
+                "beam particles for absolute normalization of cross",
+                "sections and relative normalization among different",
+                "runs."
               ]
             }
           ],
@@ -249,49 +224,19 @@
                 "EXTB"
               ],
               "free_text": [
-                " An 18-O beam with an average intensity of 15",
+                " An 18O beam with an average intensity of 15",
                 "particle nA."
               ]
             },
             {
               "pointer": "",
               "coded_information": [
-                "SITA"
-              ],
-              "free_text": [
-                " See SAMPLE"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "SITA",
                 "REC",
                 "ACTIV"
               ],
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "HISTORY": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 20050511,
-                "history": "C"
-              },
-              "free_text": [
-                " By F.Ch"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 20050513,
-                "history": "U"
-              },
-              "free_text": [
-                " Last checking has been done."
               ]
             }
           ],
@@ -305,10 +250,9 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Overall errors in final cross sections.",
-                "Uncertainties in the estimates of the evaporation",
-                "residues transmission comprised the main contribution",
-                "to the error."
+                " Uncertainties in the estimates of the",
+                "evaporation residues transmission comprised the main",
+                "contribution to the error."
               ]
             }
           ],
@@ -340,6 +284,68 @@
               "free_text": [
                 "- By authors.  Beam energy was corrected for stopping",
                 "in a half-thickness of the target."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "L.Corradi+",
+                "reference": {
+                  "code": "J,PR/C,71,014609,2005",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "71",
+                      "part": null,
+                      "issue": null,
+                      "page": "014609"
+                    },
+                    "date": 2005
+                  }
+                }
+              },
+              "free_text": [
+                " Table II"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20050511,
+                "history": "C"
+              },
+              "free_text": [
+                " By F.Ch"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20050513,
+                "history": "U"
+              },
+              "free_text": [
+                " Last checking has been done."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260207,
+                "history": "U"
+              },
+              "free_text": [
+                " SD: Small corrections in Subent 001."
               ]
             }
           ],

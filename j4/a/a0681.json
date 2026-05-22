@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T22:12:30+0000",
+  "time_stamp": "2026-05-22T21:13:09+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "A0681",
-        "N2": 20040409,
+        "N2": 20260205,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "A131"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "A0681001",
-            "N2": 20040409,
+            "N2": 20260205,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "A131"
           },
           "BIB": {
-            "N1": 10,
+            "N1": 11,
             "N2": 0
           },
           "TITLE": [
@@ -26,7 +26,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Isomer ratios in reaction 193-Ir(a,n)196-Au."
+                "Isomer ratios in 193Ir(alpha,n)196Au reaction"
               ]
             }
           ],
@@ -48,7 +48,7 @@
             {
               "pointer": "",
               "coded_information": [
-                "4UKRIJI"
+                "4UKRIJD"
               ],
               "free_text": [
                 ""
@@ -85,12 +85,38 @@
               ]
             }
           ],
+          "FACILITY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "CYCLO"
+                ],
+                "institute": "4UKRIJD"
+              },
+              "free_text": [
+                " U-120 cyclotron."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "facility": [
+                  "ISOCY"
+                ],
+                "institute": "4UKRIJD"
+              },
+              "free_text": [
+                " U-240 cyclotron."
+              ]
+            }
+          ],
           "SAMPLE": [
             {
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Any data arenot given."
+                "No information"
               ]
             }
           ],
@@ -105,49 +131,60 @@
               ]
             }
           ],
-          "FACILITY": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "CYCLO"
-                ],
-                "institute": "4UKRIJI"
-              },
-              "free_text": [
-                " U-120 cyclotron."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "ISOCY"
-                ],
-                "institute": "4UKRIJI"
-              },
-              "free_text": [
-                " U-240 cyclotron."
-              ]
-            }
-          ],
           "METHOD": [
             {
               "pointer": "",
               "coded_information": [
-                "ACTIV"
-              ],
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "ACTIV",
                 "EDEG"
               ],
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information about source of uncertainty"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "V.I.Gavriluk+",
+                "reference": {
+                  "code": "C,89TASHKE,,374,1989",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "89TASHKE",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "374"
+                    },
+                    "date": 1989
+                  }
+                }
+              },
+              "free_text": [
+                " Table",
+                "on p.374"
               ]
             }
           ],
@@ -171,19 +208,15 @@
               "free_text": [
                 " Last checking has been done."
               ]
-            }
-          ],
-          "ERR-ANALYS": [
+            },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
+                "date": 20260205,
+                "history": "U"
               },
               "free_text": [
-                " Any analysis is not given."
+                " SD: Small corrections in Subent 001."
               ]
             }
           ],
