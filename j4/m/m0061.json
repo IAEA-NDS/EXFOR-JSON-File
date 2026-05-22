@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:20:01+0000",
+  "time_stamp": "2026-05-22T19:52:34+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0061",
-        "N2": 20121030,
+        "N2": 20251202,
         "alteration_flag": " ",
-        "transmission_identification": "M065"
+        "transmission_identification": "M142"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0061001",
-            "N2": 20121030,
+            "N2": 20251202,
             "alteration_flag": " ",
-            "transmission_identification": "M065"
+            "transmission_identification": "M142"
           },
           "BIB": {
-            "N1": 13,
+            "N1": 11,
             "N2": 0
           },
           "TITLE": [
@@ -26,10 +26,9 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Isomeric yield ratios of the reactions",
-                " Au-197(gamma,n)Au-196-g, Au-197(gamma,n)Au-196-m,",
-                " Au-197(e,e'n)Au-196-g, and Au-197(e,e'n)Au-196-m at",
-                " energies of 10-90 MeV."
+                "Isomeric ratios of the yields  of the reactions",
+                " Au-197(gamma,n)Au-196-m,g and Au-197(e,e'n)Au-196-m,g",
+                " energies 10-90 MeV."
               ]
             }
           ],
@@ -62,6 +61,35 @@
             {
               "pointer": "",
               "coded_information": {
+                "code": "J,SNP,33,308,1981",
+                "code_unit": [
+                  {
+                    "unit": "J,SNP,33,308,1981",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "SNP",
+                        "number": null,
+                        "volume": "33",
+                        "part": null,
+                        "issue": null,
+                        "page": "308"
+                      },
+                      "date": 1981
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " English translation of YF,33,591,1981"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
                 "code": "J,YF,33,591,1981",
                 "code_unit": [
                   {
@@ -86,34 +114,6 @@
               "free_text": [
                 ""
               ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "J,SNP,33,308,1981",
-                "code_unit": [
-                  {
-                    "unit": "J,SNP,33,308,1981",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "SNP",
-                        "number": null,
-                        "volume": "33",
-                        "part": null,
-                        "issue": null,
-                        "page": "308"
-                      },
-                      "date": 1981
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                " - Eng.trans.of YF,33,591,1981"
-              ]
             }
           ],
           "FACILITY": [
@@ -126,7 +126,7 @@
                 "institute": "4RUSJIA"
               },
               "free_text": [
-                ""
+                " LUE-100 linear electron accelerator."
               ]
             }
           ],
@@ -155,17 +155,6 @@
               ]
             }
           ],
-          "PART-DET": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "N"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "DETECTOR": [
             {
               "pointer": "",
@@ -173,7 +162,8 @@
                 "GELI"
               ],
               "free_text": [
-                ""
+                " Ge(Li) spectrometer with resolution 3.5 keV at",
+                " E = 355.7 keV."
               ]
             }
           ],
@@ -197,25 +187,9 @@
               "coded_information": null,
               "free_text": [
                 "Isomeric yield ratios of the (gamma,n) and (e,e'n)",
-                "reactions on nuclei Au-197 with production of high-spin",
-                " (j(pi)=12(-1)) states of nucleus Au-196 were measured",
-                "by means of activation method."
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "CURVE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Data from Fig. 3."
+                " reactions on nuclei Au-197 with production of",
+                " high-spin (j(pi)=12(-1)) states of Au-196 were",
+                " measured by means of activation method."
               ]
             }
           ],
@@ -247,11 +221,23 @@
                 "history": "A"
               },
               "free_text": [
-                " SD: Updated to new date formats,lower case.",
+                " SD: Updated to new date formats,lowercase.",
                 "     Corrected according last EXFOR rules and Dict.",
                 "     Ref. on transl. was added.",
                 "            VV: STATUS, REACTION code in SUBENT 002",
                 "     were corrected."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251202,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: TITLE, REFERENCE,",
+                " FACILITY, PART-DET, DETECTOR, DECAY-DATA, REACTION,",
+                " STATUS."
               ]
             }
           ],
@@ -271,28 +257,28 @@
         {
           "SUBENT": {
             "N1": "M0061002",
-            "N2": 20121030,
+            "N2": 20251202,
             "alteration_flag": " ",
-            "transmission_identification": "M065"
+            "transmission_identification": "M142"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "79-AU-197(G,N)79-AU-196-M/G,,SIG/RAT,,BRA/REL",
+                "code": "79-AU-197(G,N)79-AU-196-M2/G+M1,,SIG/RAT,,BRA/REL",
                 "code_unit": [
                   {
-                    "unit": "79-AU-197(G,N)79-AU-196-M/G,,SIG/RAT,,BRA/REL",
+                    "unit": "79-AU-197(G,N)79-AU-196-M2/G+M1,,SIG/RAT,,BRA/REL",
                     "field": {
-                      "reaction": "79-AU-197(G,N)79-AU-196-M/G",
+                      "reaction": "79-AU-197(G,N)79-AU-196-M2/G+M1",
                       "target": "79-AU-197",
                       "projectile": "G",
                       "process": "N",
-                      "product": "79-AU-196-M/G",
+                      "product": "79-AU-196-M2/G+M1",
                       "quantity": ",SIG/RAT",
                       "data_type": null,
                       "general_quantity_modifier": "BRA/REL",
@@ -307,6 +293,89 @@
               ]
             }
           ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "79-AU-196-G",
+                "half-life": {
+                  "value": 6.18,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      355.7
+                    ],
+                    "intensity": null
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "79-AU-196-M2",
+                "half-life": {
+                  "value": 9.7,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      147.8
+                    ],
+                    "intensity": null
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "CURVE"
+                ],
+                "subentry_number": null,
+                "author": "L.Z.Dzhilavyan+",
+                "reference": {
+                  "code": "J,SNP,33,308,1981",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "33",
+                      "part": null,
+                      "issue": null,
+                      "page": "308"
+                    },
+                    "date": 1981
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data from Fig. 3."
+              ]
+            }
+          ],
           "HISTORY": [
             {
               "pointer": "",
@@ -316,6 +385,17 @@
               },
               "free_text": [
                 " VV: REACTION code: BRS -> BRA."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251202,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " DECAY-DATA, STATUS."
               ]
             }
           ],

@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:26:12+0000",
+  "time_stamp": "2026-05-22T19:52:35+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0626",
-        "N2": 20090811,
+        "N2": 20251208,
         "alteration_flag": " ",
-        "transmission_identification": "M050"
+        "transmission_identification": "M142"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0626001",
-            "N2": 20090811,
+            "N2": 20251208,
             "alteration_flag": " ",
-            "transmission_identification": "M050"
+            "transmission_identification": "M142"
           },
           "BIB": {
-            "N1": 14,
+            "N1": 13,
             "N2": 0
           },
           "TITLE": [
@@ -34,13 +34,13 @@
             {
               "pointer": "",
               "coded_information": [
-                "T.SHIMA",
-                "Y.NAGAI",
-                "T.BABA",
-                "T.TAKAHASHI",
-                "T.KII",
-                "H.OHGAKI",
-                "H.TOYOKAWA"
+                "T.Shima",
+                "Y.Nagai",
+                "T.Baba",
+                "T.Takahashi",
+                "T.Kii",
+                "H.Ohgaki",
+                "H.Toyokawa"
               ],
               "free_text": [
                 ""
@@ -115,7 +115,7 @@
                 "reaction": null
               },
               "free_text": [
-                " Laser-Compton scattering."
+                ""
               ]
             }
           ],
@@ -136,8 +136,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "4HE (80%) and CH-4 (20%) gases  mixture  contained  in",
-                " time projection chamber (TPC) served as a detector."
+                "4HE (80%) and CH-4 (20%) gases  mixture contained  in",
+                " a time projection chamber (TPC)."
               ]
             }
           ],
@@ -148,10 +148,11 @@
                 "TRD"
               ],
               "free_text": [
-                " The time projection chamber (TPC) containing the",
-                " mixture of  4He  (80%)  and CH-4 (20%) gases provides",
-                " the information of the track angles and  energies  of",
-                " the charged particles produced in the reactions."
+                " The TPC containing the mixture of 4He (80%) and",
+                " CH-4 (20%) gases serves as an active target and",
+                " provides the information of the track shapes and the",
+                " energies of the charged particles produced in the",
+                " reactions."
               ]
             }
           ],
@@ -190,20 +191,23 @@
               ]
             }
           ],
-          "STATUS": [
+          "COMMENT": [
             {
               "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
+              "coded_information": null,
               "free_text": [
-                " Data from the Table 1 have  been  compiled at",
-                " the Russia MSU INP CDFE by V.Varlamov."
+                "The 4He  photodisintegration  cross  section  has been",
+                " measured in the energy region from 20 to 32  MeV.  In",
+                " the measurement  a  laser-Compton-backscattered-gamma",
+                " beam and a time projection chamber were employed. The",
+                " result indicates the cross section increases up to 32",
+                " MeV, and there is no pronounced peak at around 25 MeV",
+                " which has been previously adopted as the giant dipole",
+                " resonance energy.",
+                "In addition, the data of the total photoabsorption",
+                " cross section of 12C were used in order to check the",
+                " overall sensitivity of the measurement, including the",
+                " determination of the incident g-ray flux."
               ]
             }
           ],
@@ -225,7 +229,7 @@
                 "history": "A"
               },
               "free_text": [
-                " INC-SOURCE,      REACTION,     ERR-ANALYS",
+                " INC-SOURCE, REACTION, ERR-ANALYS,",
                 " (ERR-SYS) corrected, lowercase."
               ]
             },
@@ -238,21 +242,16 @@
               "free_text": [
                 " STATUS included into SUBENTs 002-005."
               ]
-            }
-          ],
-          "COMMENT": [
+            },
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "date": 20251208,
+                "history": "U"
+              },
               "free_text": [
-                "The 4He  photodisintegration  cross  section  has been",
-                " measured in the energy region from 20 to 32  MeV.  In",
-                " the measurement  a  laser-compton-backscattered-gamma",
-                " beam and a time projection chamber were employed. The",
-                " result indicates the cross section increases up to 32",
-                " MeV, and there is no pronounced peak at around 25 MeV",
-                " which has been previously adopted as the giant dipole",
-                " resonance energy."
+                " Corrected by V.Varlamov: INC-SOURCE,",
+                " SAMPLE, DETECTOR, STATUS, lowercase."
               ]
             }
           ],
@@ -836,12 +835,12 @@
         {
           "SUBENT": {
             "N1": "M0626006",
-            "N2": 20070515,
+            "N2": 20251208,
             "alteration_flag": " ",
-            "transmission_identification": "M042"
+            "transmission_identification": "M142"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -869,6 +868,49 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "T.Shima+",
+                "reference": {
+                  "code": "J,NP/A,687,127C,2001",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "687",
+                      "part": null,
+                      "issue": null,
+                      "page": "127C"
+                    },
+                    "date": 2001
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data from Table 1."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251208,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: STATUS."
               ]
             }
           ],

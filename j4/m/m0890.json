@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:29:07+0000",
+  "time_stamp": "2026-05-22T19:52:36+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0890",
-        "N2": 20180213,
+        "N2": 20251202,
         "alteration_flag": " ",
-        "transmission_identification": "M094"
+        "transmission_identification": "M142"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0890001",
-            "N2": 20180213,
+            "N2": 20251202,
             "alteration_flag": " ",
-            "transmission_identification": "M094"
+            "transmission_identification": "M142"
           },
           "BIB": {
             "N1": 10,
@@ -45,35 +45,6 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,YF,77,1496,2014",
-                "code_unit": [
-                  {
-                    "unit": "J,YF,77,1496,2014",
-                    "doi": "10.7868/S0044002714110051",
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "YF",
-                        "number": null,
-                        "volume": "77",
-                        "part": null,
-                        "issue": null,
-                        "page": "1496"
-                      },
-                      "date": 2014
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                "",
-                "#doi:10.7868/S0044002714110051"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
                 "code": "J,PAN,77,1429,2014",
                 "code_unit": [
                   {
@@ -99,6 +70,35 @@
                 "",
                 "#doi:10.1134/S1063778814110040",
                 "English translation of YF,77,1496,2014."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,YF,77,1496,2014",
+                "code_unit": [
+                  {
+                    "unit": "J,YF,77,1496,2014",
+                    "doi": "10.7868/S0044002714110051",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "YF",
+                        "number": null,
+                        "volume": "77",
+                        "part": null,
+                        "issue": null,
+                        "page": "1496"
+                      },
+                      "date": 2014
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "#doi:10.7868/S0044002714110051"
               ]
             }
           ],
@@ -197,6 +197,17 @@
                 " Corrected by SD and VV: STATUS updated in",
                 " SUBENTS 003 - 005."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251202,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REFERENCE,",
+                " ANALYSIS, REACTION, DECAY-DATA, STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -231,22 +242,22 @@
         {
           "SUBENT": {
             "N1": "M0890002",
-            "N2": 20150112,
+            "N2": 20251202,
             "alteration_flag": " ",
-            "transmission_identification": "M077"
+            "transmission_identification": "M142"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "(47-AG-109(G,A)45-RH-105,,SIG,,BRA)/(47-AG-109(G,N)47-AG-108,,SIG,,BRA,DERIV)",
+                "code": "(47-AG-109(G,A)45-RH-105,,SIG,,BRA,DERIV)/(47-AG-109(G,N)47-AG-108,,SIG,,BRA,DERIV)",
                 "code_unit": [
                   {
-                    "unit": "47-AG-109(G,A)45-RH-105,,SIG,,BRA",
+                    "unit": "47-AG-109(G,A)45-RH-105,,SIG,,BRA,DERIV",
                     "field": {
                       "reaction": "47-AG-109(G,A)45-RH-105",
                       "target": "47-AG-109",
@@ -254,7 +265,7 @@
                       "process": "A",
                       "product": "45-RH-105",
                       "quantity": ",SIG",
-                      "data_type": null,
+                      "data_type": "DERIV",
                       "general_quantity_modifier": "BRA",
                       "quantity_236": ",SIG"
                     }
@@ -299,7 +310,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "116Cd(g,n)115gCd as (g,n) surrogate."
+                "116Cd(g,n)115gCd measured as a surrogate of",
+                " 109Ag(g,n)108Ag."
               ]
             }
           ],
@@ -378,11 +390,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.A.Karamian",
+                "reference": {
+                  "code": "J,PAN,77,1429,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PAN",
+                      "number": null,
+                      "volume": "77",
+                      "part": null,
+                      "issue": null,
+                      "page": "1429"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data from table 2."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251202,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " ANALYSIS, STATUS."
               ]
             }
           ],
@@ -428,9 +468,9 @@
         {
           "SUBENT": {
             "N1": "M0890003",
-            "N2": 20180213,
+            "N2": 20251202,
             "alteration_flag": " ",
-            "transmission_identification": "M094"
+            "transmission_identification": "M142"
           },
           "BIB": {
             "N1": 7,
@@ -440,10 +480,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "(48-CD-113(G,A)46-PD-109,,SIG,,BRA)/(48-CD-113(G,N)48-CD-112,,SIG,,BRA,DERIV)",
+                "code": "(48-CD-113(G,A)46-PD-109,,SIG,,BRA,DERIV)/(48-CD-113(G,N)48-CD-112,,SIG,,BRA,DERIV)",
                 "code_unit": [
                   {
-                    "unit": "48-CD-113(G,A)46-PD-109,,SIG,,BRA",
+                    "unit": "48-CD-113(G,A)46-PD-109,,SIG,,BRA,DERIV",
                     "field": {
                       "reaction": "48-CD-113(G,A)46-PD-109",
                       "target": "48-CD-113",
@@ -451,7 +491,7 @@
                       "process": "A",
                       "product": "46-PD-109",
                       "quantity": ",SIG",
-                      "data_type": null,
+                      "data_type": "DERIV",
                       "general_quantity_modifier": "BRA",
                       "quantity_236": ",SIG"
                     }
@@ -496,7 +536,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "115In(gamma,n)114mIn as (gamma,n) surrogate."
+                "115In(g,n)114mIn measured as a surrogate of",
+                " 113Cd(g,n)112Cd."
               ]
             }
           ],
@@ -575,10 +616,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.A.Karamian",
+                "reference": {
+                  "code": "J,PAN,77,1429,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PAN",
+                      "number": null,
+                      "volume": "77",
+                      "part": null,
+                      "issue": null,
+                      "page": "1429"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data from table 2."
               ]
             }
@@ -592,6 +648,17 @@
               },
               "free_text": [
                 " Corrected by SD and VV: STATUS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251202,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " ANALYSIS, STATUS."
               ]
             }
           ],
@@ -637,9 +704,9 @@
         {
           "SUBENT": {
             "N1": "M0890004",
-            "N2": 20180213,
+            "N2": 20251202,
             "alteration_flag": " ",
-            "transmission_identification": "M094"
+            "transmission_identification": "M142"
           },
           "BIB": {
             "N1": 6,
@@ -775,10 +842,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.A.Karamian",
+                "reference": {
+                  "code": "J,PAN,77,1429,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PAN",
+                      "number": null,
+                      "volume": "77",
+                      "part": null,
+                      "issue": null,
+                      "page": "1429"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data from table 2."
               ]
             }
@@ -792,6 +874,16 @@
               },
               "free_text": [
                 " Corrected by SD and VV: STATUS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251202,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: STATUS."
               ]
             }
           ],
@@ -837,9 +929,9 @@
         {
           "SUBENT": {
             "N1": "M0890005",
-            "N2": 20180213,
+            "N2": 20251202,
             "alteration_flag": " ",
-            "transmission_identification": "M094"
+            "transmission_identification": "M142"
           },
           "BIB": {
             "N1": 7,
@@ -849,10 +941,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "(50-SN-119(G,A)48-CD-115-G,,SIG,,BRA)/(50-SN-119(G,N)50-SN-118,,SIG,,BRA,DERIV)",
+                "code": "(50-SN-119(G,A)48-CD-115-G,,SIG,,BRA,DERIV)/(50-SN-119(G,N)50-SN-118,,SIG,,BRA,DERIV)",
                 "code_unit": [
                   {
-                    "unit": "50-SN-119(G,A)48-CD-115-G,,SIG,,BRA",
+                    "unit": "50-SN-119(G,A)48-CD-115-G,,SIG,,BRA,DERIV",
                     "field": {
                       "reaction": "50-SN-119(G,A)48-CD-115-G",
                       "target": "50-SN-119",
@@ -860,7 +952,7 @@
                       "process": "A",
                       "product": "48-CD-115-G",
                       "quantity": ",SIG",
-                      "data_type": null,
+                      "data_type": "DERIV",
                       "general_quantity_modifier": "BRA",
                       "quantity_236": ",SIG"
                     }
@@ -905,7 +997,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "124Sn(gamma,n)123mSn as (gamma,n) surrogate."
+                "124Sn(g,n)123mSn measured as a surrogate of",
+                " 119Sn(g,n)118Sn."
               ]
             }
           ],
@@ -984,10 +1077,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.A.Karamian",
+                "reference": {
+                  "code": "J,PAN,77,1429,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PAN",
+                      "number": null,
+                      "volume": "77",
+                      "part": null,
+                      "issue": null,
+                      "page": "1429"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data from table 2."
               ]
             }
@@ -1001,6 +1109,17 @@
               },
               "free_text": [
                 " Corrected by SD and VV: STATUS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251202,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " ANALYSIS, STATUS."
               ]
             }
           ],
@@ -1046,12 +1165,12 @@
         {
           "SUBENT": {
             "N1": "M0890006",
-            "N2": 20150112,
+            "N2": 20251202,
             "alteration_flag": " ",
-            "transmission_identification": "M077"
+            "transmission_identification": "M142"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -1184,11 +1303,38 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.A.Karamian",
+                "reference": {
+                  "code": "J,PAN,77,1429,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PAN",
+                      "number": null,
+                      "volume": "77",
+                      "part": null,
+                      "issue": null,
+                      "page": "1429"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data from table 2."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251202,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: STATUS."
               ]
             }
           ],
@@ -1234,12 +1380,12 @@
         {
           "SUBENT": {
             "N1": "M0890007",
-            "N2": 20150112,
+            "N2": 20251202,
             "alteration_flag": " ",
-            "transmission_identification": "M077"
+            "transmission_identification": "M142"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -1359,11 +1505,38 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.A.Karamian",
+                "reference": {
+                  "code": "J,PAN,77,1429,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PAN",
+                      "number": null,
+                      "volume": "77",
+                      "part": null,
+                      "issue": null,
+                      "page": "1429"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data from table 2."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251202,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: STATUS."
               ]
             }
           ],
@@ -1409,12 +1582,12 @@
         {
           "SUBENT": {
             "N1": "M0890008",
-            "N2": 20150112,
+            "N2": 20251202,
             "alteration_flag": " ",
-            "transmission_identification": "M077"
+            "transmission_identification": "M142"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -1542,11 +1715,38 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.A.Karamian",
+                "reference": {
+                  "code": "J,PAN,77,1429,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PAN",
+                      "number": null,
+                      "volume": "77",
+                      "part": null,
+                      "issue": null,
+                      "page": "1429"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data from table 2."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251202,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: STATUS."
               ]
             }
           ],
@@ -1588,22 +1788,22 @@
         {
           "SUBENT": {
             "N1": "M0890009",
-            "N2": 20150112,
+            "N2": 20251202,
             "alteration_flag": " ",
-            "transmission_identification": "M077"
+            "transmission_identification": "M142"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "(82-PB-207(G,A)80-HG-203,,SIG,,BRA)/(82-PB-207(G,N)82-PB-206,,SIG,,BRA,DERIV)",
+                "code": "(82-PB-207(G,A)80-HG-203,,SIG,,BRA,DERIV)/(82-PB-207(G,N)82-PB-206,,SIG,,BRA,DERIV)",
                 "code_unit": [
                   {
-                    "unit": "82-PB-207(G,A)80-HG-203,,SIG,,BRA",
+                    "unit": "82-PB-207(G,A)80-HG-203,,SIG,,BRA,DERIV",
                     "field": {
                       "reaction": "82-PB-207(G,A)80-HG-203",
                       "target": "82-PB-207",
@@ -1611,7 +1811,7 @@
                       "process": "A",
                       "product": "80-HG-203",
                       "quantity": ",SIG",
-                      "data_type": null,
+                      "data_type": "DERIV",
                       "general_quantity_modifier": "BRA",
                       "quantity_236": ",SIG"
                     }
@@ -1656,7 +1856,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "204Pb(g,n)203Pb as (g,n) surrogate."
+                "204Pb(g,n)203Pb measured as a surrogate of",
+                " 207Pb(g,n)206Pb."
               ]
             }
           ],
@@ -1735,11 +1936,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.A.Karamian",
+                "reference": {
+                  "code": "J,PAN,77,1429,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PAN",
+                      "number": null,
+                      "volume": "77",
+                      "part": null,
+                      "issue": null,
+                      "page": "1429"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data from table 2."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251202,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " ANALYSIS, STATUS."
               ]
             }
           ],
@@ -1785,22 +2014,22 @@
         {
           "SUBENT": {
             "N1": "M0890010",
-            "N2": 20150112,
+            "N2": 20251202,
             "alteration_flag": " ",
-            "transmission_identification": "M077"
+            "transmission_identification": "M142"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "(48-CD-112(G,P)47-AG-111,,SIG,,BRA)/(48-CD-112(G,N)48-CD-111,,SIG,,BRA,DERIV)",
+                "code": "(48-CD-112(G,P)47-AG-111,,SIG,,BRA,DERIV)/(48-CD-112(G,N)48-CD-111,,SIG,,BRA,DERIV)",
                 "code_unit": [
                   {
-                    "unit": "48-CD-112(G,P)47-AG-111,,SIG,,BRA",
+                    "unit": "48-CD-112(G,P)47-AG-111,,SIG,,BRA,DERIV",
                     "field": {
                       "reaction": "48-CD-112(G,P)47-AG-111",
                       "target": "48-CD-112",
@@ -1808,7 +2037,7 @@
                       "process": "P",
                       "product": "47-AG-111",
                       "quantity": ",SIG",
-                      "data_type": null,
+                      "data_type": "DERIV",
                       "general_quantity_modifier": "BRA",
                       "quantity_236": ",SIG"
                     }
@@ -1853,7 +2082,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "114Sn(g,n)113Sn as (g,n) surrogate."
+                "114Sn(g,n)113Sn measured as a surrogate of",
+                " 112Cd(g,n)111Cd."
               ]
             }
           ],
@@ -1932,11 +2162,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.A.Karamian",
+                "reference": {
+                  "code": "J,PAN,77,1429,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PAN",
+                      "number": null,
+                      "volume": "77",
+                      "part": null,
+                      "issue": null,
+                      "page": "1429"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data from table 3."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251202,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " ANALYSIS, STATUS."
               ]
             }
           ],
@@ -1982,22 +2240,22 @@
         {
           "SUBENT": {
             "N1": "M0890011",
-            "N2": 20150112,
+            "N2": 20251202,
             "alteration_flag": " ",
-            "transmission_identification": "M077"
+            "transmission_identification": "M142"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "(48-CD-113(G,P)47-AG-112,,SIG,,BRA)/(48-CD-113(G,N)48-CD-112,,SIG,,BRA,DERIV)",
+                "code": "(48-CD-113(G,P)47-AG-112,,SIG,,BRA,DERIV)/(48-CD-113(G,N)48-CD-112,,SIG,,BRA,DERIV)",
                 "code_unit": [
                   {
-                    "unit": "48-CD-113(G,P)47-AG-112,,SIG,,BRA",
+                    "unit": "48-CD-113(G,P)47-AG-112,,SIG,,BRA,DERIV",
                     "field": {
                       "reaction": "48-CD-113(G,P)47-AG-112",
                       "target": "48-CD-113",
@@ -2005,7 +2263,7 @@
                       "process": "P",
                       "product": "47-AG-112",
                       "quantity": ",SIG",
-                      "data_type": null,
+                      "data_type": "DERIV",
                       "general_quantity_modifier": "BRA",
                       "quantity_236": ",SIG"
                     }
@@ -2050,7 +2308,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "115In(g,n)114mIn as (g,n) surrogate."
+                "115In(g,n)114mIn measured as a surrogate of",
+                " 113Cd(g,n)112Cd."
               ]
             }
           ],
@@ -2129,11 +2388,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.A.Karamian",
+                "reference": {
+                  "code": "J,PAN,77,1429,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PAN",
+                      "number": null,
+                      "volume": "77",
+                      "part": null,
+                      "issue": null,
+                      "page": "1429"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data from table 3."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251202,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " ANALYSIS, STATUS."
               ]
             }
           ],
@@ -2179,22 +2466,22 @@
         {
           "SUBENT": {
             "N1": "M0890012",
-            "N2": 20150112,
+            "N2": 20251202,
             "alteration_flag": " ",
-            "transmission_identification": "M077"
+            "transmission_identification": "M142"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "(48-CD-114(G,P)47-AG-113-G,M+,SIG,,BRA)/(48-CD-114(G,N)48-CD-113,,SIG,,BRA,DERIV)",
+                "code": "(48-CD-114(G,P)47-AG-113-G,M+,SIG,,BRA,DERIV)/(48-CD-114(G,N)48-CD-113,,SIG,,BRA,DERIV)",
                 "code_unit": [
                   {
-                    "unit": "48-CD-114(G,P)47-AG-113-G,M+,SIG,,BRA",
+                    "unit": "48-CD-114(G,P)47-AG-113-G,M+,SIG,,BRA,DERIV",
                     "field": {
                       "reaction": "48-CD-114(G,P)47-AG-113-G",
                       "target": "48-CD-114",
@@ -2202,7 +2489,7 @@
                       "process": "P",
                       "product": "47-AG-113-G",
                       "quantity": "M+,SIG",
-                      "data_type": null,
+                      "data_type": "DERIV",
                       "general_quantity_modifier": "BRA",
                       "quantity_236": "M+,SIG"
                     }
@@ -2247,7 +2534,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "114Sn(g,n)113Sn as (g,n) surrogate."
+                "114Sn(g,n)113Sn measured as a surrogate of",
+                " 114Cd(g,n)113Cd."
               ]
             }
           ],
@@ -2326,11 +2614,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.A.Karamian",
+                "reference": {
+                  "code": "J,PAN,77,1429,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PAN",
+                      "number": null,
+                      "volume": "77",
+                      "part": null,
+                      "issue": null,
+                      "page": "1429"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data from table 3."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251202,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " ANALYSIS, STATUS."
               ]
             }
           ],
@@ -2376,22 +2692,22 @@
         {
           "SUBENT": {
             "N1": "M0890013",
-            "N2": 20150112,
+            "N2": 20251202,
             "alteration_flag": " ",
-            "transmission_identification": "M077"
+            "transmission_identification": "M142"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "(50-SN-118(G,P)49-IN-117,,SIG,,BRA)/(50-SN-118(G,N)50-SN-117,,SIG,,BRA,DERIV)",
+                "code": "(50-SN-118(G,P)49-IN-117,,SIG,,BRA,DERIV)/(50-SN-118(G,N)50-SN-117,,SIG,,BRA,DERIV)",
                 "code_unit": [
                   {
-                    "unit": "50-SN-118(G,P)49-IN-117,,SIG,,BRA",
+                    "unit": "50-SN-118(G,P)49-IN-117,,SIG,,BRA,DERIV",
                     "field": {
                       "reaction": "50-SN-118(G,P)49-IN-117",
                       "target": "50-SN-118",
@@ -2399,7 +2715,7 @@
                       "process": "P",
                       "product": "49-IN-117",
                       "quantity": ",SIG",
-                      "data_type": null,
+                      "data_type": "DERIV",
                       "general_quantity_modifier": "BRA",
                       "quantity_236": ",SIG"
                     }
@@ -2444,7 +2760,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "114Sn(g,n)113Sn as (g,n) surrogate."
+                "114Sn(g,n)113Sn measured as a surrogate of",
+                " 118Sn(g,n)117Sn."
               ]
             }
           ],
@@ -2548,11 +2865,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.A.Karamian",
+                "reference": {
+                  "code": "J,PAN,77,1429,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PAN",
+                      "number": null,
+                      "volume": "77",
+                      "part": null,
+                      "issue": null,
+                      "page": "1429"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data from table 3."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251202,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " ANALYSIS, STATUS."
               ]
             }
           ],
@@ -2598,22 +2943,22 @@
         {
           "SUBENT": {
             "N1": "M0890014",
-            "N2": 20150112,
+            "N2": 20251202,
             "alteration_flag": " ",
-            "transmission_identification": "M077"
+            "transmission_identification": "M142"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "(50-SN-116(G,P)49-IN-115-M,,SIG,,BRA)/(50-SN-116(G,N)50-SN-115,,SIG,,BRA)",
+                "code": "(50-SN-116(G,P)49-IN-115-M,,SIG,,BRA,DERIV)/(50-SN-116(G,N)50-SN-115,,SIG,,BRA,DERIV)",
                 "code_unit": [
                   {
-                    "unit": "50-SN-116(G,P)49-IN-115-M,,SIG,,BRA",
+                    "unit": "50-SN-116(G,P)49-IN-115-M,,SIG,,BRA,DERIV",
                     "field": {
                       "reaction": "50-SN-116(G,P)49-IN-115-M",
                       "target": "50-SN-116",
@@ -2621,13 +2966,13 @@
                       "process": "P",
                       "product": "49-IN-115-M",
                       "quantity": ",SIG",
-                      "data_type": null,
+                      "data_type": "DERIV",
                       "general_quantity_modifier": "BRA",
                       "quantity_236": ",SIG"
                     }
                   },
                   {
-                    "unit": "50-SN-116(G,N)50-SN-115,,SIG,,BRA",
+                    "unit": "50-SN-116(G,N)50-SN-115,,SIG,,BRA,DERIV",
                     "field": {
                       "reaction": "50-SN-116(G,N)50-SN-115",
                       "target": "50-SN-116",
@@ -2635,7 +2980,7 @@
                       "process": "N",
                       "product": "50-SN-115",
                       "quantity": ",SIG",
-                      "data_type": null,
+                      "data_type": "DERIV",
                       "general_quantity_modifier": "BRA",
                       "quantity_236": ",SIG"
                     }
@@ -2658,6 +3003,16 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "114Sn(g,n)113Sn measured as a surrogate of",
+                " 116Sn(g,n)115Sn."
               ]
             }
           ],
@@ -2736,11 +3091,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.A.Karamian",
+                "reference": {
+                  "code": "J,PAN,77,1429,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PAN",
+                      "number": null,
+                      "volume": "77",
+                      "part": null,
+                      "issue": null,
+                      "page": "1429"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data from table 3."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251202,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " ANALYSIS, STATUS."
               ]
             }
           ],
@@ -2786,22 +3169,22 @@
         {
           "SUBENT": {
             "N1": "M0890015",
-            "N2": 20150112,
+            "N2": 20251202,
             "alteration_flag": " ",
-            "transmission_identification": "M077"
+            "transmission_identification": "M142"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "(50-SN-114(G,P)49-IN-113-M,,SIG,,BRA)/(50-SN-114(G,N)50-SN-113,,SIG,,BRA,DERIV)",
+                "code": "(50-SN-114(G,P)49-IN-113-M,,SIG,,BRA,DERIV)/(50-SN-114(G,N)50-SN-113,,SIG,,BRA,DERIV)",
                 "code_unit": [
                   {
-                    "unit": "50-SN-114(G,P)49-IN-113-M,,SIG,,BRA",
+                    "unit": "50-SN-114(G,P)49-IN-113-M,,SIG,,BRA,DERIV",
                     "field": {
                       "reaction": "50-SN-114(G,P)49-IN-113-M",
                       "target": "50-SN-114",
@@ -2809,7 +3192,7 @@
                       "process": "P",
                       "product": "49-IN-113-M",
                       "quantity": ",SIG",
-                      "data_type": null,
+                      "data_type": "DERIV",
                       "general_quantity_modifier": "BRA",
                       "quantity_236": ",SIG"
                     }
@@ -2854,7 +3237,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "170Yb(g,n)169Yb as (g,n) surrogate."
+                "170Yb(g,n)169Yb measured as a surrogate of",
+                " 114Sn(g,n)113Sn."
               ]
             }
           ],
@@ -2933,11 +3317,39 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.A.Karamian",
+                "reference": {
+                  "code": "J,PAN,77,1429,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PAN",
+                      "number": null,
+                      "volume": "77",
+                      "part": null,
+                      "issue": null,
+                      "page": "1429"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data from table 3."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251202,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " ANALYSIS, STATUS."
               ]
             }
           ],
@@ -2983,22 +3395,22 @@
         {
           "SUBENT": {
             "N1": "M0890016",
-            "N2": 20150112,
+            "N2": 20251202,
             "alteration_flag": " ",
-            "transmission_identification": "M077"
+            "transmission_identification": "M142"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "(70-YB-174(G,P)69-TM-173,,SIG,,BRA)/(70-YB-174(G,N)70-YB-173,,SIG,,BRA,DERIV)",
+                "code": "(70-YB-174(G,P)69-TM-173,,SIG,,BRA,DERIV)/(70-YB-174(G,N)70-YB-173,,SIG,,BRA,DERIV)",
                 "code_unit": [
                   {
-                    "unit": "70-YB-174(G,P)69-TM-173,,SIG,,BRA",
+                    "unit": "70-YB-174(G,P)69-TM-173,,SIG,,BRA,DERIV",
                     "field": {
                       "reaction": "70-YB-174(G,P)69-TM-173",
                       "target": "70-YB-174",
@@ -3006,7 +3418,7 @@
                       "process": "P",
                       "product": "69-TM-173",
                       "quantity": ",SIG",
-                      "data_type": null,
+                      "data_type": "DERIV",
                       "general_quantity_modifier": "BRA",
                       "quantity_236": ",SIG"
                     }
@@ -3077,7 +3489,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "72-HF-175-G",
+                "nuclide": "72-HF-175",
                 "half-life": {
                   "value": 70.0,
                   "unit": "D"
@@ -3104,7 +3516,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "176Hf(g,n)175Hf as (g,n) surrogate."
+                "176Hf(g,n)175Hf measured as a surrogate of",
+                " 174Yb(g,n)173Yb."
               ]
             }
           ],
@@ -3130,11 +3543,40 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.A.Karamian",
+                "reference": {
+                  "code": "J,PAN,77,1429,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PAN",
+                      "number": null,
+                      "volume": "77",
+                      "part": null,
+                      "issue": null,
+                      "page": "1429"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data from table 3."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251202,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " DECAY-DATA: (72-HF-175-G) -> 72-HG-175),",
+                " ANALYSIS, STATUS."
               ]
             }
           ],
@@ -3180,22 +3622,22 @@
         {
           "SUBENT": {
             "N1": "M0890017",
-            "N2": 20150112,
+            "N2": 20251202,
             "alteration_flag": " ",
-            "transmission_identification": "M077"
+            "transmission_identification": "M142"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "(72-HF-178(G,P)71-LU-177-G,,SIG,,BRA)/(72-HF-178(G,N)72-HF-177,,SIG,,BRA)",
+                "code": "(72-HF-178(G,P)71-LU-177-G,,SIG,,BRA,DERIV)/(72-HF-178(G,N)72-HF-177,,SIG,,BRA,DERIV)",
                 "code_unit": [
                   {
-                    "unit": "72-HF-178(G,P)71-LU-177-G,,SIG,,BRA",
+                    "unit": "72-HF-178(G,P)71-LU-177-G,,SIG,,BRA,DERIV",
                     "field": {
                       "reaction": "72-HF-178(G,P)71-LU-177-G",
                       "target": "72-HF-178",
@@ -3203,13 +3645,13 @@
                       "process": "P",
                       "product": "71-LU-177-G",
                       "quantity": ",SIG",
-                      "data_type": null,
+                      "data_type": "DERIV",
                       "general_quantity_modifier": "BRA",
                       "quantity_236": ",SIG"
                     }
                   },
                   {
-                    "unit": "72-HF-178(G,N)72-HF-177,,SIG,,BRA",
+                    "unit": "72-HF-178(G,N)72-HF-177,,SIG,,BRA,DERIV",
                     "field": {
                       "reaction": "72-HF-178(G,N)72-HF-177",
                       "target": "72-HF-178",
@@ -3217,7 +3659,7 @@
                       "process": "N",
                       "product": "72-HF-177",
                       "quantity": ",SIG",
-                      "data_type": null,
+                      "data_type": "DERIV",
                       "general_quantity_modifier": "BRA",
                       "quantity_236": ",SIG"
                     }
@@ -3267,6 +3709,17 @@
               ]
             }
           ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "A surrogate reaction was measured, but without",
+                " specification of the surrogate reaction in the",
+                " article."
+              ]
+            }
+          ],
           "ERR-ANALYS": [
             {
               "pointer": "",
@@ -3289,11 +3742,38 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.A.Karamian",
+                "reference": {
+                  "code": "J,PAN,77,1429,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PAN",
+                      "number": null,
+                      "volume": "77",
+                      "part": null,
+                      "issue": null,
+                      "page": "1429"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
+                "",
                 " Data from table 3."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251202,
+                "history": "U"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: STATUS."
               ]
             }
           ],
