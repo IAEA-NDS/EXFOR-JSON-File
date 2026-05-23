@@ -1,5 +1,5 @@
 # EXFOR-JSON-File (J4)
-The [EXFOR JSON File (J4)](https://nds.iaea.org/nrdc/exfor-master/j4/) is a current snapshot of the EXFOR library in JSON. It is generated from the [EXFOR Entry Files](https://nds.iaea.org/nrdc/exfor-master/entry/) by using the ForEXy package [1].
+The EXFOR JSON File is the [EXFOR Entry File](https://nds.iaea.org/nrdc/exfor-master/entry/) converted to J4 (EXFOR in JSON) by ForEXy [1].
 
 **Download**
 - download the zipped file of the current version from the [EXFOR JSON File](https://nds.iaea.org/nrdc/exfor-master/j4/) website, or
