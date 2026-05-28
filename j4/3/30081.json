@@ -1,65 +1,33 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:25:43+0000",
+  "time_stamp": "2026-05-28T11:32:02+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "30081",
-        "N2": 20080215,
+        "N2": 20260407,
         "alteration_flag": " ",
-        "transmission_identification": "3125"
+        "transmission_identification": "3223"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "30081001",
-            "N2": 20080215,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3125"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 13,
+            "N1": 12,
             "N2": 0
           },
-          "INSTITUTE": [
+          "TITLE": [
             {
               "pointer": "",
-              "coded_information": [
-                "3POLIPJ"
-              ],
+              "coded_information": null,
               "free_text": [
-                ""
-              ]
-            }
-          ],
-          "REFERENCE": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "R,INR-661,196509",
-                "code_unit": [
-                  {
-                    "unit": "R,INR-661,196509",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "R",
-                      "reference": {
-                        "code": "INR-",
-                        "number": "661",
-                        "volume": null,
-                        "part": null,
-                        "issue": null,
-                        "page": null
-                      },
-                      "date": 196509
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                " discussion,curves,no data tables",
-                "curves have wrong cos(theta) scale"
+                "Angular distribution of gamma rays from inelastic",
+                " scattering of 14.1 MeV neutrons on 12C and 16O"
               ]
             }
           ],
@@ -76,13 +44,46 @@
               ]
             }
           ],
-          "TITLE": [
+          "INSTITUTE": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": [
+                "3POLIPJ"
+              ],
               "free_text": [
-                "Angular distribution of gamma rays from inelastic",
-                " scattering of 14.1 MeV neutrons on C-12 and O-16"
+                ""
+              ]
+            }
+          ],
+          "REFERENCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R,INR-661,1965",
+                "code_unit": [
+                  {
+                    "unit": "R,INR-661,1965",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "R",
+                      "reference": {
+                        "code": "INR-",
+                        "number": "661",
+                        "volume": null,
+                        "part": null,
+                        "issue": null,
+                        "page": null
+                      },
+                      "date": 1965
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                "discussion, curves, no data tables curves have wrong",
+                " cos(theta) scale"
               ]
             }
           ],
@@ -100,20 +101,6 @@
               ]
             }
           ],
-          "METHOD": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "COINC"
-              ],
-              "free_text": [
-                " the coincidence circuit between alpha and gamma",
-                " detectors with time resolution of 70 ns gated 400",
-                " channel pulse height analyser,which recorded the gamma",
-                " rays spectra."
-              ]
-            }
-          ],
           "DETECTOR": [
             {
               "pointer": "",
@@ -121,11 +108,25 @@
                 "SCIN"
               ],
               "free_text": [
-                " the alpha particles defining the cone of 14.1",
-                " MeV neutrons were detected with scintillation counter.",
-                " gamma rays from samples were detected with a 2.5 cm",
-                " diameter and 5cm long NaI-scintillation counter placed",
-                " at 13 cm from the sample."
+                " The alpha particles defining the cone of",
+                " 14.1 MeV neutrons were detected with scintillation",
+                " counter. Gamma rays from samples were detected with a",
+                " 2.5 cm diameter and 5cm long NaI-scintillation counter",
+                " placed at 13 cm from the sample."
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "COINC"
+              ],
+              "free_text": [
+                " The coincidence circuit between alpha and gamma",
+                " detectors with time resolution of 70 ns gated 400",
+                " channel pulse height analyzer, which recorded the",
+                " gamma rays spectra."
               ]
             }
           ],
@@ -158,18 +159,39 @@
               "free_text": [
                 "",
                 " Normalized to the total sigma",
-                " For excitation of the 4.43 MeV state in C-12."
+                " For excitation of the 4.43 MeV state in 12C."
               ]
             }
           ],
-          "PART-DET": [
+          "CORRECTION": [
             {
               "pointer": "",
-              "coded_information": [
-                "G"
-              ],
+              "coded_information": null,
               "free_text": [
-                " gammas"
+                "The cross-sections determined have been corrected for",
+                "the following effects=",
+                " .Attenuation of incident neutron beam in the sample",
+                " .Attenuation of gamma rays in the sample",
+                " .Angular spread of gamma rays",
+                " .Relative detection efficiency of gamma rays for",
+                "  double escape peak",
+                "In the calculation of these corrections the measured",
+                " profile of neutron beam was taken into account.",
+                "The multiple scattering corrections were only estimated"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information about source of uncertainty"
               ]
             }
           ],
@@ -181,11 +203,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "T.Kozlowski+",
+                "reference": {
+                  "code": "R,INR-661,1965",
+                  "field": {
+                    "reference_type": "R",
+                    "reference": {
+                      "code": "INR-",
+                      "number": "661",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": null
+                    },
+                    "date": 1965
+                  }
+                }
               },
               "free_text": [
-                " data from Kozlowski (letter of 17Feb1967)"
+                "",
+                "  data from Kozlowski (letter of 17Feb1967)"
               ]
             }
           ],
@@ -209,37 +246,15 @@
               "free_text": [
                 " BIB section updated"
               ]
-            }
-          ],
-          "CORRECTION": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "The cross-sections determined have been corrected for",
-                "the following effects=",
-                " .Attenuation of incident neutron beam in the sample",
-                " .Attenuation of gamma rays in the sample",
-                " .Angular spread of gamma rays",
-                " .Relative detection efficiency of gamma rays for",
-                "  double escape peak",
-                "In the calculation of these corrections the measured",
-                "profile of neutron beam was taken into account.",
-                "The multiple scattering corrections were only estimated"
-              ]
-            }
-          ],
-          "ERR-ANALYS": [
+            },
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
+                "date": 20260407,
+                "history": "A"
               },
               "free_text": [
-                " No information"
+                " VT. Entry revised"
               ]
             }
           ],
@@ -279,9 +294,9 @@
         {
           "SUBENT": {
             "N1": "30081002",
-            "N2": 20080215,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3125"
+            "transmission_identification": "3223"
           },
           "BIB": {
             "N1": 3,
@@ -311,9 +326,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                "",
-                " Angular distribution",
-                "of 4.47 MeV gammas"
+                ""
               ]
             }
           ],
@@ -322,8 +335,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Solid-  the samples of graphite were cylinders 4 cm",
-                " in diameter and 5 cm long."
+                "Solid sample of graphite were cylinders 4 cm in",
+                " diameter and 5 cm long."
               ]
             }
           ],
@@ -336,6 +349,16 @@
               },
               "free_text": [
                 " compiled into Dastar-229"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Original number expression restored."
               ]
             }
           ],
@@ -431,9 +454,9 @@
         {
           "SUBENT": {
             "N1": "30081003",
-            "N2": 20080215,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3125"
+            "transmission_identification": "3223"
           },
           "BIB": {
             "N1": 4,
@@ -488,8 +511,7 @@
                 "reference": null
               },
               "free_text": [
-                " Legendre-fit to angular distribution",
-                "given in subentry .002"
+                " Legendre-fit to angular distribution"
               ]
             }
           ],
@@ -502,6 +524,17 @@
               },
               "free_text": [
                 " compiled into Dastar-229"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "S"
+              },
+              "free_text": [
+                " VT. DATA: 0.45+/-0.14-> -0.45+/-0.14",
+                " replaced and original number expression restored."
               ]
             }
           ],
@@ -555,7 +588,7 @@
               ],
               [
                 4.0,
-                0.45,
+                -0.45,
                 0.14
               ]
             ]
@@ -572,9 +605,9 @@
         {
           "SUBENT": {
             "N1": "30081004",
-            "N2": 20080215,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3125"
+            "transmission_identification": "3223"
           },
           "BIB": {
             "N1": 3,
@@ -604,9 +637,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                "",
-                "   Angular distribution of",
-                "6.14 MeV gammas"
+                ""
               ]
             }
           ],
@@ -615,8 +646,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Water sample was cylinder 4 cm in diameter",
-                " and 5 cm in height."
+                "Water sample was cylinder 4 cm in diameter and 5 cm in",
+                " height."
               ]
             }
           ],
@@ -629,6 +660,16 @@
               },
               "free_text": [
                 " compiled into Dastar-230"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Original number expression restored."
               ]
             }
           ],
@@ -724,9 +765,9 @@
         {
           "SUBENT": {
             "N1": "30081005",
-            "N2": 20080215,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3125"
+            "transmission_identification": "3223"
           },
           "BIB": {
             "N1": 4,
@@ -756,18 +797,18 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                "",
-                "   Total cross section for excitation",
-                "of the 6.14 MeV level"
+                ""
               ]
             }
           ],
-          "ANALYSIS": [
+          "PART-DET": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": [
+                "G"
+              ],
               "free_text": [
-                "Integration"
+                ""
               ]
             }
           ],
@@ -783,8 +824,7 @@
                 "reference": null
               },
               "free_text": [
-                " integrated angular differential sigma",
-                "given in  subentry 004"
+                " integrated angular differential sigma"
               ]
             }
           ],
@@ -796,7 +836,17 @@
                 "history": "C"
               },
               "free_text": [
-                "compiled into Dastar-230"
+                " compiled into Dastar-230"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Original number expression restored."
               ]
             }
           ],
@@ -858,9 +908,9 @@
         {
           "SUBENT": {
             "N1": "30081006",
-            "N2": 20080215,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3125"
+            "transmission_identification": "3223"
           },
           "BIB": {
             "N1": 4,
@@ -915,8 +965,7 @@
                 "reference": null
               },
               "free_text": [
-                " Legendre-fit to angular distribution",
-                "given in subentry 004"
+                " Legendre-fit to angular distribution"
               ]
             }
           ],
@@ -929,6 +978,16 @@
               },
               "free_text": [
                 " compiled into Dastar-230"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Original number expression restored."
               ]
             }
           ],

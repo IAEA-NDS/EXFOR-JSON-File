@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-28T11:32:09+0000",
+  "time_stamp": "2026-05-28T11:32:14+0000",
   "entries": [
     {
       "ENTRY": {
-        "N1": "32875",
-        "N2": 20260403,
+        "N1": "33226",
+        "N2": 20260406,
         "alteration_flag": " ",
         "transmission_identification": "3223"
       },
       "subentries": [
         {
           "SUBENT": {
-            "N1": "32875001",
-            "N2": 20260403,
+            "N1": "33226001",
+            "N2": 20260406,
             "alteration_flag": " ",
             "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 16,
+            "N1": 14,
             "N2": 0
           },
           "TITLE": [
@@ -26,8 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Measurement of 78Kr(n,2n)77Kr reaction cross section",
-                " induced by 14.8 MeV neutron"
+                "Determination of thermal neutron capture cross-section",
+                " of cerium isotopes"
               ]
             }
           ],
@@ -35,15 +35,14 @@
             {
               "pointer": "",
               "coded_information": [
-                "Liang Jianfeng",
-                "Xie Feng",
-                "Ruan Xichao",
-                "Bao Jie",
-                "Chen Xiongjun",
-                "Shi Quanlin",
-                "Li Xuesong",
-                "Yu Gongshuo",
-                "Kang Tai"
+                "Samrudhi R.Kanjarpane",
+                "P.M.Prajapati",
+                "S.Shet",
+                "B.Soni",
+                "D.Bhandari",
+                "R.Kumar",
+                "R.G.Pizzone",
+                "S.V.Suryanarayana"
               ],
               "free_text": [
                 ""
@@ -54,11 +53,32 @@
             {
               "pointer": "",
               "coded_information": [
-                "3CPRNIX",
-                "3CPRAEP"
+                "3INDMNP",
+                "2ITYLNS",
+                "3INDBDA",
+                "3INDTRM",
+                "2ITYCAT"
               ],
               "free_text": [
                 ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "3INDIND"
+              ],
+              "free_text": [
+                " ITM SLS Baroda University, Vadodara"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "3INDIND"
+              ],
+              "free_text": [
+                " Homi Bhabha National Institute, Mumbai"
               ]
             }
           ],
@@ -66,44 +86,40 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,CST,56,835,2022",
+                "code": "J,EPJ/A,61,149,2025",
                 "code_unit": [
                   {
-                    "unit": "J,CST,56,835,2022",
-                    "doi": null,
+                    "unit": "J,EPJ/A,61,149,2025",
+                    "doi": "10.1140/epja/s10050-025-01621-6",
                     "field": {
                       "reference_type": "J",
                       "reference": {
-                        "code": "CST",
+                        "code": "EPJ/A",
                         "number": null,
-                        "volume": "56",
+                        "volume": "61",
                         "part": null,
                         "issue": null,
-                        "page": "835"
+                        "page": "149"
                       },
-                      "date": 2022
+                      "date": 2025
                     }
                   }
                 ],
                 "unit_combination": "(%)"
               },
               "free_text": [
-                "",
-                "#doi:10.7538/yzk.2021.youxian.1030"
+                ""
               ]
             }
           ],
-          "FACILITY": [
+          "SAMPLE": [
             {
               "pointer": "",
-              "coded_information": {
-                "facility": [
-                  "CCW"
-                ],
-                "institute": "3CPRAEP"
-              },
+              "coded_information": null,
               "free_text": [
-                ""
+                "Natural CeO2 powder (1.8 gm, 1.66 g cerium) was",
+                " pelletised at 5 MPa. The pellet had a height of",
+                " 4.3 mm, radius of 6.5 mm, and density of 3.14 g/cm3."
               ]
             }
           ],
@@ -112,36 +128,24 @@
               "pointer": "",
               "coded_information": {
                 "incident_source": [
-                  "D-T"
+                  "AM-BE"
                 ],
                 "reaction": null
               },
               "free_text": [
-                " Quasi monoenergetic neutron beams with a yield",
-                " of about 3E10 n/s were produced via the T(d,n)4He",
-                " reaction. The ion beam current was about 250 uA, and",
-                " the average energy of D+ particles was about 300 keV."
+                " The neutron source having yield of",
+                " 4 X 10**7 neutrons/second in 4pi geometry."
               ]
             }
           ],
-          "SAMPLE": [
+          "DETECTOR": [
             {
               "pointer": "",
-              "coded_information": {
-                "nuclide": "36-KR-78",
-                "field_identifier": "NAT",
-                "value": 0.995
-              },
+              "coded_information": [
+                "HPGE"
+              ],
               "free_text": [
-                "",
-                "+-----------------------------------------------------+",
-                " No.  Box mass  Box with 78Kr  Mass of 78Kr  Err",
-                "      g         g              mg            %",
-                "-------------------------------------------------------",
-                " 1#   3.60660   3.61364        7.04          1.4",
-                " 2#   3.54253   3.55011        7.58          1.3",
-                " 3#   3.54984   3.55833        8.49          1.2",
-                "+-----------------------------------------------------+"
+                ""
               ]
             }
           ],
@@ -152,32 +156,18 @@
                 "ACTIV"
               ],
               "free_text": [
-                " Irradiating the sample target more than 4",
-                " hours."
+                " Irradiation: 14 days; counting: 27 hours."
               ]
             }
           ],
-          "DETECTOR": [
+          "ANALYSIS": [
             {
               "pointer": "",
-              "coded_information": [
-                "SIBAR"
-              ],
+              "coded_information": null,
               "free_text": [
-                " The neutron fluence was determined by",
-                " associated alpha-particle counting with a Au-Si",
-                " surface barrier detector"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "HPGE"
-              ],
-              "free_text": [
-                " A coaxial High Purity Germanium Detector, the",
-                " relative efficiency was 60%, the resolution was",
-                " 1.8 keV for 1332 keV gamma-ray."
+                "A value of 73.8% was adopted for the",
+                " thermal-to-epithermal neutron ratio based on previous",
+                " measurements using cadmium covers."
               ]
             }
           ],
@@ -187,16 +177,16 @@
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "41-NB-93(N,2N)41-NB-92-M,,SIG",
+                  "code": "79-AU-197(N,G)79-AU-198,,SIG",
                   "code_unit": [
                     {
-                      "unit": "41-NB-93(N,2N)41-NB-92-M,,SIG",
+                      "unit": "79-AU-197(N,G)79-AU-198,,SIG",
                       "field": {
-                        "reaction": "41-NB-93(N,2N)41-NB-92-M",
-                        "target": "41-NB-93",
+                        "reaction": "79-AU-197(N,G)79-AU-198",
+                        "target": "79-AU-197",
                         "projectile": "N",
-                        "process": "2N",
-                        "product": "41-NB-92-M",
+                        "process": "G",
+                        "product": "79-AU-198",
                         "quantity": ",SIG",
                         "data_type": null,
                         "general_quantity_modifier": null,
@@ -212,44 +202,14 @@
               ]
             }
           ],
-          "MONIT-REF": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "subentry_number": null,
-                "author": "M.Wagner+",
-                "reference": {
-                  "code": "B,PH-DAT,13-5,,1990",
-                  "field": {
-                    "reference_type": "B",
-                    "reference": {
-                      "code": "PH-DAT",
-                      "number": null,
-                      "volume": "13-5",
-                      "part": null,
-                      "issue": null,
-                      "page": "",
-                      "version": null,
-                      "material_number": null
-                    },
-                    "date": 1990
-                  }
-                }
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "DECAY-MON": [
             {
               "pointer": "",
               "coded_information": {
                 "heading": null,
-                "nuclide": "41-NB-92-M",
+                "nuclide": "79-AU-198-G",
                 "half-life": {
-                  "value": 10.15,
+                  "value": 2.7,
                   "unit": "D"
                 },
                 "radiation": [
@@ -258,27 +218,14 @@
                       "DG"
                     ],
                     "energy": [
-                      934.5
+                      411.0
                     ],
-                    "intensity": 0.9915
+                    "intensity": 0.965
                   }
                 ]
               },
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "CORRECTION": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Neutron fluence rate fluctuation correction factors",
-                " for 77Kr and 92Nbm were 1.026 and 1.003. Neutron",
-                " fluence rate correction factor was 0.997. Activity",
-                " measurement correction factors for 77Kr and 92Nbm",
-                " were 0.970 and 0.998."
               ]
             }
           ],
@@ -292,19 +239,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Total uncertainty was 4.1%"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-S",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Peak counting for 77Kr"
+                " Total uncertainties are due to"
               ]
             },
             {
@@ -316,7 +251,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Detection efficiency of 77Kr"
+                " Counting statistics of 140Ce, 142Ce"
               ]
             },
             {
@@ -328,7 +263,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Detection efficiency of 92Nbm"
+                " Counting statistics of 197Au"
               ]
             },
             {
@@ -340,7 +275,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Gamma-ray emission probability of 77Kr"
+                " Detector efficiency of 140Ce, 142Ce"
               ]
             },
             {
@@ -352,7 +287,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Gamma-ray emission probability of 92Nbm"
+                " Detector efficiency of 197Au"
               ]
             },
             {
@@ -364,7 +299,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Half-life of 77Kr"
+                " Gamma emission probability of 140Ce, 142Ce"
               ]
             },
             {
@@ -376,7 +311,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Half-life of 92Nbm"
+                " Gamma emission probability of 197Au"
               ]
             },
             {
@@ -388,7 +323,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Number of 77Kr"
+                " Time factor of 140Ce, 142Ce"
               ]
             },
             {
@@ -400,7 +335,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Number of 92Nbm"
+                " Time factor of 197Au"
               ]
             },
             {
@@ -412,7 +347,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Neutron fluence"
+                " Atomic mass of 140Ce, 142Ce"
               ]
             },
             {
@@ -424,7 +359,19 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Peak counting for 92Nbm"
+                " Atomic mass of 197Au"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-11",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Sample mass of 197Au"
               ]
             },
             {
@@ -436,7 +383,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Standard cross section"
+                " Monitor cross section of 197Au"
               ]
             }
           ],
@@ -448,25 +395,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": "Liang Jianfeng+",
+                "author": "Samrudhi R.Kanjarpane+",
                 "reference": {
-                  "code": "J,CST,56,835,2022",
+                  "code": "J,EPJ/A,61,149,2025",
                   "field": {
                     "reference_type": "J",
                     "reference": {
-                      "code": "CST",
+                      "code": "EPJ/A",
                       "number": null,
-                      "volume": "56",
+                      "volume": "61",
                       "part": null,
                       "issue": null,
-                      "page": "835"
+                      "page": "149"
                     },
-                    "date": 2022
+                    "date": 2025
                   }
                 }
               },
               "free_text": [
-                " Table 3"
+                "",
+                " Table 10,12"
               ]
             }
           ],
@@ -474,21 +422,11 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 20251203,
+                "date": 20260406,
                 "history": "C"
               },
               "free_text": [
-                " Compiled by Xi Tao (CNDC)"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 20260403,
-                "history": "A"
-              },
-              "free_text": [
-                " On. Major revision in 002."
+                " VT"
               ]
             }
           ],
@@ -497,12 +435,9 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 11,
+            "N1": 8,
             "N2": 0,
             "pointer": [
-              "",
-              "",
-              "",
               "",
               "",
               "",
@@ -513,43 +448,34 @@
               ""
             ],
             "heading": [
-              "ERR-S",
-              "ERR-1",
+              "EN",
+              "MONIT-ERR",
               "ERR-2",
-              "ERR-3",
               "ERR-4",
-              "ERR-5",
               "ERR-6",
-              "ERR-7",
               "ERR-8",
-              "ERR-9",
-              "ERR-10"
+              "ERR-10",
+              "ERR-11"
             ],
             "unit": [
-              "PER-CENT",
-              "PER-CENT",
-              "PER-CENT",
-              "PER-CENT",
-              "PER-CENT",
-              "PER-CENT",
-              "PER-CENT",
-              "PER-CENT",
-              "PER-CENT",
-              "PER-CENT",
-              "PER-CENT"
+              "EV",
+              "B",
+              "B",
+              "B",
+              "B",
+              "B",
+              "B",
+              "B"
             ],
             "value": [
-              1.0,
-              2.0,
-              1.0,
-              2.5,
-              0.04,
-              0.6,
-              0.2,
-              1.5,
-              0.1,
-              0.5,
-              0.5
+              0.0253,
+              6.0924e-10,
+              0.007215,
+              0.074064,
+              0.0041173,
+              0.000796,
+              0.0226804,
+              0.016666667
             ]
           },
           "ENDCOMMON": {
@@ -563,8 +489,8 @@
         },
         {
           "SUBENT": {
-            "N1": "32875002",
-            "N2": 20260403,
+            "N1": "33226002",
+            "N2": 20260406,
             "alteration_flag": " ",
             "transmission_identification": "3223"
           },
@@ -576,16 +502,16 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "36-KR-78(N,2N)36-KR-77,,SIG",
+                "code": "58-CE-140(N,G)58-CE-141,,SIG",
                 "code_unit": [
                   {
-                    "unit": "36-KR-78(N,2N)36-KR-77,,SIG",
+                    "unit": "58-CE-140(N,G)58-CE-141,,SIG",
                     "field": {
-                      "reaction": "36-KR-78(N,2N)36-KR-77",
-                      "target": "36-KR-78",
+                      "reaction": "58-CE-140(N,G)58-CE-141",
+                      "target": "58-CE-140",
                       "projectile": "N",
-                      "process": "2N",
-                      "product": "36-KR-77",
+                      "process": "G",
+                      "product": "58-CE-141",
                       "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
@@ -605,10 +531,10 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "36-KR-77",
+                "nuclide": "58-CE-141",
                 "half-life": {
-                  "value": 71.17,
-                  "unit": "MIN"
+                  "value": 32.5,
+                  "unit": "D"
                 },
                 "radiation": [
                   {
@@ -616,9 +542,9 @@
                       "DG"
                     ],
                     "energy": [
-                      129.6
+                      145.0
                     ],
-                    "intensity": 0.81
+                    "intensity": 0.48
                   }
                 ]
               },
@@ -627,44 +553,28 @@
               ]
             }
           ],
-          "FLAG": [
-            {
-              "pointer": "",
-              "coded_information": [
-                1.0
-              ],
-              "free_text": [
-                " Sample 1#"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                2.0
-              ],
-              "free_text": [
-                " Sample 2#"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                3.0
-              ],
-              "free_text": [
-                " Sample 3#"
-              ]
-            }
-          ],
-          "HISTORY": [
+          "SAMPLE": [
             {
               "pointer": "",
               "coded_information": {
-                "date": 20250403,
-                "history": "A"
+                "nuclide": "58-CE-140",
+                "field_identifier": "NAT",
+                "value": 0.8845
               },
               "free_text": [
-                " On. DATA: B -> MB."
+                " 140Ce of mass 1.46 gm."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for:",
+                ". Geometric efficiency (9.60 X E-01)",
+                ". Linear attenuation coefficient (1.69 u/cm)",
+                ". Self-shielding factor (1.40)"
               ]
             }
           ],
@@ -678,7 +588,7 @@
           },
           "DATA": {
             "N1": 7,
-            "N2": 3,
+            "N2": 1,
             "pointer": [
               "",
               "",
@@ -689,50 +599,32 @@
               ""
             ],
             "heading": [
-              "EN",
-              "EN-RSL-HW",
               "DATA",
               "ERR-T",
-              "FLAG",
-              "MONIT",
-              "MONIT-ERR"
+              "ERR-1",
+              "ERR-3",
+              "ERR-5",
+              "ERR-7",
+              "ERR-9"
             ],
             "unit": [
-              "MEV",
-              "MEV",
-              "MB",
-              "MB",
-              "NO-DIM",
-              "MB",
-              "MB"
+              "B",
+              "B",
+              "B",
+              "B",
+              "B",
+              "B",
+              "B"
             ],
             "value": [
               [
-                14.8,
-                0.2,
-                461.0,
-                19.0,
-                1.0,
-                459.7,
-                5.0
-              ],
-              [
-                14.8,
-                0.2,
-                463.0,
-                19.0,
-                2.0,
-                459.7,
-                5.0
-              ],
-              [
-                14.8,
-                0.2,
-                469.0,
-                19.0,
-                3.0,
-                459.7,
-                5.0
+                0.54,
+                0.03,
+                0.010072,
+                0.058848,
+                0.0014534,
+                0.000427,
+                8.57722e-11
               ]
             ]
           },
@@ -747,32 +639,32 @@
         },
         {
           "SUBENT": {
-            "N1": "32875003",
-            "N2": 20251203,
+            "N1": "33226003",
+            "N2": 20260406,
             "alteration_flag": " ",
-            "transmission_identification": "3221"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "36-KR-78(N,2N)36-KR-77,,SIG,,AV",
+                "code": "58-CE-142(N,G)58-CE-143,,SIG",
                 "code_unit": [
                   {
-                    "unit": "36-KR-78(N,2N)36-KR-77,,SIG,,AV",
+                    "unit": "58-CE-142(N,G)58-CE-143,,SIG",
                     "field": {
-                      "reaction": "36-KR-78(N,2N)36-KR-77",
-                      "target": "36-KR-78",
+                      "reaction": "58-CE-142(N,G)58-CE-143",
+                      "target": "58-CE-142",
                       "projectile": "N",
-                      "process": "2N",
-                      "product": "36-KR-77",
+                      "process": "G",
+                      "product": "58-CE-143",
                       "quantity": ",SIG",
                       "data_type": null,
-                      "general_quantity_modifier": "AV",
+                      "general_quantity_modifier": null,
                       "quantity_236": ",SIG"
                     }
                   }
@@ -784,19 +676,55 @@
               ]
             }
           ],
-          "STATUS": [
+          "DECAY-DATA": [
             {
               "pointer": "",
               "coded_information": {
-                "status": [
-                  "DEP"
-                ],
-                "subentry_number": "32875002",
-                "author": null,
-                "reference": null
+                "flag": null,
+                "nuclide": "58-CE-143",
+                "half-life": {
+                  "value": 33.03,
+                  "unit": "HR"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      293.0
+                    ],
+                    "intensity": 0.42
+                  }
+                ]
               },
               "free_text": [
-                " Measured cross sections for 3 samples"
+                ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "nuclide": "58-CE-142",
+                "field_identifier": "NAT",
+                "value": 0.1111
+              },
+              "free_text": [
+                " 142Ce of mass 0.18 gm."
+              ]
+            }
+          ],
+          "CORRECTION": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Corrected for:",
+                ". Geometric efficiency (9.60 X E-01)",
+                ". Linear attenuation coefficient (0.6 u/cm)",
+                ". Self-shielding factor (1.10)"
               ]
             }
           ],
@@ -809,9 +737,10 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 6,
+            "N1": 7,
             "N2": 1,
             "pointer": [
+              "",
               "",
               "",
               "",
@@ -820,29 +749,32 @@
               ""
             ],
             "heading": [
-              "EN",
-              "EN-RSL-HW",
               "DATA",
               "ERR-T",
-              "MONIT",
-              "MONIT-ERR"
+              "ERR-1",
+              "ERR-3",
+              "ERR-5",
+              "ERR-7",
+              "ERR-9"
             ],
             "unit": [
-              "MEV",
-              "MEV",
-              "MB",
-              "MB",
-              "MB",
-              "MB"
+              "B",
+              "B",
+              "B",
+              "B",
+              "B",
+              "B",
+              "B"
             ],
             "value": [
               [
-                14.8,
-                0.2,
-                464.0,
-                19.0,
-                459.7,
-                5.0
+                0.83,
+                0.04,
+                0.010004,
+                0.055858,
+                0.0029322,
+                0.000194,
+                8.39694e-11
               ]
             ]
           },

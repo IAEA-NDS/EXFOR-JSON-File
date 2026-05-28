@@ -1,26 +1,47 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:26:45+0000",
+  "time_stamp": "2026-05-28T11:32:02+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "30143",
-        "N2": 20080208,
+        "N2": 20260407,
         "alteration_flag": " ",
-        "transmission_identification": "3126"
+        "transmission_identification": "3223"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "30143001",
-            "N2": 20080208,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3126"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 10,
+            "N1": 15,
             "N2": 0
           },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Fission spectrum averaged cross sections of threshold",
+                " reactions"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "J.W.Boldeman"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "INSTITUTE": [
             {
               "pointer": "",
@@ -36,10 +57,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,JNE/AB,18,(8),417,196408",
+                "code": "J,JNE/AB,18,417,1964",
                 "code_unit": [
                   {
-                    "unit": "J,JNE/AB,18,(8),417,196408",
+                    "unit": "J,JNE/AB,18,417,1964",
                     "doi": "10.1016/0368-3230(64)90016-3",
                     "field": {
                       "reference_type": "J",
@@ -48,38 +69,31 @@
                         "number": null,
                         "volume": "18",
                         "part": null,
-                        "issue": "8",
+                        "issue": null,
                         "page": "417"
                       },
-                      "date": 196408
+                      "date": 1964
                     }
                   }
                 ],
                 "unit_combination": "(%)"
               },
               "free_text": [
-                "Full info. Compared other"
-              ]
-            }
-          ],
-          "AUTHOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "J.W.Boldeman"
-              ],
-              "free_text": [
                 ""
               ]
             }
           ],
-          "TITLE": [
+          "FACILITY": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "facility": [
+                  "REAC"
+                ],
+                "institute": "3AULAUA"
+              },
               "free_text": [
-                "Fission spectrum averaged cross sections of threshold",
-                "reactions (part I)."
+                " MOATA reactor"
               ]
             }
           ],
@@ -96,11 +110,9 @@
                 " Moata reactor of UTR10 type with neutron",
                 "converter, see 'INC-SPEC'.",
                 ".Samples were irradiated at center of a neutron",
-                "converter consisting of an air-cooled hollow cylinder",
-                "of enriched U-Al alloy,2.5 cm dia.,10 cm long,contain-",
-                "ing 10 gram of U-235 (drawing and isotopic analysis in",
-                "JNE A/B 18,417(1964)), located in the internal graphite",
-                "reflector between the two core tanks of the reactor"
+                " converter consisting of an air-cooled hollow cylinder",
+                " of enriched U-Al alloy,2.5 cm dia.,10 cm long,",
+                " containing 10 gram of U-235."
               ]
             }
           ],
@@ -110,13 +122,11 @@
               "coded_information": null,
               "free_text": [
                 "Spectrum at the center of neutron converter conformed",
-                "closely to the U-235 fission spectrum. Fast flux was",
-                "4.14x10**10 n/cm2/sec. Daily variation was monitored by",
-                "the Al-27(n,alpha)Na-24 reaction. Fast flux from fuel",
-                "elements was 10**9 n/cm2/sec, less than 2.5% of fast",
-                "flux inside the converter. Measurements of fast flux by",
-                "5 monitor reactions agreed within cross section errors",
-                "and with calculated flux. Irradiation times were 3-6 hr"
+                " closely to the U-235 fission spectrum. Fast flux was",
+                " 4.14 X 10**10 n/cm2/sec. Daily variation was monitored",
+                " 27Al(n,alpha)24Na reaction. Fast flux from fuel",
+                " elements was 10**9 n/cm2/sec, less than 2.5% of fast",
+                " flux inside the converter."
               ]
             }
           ],
@@ -129,6 +139,92 @@
               ]
             }
           ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "NAICR"
+              ],
+              "free_text": [
+                " The absolute activity of the samples were",
+                " measured using NaI(Tl) crystal spectrometers of",
+                " various sizes (1 X 14 inches, 8 X 4 inches; and",
+                " 2 X 2 inches crystals in 4pi geometry)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": [
+                "PROPC"
+              ],
+              "free_text": [
+                " 4pi beta- proportional counter was used for",
+                " counting the separated beta-emitting products of",
+                " 31P(n,p)31Si and 32S(n,p)32P"
+              ]
+            }
+          ],
+          "MONITOR": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "reaction": {
+                  "code": "16-S-32(N,P)15-P-32,,SIG,,FIS",
+                  "code_unit": [
+                    {
+                      "unit": "16-S-32(N,P)15-P-32,,SIG,,FIS",
+                      "field": {
+                        "reaction": "16-S-32(N,P)15-P-32",
+                        "target": "16-S-32",
+                        "projectile": "N",
+                        "process": "P",
+                        "product": "15-P-32",
+                        "quantity": ",SIG",
+                        "data_type": null,
+                        "general_quantity_modifier": "FIS",
+                        "quantity_236": ",SIG"
+                      }
+                    }
+                  ],
+                  "unit_combination": "(%)"
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": "30143016",
+                "author": "J.W.BOLDEMAN",
+                "reference": {
+                  "code": "J,JNE/AB,18,417,1964",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JNE/AB",
+                      "number": null,
+                      "volume": "18",
+                      "part": null,
+                      "issue": null,
+                      "page": "417",
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 1964
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "METHOD": [
             {
               "pointer": "",
@@ -136,7 +232,21 @@
                 "ACTIV"
               ],
               "free_text": [
-                " Activation"
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " No information about source of uncertainty"
               ]
             }
           ],
@@ -148,12 +258,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.W.Boldeman",
+                "reference": {
+                  "code": "J,JNE/AB,18,417,1964",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JNE/AB",
+                      "number": null,
+                      "volume": "18",
+                      "part": null,
+                      "issue": null,
+                      "page": "417"
+                    },
+                    "date": 1964
+                  }
+                }
               },
               "free_text": [
-                " Data taken from J.Nucl.Energy,A/B,18(1964)417,",
-                "                                             Table 3"
+                " Table 3"
               ]
             }
           ],
@@ -196,8 +319,8 @@
               },
               "free_text": [
                 " HW. -New subentry 30143016 added (previous",
-                "subentry 70317006). Keyword monitor and monitor value",
-                "in common moved to subentries 002 - 015.-"
+                " subentry 70317006). Keyword monitor and monitor value",
+                " in common moved to subentries 002 - 015.-"
               ]
             },
             {
@@ -208,7 +331,7 @@
               },
               "free_text": [
                 " HW.- 'SPA' replaced by 'FIS' in SF8 of",
-                "subents 02-15"
+                " subents 02-15"
               ]
             },
             {
@@ -220,6 +343,16 @@
               "free_text": [
                 " BIB section updated"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Entry revised"
+              ]
             }
           ],
           "ENDBIB": {
@@ -227,19 +360,27 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 3,
             "N2": 0,
             "pointer": [
+              "",
+              "",
               ""
             ],
             "heading": [
-              "EN-DUMMY"
+              "KT-DUMMY",
+              "MONIT",
+              "MONIT-ERR"
             ],
             "unit": [
-              "MEV"
+              "MEV",
+              "MB",
+              "MB"
             ],
             "value": [
-              1.0
+              1.32,
+              60.0,
+              1.2
             ]
           },
           "ENDCOMMON": {
@@ -254,12 +395,12 @@
         {
           "SUBENT": {
             "N1": "30143002",
-            "N2": 20080208,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3126"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -290,91 +431,12 @@
               ]
             }
           ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "NAICR"
-              ],
-              "free_text": [
-                "The absolute activities of samples were measured",
-                "with one or more of 4 Na-I(Tl) crystal spectrometers",
-                "by comparison with an absolutely calibrated standard of",
-                "the same isotope. Details and estimated accuracy in",
-                "J.Nucl.Energy A/B 18,417(1964).",
-                ".Samples were placed directly on top of the Na-I",
-                "crystals during counting. Position was reproducible to",
-                "0.05 cm. Maximum variation in sample size was 0.10 cm."
-              ]
-            }
-          ],
-          "MONITOR": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "reaction": {
-                  "code": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                  "code_unit": [
-                    {
-                      "unit": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                      "field": {
-                        "reaction": "16-S-32(N,P)15-P-32",
-                        "target": "16-S-32",
-                        "projectile": "N",
-                        "process": "P",
-                        "product": "15-P-32",
-                        "quantity": ",SIG",
-                        "data_type": null,
-                        "general_quantity_modifier": "FIS",
-                        "quantity_236": ",SIG"
-                      }
-                    }
-                  ],
-                  "unit_combination": "(%)"
-                }
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "MONIT-REF": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "subentry_number": "30143016",
-                "author": "J.W.BOLDEMAN",
-                "reference": {
-                  "code": "J,JNE/AB,18,(8),417,196408",
-                  "field": {
-                    "reference_type": "J",
-                    "reference": {
-                      "code": "JNE/AB",
-                      "number": null,
-                      "volume": "18",
-                      "part": null,
-                      "issue": "8",
-                      "page": "417",
-                      "version": null,
-                      "material_number": null
-                    },
-                    "date": 196408
-                  }
-                }
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "DECAY-DATA": [
             {
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "11-NA-24-G",
+                "nuclide": "11-NA-24",
                 "half-life": {
                   "value": 15.05,
                   "unit": "HR"
@@ -405,7 +467,7 @@
               },
               "free_text": [
                 " HW.-Keywords monitor and monit-ref added",
-                "and monitor value added in common section.-"
+                " and monitor value added in common section.-"
               ]
             },
             {
@@ -416,7 +478,19 @@
               },
               "free_text": [
                 " HW.- 'SPA' replaced by 'FIS' in SF8 of",
-                "reaction and monitor.-"
+                " reaction and monitor.-"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DATA-ERR: 11-NA-24-G-> 11-NA-24",
+                " replaced. DETECTOR; MONITOR shifted to 001 and",
+                " original number expression restored."
               ]
             }
           ],
@@ -424,27 +498,7 @@
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "MONIT",
-              "MONIT-ERR"
-            ],
-            "unit": [
-              "MB",
-              "MB"
-            ],
-            "value": [
-              60.0,
-              1.2
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -482,12 +536,12 @@
         {
           "SUBENT": {
             "N1": "30143003",
-            "N2": 20080208,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3126"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 8,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -512,85 +566,6 @@
                   }
                 ],
                 "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "NAICR"
-              ],
-              "free_text": [
-                "The absolute activity of the sample was measured",
-                "with one or more of 4 Na-I(Tl) crystal spectrometers",
-                "whose efficiencies had been determined at 11 energies",
-                "using absolutely calibrated standards. Details and",
-                "estimated error in J.Nucl.Energy A/B 18,417(1964).",
-                ".Samples were placed directly on top of the Na-I",
-                "crystals during counting, position was reproducible to",
-                "0.05 cm. Maximum variation in sample size was 0.10 cm."
-              ]
-            }
-          ],
-          "MONITOR": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "reaction": {
-                  "code": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                  "code_unit": [
-                    {
-                      "unit": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                      "field": {
-                        "reaction": "16-S-32(N,P)15-P-32",
-                        "target": "16-S-32",
-                        "projectile": "N",
-                        "process": "P",
-                        "product": "15-P-32",
-                        "quantity": ",SIG",
-                        "data_type": null,
-                        "general_quantity_modifier": "FIS",
-                        "quantity_236": ",SIG"
-                      }
-                    }
-                  ],
-                  "unit_combination": "(%)"
-                }
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "MONIT-REF": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "subentry_number": "30143016",
-                "author": "J.W.BOLDEMAN",
-                "reference": {
-                  "code": "J,JNE/AB,18,(8),417,196408",
-                  "field": {
-                    "reference_type": "J",
-                    "reference": {
-                      "code": "JNE/AB",
-                      "number": null,
-                      "volume": "18",
-                      "part": null,
-                      "issue": "8",
-                      "page": "417",
-                      "version": null,
-                      "material_number": null
-                    },
-                    "date": 196408
-                  }
-                }
               },
               "free_text": [
                 ""
@@ -630,23 +605,18 @@
               "coded_information": null,
               "free_text": [
                 "Corrections were made for gamma sum-peaks and for",
-                "compton background when necessary."
+                " Compton background when necessary."
               ]
             }
           ],
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
+              "coded_information": null,
               "free_text": [
-                " Uncertainty in branching ratios has not",
-                "been included in error given. Assumed values of decay",
-                "parameters are given in J.Nucl.Energy A/B 18,417(1964)."
+                "Uncertainty in branching ratios has not been included",
+                " in error given. Assumed values of decay parameters are",
+                " given in J.Nucl.Energy A/B 18,417(1964)"
               ]
             }
           ],
@@ -659,7 +629,7 @@
               },
               "free_text": [
                 " HW. -Keywords monitor and monit-ref added",
-                "and monitor value added in common section.-"
+                " and monitor value added in common section.-"
               ]
             },
             {
@@ -670,7 +640,18 @@
               },
               "free_text": [
                 " HW.- 'SPA' replaced by 'FIS' in SF8 of",
-                "reaction and monitor.-"
+                " reaction and monitor.-"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DETECTOR; MONITOR shifted to 001 and",
+                " original number expression restored."
               ]
             }
           ],
@@ -678,27 +659,7 @@
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "MONIT",
-              "MONIT-ERR"
-            ],
-            "unit": [
-              "MB",
-              "MB"
-            ],
-            "value": [
-              60.0,
-              1.2
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -736,12 +697,12 @@
         {
           "SUBENT": {
             "N1": "30143004",
-            "N2": 20080208,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3126"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 7,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -772,91 +733,12 @@
               ]
             }
           ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "NAICR"
-              ],
-              "free_text": [
-                "The absolute activities of samples were measured",
-                "with one or more of 4 Na-I(Tl) crystal spectrometers",
-                "by comparison with an absolutely calibrated standard of",
-                "the same isotope. Details and estimated accuracy in",
-                "J.Nucl.Energy A/B 18,417(1964).",
-                ".Samples were placed directly on top of the Na-I",
-                "crystals during counting. Position was reproducible to",
-                "0.05 cm. Maximum variation in sample size was 0.10 cm."
-              ]
-            }
-          ],
-          "MONITOR": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "reaction": {
-                  "code": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                  "code_unit": [
-                    {
-                      "unit": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                      "field": {
-                        "reaction": "16-S-32(N,P)15-P-32",
-                        "target": "16-S-32",
-                        "projectile": "N",
-                        "process": "P",
-                        "product": "15-P-32",
-                        "quantity": ",SIG",
-                        "data_type": null,
-                        "general_quantity_modifier": "FIS",
-                        "quantity_236": ",SIG"
-                      }
-                    }
-                  ],
-                  "unit_combination": "(%)"
-                }
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "MONIT-REF": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "subentry_number": "30143016",
-                "author": "J.W.BOLDEMAN",
-                "reference": {
-                  "code": "J,JNE/AB,18,(8),417,196408",
-                  "field": {
-                    "reference_type": "J",
-                    "reference": {
-                      "code": "JNE/AB",
-                      "number": null,
-                      "volume": "18",
-                      "part": null,
-                      "issue": "8",
-                      "page": "417",
-                      "version": null,
-                      "material_number": null
-                    },
-                    "date": 196408
-                  }
-                }
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "DECAY-DATA": [
             {
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "11-NA-24-G",
+                "nuclide": "11-NA-24",
                 "half-life": {
                   "value": 15.05,
                   "unit": "HR"
@@ -881,16 +763,11 @@
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
+              "coded_information": null,
               "free_text": [
-                " Uncertainty in branching ratios has not",
-                "been included in error given. Assumed values of decay",
-                "parameters are given in J.Nucl.Energy A/B 18,417(1964)."
+                "Uncertainty in branching ratios has not been included",
+                " in error given. Assumed values of decay parameters are",
+                " given in J.Nucl.Energy A/B 18,417(1964)"
               ]
             }
           ],
@@ -913,7 +790,7 @@
               },
               "free_text": [
                 " HW. -Keywords monitor and monit-ref added",
-                "and monitor value added in common section.-"
+                " and monitor value added in common section.-"
               ]
             },
             {
@@ -924,7 +801,19 @@
               },
               "free_text": [
                 " HW.- 'SPA' replaced by 'FIS' in SF8 of",
-                "reaction and monitor.-"
+                " reaction and monitor."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DATA-ERR: 11-NA-24-G-> 11-NA-24",
+                " replaced. DETECTOR; MONITOR shifted to 001 and",
+                " original number expression restored."
               ]
             }
           ],
@@ -932,27 +821,7 @@
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "MONIT",
-              "MONIT-ERR"
-            ],
-            "unit": [
-              "MB",
-              "MB"
-            ],
-            "value": [
-              60.0,
-              1.2
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -990,12 +859,12 @@
         {
           "SUBENT": {
             "N1": "30143005",
-            "N2": 20080208,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3126"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 8,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1020,78 +889,6 @@
                   }
                 ],
                 "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "PROPC"
-              ],
-              "free_text": [
-                " 4pi beta- proportional counter"
-              ]
-            }
-          ],
-          "MONITOR": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "reaction": {
-                  "code": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                  "code_unit": [
-                    {
-                      "unit": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                      "field": {
-                        "reaction": "16-S-32(N,P)15-P-32",
-                        "target": "16-S-32",
-                        "projectile": "N",
-                        "process": "P",
-                        "product": "15-P-32",
-                        "quantity": ",SIG",
-                        "data_type": null,
-                        "general_quantity_modifier": "FIS",
-                        "quantity_236": ",SIG"
-                      }
-                    }
-                  ],
-                  "unit_combination": "(%)"
-                }
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "MONIT-REF": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "subentry_number": "30143016",
-                "author": "J.W.BOLDEMAN",
-                "reference": {
-                  "code": "J,JNE/AB,18,(8),417,196408",
-                  "field": {
-                    "reference_type": "J",
-                    "reference": {
-                      "code": "JNE/AB",
-                      "number": null,
-                      "volume": "18",
-                      "part": null,
-                      "issue": "8",
-                      "page": "417",
-                      "version": null,
-                      "material_number": null
-                    },
-                    "date": 196408
-                  }
-                }
               },
               "free_text": [
                 ""
@@ -1129,21 +926,7 @@
               "coded_information": null,
               "free_text": [
                 "Reaction products were chemically separated before",
-                "counting."
-              ]
-            }
-          ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Nothing said about errors"
+                " counting."
               ]
             }
           ],
@@ -1156,7 +939,7 @@
               },
               "free_text": [
                 " HW. -Keywords monitor and monit-ref added",
-                "and monitor value added in common section.-"
+                " and monitor value added in common section.-"
               ]
             },
             {
@@ -1167,7 +950,18 @@
               },
               "free_text": [
                 " HW.- 'SPA' replaced by 'FIS' in SF8 of",
-                "reaction and monitor.-"
+                " reaction and monitor.-"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DETECTOR; MONITOR shifted to 001 and",
+                " original number expression restored."
               ]
             }
           ],
@@ -1175,27 +969,7 @@
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "MONIT",
-              "MONIT-ERR"
-            ],
-            "unit": [
-              "MB",
-              "MB"
-            ],
-            "value": [
-              60.0,
-              1.2
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -1233,12 +1007,12 @@
         {
           "SUBENT": {
             "N1": "30143006",
-            "N2": 20080208,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3126"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 9,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -1278,85 +1052,6 @@
               ]
             }
           ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "NAICR"
-              ],
-              "free_text": [
-                "The absolute activities of samples were measured",
-                "with one or more of 4 Na-I(Tl) crystal spectrometers",
-                "by comparison with an absolutely calibrated standard of",
-                "the same isotope. Details and estimated accuracy in",
-                "J.Nucl.Energy A/B 18,417(1964).",
-                ".Samples were placed directly on top of the Na-I",
-                "crystals during counting. Position was reproducible to",
-                "0.05 cm. Maximum variation in sample size was 0.10 cm."
-              ]
-            }
-          ],
-          "MONITOR": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "reaction": {
-                  "code": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                  "code_unit": [
-                    {
-                      "unit": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                      "field": {
-                        "reaction": "16-S-32(N,P)15-P-32",
-                        "target": "16-S-32",
-                        "projectile": "N",
-                        "process": "P",
-                        "product": "15-P-32",
-                        "quantity": ",SIG",
-                        "data_type": null,
-                        "general_quantity_modifier": "FIS",
-                        "quantity_236": ",SIG"
-                      }
-                    }
-                  ],
-                  "unit_combination": "(%)"
-                }
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "MONIT-REF": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "subentry_number": "30143016",
-                "author": "J.W.BOLDEMAN",
-                "reference": {
-                  "code": "J,JNE/AB,18,(8),417,196408",
-                  "field": {
-                    "reference_type": "J",
-                    "reference": {
-                      "code": "JNE/AB",
-                      "number": null,
-                      "volume": "18",
-                      "part": null,
-                      "issue": "8",
-                      "page": "417",
-                      "version": null,
-                      "material_number": null
-                    },
-                    "date": 196408
-                  }
-                }
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "DECAY-DATA": [
             {
               "pointer": "",
@@ -1387,16 +1082,11 @@
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
+              "coded_information": null,
               "free_text": [
-                " Uncertainty in branching ratios has not",
-                "been included in error given. Assumed values of decay",
-                "parameters are given in J.Nucl.Energy A/B 18,417(1964)."
+                "Uncertainty in branching ratios has not been included",
+                " in error given. Assumed values of decay parameters are",
+                " given in J.Nucl.Energy A/B 18,417(1964)"
               ]
             }
           ],
@@ -1421,7 +1111,7 @@
               },
               "free_text": [
                 " HW. -Keywords monitor and monit-ref added",
-                "and monitor value added in common section.-"
+                " and monitor value added in common section.-"
               ]
             },
             {
@@ -1432,7 +1122,18 @@
               },
               "free_text": [
                 " HW.- 'SPA' replaced by 'FIS' in SF8 of",
-                "reaction and monitor.-"
+                " reaction and monitor.-"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DETECTOR; MONITOR shifted to 001 and",
+                " original number expression restored."
               ]
             }
           ],
@@ -1440,27 +1141,7 @@
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "MONIT",
-              "MONIT-ERR"
-            ],
-            "unit": [
-              "MB",
-              "MB"
-            ],
-            "value": [
-              60.0,
-              1.2
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -1498,12 +1179,12 @@
         {
           "SUBENT": {
             "N1": "30143007",
-            "N2": 20080208,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3126"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 8,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -1528,85 +1209,6 @@
                   }
                 ],
                 "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "NAICR"
-              ],
-              "free_text": [
-                "The absolute activity of the sample was measured",
-                "with one or more of 4 Na-I(Tl) crystal spectrometers",
-                "whose efficiencies had been determined at 11 energies",
-                "using absolutely calibrated standards. Details and",
-                "estimated error in J.Nucl.Energy A/B 18,417(1964).",
-                ".Samples were placed directly on top of the Na-I",
-                "crystals during counting. Position was reproducible to",
-                "0.05 cm. Maximum variation in sample size was 0.10 cm."
-              ]
-            }
-          ],
-          "MONITOR": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "reaction": {
-                  "code": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                  "code_unit": [
-                    {
-                      "unit": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                      "field": {
-                        "reaction": "16-S-32(N,P)15-P-32",
-                        "target": "16-S-32",
-                        "projectile": "N",
-                        "process": "P",
-                        "product": "15-P-32",
-                        "quantity": ",SIG",
-                        "data_type": null,
-                        "general_quantity_modifier": "FIS",
-                        "quantity_236": ",SIG"
-                      }
-                    }
-                  ],
-                  "unit_combination": "(%)"
-                }
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "MONIT-REF": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "subentry_number": "30143016",
-                "author": "J.W.BOLDEMAN",
-                "reference": {
-                  "code": "J,JNE/AB,18,(8),417,196408",
-                  "field": {
-                    "reference_type": "J",
-                    "reference": {
-                      "code": "JNE/AB",
-                      "number": null,
-                      "volume": "18",
-                      "part": null,
-                      "issue": "8",
-                      "page": "417",
-                      "version": null,
-                      "material_number": null
-                    },
-                    "date": 196408
-                  }
-                }
               },
               "free_text": [
                 ""
@@ -1646,23 +1248,18 @@
               "coded_information": null,
               "free_text": [
                 "Corrections were made for gamma sum-peaks and for",
-                "compton background when necessary."
+                " Compton background when necessary."
               ]
             }
           ],
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
+              "coded_information": null,
               "free_text": [
-                " Uncertainty in branching ratios has not",
-                "been included in error given. Assumed values of decay",
-                "parameters are given in J.Nucl.Energy A/B 18,417(1964)."
+                "Uncertainty in branching ratios has not been included",
+                " in error given. Assumed values of decay parameters are",
+                " given in J.Nucl.Energy A/B 18,417(1964)"
               ]
             }
           ],
@@ -1675,7 +1272,7 @@
               },
               "free_text": [
                 " HW. -Keywords monitor and monit-ref added",
-                "and monitor value added in common section.-"
+                " and monitor value added in common section.-"
               ]
             },
             {
@@ -1686,7 +1283,18 @@
               },
               "free_text": [
                 " HW.- 'SPA' replaced by 'FIS' in SF8 of",
-                "reaction and monitor.-"
+                " reaction and monitor.-"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DETECTOR; MONITOR shifted to 001 and",
+                " original number expression restored."
               ]
             }
           ],
@@ -1694,27 +1302,7 @@
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "MONIT",
-              "MONIT-ERR"
-            ],
-            "unit": [
-              "MB",
-              "MB"
-            ],
-            "value": [
-              60.0,
-              1.2
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -1752,12 +1340,12 @@
         {
           "SUBENT": {
             "N1": "30143008",
-            "N2": 20080208,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3126"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 8,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -1782,85 +1370,6 @@
                   }
                 ],
                 "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "NAICR"
-              ],
-              "free_text": [
-                "the absolute activity of the sample was measured",
-                "with one or more of 4 Na-I(Tl) crystal spectrometers",
-                "whose efficiencies had been determined at 11 energies",
-                "using absolutely calibrated standards. Details and",
-                "estimated error in J.Nucl.Energy A/B 18,417(1964).",
-                ".Samples were placed directly on top of the Na-I",
-                "crystals during counting. Position was reproducible to",
-                "0.05 cm. Maximum variation in sample size was 0.10 cm."
-              ]
-            }
-          ],
-          "MONITOR": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "reaction": {
-                  "code": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                  "code_unit": [
-                    {
-                      "unit": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                      "field": {
-                        "reaction": "16-S-32(N,P)15-P-32",
-                        "target": "16-S-32",
-                        "projectile": "N",
-                        "process": "P",
-                        "product": "15-P-32",
-                        "quantity": ",SIG",
-                        "data_type": null,
-                        "general_quantity_modifier": "FIS",
-                        "quantity_236": ",SIG"
-                      }
-                    }
-                  ],
-                  "unit_combination": "(%)"
-                }
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "MONIT-REF": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "subentry_number": "30143016",
-                "author": "J.W.BOLDEMAN",
-                "reference": {
-                  "code": "J,JNE/AB,18,(8),417,196408",
-                  "field": {
-                    "reference_type": "J",
-                    "reference": {
-                      "code": "JNE/AB",
-                      "number": null,
-                      "volume": "18",
-                      "part": null,
-                      "issue": "8",
-                      "page": "417",
-                      "version": null,
-                      "material_number": null
-                    },
-                    "date": 196408
-                  }
-                }
               },
               "free_text": [
                 ""
@@ -1900,23 +1409,18 @@
               "coded_information": null,
               "free_text": [
                 "Corrections were made for gamma sum-peaks and for",
-                "compton background when necessary."
+                " Compton background when necessary."
               ]
             }
           ],
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
+              "coded_information": null,
               "free_text": [
-                " Uncertainty in branching ratios has not",
-                "been included in error given. Assumed values of decay",
-                "parameters are given in J.Nucl.Energy A/B 18,417(1964)."
+                "Uncertainty in branching ratios has not been included",
+                " in error given. Assumed values of decay parameters are",
+                " given in J.Nucl.Energy A/B 18,417(1964)"
               ]
             }
           ],
@@ -1929,7 +1433,7 @@
               },
               "free_text": [
                 " HW. -Keywords monitor and monit-ref added",
-                "and monitor value added in common section.-"
+                " and monitor value added in common section.-"
               ]
             },
             {
@@ -1940,7 +1444,18 @@
               },
               "free_text": [
                 " HW.- 'SPA' replaced by 'FIS' in SF8 of",
-                "reaction and monitor.-"
+                " reaction and monitor.-"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DETECTOR; MONITOR shifted to 001 and",
+                " original number expression restored."
               ]
             }
           ],
@@ -1948,27 +1463,7 @@
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "MONIT",
-              "MONIT-ERR"
-            ],
-            "unit": [
-              "MB",
-              "MB"
-            ],
-            "value": [
-              60.0,
-              1.2
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -2006,12 +1501,12 @@
         {
           "SUBENT": {
             "N1": "30143009",
-            "N2": 20080208,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3126"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 9,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -2051,85 +1546,6 @@
               ]
             }
           ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "NAICR"
-              ],
-              "free_text": [
-                "The absolute activity of the sample was measured",
-                "with one or more of 4 Na-I(Tl) crystal spectrometers",
-                "whose efficiencies had been determined at 11 energies",
-                "using absolutely calibrated standards. Details and",
-                "estimated error in J.Nucl.Energy A/B 18,417(1964).",
-                ".Samples were placed directly on top of the Na-I",
-                "crystals during counting.  Position was reproducible to",
-                "0.05 cm. Maximum variation in sample size was 0.10 cm."
-              ]
-            }
-          ],
-          "MONITOR": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "reaction": {
-                  "code": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                  "code_unit": [
-                    {
-                      "unit": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                      "field": {
-                        "reaction": "16-S-32(N,P)15-P-32",
-                        "target": "16-S-32",
-                        "projectile": "N",
-                        "process": "P",
-                        "product": "15-P-32",
-                        "quantity": ",SIG",
-                        "data_type": null,
-                        "general_quantity_modifier": "FIS",
-                        "quantity_236": ",SIG"
-                      }
-                    }
-                  ],
-                  "unit_combination": "(%)"
-                }
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "MONIT-REF": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "subentry_number": "30143016",
-                "author": "J.W.BOLDEMAN",
-                "reference": {
-                  "code": "J,JNE/AB,18,(8),417,196408",
-                  "field": {
-                    "reference_type": "J",
-                    "reference": {
-                      "code": "JNE/AB",
-                      "number": null,
-                      "volume": "18",
-                      "part": null,
-                      "issue": "8",
-                      "page": "417",
-                      "version": null,
-                      "material_number": null
-                    },
-                    "date": 196408
-                  }
-                }
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "DECAY-DATA": [
             {
               "pointer": "",
@@ -2163,23 +1579,18 @@
               "coded_information": null,
               "free_text": [
                 "Corrections were made for gamma sum-peaks and for",
-                "compton background when necessary."
+                " Compton background when necessary."
               ]
             }
           ],
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
+              "coded_information": null,
               "free_text": [
-                " Uncertainty in branching ratios has not",
-                "been included in error given. Assumed values of decay",
-                "parameters are given in J.Nucl.Energy A/B 18,417(1964)."
+                "Uncertainty in branching ratios has not been included",
+                " in error given. Assumed values of decay parameters are",
+                " given in J.Nucl.Energy A/B 18,417(1964)"
               ]
             }
           ],
@@ -2192,7 +1603,7 @@
               },
               "free_text": [
                 " HW. -Keywords monitor and monit-ref added",
-                "and monitor value added in common section.-"
+                " and monitor value added in common section.-"
               ]
             },
             {
@@ -2203,7 +1614,18 @@
               },
               "free_text": [
                 " HW.- 'SPA' replaced by 'FIS' in SF8 of",
-                "reaction and monitor.-"
+                " reaction and monitor.-"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DETECTOR; MONITOR shifted to 001 and",
+                " original number expression restored."
               ]
             }
           ],
@@ -2211,27 +1633,7 @@
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "MONIT",
-              "MONIT-ERR"
-            ],
-            "unit": [
-              "MB",
-              "MB"
-            ],
-            "value": [
-              60.0,
-              1.2
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -2269,12 +1671,12 @@
         {
           "SUBENT": {
             "N1": "30143010",
-            "N2": 20080208,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3126"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 7,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -2299,85 +1701,6 @@
                   }
                 ],
                 "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "NAICR"
-              ],
-              "free_text": [
-                "The absolute activities of samples were measured",
-                "with one or more of 4 Na-I(Tl) crystal spectrometers",
-                "by comparison with an absolutely calibrated standard of",
-                "the same isotope. Details and estimated accuracy in",
-                "J.Nucl.Energy A/B 18,417(1964).",
-                ".Samples were placed directly on top of the Na-I",
-                "crystals during counting. Position was reproducible to",
-                "0.05 cm. Maximum variation in sample size was 0.10 cm."
-              ]
-            }
-          ],
-          "MONITOR": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "reaction": {
-                  "code": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                  "code_unit": [
-                    {
-                      "unit": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                      "field": {
-                        "reaction": "16-S-32(N,P)15-P-32",
-                        "target": "16-S-32",
-                        "projectile": "N",
-                        "process": "P",
-                        "product": "15-P-32",
-                        "quantity": ",SIG",
-                        "data_type": null,
-                        "general_quantity_modifier": "FIS",
-                        "quantity_236": ",SIG"
-                      }
-                    }
-                  ],
-                  "unit_combination": "(%)"
-                }
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "MONIT-REF": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "subentry_number": "30143016",
-                "author": "J.W.BOLDEMAN",
-                "reference": {
-                  "code": "J,JNE/AB,18,(8),417,196408",
-                  "field": {
-                    "reference_type": "J",
-                    "reference": {
-                      "code": "JNE/AB",
-                      "number": null,
-                      "volume": "18",
-                      "part": null,
-                      "issue": "8",
-                      "page": "417",
-                      "version": null,
-                      "material_number": null
-                    },
-                    "date": 196408
-                  }
-                }
               },
               "free_text": [
                 ""
@@ -2414,16 +1737,11 @@
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
+              "coded_information": null,
               "free_text": [
-                " Uncertainty in branching ratios has not",
-                "been included in error given. Assumed values of decay",
-                "parameters are given in J.Nucl.Energy A/B 18,417(1964)."
+                "Uncertainty in branching ratios has not been included",
+                " in error given. Assumed values of decay parameters are",
+                " given in J.Nucl.Energy A/B 18,417(1964)"
               ]
             }
           ],
@@ -2436,7 +1754,7 @@
               },
               "free_text": [
                 " HW. -Keywords monitor and monit-ref added",
-                "and monitor value added in common section.-"
+                " and monitor value added in common section.-"
               ]
             },
             {
@@ -2449,33 +1767,24 @@
                 " HW.- 'SPA' replaced by 'FIS' in SF8 of",
                 "reaction and monitor.-"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DETECTOR; MONITOR shifted to 001 and",
+                " original number expression restored."
+              ]
             }
           ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "MONIT",
-              "MONIT-ERR"
-            ],
-            "unit": [
-              "MB",
-              "MB"
-            ],
-            "value": [
-              60.0,
-              1.2
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -2513,12 +1822,12 @@
         {
           "SUBENT": {
             "N1": "30143011",
-            "N2": 20080208,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3126"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 8,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -2543,88 +1852,6 @@
                   }
                 ],
                 "unit_combination": "(%)"
-              },
-              "free_text": [
-                "",
-                " Data given is total (n,p) cross",
-                "section for production of Co-58 because Co-58m decays",
-                "entirely to Co-58 ground state."
-              ]
-            }
-          ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "NAICR"
-              ],
-              "free_text": [
-                "The absolute activities of samples were measured",
-                "with one or more of 4 Na-I(Tl) crystal spectrometers",
-                "by comparison with an absolutely calibrated standard of",
-                "the same isotope. Details and estimated accuracy in",
-                "J.Nucl.Energy A/B 18,417(1964).",
-                ".Samples were placed directly on top the Na-I",
-                "crystals during counting. Position was reproducible to",
-                "0.05 cm. Maximum variation in sample size was 0.10 cm."
-              ]
-            }
-          ],
-          "MONITOR": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "reaction": {
-                  "code": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                  "code_unit": [
-                    {
-                      "unit": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                      "field": {
-                        "reaction": "16-S-32(N,P)15-P-32",
-                        "target": "16-S-32",
-                        "projectile": "N",
-                        "process": "P",
-                        "product": "15-P-32",
-                        "quantity": ",SIG",
-                        "data_type": null,
-                        "general_quantity_modifier": "FIS",
-                        "quantity_236": ",SIG"
-                      }
-                    }
-                  ],
-                  "unit_combination": "(%)"
-                }
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "MONIT-REF": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "subentry_number": "30143016",
-                "author": "J.W.BOLDEMAN",
-                "reference": {
-                  "code": "J,JNE/AB,18,(8),417,196408",
-                  "field": {
-                    "reference_type": "J",
-                    "reference": {
-                      "code": "JNE/AB",
-                      "number": null,
-                      "volume": "18",
-                      "part": null,
-                      "issue": "8",
-                      "page": "417",
-                      "version": null,
-                      "material_number": null
-                    },
-                    "date": 196408
-                  }
-                }
               },
               "free_text": [
                 ""
@@ -2664,24 +1891,19 @@
               "coded_information": null,
               "free_text": [
                 "No corrections were necessary for thermal burn up of",
-                "either Co-58 or Co-58m because irradiation times were",
-                "short."
+                " either Co-58 or Co-58m because irradiation times were",
+                " short."
               ]
             }
           ],
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
+              "coded_information": null,
               "free_text": [
-                " Uncertainty in branching ratios has not been",
-                "included in error given. Assumed values of decay",
-                "parameters are given in J.Nucl.Energy A/B 18,417(1964)."
+                "Uncertainty in branching ratios has not been included",
+                " in error given. Assumed values of decay parameters are",
+                " given in J.Nucl.Energy A/B 18,417(1964)"
               ]
             }
           ],
@@ -2694,7 +1916,7 @@
               },
               "free_text": [
                 " HW. -Keywords monitor and monit-ref added",
-                "and monitor value added in common section.-"
+                " and monitor value added in common section.-"
               ]
             },
             {
@@ -2705,7 +1927,18 @@
               },
               "free_text": [
                 " HW.- 'SPA' replaced by 'FIS' in SF8 of",
-                "reaction and monitor.-"
+                " reaction and monitor.-"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DETECTOR; MONITOR shifted to 001 and",
+                " original number expression restored."
               ]
             }
           ],
@@ -2713,27 +1946,7 @@
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "MONIT",
-              "MONIT-ERR"
-            ],
-            "unit": [
-              "MB",
-              "MB"
-            ],
-            "value": [
-              60.0,
-              1.2
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -2771,12 +1984,12 @@
         {
           "SUBENT": {
             "N1": "30143012",
-            "N2": 20080208,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3126"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 8,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -2807,85 +2020,6 @@
               ]
             }
           ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "NAICR"
-              ],
-              "free_text": [
-                "The absolute activities of samples were measured",
-                "with one or more of 4 Na-I(Tl) crystal spectrometers",
-                "by comparison with an absolutely calibrated standard of",
-                "the same isotope. Details and estimated accuracy in",
-                "J.Nucl.Energy A/B 18,417(1964).",
-                ".Samples were placed directly on top of the Na-I",
-                "crystals during counting. Position was reproducible to",
-                "0.05 cm. Maximum variation in sample size was 0.10 cm."
-              ]
-            }
-          ],
-          "MONITOR": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "reaction": {
-                  "code": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                  "code_unit": [
-                    {
-                      "unit": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                      "field": {
-                        "reaction": "16-S-32(N,P)15-P-32",
-                        "target": "16-S-32",
-                        "projectile": "N",
-                        "process": "P",
-                        "product": "15-P-32",
-                        "quantity": ",SIG",
-                        "data_type": null,
-                        "general_quantity_modifier": "FIS",
-                        "quantity_236": ",SIG"
-                      }
-                    }
-                  ],
-                  "unit_combination": "(%)"
-                }
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "MONIT-REF": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "subentry_number": "30143016",
-                "author": "J.W.BOLDEMAN",
-                "reference": {
-                  "code": "J,JNE/AB,18,(8),417,196408",
-                  "field": {
-                    "reference_type": "J",
-                    "reference": {
-                      "code": "JNE/AB",
-                      "number": null,
-                      "volume": "18",
-                      "part": null,
-                      "issue": "8",
-                      "page": "417",
-                      "version": null,
-                      "material_number": null
-                    },
-                    "date": 196408
-                  }
-                }
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "DECAY-DATA": [
             {
               "pointer": "",
@@ -2908,8 +2042,8 @@
               },
               "free_text": [
                 "",
-                "The partial cross section was determined from the",
-                "build up of Co-58 gamma activity in nickel samples."
+                " The partial cross section was determined from the",
+                " build up of Co-58 gamma activity in nickel samples."
               ]
             }
           ],
@@ -2919,22 +2053,8 @@
               "coded_information": null,
               "free_text": [
                 "No corrections were necessary for thermal burn up of",
-                "either Co-58 or Co-58m because irradiation times were",
-                "short."
-              ]
-            }
-          ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Nothing said about errors"
+                " either Co-58 or Co-58m because irradiation times were",
+                " short."
               ]
             }
           ],
@@ -2947,7 +2067,7 @@
               },
               "free_text": [
                 " HW. -Keywords monitor and monit-ref added",
-                "and monitor value added in common section.-"
+                " and monitor value added in common section.-"
               ]
             },
             {
@@ -2958,7 +2078,18 @@
               },
               "free_text": [
                 " HW.- 'SPA' replaced by 'FIS' in SF8 of",
-                "reaction and monitor.-"
+                " reaction and monitor.-"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DETECTOR; MONITOR shifted to 001 and",
+                " original number expression restored."
               ]
             }
           ],
@@ -2966,27 +2097,7 @@
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "MONIT",
-              "MONIT-ERR"
-            ],
-            "unit": [
-              "MB",
-              "MB"
-            ],
-            "value": [
-              60.0,
-              1.2
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -3024,12 +2135,12 @@
         {
           "SUBENT": {
             "N1": "30143013",
-            "N2": 20080208,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3126"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 8,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -3054,85 +2165,6 @@
                   }
                 ],
                 "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "NAICR"
-              ],
-              "free_text": [
-                "the absolute activity of the sample was measured",
-                "with one or more of 4 Na-I(Tl) crystal spectrometers",
-                "whose efficiencies had been determined at 11 energies",
-                "using absolutely calibrated standards. Details and",
-                "estimated error in J.Nucl.Energy A/B 18,417(1964).",
-                ".Samples were placed directly on top of the Na-I",
-                "crystals during counting.  Position was reproducible to",
-                "0.05 cm. Maximum variation in sample size was 0.10 cm."
-              ]
-            }
-          ],
-          "MONITOR": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "reaction": {
-                  "code": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                  "code_unit": [
-                    {
-                      "unit": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                      "field": {
-                        "reaction": "16-S-32(N,P)15-P-32",
-                        "target": "16-S-32",
-                        "projectile": "N",
-                        "process": "P",
-                        "product": "15-P-32",
-                        "quantity": ",SIG",
-                        "data_type": null,
-                        "general_quantity_modifier": "FIS",
-                        "quantity_236": ",SIG"
-                      }
-                    }
-                  ],
-                  "unit_combination": "(%)"
-                }
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "MONIT-REF": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "subentry_number": "30143016",
-                "author": "J.W.BOLDEMAN",
-                "reference": {
-                  "code": "J,JNE/AB,18,(8),417,196408",
-                  "field": {
-                    "reference_type": "J",
-                    "reference": {
-                      "code": "JNE/AB",
-                      "number": null,
-                      "volume": "18",
-                      "part": null,
-                      "issue": "8",
-                      "page": "417",
-                      "version": null,
-                      "material_number": null
-                    },
-                    "date": 196408
-                  }
-                }
               },
               "free_text": [
                 ""
@@ -3172,23 +2204,18 @@
               "coded_information": null,
               "free_text": [
                 "Corrections were made for gamma sum-peaks and for",
-                "compton background when necessary."
+                " Compton background when necessary."
               ]
             }
           ],
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
+              "coded_information": null,
               "free_text": [
-                " Uncertainty in branching ratios has not",
-                "been included in error given. Assumed values of decay",
-                "parameters are given in J.Nucl.Energy A/B 18,417(1964)."
+                "Uncertainty in branching ratios has not been included",
+                " in error given. Assumed values of decay parameters are",
+                " given in J.Nucl.Energy A/B 18,417(1964)"
               ]
             }
           ],
@@ -3201,7 +2228,7 @@
               },
               "free_text": [
                 " HW. -Keywords monitor and monit-ref added",
-                "and monitor value added in common section.-"
+                " and monitor value added in common section.-"
               ]
             },
             {
@@ -3212,7 +2239,18 @@
               },
               "free_text": [
                 " HW.- 'SPA' replaced by 'FIS' in SF8 of",
-                "reaction and monitor.-"
+                " reaction and monitor.-"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DETECTOR; MONITOR shifted to 001 and",
+                " original number expression restored."
               ]
             }
           ],
@@ -3220,27 +2258,7 @@
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "MONIT",
-              "MONIT-ERR"
-            ],
-            "unit": [
-              "MB",
-              "MB"
-            ],
-            "value": [
-              60.0,
-              1.2
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -3278,12 +2296,12 @@
         {
           "SUBENT": {
             "N1": "30143014",
-            "N2": 20080208,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3126"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 9,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -3323,85 +2341,6 @@
               ]
             }
           ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "NAICR"
-              ],
-              "free_text": [
-                "The absolute activity of the sample was measured",
-                "with one or more of 4 Na-I(Tl) crystal spectrometers",
-                "whose efficiencies had been determined at 11 energies",
-                "using absolutely calibrated standards. Details and",
-                "estimated error in J.Nucl.Energy A/B 18,417(1964).",
-                ".Samples were placed directly on top of the Na-I",
-                "crystals during counting. Position was reproducible to",
-                "0.05 cm. Maximum variation in sample size was 0.10 cm."
-              ]
-            }
-          ],
-          "MONITOR": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "reaction": {
-                  "code": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                  "code_unit": [
-                    {
-                      "unit": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                      "field": {
-                        "reaction": "16-S-32(N,P)15-P-32",
-                        "target": "16-S-32",
-                        "projectile": "N",
-                        "process": "P",
-                        "product": "15-P-32",
-                        "quantity": ",SIG",
-                        "data_type": null,
-                        "general_quantity_modifier": "FIS",
-                        "quantity_236": ",SIG"
-                      }
-                    }
-                  ],
-                  "unit_combination": "(%)"
-                }
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "MONIT-REF": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "subentry_number": "30143016",
-                "author": "J.W.BOLDEMAN",
-                "reference": {
-                  "code": "J,JNE/AB,18,(8),417,196408",
-                  "field": {
-                    "reference_type": "J",
-                    "reference": {
-                      "code": "JNE/AB",
-                      "number": null,
-                      "volume": "18",
-                      "part": null,
-                      "issue": "8",
-                      "page": "417",
-                      "version": null,
-                      "material_number": null
-                    },
-                    "date": 196408
-                  }
-                }
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "DECAY-DATA": [
             {
               "pointer": "",
@@ -3435,23 +2374,18 @@
               "coded_information": null,
               "free_text": [
                 "Corrections were made for gamma sum-peaks and for",
-                "compton background when necessary."
+                " Compton background when necessary."
               ]
             }
           ],
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
+              "coded_information": null,
               "free_text": [
-                " Uncertainty in branching ratios has not",
-                "been included in error given. Assumed values of decay",
-                "parameters are given in J.Nucl.Energy A/B 18,417(1964)."
+                "Uncertainty in branching ratios has not been included",
+                " in error given. Assumed values of decay parameters are",
+                " given in J.Nucl.Energy A/B 18,417(1964)"
               ]
             }
           ],
@@ -3464,7 +2398,7 @@
               },
               "free_text": [
                 " HW. -Keywords monitor and monit-ref added",
-                "and monitor value added in common section.-"
+                " and monitor value added in common section.-"
               ]
             },
             {
@@ -3475,7 +2409,18 @@
               },
               "free_text": [
                 " HW.- 'SPA' replaced by 'FIS' in SF8 of",
-                "reaction and monitor.-"
+                " reaction and monitor.-"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DETECTOR; MONITOR shifted to 001 and",
+                " original number expression restored."
               ]
             }
           ],
@@ -3483,27 +2428,7 @@
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "MONIT",
-              "MONIT-ERR"
-            ],
-            "unit": [
-              "MB",
-              "MB"
-            ],
-            "value": [
-              60.0,
-              1.2
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -3541,12 +2466,12 @@
         {
           "SUBENT": {
             "N1": "30143015",
-            "N2": 20080208,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3126"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 9,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -3586,85 +2511,6 @@
               ]
             }
           ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "NAICR"
-              ],
-              "free_text": [
-                "the absolute activity of the sample was measured",
-                "with one or more of 4 Na-I(Tl) crystal spectrometers",
-                "whose efficiencies had been determined at 11 energies",
-                "using absolutely calibrated standards. Details and",
-                "estimated error in J.Nucl.Energy A/B 18,417(1964).",
-                ".Samples were placed directly on top of the Na-I",
-                "crystals during counting. Position was reproducible to",
-                "0.05 cm. Maximum variation in sample size was 0.10 cm."
-              ]
-            }
-          ],
-          "MONITOR": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "reaction": {
-                  "code": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                  "code_unit": [
-                    {
-                      "unit": "16-S-32(N,P)15-P-32,,SIG,,FIS",
-                      "field": {
-                        "reaction": "16-S-32(N,P)15-P-32",
-                        "target": "16-S-32",
-                        "projectile": "N",
-                        "process": "P",
-                        "product": "15-P-32",
-                        "quantity": ",SIG",
-                        "data_type": null,
-                        "general_quantity_modifier": "FIS",
-                        "quantity_236": ",SIG"
-                      }
-                    }
-                  ],
-                  "unit_combination": "(%)"
-                }
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "MONIT-REF": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "subentry_number": "30143016",
-                "author": "J.W.BOLDEMAN",
-                "reference": {
-                  "code": "J,JNE/AB,18,(8),417,196408",
-                  "field": {
-                    "reference_type": "J",
-                    "reference": {
-                      "code": "JNE/AB",
-                      "number": null,
-                      "volume": "18",
-                      "part": null,
-                      "issue": "8",
-                      "page": "417",
-                      "version": null,
-                      "material_number": null
-                    },
-                    "date": 196408
-                  }
-                }
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "DECAY-DATA": [
             {
               "pointer": "",
@@ -3698,23 +2544,18 @@
               "coded_information": null,
               "free_text": [
                 "Corrections were made for gamma sum-peaks and for",
-                "compton background when necessary."
+                " Compton background when necessary."
               ]
             }
           ],
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
+              "coded_information": null,
               "free_text": [
-                " Uncertainty in branching ratios has not",
-                "been included in error given. Assumed values of decay",
-                "parameters are given in J.Nucl.Energy A/B 18,417(1964)."
+                "Uncertainty in branching ratios has not been included",
+                " in error given. Assumed values of decay parameters are",
+                " given in J.Nucl.Energy A/B 18,417(1964)"
               ]
             }
           ],
@@ -3727,7 +2568,7 @@
               },
               "free_text": [
                 " HW. -Keywords monitor and monit-ref added",
-                "and monitor value added in common section.-"
+                " and monitor value added in common section.-"
               ]
             },
             {
@@ -3738,7 +2579,18 @@
               },
               "free_text": [
                 " HW.- 'SPA' replaced by 'FIS' in SF8 of",
-                "reaction and monitor.-"
+                " reaction and monitor.-"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DETECTOR; MONITOR shifted to 001 and",
+                " original number expression restored."
               ]
             }
           ],
@@ -3746,27 +2598,7 @@
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 2,
-            "N2": 0,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "MONIT",
-              "MONIT-ERR"
-            ],
-            "unit": [
-              "MB",
-              "MB"
-            ],
-            "value": [
-              60.0,
-              1.2
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -3804,9 +2636,9 @@
         {
           "SUBENT": {
             "N1": "30143016",
-            "N2": 20080208,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3126"
+            "transmission_identification": "3223"
           },
           "BIB": {
             "N1": 3,
@@ -3857,17 +2689,16 @@
               ]
             }
           ],
-          "ERR-ANALYS": [
+          "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
+                "date": 20260407,
+                "history": "A"
               },
               "free_text": [
-                " Nothing said about errors"
+                " VT. DATA,DATA-ERR: B->MB replaced and",
+                " original number expression restored."
               ]
             }
           ],
@@ -3891,13 +2722,13 @@
               "DATA-ERR"
             ],
             "unit": [
-              "B",
-              "B"
+              "MB",
+              "MB"
             ],
             "value": [
               [
-                0.06,
-                0.0012
+                60.0,
+                1.2
               ]
             ]
           },

@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:45:49+0000",
+  "time_stamp": "2026-05-28T11:32:07+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "32772",
-        "N2": 20181111,
+        "N2": 20260408,
         "alteration_flag": " ",
-        "transmission_identification": "3187"
+        "transmission_identification": "3223"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "32772001",
-            "N2": 20181111,
+            "N2": 20260408,
             "alteration_flag": " ",
-            "transmission_identification": "3187"
+            "transmission_identification": "3223"
           },
           "BIB": {
             "N1": 16,
@@ -422,12 +422,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Junhua Luo+",
+                "reference": {
+                  "code": "J,PR/C,96,044617,2017",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "96",
+                      "part": null,
+                      "issue": null,
+                      "page": "044617"
+                    },
+                    "date": 2017
+                  }
+                }
               },
               "free_text": [
-                " Data were obtained from Table 5 of",
-                "Phys.Rev.C,96,044617,2017"
+                " Table 5"
               ]
             }
           ],
@@ -441,6 +454,17 @@
               "free_text": [
                 " Compiled by Xi Tao (CNDC)"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260408,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Revision in 002. COMMON: MONIR-ERR",
+                "  deleted and STATUS updated to the new format in 001."
+              ]
             }
           ],
           "ENDBIB": {
@@ -448,10 +472,9 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 4,
+            "N1": 3,
             "N2": 0,
             "pointer": [
-              "",
               "",
               "",
               ""
@@ -459,11 +482,9 @@
             "heading": [
               "ERR-2",
               "ERR-6",
-              "ERR-7",
-              "MONIT-ERR"
+              "ERR-7"
             ],
             "unit": [
-              "PER-CENT",
               "PER-CENT",
               "PER-CENT",
               "PER-CENT"
@@ -471,8 +492,7 @@
             "value": [
               1.0,
               0.1,
-              0.2,
-              1.5
+              0.2
             ]
           },
           "ENDCOMMON": {
@@ -487,12 +507,12 @@
         {
           "SUBENT": {
             "N1": "32772002",
-            "N2": 20181111,
+            "N2": 20260408,
             "alteration_flag": " ",
-            "transmission_identification": "3187"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -551,20 +571,20 @@
             {
               "pointer": "3",
               "coded_information": {
-                "code": "63-EU-153(N,2N)63-EU-152-G,M-,SIG",
+                "code": "63-EU-153(N,2N)63-EU-152-G,,SIG",
                 "code_unit": [
                   {
-                    "unit": "63-EU-153(N,2N)63-EU-152-G,M-,SIG",
+                    "unit": "63-EU-153(N,2N)63-EU-152-G,,SIG",
                     "field": {
                       "reaction": "63-EU-153(N,2N)63-EU-152-G",
                       "target": "63-EU-153",
                       "projectile": "N",
                       "process": "2N",
                       "product": "63-EU-152-G",
-                      "quantity": "M-,SIG",
+                      "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "M-,SIG"
+                      "quantity_236": ",SIG"
                     }
                   }
                 ],
@@ -701,6 +721,18 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260408,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. REACTION:002.3: M- in SF5 deleted"
               ]
             }
           ],

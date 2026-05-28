@@ -1,26 +1,47 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:28:50+0000",
+  "time_stamp": "2026-05-28T11:32:02+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "30249",
-        "N2": 20160708,
+        "N2": 20260407,
         "alteration_flag": " ",
-        "transmission_identification": "3174"
+        "transmission_identification": "3223"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "30249001",
-            "N2": 20160708,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3174"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 13,
+            "N1": 12,
             "N2": 0
           },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Study of (n,alpha) reactions at thermal energies"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "J.Alam",
+                "M.I.Sehgal"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "INSTITUTE": [
             {
               "pointer": "",
@@ -62,27 +83,6 @@
               ]
             }
           ],
-          "AUTHOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "J.Alam",
-                "M.I.Sehgal"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "TITLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Study of (n,alpha) reactions at thermal energies"
-              ]
-            }
-          ],
           "FACILITY": [
             {
               "pointer": "",
@@ -93,8 +93,7 @@
                 "institute": "3INDTRM"
               },
               "free_text": [
-                " Thermal column of the TROMBAY",
-                " swimming-pool reactor"
+                ""
               ]
             }
           ],
@@ -108,8 +107,8 @@
                 "reaction": null
               },
               "free_text": [
-                " Thermal neutron flux of the order of 0.8X10E+8",
-                "n/cm2xsec"
+                " Thermal neutron flux of the order of",
+                " 0.8 X 10E+08 n/cm2*sec"
               ]
             }
           ],
@@ -119,7 +118,17 @@
               "coded_information": null,
               "free_text": [
                 "Powder form, sandwiched between two thin pieces of",
-                "cellotape. Sample purity better than 99.9 %."
+                " cellotape. Sample purity better than 99.9%."
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "End-window beta-counter with window thickness of",
+                " 1.5 mg/cm2."
               ]
             }
           ],
@@ -130,28 +139,48 @@
                 "ACTIV"
               ],
               "free_text": [
-                " Activation technique"
+                ""
               ]
             }
           ],
-          "DETECTOR": [
+          "CORRECTION": [
             {
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "End-window beta-counter with window thickness of",
-                "1.5 millig/cm2."
+                "Corrections for the finite thickness of the target as",
+                " well as window thickness of beta counter were taken",
+                " into account in calculating the detection efficiency"
               ]
             }
           ],
-          "PART-DET": [
+          "STATUS": [
             {
               "pointer": "",
-              "coded_information": [
-                "B"
-              ],
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "J.Alam+",
+                "reference": {
+                  "code": "J,NP/A,205,614,1973",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "205",
+                      "part": null,
+                      "issue": null,
+                      "page": "614"
+                    },
+                    "date": 1973
+                  }
+                }
+              },
               "free_text": [
-                " Beta particles"
+                " Table 1"
               ]
             }
           ],
@@ -185,32 +214,15 @@
               "free_text": [
                 " VS. DECAY-DATA corrected in 002."
               ]
-            }
-          ],
-          "CORRECTION": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Corrections for the finite thickness of the target as",
-                "well as window thickness of beta counter were taken",
-                "into account in calculating the detection efficiency"
-              ]
-            }
-          ],
-          "STATUS": [
+            },
             {
               "pointer": "",
               "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
+                "date": 20260407,
+                "history": "A"
               },
               "free_text": [
-                " Table 1 of Nucl.Phys.A205(1973)614"
+                " VT. Entry revised"
               ]
             }
           ],
@@ -246,9 +258,9 @@
         {
           "SUBENT": {
             "N1": "30249002",
-            "N2": 20160708,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3174"
+            "transmission_identification": "3223"
           },
           "BIB": {
             "N1": 7,
@@ -315,7 +327,15 @@
                   "value": 1.9,
                   "unit": "HR"
                 },
-                "radiation": []
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "B"
+                    ],
+                    "energy": null,
+                    "intensity": null
+                  }
+                ]
               },
               "free_text": [
                 ""
@@ -330,7 +350,15 @@
                   "value": 6.5,
                   "unit": "SEC"
                 },
-                "radiation": []
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "B"
+                    ],
+                    "energy": null,
+                    "intensity": null
+                  }
+                ]
               },
               "free_text": [
                 ""
@@ -345,7 +373,15 @@
                   "value": 43.0,
                   "unit": "D"
                 },
-                "radiation": []
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "B"
+                    ],
+                    "energy": null,
+                    "intensity": null
+                  }
+                ]
               },
               "free_text": [
                 ""
@@ -358,7 +394,7 @@
               "coded_information": null,
               "free_text": [
                 "In present case the (n,alpha) cross section includes",
-                "also the reaction Hf-180(n,a)Yb-177-ms"
+                " also the reaction 180Hf(n,a)177mYb"
               ]
             }
           ],
@@ -367,8 +403,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Decay curve of Yb-177 corrected for background activity",
-                "due to Hf-181."
+                "Decay curve of 177Yb corrected for background activity",
+                " due to 181Hf."
               ]
             }
           ],
@@ -382,9 +418,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " For errors involved in measuring the cross",
-                "section ratios see Sehgal (J. Pure and",
-                "                          Appl. Phys. 31,630,1957)"
+                " No information about source of uncertainty"
               ]
             }
           ],
@@ -397,6 +431,16 @@
               },
               "free_text": [
                 " VS. DECAY-DATA corrected."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Original number expression restored."
               ]
             }
           ],
@@ -442,32 +486,32 @@
         {
           "SUBENT": {
             "N1": "30249003",
-            "N2": 20081203,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3132"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "(81-TL-203(N,A)79-AU-200,,SIG)/(81-TL-205(N,G)81-TL-206,,SIG)",
+                "code": "(81-TL-203(N,A)79-AU-200-G,(M),SIG)/(81-TL-205(N,G)81-TL-206,,SIG)",
                 "code_unit": [
                   {
-                    "unit": "81-TL-203(N,A)79-AU-200,,SIG",
+                    "unit": "81-TL-203(N,A)79-AU-200-G,(M),SIG",
                     "field": {
-                      "reaction": "81-TL-203(N,A)79-AU-200",
+                      "reaction": "81-TL-203(N,A)79-AU-200-G",
                       "target": "81-TL-203",
                       "projectile": "N",
                       "process": "A",
-                      "product": "79-AU-200",
-                      "quantity": ",SIG",
+                      "product": "79-AU-200-G",
+                      "quantity": "(M),SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",SIG"
+                      "quantity_236": "(M),SIG"
                     }
                   },
                   {
@@ -502,7 +546,15 @@
                   "value": 48.0,
                   "unit": "MIN"
                 },
-                "radiation": []
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "B"
+                    ],
+                    "energy": null,
+                    "intensity": null
+                  }
+                ]
               },
               "free_text": [
                 ""
@@ -517,7 +569,15 @@
                   "value": 4.3,
                   "unit": "MIN"
                 },
-                "radiation": []
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "B"
+                    ],
+                    "energy": null,
+                    "intensity": null
+                  }
+                ]
               },
               "free_text": [
                 ""
@@ -529,7 +589,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Thallous carbonate of 99.9 % purity"
+                "Thallous carbonate of 99.9% purity"
               ]
             }
           ],
@@ -539,9 +599,21 @@
               "coded_information": null,
               "free_text": [
                 "Ratio given in data is only an upper limit because of",
-                "the impossibility of separation of the activity due to",
-                "the Tl-203(n,a)Au-200 reaction from that due to the",
-                "Tl-205(n,g) reaction"
+                " the impossibility of separation of the activity due to",
+                " the 203Tl(n,a)200Au reaction from that due to the",
+                " 205Tl(n,g) reaction"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Original number expression restored."
               ]
             }
           ],
@@ -583,12 +655,12 @@
         {
           "SUBENT": {
             "N1": "30249004",
-            "N2": 20081203,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3132"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -638,8 +710,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Pure(99.9 %) lead metallic sheet 0.5 mm thick,",
-                "with 51.55 % natural abundance of Pb-208."
+                "Pure(99.9%) lead metallic sheet 0.5 mm thick,",
+                " with 51.55% natural abundance of 208Pb."
               ]
             }
           ],
@@ -653,7 +725,15 @@
                   "value": 5.2,
                   "unit": "MIN"
                 },
-                "radiation": []
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "B"
+                    ],
+                    "energy": null,
+                    "intensity": null
+                  }
+                ]
               },
               "free_text": [
                 " obtained by subtracting the 3.3 hr"
@@ -668,7 +748,15 @@
                   "value": 3.3,
                   "unit": "HR"
                 },
-                "radiation": []
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "B"
+                    ],
+                    "energy": null,
+                    "intensity": null
+                  }
+                ]
               },
               "free_text": [
                 ""
@@ -685,9 +773,19 @@
                 "correlation_property": null
               },
               "free_text": [
-                " For errors involved in measuring the cross",
-                "section ratios see Sehgal (J. Pure and",
-                "                          Appl. Phys. 31,630,1957)"
+                " No information about source of uncertainty"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Original number expression restored."
               ]
             }
           ],
@@ -733,42 +831,42 @@
         {
           "SUBENT": {
             "N1": "30249005",
-            "N2": 20081203,
+            "N2": 20260407,
             "alteration_flag": " ",
-            "transmission_identification": "3132"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "(83-BI-209(N,A)81-TL-206,,SIG)/(83-BI-209(N,G)83-BI-210,,SIG)",
+                "code": "(83-BI-209(N,A)81-TL-206-G,(M),SIG)/(83-BI-209(N,G)83-BI-210-G,,SIG)",
                 "code_unit": [
                   {
-                    "unit": "83-BI-209(N,A)81-TL-206,,SIG",
+                    "unit": "83-BI-209(N,A)81-TL-206-G,(M),SIG",
                     "field": {
-                      "reaction": "83-BI-209(N,A)81-TL-206",
+                      "reaction": "83-BI-209(N,A)81-TL-206-G",
                       "target": "83-BI-209",
                       "projectile": "N",
                       "process": "A",
-                      "product": "81-TL-206",
-                      "quantity": ",SIG",
+                      "product": "81-TL-206-G",
+                      "quantity": "(M),SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",SIG"
+                      "quantity_236": "(M),SIG"
                     }
                   },
                   {
-                    "unit": "83-BI-209(N,G)83-BI-210,,SIG",
+                    "unit": "83-BI-209(N,G)83-BI-210-G,,SIG",
                     "field": {
-                      "reaction": "83-BI-209(N,G)83-BI-210",
+                      "reaction": "83-BI-209(N,G)83-BI-210-G",
                       "target": "83-BI-209",
                       "projectile": "N",
                       "process": "G",
-                      "product": "83-BI-210",
+                      "product": "83-BI-210-G",
                       "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
@@ -788,7 +886,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Spectrographically pure Bi(2)O(3) powder"
+                "Spectrographically pure Bi2O3 powder"
               ]
             }
           ],
@@ -802,11 +900,19 @@
                   "value": 4.3,
                   "unit": "MIN"
                 },
-                "radiation": []
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "B"
+                    ],
+                    "energy": null,
+                    "intensity": null
+                  }
+                ]
               },
               "free_text": [
-                " obtained by subtracting the 5 days",
-                "activity due to Bi-210 from the composite curve"
+                " obtained by subtracting the",
+                " 5 days activity due to 210Bi from the composite curve"
               ]
             },
             {
@@ -818,7 +924,15 @@
                   "value": 5.0,
                   "unit": "D"
                 },
-                "radiation": []
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "B"
+                    ],
+                    "energy": null,
+                    "intensity": null
+                  }
+                ]
               },
               "free_text": [
                 ""
@@ -835,9 +949,20 @@
                 "correlation_property": null
               },
               "free_text": [
-                " For errors involved in measuring the cross",
-                "section ratios see Sehgal (J. Pure and",
-                "                          Appl. Phys. 31,630,1957)"
+                " No information about source of uncertainty"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260407,
+                "history": "S"
+              },
+              "free_text": [
+                " VT. REACTION: SF4:-G added and original",
+                " number expression restored."
               ]
             }
           ],

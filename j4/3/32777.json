@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:45:52+0000",
+  "time_stamp": "2026-05-28T11:32:08+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "32777",
-        "N2": 20180712,
+        "N2": 20260408,
         "alteration_flag": " ",
-        "transmission_identification": "3186"
+        "transmission_identification": "3223"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "32777001",
-            "N2": 20180712,
+            "N2": 20260408,
             "alteration_flag": " ",
-            "transmission_identification": "3186"
+            "transmission_identification": "3223"
           },
           "BIB": {
             "N1": 16,
@@ -427,12 +427,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Junhua Luo+",
+                "reference": {
+                  "code": "J,EPJ/A,54,67,2018",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "EPJ/A",
+                      "number": null,
+                      "volume": "54",
+                      "part": null,
+                      "issue": null,
+                      "page": "67"
+                    },
+                    "date": 2018
+                  }
+                }
               },
               "free_text": [
-                " Data were obtained from Table 4 of",
-                "Eur.Phys.J.A,54,67,2018"
+                " Table 4"
               ]
             }
           ],
@@ -445,6 +458,17 @@
               },
               "free_text": [
                 " Compiled by Xiaoxue Zhao (CNDC)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260408,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Revision in 002 and STATUS updated to",
+                " the new format in 001"
               ]
             }
           ],
@@ -492,12 +516,12 @@
         {
           "SUBENT": {
             "N1": "32777002",
-            "N2": 20180712,
+            "N2": 20260408,
             "alteration_flag": " ",
-            "transmission_identification": "3186"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -530,20 +554,20 @@
             {
               "pointer": "2",
               "coded_information": {
-                "code": "32-GE-76(N,2N)32-GE-75-G,M-,SIG",
+                "code": "32-GE-76(N,2N)32-GE-75-G,,SIG",
                 "code_unit": [
                   {
-                    "unit": "32-GE-76(N,2N)32-GE-75-G,M-,SIG",
+                    "unit": "32-GE-76(N,2N)32-GE-75-G,,SIG",
                     "field": {
                       "reaction": "32-GE-76(N,2N)32-GE-75-G",
                       "target": "32-GE-76",
                       "projectile": "N",
                       "process": "2N",
                       "product": "32-GE-75-G",
-                      "quantity": "M-,SIG",
+                      "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "M-,SIG"
+                      "quantity_236": ",SIG"
                     }
                   }
                 ],
@@ -665,6 +689,18 @@
               "free_text": [
                 "The contribution of the 76Ge(n,2n)75mGe reaction",
                 "via IT(isomeric transition, 99.97%) was subtracted"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260408,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. REACTION: 003.2: M- in SF5 deleted"
               ]
             }
           ],

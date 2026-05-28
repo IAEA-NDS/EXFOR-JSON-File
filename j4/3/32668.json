@@ -1,44 +1,33 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:44:31+0000",
+  "time_stamp": "2026-05-28T11:32:05+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "32668",
-        "N2": 20160929,
+        "N2": 20260409,
         "alteration_flag": " ",
-        "transmission_identification": "3175"
+        "transmission_identification": "3223"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "32668001",
-            "N2": 20160929,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "3175"
+            "transmission_identification": "3223"
           },
           "BIB": {
             "N1": 17,
             "N2": 0
           },
-          "INSTITUTE": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "3CHFTHU"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
           "TITLE": [
             {
               "pointer": "",
               "coded_information": null,
               "free_text": [
                 "Fission product yield in the fast-neutron fission of",
-                "U-238"
+                " U-238"
               ]
             }
           ],
@@ -48,6 +37,17 @@
               "coded_information": [
                 "Chien Chung",
                 "Ming-Yung Woo"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "INSTITUTE": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "3CHFTHU"
               ],
               "free_text": [
                 ""
@@ -94,7 +94,7 @@
                 "institute": "3CHFTHU"
               },
               "free_text": [
-                ""
+                " 1 MW Tsing Hua Open-pool Reactor (THOR)"
               ]
             }
           ],
@@ -103,11 +103,11 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Depleted uranium oxide(U3O8)waas used as the target.",
-                "the target with thickness of 0.07cm  were sealed in",
-                "polyethylene bag and coverd with 0.2cm cadmium capsule,",
-                "which in turn was placed in a plastic carrier filled",
-                "with 2 cm of boron carbide"
+                "Depleted uranium oxide(U3O8)was used as the target.",
+                " The target with thickness of 0.07 cm were sealed in",
+                " polyethylene bag and covered with 0.2 cm cadmium",
+                " capsule, which in turn was placed in a plastic carrier",
+                " filled with 2 cm of boron carbide"
               ]
             }
           ],
@@ -132,10 +132,10 @@
                 "HPGE"
               ],
               "free_text": [
-                "With 113cm3 active volume .The system resolution",
-                "was 2.5 keV FWHM at 1332 keV.The detector efficiency in",
-                "the range 80-2000 keV was calibrated using sets of IAEA",
-                "and NBS standard sources."
+                " Detector of 113 cm3 active volume. The system",
+                " resolution was 2.5 keV FWHM at 1332 keV. The detector",
+                " efficiency in the range 80-2000 keV was calibrated",
+                " using sets of IAEA and NBS standard sources."
               ]
             }
           ],
@@ -148,16 +148,27 @@
               ]
             }
           ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "FPGAM"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "MONITOR": [
             {
               "pointer": "",
               "coded_information": {
                 "heading": null,
                 "reaction": {
-                  "code": "92-U-238(N,F)56-BA-140,CUM,FY,,FST,RECOM",
+                  "code": "92-U-238(N,F)56-BA-140,CUM,FY,,FST",
                   "code_unit": [
                     {
-                      "unit": "92-U-238(N,F)56-BA-140,CUM,FY,,FST,RECOM",
+                      "unit": "92-U-238(N,F)56-BA-140,CUM,FY,,FST",
                       "field": {
                         "reaction": "92-U-238(N,F)56-BA-140",
                         "target": "92-U-238",
@@ -165,7 +176,7 @@
                         "process": "F",
                         "product": "56-BA-140",
                         "quantity": "CUM,FY",
-                        "data_type": "RECOM",
+                        "data_type": null,
                         "general_quantity_modifier": "FST",
                         "quantity_236": "CUM,FY"
                       }
@@ -206,95 +217,6 @@
               },
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "METHOD": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "FPGAM"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-T",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "The errors are given as one standard deviation:"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-1",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "      HPGE detection efficiency ....... 3.3%"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-2",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "          CFY(Ba-140)normalization.....2.1%"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-3",
-                "minimum_value": 0.08,
-                "maximum_value": 0.15,
-                "correlation_property": null
-              },
-              "free_text": [
-                " sample weight ........... 0.08-0.15%"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-4",
-                "minimum_value": 0.25,
-                "maximum_value": 31.7,
-                "correlation_property": null
-              },
-              "free_text": [
-                " gamma-ray intensity ......0.25-31.7%"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-S",
-                "minimum_value": 0.4,
-                "maximum_value": 12.0,
-                "correlation_property": null
-              },
-              "free_text": [
-                " gamma counting statistics .. 0.4-12.%",
-                "   ----------------------------------------------",
-                "   total yield error .......... 3.92-36.70%",
-                "The total error was calculated as the square root of",
-                "the sum of squares of individual errors"
               ]
             }
           ],
@@ -448,7 +370,8 @@
                 ]
               },
               "free_text": [
-                ""
+                "",
+                "     T1/2(139Ba) is now known to be ~1.4 h."
               ]
             },
             {
@@ -1277,6 +1200,82 @@
               ]
             }
           ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " The total yield uncertainty (3.92-36.70%) was",
+                " determined as the square root of the sum of the",
+                " squares of the individual uncertainties:"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " HPGE detection efficiency (3.3%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " CFY(Ba-140)normalization (2.1%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": 0.08,
+                "maximum_value": 0.15,
+                "correlation_property": null
+              },
+              "free_text": [
+                " sample weight (0.08-0.15%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-4",
+                "minimum_value": 0.25,
+                "maximum_value": 31.7,
+                "correlation_property": null
+              },
+              "free_text": [
+                " gamma-ray intensity (0.25-31.7%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": 0.4,
+                "maximum_value": 12.0,
+                "correlation_property": null
+              },
+              "free_text": [
+                " gamma counting statistics (0.4-12.%)"
+              ]
+            }
+          ],
           "STATUS": [
             {
               "pointer": "",
@@ -1285,11 +1284,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Chien Chung+",
+                "reference": {
+                  "code": "J,JRN,109,117,1987",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JRN",
+                      "number": null,
+                      "volume": "109",
+                      "part": null,
+                      "issue": null,
+                      "page": "117"
+                    },
+                    "date": 1987
+                  }
+                }
               },
               "free_text": [
-                " Table 5 of J.Radioanal.Nucl.Chem.109(1987)117"
+                " Table 5"
               ]
             }
           ],
@@ -1323,6 +1336,17 @@
               },
               "free_text": [
                 " VS. Corrections in decay data."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. FACILITY free text added, STATUS",
+                " updated, MONITOR: SF9: RECOM deleted"
               ]
             }
           ],

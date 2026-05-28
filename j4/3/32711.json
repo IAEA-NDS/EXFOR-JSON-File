@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:45:15+0000",
+  "time_stamp": "2026-05-28T11:32:06+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "32711",
-        "N2": 20161102,
+        "N2": 20260409,
         "alteration_flag": " ",
-        "transmission_identification": "3177"
+        "transmission_identification": "3223"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "32711001",
-            "N2": 20161102,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "3177"
+            "transmission_identification": "3223"
           },
           "BIB": {
             "N1": 14,
@@ -138,32 +138,6 @@
               ]
             }
           ],
-          "METHOD": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "TOF",
-                "PHD",
-                "PSD"
-              ],
-              "free_text": [
-                " Four runs of measurement with gas-in",
-                " (sample-in and out) and gas-out (sample-in and out)",
-                "were performed for each angle during the experiment.",
-                "For each event, there are three parameters which are",
-                "PH, PSD and TOF. PH and PSD are used for the",
-                "detection threshold determination and n-gamma",
-                "discrimination. The contaminants of breakup source",
-                "neutrons from D(d,np) reactions was eliminated by",
-                "using the combination of abnormal and normal fast",
-                "neutron TOF spectrometers. The flight path between",
-                "sample and detector of normal and abnormal TOF",
-                "spectrometer is ~6 m and 70 cm, and the distance",
-                "between target and sample is 18 and 220 cm,",
-                "respectively."
-              ]
-            }
-          ],
           "INC-SOURCE": [
             {
               "pointer": "",
@@ -190,6 +164,32 @@
                 "and one monitor NE213 (2.54 x 2.54 cm) were used. The",
                 "energy resolutions for normal and abnormal case are",
                 "5% and 20%, respectively."
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "TOF",
+                "PHD",
+                "PSD"
+              ],
+              "free_text": [
+                " Four runs of measurement with gas-in",
+                " (sample-in and out) and gas-out (sample-in and out)",
+                "were performed for each angle during the experiment.",
+                "For each event, there are three parameters which are",
+                "PH, PSD and TOF. PH and PSD are used for the",
+                "detection threshold determination and n-gamma",
+                "discrimination. The contaminants of breakup source",
+                "neutrons from D(d,np) reactions was eliminated by",
+                "using the combination of abnormal and normal fast",
+                "neutron TOF spectrometers. The flight path between",
+                "sample and detector of normal and abnormal TOF",
+                "spectrometer is ~6 m and 70 cm, and the distance",
+                "between target and sample is 18 and 220 cm,",
+                "respectively."
               ]
             }
           ],
@@ -345,11 +345,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "Guochang Chen+",
+                "reference": {
+                  "code": "J,NSE,163,272,2009",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NSE",
+                      "number": null,
+                      "volume": "163",
+                      "part": null,
+                      "issue": null,
+                      "page": "272"
+                    },
+                    "date": 2009
+                  }
+                }
               },
               "free_text": [
-                " Data were received from author"
+                " Data were",
+                " received from author"
               ]
             },
             {
@@ -377,6 +392,16 @@
               "free_text": [
                 " Compiled by X4 group (CNDC)."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Revision in 004-006, 009-011"
+              ]
             }
           ],
           "ENDBIB": {
@@ -384,22 +409,18 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 1,
             "N2": 0,
             "pointer": [
-              "",
               ""
             ],
             "heading": [
-              "ANG-ERR",
               "MONIT-ERR"
             ],
             "unit": [
-              "ADEG",
               "PER-CENT"
             ],
             "value": [
-              0.5,
               1.0
             ]
           },
@@ -673,12 +694,12 @@
         {
           "SUBENT": {
             "N1": "32711004",
-            "N2": 20161102,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "3177"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -725,11 +746,39 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. COMMON: ANG-ERR added"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "ANG-ERR"
+            ],
+            "unit": [
+              "ADEG"
+            ],
+            "value": [
+              0.5
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -895,12 +944,12 @@
         {
           "SUBENT": {
             "N1": "32711005",
-            "N2": 20161102,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "3177"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -947,24 +996,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. COMMON: ANG-ERR added"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0,
             "pointer": [
+              "",
               ""
             ],
             "heading": [
-              "E-LVL"
+              "E-LVL",
+              "ANG-ERR"
             ],
             "unit": [
-              "MEV"
+              "MEV",
+              "ADEG"
             ],
             "value": [
-              2.186
+              2.186,
+              0.5
             ]
           },
           "ENDCOMMON": {
@@ -1133,12 +1198,12 @@
         {
           "SUBENT": {
             "N1": "32711006",
-            "N2": 20161102,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "3177"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -1174,15 +1239,28 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The lithium samples were encapsulated in aluminium",
-                "containers. The size of the containers is 30x40 mm",
-                "with 0.3 mm thickness of the wall. The composition of",
-                "sample is including 6Li, 7Li and Al as 90.3%, 8.6%",
-                "and 1.1% for the normal TOF spectrometer measurement,",
-                "respectively. The composition of sample is including",
-                "6Li and 7Li as 90.638% and 9.362% for the abnormal",
-                "TOF spectrometer measurement, respectively. And an",
-                "empty Al container was used to subtract background."
+                "The lithium samples were encapsulated in aluminum",
+                " containers. The size of the containers is 30 X 40 mm",
+                " with 0.3 mm thickness of the wall. The composition of",
+                " sample is including 6Li, 7Li and Al as 90.3%, 8.6%",
+                " and 1.1% for the normal TOF spectrometer measurement,",
+                " respectively. The composition of sample is including",
+                " 6Li and 7Li as 90.638% and 9.362% for the abnormal",
+                " TOF spectrometer measurement, respectively. And an",
+                " empty Al container was used to subtract background."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. COMMON: ANG-ERR added. ANG-CM->ANG and",
+                " DATA-CM->DATA (confirmed by Chen Guochang, 2026-04-30)"
               ]
             }
           ],
@@ -1190,7 +1268,23 @@
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "ANG-ERR"
+            ],
+            "unit": [
+              "ADEG"
+            ],
+            "value": [
+              0.5
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -1207,10 +1301,10 @@
             ],
             "heading": [
               "EN",
-              "ANG-CM",
+              "ANG",
               "E-MIN",
               "E-MAX",
-              "DATA-CM",
+              "DATA",
               "ERR-T"
             ],
             "unit": [
@@ -5527,12 +5621,12 @@
         {
           "SUBENT": {
             "N1": "32711009",
-            "N2": 20161102,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "3177"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -5580,28 +5674,44 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. COMMON: ANG-ERR added"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
           "COMMON": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0,
             "pointer": [
+              "",
               "",
               ""
             ],
             "heading": [
               "E-LVL",
-              "E-LVL"
+              "E-LVL",
+              "ANG-ERR"
             ],
             "unit": [
               "MEV",
-              "MEV"
+              "MEV",
+              "ADEG"
             ],
             "value": [
               0.0,
-              0.478
+              0.478,
+              0.5
             ]
           },
           "ENDCOMMON": {
@@ -5770,12 +5880,12 @@
         {
           "SUBENT": {
             "N1": "32711010",
-            "N2": 20161102,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "3177"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -5822,24 +5932,40 @@
               ]
             }
           ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. COMMON: ANG-ERR added"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0,
             "pointer": [
+              "",
               ""
             ],
             "heading": [
-              "E-LVL"
+              "E-LVL",
+              "ANG-ERR"
             ],
             "unit": [
-              "MEV"
+              "MEV",
+              "ADEG"
             ],
             "value": [
-              4.63
+              4.63,
+              0.5
             ]
           },
           "ENDCOMMON": {
@@ -5996,12 +6122,12 @@
         {
           "SUBENT": {
             "N1": "32711011",
-            "N2": 20161102,
+            "N2": 20260409,
             "alteration_flag": " ",
-            "transmission_identification": "3177"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -6042,11 +6168,24 @@
               },
               "free_text": [
                 " The lithium samples were",
-                "encapsulated in aluminium containers. The size of the",
-                "containers is 30x40 mm with 0.3 mm thickness of the",
-                "wall. The composition of sample is including 6Li and",
-                "7Li as 5% and 95%. And an empty Al container was used",
-                "to subtract background."
+                " encapsulated in aluminum containers. The size of the",
+                " containers is 30 X 40 mm with 0.3 mm thickness of the",
+                " wall. The composition of sample is including 6Li and",
+                " 7Li as 5% and 95%. And an empty Al container was used",
+                " to subtract background."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260409,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. COMMON: ANG-ERR added. ANG-CM->ANG and",
+                " DATA-CM->DATA (confirmed by Chen Guochang, 2026-04-30)"
               ]
             }
           ],
@@ -6054,7 +6193,23 @@
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "ANG-ERR"
+            ],
+            "unit": [
+              "ADEG"
+            ],
+            "value": [
+              0.5
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -6071,10 +6226,10 @@
             ],
             "heading": [
               "EN",
-              "ANG-CM",
+              "ANG",
               "E-MIN",
               "E-MAX",
-              "DATA-CM",
+              "DATA",
               "ERR-T"
             ],
             "unit": [

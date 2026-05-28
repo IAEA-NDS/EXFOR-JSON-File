@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T21:25:34+0000",
+  "time_stamp": "2026-05-28T11:31:59+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "30069",
-        "N2": 20211005,
+        "N2": 20260401,
         "alteration_flag": " ",
-        "transmission_identification": "3202"
+        "transmission_identification": "3223"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "30069001",
-            "N2": 20211005,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "3202"
+            "transmission_identification": "3223"
           },
           "BIB": {
             "N1": 11,
@@ -82,7 +82,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " Exp. details and data table"
+                ""
               ]
             }
           ],
@@ -114,17 +114,6 @@
               ]
             }
           ],
-          "METHOD": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "ACTIV"
-              ],
-              "free_text": [
-                " Activation"
-              ]
-            }
-          ],
           "DETECTOR": [
             {
               "pointer": "",
@@ -134,6 +123,17 @@
               "free_text": [
                 " NaI(Tl) Spectrometer for gamma detection.",
                 "Flux monitored from pulses due to gammas of over 2 MeV"
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "ACTIV"
+              ],
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -157,20 +157,6 @@
               "pointer": "",
               "coded_information": {
                 "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Data taken from Acta Phys.Hung. 25(1968)91S"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
                   "APRVD"
                 ],
                 "subentry_number": null,
@@ -178,7 +164,35 @@
                 "reference": null
               },
               "free_text": [
-                " approved by Peto (5/9/1972)"
+                " approved by Peto (1972-09-05)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "G.Peto+",
+                "reference": {
+                  "code": "J,AHP,25,91,1968",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "AHP",
+                      "number": null,
+                      "volume": "25",
+                      "part": null,
+                      "issue": null,
+                      "page": "91"
+                    },
+                    "date": 1968
+                  }
+                }
+              },
+              "free_text": [
+                " Table 1"
               ]
             }
           ],
@@ -234,6 +248,16 @@
               "free_text": [
                 " VS. REACTION code corrected in 003."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Entry revised"
+              ]
             }
           ],
           "ENDBIB": {
@@ -272,12 +296,12 @@
         {
           "SUBENT": {
             "N1": "30069002",
-            "N2": 20080215,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "3125"
+            "transmission_identification": "3223"
           },
           "BIB": {
-            "N1": 7,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -305,7 +329,7 @@
               },
               "free_text": [
                 "",
-                "Half-life measured as 17.0 +- 0.6 Sec"
+                "Half-life measured as 17.0 +/- 0.6 Sec"
               ]
             }
           ],
@@ -315,11 +339,18 @@
               "coded_information": {
                 "flag": null,
                 "nuclide": "39-Y-89-M",
-                "half-life": {
-                  "value": 15.0,
-                  "unit": "SEC"
-                },
-                "radiation": []
+                "half-life": null,
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      915.0
+                    ],
+                    "intensity": null
+                  }
+                ]
               },
               "free_text": [
                 ""
@@ -354,17 +385,6 @@
               },
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "PART-DET": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "DG"
-              ],
-              "free_text": [
-                " gamma line of 915 keV"
               ]
             }
           ],
@@ -407,6 +427,16 @@
               "free_text": [
                 " HW.-Obsolete keywords/codes converted/",
                 "deleted.-"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. PART-DET->DECAY-DATA replaced"
               ]
             }
           ],
@@ -460,9 +490,9 @@
         {
           "SUBENT": {
             "N1": "30069003",
-            "N2": 20211005,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "3202"
+            "transmission_identification": "3223"
           },
           "BIB": {
             "N1": 5,
@@ -509,16 +539,8 @@
                       "DG"
                     ],
                     "energy": [
-                      2.2
-                    ],
-                    "intensity": null
-                  },
-                  {
-                    "radiation_type": [
-                      "DG"
-                    ],
-                    "energy": [
-                      2.3
+                      2300.0,
+                      2200.0
                     ],
                     "intensity": null
                   }
@@ -526,6 +548,15 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Natural Zr"
               ]
             }
           ],
@@ -557,15 +588,6 @@
               },
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "SAMPLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Natural Zr"
               ]
             }
           ],
@@ -609,6 +631,16 @@
               "free_text": [
                 " VS. REACTION code corrected",
                 "            c.f. Memo CP-D/0954. PART-DET->DECAY-DATA"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. PART-DET->DECAY-DATA replaced"
               ]
             }
           ],
@@ -662,9 +694,9 @@
         {
           "SUBENT": {
             "N1": "30069004",
-            "N2": 20080215,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "3125"
+            "transmission_identification": "3223"
           },
           "BIB": {
             "N1": 5,
@@ -698,14 +730,27 @@
               ]
             }
           ],
-          "PART-DET": [
+          "DECAY-DATA": [
             {
               "pointer": "",
-              "coded_information": [
-                "DG"
-              ],
+              "coded_information": {
+                "flag": null,
+                "nuclide": "79-AU-197-M",
+                "half-life": null,
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      279.0
+                    ],
+                    "intensity": null
+                  }
+                ]
+              },
               "free_text": [
-                " gamma line of 279 keV"
+                ""
               ]
             }
           ],
@@ -770,6 +815,16 @@
               "free_text": [
                 " HW.-Obsolete keywords/codes converted.-"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. PART-DET->DECAY-DATA replaced"
+              ]
             }
           ],
           "ENDBIB": {
@@ -822,9 +877,9 @@
         {
           "SUBENT": {
             "N1": "30069005",
-            "N2": 20080215,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "3125"
+            "transmission_identification": "3223"
           },
           "BIB": {
             "N1": 5,
@@ -858,14 +913,36 @@
               ]
             }
           ],
-          "PART-DET": [
+          "DECAY-DATA": [
             {
               "pointer": "",
-              "coded_information": [
-                "DG"
-              ],
+              "coded_information": {
+                "flag": null,
+                "nuclide": "82-PB-207-M",
+                "half-life": null,
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      570.0
+                    ],
+                    "intensity": null
+                  },
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      1060.0
+                    ],
+                    "intensity": null
+                  }
+                ]
+              },
               "free_text": [
-                " gamma lines of 570 and 1060 keV"
+                ""
               ]
             }
           ],
@@ -930,6 +1007,16 @@
                 " HW.-Obsolete keywords/codes converted,",
                 "reaction code altered.-"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. PART-DET->DECAY-DATA replaced"
+              ]
             }
           ],
           "ENDBIB": {
@@ -982,9 +1069,9 @@
         {
           "SUBENT": {
             "N1": "30069006",
-            "N2": 20080215,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "3125"
+            "transmission_identification": "3223"
           },
           "BIB": {
             "N1": 6,
@@ -994,16 +1081,16 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "82-PB-204(N,2N)82-PB-203-M,,SIG",
+                "code": "82-PB-204(N,2N)82-PB-203-M1+M2,,SIG",
                 "code_unit": [
                   {
-                    "unit": "82-PB-204(N,2N)82-PB-203-M,,SIG",
+                    "unit": "82-PB-204(N,2N)82-PB-203-M1+M2,,SIG",
                     "field": {
-                      "reaction": "82-PB-204(N,2N)82-PB-203-M",
+                      "reaction": "82-PB-204(N,2N)82-PB-203-M1+M2",
                       "target": "82-PB-204",
                       "projectile": "N",
                       "process": "2N",
-                      "product": "82-PB-203-M",
+                      "product": "82-PB-203-M1+M2",
                       "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
@@ -1018,14 +1105,27 @@
               ]
             }
           ],
-          "PART-DET": [
+          "DECAY-DATA": [
             {
               "pointer": "",
-              "coded_information": [
-                "DG"
-              ],
+              "coded_information": {
+                "flag": null,
+                "nuclide": "82-PB-203-M1",
+                "half-life": null,
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      825.0
+                    ],
+                    "intensity": null
+                  }
+                ]
+              },
               "free_text": [
-                " 825 keV gamma line"
+                ""
               ]
             }
           ],
@@ -1099,6 +1199,17 @@
               "free_text": [
                 " HW.-Obsolete keyword/codes converted.-"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. REACTION: M->M1+M2; DECAY-DATA: M->M1",
+                " and PART-DET->DECAY-DATA replaced"
+              ]
             }
           ],
           "ENDBIB": {
@@ -1151,9 +1262,9 @@
         {
           "SUBENT": {
             "N1": "30069007",
-            "N2": 20080215,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "3125"
+            "transmission_identification": "3223"
           },
           "BIB": {
             "N1": 5,
@@ -1187,14 +1298,27 @@
               ]
             }
           ],
-          "PART-DET": [
+          "DECAY-DATA": [
             {
               "pointer": "",
-              "coded_information": [
-                "DG"
-              ],
+              "coded_information": {
+                "flag": null,
+                "nuclide": "81-TL-202",
+                "half-life": null,
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      440.0
+                    ],
+                    "intensity": null
+                  }
+                ]
+              },
               "free_text": [
-                " 440 keV gamma line"
+                ""
               ]
             }
           ],
@@ -1258,6 +1382,16 @@
               "free_text": [
                 " HW.-Obsolete keyword/codes converted.-"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. PART-DET->DECAY-DATA replaced"
+              ]
             }
           ],
           "ENDBIB": {
@@ -1310,9 +1444,9 @@
         {
           "SUBENT": {
             "N1": "30069008",
-            "N2": 20080215,
+            "N2": 20260401,
             "alteration_flag": " ",
-            "transmission_identification": "3125"
+            "transmission_identification": "3223"
           },
           "BIB": {
             "N1": 5,
@@ -1346,23 +1480,36 @@
               ]
             }
           ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "80-HG-203",
+                "half-life": null,
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      279.0
+                    ],
+                    "intensity": null
+                  }
+                ]
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "SAMPLE": [
             {
               "pointer": "",
               "coded_information": null,
               "free_text": [
                 "Hg-Cl2"
-              ]
-            }
-          ],
-          "PART-DET": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "DG"
-              ],
-              "free_text": [
-                " 279 keV gamma line"
               ]
             }
           ],
@@ -1416,6 +1563,16 @@
               },
               "free_text": [
                 " HW.-Obsolete keyword/codes converted.-"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260401,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. PART-DET->DECAY-DATA replaced"
               ]
             }
           ],
