@@ -1,0 +1,2564 @@
+{
+  "title": "Schema of EXFOR in JSON (Ver.2026-01-26)",
+  "type": "object",
+  "required": [
+    "title",
+    "time_stamp",
+    "entries"
+  ],
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "time_stamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "ENTRY",
+          "subentries",
+          "ENDENTRY"
+        ],
+        "properties": {
+          "ENTRY": {
+            "$ref": "#/definitions/def_ENTRY"
+          },
+          "subentries": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "SUBENT": {
+                  "$ref": "#/definitions/def_SUBENT"
+                },
+                "BIB": {
+                  "$ref": "#/definitions/def_BIB"
+                },
+                "TITLE": {
+                  "$ref": "#/definitions/def_TITLE"
+                },
+                "AUTHOR": {
+                  "$ref": "#/definitions/def_AUTHOR"
+                },
+                "INSTITUTE": {
+                  "$ref": "#/definitions/def_INSTITUTE"
+                },
+                "EXP-YEAR": {
+                  "$ref": "#/definitions/def_EXP-YEAR"
+                },
+                "REFERENCE": {
+                  "$ref": "#/definitions/def_REFERENCE"
+                },
+                "REL-REF": {
+                  "$ref": "#/definitions/def_REL-REF"
+                },
+                "MONIT-REF": {
+                  "$ref": "#/definitions/def_MONIT-REF"
+                },
+                "REACTION": {
+                  "$ref": "#/definitions/def_REACTION"
+                },
+                "RESULT": {
+                  "$ref": "#/definitions/def_RESULT"
+                },
+                "MONITOR": {
+                  "$ref": "#/definitions/def_MONITOR"
+                },
+                "ASSUMED": {
+                  "$ref": "#/definitions/def_ASSUMED"
+                },
+                "DECAY-DATA": {
+                  "$ref": "#/definitions/def_DECAY-DATA"
+                },
+                "DECAY-MON": {
+                  "$ref": "#/definitions/def_DECAY-MON"
+                },
+                "PART-DET": {
+                  "$ref": "#/definitions/def_PART-DET"
+                },
+                "RAD-DET": {
+                  "$ref": "#/definitions/def_RAD-DET"
+                },
+                "HALF-LIFE": {
+                  "$ref": "#/definitions/def_HALF-LIFE"
+                },
+                "ANG-SEC": {
+                  "$ref": "#/definitions/def_ANG-SEC"
+                },
+                "EN-SEC": {
+                  "$ref": "#/definitions/def_EN-SEC"
+                },
+                "LEVEL-PROP": {
+                  "$ref": "#/definitions/def_LEVEL-PROP"
+                },
+                "MOM-SEC": {
+                  "$ref": "#/definitions/def_MOM-SEC"
+                },
+                "MISC-COL": {
+                  "$ref": "#/definitions/def_MISC-COL"
+                },
+                "INC-SOURCE": {
+                  "$ref": "#/definitions/def_INC-SOURCE"
+                },
+                "INC-SPECT": {
+                  "$ref": "#/definitions/def_INC-SPECT"
+                },
+                "N-SOURCE": {
+                  "$ref": "#/definitions/def_N-SOURCE"
+                },
+                "SAMPLE": {
+                  "$ref": "#/definitions/def_SAMPLE"
+                },
+                "SUPPL-INF": {
+                  "$ref": "#/definitions/def_SUPPL-INF"
+                },
+                "METHOD": {
+                  "$ref": "#/definitions/def_METHOD"
+                },
+                "FACILITY": {
+                  "$ref": "#/definitions/def_FACILITY"
+                },
+                "ANALYSIS": {
+                  "$ref": "#/definitions/def_ANALYSIS"
+                },
+                "DETECTOR": {
+                  "$ref": "#/definitions/def_DETECTOR"
+                },
+                "CORRECTION": {
+                  "$ref": "#/definitions/def_CORRECTION"
+                },
+                "COVARIANCE": {
+                  "$ref": "#/definitions/def_COVARIANCE"
+                },
+                "ERR-ANALYS": {
+                  "$ref": "#/definitions/def_ERR-ANALYS"
+                },
+                "ADD-RES": {
+                  "$ref": "#/definitions/def_ADD-RES"
+                },
+                "COMMENT": {
+                  "$ref": "#/definitions/def_COMMENT"
+                },
+                "CRITIQUE": {
+                  "$ref": "#/definitions/def_CRITIQUE"
+                },
+                "FLAG": {
+                  "$ref": "#/definitions/def_FLAG"
+                },
+                "STATUS": {
+                  "$ref": "#/definitions/def_STATUS"
+                },
+                "HISTORY": {
+                  "$ref": "#/definitions/def_HISTORY"
+                },
+                "ENDBIB": {
+                  "$ref": "#/definitions/def_BIB"
+                },
+                "NOBIB": {
+                  "$ref": "#/definitions/def_BIB"
+                },
+                "COMMON": {
+                  "$ref": "#/definitions/def_COMMON"
+                },
+                "ENDCOMMON": {
+                  "$ref": "#/definitions/def_BIB"
+                },
+                "NOCOMMON": {
+                  "$ref": "#/definitions/def_BIB"
+                },
+                "DATA": {
+                  "$ref": "#/definitions/def_DATA"
+                },
+                "ENDDATA": {
+                  "$ref": "#/definitions/def_BIB"
+                },
+                "NODATA": {
+                  "$ref": "#/definitions/def_BIB"
+                },
+                "ENDSUBENT": {
+                  "$ref": "#/definitions/def_BIB"
+                },
+                "NOSUBENT": {
+                  "$ref": "#/definitions/def_NOSUBENT"
+                }
+              }
+            }
+          },
+          "ENDENTRY": {
+            "$ref": "#/definitions/def_BIB"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "def_ENTRY": {
+      "type": "object",
+      "required": [
+        "N1",
+        "N2",
+        "alteration_flag",
+        "transmission_identification"
+      ],
+      "properties": {
+        "N1": {
+          "$ref": "#/definitions/def_ENTRY_id"
+        },
+        "N2": {
+          "$ref": "#/definitions/def_date"
+        },
+        "alteration_flag": {
+          "$ref": "#/definitions/def_alteration_flag"
+        },
+        "transmission_identification": {
+          "$ref": "#/definitions/def_TRANS_id"
+        }
+      }
+    },
+    "def_SUBENT": {
+      "type": "object",
+      "required": [
+        "N1",
+        "N2",
+        "alteration_flag",
+        "transmission_identification"
+      ],
+      "properties": {
+        "N1": {
+          "$ref": "#/definitions/def_SUBENT_id"
+        },
+        "N2": {
+          "$ref": "#/definitions/def_date"
+        },
+        "alteration_flag": {
+          "type": "string",
+          "enum": [
+            " ",
+            "C"
+          ]
+        },
+        "transmission_identification": {
+          "$ref": "#/definitions/def_TRANS_id"
+        }
+      }
+    },
+    "def_NOSUBENT": {
+      "type": "object",
+      "required": [
+        "N1",
+        "N2",
+        "transmission_identification"
+      ],
+      "properties": {
+        "N1": {
+          "$ref": "#/definitions/def_SUBENT_id"
+        },
+        "N2": {
+          "$ref": "#/definitions/def_date"
+        },
+        "transmission_identification": {
+          "$ref": "#/definitions/def_TRANS_id"
+        }
+      }
+    },
+    "def_BIB": {
+      "type": "object",
+      "required": [
+        "N1",
+        "N2"
+      ],
+      "properties": {
+        "N1": {
+          "type": "integer"
+        },
+        "N2": {
+          "type": "integer"
+        }
+      }
+    },
+    "def_COMMON": {
+      "type": "object",
+      "required": [
+        "N1",
+        "N2",
+        "pointer",
+        "heading",
+        "unit",
+        "value"
+      ],
+      "properties": {
+        "N1": {
+          "type": "integer"
+        },
+        "N2": {
+          "type": "integer"
+        },
+        "pointer": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "heading": {
+          "type": "array",
+          "items": {
+            "$ref": "j4_schema_dict.json#/definitions/024"
+          }
+        },
+        "unit": {
+          "type": "array",
+          "items": {
+            "$ref": "j4_schema_dict.json#/definitions/025"
+          }
+        },
+        "value": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "def_DATA": {
+      "type": "object",
+      "required": [
+        "N1",
+        "N2",
+        "pointer",
+        "heading",
+        "unit",
+        "value"
+      ],
+      "properties": {
+        "N1": {
+          "type": "integer"
+        },
+        "N2": {
+          "type": "integer"
+        },
+        "pointer": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "heading": {
+          "type": "array",
+          "items": {
+            "$ref": "j4_schema_dict.json#/definitions/024"
+          }
+        },
+        "unit": {
+          "type": "array",
+          "items": {
+            "$ref": "j4_schema_dict.json#/definitions/025"
+          }
+        },
+        "value": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": [
+                "number",
+                "null"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "def_TITLE": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "type": "null"
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_AUTHOR": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_INSTITUTE": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "j4_schema_dict.json#/definitions/003"
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_EXP-YEAR": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "pattern": "(19|20|)[0-9]{2}"
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_REFERENCE": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "required": [
+                  "code",
+                  "code_unit",
+                  "unit_combination"
+                ],
+                "properties": {
+                  "code": {
+                    "type": "string"
+                  },
+                  "code_unit": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "required": [
+                        "unit",
+                        "doi",
+                        "field"
+                      ],
+                      "properties": {
+                        "unit": {
+                          "type": "string"
+                        },
+                        "doi": {
+                          "type": "string"
+                        },
+                        "field": {
+                          "$ref": "#/definitions/def_reference_field"
+                        }
+                      }
+                    }
+                  },
+                  "unit_combination": {
+                    "type": "string"
+                  }
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_REL-REF": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "required": [
+                  "code",
+                  "subentry_number",
+                  "author",
+                  "reference"
+                ],
+                "properties": {
+                  "code": {
+                    "$ref": "j4_schema_dict.json#/definitions/017"
+                  },
+                  "subentry_number": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "author": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "reference": {
+                    "type": "object",
+                    "required": [
+                      "code",
+                      "field"
+                    ],
+                    "properties": {
+                      "code": {
+                        "type": "string"
+                      },
+                      "field": {
+                        "$ref": "#/definitions/def_reference_field"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_MONIT-REF": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "required": [
+                  "heading",
+                  "subentry_number",
+                  "author",
+                  "reference"
+                ],
+                "properties": {
+                  "heading": {
+                    "oneOf": [
+                      {
+                        "type": "null"
+                      },
+                      {
+                        "$ref": "j4_schema_dict.json#/definitions/024"
+                      }
+                    ]
+                  },
+                  "subentry_number": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "author": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "reference": {
+                    "type": "object",
+                    "required": [
+                      "code",
+                      "field"
+                    ],
+                    "properties": {
+                      "code": {
+                        "type": "string"
+                      },
+                      "field": {
+                        "type": "object",
+                        "required": [
+                          "reference_type",
+                          "reference",
+                          "date"
+                        ],
+                        "properties": {
+                          "reference_type": {
+                            "type": "string"
+                          },
+                          "reference": {
+                            "type": "object",
+                            "required": [
+                              "code",
+                              "number",
+                              "volume",
+                              "part",
+                              "issue",
+                              "page",
+                              "version",
+                              "material_number"
+                            ],
+                            "properties": {
+                              "code": {
+                                "type": "string"
+                              },
+                              "number": {
+                                "type": [
+                                  "string",
+                                  "null"
+                                ]
+                              },
+                              "volume": {
+                                "type": [
+                                  "string",
+                                  "null"
+                                ]
+                              },
+                              "part": {
+                                "type": [
+                                  "string",
+                                  "null"
+                                ]
+                              },
+                              "issue": {
+                                "type": [
+                                  "string",
+                                  "null"
+                                ]
+                              },
+                              "page": {
+                                "type": [
+                                  "string",
+                                  "null"
+                                ]
+                              },
+                              "version": {
+                                "type": [
+                                  "string",
+                                  "null"
+                                ]
+                              },
+                              "material_number": {
+                                "type": [
+                                  "string",
+                                  "null"
+                                ]
+                              }
+                            }
+                          },
+                          "date": {
+                            "type": "integer"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_REACTION": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "type": "object",
+            "required": [
+              "code",
+              "code_unit",
+              "unit_combination"
+            ],
+            "properties": {
+              "code": {
+                "type": "string"
+              },
+              "code_unit": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "unit",
+                    "field"
+                  ],
+                  "properties": {
+                    "unit": {
+                      "type": "string"
+                    },
+                    "field": {
+                      "$ref": "#/definitions/def_reaction_field"
+                    }
+                  }
+                }
+              },
+              "unit_combination": {
+                "type": "string"
+              }
+            }
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_RESULT": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "type": "array",
+            "items": {
+              "$ref": "j4_schema_dict.json#/definitions/037"
+            }
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_MONITOR": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "required": [
+                  "heading",
+                  "reaction"
+                ],
+                "properties": {
+                  "heading": {
+                    "oneOf": [
+                      {
+                        "type": "null"
+                      },
+                      {
+                        "$ref": "j4_schema_dict.json#/definitions/024"
+                      }
+                    ]
+                  },
+                  "reaction": {
+                    "type": "object",
+                    "required": [
+                      "code",
+                      "code_unit",
+                      "unit_combination"
+                    ],
+                    "properties": {
+                      "code": {
+                        "type": "string"
+                      },
+                      "code_unit": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "required": [
+                            "unit",
+                            "field"
+                          ],
+                          "properties": {
+                            "unit": {
+                              "type": "string"
+                            },
+                            "field": {
+                              "$ref": "#/definitions/def_reaction_field"
+                            }
+                          }
+                        }
+                      },
+                      "unit_combination": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_ASSUMED": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "required": [
+                  "heading",
+                  "reaction"
+                ],
+                "properties": {
+                  "heading": {
+                    "$ref": "j4_schema_dict.json#/definitions/024"
+                  },
+                  "reaction": {
+                    "type": "object",
+                    "required": [
+                      "code",
+                      "code_unit",
+                      "unit_combination"
+                    ],
+                    "properties": {
+                      "code": {
+                        "type": "string"
+                      },
+                      "code_unit": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "required": [
+                            "unit",
+                            "field"
+                          ],
+                          "properties": {
+                            "unit": {
+                              "type": "string"
+                            },
+                            "field": {
+                              "$ref": "#/definitions/def_reaction_field"
+                            }
+                          }
+                        }
+                      },
+                      "unit_combination": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_DECAY-DATA": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "required": [
+                  "flag",
+                  "nuclide",
+                  "half-life",
+                  "radiation"
+                ],
+                "properties": {
+                  "flag": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "nuclide": {
+                    "type": "string"
+                  },
+                  "half-life": {
+                    "oneOf": [
+                      {
+                        "type": "null"
+                      },
+                      {
+                        "type": "object",
+                        "required": [
+                          "value",
+                          "unit"
+                        ],
+                        "properties": {
+                          "value": {
+                            "type": "number"
+                          },
+                          "unit": {
+                            "$ref": "j4_schema_dict.json#/definitions/025"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "radiation": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "required": [
+                        "radiation_type",
+                        "energy",
+                        "intensity"
+                      ],
+                      "properties": {
+                        "radiation_type": {
+                          "type": "array",
+                          "items": {
+                            "$ref": "j4_schema_dict.json#/definitions/033"
+                          }
+                        },
+                        "energy": {
+                          "oneOf": [
+                            {
+                              "type": "null"
+                            },
+                            {
+                              "type": "array",
+                              "items": {
+                                "type": "number"
+                              }
+                            }
+                          ]
+                        },
+                        "intensity": {
+                          "type": [
+                            "number",
+                            "null"
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_DECAY-MON": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "required": [
+                  "heading",
+                  "nuclide",
+                  "half-life",
+                  "radiation"
+                ],
+                "properties": {
+                  "heading": {
+                    "oneOf": [
+                      {
+                        "type": "null"
+                      },
+                      {
+                        "$ref": "j4_schema_dict.json#/definitions/024"
+                      }
+                    ]
+                  },
+                  "nuclide": {
+                    "type": "string"
+                  },
+                  "half-life": {
+                    "oneOf": [
+                      {
+                        "type": "null"
+                      },
+                      {
+                        "type": "object",
+                        "required": [
+                          "value",
+                          "unit"
+                        ],
+                        "properties": {
+                          "value": {
+                            "type": "number"
+                          },
+                          "unit": {
+                            "$ref": "j4_schema_dict.json#/definitions/025"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "radiation": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "required": [
+                        "radiation_type",
+                        "energy",
+                        "intensity"
+                      ],
+                      "properties": {
+                        "radiation_type": {
+                          "type": "array",
+                          "items": {
+                            "$ref": "j4_schema_dict.json#/definitions/033"
+                          }
+                        },
+                        "energy": {
+                          "oneOf": [
+                            {
+                              "type": "null"
+                            },
+                            {
+                              "type": "array",
+                              "items": {
+                                "type": "number"
+                              }
+                            }
+                          ]
+                        },
+                        "intensity": {
+                          "type": [
+                            "number",
+                            "null"
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_PART-DET": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_RAD-DET": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "required": [
+                  "flag",
+                  "nuclide",
+                  "radiation_type"
+                ],
+                "properties": {
+                  "flag": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "nuclide": {
+                    "type": "string"
+                  },
+                  "radiation_type": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "j4_schema_dict.json#/definitions/033"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_HALF-LIFE": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "required": [
+                  "heading",
+                  "nuclide"
+                ],
+                "properties": {
+                  "heading": {
+                    "$ref": "j4_schema_dict.json#/definitions/024"
+                  },
+                  "nuclide": {
+                    "type": "string"
+                  }
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_ANG-SEC": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "required": [
+                  "heading",
+                  "particle"
+                ],
+                "properties": {
+                  "heading": {
+                    "$ref": "j4_schema_dict.json#/definitions/024"
+                  },
+                  "particle": {
+                    "type": "string"
+                  }
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_EN-SEC": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "required": [
+                  "heading",
+                  "particle"
+                ],
+                "properties": {
+                  "heading": {
+                    "$ref": "j4_schema_dict.json#/definitions/024"
+                  },
+                  "particle": {
+                    "type": "string"
+                  }
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_LEVEL-PROP": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "required": [
+                  "flag",
+                  "nuclide",
+                  "level_identification",
+                  "level_properties"
+                ],
+                "properties": {
+                  "flag": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "nuclide": {
+                    "type": "string"
+                  },
+                  "level_identification": {
+                    "oneOf": [
+                      {
+                        "type": "null"
+                      },
+                      {
+                        "type": "object",
+                        "required": [
+                          "field_identifier",
+                          "value"
+                        ],
+                        "properties": {
+                          "field_identifier": {
+                            "type": "string"
+                          },
+                          "value": {
+                            "type": "number"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "level_properties": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "required": [
+                        "field_identifier",
+                        "value"
+                      ],
+                      "properties": {
+                        "field_identifier": {
+                          "type": "string"
+                        },
+                        "value": {
+                          "oneOf": [
+                            {
+                              "type": "number"
+                            },
+                            {
+                              "type": "array",
+                              "items": {
+                                "type": "number"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_MOM-SEC": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "required": [
+                  "heading",
+                  "particle"
+                ],
+                "properties": {
+                  "heading": {
+                    "$ref": "j4_schema_dict.json#/definitions/024"
+                  },
+                  "particle": {
+                    "type": "string"
+                  }
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_MISC-COL": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "j4_schema_dict.json#/definitions/024"
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_INC-SOURCE": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "type": "string"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "required": [
+                  "incident_source",
+                  "reaction"
+                ],
+                "properties": {
+                  "incident_source": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "j4_schema_dict.json#/definitions/019"
+                    }
+                  },
+                  "reaction": {
+                    "oneOf": [
+                      {
+                        "type": "null"
+                      },
+                      {
+                        "type": "object",
+                        "required": [
+                          "code",
+                          "field"
+                        ],
+                        "properties": {
+                          "code": {
+                            "type": "string"
+                          },
+                          "field": {
+                            "type": "object",
+                            "required": [
+                              "target",
+                              "projectile",
+                              "process",
+                              "product"
+                            ],
+                            "properties": {
+                              "target": {
+                                "type": "string"
+                              },
+                              "projectile": {
+                                "type": "string"
+                              },
+                              "process": {
+                                "type": "string"
+                              },
+                              "product": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_N-SOURCE": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "j4_schema_dict.json#/definitions/019"
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_INC-SPECT": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "j4_schema_dict.json#/definitions/024"
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_SAMPLE": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "required": [
+                  "nuclide",
+                  "field_identifier",
+                  "value"
+                ],
+                "properties": {
+                  "nuclide": {
+                    "type": "string"
+                  },
+                  "field_identifier": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "number"
+                  }
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_SUPPL-INF": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "j4_schema_dict.json#/definitions/038"
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_METHOD": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "j4_schema_dict.json#/definitions/021"
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_FACILITY": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "required": [
+                  "facility",
+                  "institute"
+                ],
+                "properties": {
+                  "facility": {
+                    "oneOf": [
+                      {
+                        "type": "null"
+                      },
+                      {
+                        "type": "array",
+                        "items": {
+                          "$ref": "j4_schema_dict.json#/definitions/018"
+                        }
+                      }
+                    ]
+                  },
+                  "institute": {
+                    "oneOf": [
+                      {
+                        "type": "null"
+                      },
+                      {
+                        "$ref": "j4_schema_dict.json#/definitions/003"
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_ANALYSIS": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "j4_schema_dict.json#/definitions/023"
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_DETECTOR": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "j4_schema_dict.json#/definitions/022"
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_CORRECTION": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "type": "null"
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_COVARIANCE": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "type": "null"
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_ERR-ANALYS": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "required": [
+                  "heading",
+                  "minimum_value",
+                  "maximum_value",
+                  "correlation_property"
+                ],
+                "properties": {
+                  "heading": {
+                    "$ref": "j4_schema_dict.json#/definitions/024"
+                  },
+                  "minimum_value": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "maximum_value": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "correlation_property": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_ADD-RES": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "j4_schema_dict.json#/definitions/020"
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_COMMENT": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "type": "null"
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_CRITIQUE": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "type": "null"
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_FLAG": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_STATUS": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "required": [
+                  "status"
+                ],
+                "properties": {
+                  "status": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "j4_schema_dict.json#/definitions/016"
+                    }
+                  },
+                  "subentry_number": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "author": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "reference": {
+                    "type": [
+                      "object",
+                      "null"
+                    ],
+                    "required": [
+                      "code",
+                      "field"
+                    ],
+                    "properties": {
+                      "code": {
+                        "type": "string"
+                      },
+                      "field": {
+                        "$ref": "#/definitions/def_reference_field"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_HISTORY": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pointer",
+          "coded_information",
+          "free_text"
+        ],
+        "properties": {
+          "pointer": {
+            "$ref": "#/definitions/def_pointer"
+          },
+          "coded_information": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "required": [
+                  "date",
+                  "history"
+                ],
+                "properties": {
+                  "date": {
+                    "type": "integer"
+                  },
+                  "history": {
+                    "oneOf": [
+                      {
+                        "type": "null"
+                      },
+                      {
+                        "$ref": "j4_schema_dict.json#/definitions/015"
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          "free_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "def_TRANS_id": {
+      "type": "string",
+      "pattern": "[0-9A-Z][0-9]{3}"
+    },
+    "def_ENTRY_id": {
+      "type": "string",
+      "pattern": "^[0-9A-Z][0-9]{4}$"
+    },
+    "def_SUBENT_id": {
+      "type": "string",
+      "pattern": "[0-9A-Z][0-9]{6}"
+    },
+    "def_date": {
+      "type": "integer",
+      "pattern": "(19|20|)[0-9]{2}[01][0-9][0-3][0-9]"
+    },
+    "def_alteration_flag": {
+      "type": "string",
+      "enum": [
+        " ",
+        "C"
+      ]
+    },
+    "def_pointer": {
+      "type": "string",
+      "items": {
+        "type": "string",
+        "pattern": "(^([1-9A-Z]|)$)"
+      }
+    },
+    "def_free_text": {
+      "type": "string",
+      "pattern": "^([0-9A-Za-z]|\\+|-|.|\\)|\\(|\\*|/|=|'|,|%|<|>|:|;|!|?|&|#|\\[|\\]|\"|~|@|\\{|\\}|\\}|\\| |+$)"
+    },
+    "def_reference_field": {
+      "field": {
+        "type": "object",
+        "required": [
+          "reference_type",
+          "reference",
+          "date"
+        ],
+        "properties": {
+          "reference_type": {
+            "$ref": "j4_schema_dict.json#/definitions/004"
+          },
+          "reference": {
+            "type": "object",
+            "required": [
+              "code",
+              "number",
+              "volume",
+              "part",
+              "issue",
+              "page"
+            ],
+            "properties": {
+              "code": {
+                "type": "string"
+              },
+              "number": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "volume": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "part": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "issue": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "page": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "date": {
+            "type": "integer",
+            "pattern": "(19|20|)[0-9]{2}([01][0-9]|[01][0-9][0-3][0-9]){01}"
+          }
+        }
+      }
+    },
+    "def_reaction_field": {
+      "field": {
+        "type": "object",
+        "required": [
+          "reaction",
+          "target",
+          "projectile",
+          "process",
+          "product",
+          "quantity",
+          "data_type",
+          "general_quantity_modifier",
+          "quantity_236"
+        ],
+        "properties": {
+          "reaction": {
+            "type": "string"
+          },
+          "target": {
+            "type": "string"
+          },
+          "projectile": {
+            "type": "string"
+          },
+          "process": {
+            "type": "string"
+          },
+          "product": {
+            "type": "string"
+          },
+          "quantity": {
+            "type": "string"
+          },
+          "data_type": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "general_quantity_modifier": {
+            "type": "string"
+          },
+          "quantity_236": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
