@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:01:10+0000",
+  "time_stamp": "2026-05-28T11:33:38+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "D0207",
-        "N2": 20080604,
+        "N2": 20260410,
         "alteration_flag": " ",
-        "transmission_identification": "D061"
+        "transmission_identification": "D152"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "D0207001",
-            "N2": 20080604,
+            "N2": 20260410,
             "alteration_flag": " ",
-            "transmission_identification": "D061"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 11,
             "N2": 0
           },
           "TITLE": [
@@ -26,8 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Alpha Particle Emission in the Interaction of 12C with",
-                "59Co and 93Nb at  Incident Energies of 300 and 400 MeV"
+                "Alpha particle emission in the interaction of 12C with",
+                " 59Co and 93Nb at incident energies of 300 and 400 MeV"
               ]
             }
           ],
@@ -114,14 +114,37 @@
               ]
             }
           ],
-          "PART-DET": [
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Targets of 93Nb with thicknesses of 2.65 mg/cm2",
+                " and 1.72 mg/cm2 were used at 400 MeV and 300 MeV,",
+                " respectively. The 59Co target had a thickness of",
+                " 1.00 mg/cm2. Thicknesses were verified using energy",
+                " loss of alpha particles from a 228Th source with",
+                " better than 5% accuracy."
+              ]
+            }
+          ],
+          "DETECTOR": [
             {
               "pointer": "",
               "coded_information": [
-                "A"
+                "TELES",
+                "SIBAR",
+                "NAICR"
               ],
               "free_text": [
-                ""
+                " Two complementary detector",
+                " assemblies were used. Each was a charged-particle",
+                " telescope with two silicon surface-barrier detectors",
+                " and a NaI stopping detector. This setup provided two",
+                " delta E-E combinations for particle identification in",
+                " low and high energy regions. One telescope used",
+                " silicon detectors of 30 um and 500 um, and the other",
+                " used 100 um and 2000 um."
               ]
             }
           ],
@@ -138,47 +161,6 @@
               ]
             }
           ],
-          "SAMPLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "The targets were mounted in aluminium frames with 25mm",
-                "diam. apertures. These frames were mounted onto",
-                "an aluminium ladder that  fits into a target drive",
-                "mechanism at the center of the scattering  chamber.",
-                "Targets of 93Nb with different thicknesses (2.65mg/cm2",
-                "and 1.72 mg/cm2) were used in the measurements at,",
-                "respectively,  400 and 300 MeV incident energy. The",
-                "thickness of the 59Co target  was 1.00 mg/cm2. The",
-                "target thicknesses were confirmed by means of  the",
-                "energy loss of a particles from a 228Th source, to an",
-                "accuracy of  better than 5%."
-              ]
-            }
-          ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "TELES",
-                "SIBAR",
-                "NAICR"
-              ],
-              "free_text": [
-                " Two complementary detector",
-                "assemblies were employed. These were conventional",
-                "charged-particle telescopes, each consisting of a stack",
-                "of two Si surface-barrier detectors and a NaI stopping",
-                "detector. This arrangement gives two AE-E combinations",
-                "for particle identification in each telescope,",
-                "corresponding to lower and higher energy regions. In",
-                "one of the telescopes the Si detectors had thicknesses",
-                "of 30 mu-m and 500 mu-m, while different thicknesses of",
-                "100mu-m and 2000mu-m were used in the second telescope."
-              ]
-            }
-          ],
           "ERR-ANALYS": [
             {
               "pointer": "",
@@ -189,27 +171,12 @@
                 "correlation_property": null
               },
               "free_text": [
-                " The overall systematic uncertainty",
-                "of the absolute cross section values is estimated to",
-                "be less than 10%."
+                " The overall systematic uncertainty of the",
+                "absolute cross section values is estimated to be <10%"
               ]
             }
           ],
           "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Data were received from Dr. G.F.Steyn"
-              ]
-            },
             {
               "pointer": "",
               "coded_information": {
@@ -240,10 +207,30 @@
               "pointer": "",
               "coded_information": {
                 "date": 20080604,
+                "history": "R"
+              },
+              "free_text": [
+                " SD. Data received from G.F.Steyn."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20080604,
                 "history": "A"
               },
               "free_text": [
-                " SD. Subents 004 - 007 added."
+                " SD. Subents 004-007 added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260410,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. Entry revised"
               ]
             }
           ],
@@ -263,12 +250,12 @@
         {
           "SUBENT": {
             "N1": "D0207002",
-            "N2": 20080326,
+            "N2": 20260410,
             "alteration_flag": " ",
-            "transmission_identification": "D060"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -307,8 +294,8 @@
               ],
               "free_text": [
                 " Cross sections obtained by integrating the",
-                "experimental particle spectra over the energies",
-                "and the measured angular interval (l0. to 140. degr.)"
+                " experimental particle spectra over the energies",
+                " and the measured angular interval (l0 to 140 degree)"
               ]
             }
           ],
@@ -320,11 +307,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.Gadioli+",
+                "reference": {
+                  "code": "J,NP/A,654,523,1999",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "654",
+                      "part": null,
+                      "issue": null,
+                      "page": "523"
+                    },
+                    "date": 1999
+                  }
+                }
               },
               "free_text": [
-                " data from Tbl.1"
+                " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260410,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated to the new format"
               ]
             }
           ],
@@ -379,12 +392,12 @@
         {
           "SUBENT": {
             "N1": "D0207003",
-            "N2": 20080326,
+            "N2": 20260410,
             "alteration_flag": " ",
-            "transmission_identification": "D060"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -423,8 +436,8 @@
               ],
               "free_text": [
                 " Cross sections obtained by integrating the",
-                "experimental particle spectra over the energies",
-                "and the measured angular interval (l0. to 140. degr.)"
+                " experimental particle spectra over the energies",
+                " and the measured angular interval (l0 to 140 degree)"
               ]
             }
           ],
@@ -436,11 +449,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.Gadioli+",
+                "reference": {
+                  "code": "J,NP/A,654,523,1999",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "654",
+                      "part": null,
+                      "issue": null,
+                      "page": "523"
+                    },
+                    "date": 1999
+                  }
+                }
               },
               "free_text": [
-                " data from Tbl.1"
+                " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260410,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated to the new format"
               ]
             }
           ],
@@ -495,12 +534,12 @@
         {
           "SUBENT": {
             "N1": "D0207004",
-            "N2": 20060609,
+            "N2": 20260410,
             "alteration_flag": " ",
-            "transmission_identification": "D061"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -527,7 +566,49 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                "  fig.1"
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "E.Gadioli+",
+                "reference": {
+                  "code": "J,NP/A,654,523,1999",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "654",
+                      "part": null,
+                      "issue": null,
+                      "page": "523"
+                    },
+                    "date": 1999
+                  }
+                }
+              },
+              "free_text": [
+                " Fig.1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260410,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated to the new format"
               ]
             }
           ],
@@ -21999,12 +22080,12 @@
         {
           "SUBENT": {
             "N1": "D0207005",
-            "N2": 20060609,
+            "N2": 20260410,
             "alteration_flag": " ",
-            "transmission_identification": "D061"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -22040,14 +22121,40 @@
               "pointer": "",
               "coded_information": {
                 "status": [
-                  "CURVE"
+                  "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.Gadioli+",
+                "reference": {
+                  "code": "J,NP/A,654,523,1999",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "654",
+                      "part": null,
+                      "issue": null,
+                      "page": "523"
+                    },
+                    "date": 1999
+                  }
+                }
               },
               "free_text": [
-                " data from fig. 1"
+                " Fig.1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260410,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated to the new format"
               ]
             }
           ],
@@ -47647,12 +47754,12 @@
         {
           "SUBENT": {
             "N1": "D0207006",
-            "N2": 20060609,
+            "N2": 20260410,
             "alteration_flag": " ",
-            "transmission_identification": "D061"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -47688,14 +47795,40 @@
               "pointer": "",
               "coded_information": {
                 "status": [
-                  "CURVE"
+                  "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.Gadioli+",
+                "reference": {
+                  "code": "J,NP/A,654,523,1999",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "654",
+                      "part": null,
+                      "issue": null,
+                      "page": "523"
+                    },
+                    "date": 1999
+                  }
+                }
               },
               "free_text": [
-                " data from fig. 2"
+                " Fig.2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260410,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated to the new format"
               ]
             }
           ],
@@ -69683,12 +69816,12 @@
         {
           "SUBENT": {
             "N1": "D0207007",
-            "N2": 20060609,
+            "N2": 20260410,
             "alteration_flag": " ",
-            "transmission_identification": "D061"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -69724,14 +69857,40 @@
               "pointer": "",
               "coded_information": {
                 "status": [
-                  "CURVE"
+                  "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "E.Gadioli+",
+                "reference": {
+                  "code": "J,NP/A,654,523,1999",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "654",
+                      "part": null,
+                      "issue": null,
+                      "page": "523"
+                    },
+                    "date": 1999
+                  }
+                }
               },
               "free_text": [
-                " data from fig. 2"
+                " Fig.2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260410,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated to the new format"
               ]
             }
           ],

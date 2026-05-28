@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:18:26+0000",
+  "time_stamp": "2026-05-28T11:33:53+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "D4319",
-        "N2": 20180416,
+        "N2": 20260413,
         "alteration_flag": " ",
-        "transmission_identification": "D116"
+        "transmission_identification": "D152"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "D4319001",
-            "N2": 20180416,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "D116"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 11,
+            "N1": 12,
             "N2": 0
           },
           "TITLE": [
@@ -26,7 +26,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Direct study of the a-nucleus optical potential at",
+                "Direct study of the alpha-nucleus optical potential at",
                 " astrophysical energies using the 64Zn(p,a)61Cu",
                 " reaction"
               ]
@@ -90,11 +90,11 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,JP/CS,940,012005,2017",
+                "code": "J,JP/CS,940,012005,2018",
                 "code_unit": [
                   {
-                    "unit": "J,JP/CS,940,012005,2017",
-                    "doi": null,
+                    "unit": "J,JP/CS,940,012005,2018",
+                    "doi": "10.1088/1742-6596/940/1/012005",
                     "field": {
                       "reference_type": "J",
                       "reference": {
@@ -105,7 +105,7 @@
                         "issue": null,
                         "page": "012005"
                       },
-                      "date": 2017
+                      "date": 2018
                     }
                   }
                 ],
@@ -226,7 +226,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                "      Surface density of target nuclei (8%)"
+                " Surface density of target nuclei (8%)"
               ]
             },
             {
@@ -238,7 +238,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                "      Incident charged particle flux   (3%)"
+                " Incident charged particle flux (3%)"
               ]
             },
             {
@@ -250,19 +250,19 @@
                 "correlation_property": null
               },
               "free_text": [
-                "      Detector efficiency              (5%)"
+                " Detector efficiency (5%)"
               ]
             },
             {
               "pointer": "",
               "coded_information": {
                 "heading": "ERR-4",
-                "minimum_value": 5.0,
-                "maximum_value": null,
+                "minimum_value": null,
+                "maximum_value": 5.0,
                 "correlation_property": null
               },
               "free_text": [
-                "   Nuclear data                    (<5%)"
+                " Nuclear data (<5%)"
               ]
             },
             {
@@ -274,7 +274,37 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Statistical uncertainty        (<10%)"
+                " Statistical uncertainty (<10%)"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "Gy.Gyurky+",
+                "reference": {
+                  "code": "J,PR/C,90,052801,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "90",
+                      "part": null,
+                      "issue": null,
+                      "page": "052801"
+                    },
+                    "date": 2014
+                  }
+                }
+              },
+              "free_text": [
+                " Table 2"
               ]
             }
           ],
@@ -297,6 +327,17 @@
               },
               "free_text": [
                 " On. REFERENCE updated."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Entry revised. REFERENCE:2017->2018;",
+                " ERR-ANALYS: (ERR-4,5.)->(ERR-4,,5.) replaced."
               ]
             }
           ],
@@ -340,9 +381,9 @@
         {
           "SUBENT": {
             "N1": "D4319002",
-            "N2": 20150323,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "D099"
+            "transmission_identification": "D152"
           },
           "BIB": {
             "N1": 3,
@@ -439,19 +480,17 @@
               ]
             }
           ],
-          "STATUS": [
+          "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
+                "date": 20260413,
+                "history": "A"
               },
               "free_text": [
-                "Data were taken from Table 2."
+                " VT. DATA: EN->EN-CM; EN: 5.9->5.90;",
+                " 6.4->6.40; ERR-T: 0.9->0.90 replaced; STATUS updated",
+                " and moved to 001"
               ]
             }
           ],
@@ -473,7 +512,7 @@
               ""
             ],
             "heading": [
-              "EN",
+              "EN-CM",
               "EN-ERR",
               "DATA",
               "ERR-T"
@@ -559,9 +598,9 @@
         {
           "SUBENT": {
             "N1": "D4319003",
-            "N2": 20150323,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "D099"
+            "transmission_identification": "D152"
           },
           "BIB": {
             "N1": 3,
@@ -640,19 +679,16 @@
               ]
             }
           ],
-          "STATUS": [
+          "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
+                "date": 20260413,
+                "history": "A"
               },
               "free_text": [
-                "Data were taken from Table 2."
+                " VT. DATA: EN-CM: 5.9->5.90; 6.4->6.40",
+                " replaced; STATUS updated and moved to 001"
               ]
             }
           ],

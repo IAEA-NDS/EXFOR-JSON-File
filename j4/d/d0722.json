@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:08:58+0000",
+  "time_stamp": "2026-05-28T11:33:45+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "D0722",
-        "N2": 20131106,
+        "N2": 20260417,
         "alteration_flag": " ",
-        "transmission_identification": "D092"
+        "transmission_identification": "D152"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "D0722001",
-            "N2": 20131106,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D092"
+            "transmission_identification": "D152"
           },
           "BIB": {
             "N1": 10,
@@ -27,7 +27,7 @@
               "coded_information": null,
               "free_text": [
                 "Study of (14.0 MeV/u) uranium ions interaction with",
-                "vanadium target"
+                " vanadium target"
               ]
             }
           ],
@@ -81,7 +81,7 @@
               },
               "free_text": [
                 "",
-                "#doi:10.11 421502183013r3500456"
+                "#doi:10.1142/S0218301313500456"
               ]
             }
           ],
@@ -90,7 +90,7 @@
               "pointer": "",
               "coded_information": {
                 "facility": [
-                  "ACCEL"
+                  "LINAC"
                 ],
                 "institute": "2GERGSI"
               },
@@ -118,8 +118,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The incident projectile ions fluence was 0.9x10**5",
-                "ions/cm2"
+                "The incident projectile ions fluence was",
+                " 0.9 X10**5 ions/cm2"
               ]
             }
           ],
@@ -129,8 +129,8 @@
               "coded_information": null,
               "free_text": [
                 "2pi target-detector assembly was prepared by vacuum",
-                "deposition of a thin layer (0.56 mg/cm2) of vanadium",
-                "on mica track detector."
+                " deposition of a thin layer (0.56 mg/cm2) of vanadium",
+                " on mica track detector."
               ]
             }
           ],
@@ -142,8 +142,8 @@
               ],
               "free_text": [
                 " The mica (muscovite) detector have chemical",
-                "formula KAl3Si3O10(OH)2, density of 2.9 E/cm3 and",
-                "refractive index : 1.57."
+                " formula KAl3Si3O10(OH)2, density of ~2.9 g/cm3 and",
+                " refractive index : 1.57."
               ]
             }
           ],
@@ -156,6 +156,17 @@
               },
               "free_text": [
                 " VS"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Revision in 002. REFERENCE: DOI",
+                " corrected."
               ]
             }
           ],
@@ -191,12 +202,12 @@
         {
           "SUBENT": {
             "N1": "D0722002",
-            "N2": 20131106,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D092"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -235,11 +246,25 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "G.Sher+",
+                "reference": {
+                  "code": "J,IMP/E,22,1350045,2013",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "IMP/E",
+                      "number": null,
+                      "volume": "22",
+                      "part": null,
+                      "issue": null,
+                      "page": "1350045"
+                    },
+                    "date": 2013
+                  }
+                }
               },
               "free_text": [
-                " Data Scanned from Fig. 2 of the Ref."
+                " Fig. 2"
               ]
             }
           ],
@@ -264,8 +289,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                " Includes the following partial",
-                "uncertainties:"
+                " Includes the following partial uncertainties:"
               ]
             },
             {
@@ -301,34 +325,23 @@
                 "correlation_property": null
               },
               "free_text": [
-                " incident ion fluence 8.5%",
+                " incident ion fluence 8.7%",
                 " - Statistical error",
                 " - Estimated errors in the separation of elastically",
-                "   and inelastically scatered events."
+                "   and inelastically scattered events."
               ]
-            },
+            }
+          ],
+          "HISTORY": [
             {
               "pointer": "",
               "coded_information": {
-                "heading": "ANG-ERR-D",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
+                "date": 20260417,
+                "history": "A"
               },
               "free_text": [
-                " Error in digitizing the angle values"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                " Error in digitizing data values"
+                " VT. COMMON: ERR-3: 8.5->8.7%; ANG-ERR-D;",
+                "  ERR-DIG deleted and STATUS updated."
               ]
             }
           ],
@@ -337,11 +350,9 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 5,
+            "N1": 3,
             "N2": 0,
             "pointer": [
-              "",
-              "",
               "",
               "",
               ""
@@ -349,23 +360,17 @@
             "heading": [
               "ERR-1",
               "ERR-2",
-              "ERR-3",
-              "ANG-ERR-D",
-              "ERR-DIG"
+              "ERR-3"
             ],
             "unit": [
               "PER-CENT",
               "PER-CENT",
-              "PER-CENT",
-              "ADEG",
               "PER-CENT"
             ],
             "value": [
               8.8,
               2.5,
-              8.5,
-              0.03,
-              1.0
+              8.7
             ]
           },
           "ENDCOMMON": {
@@ -398,25 +403,25 @@
                 18.63,
                 0.85041,
                 0.060044,
-                -0.076149
+                0.076149
               ],
               [
                 20.23,
                 0.79433,
                 0.09313,
-                -0.071127
+                0.071127
               ],
               [
                 22.21,
                 0.78089,
                 0.091555,
-                -0.081948
+                0.081948
               ],
               [
                 24.18,
                 0.55048,
                 0.07512,
-                -0.078335
+                0.078335
               ],
               [
                 25.06,
@@ -428,7 +433,7 @@
                 26.18,
                 0.17408,
                 0.051364,
-                -0.051364
+                0.051364
               ],
               [
                 28.18,

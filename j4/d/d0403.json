@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:04:12+0000",
+  "time_stamp": "2026-05-28T11:33:41+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "D0403",
-        "N2": 20060728,
+        "N2": 20260410,
         "alteration_flag": " ",
-        "transmission_identification": "D049"
+        "transmission_identification": "D152"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "D0403001",
-            "N2": 20060728,
+            "N2": 20260410,
             "alteration_flag": " ",
-            "transmission_identification": "D049"
+            "transmission_identification": "D152"
           },
           "BIB": {
             "N1": 10,
@@ -26,8 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Neutron Transition Multipole Moment for",
-                "88Sr(a,a')88Sr(*)(2+, 1.84 MeV)"
+                "Neutron transition multipole moment for",
+                " 88Sr(a,a')88Sr(*)(2+, 1.84 MeV)"
               ]
             }
           ],
@@ -66,8 +66,7 @@
                 "3INDIND"
               ],
               "free_text": [
-                "  Kalyani Universlty, Kalyani, WestBengal,",
-                "India"
+                " Kalyani University, Kalyani, West Bengal"
               ]
             }
           ],
@@ -111,7 +110,7 @@
                 "institute": "3INDVEC"
               },
               "free_text": [
-                " The variable energy cyclotron, Calcutta"
+                ""
               ]
             }
           ],
@@ -120,10 +119,10 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "The target was prepared by reducing natural Sr (N03)2",
-                "with Al powder  and then evaporating it onto a",
-                "20 mu-g/cm2 carbon backing. The  target thickness was",
-                "350 mu-g/cm2."
+                "The target was prepared by reducing natural Sr (NO3)2",
+                " with Al powder and then evaporating it onto a",
+                " 20 mu-g/cm2 carbon backing. The target thickness was",
+                " 350 mu-g/cm2."
               ]
             }
           ],
@@ -134,8 +133,7 @@
                 "SILI"
               ],
               "free_text": [
-                " SiLi detectors of 2 mm active thickness were",
-                "used."
+                " Detectors of 2 mm active thickness were used."
               ]
             }
           ],
@@ -144,49 +142,19 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "A monitor detector was put at 40. degr. and absolute",
-                "normalization of the data was obtained by comparing the",
-                "elastic cross section at this angle to an optical",
-                "model fit."
+                "A monitor detector was put at 40 degree and absolute",
+                " normalization of the data was obtained by comparing",
+                " the elastic cross section at this angle to an optical",
+                " model fit."
               ]
             }
           ],
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": {
-                "heading": "DATA-ERR",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
+              "coded_information": null,
               "free_text": [
-                " The error in the absolute cross section",
-                "is approximately 20%."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ANG-ERR-D",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "  Digitizing error"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": "ERR-DIG",
-                "minimum_value": null,
-                "maximum_value": null,
-                "correlation_property": null
-              },
-              "free_text": [
-                "    Digitizing error"
+                " The error in the absolute cross section ~20%."
               ]
             }
           ],
@@ -200,6 +168,17 @@
               "free_text": [
                 " SD"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260410,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Entry revised. COMMON: DATA-ERR,",
+                " ERR-DIG, ANG-ERR-D deleted"
+              ]
             }
           ],
           "ENDBIB": {
@@ -207,35 +186,23 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 5,
+            "N1": 2,
             "N2": 0,
             "pointer": [
-              "",
-              "",
-              "",
               "",
               ""
             ],
             "heading": [
               "EN",
-              "EN-RSL",
-              "DATA-ERR",
-              "ANG-ERR-D",
-              "ERR-DIG"
+              "EN-RSL"
             ],
             "unit": [
               "MEV",
-              "MEV",
-              "PER-CENT",
-              "ADEG",
-              "PER-CENT"
+              "KEV"
             ],
             "value": [
               50.0,
-              0.25,
-              20.0,
-              0.3,
-              0.2
+              250.0
             ]
           },
           "ENDCOMMON": {
@@ -250,12 +217,12 @@
         {
           "SUBENT": {
             "N1": "D0403002",
-            "N2": 20060728,
+            "N2": 20260410,
             "alteration_flag": " ",
-            "transmission_identification": "D049"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -294,11 +261,38 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.K.Datta+",
+                "reference": {
+                  "code": "J,PR/C,39,1281,1989",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "39",
+                      "part": null,
+                      "issue": null,
+                      "page": "1281"
+                    },
+                    "date": 1989
+                  }
+                }
               },
               "free_text": [
-                " digitized data from fig.2 of the ref."
+                " Fig.2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260410,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DATA: DATA-CM-> DATA replaced and",
+                " STATUS updated"
               ]
             }
           ],
@@ -319,7 +313,7 @@
             ],
             "heading": [
               "ANG-CM",
-              "DATA-CM"
+              "DATA"
             ],
             "unit": [
               "ADEG",
@@ -456,12 +450,12 @@
         {
           "SUBENT": {
             "N1": "D0403003",
-            "N2": 20060728,
+            "N2": 20260410,
             "alteration_flag": " ",
-            "transmission_identification": "D049"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -504,13 +498,13 @@
                 },
                 "level_properties": [
                   {
-                    "field_identifier": "PARITY",
+                    "field_identifier": "SPIN",
                     "value": [
                       2.0
                     ]
                   },
                   {
-                    "field_identifier": "SPIN",
+                    "field_identifier": "PARITY",
                     "value": [
                       1.0
                     ]
@@ -532,8 +526,7 @@
                 "correlation_property": null
               },
               "free_text": [
-                "  Statistical uncertainties from",
-                " error bars on fig."
+                " Statistical uncertainties"
               ]
             }
           ],
@@ -545,11 +538,38 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "S.K.Datta+",
+                "reference": {
+                  "code": "J,PR/C,39,1281,1989",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "39",
+                      "part": null,
+                      "issue": null,
+                      "page": "1281"
+                    },
+                    "date": 1989
+                  }
+                }
               },
               "free_text": [
-                " digitized data from fig.3 of the ref."
+                " Fig.3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260410,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. PARITY=2.->PARITY=1. and SPIN=1.->",
+                " SPIN=2. replaced and STATUS updated."
               ]
             }
           ],

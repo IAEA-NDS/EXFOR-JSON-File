@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:00:19+0000",
+  "time_stamp": "2026-05-28T11:33:37+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "D0164",
-        "N2": 20120404,
+        "N2": 20260415,
         "alteration_flag": " ",
-        "transmission_identification": "D082"
+        "transmission_identification": "D152"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "D0164001",
-            "N2": 20120404,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "D082"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 13,
+            "N1": 12,
             "N2": 0
           },
           "TITLE": [
@@ -106,16 +106,53 @@
               ]
             }
           ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Very high-purity natural selenium and high-purity",
+                " Al,H, Ni and Cu foils (99.999%) were used.",
+                "The chemical purity of the enriched 76Se and 77Se",
+                "was >99%; the isotopic compositions are:",
+                "         enriched 76Se       enriched 77Se",
+                "   74Se     0.14               0.054",
+                "   76Se    96.88               1.21",
+                "   77Se     0.85              91.77",
+                "   80Se     0.95               1.87",
+                "   78Se     0.99               4.68",
+                "   82Se     0.81               0.41",
+                "The thickness of the selenium layer was 2-5 mg/cm2.",
+                "It was homogeneous and mechanically stable.",
+                "It was covered by a 5-20 um thick and 16 mm in",
+                " diameter Al foil. Thus each sample consisted of an",
+                " Al-Se-Al sandwich."
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "HPGE"
+              ],
+              "free_text": [
+                " HPGe detector of 145cm3 active volume."
+              ]
+            }
+          ],
           "METHOD": [
             {
               "pointer": "",
               "coded_information": [
+                "ACTIV",
                 "STTA"
               ],
               "free_text": [
-                " Each stack contained several properly prepared",
-                " selenium samples, is well as aluminium, titanium,",
-                " nickel and copper foils as absorbers and monitors."
+                " Each stack contained several properly",
+                " prepared selenium samples, is well as aluminum,",
+                " titanium, nickel and copper foils as absorbers and",
+                " monitors."
               ]
             }
           ],
@@ -296,62 +333,11 @@
               ]
             }
           ],
-          "SAMPLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Very high-purity natural selenium and high-purity",
-                " Al,H, Ni and Cu foils (99.999%) were used.",
-                "The chemical purity of the enriched 76Se and 77Se",
-                "was >99%; the isotopic compositions are:",
-                "         enriched 76Se       enriched 77Se",
-                "   74Se     0.14               0.054",
-                "   76Se    96.88               1.21",
-                "   77Se     0.85              91.77",
-                "   80Se     0.95               1.87",
-                "   78Se     0.99               4.68",
-                "   82Se     0.81               0.41",
-                "The thickness of the selenium layer was 2-5 mg/cm2.",
-                "It was homogeneous and mechanically stable.",
-                "It was covered by a 5-20 um thick and 16 mm in",
-                " diameter Al foil. Thus each sample consisted of an",
-                " Al-Se-Al sandwich."
-              ]
-            }
-          ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "HPGE"
-              ],
-              "free_text": [
-                " HPGe detector of 145cm3 active volume."
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Tables of Appl.Radiat.Isot.60(2004)899"
-              ]
-            }
-          ],
           "ERR-ANALYS": [
             {
               "pointer": "",
               "coded_information": {
-                "heading": "ERR-T",
+                "heading": "DATA-ERR",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
@@ -387,6 +373,16 @@
               "free_text": [
                 " On. MONIT-REF: IAEA- -> IAEA-TECDOC-"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260415,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Entry revised. METHOD: ACTIV added"
+              ]
             }
           ],
           "ENDBIB": {
@@ -405,12 +401,12 @@
         {
           "SUBENT": {
             "N1": "D0164002",
-            "N2": 20040623,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -477,6 +473,48 @@
               ]
             }
           ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "H.E.Hassan+",
+                "reference": {
+                  "code": "J,ARI,60,899,2004",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "899"
+                    },
+                    "date": 2004
+                  }
+                }
+              },
+              "free_text": [
+                " Table 4"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260415,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS added"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
@@ -498,7 +536,7 @@
               "EN",
               "EN-ERR",
               "DATA",
-              "ERR-T"
+              "DATA-ERR"
             ],
             "unit": [
               "MEV",
@@ -599,12 +637,12 @@
         {
           "SUBENT": {
             "N1": "D0164003",
-            "N2": 20040623,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -640,7 +678,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "35-BR-76",
+                "nuclide": "35-BR-76-G",
                 "half-life": {
                   "value": 16.2,
                   "unit": "HR"
@@ -680,6 +718,48 @@
               ]
             }
           ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "H.E.Hassan+",
+                "reference": {
+                  "code": "J,ARI,60,899,2004",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "899"
+                    },
+                    "date": 2004
+                  }
+                }
+              },
+              "free_text": [
+                " Table 4"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260415,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DECAY-DATA: -G and STATUS added"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
@@ -701,7 +781,7 @@
               "EN",
               "EN-ERR",
               "DATA",
-              "ERR-T"
+              "DATA-ERR"
             ],
             "unit": [
               "MEV",
@@ -862,12 +942,12 @@
         {
           "SUBENT": {
             "N1": "D0164004",
-            "N2": 20120404,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "D082"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -903,7 +983,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "35-BR-77",
+                "nuclide": "35-BR-77-G",
                 "half-life": {
                   "value": 57.04,
                   "unit": "HR"
@@ -934,6 +1014,36 @@
               ]
             }
           ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "H.E.Hassan+",
+                "reference": {
+                  "code": "J,ARI,60,899,2004",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "899"
+                    },
+                    "date": 2004
+                  }
+                }
+              },
+              "free_text": [
+                " Table 4"
+              ]
+            }
+          ],
           "HISTORY": [
             {
               "pointer": "",
@@ -943,6 +1053,16 @@
               },
               "free_text": [
                 " On. SF3: 2N -> X"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260415,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DECAY-DATA: -G and STATUS added"
               ]
             }
           ],
@@ -967,7 +1087,7 @@
               "EN",
               "EN-ERR",
               "DATA",
-              "ERR-T"
+              "DATA-ERR"
             ],
             "unit": [
               "MEV",
@@ -1164,32 +1284,32 @@
         {
           "SUBENT": {
             "N1": "D0164005",
-            "N2": 20040623,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "34-SE-0(P,X)35-BR-82,,SIG",
+                "code": "34-SE-0(P,X)35-BR-82-G,M+,SIG",
                 "code_unit": [
                   {
-                    "unit": "34-SE-0(P,X)35-BR-82,,SIG",
+                    "unit": "34-SE-0(P,X)35-BR-82-G,M+,SIG",
                     "field": {
-                      "reaction": "34-SE-0(P,X)35-BR-82",
+                      "reaction": "34-SE-0(P,X)35-BR-82-G",
                       "target": "34-SE-0",
                       "projectile": "P",
                       "process": "X",
-                      "product": "35-BR-82",
-                      "quantity": ",SIG",
+                      "product": "35-BR-82-G",
+                      "quantity": "M+,SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",SIG"
+                      "quantity_236": "M+,SIG"
                     }
                   }
                 ],
@@ -1205,7 +1325,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "35-BR-82",
+                "nuclide": "35-BR-82-G",
                 "half-life": {
                   "value": 35.3,
                   "unit": "HR"
@@ -1254,6 +1374,49 @@
               ]
             }
           ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "H.E.Hassan+",
+                "reference": {
+                  "code": "J,ARI,60,899,2004",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "899"
+                    },
+                    "date": 2004
+                  }
+                }
+              },
+              "free_text": [
+                " Table 4"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260415,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. REACTION: SF4-SF5: -G,M+;",
+                "  DECAY-DATA: -G and STATUS added"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
@@ -1275,7 +1438,7 @@
               "EN",
               "EN-ERR",
               "DATA",
-              "ERR-T"
+              "DATA-ERR"
             ],
             "unit": [
               "MEV",
@@ -1394,12 +1557,12 @@
         {
           "SUBENT": {
             "N1": "D0164006",
-            "N2": 20040623,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1466,6 +1629,48 @@
               ]
             }
           ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "H.E.Hassan+",
+                "reference": {
+                  "code": "J,ARI,60,899,2004",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "899"
+                    },
+                    "date": 2004
+                  }
+                }
+              },
+              "free_text": [
+                " Table 5"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260415,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS added"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
@@ -1487,7 +1692,7 @@
               "EN",
               "EN-ERR",
               "DATA",
-              "ERR-T"
+              "DATA-ERR"
             ],
             "unit": [
               "MEV",
@@ -1654,12 +1859,12 @@
         {
           "SUBENT": {
             "N1": "D0164007",
-            "N2": 20040623,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1695,7 +1900,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "35-BR-76",
+                "nuclide": "35-BR-76-G",
                 "half-life": {
                   "value": 16.2,
                   "unit": "HR"
@@ -1735,6 +1940,48 @@
               ]
             }
           ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "H.E.Hassan+",
+                "reference": {
+                  "code": "J,ARI,60,899,2004",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "899"
+                    },
+                    "date": 2004
+                  }
+                }
+              },
+              "free_text": [
+                " Table 5"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260415,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DECAY-DATA: -G and STATUS added"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
@@ -1756,7 +2003,7 @@
               "EN",
               "EN-ERR",
               "DATA",
-              "ERR-T"
+              "DATA-ERR"
             ],
             "unit": [
               "MEV",
@@ -2013,32 +2260,32 @@
         {
           "SUBENT": {
             "N1": "D0164008",
-            "N2": 20040623,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "34-SE-76(P,X)34-SE-75,,SIG",
+                "code": "34-SE-76(P,X)34-SE-75,CUM,SIG",
                 "code_unit": [
                   {
-                    "unit": "34-SE-76(P,X)34-SE-75,,SIG",
+                    "unit": "34-SE-76(P,X)34-SE-75,CUM,SIG",
                     "field": {
                       "reaction": "34-SE-76(P,X)34-SE-75",
                       "target": "34-SE-76",
                       "projectile": "P",
                       "process": "X",
                       "product": "34-SE-75",
-                      "quantity": ",SIG",
+                      "quantity": "CUM,SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",SIG"
+                      "quantity_236": "CUM,SIG"
                     }
                   }
                 ],
@@ -2085,6 +2332,48 @@
               ]
             }
           ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "H.E.Hassan+",
+                "reference": {
+                  "code": "J,ARI,60,899,2004",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "899"
+                    },
+                    "date": 2004
+                  }
+                }
+              },
+              "free_text": [
+                " Table 5"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260415,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. REACTION: SF5: CUM added. STATUS added"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
@@ -2106,7 +2395,7 @@
               "EN",
               "EN-ERR",
               "DATA",
-              "ERR-T"
+              "DATA-ERR"
             ],
             "unit": [
               "MEV",
@@ -2285,12 +2574,12 @@
         {
           "SUBENT": {
             "N1": "D0164009",
-            "N2": 20040623,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -2326,7 +2615,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "35-BR-76",
+                "nuclide": "35-BR-76-G",
                 "half-life": {
                   "value": 16.2,
                   "unit": "HR"
@@ -2366,6 +2655,48 @@
               ]
             }
           ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "H.E.Hassan+",
+                "reference": {
+                  "code": "J,ARI,60,899,2004",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "899"
+                    },
+                    "date": 2004
+                  }
+                }
+              },
+              "free_text": [
+                " Table 6"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260415,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DECAY-DATA: -G and STATUS added"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
@@ -2387,7 +2718,7 @@
               "EN",
               "EN-ERR",
               "DATA",
-              "ERR-T"
+              "DATA-ERR"
             ],
             "unit": [
               "MEV",
@@ -2560,12 +2891,12 @@
         {
           "SUBENT": {
             "N1": "D0164010",
-            "N2": 20040623,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -2601,7 +2932,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "35-BR-77",
+                "nuclide": "35-BR-77-G",
                 "half-life": {
                   "value": 57.04,
                   "unit": "HR"
@@ -2632,6 +2963,48 @@
               ]
             }
           ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "H.E.Hassan+",
+                "reference": {
+                  "code": "J,ARI,60,899,2004",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "ARI",
+                      "number": null,
+                      "volume": "60",
+                      "part": null,
+                      "issue": null,
+                      "page": "899"
+                    },
+                    "date": 2004
+                  }
+                }
+              },
+              "free_text": [
+                " Table 6"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260415,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. DECAY-DATA: -G and STATUS added"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
@@ -2653,7 +3026,7 @@
               "EN",
               "EN-ERR",
               "DATA",
-              "ERR-T"
+              "DATA-ERR"
             ],
             "unit": [
               "MEV",

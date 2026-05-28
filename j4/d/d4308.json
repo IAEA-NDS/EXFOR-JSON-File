@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:18:19+0000",
+  "time_stamp": "2026-05-28T11:33:52+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "D4308",
-        "N2": 20150127,
+        "N2": 20260413,
         "alteration_flag": " ",
-        "transmission_identification": "D098"
+        "transmission_identification": "D152"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "D4308001",
-            "N2": 20150127,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "D098"
+            "transmission_identification": "D152"
           },
           "BIB": {
             "N1": 13,
@@ -27,7 +27,7 @@
               "coded_information": null,
               "free_text": [
                 "New data on activation cross section for deuteron",
-                "induced reactions on ytterbium up to 50 MeV"
+                " induced reactions on ytterbium up to 50 MeV"
               ]
             }
           ],
@@ -86,7 +86,7 @@
               },
               "free_text": [
                 "",
-                "#doi:10.1016/j.nimb.2014.06.11"
+                "#doi:10.1016/j.nimb.2014.06.011"
               ]
             }
           ],
@@ -107,14 +107,10 @@
           "SAMPLE": [
             {
               "pointer": "",
-              "coded_information": {
-                "nuclide": null,
-                "field_identifier": null,
-                "value": null
-              },
+              "coded_information": null,
               "free_text": [
-                " Natural composition Yb foils with 22.88",
-                "micron thickness"
+                "Natural composition Yb foils with 22.88 micron",
+                " thickness"
               ]
             }
           ],
@@ -142,19 +138,19 @@
               ],
               "free_text": [
                 " For measurements,",
-                "the well-known stacked foil irradiation technique and",
-                "high resolution gamma-spectrometry were used. Yb",
-                "metal foils, interleaved with Al foils for monitoring",
-                "beam characteristics were stacked and irradiated at",
-                "the UCL (LLN) cyclotron. The Yb foils were irradiated",
-                "together with Nd foils. The irradiated stack had a",
-                "complex structure, consisting of 19-times repeated",
-                "sequence of Nd (100 micron), Yb (22.88 um) and",
-                "Al(49.06 micron), interleaved with Al(156.6 micron,",
-                "103.43 micron, 49.06 micron) energy degraders. The",
-                "activity of each samples was assessed in 3",
-                "measurement series. Decay data were taken from NUDAT",
-                "2.6."
+                " the well-known stacked foil irradiation technique and",
+                " high resolution gamma-spectrometry were used. Yb",
+                " metal foils, interleaved with Al foils for monitoring",
+                " beam characteristics were stacked and irradiated at",
+                " the UCL (LLN) cyclotron. The Yb foils were irradiated",
+                " together with Nd foils. The irradiated stack had a",
+                " complex structure, consisting of 19-times repeated",
+                " sequence of Nd (100 micron), Yb (22.88 um) and",
+                " Al(49.06 micron), interleaved with Al(156.6 micron,",
+                " 103.43 micron, 49.06 micron) energy degraders. The",
+                " activity of each samples was assessed in 3",
+                " measurement series. Decay data were taken from NUDAT",
+                " 2.6."
               ]
             }
           ],
@@ -230,8 +226,8 @@
               },
               "free_text": [
                 " includes the uncertainty of primary beam",
-                "energy, target thickness, energy straggling and",
-                "correction to monitor reaction"
+                " energy, target thickness, energy straggling and",
+                " correction to monitor reaction"
               ]
             },
             {
@@ -244,8 +240,8 @@
               },
               "free_text": [
                 " The uncertainty of the cross section is",
-                "calculated as the quadratic sums of the following",
-                "errors:"
+                " calculated as the quadratic sums of the following",
+                " errors:"
               ]
             },
             {
@@ -265,11 +261,11 @@
               "coded_information": {
                 "heading": "ERR-2",
                 "minimum_value": null,
-                "maximum_value": null,
+                "maximum_value": 1.5,
                 "correlation_property": null
               },
               "free_text": [
-                " beamloss corrections (max 1.5%)"
+                " beam loss corrections (max 1.5%)"
               ]
             },
             {
@@ -306,7 +302,7 @@
               },
               "free_text": [
                 " peak area determination and counting",
-                "statistics (1.0-20%)"
+                " statistics (1.0-20%)"
               ]
             }
           ],
@@ -318,8 +314,8 @@
               ],
               "free_text": [
                 " The experimental data were compared to the",
-                "results of the theoretical model codes TENDL-2013",
-                "ALICE-IPPE-D, EMPIRE-II-D."
+                " results of the theoretical model codes TENDL-2013",
+                " ALICE-IPPE-D, EMPIRE-II-D."
               ]
             },
             {
@@ -329,7 +325,7 @@
               ],
               "free_text": [
                 " The measured experimental data were compared",
-                "to those found in the literature."
+                " to those found in the literature."
               ]
             }
           ],
@@ -343,6 +339,19 @@
               "free_text": [
                 " MPT"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. REFERENCE: DOI corrected; SAMPLE: open",
+                " parenthesis of free text at col.12 deleted;",
+                " COMMON: ERR-2 deleted; ERR-ANALYS: ERR-2 maximum limit",
+                " added. Entry revised for STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -350,29 +359,25 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 4,
+            "N1": 3,
             "N2": 0,
             "pointer": [
-              "",
               "",
               "",
               ""
             ],
             "heading": [
               "ERR-1",
-              "ERR-2",
               "ERR-3",
               "ERR-4"
             ],
             "unit": [
               "PER-CENT",
               "PER-CENT",
-              "PER-CENT",
               "PER-CENT"
             ],
             "value": [
               7.0,
-              1.5,
               1.0,
               5.0
             ]
@@ -389,12 +394,12 @@
         {
           "SUBENT": {
             "N1": "D4308002",
-            "N2": 20150127,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "D098"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -469,11 +474,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Tarkanyi+",
+                "reference": {
+                  "code": "J,NIM/B,336,37,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "336",
+                      "part": null,
+                      "issue": null,
+                      "page": "37"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
-                "Data were taken from Table 3 of the publication."
+                " Table 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "U"
+              },
+              "free_text": [
+                " STATUS updated"
               ]
             }
           ],
@@ -533,12 +564,12 @@
         {
           "SUBENT": {
             "N1": "D4308003",
-            "N2": 20150127,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "D098"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -622,11 +653,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Tarkanyi+",
+                "reference": {
+                  "code": "J,NIM/B,336,37,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "336",
+                      "part": null,
+                      "issue": null,
+                      "page": "37"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
-                "Data were taken from Table 3 of the publication."
+                " Table 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "U"
+              },
+              "free_text": [
+                " STATUS updated"
               ]
             }
           ],
@@ -788,12 +845,12 @@
         {
           "SUBENT": {
             "N1": "D4308004",
-            "N2": 20150127,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "D098"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -904,11 +961,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Tarkanyi+",
+                "reference": {
+                  "code": "J,NIM/B,336,37,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "336",
+                      "part": null,
+                      "issue": null,
+                      "page": "37"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
-                "Data were taken from Table 3 of the publication."
+                " Table 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "U"
+              },
+              "free_text": [
+                " STATUS updated"
               ]
             }
           ],
@@ -1070,12 +1153,12 @@
         {
           "SUBENT": {
             "N1": "D4308005",
-            "N2": 20150127,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "D098"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1168,11 +1251,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Tarkanyi+",
+                "reference": {
+                  "code": "J,NIM/B,336,37,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "336",
+                      "part": null,
+                      "issue": null,
+                      "page": "37"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
-                "Data were taken from Table 3 of the publication."
+                " Table 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "U"
+              },
+              "free_text": [
+                " STATUS updated"
               ]
             }
           ],
@@ -1334,12 +1443,12 @@
         {
           "SUBENT": {
             "N1": "D4308006",
-            "N2": 20150127,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "D098"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1477,11 +1586,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Tarkanyi+",
+                "reference": {
+                  "code": "J,NIM/B,336,37,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "336",
+                      "part": null,
+                      "issue": null,
+                      "page": "37"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
-                "Data were taken from Table 3 of the publication."
+                " Table 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "U"
+              },
+              "free_text": [
+                " STATUS updated"
               ]
             }
           ],
@@ -1643,12 +1778,12 @@
         {
           "SUBENT": {
             "N1": "D4308007",
-            "N2": 20150127,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "D098"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1723,11 +1858,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Tarkanyi+",
+                "reference": {
+                  "code": "J,NIM/B,336,37,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "336",
+                      "part": null,
+                      "issue": null,
+                      "page": "37"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
-                "Data were taken from Table 3 of the publication."
+                " Table 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "U"
+              },
+              "free_text": [
+                " STATUS updated"
               ]
             }
           ],
@@ -1889,12 +2050,12 @@
         {
           "SUBENT": {
             "N1": "D4308008",
-            "N2": 20150127,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "D098"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -1996,11 +2157,38 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Tarkanyi+",
+                "reference": {
+                  "code": "J,NIM/B,336,37,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "336",
+                      "part": null,
+                      "issue": null,
+                      "page": "37"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
-                "Data were received from author."
+                " Data were",
+                " received from author."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "U"
+              },
+              "free_text": [
+                " STATUS updated"
               ]
             }
           ],
@@ -2162,12 +2350,12 @@
         {
           "SUBENT": {
             "N1": "D4308009",
-            "N2": 20150127,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "D098"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -2233,11 +2421,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Tarkanyi+",
+                "reference": {
+                  "code": "J,NIM/B,336,37,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "336",
+                      "part": null,
+                      "issue": null,
+                      "page": "37"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
-                "Data were taken from Table 4 of the publication."
+                " Table 4"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "U"
+              },
+              "free_text": [
+                " STATUS updated"
               ]
             }
           ],
@@ -2399,12 +2613,12 @@
         {
           "SUBENT": {
             "N1": "D4308010",
-            "N2": 20150127,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "D098"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -2488,11 +2702,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Tarkanyi+",
+                "reference": {
+                  "code": "J,NIM/B,336,37,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "336",
+                      "part": null,
+                      "issue": null,
+                      "page": "37"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
-                "Data were taken from Table 4 of the publication."
+                " Table 4"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "U"
+              },
+              "free_text": [
+                " STATUS updated"
               ]
             }
           ],
@@ -2654,12 +2894,12 @@
         {
           "SUBENT": {
             "N1": "D4308011",
-            "N2": 20150127,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "D098"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -2770,11 +3010,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Tarkanyi+",
+                "reference": {
+                  "code": "J,NIM/B,336,37,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "336",
+                      "part": null,
+                      "issue": null,
+                      "page": "37"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
-                "Data were taken from Table 4 of the publication."
+                " Table 4"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "U"
+              },
+              "free_text": [
+                " STATUS updated"
               ]
             }
           ],
@@ -2936,12 +3202,12 @@
         {
           "SUBENT": {
             "N1": "D4308012",
-            "N2": 20150127,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "D098"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -3013,11 +3279,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Tarkanyi+",
+                "reference": {
+                  "code": "J,NIM/B,336,37,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "336",
+                      "part": null,
+                      "issue": null,
+                      "page": "37"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
-                "Data were taken from Table 4 of the publication."
+                " Table 4"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "U"
+              },
+              "free_text": [
+                " STATUS updated"
               ]
             }
           ],
@@ -3179,12 +3471,12 @@
         {
           "SUBENT": {
             "N1": "D4308013",
-            "N2": 20150127,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "D098"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -3313,11 +3605,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Tarkanyi+",
+                "reference": {
+                  "code": "J,NIM/B,336,37,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "336",
+                      "part": null,
+                      "issue": null,
+                      "page": "37"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
-                "Data were taken from Table 4 of the publication."
+                " Table 4"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "U"
+              },
+              "free_text": [
+                " STATUS updated"
               ]
             }
           ],
@@ -3473,12 +3791,12 @@
         {
           "SUBENT": {
             "N1": "D4308014",
-            "N2": 20150127,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "D098"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -3553,11 +3871,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Tarkanyi+",
+                "reference": {
+                  "code": "J,NIM/B,336,37,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "336",
+                      "part": null,
+                      "issue": null,
+                      "page": "37"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
-                "Data were taken from Table 4 of the publication."
+                " Table 4"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "U"
+              },
+              "free_text": [
+                " STATUS updated"
               ]
             }
           ],
@@ -3701,12 +4045,12 @@
         {
           "SUBENT": {
             "N1": "D4308015",
-            "N2": 20150127,
+            "N2": 20260413,
             "alteration_flag": " ",
-            "transmission_identification": "D098"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -3790,11 +4134,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Tarkanyi+",
+                "reference": {
+                  "code": "J,NIM/B,336,37,2014",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "336",
+                      "part": null,
+                      "issue": null,
+                      "page": "37"
+                    },
+                    "date": 2014
+                  }
+                }
               },
               "free_text": [
-                "Data were taken from Table 4 of the publication."
+                " Table 4"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260413,
+                "history": "U"
+              },
+              "free_text": [
+                " STATUS updated"
               ]
             }
           ],

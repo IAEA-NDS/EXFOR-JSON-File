@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:07:51+0000",
+  "time_stamp": "2026-05-28T11:33:44+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "D0665",
-        "N2": 20110918,
+        "N2": 20260415,
         "alteration_flag": " ",
-        "transmission_identification": "D080"
+        "transmission_identification": "D152"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "D0665001",
-            "N2": 20110918,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "D080"
+            "transmission_identification": "D152"
           },
           "BIB": {
             "N1": 11,
@@ -187,6 +187,16 @@
               "free_text": [
                 " On"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260415,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Revision in 002"
+              ]
             }
           ],
           "ENDBIB": {
@@ -205,28 +215,28 @@
         {
           "SUBENT": {
             "N1": "D0665002",
-            "N2": 20110918,
+            "N2": 20260415,
             "alteration_flag": " ",
-            "transmission_identification": "D080"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "74-W-0(P,X)75-RE-186,,TTY,,PHY",
+                "code": "74-W-0(P,X)75-RE-186-G,,TTY,,PHY",
                 "code_unit": [
                   {
-                    "unit": "74-W-0(P,X)75-RE-186,,TTY,,PHY",
+                    "unit": "74-W-0(P,X)75-RE-186-G,,TTY,,PHY",
                     "field": {
-                      "reaction": "74-W-0(P,X)75-RE-186",
+                      "reaction": "74-W-0(P,X)75-RE-186-G",
                       "target": "74-W-0",
                       "projectile": "P",
                       "process": "X",
-                      "product": "75-RE-186",
+                      "product": "75-RE-186-G",
                       "quantity": ",TTY,,PHY",
                       "data_type": null,
                       "general_quantity_modifier": null,
@@ -246,7 +256,7 @@
               "pointer": "",
               "coded_information": {
                 "flag": null,
-                "nuclide": "75-RE-186",
+                "nuclide": "75-RE-186-G",
                 "half-life": {
                   "value": 90.64,
                   "unit": "HR"
@@ -290,11 +300,38 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "P.S.Bidokhti+",
+                "reference": {
+                  "code": "J,NET,42,600,2010",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NET",
+                      "number": null,
+                      "volume": "42",
+                      "part": null,
+                      "issue": null,
+                      "page": "600"
+                    },
+                    "date": 2010
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of Nucl.Eng.Technol.42(2010)600"
+                " Table 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260415,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. REACTION: SF4:-G and DECAY-DATA: -G",
+                " added. STATUS updated."
               ]
             }
           ],

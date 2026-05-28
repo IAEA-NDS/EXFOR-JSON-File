@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:07:03+0000",
+  "time_stamp": "2026-05-28T11:33:42+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "D0588",
-        "N2": 20190821,
+        "N2": 20260410,
         "alteration_flag": " ",
-        "transmission_identification": "D121"
+        "transmission_identification": "D152"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "D0588001",
-            "N2": 20190821,
+            "N2": 20260410,
             "alteration_flag": " ",
-            "transmission_identification": "D121"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 14,
+            "N1": 13,
             "N2": 0
           },
           "TITLE": [
@@ -27,7 +27,7 @@
               "coded_information": null,
               "free_text": [
                 "Production possibility of 186Re via the",
-                "192Os(p,alpha+3n)186Re nuclear reaction"
+                " 192Os(p,alpha+3n)186Re nuclear reaction"
               ]
             }
           ],
@@ -118,13 +118,24 @@
               "coded_information": null,
               "free_text": [
                 "The enriched 192Os (99%) targets were prepared via",
-                "electro-deposition onto 50 mu-m thick Cu foils. The",
-                "thickness of the deposited layers varied between 2.94",
-                "and 6.78 mg/cm2. The diameter of the osmium samples",
-                "was 10 mm. One stack containing 15 pieces of 192Os",
-                "foils together with thick Al degraders.",
-                "The Cu backings and the Al degraders served",
-                "also as monitors"
+                " electro-deposition onto 50 mu-m thick Cu foils. The",
+                " thickness of the deposited layers varied between 2.94",
+                " and 6.78 mg/cm2. The diameter of the osmium samples",
+                " was 10 mm. One stack containing 15 pieces of 192Os",
+                " foils together with thick Al degraders.",
+                " The Cu backings and the Al degraders serve also as",
+                " monitors"
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "HPGE"
+              ],
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -139,45 +150,7 @@
               ],
               "free_text": [
                 " The current measurement was",
-                "                   done using a Faraday-cup"
-              ]
-            }
-          ],
-          "DECAY-DATA": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "75-RE-186-G",
-                "half-life": {
-                  "value": 3.7183,
-                  "unit": "D"
-                },
-                "radiation": [
-                  {
-                    "radiation_type": [
-                      "DG"
-                    ],
-                    "energy": [
-                      137.157
-                    ],
-                    "intensity": 0.0942
-                  }
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "HPGE"
-              ],
-              "free_text": [
-                "The activities were measured using HPGe detectors"
+                " done using a Faraday-cup"
               ]
             }
           ],
@@ -277,25 +250,11 @@
               "coded_information": null,
               "free_text": [
                 "The cross-sections were calculated using the",
-                "activation equation."
+                " activation equation."
               ]
             }
           ],
           "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "status": [
-                  "TABLE"
-                ],
-                "subentry_number": null,
-                "author": null,
-                "reference": null
-              },
-              "free_text": [
-                " Tbl.1 from J.Radioanal.Nucl.Chem.,282(2009)261"
-              ]
-            },
             {
               "pointer": "",
               "coded_information": {
@@ -308,6 +267,34 @@
               },
               "free_text": [
                 " Entry approved by Dr. F.Szelecsenyi"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "F.Szelecsenyi+",
+                "reference": {
+                  "code": "J,JRN,282,261,2009",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JRN",
+                      "number": null,
+                      "volume": "282",
+                      "part": null,
+                      "issue": null,
+                      "page": "261"
+                    },
+                    "date": 2009
+                  }
+                }
+              },
+              "free_text": [
+                " Table 1"
               ]
             }
           ],
@@ -333,6 +320,17 @@
                 "EXFOR rules in Subent 003.",
                 "ERR-ANALYS moved to Subent 002."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260410,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Entry revised. DECAY-DATA moved to",
+                " 002. STATUS updated"
+              ]
             }
           ],
           "ENDBIB": {
@@ -351,28 +349,28 @@
         {
           "SUBENT": {
             "N1": "D0588002",
-            "N2": 20190821,
+            "N2": 20260410,
             "alteration_flag": " ",
-            "transmission_identification": "D121"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "76-OS-192(P,X)75-RE-186,,SIG",
+                "code": "76-OS-192(P,X)75-RE-186-G,,SIG",
                 "code_unit": [
                   {
-                    "unit": "76-OS-192(P,X)75-RE-186,,SIG",
+                    "unit": "76-OS-192(P,X)75-RE-186-G,,SIG",
                     "field": {
-                      "reaction": "76-OS-192(P,X)75-RE-186",
+                      "reaction": "76-OS-192(P,X)75-RE-186-G",
                       "target": "76-OS-192",
                       "projectile": "P",
                       "process": "X",
-                      "product": "75-RE-186",
+                      "product": "75-RE-186-G",
                       "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
@@ -381,6 +379,33 @@
                   }
                 ],
                 "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "DECAY-DATA": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "flag": null,
+                "nuclide": "75-RE-186-G",
+                "half-life": {
+                  "value": 3.7183,
+                  "unit": "D"
+                },
+                "radiation": [
+                  {
+                    "radiation_type": [
+                      "DG"
+                    ],
+                    "energy": [
+                      137.157
+                    ],
+                    "intensity": 0.0942
+                  }
+                ]
               },
               "free_text": [
                 ""
@@ -397,10 +422,9 @@
                 "correlation_property": null
               },
               "free_text": [
-                " The uncertainty of the energy was estimated",
-                "from the following components: energy of the primary",
-                "incident beam and target thickness taking into account",
-                "the well known energy straggling effect."
+                " The energy uncertainty was estimated from the",
+                " primary beam energy and target thickness, including",
+                " energy straggling."
               ]
             },
             {
@@ -413,12 +437,12 @@
               },
               "free_text": [
                 " For estimation of the uncertainties of the",
-                "cross-sections, the linearly contributing processes",
-                "were taken into account with equal sensitivities.",
+                " cross-sections, the linearly contributing processes",
+                " were taken into account with equal sensitivities.",
                 "The errors of nonlinear parameters (time, etc.) were",
-                "not considered but their contribution is negligible",
-                "compared to the linear parameters.",
-                "The typical cross-section uncertainty was around +-16%"
+                " not considered but their contribution is negligible",
+                " compared to the linear parameters.",
+                "The typical cross-section uncertainty was around +/-16%"
               ]
             }
           ],
@@ -431,6 +455,17 @@
               },
               "free_text": [
                 " SD: ERR-ANALYS added from Subent 001."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260410,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. RAECTION: -G in SF4 added; DECAY-DATA",
+                " added from 001."
               ]
             }
           ],
@@ -568,9 +603,9 @@
         {
           "SUBENT": {
             "N1": "D0588003",
-            "N2": 20190821,
+            "N2": 20260410,
             "alteration_flag": " ",
-            "transmission_identification": "D121"
+            "transmission_identification": "D152"
           },
           "BIB": {
             "N1": 4,
@@ -580,16 +615,16 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "76-OS-192(P,X)75-RE-186,,TTY,,(PHY),DERIV",
+                "code": "76-OS-192(P,X)75-RE-186-G,,TTY,,(PHY),DERIV",
                 "code_unit": [
                   {
-                    "unit": "76-OS-192(P,X)75-RE-186,,TTY,,(PHY),DERIV",
+                    "unit": "76-OS-192(P,X)75-RE-186-G,,TTY,,(PHY),DERIV",
                     "field": {
-                      "reaction": "76-OS-192(P,X)75-RE-186",
+                      "reaction": "76-OS-192(P,X)75-RE-186-G",
                       "target": "76-OS-192",
                       "projectile": "P",
                       "process": "X",
-                      "product": "75-RE-186",
+                      "product": "75-RE-186-G",
                       "quantity": ",TTY,,(PHY)",
                       "data_type": "DERIV",
                       "general_quantity_modifier": null,
@@ -640,7 +675,17 @@
               },
               "free_text": [
                 " SD: SF8=DT -> (PHY) in REACTION code.",
-                "ANALYSIS added."
+                " ANALYSIS added."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260410,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. RAECTION: -G in SF4 added"
               ]
             }
           ],

@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:09:58+0000",
+  "time_stamp": "2026-05-28T11:33:46+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "D0805",
-        "N2": 20190212,
+        "N2": 20260417,
         "alteration_flag": " ",
-        "transmission_identification": "D119"
+        "transmission_identification": "D152"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "D0805001",
-            "N2": 20190212,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D119"
+            "transmission_identification": "D152"
           },
           "BIB": {
             "N1": 10,
@@ -104,11 +104,21 @@
               "coded_information": null,
               "free_text": [
                 "Two stacks of foils, each consisting of",
-                " 10 natMo (99.9%, 19.3 um thick)",
-                "interleaved with",
+                " 10 natMo (99.9%, 19.3 um thick) interleaved with",
                 " 10 natCu foils (99.9%, 10.6 um thick),",
                 " 11 natTi foils (99.6%, 11.0 um thick),",
                 " and a few Cu degraders (55.9 and/or 10.6 um thick)"
+              ]
+            }
+          ],
+          "DETECTOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "HPGE"
+              ],
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -131,17 +141,6 @@
               "free_text": [
                 " Data taken from the beam current integrator",
                 " used without any change. (O.Lebeda, 2016-05-12)"
-              ]
-            }
-          ],
-          "DETECTOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "HPGE"
-              ],
-              "free_text": [
-                ""
               ]
             }
           ],
@@ -181,6 +180,16 @@
               "free_text": [
                 " So NDS, Major revision in 031"
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. Entry revised"
+              ]
             }
           ],
           "ENDBIB": {
@@ -199,32 +208,32 @@
         {
           "SUBENT": {
             "N1": "D0805002",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "42-MO-0(P,X)43-TC-93-G,M-,SIG",
+                "code": "42-MO-0(P,X)43-TC-93-G,,SIG",
                 "code_unit": [
                   {
-                    "unit": "42-MO-0(P,X)43-TC-93-G,M-,SIG",
+                    "unit": "42-MO-0(P,X)43-TC-93-G,,SIG",
                     "field": {
                       "reaction": "42-MO-0(P,X)43-TC-93-G",
                       "target": "42-MO-0",
                       "projectile": "P",
                       "process": "X",
                       "product": "43-TC-93-G",
-                      "quantity": "M-,SIG",
+                      "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "M-,SIG"
+                      "quantity_236": ",SIG"
                     }
                   }
                 ],
@@ -369,11 +378,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 2"
               ]
             },
             {
@@ -402,6 +425,19 @@
               },
               "free_text": [
                 " Ground state production data"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. REACTION: -M in SF5 deleted and STATUS",
+                " updated"
               ]
             }
           ],
@@ -585,12 +621,12 @@
         {
           "SUBENT": {
             "N1": "D0805003",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -730,11 +766,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -912,12 +974,12 @@
         {
           "SUBENT": {
             "N1": "D0805004",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -1040,11 +1102,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -1228,12 +1316,12 @@
         {
           "SUBENT": {
             "N1": "D0805005",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -1373,11 +1461,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -1561,12 +1675,12 @@
         {
           "SUBENT": {
             "N1": "D0805006",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -1706,11 +1820,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -1894,12 +2034,12 @@
         {
           "SUBENT": {
             "N1": "D0805007",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -2039,11 +2179,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -2227,12 +2393,12 @@
         {
           "SUBENT": {
             "N1": "D0805008",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -2372,11 +2538,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -2560,9 +2752,9 @@
         {
           "SUBENT": {
             "N1": "D0805009",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
             "N1": 6,
@@ -2715,11 +2907,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Data received from Ondrej Lebeda"
+                " Data received",
+                " from Ondrej Lebeda"
               ]
             }
           ],
@@ -2732,6 +2939,16 @@
               },
               "free_text": [
                 " On. Data received from Ondrej Lebeda."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -2915,12 +3132,12 @@
         {
           "SUBENT": {
             "N1": "D0805010",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -3069,11 +3286,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -3257,32 +3500,32 @@
         {
           "SUBENT": {
             "N1": "D0805011",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "42-MO-0(P,X)43-TC-99-M,IND,SIG",
+                "code": "42-MO-0(P,X)43-TC-99-M,,SIG",
                 "code_unit": [
                   {
-                    "unit": "42-MO-0(P,X)43-TC-99-M,IND,SIG",
+                    "unit": "42-MO-0(P,X)43-TC-99-M,,SIG",
                     "field": {
                       "reaction": "42-MO-0(P,X)43-TC-99-M",
                       "target": "42-MO-0",
                       "projectile": "P",
                       "process": "X",
                       "product": "43-TC-99-M",
-                      "quantity": "IND,SIG",
+                      "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "IND,SIG"
+                      "quantity_236": ",SIG"
                     }
                   }
                 ],
@@ -3413,11 +3656,38 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. REACTION: SF5: IND deleted and STATUS",
+                "  updated"
               ]
             }
           ],
@@ -3601,12 +3871,12 @@
         {
           "SUBENT": {
             "N1": "D0805012",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -3756,11 +4026,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -3884,12 +4180,12 @@
         {
           "SUBENT": {
             "N1": "D0805013",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -4029,11 +4325,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -4181,12 +4503,12 @@
         {
           "SUBENT": {
             "N1": "D0805014",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -4336,11 +4658,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 2 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 2"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -4506,12 +4854,12 @@
         {
           "SUBENT": {
             "N1": "D0805015",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -4661,11 +5009,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -4759,12 +5133,12 @@
         {
           "SUBENT": {
             "N1": "D0805016",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -4914,11 +5288,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Text (p44) of Nucl.Instrum.Meth.B380(2016)32"
+                " Text (p44)"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -4988,12 +5388,12 @@
         {
           "SUBENT": {
             "N1": "D0805017",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -5143,11 +5543,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -5319,12 +5745,12 @@
         {
           "SUBENT": {
             "N1": "D0805018",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -5474,11 +5900,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -5632,32 +6084,32 @@
         {
           "SUBENT": {
             "N1": "D0805019",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "42-MO-0(P,X)41-NB-90,IND,SIG",
+                "code": "42-MO-0(P,X)41-NB-90,,SIG",
                 "code_unit": [
                   {
-                    "unit": "42-MO-0(P,X)41-NB-90,IND,SIG",
+                    "unit": "42-MO-0(P,X)41-NB-90,,SIG",
                     "field": {
                       "reaction": "42-MO-0(P,X)41-NB-90",
                       "target": "42-MO-0",
                       "projectile": "P",
                       "process": "X",
                       "product": "41-NB-90",
-                      "quantity": "IND,SIG",
+                      "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "IND,SIG"
+                      "quantity_236": ",SIG"
                     }
                   }
                 ],
@@ -5750,11 +6202,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 3"
               ]
             },
             {
@@ -5783,6 +6249,19 @@
               },
               "free_text": [
                 " Cumulative cross section"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. REACTION: SF5: IND deleted and STATUS",
+                "  updated"
               ]
             }
           ],
@@ -5906,12 +6385,12 @@
         {
           "SUBENT": {
             "N1": "D0805020",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -6051,11 +6530,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -6179,12 +6684,12 @@
         {
           "SUBENT": {
             "N1": "D0805021",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -6334,11 +6839,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -6492,12 +7023,12 @@
         {
           "SUBENT": {
             "N1": "D0805022",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -6637,11 +7168,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -6825,12 +7382,12 @@
         {
           "SUBENT": {
             "N1": "D0805023",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -6980,11 +7537,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -7156,12 +7739,12 @@
         {
           "SUBENT": {
             "N1": "D0805024",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -7294,11 +7877,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 3"
               ]
             },
             {
@@ -7327,6 +7924,18 @@
               },
               "free_text": [
                 " ground state production data"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -7498,32 +8107,32 @@
         {
           "SUBENT": {
             "N1": "D0805025",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "42-MO-0(P,X)41-NB-95-G,M-,SIG",
+                "code": "42-MO-0(P,X)41-NB-95-G,,SIG",
                 "code_unit": [
                   {
-                    "unit": "42-MO-0(P,X)41-NB-95-G,M-,SIG",
+                    "unit": "42-MO-0(P,X)41-NB-95-G,,SIG",
                     "field": {
                       "reaction": "42-MO-0(P,X)41-NB-95-G",
                       "target": "42-MO-0",
                       "projectile": "P",
                       "process": "X",
                       "product": "41-NB-95-G",
-                      "quantity": "M-,SIG",
+                      "quantity": ",SIG",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "M-,SIG"
+                      "quantity_236": ",SIG"
                     }
                   }
                 ],
@@ -7678,11 +8287,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 3"
               ]
             },
             {
@@ -7697,6 +8320,19 @@
               },
               "free_text": [
                 " metastable state production data"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "A"
+              },
+              "free_text": [
+                " VT. REACTION: -M in SF5 deleted and STATUS",
+                " updated"
               ]
             }
           ],
@@ -7862,12 +8498,12 @@
         {
           "SUBENT": {
             "N1": "D0805026",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -8007,11 +8643,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -8195,12 +8857,12 @@
         {
           "SUBENT": {
             "N1": "D0805027",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -8352,11 +9014,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -8549,12 +9237,12 @@
         {
           "SUBENT": {
             "N1": "D0805028",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -8694,11 +9382,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -8834,12 +9548,12 @@
         {
           "SUBENT": {
             "N1": "D0805029",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
@@ -8979,11 +9693,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 3 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 3"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -9155,12 +9895,12 @@
         {
           "SUBENT": {
             "N1": "D0805030",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -9234,11 +9974,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 4 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 4"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -9618,9 +10384,9 @@
         {
           "SUBENT": {
             "N1": "D0805031",
-            "N2": 20190212,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D119"
+            "transmission_identification": "D152"
           },
           "BIB": {
             "N1": 4,
@@ -9697,11 +10463,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 4 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 4"
               ]
             }
           ],
@@ -9714,6 +10494,16 @@
               },
               "free_text": [
                 " REACTION(SF5): IND deleted"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
@@ -10063,12 +10853,12 @@
         {
           "SUBENT": {
             "N1": "D0805032",
-            "N2": 20160520,
+            "N2": 20260417,
             "alteration_flag": " ",
-            "transmission_identification": "D105"
+            "transmission_identification": "D152"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
@@ -10142,11 +10932,37 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "J.Cervenak+",
+                "reference": {
+                  "code": "J,NIM/B,380,32,2016",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NIM/B",
+                      "number": null,
+                      "volume": "380",
+                      "part": null,
+                      "issue": null,
+                      "page": "32"
+                    },
+                    "date": 2016
+                  }
+                }
               },
               "free_text": [
-                " Table 4 of Nucl.Instrum.Meth.B380(2016)32"
+                " Table 4"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260417,
+                "history": "U"
+              },
+              "free_text": [
+                " VT. STATUS updated"
               ]
             }
           ],
