@@ -1,5 +1,5 @@
 # EXFOR-JSON-File (J4)
-The EXFOR JSON File (J4) is the [EXFOR Entry File](https://nds.iaea.org/nrdc/exfor-master/entry/) converted to JSON by the X4TOJ4 module of <a href="https://pypi.org/project/forexy/">ForEXy</a> package [1]. The J4 file can be converted to the EXFOR Entry File by the J4TOX4 module of the ForEXy package.
+The EXFOR JSON File (J4) is the [EXFOR Entry File](https://nds.iaea.org/nrdc/exfor-master/entry/) converted to JSON by the X4TOJ4 module of the [ForEXy](https://pypi.org/project/forexy/) package [1]. The J4 file can be converted to the EXFOR Entry File by the J4TOX4 module of the ForEXy package.
 
 **Download**
 - download the zipped file of the current version from the [EXFOR JSON File](https://nds.iaea.org/nrdc/exfor-master/j4/) website, or
