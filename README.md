@@ -1,5 +1,5 @@
 # EXFOR-JSON-File (J4)
-The EXFOR JSON File (J4) is the [EXFOR Entry File](https://nds.iaea.org/nrdc/exfor-master/entry/) converted to JSON by the X4TOJ4 module of the [ForEXy](https://pypi.org/project/forexy/) package [1]. The J4 file can be converted to the EXFOR Entry File by the J4TOX4 module of the ForEXy package.
+The EXFOR JSON File (J4) is the [EXFOR Entry File](https://nds.iaea.org/nrdc/exfor-master/entry/) converted to JSON by the X4TOJ4 module of the [ForEXy](https://pypi.org/project/forexy/) package [1]. This conversion is reversible, and any J4 file can be reverted to the EXFOR Entry File by the J4TOX4 module of the ForEXy package.
 
 **Download**
 - download the zipped file of the current version from the [EXFOR JSON File](https://nds.iaea.org/nrdc/exfor-master/j4/) website, or
@@ -41,5 +41,5 @@ git clone https://github.com/iaea-nrdcnetwork/exfor-json-file.git
 The EXFOR JSON File is distributed under the terms of the CC BY 4.0 license.
 
 **References**
-1. N.Otuka, V.Devi, O.Iwamoto, [Appl.Radiat.Isot.225(2025)111903](https://doi.org/10.1016/j.apradiso.2025.111903) [[pdf](https://doi.org/10.48550/arXiv.2505.03758)]
-2. N.Otuka et al., [Nucl. Data Sheets 120(2014)272](http://dx.doi.org/10.1016/j.nds.2014.07.065) [[pdf](https://doi.org/10.48550/arXiv.2002.07114)]
+1. N. Otuka, V. Devi, O. Iwamoto, [Appl. Radiat. Isot. 225 (2025) 111903](https://doi.org/10.1016/j.apradiso.2025.111903) [[pdf](https://doi.org/10.48550/arXiv.2505.03758)]
+2. N. Otuka et al., [Nucl. Data Sheets 120 (2014) 272](http://dx.doi.org/10.1016/j.nds.2014.07.065) [[pdf](https://doi.org/10.48550/arXiv.2002.07114)]
