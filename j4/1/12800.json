@@ -1,26 +1,52 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:38:37+0000",
+  "time_stamp": "2026-06-18T16:01:16+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "12800",
-        "N2": 19830412,
+        "N2": 20260412,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "1529"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "12800001",
-            "N2": 19830412,
+            "N2": 20260412,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1529"
           },
           "BIB": {
             "N1": 14,
             "N2": 0
           },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Structure of 12B from measurement and R-matrix",
+                " analysis of sigma(theta) for 11B(n,n)11B and",
+                " 11B(n,n')11B*(2.12 MeV), and shell-model calculations"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "P.E.Koehler",
+                "H.D.Knox",
+                "D.A.Resler",
+                "R.O.Lane",
+                "D.J.Millener"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "INSTITUTE": [
             {
               "pointer": "",
@@ -37,10 +63,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,NP/A,394,221,8302",
+                "code": "J,NP/A,394,221,1983",
                 "code_unit": [
                   {
-                    "unit": "J,NP/A,394,221,8302",
+                    "unit": "J,NP/A,394,221,1983",
                     "doi": "10.1016/0375-9474(83)90170-7",
                     "field": {
                       "reference_type": "J",
@@ -52,7 +78,7 @@
                         "issue": null,
                         "page": "221"
                       },
-                      "date": 198302
+                      "date": 1983
                     }
                   }
                 ],
@@ -60,33 +86,6 @@
               },
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "AUTHOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "P.E.KOEHLER",
-                "H.D.KNOX",
-                "D.A.RESLER",
-                "R.O.LANE",
-                "D.J.MILLENER"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "TITLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "STRUCTURE OF 12-B FROM MEASUREMENT AND R-MATRIX",
-                " ANALYSIS OF SIGMA(0) FOR 11-B(N,N)11-B AND",
-                " 11-B(N,N')11-B*(2.12 MEV), AND SHELL-MODEL",
-                " CALCULATIONS"
               ]
             }
           ],
@@ -109,18 +108,22 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "NEUTRON BEAM RESOLUTION 50 - 80 KEV FWHM"
+                "Neutron beam resolution 50 - 80 keV FWHM"
               ]
             }
           ],
           "SAMPLE": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "nuclide": "5-B-11",
+                "field_identifier": "ENR",
+                "value": 0.972
+              },
               "free_text": [
-                "41.2 GRAMS OF POWDERED B ENRICHED TO 97.2 PERCENT",
-                " 11-B IN AN ALUMINUM CAN 4.0 CM HIGH AND 3.3 CM IN",
-                " DIAMETER."
+                "",
+                "41.2 grams of powdered B enriched to 97.2% 11B in an",
+                "  Al can 4.0 cm high and 3.3 cm in diameter"
               ]
             }
           ],
@@ -131,7 +134,7 @@
                 "TOF"
               ],
               "free_text": [
-                " 3.6 - 3.8 METER FLIGHT PATH"
+                " 3.6-3.8 m flight path"
               ]
             }
           ],
@@ -142,9 +145,9 @@
                 "SCIN"
               ],
               "free_text": [
-                " NE-213 LIQUID SCINTILLATOR, 5 CM THICK AND",
-                " 11.25 CM DIAMETER FOR SCATTERED NEUTRONS. NE-102",
-                " PLASTIC SCINTILLATOR WAS USED AS A FLUX MONITOR."
+                " NE-213 Liquid scintillator, 5 cm thick and",
+                " 11.25 cm diameter for scattered neutrons.",
+                "NE-102 plastic scintillator was used as a flux monitor."
               ]
             }
           ],
@@ -153,8 +156,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "CHARGE-NORMALIZED DETECTOR EFFICIENCY DETERMINED",
-                " RELATIVE TO THE ZERO-DEGREE YIELD OF T(P,N) REACTION."
+                "Charge-normalized detector efficiency determined",
+                " relative to the zero-degree yield of T(p,n) reaction."
               ]
             }
           ],
@@ -163,24 +166,32 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "DATA CORRECTED FOR BEAM ATTENUATION, AIR SCATTERING,",
-                " MULTIPLE SCATTERING IN THE SAMPLE AND BACKGROUND."
+                "Corrected for",
+                " . beam attenuation",
+                " . air scattering",
+                " . multiple scattering in the sample",
+                " . background"
               ]
             }
           ],
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
               "free_text": [
-                "TOTAL ERRORS GIVEN INCLUDE UNCERTAINTY IN",
-                " -MEASURED DISTANCES AND NUMBER OF NUCLEI IN SAMPLE",
-                " -STATISTICAL ERRORS",
-                " -YIELD FROM (P-T) REACTION",
-                " -CHARGE NORMALIZATION",
-                " -DETECTOR EFFICIENCY",
-                " -MULTIPLE SCATTERING CORRECTION",
-                " -GAS CELL HEATING EFFECTS"
+                " Total errors given include uncertainty in",
+                " - measured distances and number of nuclei in sample",
+                " - statistical errors",
+                " - yield from (p-T) reaction",
+                " - charge normalization",
+                " - detector efficiency",
+                " - multiple scattering correction",
+                " - gas cell heating effects"
               ]
             }
           ],
@@ -196,7 +207,7 @@
                 "reference": null
               },
               "free_text": [
-                " P.E.KOEHLER, 83/6/13."
+                " P.E.Koehler, 83/6/13."
               ]
             }
           ],
@@ -204,11 +215,21 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 830324,
+                "date": 19830324,
                 "history": "C"
               },
               "free_text": [
                 ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260412,
+                "history": "A"
+              },
+              "free_text": [
+                " On. Major alteration in 006."
               ]
             }
           ],
@@ -1636,9 +1657,9 @@
         {
           "SUBENT": {
             "N1": "12800006",
-            "N2": 19830527,
+            "N2": 20260412,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1529"
           },
           "BIB": {
             "N1": 3,
@@ -1648,20 +1669,20 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "5-B-11(N,INL)5-B-11,,DA",
+                "code": "5-B-11(N,INL)5-B-11,PAR,DA",
                 "code_unit": [
                   {
-                    "unit": "5-B-11(N,INL)5-B-11,,DA",
+                    "unit": "5-B-11(N,INL)5-B-11,PAR,DA",
                     "field": {
                       "reaction": "5-B-11(N,INL)5-B-11",
                       "target": "5-B-11",
                       "projectile": "N",
                       "process": "INL",
                       "product": "5-B-11",
-                      "quantity": ",DA",
+                      "quantity": "PAR,DA",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": ",DA"
+                      "quantity_236": "PAR,DA"
                     }
                   }
                 ],
@@ -1675,9 +1696,16 @@
           "STATUS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
               "free_text": [
-                "DATA RECEIVED IN PRIVATE COMMUNICATION 5/2/83"
+                " Data received in private communication 5/2/83"
               ]
             }
           ],
@@ -1685,11 +1713,31 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 830512,
+                "date": 19830502,
+                "history": "R"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 19830512,
                 "history": "C"
               },
               "free_text": [
                 ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260412,
+                "history": "A"
+              },
+              "free_text": [
+                " On. REACTION: PAR added. E-EXC -> E-LVL."
               ]
             }
           ],
@@ -1712,7 +1760,7 @@
               ""
             ],
             "heading": [
-              "E-EXC",
+              "E-LVL",
               "EN",
               "ANG",
               "DATA",

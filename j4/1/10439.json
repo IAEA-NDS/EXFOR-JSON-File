@@ -1,26 +1,49 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T19:14:32+0000",
+  "time_stamp": "2026-06-18T16:01:15+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "10439",
-        "N2": 20030408,
+        "N2": 20260412,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "1529"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "10439001",
-            "N2": 20030408,
+            "N2": 20260412,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1529"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 14,
             "N2": 0
           },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "gamma-ray production cross sections for neutron",
+                " inelastic scattering from Cr, Ni, 92Zr, and 94Zr from",
+                " 3 to 6 MeV"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "G.Tessler",
+                "S.S.Glickstein"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "INSTITUTE": [
             {
               "pointer": "",
@@ -36,22 +59,22 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "C,75WASH,2,934,197503",
+                "code": "C,75WASH,,934,1975",
                 "code_unit": [
                   {
-                    "unit": "C,75WASH,2,934,197503",
+                    "unit": "C,75WASH,,934,1975",
                     "doi": null,
                     "field": {
                       "reference_type": "C",
                       "reference": {
                         "code": "75WASH",
                         "number": null,
-                        "volume": "2",
+                        "volume": null,
                         "part": null,
                         "issue": null,
                         "page": "934"
                       },
-                      "date": 197503
+                      "date": 1975
                     }
                   }
                 ],
@@ -64,10 +87,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,BAP,20,174(IB22),197502",
+                "code": "J,BAP,20,174(IB22),1975",
                 "code_unit": [
                   {
-                    "unit": "J,BAP,20,174(IB22),197502",
+                    "unit": "J,BAP,20,174(IB22),1975",
                     "doi": null,
                     "field": {
                       "reference_type": "J",
@@ -79,7 +102,7 @@
                         "issue": null,
                         "page": "174(IB22)"
                       },
-                      "date": 197502
+                      "date": 1975
                     }
                   }
                 ],
@@ -87,29 +110,6 @@
               },
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "AUTHOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "G.Tessler",
-                "S.Glickstein"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "TITLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Gamma-ray production cross sections for neutron",
-                " inelastic scattering from Cr, Ni, 92Zr, and 94Zr from",
-                " 3 to 6 MeV"
               ]
             }
           ],
@@ -127,14 +127,28 @@
               ]
             }
           ],
-          "METHOD": [
+          "INC-SOURCE": [
             {
               "pointer": "",
-              "coded_information": [
-                "TOF"
-              ],
+              "coded_information": {
+                "incident_source": [
+                  "D-D"
+                ],
+                "reaction": null
+              },
               "free_text": [
-                " Time-of-flight"
+                ""
+              ]
+            }
+          ],
+          "INC-SPECT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Spread in neutron energy due to deuteron energy loss",
+                " in the gas target was 385 keV at <En>=3.3 MeV and",
+                " 110 keV at <En>=5.6 MeV."
               ]
             }
           ],
@@ -145,7 +159,7 @@
                 "GELI"
               ],
               "free_text": [
-                " Germanium-lithium detector for gammas."
+                " Ge(Li) detector for gammas at 55 deg"
               ]
             },
             {
@@ -154,7 +168,18 @@
                 "TELES"
               ],
               "free_text": [
-                " Proton-recoil telescope for neutron flux."
+                " Proton-recoil telescope for neutron flux"
+              ]
+            }
+          ],
+          "METHOD": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "TOF"
+              ],
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -185,7 +210,7 @@
                 }
               },
               "free_text": [
-                " Flux monitor."
+                " Flux monitor"
               ]
             }
           ],
@@ -194,7 +219,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Data have not been corrected for:",
+                "Not corrected for:",
                 " . anisotropy  (0-5%),",
                 " . multiple scattering and flux attenuation (0-3%)."
               ]
@@ -203,17 +228,80 @@
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "heading": "ERR-T",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
               "free_text": [
-                "Estimated uncertainties are as follow:",
-                " . neutron flux (15%),",
-                " . geli detector efficiency (4%),",
-                " . statistical (0.5-30%),",
-                " . peak extraction (5%)."
+                " Estimated uncertainties are as follow:"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-1",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                "         . neutron flux              (15%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-2",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                "         . Ge(Li) detector efficiency (4%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-3",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                "         . peak extraction            (5%)"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": 0.5,
+                "maximum_value": 30.0,
+                "correlation_property": null
+              },
+              "free_text": [
+                " . statistical           (0.5-30%)"
               ]
             }
           ],
           "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Data received in private comm.,Tessler,1975/3."
+              ]
+            },
             {
               "pointer": "",
               "coded_information": {
@@ -225,8 +313,7 @@
                 "reference": null
               },
               "free_text": [
-                " Approved by author",
-                " Data received in private comm., Tessler, 1975/3."
+                " Approved by author."
               ]
             }
           ],
@@ -270,6 +357,16 @@
               "free_text": [
                 " Converted to new date formats, lower case."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260412,
+                "history": "A"
+              },
+              "free_text": [
+                " On. Major alterations in 002-012."
+              ]
             }
           ],
           "ENDBIB": {
@@ -277,19 +374,31 @@
             "N2": 0
           },
           "COMMON": {
-            "N1": 1,
+            "N1": 4,
             "N2": 0,
             "pointer": [
+              "",
+              "",
+              "",
               ""
             ],
             "heading": [
-              "ANG"
+              "ANG",
+              "ERR-1",
+              "ERR-2",
+              "ERR-3"
             ],
             "unit": [
-              "ADEG"
+              "ADEG",
+              "PER-CENT",
+              "PER-CENT",
+              "PER-CENT"
             ],
             "value": [
-              55.0
+              55.0,
+              15.0,
+              4.0,
+              5.0
             ]
           },
           "ENDCOMMON": {
@@ -304,32 +413,32 @@
         {
           "SUBENT": {
             "N1": "10439002",
-            "N2": 19830607,
+            "N2": 20260412,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1529"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "24-CR-50(N,INL)24-CR-50,PAR,SIG,G",
+                "code": "24-CR-50(N,INL)24-CR-50,PAR,DA,G,4PI",
                 "code_unit": [
                   {
-                    "unit": "24-CR-50(N,INL)24-CR-50,PAR,SIG,G",
+                    "unit": "24-CR-50(N,INL)24-CR-50,PAR,DA,G,4PI",
                     "field": {
                       "reaction": "24-CR-50(N,INL)24-CR-50",
                       "target": "24-CR-50",
                       "projectile": "N",
                       "process": "INL",
                       "product": "24-CR-50",
-                      "quantity": "PAR,SIG,G",
+                      "quantity": "PAR,DA,G,4PI",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "PAR,SIG,*"
+                      "quantity_236": "PAR,DA,*,4PI"
                     }
                   }
                 ],
@@ -337,6 +446,18 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260412,
+                "history": "A"
+              },
+              "free_text": [
+                " On. REACTION: PAR,SIG,G -> PAR,DA,G,4PI"
               ]
             }
           ],
@@ -361,7 +482,7 @@
               "E",
               "EN",
               "DATA",
-              "DATA-ERR"
+              "ERR-T"
             ],
             "unit": [
               "KEV",
@@ -444,32 +565,32 @@
         {
           "SUBENT": {
             "N1": "10439003",
-            "N2": 19830607,
+            "N2": 20260412,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1529"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "24-CR-52(N,INL)24-CR-52,PAR,SIG,G",
+                "code": "24-CR-52(N,INL)24-CR-52,PAR,DA,G,4PI",
                 "code_unit": [
                   {
-                    "unit": "24-CR-52(N,INL)24-CR-52,PAR,SIG,G",
+                    "unit": "24-CR-52(N,INL)24-CR-52,PAR,DA,G,4PI",
                     "field": {
                       "reaction": "24-CR-52(N,INL)24-CR-52",
                       "target": "24-CR-52",
                       "projectile": "N",
                       "process": "INL",
                       "product": "24-CR-52",
-                      "quantity": "PAR,SIG,G",
+                      "quantity": "PAR,DA,G,4PI",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "PAR,SIG,*"
+                      "quantity_236": "PAR,DA,*,4PI"
                     }
                   }
                 ],
@@ -477,6 +598,18 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260412,
+                "history": "A"
+              },
+              "free_text": [
+                " On. REACTION: PAR,SIG,G -> PAR,DA,G,4PI"
               ]
             }
           ],
@@ -501,7 +634,7 @@
               "E",
               "EN",
               "DATA",
-              "DATA-ERR"
+              "ERR-T"
             ],
             "unit": [
               "KEV",
@@ -836,32 +969,32 @@
         {
           "SUBENT": {
             "N1": "10439004",
-            "N2": 19830607,
+            "N2": 20260412,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1529"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "24-CR-53(N,INL)24-CR-53,PAR,SIG,G",
+                "code": "24-CR-53(N,INL)24-CR-53,PAR,DA,G,4PI",
                 "code_unit": [
                   {
-                    "unit": "24-CR-53(N,INL)24-CR-53,PAR,SIG,G",
+                    "unit": "24-CR-53(N,INL)24-CR-53,PAR,DA,G,4PI",
                     "field": {
                       "reaction": "24-CR-53(N,INL)24-CR-53",
                       "target": "24-CR-53",
                       "projectile": "N",
                       "process": "INL",
                       "product": "24-CR-53",
-                      "quantity": "PAR,SIG,G",
+                      "quantity": "PAR,DA,G,4PI",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "PAR,SIG,*"
+                      "quantity_236": "PAR,DA,*,4PI"
                     }
                   }
                 ],
@@ -869,6 +1002,18 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260412,
+                "history": "A"
+              },
+              "free_text": [
+                " On. REACTION: PAR,SIG,G -> PAR,DA,G,4PI"
               ]
             }
           ],
@@ -893,7 +1038,7 @@
               "E",
               "EN",
               "DATA",
-              "DATA-ERR"
+              "ERR-T"
             ],
             "unit": [
               "KEV",
@@ -1036,32 +1181,32 @@
         {
           "SUBENT": {
             "N1": "10439005",
-            "N2": 19830607,
+            "N2": 20260412,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1529"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "24-CR-54(N,INL)24-CR-54,PAR,SIG,G",
+                "code": "24-CR-54(N,INL)24-CR-54,PAR,DA,G,4PI",
                 "code_unit": [
                   {
-                    "unit": "24-CR-54(N,INL)24-CR-54,PAR,SIG,G",
+                    "unit": "24-CR-54(N,INL)24-CR-54,PAR,DA,G,4PI",
                     "field": {
                       "reaction": "24-CR-54(N,INL)24-CR-54",
                       "target": "24-CR-54",
                       "projectile": "N",
                       "process": "INL",
                       "product": "24-CR-54",
-                      "quantity": "PAR,SIG,G",
+                      "quantity": "PAR,DA,G,4PI",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "PAR,SIG,*"
+                      "quantity_236": "PAR,DA,*,4PI"
                     }
                   }
                 ],
@@ -1069,6 +1214,18 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260412,
+                "history": "A"
+              },
+              "free_text": [
+                " On. REACTION: PAR,SIG,G -> PAR,DA,G,4PI"
               ]
             }
           ],
@@ -1093,7 +1250,7 @@
               "E",
               "EN",
               "DATA",
-              "DATA-ERR"
+              "ERR-T"
             ],
             "unit": [
               "KEV",
@@ -1170,9 +1327,9 @@
         {
           "SUBENT": {
             "N1": "10439006",
-            "N2": 20030408,
+            "N2": 20260412,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1529"
           },
           "BIB": {
             "N1": 2,
@@ -1182,20 +1339,20 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "24-CR-0(N,INL)24-CR-0,PAR,SIG,G",
+                "code": "24-CR-0(N,INL)24-CR-0,PAR,DA,G,4PI",
                 "code_unit": [
                   {
-                    "unit": "24-CR-0(N,INL)24-CR-0,PAR,SIG,G",
+                    "unit": "24-CR-0(N,INL)24-CR-0,PAR,DA,G,4PI",
                     "field": {
                       "reaction": "24-CR-0(N,INL)24-CR-0",
                       "target": "24-CR-0",
                       "projectile": "N",
                       "process": "INL",
                       "product": "24-CR-0",
-                      "quantity": "PAR,SIG,G",
+                      "quantity": "PAR,DA,G,4PI",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "PAR,SIG,*"
+                      "quantity_236": "PAR,DA,*,4PI"
                     }
                   }
                 ],
@@ -1214,7 +1371,17 @@
                 "history": "A"
               },
               "free_text": [
-                " Reaction corrected."
+                " REACTION corrected."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260412,
+                "history": "A"
+              },
+              "free_text": [
+                " On. REACTION: PAR,SIG,G -> PAR,DA,G,4PI"
               ]
             }
           ],
@@ -1239,7 +1406,7 @@
               "E",
               "EN",
               "DATA",
-              "DATA-ERR"
+              "ERR-T"
             ],
             "unit": [
               "KEV",
@@ -1400,32 +1567,32 @@
         {
           "SUBENT": {
             "N1": "10439007",
-            "N2": 19830607,
+            "N2": 20260412,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1529"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "28-NI-58(N,INL)28-NI-58,PAR,SIG,G",
+                "code": "28-NI-58(N,INL)28-NI-58,PAR,DA,G,4PI",
                 "code_unit": [
                   {
-                    "unit": "28-NI-58(N,INL)28-NI-58,PAR,SIG,G",
+                    "unit": "28-NI-58(N,INL)28-NI-58,PAR,DA,G,4PI",
                     "field": {
                       "reaction": "28-NI-58(N,INL)28-NI-58",
                       "target": "28-NI-58",
                       "projectile": "N",
                       "process": "INL",
                       "product": "28-NI-58",
-                      "quantity": "PAR,SIG,G",
+                      "quantity": "PAR,DA,G,4PI",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "PAR,SIG,*"
+                      "quantity_236": "PAR,DA,*,4PI"
                     }
                   }
                 ],
@@ -1433,6 +1600,18 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260412,
+                "history": "A"
+              },
+              "free_text": [
+                " On. REACTION: PAR,SIG,G -> PAR,DA,G,4PI"
               ]
             }
           ],
@@ -1457,7 +1636,7 @@
               "E",
               "EN",
               "DATA",
-              "DATA-ERR"
+              "ERR-T"
             ],
             "unit": [
               "KEV",
@@ -1618,32 +1797,32 @@
         {
           "SUBENT": {
             "N1": "10439008",
-            "N2": 19830607,
+            "N2": 20260412,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1529"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "28-NI-60(N,INL)28-NI-60,PAR,SIG,G",
+                "code": "28-NI-60(N,INL)28-NI-60,PAR,DA,G,4PI",
                 "code_unit": [
                   {
-                    "unit": "28-NI-60(N,INL)28-NI-60,PAR,SIG,G",
+                    "unit": "28-NI-60(N,INL)28-NI-60,PAR,DA,G,4PI",
                     "field": {
                       "reaction": "28-NI-60(N,INL)28-NI-60",
                       "target": "28-NI-60",
                       "projectile": "N",
                       "process": "INL",
                       "product": "28-NI-60",
-                      "quantity": "PAR,SIG,G",
+                      "quantity": "PAR,DA,G,4PI",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "PAR,SIG,*"
+                      "quantity_236": "PAR,DA,*,4PI"
                     }
                   }
                 ],
@@ -1651,6 +1830,18 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260412,
+                "history": "A"
+              },
+              "free_text": [
+                " On. REACTION: PAR,SIG,G -> PAR,DA,G,4PI"
               ]
             }
           ],
@@ -1675,7 +1866,7 @@
               "E",
               "EN",
               "DATA",
-              "DATA-ERR"
+              "ERR-T"
             ],
             "unit": [
               "KEV",
@@ -1920,32 +2111,32 @@
         {
           "SUBENT": {
             "N1": "10439009",
-            "N2": 19830607,
+            "N2": 20260412,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1529"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 2,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "28-NI-62(N,INL)28-NI-62,PAR,SIG,G",
+                "code": "28-NI-62(N,INL)28-NI-62,PAR,DA,G,4PI",
                 "code_unit": [
                   {
-                    "unit": "28-NI-62(N,INL)28-NI-62,PAR,SIG,G",
+                    "unit": "28-NI-62(N,INL)28-NI-62,PAR,DA,G,4PI",
                     "field": {
                       "reaction": "28-NI-62(N,INL)28-NI-62",
                       "target": "28-NI-62",
                       "projectile": "N",
                       "process": "INL",
                       "product": "28-NI-62",
-                      "quantity": "PAR,SIG,G",
+                      "quantity": "PAR,DA,G,4PI",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "PAR,SIG,*"
+                      "quantity_236": "PAR,DA,*,4PI"
                     }
                   }
                 ],
@@ -1953,6 +2144,18 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260412,
+                "history": "A"
+              },
+              "free_text": [
+                " On. REACTION: PAR,SIG,G -> PAR,DA,G,4PI"
               ]
             }
           ],
@@ -1977,7 +2180,7 @@
               "E",
               "EN",
               "DATA",
-              "DATA-ERR"
+              "ERR-T"
             ],
             "unit": [
               "KEV",
@@ -2024,9 +2227,9 @@
         {
           "SUBENT": {
             "N1": "10439010",
-            "N2": 20030408,
+            "N2": 20260412,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1529"
           },
           "BIB": {
             "N1": 2,
@@ -2036,20 +2239,20 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "28-NI-0(N,INL)28-NI-0,PAR,SIG,G",
+                "code": "28-NI-0(N,INL)28-NI-0,PAR,DA,G,4PI",
                 "code_unit": [
                   {
-                    "unit": "28-NI-0(N,INL)28-NI-0,PAR,SIG,G",
+                    "unit": "28-NI-0(N,INL)28-NI-0,PAR,DA,G,4PI",
                     "field": {
                       "reaction": "28-NI-0(N,INL)28-NI-0",
                       "target": "28-NI-0",
                       "projectile": "N",
                       "process": "INL",
                       "product": "28-NI-0",
-                      "quantity": "PAR,SIG,G",
+                      "quantity": "PAR,DA,G,4PI",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "PAR,SIG,*"
+                      "quantity_236": "PAR,DA,*,4PI"
                     }
                   }
                 ],
@@ -2068,7 +2271,17 @@
                 "history": "A"
               },
               "free_text": [
-                " Reaction corrected."
+                " REACTION corrected."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260412,
+                "history": "A"
+              },
+              "free_text": [
+                " On. REACTION: PAR,SIG,G -> PAR,DA,G,4PI"
               ]
             }
           ],
@@ -2093,7 +2306,7 @@
               "E",
               "EN",
               "DATA",
-              "DATA-ERR"
+              "ERR-T"
             ],
             "unit": [
               "KEV",
@@ -2326,32 +2539,32 @@
         {
           "SUBENT": {
             "N1": "10439011",
-            "N2": 20030408,
+            "N2": 20260412,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1529"
           },
           "BIB": {
-            "N1": 3,
+            "N1": 4,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "40-ZR-92(N,INL)40-ZR-92,PAR,SIG,G",
+                "code": "40-ZR-92(N,INL)40-ZR-92,PAR,DA,G,4PI",
                 "code_unit": [
                   {
-                    "unit": "40-ZR-92(N,INL)40-ZR-92,PAR,SIG,G",
+                    "unit": "40-ZR-92(N,INL)40-ZR-92,PAR,DA,G,4PI",
                     "field": {
                       "reaction": "40-ZR-92(N,INL)40-ZR-92",
                       "target": "40-ZR-92",
                       "projectile": "N",
                       "process": "INL",
                       "product": "40-ZR-92",
-                      "quantity": "PAR,SIG,G",
+                      "quantity": "PAR,DA,G,4PI",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "PAR,SIG,*"
+                      "quantity_236": "PAR,DA,*,4PI"
                     }
                   }
                 ],
@@ -2365,9 +2578,13 @@
           "SAMPLE": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "nuclide": "40-ZR-92",
+                "field_identifier": "ENR",
+                "value": 0.9513
+              },
               "free_text": [
-                "Sample 95.13% enriched"
+                ""
               ]
             }
           ],
@@ -2378,6 +2595,18 @@
               "free_text": [
                 "Data at 918.6 keV removed by author due to 94Zr",
                 " contaminant."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260412,
+                "history": "A"
+              },
+              "free_text": [
+                " On. REACTION: PAR,SIG,G -> PAR,DA,G,4PI"
               ]
             }
           ],
@@ -2402,7 +2631,7 @@
               "E",
               "EN",
               "DATA",
-              "DATA-ERR"
+              "ERR-T"
             ],
             "unit": [
               "KEV",
@@ -3019,32 +3248,32 @@
         {
           "SUBENT": {
             "N1": "10439012",
-            "N2": 20030408,
+            "N2": 20260412,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "1529"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "40-ZR-94(N,INL)40-ZR-94,PAR,SIG,G",
+                "code": "40-ZR-94(N,INL)40-ZR-94,PAR,DA,G,4PI",
                 "code_unit": [
                   {
-                    "unit": "40-ZR-94(N,INL)40-ZR-94,PAR,SIG,G",
+                    "unit": "40-ZR-94(N,INL)40-ZR-94,PAR,DA,G,4PI",
                     "field": {
                       "reaction": "40-ZR-94(N,INL)40-ZR-94",
                       "target": "40-ZR-94",
                       "projectile": "N",
                       "process": "INL",
                       "product": "40-ZR-94",
-                      "quantity": "PAR,SIG,G",
+                      "quantity": "PAR,DA,G,4PI",
                       "data_type": null,
                       "general_quantity_modifier": null,
-                      "quantity_236": "PAR,SIG,*"
+                      "quantity_236": "PAR,DA,*,4PI"
                     }
                   }
                 ],
@@ -3058,9 +3287,25 @@
           "SAMPLE": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "nuclide": "40-ZR-94",
+                "field_identifier": "ENR",
+                "value": 0.961
+              },
               "free_text": [
-                "Sample 96.10% enriched"
+                ""
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260412,
+                "history": "A"
+              },
+              "free_text": [
+                " On. REACTION: PAR,SIG,G -> PAR,DA,G,4PI"
               ]
             }
           ],
@@ -3085,7 +3330,7 @@
               "E",
               "EN",
               "DATA",
-              "DATA-ERR"
+              "ERR-T"
             ],
             "unit": [
               "KEV",
