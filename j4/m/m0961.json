@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:30:31+0000",
+  "time_stamp": "2026-06-18T16:01:56+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0961",
-        "N2": 20180402,
+        "N2": 20260423,
         "alteration_flag": " ",
-        "transmission_identification": "M095"
+        "transmission_identification": "M146"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0961001",
-            "N2": 20180402,
+            "N2": 20260423,
             "alteration_flag": " ",
-            "transmission_identification": "M095"
+            "transmission_identification": "M146"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 13,
             "N2": 0
           },
           "TITLE": [
@@ -26,8 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Absorption of gamma-quanta by manganese niclei in the",
-                " range of giant resonance."
+                "Absorption of gamma quanta by manganese nuclei in the",
+                " giant-resonance region."
               ]
             }
           ],
@@ -60,34 +60,6 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,ZEP,10,(8),365,1969",
-                "code_unit": [
-                  {
-                    "unit": "J,ZEP,10,(8),365,1969",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "ZEP",
-                        "number": null,
-                        "volume": "10",
-                        "part": null,
-                        "issue": "8",
-                        "page": "365"
-                      },
-                      "date": 1969
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
                 "code": "J,JEL,10,231,1969",
                 "code_unit": [
                   {
@@ -111,7 +83,35 @@
               },
               "free_text": [
                 "",
-                " English translation of ZEP,10,(8),365,1969."
+                " English translation of ZEP,10,365,1969."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,ZEP,10,365,1969",
+                "code_unit": [
+                  {
+                    "unit": "J,ZEP,10,365,1969",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "ZEP",
+                        "number": null,
+                        "volume": "10",
+                        "part": null,
+                        "issue": null,
+                        "page": "365"
+                      },
+                      "date": 1969
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -146,9 +146,14 @@
           "SAMPLE": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "nuclide": "25-MN-55",
+                "field_identifier": "ENR",
+                "value": 0.97
+              },
               "free_text": [
-                "Mn(97%)-Cu(3%) alloy."
+                " Alloy of manganese with copper",
+                " (97% Mn - 3% Co)."
               ]
             }
           ],
@@ -159,7 +164,8 @@
                 "BPAIR"
               ],
               "free_text": [
-                " 9-channel magnetic pair spectrometer."
+                " 9-channel magnetic paired gamma spectrometer",
+                " with resolution < 1%."
               ]
             }
           ],
@@ -184,6 +190,35 @@
                 " subtraction of the atomic absorption  cross  section",
                 " from   the  measured  sum  of  atomic   and  nuclear",
                 " absorption cross sections."
+              ]
+            }
+          ],
+          "REL-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "R",
+                "subentry_number": null,
+                "author": "K.Siegbahn",
+                "reference": {
+                  "code": "B,SIEGBAHN,,,1955",
+                  "field": {
+                    "reference_type": "B",
+                    "reference": {
+                      "code": "SIEGBAHN",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": ""
+                    },
+                    "date": 1955
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Atomic absorption  cross  section."
               ]
             }
           ],
@@ -212,6 +247,18 @@
                 " Data were compiled at the Russia MSU SINP",
                 " CDFE by V.Varlamov."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260423,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: TITLE,",
+                " REFERENCE, SAMPLE, DETECTOR, REL-REF, REACTION,",
+                " STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -230,27 +277,27 @@
         {
           "SUBENT": {
             "N1": "M0961002",
-            "N2": 20180402,
+            "N2": 20260423,
             "alteration_flag": " ",
-            "transmission_identification": "M095"
+            "transmission_identification": "M146"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "25-MN-55(G,ABS),,SIG",
+                "code": "25-MN-55(G,TOT),,SIG",
                 "code_unit": [
                   {
-                    "unit": "25-MN-55(G,ABS),,SIG",
+                    "unit": "25-MN-55(G,TOT),,SIG",
                     "field": {
-                      "reaction": "25-MN-55(G,ABS)",
+                      "reaction": "25-MN-55(G,TOT)",
                       "target": "25-MN-55",
                       "projectile": "G",
-                      "process": "ABS",
+                      "process": "TOT",
                       "product": "",
                       "quantity": ",SIG",
                       "data_type": null,
@@ -274,11 +321,39 @@
                   "CURVE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "B.S.Dolbilkin+",
+                "reference": {
+                  "code": "J,JEL,10,231,1969",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "JEL",
+                      "number": null,
+                      "volume": "10",
+                      "part": null,
+                      "issue": null,
+                      "page": "231"
+                    },
+                    "date": 1969
+                  }
+                }
               },
               "free_text": [
-                " Data from Figure."
+                "",
+                " Data from figure on page 232."
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260423,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " STATUS."
               ]
             }
           ],
