@@ -5,7 +5,7 @@ The EXFOR JSON File (J4) is the [EXFOR Entry File](https://nds.iaea.org/nrdc/exf
 - download the zipped file of the current version from the [EXFOR JSON File](https://nds.iaea.org/nrdc/exfor-master/j4/) website, or
 - download the full repository using the terminal command:
 ```
-git clone https://github.com/iaea-nrdcnetwork/exfor-json-file.git
+git clone https://github.com/iaea-nds/exfor-json-file.git
 ```
 **Directory structure**
 ```
