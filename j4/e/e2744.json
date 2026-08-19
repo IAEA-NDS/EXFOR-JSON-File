@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T23:50:57+0000",
+  "time_stamp": "2026-08-19T07:59:29+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "E2744",
-        "N2": 20231003,
+        "N2": 20260707,
         "alteration_flag": " ",
-        "transmission_identification": "E138"
+        "transmission_identification": "E159"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "E2744001",
-            "N2": 20231003,
+            "N2": 20260707,
             "alteration_flag": " ",
-            "transmission_identification": "E138"
+            "transmission_identification": "E159"
           },
           "BIB": {
-            "N1": 10,
+            "N1": 9,
             "N2": 0
           },
           "TITLE": [
@@ -114,18 +114,37 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                " Spin correlation coefficient",
+                "Main reference. See also TITLE and AUTHOR."
               ]
-            }
-          ],
-          "PART-DET": [
+            },
             {
               "pointer": "",
-              "coded_information": [
-                "P"
-              ],
+              "coded_information": {
+                "code": "J,PR/C,112,054001,2025",
+                "code_unit": [
+                  {
+                    "unit": "J,PR/C,112,054001,2025",
+                    "doi": "10.1103/hrrd-cfk5",
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "PR/C",
+                        "number": null,
+                        "volume": "112",
+                        "part": null,
+                        "issue": null,
+                        "page": "054001"
+                      },
+                      "date": 2025
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
               "free_text": [
-                ""
+                "",
+                "proton and 3He analyzing powers"
               ]
             }
           ],
@@ -227,6 +246,29 @@
               "free_text": [
                 " Received by e-mail from A. Watanabe."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260627,
+                "history": "A"
+              },
+              "free_text": [
+                " Ichiko and MA: added secondary reference;",
+                "            deleted PART-DET in 001; modified STATUS",
+                "            in 002; compiled 003-004."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260706,
+                "history": "R"
+              },
+              "free_text": [
+                " Data for 003-004 received by e-mail from",
+                "            Dr. A. Watanabe."
+              ]
             }
           ],
           "ENDBIB": {
@@ -269,9 +311,9 @@
         {
           "SUBENT": {
             "N1": "E2744002",
-            "N2": 20231003,
+            "N2": 20260707,
             "alteration_flag": " ",
-            "transmission_identification": "E138"
+            "transmission_identification": "E159"
           },
           "BIB": {
             "N1": 4,
@@ -351,12 +393,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.Watanabe+",
+                "reference": {
+                  "code": "J,PR/C,106,054002,2022",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "106",
+                      "part": null,
+                      "issue": null,
+                      "page": "054002"
+                    },
+                    "date": 2022
+                  }
+                }
               },
               "free_text": [
-                " Plotted in Fig. 3 of Phys. Rev. C106, 054002",
-                "        (2022)"
+                " Fig. 3"
               ]
             }
           ],
@@ -460,10 +515,452 @@
             "N1": 0,
             "N2": 0
           }
+        },
+        {
+          "SUBENT": {
+            "N1": "E2744003",
+            "N2": 20260707,
+            "alteration_flag": " ",
+            "transmission_identification": "E159"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "2-HE-3(P,EL)2-HE-3,,POL/DA,,ANA",
+                "code_unit": [
+                  {
+                    "unit": "2-HE-3(P,EL)2-HE-3,,POL/DA,,ANA",
+                    "field": {
+                      "reaction": "2-HE-3(P,EL)2-HE-3",
+                      "target": "2-HE-3",
+                      "projectile": "P",
+                      "process": "EL",
+                      "product": "2-HE-3",
+                      "quantity": ",POL/DA,,ANA",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",POL/DA,,ANA"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANG-SEC": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ANG-CM",
+                "particle": "P"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-SYS",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " The quadratic sum of the false asymmetry and",
+                "          the uncertainty in the target polarization."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistical uncertainty"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "A.Watanabe+",
+                "reference": {
+                  "code": "J,PR/C,112,054001,2025",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "112",
+                      "part": null,
+                      "issue": null,
+                      "page": "054001"
+                    },
+                    "date": 2025
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260627,
+                "history": "C"
+              },
+              "free_text": [
+                " Ichiko and MA"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 10,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "ANG-CM",
+              "DATA",
+              "ERR-S",
+              "ERR-SYS"
+            ],
+            "unit": [
+              "ADEG",
+              "NO-DIM",
+              "NO-DIM",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                46.86,
+                0.376,
+                0.003,
+                0.015
+              ],
+              [
+                71.94,
+                -0.32,
+                0.008,
+                0.013
+              ],
+              [
+                83.73,
+                -0.438,
+                0.013,
+                0.018
+              ],
+              [
+                94.94,
+                -0.442,
+                0.019,
+                0.018
+              ],
+              [
+                105.52,
+                -0.425,
+                0.008,
+                0.017
+              ],
+              [
+                115.45,
+                -0.258,
+                0.012,
+                0.01
+              ],
+              [
+                124.75,
+                -0.078,
+                0.018,
+                0.009
+              ],
+              [
+                133.44,
+                0.202,
+                0.021,
+                0.01
+              ],
+              [
+                141.58,
+                0.494,
+                0.024,
+                0.021
+              ],
+              [
+                149.24,
+                0.528,
+                0.019,
+                0.023
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "E2744004",
+            "N2": 20260707,
+            "alteration_flag": " ",
+            "transmission_identification": "E159"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "2-HE-3(P,EL)2-HE-3,,POL/DA,HE3,ANA",
+                "code_unit": [
+                  {
+                    "unit": "2-HE-3(P,EL)2-HE-3,,POL/DA,HE3,ANA",
+                    "field": {
+                      "reaction": "2-HE-3(P,EL)2-HE-3",
+                      "target": "2-HE-3",
+                      "projectile": "P",
+                      "process": "EL",
+                      "product": "2-HE-3",
+                      "quantity": ",POL/DA,HE3,ANA",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",POL/DA,*,ANA"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANG-SEC": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ANG-CM",
+                "particle": "P"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-SYS",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " The quadratic sum of the false asymmetry and",
+                "          the uncertainty in the target polarization."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "ERR-S",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Statistical uncertainty"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "A.Watanabe+",
+                "reference": {
+                  "code": "J,PR/C,112,054001,2025",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PR/C",
+                      "number": null,
+                      "volume": "112",
+                      "part": null,
+                      "issue": null,
+                      "page": "054001"
+                    },
+                    "date": 2025
+                  }
+                }
+              },
+              "free_text": [
+                " Fig. 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260627,
+                "history": "C"
+              },
+              "free_text": [
+                " Ichiko and MA"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 10,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "ANG-CM",
+              "DATA",
+              "ERR-S",
+              "ERR-SYS"
+            ],
+            "unit": [
+              "ADEG",
+              "NO-DIM",
+              "NO-DIM",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                46.86,
+                0.057,
+                0.003,
+                0.004
+              ],
+              [
+                71.94,
+                -0.247,
+                0.01,
+                0.016
+              ],
+              [
+                83.73,
+                -0.227,
+                0.014,
+                0.015
+              ],
+              [
+                94.94,
+                -0.176,
+                0.02,
+                0.014
+              ],
+              [
+                105.52,
+                -0.222,
+                0.009,
+                0.014
+              ],
+              [
+                115.45,
+                -0.19,
+                0.013,
+                0.014
+              ],
+              [
+                124.75,
+                -0.087,
+                0.016,
+                0.007
+              ],
+              [
+                133.44,
+                0.186,
+                0.02,
+                0.015
+              ],
+              [
+                141.58,
+                0.327,
+                0.02,
+                0.023
+              ],
+              [
+                149.24,
+                0.233,
+                0.016,
+                0.016
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
         }
       ],
       "ENDENTRY": {
-        "N1": 2,
+        "N1": 4,
         "N2": 0
       }
     }
