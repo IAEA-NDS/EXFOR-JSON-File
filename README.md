@@ -33,7 +33,6 @@ git clone https://github.com/iaea-nds/exfor-json-file.git
           +--a            # Area A
           ...
           +--v            # Area V
-
 ```
 **Terms of Use**
 - Cite Refs.[1] and [2] when you redistribute it in the original or another form, or use it in a publication,
