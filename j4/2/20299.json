@@ -1,26 +1,47 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T20:16:20+0000",
+  "time_stamp": "2026-08-27T06:56:40+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "20299",
-        "N2": 20071218,
+        "N2": 20251214,
         "alteration_flag": " ",
-        "transmission_identification": "2190"
+        "transmission_identification": "2323"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "20299001",
-            "N2": 20071218,
+            "N2": 20251214,
             "alteration_flag": " ",
-            "transmission_identification": "2190"
+            "transmission_identification": "2323"
           },
           "BIB": {
-            "N1": 14,
+            "N1": 11,
             "N2": 0
           },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Angular distributions of fragments in fission of",
+                " uranium and thorium induced by 14 MeV neutrons"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "A.Katase"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "INSTITUTE": [
             {
               "pointer": "",
@@ -36,52 +57,29 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "W,KATASE,196109",
+                "code": "J,MEK,21,81,1961",
                 "code_unit": [
                   {
-                    "unit": "W,KATASE,196109",
+                    "unit": "J,MEK,21,81,1961",
                     "doi": null,
                     "field": {
-                      "reference_type": "W",
+                      "reference_type": "J",
                       "reference": {
-                        "code": "KATASE",
+                        "code": "MEK",
                         "number": null,
-                        "volume": null,
+                        "volume": "21",
                         "part": null,
                         "issue": null,
-                        "page": null
+                        "page": "81"
                       },
-                      "date": 196109
+                      "date": 1961
                     }
                   }
                 ],
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " Data published in the memoirs of the",
-                " faculty of engineering, kyushu university,",
-                " vol. 23, no 1, page 81, 1961."
-              ]
-            }
-          ],
-          "AUTHOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "A.Katase"
-              ],
-              "free_text": [
                 ""
-              ]
-            }
-          ],
-          "TITLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "-Angular distribution of fragments in fission of",
-                " uranium and thorium induced by 14 MeV neutrons-"
               ]
             }
           ],
@@ -92,10 +90,10 @@
                 "facility": [
                   "CCW"
                 ],
-                "institute": null
+                "institute": "2JPNKYU"
               },
               "free_text": [
-                "      500 KV Cockcroft-Walton accelerator."
+                " 500 kV Cockcroft-Walton accelerator"
               ]
             }
           ],
@@ -109,7 +107,20 @@
                 "reaction": null
               },
               "free_text": [
-                "      T(d,N)alpha."
+                " 170 keV deuteron on TiT"
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Two samples were prepared for (1) loaded emulsion",
+                " method and (2) plate camera method.",
+                "Results obtained by these methods are not appreciably",
+                " different, and the weighted average of these results",
+                " was adopted."
               ]
             }
           ],
@@ -120,59 +131,30 @@
                 "TRD"
               ],
               "free_text": [
-                "      Loaded nuclear emulsion and special plate",
-                " camera method, see publication."
+                " Loaded emulsion method and plate camera method",
+                " were applied"
               ]
-            }
-          ],
-          "ANALYSIS": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                ".Cross-section derived from angular distribution of",
-                " fission fragments."
-              ]
-            }
-          ],
-          "MONITOR": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                ".Associated alpha particle counting,",
-                " t(d,N)alpha."
-              ]
-            }
-          ],
-          "PART-DET": [
+            },
             {
               "pointer": "",
               "coded_information": [
-                "FF"
+                "SCIN"
               ],
               "free_text": [
-                "       Fission fragments."
+                " Plastic scintillator (0.2 mm in thickness and",
+                " 1.6 cm in diameter) for associated alpha detection"
               ]
             }
           ],
-          "COMMENT": [
+          "METHOD": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": [
+                "ASSOP"
+              ],
               "free_text": [
-                ".Results obtained by the methods of loaded emulsion",
-                " and plate camera are not appreciably different.",
-                " The weighted average of these results is given."
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                ".Data from report."
+                " Total number of neutrons obtained by counting",
+                " associated alpha particles"
               ]
             }
           ],
@@ -180,13 +162,13 @@
             {
               "pointer": "",
               "coded_information": {
-                "heading": "ERR-S",
+                "heading": "DATA-ERR",
                 "minimum_value": null,
                 "maximum_value": null,
                 "correlation_property": null
               },
               "free_text": [
-                "  Only statistical error considered."
+                " No information on sources of uncertainty"
               ]
             }
           ],
@@ -228,18 +210,17 @@
                 "history": "A"
               },
               "free_text": [
-                " Date is corrected"
+                " DATA-ERR changed to ERR-S. Data corrected."
               ]
             },
             {
               "pointer": "",
               "coded_information": {
-                "date": 20071218,
-                "history": "U"
+                "date": 20251214,
+                "history": "A"
               },
               "free_text": [
-                " Last checking has been done.",
-                "            DATA-ERR changed to ERR-S"
+                " ON. Recompiled. 004-007 added."
               ]
             }
           ],
@@ -259,12 +240,12 @@
         {
           "SUBENT": {
             "N1": "20299002",
-            "N2": 20071218,
+            "N2": 20251214,
             "alteration_flag": " ",
-            "transmission_identification": "2190"
+            "transmission_identification": "2323"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -295,53 +276,118 @@
               ]
             }
           ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "INTAD"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "A.Katase",
+                "reference": {
+                  "code": "J,MEK,21,81,1961",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "MEK",
+                      "number": null,
+                      "volume": "21",
+                      "part": null,
+                      "issue": null,
+                      "page": "81"
+                    },
+                    "date": 1961
+                  }
+                }
+              },
+              "free_text": [
+                " Table 2"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "COREL"
+                ],
+                "subentry_number": "20299004",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Angular distribution"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "DATA-ERR"
+            ],
+            "unit": [
+              "PER-CENT"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
           "DATA": {
-            "N1": 4,
+            "N1": 3,
             "N2": 3,
             "pointer": [
-              "",
               "",
               "",
               ""
             ],
             "heading": [
               "EN",
-              "EN-RSL",
-              "DATA",
-              "ERR-S"
+              "EN-RSL-HW",
+              "DATA"
             ],
             "unit": [
               "MEV",
               "MEV",
-              "B",
-              "PER-CENT"
+              "B"
             ],
             "value": [
               [
                 13.5,
                 0.2,
-                0.31,
-                10.0
+                0.31
               ],
               [
                 14.1,
                 0.1,
-                0.32,
-                10.0
+                0.32
               ],
               [
                 14.8,
                 0.2,
-                0.34,
-                10.0
+                0.34
               ]
             ]
           },
@@ -357,12 +403,12 @@
         {
           "SUBENT": {
             "N1": "20299003",
-            "N2": 20071218,
+            "N2": 20251214,
             "alteration_flag": " ",
-            "transmission_identification": "2190"
+            "transmission_identification": "2323"
           },
           "BIB": {
-            "N1": 1,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
@@ -393,11 +439,434 @@
               ]
             }
           ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "INTAD"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "A.Katase",
+                "reference": {
+                  "code": "J,MEK,21,81,1961",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "MEK",
+                      "number": null,
+                      "volume": "21",
+                      "part": null,
+                      "issue": null,
+                      "page": "81"
+                    },
+                    "date": 1961
+                  }
+                }
+              },
+              "free_text": [
+                " Table 2"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "COREL"
+                ],
+                "subentry_number": "20299006",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Angular distribution"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "DATA-ERR"
+            ],
+            "unit": [
+              "PER-CENT"
+            ],
+            "value": [
+              10.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 3,
+            "N2": 3,
+            "pointer": [
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "B"
+            ],
+            "value": [
+              [
+                13.5,
+                0.2,
+                1.28
+              ],
+              [
+                14.1,
+                0.1,
+                1.32
+              ],
+              [
+                14.8,
+                0.2,
+                1.53
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "20299004",
+            "N2": 20251214,
+            "alteration_flag": " ",
+            "transmission_identification": "2323"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "90-TH-232(N,F),,DA,,LEG/RS",
+                "code_unit": [
+                  {
+                    "unit": "90-TH-232(N,F),,DA,,LEG/RS",
+                    "field": {
+                      "reaction": "90-TH-232(N,F)",
+                      "target": "90-TH-232",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": ",DA,,LEG/RS",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",DA,,LEG/RS"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "A.Katase",
+                "reference": {
+                  "code": "J,MEK,21,81,1961",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "MEK",
+                      "number": null,
+                      "volume": "21",
+                      "part": null,
+                      "issue": null,
+                      "page": "81"
+                    },
+                    "date": 1961
+                  }
+                }
+              },
+              "free_text": [
+                " Table 1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "COREL"
+                ],
+                "subentry_number": "20299002",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Cross section"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251214,
+                "history": "C"
+              },
+              "free_text": [
+                " On"
+              ]
+            }
+          ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
           "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 5,
+            "N2": 9,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "NUMBER",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "NO-DIM",
+              "NO-DIM",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                13.5,
+                0.2,
+                2.0,
+                0.291,
+                0.035
+              ],
+              [
+                13.5,
+                0.2,
+                4.0,
+                0.047,
+                0.055
+              ],
+              [
+                13.5,
+                0.2,
+                6.0,
+                -0.052,
+                0.065
+              ],
+              [
+                14.1,
+                0.1,
+                2.0,
+                0.298,
+                0.02
+              ],
+              [
+                14.1,
+                0.1,
+                4.0,
+                -0.023,
+                0.026
+              ],
+              [
+                14.1,
+                0.1,
+                6.0,
+                0.017,
+                0.033
+              ],
+              [
+                14.8,
+                0.2,
+                2.0,
+                0.344,
+                0.038
+              ],
+              [
+                14.8,
+                0.2,
+                4.0,
+                0.034,
+                0.05
+              ],
+              [
+                14.8,
+                0.2,
+                6.0,
+                -0.08,
+                0.062
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "20299005",
+            "N2": 20251214,
+            "alteration_flag": " ",
+            "transmission_identification": "2323"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "90-TH-232(N,F),,DA,,RSD",
+                "code_unit": [
+                  {
+                    "unit": "90-TH-232(N,F),,DA,,RSD",
+                    "field": {
+                      "reaction": "90-TH-232(N,F)",
+                      "target": "90-TH-232",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": ",DA,,RSD",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",DA,,RSD"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "A.Katase",
+                "reference": {
+                  "code": "J,MEK,21,81,1961",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "MEK",
+                      "number": null,
+                      "volume": "21",
+                      "part": null,
+                      "issue": null,
+                      "page": "81"
+                    },
+                    "date": 1961
+                  }
+                }
+              },
+              "free_text": [
+                " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251214,
+                "history": "C"
+              },
+              "free_text": [
+                " On"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "ANG"
+            ],
+            "unit": [
+              "ADEG"
+            ],
+            "value": [
+              0.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -412,34 +881,392 @@
             ],
             "heading": [
               "EN",
-              "EN-RSL",
+              "EN-RSL-HW",
               "DATA",
-              "ERR-S"
+              "DATA-ERR"
             ],
             "unit": [
               "MEV",
               "MEV",
-              "B",
-              "PER-CENT"
+              "NO-DIM",
+              "NO-DIM"
             ],
             "value": [
               [
                 13.5,
                 0.2,
-                1.28,
-                10.0
+                1.45,
+                0.12
               ],
               [
                 14.1,
                 0.1,
-                1.32,
-                10.0
+                1.54,
+                0.06
               ],
               [
                 14.8,
                 0.2,
-                1.53,
-                10.0
+                1.5,
+                0.12
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "20299006",
+            "N2": 20251214,
+            "alteration_flag": " ",
+            "transmission_identification": "2323"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "92-U-238(N,F),,DA,,LEG/RS",
+                "code_unit": [
+                  {
+                    "unit": "92-U-238(N,F),,DA,,LEG/RS",
+                    "field": {
+                      "reaction": "92-U-238(N,F)",
+                      "target": "92-U-238",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": ",DA,,LEG/RS",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",DA,,LEG/RS"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "A.Katase",
+                "reference": {
+                  "code": "J,MEK,21,81,1961",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "MEK",
+                      "number": null,
+                      "volume": "21",
+                      "part": null,
+                      "issue": null,
+                      "page": "81"
+                    },
+                    "date": 1961
+                  }
+                }
+              },
+              "free_text": [
+                " Table 1"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "COREL"
+                ],
+                "subentry_number": "20299003",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Cross section"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251214,
+                "history": "C"
+              },
+              "free_text": [
+                " On"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 5,
+            "N2": 9,
+            "pointer": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "NUMBER",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "NO-DIM",
+              "NO-DIM",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                13.5,
+                0.2,
+                2.0,
+                0.217,
+                0.03
+              ],
+              [
+                13.5,
+                0.2,
+                4.0,
+                -0.06,
+                0.04
+              ],
+              [
+                13.5,
+                0.2,
+                6.0,
+                0.048,
+                0.047
+              ],
+              [
+                14.1,
+                0.1,
+                2.0,
+                0.223,
+                0.016
+              ],
+              [
+                14.1,
+                0.1,
+                4.0,
+                -0.031,
+                0.021
+              ],
+              [
+                14.1,
+                0.1,
+                6.0,
+                -0.047,
+                0.026
+              ],
+              [
+                14.8,
+                0.2,
+                2.0,
+                0.263,
+                0.026
+              ],
+              [
+                14.8,
+                0.2,
+                4.0,
+                -0.008,
+                0.034
+              ],
+              [
+                14.8,
+                0.2,
+                6.0,
+                -0.037,
+                0.053
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
+        },
+        {
+          "SUBENT": {
+            "N1": "20299007",
+            "N2": 20251214,
+            "alteration_flag": " ",
+            "transmission_identification": "2323"
+          },
+          "BIB": {
+            "N1": 3,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "92-U-238(N,F),,DA,,RSD",
+                "code_unit": [
+                  {
+                    "unit": "92-U-238(N,F),,DA,,RSD",
+                    "field": {
+                      "reaction": "92-U-238(N,F)",
+                      "target": "92-U-238",
+                      "projectile": "N",
+                      "process": "F",
+                      "product": "",
+                      "quantity": ",DA,,RSD",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",DA,,RSD"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "A.Katase",
+                "reference": {
+                  "code": "J,MEK,21,81,1961",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "MEK",
+                      "number": null,
+                      "volume": "21",
+                      "part": null,
+                      "issue": null,
+                      "page": "81"
+                    },
+                    "date": 1961
+                  }
+                }
+              },
+              "free_text": [
+                " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251214,
+                "history": "C"
+              },
+              "free_text": [
+                " On"
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "ANG"
+            ],
+            "unit": [
+              "ADEG"
+            ],
+            "value": [
+              0.0
+            ]
+          },
+          "ENDCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 4,
+            "N2": 3,
+            "pointer": [
+              "",
+              "",
+              "",
+              ""
+            ],
+            "heading": [
+              "EN",
+              "EN-RSL-HW",
+              "DATA",
+              "DATA-ERR"
+            ],
+            "unit": [
+              "MEV",
+              "MEV",
+              "NO-DIM",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                13.5,
+                0.2,
+                1.41,
+                0.09
+              ],
+              [
+                14.1,
+                0.1,
+                1.29,
+                0.05
+              ],
+              [
+                14.8,
+                0.2,
+                1.39,
+                0.09
               ]
             ]
           },
@@ -454,7 +1281,7 @@
         }
       ],
       "ENDENTRY": {
-        "N1": 3,
+        "N1": 7,
         "N2": 0
       }
     }

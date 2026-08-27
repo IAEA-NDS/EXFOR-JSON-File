@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-20T20:50:40+0000",
+  "time_stamp": "2026-08-27T06:56:40+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "22397",
-        "N2": 20201012,
+        "N2": 20251006,
         "alteration_flag": " ",
-        "transmission_identification": "2294"
+        "transmission_identification": "2323"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "22397001",
-            "N2": 20201012,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "2294"
+            "transmission_identification": "2323"
           },
           "BIB": {
             "N1": 11,
@@ -26,8 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                " Measurement of the neutron total cross-section",
-                " of Tc-99 in the energy range from 3 to 600 eV"
+                "Measurement of the neutron total cross section of 99Tc",
+                " in the energy range from 3 to 600 eV"
               ]
             }
           ],
@@ -39,11 +39,7 @@
                 "A.Brusegan",
                 "A.Lepretre",
                 "C.Mounier",
-                "C.Raepsaet",
-                "F.Corvi",
-                "E.Macavero",
-                "L.Zanini",
-                "H.Postma"
+                "C.Raepsaet"
               ],
               "free_text": [
                 ""
@@ -54,28 +50,11 @@
             {
               "pointer": "",
               "coded_information": [
-                "2FR SAC"
-              ],
-              "free_text": [
-                "  Gunsing, Raepsaet, Lepretre, Mounier,"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
+                "2FR SAC",
                 "2ZZZGEL"
               ],
               "free_text": [
-                "  Brusegan, Gunsing,Corvi,Macavero, Zanini"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2NEDDEL"
-              ],
-              "free_text": [
-                "  Postma"
+                ""
               ]
             }
           ],
@@ -105,7 +84,7 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " Main ref., Data are given"
+                ""
               ]
             },
             {
@@ -163,12 +142,38 @@
                 "institute": "2ZZZGEL"
               },
               "free_text": [
-                "  Pulsed Geel Linear Accelerator -",
-                "    Gelina, electron beam energy is 100 MeV.",
-                "    For thin samples averaged current is 20 uA,",
-                "    the pulse length is 15 ns, repetition rate 200 Hz.",
-                "    For thick sample averaged current is 60 uA,",
-                "    the pulse length is 2 ns, repetition rate 800 Hz."
+                " GELINA"
+              ]
+            }
+          ],
+          "INC-SOURCE": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "incident_source": [
+                  "PHOTO"
+                ],
+                "reaction": null
+              },
+              "free_text": [
+                "",
+                ". Electron beam energy:  100 MeV.",
+                ". averaged current 20 uA (thin sample), 60 uA (thick",
+                "  sample)",
+                ". pulse length 15 ns (thin sample), 2 ns (thick sample)",
+                ". repetition rate 200 Hz (thin sample), 800 Hz (thick",
+                "  sample)"
+              ]
+            }
+          ],
+          "SAMPLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "99Tc samples with thickness 0.16, 0.44 and 4.0 g/cm2.",
+                "Effective beam time for these thicknesses are 70, 150",
+                " and 450 hours."
               ]
             }
           ],
@@ -179,9 +184,8 @@
                 "GLASD"
               ],
               "free_text": [
-                "  NE912 lithium glass detector for neutron",
-                "    detection placed at a distance of 49.33 m from",
-                "    the samples"
+                " NE912 lithium glass detector for neutron",
+                " detection"
               ]
             }
           ],
@@ -189,42 +193,10 @@
             {
               "pointer": "",
               "coded_information": [
-                "TOF",
-                "TRN"
+                "TOF"
               ],
               "free_text": [
-                ""
-              ]
-            }
-          ],
-          "MONITOR": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "heading": null,
-                "reaction": {
-                  "code": "92-U-238(N,0),,EN",
-                  "code_unit": [
-                    {
-                      "unit": "92-U-238(N,0),,EN",
-                      "field": {
-                        "reaction": "92-U-238(N,0)",
-                        "target": "92-U-238",
-                        "projectile": "N",
-                        "process": "0",
-                        "product": "",
-                        "quantity": ",EN",
-                        "data_type": null,
-                        "general_quantity_modifier": null,
-                        "quantity_236": ",EN"
-                      }
-                    }
-                  ],
-                  "unit_combination": "(%)"
-                }
-              },
-              "free_text": [
-                ""
+                " 49.33 m between glass detector and sample"
               ]
             }
           ],
@@ -233,19 +205,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                " Corrections were made for detector's deadtime",
-                " and background"
-              ]
-            }
-          ],
-          "SAMPLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                " 99Tc samples with thickness 0.16, 0.44 and 4.0 g/cm2.",
-                " Effective beam time for these thicknesses are 70, 150",
-                " and 450 hours"
+                "Corrected for detector dead time and background"
               ]
             }
           ],
@@ -268,17 +228,7 @@
               },
               "free_text": [
                 "  + +  Corrected by S.M. - Two Subents",
-                "                  Added and Reaction Code Corrected"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 20001026,
-                "history": "U"
-              },
-              "free_text": [
-                " Last checking has been done."
+                " added and REACTION code Corrected"
               ]
             },
             {
@@ -299,8 +249,18 @@
               },
               "free_text": [
                 " SD: Two versions from Trans.2182 and",
-                "Trans. 2157 merged. STATUS updated in all Subents.",
-                "ERR-ANALYS moved to appropriate Subents."
+                " Trans. 2157 merged. STATUS updated in all Subents.",
+                " ERR-ANALYS moved to appropriate Subents."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "A"
+              },
+              "free_text": [
+                " On. Major revisions in 002+004. 005 added."
               ]
             }
           ],
@@ -320,12 +280,12 @@
         {
           "SUBENT": {
             "N1": "22397002",
-            "N2": 20201012,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "2294"
+            "transmission_identification": "2323"
           },
           "BIB": {
-            "N1": 7,
+            "N1": 6,
             "N2": 0
           },
           "REACTION": [
@@ -434,37 +394,26 @@
               ]
             }
           ],
-          "ANALYSIS": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "SHAPE"
-              ],
-              "free_text": [
-                "  Program 'REFIT'"
-              ]
-            }
-          ],
           "ASSUMED": [
             {
               "pointer": "",
               "coded_information": {
                 "heading": "ASSUM",
                 "reaction": {
-                  "code": "92-U-238(N,0),,J",
+                  "code": "43-TC-99(N,G),,WID",
                   "code_unit": [
                     {
-                      "unit": "92-U-238(N,0),,J",
+                      "unit": "43-TC-99(N,G),,WID",
                       "field": {
-                        "reaction": "92-U-238(N,0)",
-                        "target": "92-U-238",
+                        "reaction": "43-TC-99(N,G)",
+                        "target": "43-TC-99",
                         "projectile": "N",
-                        "process": "0",
+                        "process": "G",
                         "product": "",
-                        "quantity": ",J",
+                        "quantity": ",WID",
                         "data_type": null,
                         "general_quantity_modifier": null,
-                        "quantity_236": ",J"
+                        "quantity_236": ",WID"
                       }
                     }
                   ],
@@ -476,14 +425,14 @@
               ]
             }
           ],
-          "FLAG": [
+          "ANALYSIS": [
             {
               "pointer": "",
               "coded_information": [
-                1.0
+                "SHAPE"
               ],
               "free_text": [
-                "  New energy level absent in JEF-2 evaluation"
+                " Program REFIT, L=0 assumed."
               ]
             }
           ],
@@ -509,11 +458,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Gunsing",
+                "reference": {
+                  "code": "C,97TRIEST,,1293,1997",
+                  "field": {
+                    "reference_type": "C",
+                    "reference": {
+                      "code": "97TRIEST",
+                      "number": null,
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "1293"
+                    },
+                    "date": 1997
+                  }
+                }
               },
               "free_text": [
-                " Table 1 from 97TRIEST,2,1293"
+                " Table 1"
               ]
             },
             {
@@ -527,7 +490,7 @@
                 "reference": null
               },
               "free_text": [
-                " final publ."
+                " final publication"
               ]
             }
           ],
@@ -539,17 +502,7 @@
                 "history": "A"
               },
               "free_text": [
-                "  Reaction code corrected"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 20001026,
-                "history": "U"
-              },
-              "free_text": [
-                " Last checking has been done."
+                " Reaction code corrected"
               ]
             },
             {
@@ -559,8 +512,8 @@
                 "history": "U"
               },
               "free_text": [
-                "  SF2, SF3 fields (N,0) in REACTION",
-                "             pointer 4 changed to (N,G)"
+                " SF2, SF3 fields (N,0) in REACTION pointer",
+                " 4 changed to (N,G)"
               ]
             },
             {
@@ -571,7 +524,17 @@
               },
               "free_text": [
                 " SD: STATUS updated. ERR-ANALYS added.",
-                "SF9=DERIV deleted from REACTION code (4)."
+                " SF9=DERIV deleted from REACTION code (4)."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "A"
+              },
+              "free_text": [
+                " On. Usage of ASSUM changed. L=0 added."
               ]
             }
           ],
@@ -579,7 +542,23 @@
             "N1": 0,
             "N2": 0
           },
-          "NOCOMMON": {
+          "COMMON": {
+            "N1": 1,
+            "N2": 0,
+            "pointer": [
+              ""
+            ],
+            "heading": [
+              "MOMENTUM L"
+            ],
+            "unit": [
+              "NO-DIM"
+            ],
+            "value": [
+              0.0
+            ]
+          },
+          "ENDCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -589,795 +568,795 @@
             "pointer": [
               "1",
               "1",
+              "",
+              "",
               "2",
               "2",
               "3",
               "",
-              "4",
-              "",
-              ""
+              "4"
             ],
             "heading": [
               "DATA",
               "ERR-S",
-              "DATA",
-              "ERR-S",
-              "DATA",
-              "ERR-S",
-              "DATA",
+              "SPIN J",
               "ASSUM",
-              "FLAG"
+              "DATA",
+              "ERR-S",
+              "DATA",
+              "ERR-S",
+              "DATA"
             ],
             "unit": [
               "EV",
               "EV",
-              "MILLI-EV",
-              "PER-CENT",
-              "MILLI-EV",
-              "PER-CENT",
-              "MILLI-EV",
               "NO-DIM",
-              "NO-DIM"
+              "MILLI-EV",
+              "MILLI-EV",
+              "MILLI-EV",
+              "MILLI-EV",
+              "PER-CENT",
+              "MILLI-EV"
             ],
             "value": [
               [
                 5.584,
                 0.001,
+                5.0,
+                null,
                 149.2,
                 0.5,
                 1.864,
                 0.4,
-                1.823,
-                5.0,
-                null
+                1.823
               ],
               [
                 14.596,
                 0.027,
+                4.0,
                 200.0,
+                null,
                 null,
                 0.0035,
                 12.9,
-                0.004,
-                4.0,
-                1.0
+                0.004
               ],
               [
                 20.274,
+                null,
+                4.0,
                 null,
                 150.3,
                 1.6,
                 3.795,
                 0.4,
-                3.594,
-                4.0,
-                null
+                3.594
               ],
               [
                 22.371,
                 0.029,
+                4.0,
                 200.0,
+                null,
                 null,
                 0.0052,
                 9.8,
-                0.005,
-                4.0,
-                1.0
+                0.005
               ],
               [
                 39.841,
                 0.001,
+                5.0,
+                null,
                 136.9,
                 1.2,
                 0.58,
                 0.4,
-                0.575,
-                5.0,
-                null
+                0.575
               ],
               [
                 56.677,
                 0.001,
+                4.0,
+                null,
                 154.6,
                 1.0,
                 1.703,
                 0.4,
-                1.662,
-                4.0,
-                null
+                1.662
               ],
               [
                 58.709,
                 0.038,
+                4.0,
                 200.0,
+                null,
                 null,
                 0.01,
                 11.3,
-                0.01,
-                4.0,
-                1.0
+                0.01
               ],
               [
                 61.43,
                 0.012,
+                5.0,
                 200.0,
+                null,
                 null,
                 0.035,
                 3.3,
-                0.035,
-                5.0,
-                null
+                0.035
               ],
               [
                 67.651,
                 0.01,
+                4.0,
                 200.0,
+                null,
                 null,
                 0.045,
                 2.9,
-                0.045,
-                4.0,
-                null
+                0.045
               ],
               [
                 80.951,
                 0.012,
+                5.0,
                 200.0,
+                null,
                 null,
                 0.059,
                 2.9,
-                0.059,
-                5.0,
-                null
+                0.059
               ],
               [
                 81.721,
                 0.012,
+                4.0,
                 200.0,
+                null,
                 null,
                 0.055,
                 3.1,
-                0.055,
-                4.0,
-                null
+                0.055
               ],
               [
                 102.832,
                 0.059,
+                4.0,
                 200.0,
+                null,
                 null,
                 0.02,
                 12.3,
-                0.02,
-                4.0,
-                1.0
+                0.02
               ],
               [
                 109.153,
                 0.042,
+                4.0,
                 200.0,
+                null,
                 null,
                 0.031,
                 7.8,
-                0.031,
-                4.0,
-                1.0
+                0.031
               ],
               [
                 111.218,
                 0.001,
+                5.0,
+                null,
                 150.2,
                 1.2,
                 5.348,
                 0.4,
-                5.023,
-                5.0,
-                null
+                5.023
               ],
               [
                 114.204,
                 0.031,
+                5.0,
                 200.0,
+                null,
                 null,
                 0.038,
                 6.9,
-                0.038,
-                5.0,
-                1.0
+                0.038
               ],
               [
                 123.775,
                 0.001,
+                4.0,
+                null,
                 170.2,
                 1.5,
                 1.829,
                 0.3,
-                1.787,
-                4.0,
-                null
+                1.787
               ],
               [
                 148.336,
                 0.045,
+                5.0,
                 200.0,
+                null,
                 null,
                 0.04,
                 9.1,
-                0.04,
-                5.0,
-                null
+                0.04
               ],
               [
                 161.289,
                 0.053,
+                5.0,
                 200.0,
+                null,
                 null,
                 0.062,
                 10.4,
-                0.062,
-                5.0,
-                1.0
+                0.062
               ],
               [
                 163.017,
                 0.001,
+                5.0,
+                null,
                 143.0,
                 1.3,
                 32.401,
                 0.5,
-                22.947,
-                5.0,
-                null
+                22.947
               ],
               [
                 173.126,
                 0.032,
+                4.0,
                 200.0,
+                null,
                 null,
                 0.072,
                 6.3,
-                0.072,
-                4.0,
-                null
+                0.072
               ],
               [
                 177.461,
                 0.048,
+                4.0,
                 200.0,
+                null,
                 null,
                 0.036,
                 11.2,
-                0.036,
-                4.0,
-                1.0
+                0.036
               ],
               [
                 182.087,
                 0.001,
+                5.0,
+                null,
                 183.7,
                 1.0,
                 29.563,
                 0.5,
-                22.871,
-                5.0,
-                null
+                22.871
               ],
               [
                 191.721,
                 0.001,
+                4.0,
+                null,
                 148.7,
                 1.4,
                 20.07,
                 0.5,
-                15.439,
-                4.0,
-                null
+                15.439
               ],
               [
                 196.33,
                 0.023,
+                5.0,
                 200.0,
+                null,
                 null,
                 0.145,
                 4.0,
-                0.145,
-                5.0,
-                null
+                0.145
               ],
               [
                 206.406,
                 0.01,
+                4.0,
                 200.0,
+                null,
                 null,
                 0.321,
                 1.9,
-                0.32,
-                4.0,
-                null
+                0.32
               ],
               [
                 209.941,
                 0.014,
+                5.0,
                 200.0,
+                null,
                 null,
                 0.229,
                 2.7,
-                0.228,
-                5.0,
-                null
+                0.228
               ],
               [
                 214.834,
                 0.007,
+                4.0,
                 200.0,
+                null,
                 null,
                 0.546,
                 1.2,
-                0.543,
-                4.0,
-                null
+                0.543
               ],
               [
                 220.604,
                 0.013,
+                5.0,
                 200.0,
+                null,
                 null,
                 0.275,
                 2.4,
-                0.274,
-                5.0,
-                null
+                0.274
               ],
               [
                 225.982,
                 0.032,
+                5.0,
                 200.0,
+                null,
                 null,
                 0.128,
                 5.4,
-                0.128,
-                5.0,
-                null
+                0.128
               ],
               [
                 241.212,
                 0.001,
+                4.0,
+                null,
                 208.5,
                 1.4,
                 15.768,
                 0.8,
-                13.499,
-                4.0,
-                null
+                13.499
               ],
               [
                 261.63,
                 0.044,
+                5.0,
                 200.0,
+                null,
                 null,
                 0.12,
                 6.7,
-                0.12,
-                5.0,
-                null
+                0.12
               ],
               [
                 273.144,
                 0.018,
+                4.0,
                 200.0,
+                null,
                 null,
                 0.354,
                 2.3,
-                0.352,
-                4.0,
-                null
+                0.352
               ],
               [
                 279.979,
                 0.001,
+                5.0,
+                null,
                 210.0,
                 1.9,
                 6.694,
                 0.3,
-                6.327,
-                5.0,
-                null
+                6.327
               ],
               [
                 299.984,
                 0.001,
+                4.0,
+                null,
                 217.0,
                 1.5,
                 15.66,
                 0.3,
-                13.496,
-                4.0,
-                null
+                13.496
               ],
               [
                 305.039,
                 0.026,
+                4.0,
                 200.0,
+                null,
                 null,
                 0.294,
                 4.3,
-                0.293,
-                4.0,
-                1.0
+                0.293
               ],
               [
                 306.811,
                 0.002,
+                5.0,
                 200.0,
+                null,
                 null,
                 7.81,
                 0.3,
-                7.292,
-                5.0,
-                null
+                7.292
               ],
               [
                 317.689,
                 0.021,
+                4.0,
                 200.0,
+                null,
                 null,
                 0.365,
                 3.2,
-                0.364,
-                4.0,
-                null
+                0.364
               ],
               [
                 324.609,
                 0.026,
+                5.0,
                 200.0,
+                null,
                 null,
                 0.271,
                 4.8,
-                0.27,
-                5.0,
-                null
+                0.27
               ],
               [
                 333.138,
                 0.048,
+                4.0,
                 200.0,
+                null,
                 null,
                 0.162,
                 6.6,
-                0.162,
-                4.0,
-                null
+                0.162
               ],
               [
                 343.209,
                 0.013,
+                5.0,
                 200.0,
+                null,
                 null,
                 0.867,
                 1.7,
-                0.86,
-                5.0,
-                null
+                0.86
               ],
               [
                 350.129,
                 0.029,
+                5.0,
                 200.0,
+                null,
                 null,
                 0.425,
                 3.7,
-                0.423,
-                5.0,
-                null
+                0.423
               ],
               [
                 356.032,
                 0.052,
+                4.0,
                 200.0,
+                null,
                 null,
                 0.211,
                 6.6,
-                0.21,
-                4.0,
-                1.0
+                0.21
               ],
               [
                 358.651,
                 0.002,
+                4.0,
+                null,
                 191.6,
                 2.9,
                 8.528,
                 0.3,
-                7.76,
-                4.0,
-                null
+                7.76
               ],
               [
                 362.158,
                 0.018,
+                4.0,
                 200.0,
+                null,
                 null,
                 0.628,
                 2.8,
-                0.624,
-                4.0,
-                1.0
+                0.624
               ],
               [
                 364.94,
                 0.001,
+                5.0,
+                null,
                 282.1,
                 1.7,
                 66.275,
                 0.6,
-                46.439,
-                5.0,
-                null
+                46.439
               ],
               [
                 379.856,
                 0.002,
+                4.0,
+                null,
                 235.4,
                 2.2,
                 11.462,
                 0.3,
-                10.342,
-                4.0,
-                null
+                10.342
               ],
               [
                 386.086,
                 0.032,
+                5.0,
                 200.0,
+                null,
                 null,
                 0.385,
                 4.4,
-                0.383,
-                5.0,
-                null
+                0.383
               ],
               [
                 398.104,
                 0.118,
+                4.0,
                 200.0,
+                null,
                 null,
                 0.176,
                 9.5,
-                0.176,
-                4.0,
-                null
+                0.176
               ],
               [
                 402.71,
                 0.108,
+                5.0,
                 200.0,
+                null,
                 null,
                 0.144,
                 12.5,
-                0.144,
-                5.0,
-                1.0
+                0.144
               ],
               [
                 412.916,
                 0.033,
+                5.0,
                 200.0,
+                null,
                 null,
                 0.417,
                 5.0,
-                0.415,
-                5.0,
-                1.0
+                0.415
               ],
               [
                 416.817,
                 0.001,
+                5.0,
+                null,
                 242.8,
                 1.4,
                 26.912,
                 0.4,
-                22.398,
-                5.0,
-                null
+                22.398
               ],
               [
                 426.552,
                 0.001,
+                4.0,
+                null,
                 210.5,
                 2.0,
                 31.739,
                 0.5,
-                23.773,
-                4.0,
-                null
+                23.773
               ],
               [
                 439.71,
                 0.107,
+                5.0,
                 200.0,
+                null,
                 null,
                 0.15,
                 14.7,
-                0.15,
-                5.0,
-                null
+                0.15
               ],
               [
                 447.713,
                 0.008,
+                5.0,
                 200.0,
+                null,
                 null,
                 1.211,
                 1.9,
-                1.198,
-                5.0,
-                null
+                1.198
               ],
               [
                 459.917,
                 0.002,
+                4.0,
+                null,
                 226.5,
                 2.2,
                 18.144,
                 0.3,
-                15.402,
-                4.0,
-                null
+                15.402
               ],
               [
                 465.465,
                 0.035,
+                5.0,
                 200.0,
+                null,
                 null,
                 0.543,
                 4.3,
-                0.541,
-                5.0,
-                null
+                0.541
               ],
               [
                 478.789,
                 0.005,
+                4.0,
+                null,
                 266.4,
                 4.9,
                 5.904,
                 0.7,
-                5.627,
-                4.0,
-                null
+                5.627
               ],
               [
                 486.585,
                 0.008,
+                5.0,
                 200.0,
+                null,
                 null,
                 2.9,
                 1.0,
-                2.826,
-                5.0,
-                null
+                2.826
               ],
               [
                 507.616,
                 0.087,
+                4.0,
                 200.0,
+                null,
                 null,
                 0.27,
                 9.8,
-                0.269,
-                4.0,
-                null
+                0.269
               ],
               [
                 516.443,
                 0.005,
+                5.0,
+                null,
                 253.1,
                 6.0,
                 5.946,
                 0.8,
-                5.702,
-                5.0,
-                null
+                5.702
               ],
               [
                 520.57,
                 0.002,
+                4.0,
+                null,
                 249.7,
                 2.7,
                 16.187,
                 0.4,
-                14.148,
-                4.0,
-                null
+                14.148
               ],
               [
                 527.397,
                 0.035,
+                5.0,
                 200.0,
+                null,
                 null,
                 0.814,
                 3.7,
-                0.808,
-                5.0,
-                null
+                0.808
               ],
               [
                 536.615,
                 0.003,
+                4.0,
+                null,
                 287.8,
                 2.7,
                 13.869,
                 0.4,
-                12.527,
-                4.0,
-                null
+                12.527
               ],
               [
                 563.237,
                 0.007,
+                5.0,
                 200.0,
+                null,
                 null,
                 4.414,
                 0.8,
-                4.243,
-                5.0,
-                null
+                4.243
               ],
               [
                 567.037,
                 0.05,
+                5.0,
                 200.0,
+                null,
                 null,
                 0.697,
                 5.0,
-                0.692,
-                5.0,
-                1.0
+                0.692
               ],
               [
                 588.72,
                 0.117,
+                5.0,
                 200.0,
+                null,
                 null,
                 0.276,
                 12.1,
-                0.275,
-                5.0,
-                1.0
+                0.275
               ],
               [
                 593.729,
                 0.013,
+                4.0,
                 200.0,
+                null,
                 null,
                 2.629,
                 1.4,
-                2.555,
-                4.0,
-                null
+                2.555
               ],
               [
                 598.261,
                 0.003,
+                5.0,
+                null,
                 458.9,
                 2.1,
                 16.489,
                 0.4,
-                15.478,
-                5.0,
-                null
+                15.478
               ],
               [
                 606.769,
                 0.003,
+                4.0,
+                null,
                 263.5,
                 3.2,
                 16.929,
                 0.4,
-                14.814,
-                4.0,
-                null
+                14.814
               ]
             ]
           },
@@ -1393,9 +1372,9 @@
         {
           "SUBENT": {
             "N1": "22397003",
-            "N2": 20201012,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "2294"
+            "transmission_identification": "2323"
           },
           "BIB": {
             "N1": 4,
@@ -1451,11 +1430,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Gunsing+",
+                "reference": {
+                  "code": "S,ISINN-6,133,1998",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "ISINN-",
+                      "number": "6",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "133"
+                    },
+                    "date": 1998
+                  }
+                }
               },
               "free_text": [
-                " From the text on p.135 of ISINN-6,133"
+                "",
+                " text in p.135"
               ]
             },
             {
@@ -1481,17 +1475,7 @@
                 "history": "C"
               },
               "free_text": [
-                "   Compiled by SM"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 20001026,
-                "history": "U"
-              },
-              "free_text": [
-                " Last checking has been done."
+                " Compiled by SM"
               ]
             },
             {
@@ -1551,9 +1535,9 @@
         {
           "SUBENT": {
             "N1": "22397004",
-            "N2": 20201012,
+            "N2": 20251006,
             "alteration_flag": " ",
-            "transmission_identification": "2294"
+            "transmission_identification": "2323"
           },
           "BIB": {
             "N1": 5,
@@ -1646,8 +1630,7 @@
                 "SHAPE"
               ],
               "free_text": [
-                "  Program 'REFIT'",
-                " Averaged gamma-width was taken from Subent 003"
+                " Program REFIT, L=0 assumed."
               ]
             }
           ],
@@ -1678,8 +1661,7 @@
                 }
               },
               "free_text": [
-                "  Gamma-width averaged",
-                "    over resonance levels below 200 eV"
+                ""
               ]
             }
           ],
@@ -1691,11 +1673,25 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "F.Gunsing+",
+                "reference": {
+                  "code": "S,ISINN-6,133,1998",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "ISINN-",
+                      "number": "6",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "133"
+                    },
+                    "date": 1998
+                  }
+                }
               },
               "free_text": [
-                " Table 1 from ISINN-6,133"
+                " Table 1"
               ]
             },
             {
@@ -1709,7 +1705,7 @@
                 "reference": null
               },
               "free_text": [
-                ""
+                " averaged capture width (149 meV)"
               ]
             },
             {
@@ -1723,7 +1719,21 @@
                 "reference": null
               },
               "free_text": [
-                " final publ."
+                " final publication for Er < 1 keV"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "SPSDD"
+                ],
+                "subentry_number": "22397005",
+                "author": null,
+                "reference": null
+              },
+              "free_text": [
+                " Spin for Er > 1 keV"
               ]
             }
           ],
@@ -1735,17 +1745,7 @@
                 "history": "C"
               },
               "free_text": [
-                "   Compiled by Sm"
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 20001026,
-                "history": "U"
-              },
-              "free_text": [
-                " Last checking has been done."
+                " Compiled by SM"
               ]
             },
             {
@@ -1756,6 +1756,16 @@
               },
               "free_text": [
                 " SD: STATUS updated."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "A"
+              },
+              "free_text": [
+                " On. Superseded."
               ]
             }
           ],
@@ -2071,10 +2081,228 @@
             "N1": 0,
             "N2": 0
           }
+        },
+        {
+          "SUBENT": {
+            "N1": "22397005",
+            "N2": 20251006,
+            "alteration_flag": " ",
+            "transmission_identification": "2323"
+          },
+          "BIB": {
+            "N1": 5,
+            "N2": 0
+          },
+          "REACTION": [
+            {
+              "pointer": "1",
+              "coded_information": {
+                "code": "43-TC-99(N,0),,EN",
+                "code_unit": [
+                  {
+                    "unit": "43-TC-99(N,0),,EN",
+                    "field": {
+                      "reaction": "43-TC-99(N,0)",
+                      "target": "43-TC-99",
+                      "projectile": "N",
+                      "process": "0",
+                      "product": "",
+                      "quantity": ",EN",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",EN"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            },
+            {
+              "pointer": "2",
+              "coded_information": {
+                "code": "43-TC-99(N,0),,J",
+                "code_unit": [
+                  {
+                    "unit": "43-TC-99(N,0),,J",
+                    "field": {
+                      "reaction": "43-TC-99(N,0)",
+                      "target": "43-TC-99",
+                      "projectile": "N",
+                      "process": "0",
+                      "product": "",
+                      "quantity": ",J",
+                      "data_type": null,
+                      "general_quantity_modifier": null,
+                      "quantity_236": ",J"
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "SHAPE"
+              ],
+              "free_text": [
+                " Program REFIT, L=0 assumed."
+              ]
+            }
+          ],
+          "COMMENT": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "*By Frank Gunsing (2025-10-06):",
+                "The resonance analysis in the PRC paper ends at 1 keV,",
+                " but spins for resonances in the ISINN paper go up to",
+                " 1.5 keV. So it might be worth to add the Er>1 keV",
+                " spins."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "F.Gunsing+",
+                "reference": {
+                  "code": "S,ISINN-6,133,1998",
+                  "field": {
+                    "reference_type": "S",
+                    "reference": {
+                      "code": "ISINN-",
+                      "number": "6",
+                      "volume": null,
+                      "part": null,
+                      "issue": null,
+                      "page": "133"
+                    },
+                    "date": 1998
+                  }
+                }
+              },
+              "free_text": [
+                " Table 1"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20251006,
+                "history": "C"
+              },
+              "free_text": [
+                " On. J values above 1 keV copied from 004."
+              ]
+            }
+          ],
+          "ENDBIB": {
+            "N1": 0,
+            "N2": 0
+          },
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 2,
+            "N2": 13,
+            "pointer": [
+              "1",
+              "2"
+            ],
+            "heading": [
+              "DATA",
+              "DATA"
+            ],
+            "unit": [
+              "EV",
+              "NO-DIM"
+            ],
+            "value": [
+              [
+                1020.9,
+                5.0
+              ],
+              [
+                1045.5,
+                4.0
+              ],
+              [
+                1083.8,
+                5.0
+              ],
+              [
+                1136.4,
+                5.0
+              ],
+              [
+                1179.6,
+                5.0
+              ],
+              [
+                1201.6,
+                4.0
+              ],
+              [
+                1266.1,
+                5.0
+              ],
+              [
+                1281.7,
+                5.0
+              ],
+              [
+                1425.3,
+                5.0
+              ],
+              [
+                1439.8,
+                4.0
+              ],
+              [
+                1443.4,
+                5.0
+              ],
+              [
+                1475.5,
+                5.0
+              ],
+              [
+                1547.0,
+                4.0
+              ]
+            ]
+          },
+          "ENDDATA": {
+            "N1": 0,
+            "N2": 0
+          },
+          "ENDSUBENT": {
+            "N1": 0,
+            "N2": 0
+          }
         }
       ],
       "ENDENTRY": {
-        "N1": 4,
+        "N1": 5,
         "N2": 0
       }
     }
