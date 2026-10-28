@@ -1,21 +1,21 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-05-21T00:19:54+0000",
+  "time_stamp": "2026-10-28T21:02:19+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0042",
-        "N2": 20240427,
+        "N2": 20260828,
         "alteration_flag": " ",
-        "transmission_identification": "M131"
+        "transmission_identification": "M148"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0042001",
-            "N2": 20240427,
+            "N2": 20260828,
             "alteration_flag": " ",
-            "transmission_identification": "M131"
+            "transmission_identification": "M148"
           },
           "BIB": {
             "N1": 11,
@@ -26,8 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Photoneutron transverse cross sections for the",
-                " isotopes 67,70Zn, 78Ge, 74,77Se."
+                "Photoneutron cross sections for the isotopes 67,70Zn,",
+                " 78Ge, 74,77Se."
               ]
             }
           ],
@@ -130,8 +130,13 @@
                 "PLA"
               ],
               "free_text": [
-                " Cross  sections were unfolded from experimental",
-                " yields by Penfold-Leiss method with 1.0 MeV step."
+                " Photoneutron yield Cross  sections were unfolded",
+                " from experimental yields by Penfold-Leiss method with",
+                " 1.0 MeV step.",
+                "Above the (g,2n) reaction   threshold the photoneutron",
+                " multiplicity    was   taken   into   account    using",
+                " statistical theory and total photoneutron reaction",
+                " cross sections were obtained."
               ]
             }
           ],
@@ -219,29 +224,24 @@
                 " REFERENCE, PART-DET, SAMPLE, REACTION, COMMENT,",
                 " STATUS."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260828,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: TITLE, ANALYSIS,",
+                "  COMMON, REACTION."
+              ]
             }
           ],
           "ENDBIB": {
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 1,
-            "N2": 0,
-            "pointer": [
-              ""
-            ],
-            "heading": [
-              "ANAL-STEP"
-            ],
-            "unit": [
-              "MEV"
-            ],
-            "value": [
-              1.0
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -253,9 +253,9 @@
         {
           "SUBENT": {
             "N1": "M0042002",
-            "N2": 20240427,
+            "N2": 20260828,
             "alteration_flag": " ",
-            "transmission_identification": "M131"
+            "transmission_identification": "M148"
           },
           "BIB": {
             "N1": 4,
@@ -265,20 +265,20 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "30-ZN-67(G,N)30-ZN-66,,SIG,,BRS",
+                "code": "30-ZN-67(G,X)0-NN-1,UNW,SIG,,BRS",
                 "code_unit": [
                   {
-                    "unit": "30-ZN-67(G,N)30-ZN-66,,SIG,,BRS",
+                    "unit": "30-ZN-67(G,X)0-NN-1,UNW,SIG,,BRS",
                     "field": {
-                      "reaction": "30-ZN-67(G,N)30-ZN-66",
+                      "reaction": "30-ZN-67(G,X)0-NN-1",
                       "target": "30-ZN-67",
                       "projectile": "G",
-                      "process": "N",
-                      "product": "30-ZN-66",
-                      "quantity": ",SIG",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": "UNW,SIG",
                       "data_type": null,
                       "general_quantity_modifier": "BRS",
-                      "quantity_236": ",SIG"
+                      "quantity_236": "UNW,SIG"
                     }
                   }
                 ],
@@ -363,6 +363,16 @@
               "free_text": [
                 " Corrected by V.Varlamov: COMMENT, SAMPLE,",
                 " STATUS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260828,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION."
               ]
             }
           ],
@@ -837,9 +847,9 @@
         {
           "SUBENT": {
             "N1": "M0042003",
-            "N2": 20240427,
+            "N2": 20260828,
             "alteration_flag": " ",
-            "transmission_identification": "M131"
+            "transmission_identification": "M148"
           },
           "BIB": {
             "N1": 4,
@@ -849,20 +859,20 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "30-ZN-70(G,N)30-ZN-69,,SIG,,BRS",
+                "code": "30-ZN-70(G,X)0-NN-1,UNW,SIG,,BRS",
                 "code_unit": [
                   {
-                    "unit": "30-ZN-70(G,N)30-ZN-69,,SIG,,BRS",
+                    "unit": "30-ZN-70(G,X)0-NN-1,UNW,SIG,,BRS",
                     "field": {
-                      "reaction": "30-ZN-70(G,N)30-ZN-69",
+                      "reaction": "30-ZN-70(G,X)0-NN-1",
                       "target": "30-ZN-70",
                       "projectile": "G",
-                      "process": "N",
-                      "product": "30-ZN-69",
-                      "quantity": ",SIG",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": "UNW,SIG",
                       "data_type": null,
                       "general_quantity_modifier": "BRS",
-                      "quantity_236": ",SIG"
+                      "quantity_236": "UNW,SIG"
                     }
                   }
                 ],
@@ -947,6 +957,16 @@
               "free_text": [
                 " Corrected by V.Varlamov: COMMENT, SAMPLE,",
                 " STATUS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260828,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION."
               ]
             }
           ],
@@ -1451,9 +1471,9 @@
         {
           "SUBENT": {
             "N1": "M0042004",
-            "N2": 20240427,
+            "N2": 20260828,
             "alteration_flag": " ",
-            "transmission_identification": "M131"
+            "transmission_identification": "M148"
           },
           "BIB": {
             "N1": 4,
@@ -1463,20 +1483,20 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "32-GE-78(G,N)32-GE-77,,SIG,,BRS",
+                "code": "32-GE-78(G,X)0-NN-1,UNW,SIG,,BRS",
                 "code_unit": [
                   {
-                    "unit": "32-GE-78(G,N)32-GE-77,,SIG,,BRS",
+                    "unit": "32-GE-78(G,X)0-NN-1,UNW,SIG,,BRS",
                     "field": {
-                      "reaction": "32-GE-78(G,N)32-GE-77",
+                      "reaction": "32-GE-78(G,X)0-NN-1",
                       "target": "32-GE-78",
                       "projectile": "G",
-                      "process": "N",
-                      "product": "32-GE-77",
-                      "quantity": ",SIG",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": "UNW,SIG",
                       "data_type": null,
                       "general_quantity_modifier": "BRS",
-                      "quantity_236": ",SIG"
+                      "quantity_236": "UNW,SIG"
                     }
                   }
                 ],
@@ -1561,6 +1581,16 @@
               "free_text": [
                 " Corrected by V.Varlamov: REACTION,",
                 " SAMPLE, COMMENT, STATUS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260828,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION."
               ]
             }
           ],
@@ -2045,9 +2075,9 @@
         {
           "SUBENT": {
             "N1": "M0042005",
-            "N2": 20240427,
+            "N2": 20260828,
             "alteration_flag": " ",
-            "transmission_identification": "M131"
+            "transmission_identification": "M148"
           },
           "BIB": {
             "N1": 4,
@@ -2057,20 +2087,20 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "34-SE-74(G,N)34-SE-73,,SIG,,BRS",
+                "code": "34-SE-74(G,X)0-NN-1,UNW,SIG,,BRS",
                 "code_unit": [
                   {
-                    "unit": "34-SE-74(G,N)34-SE-73,,SIG,,BRS",
+                    "unit": "34-SE-74(G,X)0-NN-1,UNW,SIG,,BRS",
                     "field": {
-                      "reaction": "34-SE-74(G,N)34-SE-73",
+                      "reaction": "34-SE-74(G,X)0-NN-1",
                       "target": "34-SE-74",
                       "projectile": "G",
-                      "process": "N",
-                      "product": "34-SE-73",
-                      "quantity": ",SIG",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": "UNW,SIG",
                       "data_type": null,
                       "general_quantity_modifier": "BRS",
-                      "quantity_236": ",SIG"
+                      "quantity_236": "UNW,SIG"
                     }
                   }
                 ],
@@ -2155,6 +2185,16 @@
               "free_text": [
                 " Corrected by V.Varlamov: COMMENT, SAMPLE,",
                 " STATUS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260828,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION."
               ]
             }
           ],
@@ -2634,9 +2674,9 @@
         {
           "SUBENT": {
             "N1": "M0042006",
-            "N2": 20240427,
+            "N2": 20260828,
             "alteration_flag": " ",
-            "transmission_identification": "M131"
+            "transmission_identification": "M148"
           },
           "BIB": {
             "N1": 4,
@@ -2646,20 +2686,20 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "34-SE-77(G,N)34-SE-76,,SIG,,BRS",
+                "code": "34-SE-77(G,X)0-NN-1,UNW,SIG,,BRS",
                 "code_unit": [
                   {
-                    "unit": "34-SE-77(G,N)34-SE-76,,SIG,,BRS",
+                    "unit": "34-SE-77(G,X)0-NN-1,UNW,SIG,,BRS",
                     "field": {
-                      "reaction": "34-SE-77(G,N)34-SE-76",
+                      "reaction": "34-SE-77(G,X)0-NN-1",
                       "target": "34-SE-77",
                       "projectile": "G",
-                      "process": "N",
-                      "product": "34-SE-76",
-                      "quantity": ",SIG",
+                      "process": "X",
+                      "product": "0-NN-1",
+                      "quantity": "UNW,SIG",
                       "data_type": null,
                       "general_quantity_modifier": "BRS",
-                      "quantity_236": ",SIG"
+                      "quantity_236": "UNW,SIG"
                     }
                   }
                 ],
@@ -2744,6 +2784,16 @@
               "free_text": [
                 " Corrected by V.Varlamov: COMMENT, SAMPLE,",
                 " STATUS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260828,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION."
               ]
             }
           ],
