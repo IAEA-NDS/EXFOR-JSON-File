@@ -1,52 +1,46 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-11-24T11:23:14+0000",
+  "time_stamp": "2026-11-27T18:26:59+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "21214",
-        "N2": 19800918,
+        "N2": 20260311,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "2324"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "21214001",
-            "N2": 19800918,
+            "N2": 20260311,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "2324"
           },
           "BIB": {
-            "N1": 13,
+            "N1": 11,
             "N2": 0
           },
-          "INSTITUTE": [
+          "TITLE": [
             {
               "pointer": "",
-              "coded_information": [
-                "2FR ILL"
-              ],
+              "coded_information": null,
               "free_text": [
-                " W.B.DRESS."
+                "Observation of two-photon decay in n-p capture"
               ]
-            },
+            }
+          ],
+          "AUTHOR": [
             {
               "pointer": "",
               "coded_information": [
-                "2FR GRE"
+                "W.B.Dress",
+                "C.Guet",
+                "P.Perrin",
+                "P.D.Miller"
               ],
               "free_text": [
-                " C.GUET AND P.PERRIN."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "1USAORL"
-              ],
-              "free_text": [
-                " P.D.MILLER."
+                ""
               ]
             }
           ],
@@ -54,10 +48,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,PRL,34,752,7503",
+                "code": "J,PRL,34,752,1975",
                 "code_unit": [
                   {
-                    "unit": "J,PRL,34,752,7503",
+                    "unit": "J,PRL,34,752,1975",
                     "doi": "10.1103/PhysRevLett.34.752",
                     "field": {
                       "reference_type": "J",
@@ -69,37 +63,28 @@
                         "issue": null,
                         "page": "752"
                       },
-                      "date": 197503
+                      "date": 1975
                     }
                   }
                 ],
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "#doi:10.1103/PhysRevLett.34.752"
               ]
             }
           ],
-          "AUTHOR": [
+          "INSTITUTE": [
             {
               "pointer": "",
               "coded_information": [
-                "W.B.DRESS",
-                "C.GUET",
-                "P.PERRIN",
-                "P.D.MILLER"
+                "2FR ILL",
+                "2FR GRE",
+                "1USAORL"
               ],
               "free_text": [
                 ""
-              ]
-            }
-          ],
-          "TITLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "-OBSERVATION OF TWO-PHOTON DECAY IN N-P CAPTURE-."
               ]
             }
           ],
@@ -110,24 +95,10 @@
                 "facility": [
                   "REAC"
                 ],
-                "institute": null
+                "institute": "2FR ILL"
               },
               "free_text": [
-                " THE HIGH FLUX REACTOR AT ILL,GRENOBLE."
-              ]
-            }
-          ],
-          "INC-SOURCE": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "incident_source": [
-                  "REAC"
-                ],
-                "reaction": null
-              },
-              "free_text": [
-                " SUBTHERMAL NEUTRONS FROM THE REACTOR."
+                " ILL high flux reactor"
               ]
             }
           ],
@@ -136,9 +107,9 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                ".2 CM3 OF DISTILLED WATER SEALED IN A BAG OF 0.006",
-                " MM THICK MYLAR, PLACED INSIDE A CONTAINER MADE OF",
-                " 2 MM THICK LIF ENRICHED IN LI-6."
+                "Distilled water (2 cm3) sealed in a bag of 0.006 mm",
+                " thick Mylar placed inside a container made of 2 mm",
+                " thick LiF enriched in 6Li."
               ]
             }
           ],
@@ -149,7 +120,7 @@
                 "COINC"
               ],
               "free_text": [
-                " A STANDARD SLOW-FAST COINCIDENCE ARRANGEMENT."
+                " Standard slow-fast coincidence arrangement"
               ]
             }
           ],
@@ -160,16 +131,37 @@
                 "NAICR"
               ],
               "free_text": [
-                " TWO 12 CM TIMES 12 CM NAI(TL) CRYSTALS."
+                " Two 12 cm * 12 cm NaI(Tl) crystals"
               ]
             }
           ],
-          "STATUS": [
+          "CORRECTION": [
             {
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                ".DATA TAKEN FROM REFERENCE."
+                "Corrected for",
+                " - reactor power-level changes",
+                " - dead-time problems in the conversion electronics"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " The following errors are taken into account:",
+                " - counting statistics,",
+                " - background subtraction,",
+                " - uncertainties in calibration,",
+                " - normalization,",
+                " - detector efficiency."
               ]
             }
           ],
@@ -177,7 +169,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 791212,
+                "date": 19791212,
                 "history": "C"
               },
               "free_text": [
@@ -187,36 +179,21 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 800115,
+                "date": 19800115,
                 "history": "E"
               },
               "free_text": [
                 ""
               ]
-            }
-          ],
-          "CORRECTION": [
+            },
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "date": 20260311,
+                "history": "A"
+              },
               "free_text": [
-                ".CORRECTIONS MADE FOR,",
-                " -REACTOR POWER-LEVEL CHANGES,",
-                " -DEAD-TIME PROBLEMS IN THE CONVERSION ELECTRONICS."
-              ]
-            }
-          ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                ".THE FOLLOWING ERRORS HAVE BEEN TAKEN INTO ACCOUNT,",
-                " -COUNTING STATISTICS,",
-                " -BACKGROUND SUBTRACTION,",
-                " -UNCERTAINTIES IN CALIBRATION,",
-                " -NORMALIZATION,",
-                " -AND DETECTOR EFFICIENCY."
+                " On. Major revision in 002."
               ]
             }
           ],
@@ -236,39 +213,41 @@
         {
           "SUBENT": {
             "N1": "21214002",
-            "N2": 19800918,
+            "N2": 20260311,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "2324"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 7,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "1-H-1(N,2G)1-H-2,,SIG,,SPA",
+                "code": "1-H-1(N,G)1-H-2,PAR,SIG,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "1-H-1(N,2G)1-H-2,,SIG,,SPA",
+                    "unit": "1-H-1(N,G)1-H-2,PAR,SIG,,SPA/MSC",
                     "field": {
-                      "reaction": "1-H-1(N,2G)1-H-2",
+                      "reaction": "1-H-1(N,G)1-H-2",
                       "target": "1-H-1",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "1-H-2",
-                      "quantity": ",SIG",
+                      "quantity": "PAR,SIG",
                       "data_type": null,
-                      "general_quantity_modifier": "SPA",
-                      "quantity_236": ",SIG"
+                      "general_quantity_modifier": "SPA/MSC",
+                      "quantity_236": "PAR,SIG"
                     }
                   }
                 ],
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "Cross section for captures following emission of two",
+                " gamma-rays in the energy ranges specified"
               ]
             }
           ],
@@ -277,29 +256,29 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "SUBTHERMAL NEUTRONS."
+                "Subthermal neutrons"
               ]
             }
           ],
-          "ASSUMED": [
+          "MONITOR": [
             {
               "pointer": "",
               "coded_information": {
-                "heading": "ASSUM",
+                "heading": null,
                 "reaction": {
-                  "code": "1-H-1(N,ABS),,SIG,,SPA",
+                  "code": "1-H-1(N,G)1-H-2,,SIG",
                   "code_unit": [
                     {
-                      "unit": "1-H-1(N,ABS),,SIG,,SPA",
+                      "unit": "1-H-1(N,G)1-H-2,,SIG",
                       "field": {
-                        "reaction": "1-H-1(N,ABS)",
+                        "reaction": "1-H-1(N,G)1-H-2",
                         "target": "1-H-1",
                         "projectile": "N",
-                        "process": "ABS",
-                        "product": "",
+                        "process": "G",
+                        "product": "1-H-2",
                         "quantity": ",SIG",
                         "data_type": null,
-                        "general_quantity_modifier": "SPA",
+                        "general_quantity_modifier": null,
                         "quantity_236": ",SIG"
                       }
                     }
@@ -312,12 +291,77 @@
               ]
             }
           ],
-          "STATUS": [
+          "MONIT-REF": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": null,
+                "subentry_number": "21460002",
+                "author": "A.E.Cox+",
+                "reference": {
+                  "code": "J,NP,74,497,1965",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP",
+                      "number": null,
+                      "volume": "74",
+                      "part": null,
+                      "issue": null,
+                      "page": "497",
+                      "version": null,
+                      "material_number": null
+                    },
+                    "date": 1965
+                  }
+                }
+              },
+              "free_text": [
+                ""
+              ]
+            }
+          ],
+          "COMMENT": [
             {
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                ".DATA TAKEN FROM TEXT IN REFERENCE."
+                "*By compiler (2026-03-11):",
+                "The authors say in p.754 left sig,abs=sig,1+sig,2,",
+                " however, sig,2 is obtained by",
+                " sig,2=sig,abs*(sig,2/sig,1).",
+                "The value sig,abs=334.2 mb on p. 754 (right) is",
+                " assumed to be a misprint for sig,1=334.2 mb."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "W.B.Dress+",
+                "reference": {
+                  "code": "J,PRL,34,752,1975",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "PRL",
+                      "number": null,
+                      "volume": "34",
+                      "part": null,
+                      "issue": null,
+                      "page": "752"
+                    },
+                    "date": 1975
+                  }
+                }
+              },
+              "free_text": [
+                " Eq.(2)"
               ]
             }
           ],
@@ -325,11 +369,11 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 791212,
-                "history": "C"
+                "date": 20260311,
+                "history": "A"
               },
               "free_text": [
-                ""
+                " On. REACTION updated."
               ]
             }
           ],
@@ -337,10 +381,16 @@
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 4,
-            "N2": 0,
+          "NOCOMMON": {
+            "N1": 0,
+            "N2": 0
+          },
+          "DATA": {
+            "N1": 6,
+            "N2": 1,
             "pointer": [
+              "",
+              "",
               "",
               "",
               "",
@@ -350,44 +400,26 @@
               "EN-DUMMY",
               "E-MIN",
               "E-MAX",
-              "ASSUM"
+              "DATA",
+              "DATA-ERR",
+              "MONIT"
             ],
             "unit": [
-              "MILLI-EV",
+              "EV",
               "KEV",
               "KEV",
+              "MICRO-B",
+              "MICRO-B",
               "MB"
             ],
             "value": [
-              0.8,
-              600.0,
-              1620.0,
-              334.2
-            ]
-          },
-          "ENDCOMMON": {
-            "N1": 0,
-            "N2": 0
-          },
-          "DATA": {
-            "N1": 2,
-            "N2": 1,
-            "pointer": [
-              "",
-              ""
-            ],
-            "heading": [
-              "DATA",
-              "DATA-ERR"
-            ],
-            "unit": [
-              "MICRO-B",
-              "MICRO-B"
-            ],
-            "value": [
               [
+                0.0253,
+                600.0,
+                1620.0,
                 350.0,
-                50.0
+                50.0,
+                334.2
               ]
             ]
           },

@@ -1,43 +1,57 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-11-24T11:24:52+0000",
+  "time_stamp": "2026-11-27T18:26:59+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "21311",
-        "N2": 19801103,
+        "N2": 20260311,
         "alteration_flag": " ",
-        "transmission_identification": "0000"
+        "transmission_identification": "2324"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "21311001",
-            "N2": 19801103,
+            "N2": 20260311,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "2324"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 11,
             "N2": 0
           },
+          "TITLE": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Observation of doubly radiative neutron capture by",
+                " 3He"
+              ]
+            }
+          ],
+          "AUTHOR": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "M.Suffert",
+                "R.Berthollet"
+              ],
+              "free_text": [
+                ""
+              ]
+            }
+          ],
           "INSTITUTE": [
             {
               "pointer": "",
               "coded_information": [
+                "2FR STR",
                 "2FR ILL"
               ],
               "free_text": [
-                " R.B. AND EXPERIMENTAL SITE."
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": [
-                "2FR STR"
-              ],
-              "free_text": [
-                " M.S."
+                ""
               ]
             }
           ],
@@ -45,11 +59,11 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,NP/A,318,1,54,7904",
+                "code": "J,NP/A,318,54,1979",
                 "code_unit": [
                   {
-                    "unit": "J,NP/A,318,1,54,7904",
-                    "doi": null,
+                    "unit": "J,NP/A,318,54,1979",
+                    "doi": "10.1016/0375-9474(79)90469-X",
                     "field": {
                       "reference_type": "J",
                       "reference": {
@@ -57,10 +71,10 @@
                         "number": null,
                         "volume": "318",
                         "part": null,
-                        "issue": "1",
+                        "issue": null,
                         "page": "54"
                       },
-                      "date": 197904
+                      "date": 1979
                     }
                   }
                 ],
@@ -71,28 +85,6 @@
               ]
             }
           ],
-          "AUTHOR": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "M.SUFFERT",
-                "R.BERTHOLLET"
-              ],
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "TITLE": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "-OBSERVATION OF DOUBLY RADIATIVE NEUTRON CAPTURE BY",
-                " HE-3.-"
-              ]
-            }
-          ],
           "FACILITY": [
             {
               "pointer": "",
@@ -100,10 +92,10 @@
                 "facility": [
                   "REAC"
                 ],
-                "institute": null
+                "institute": "2FR ILL"
               },
               "free_text": [
-                " HIGH-FLUX REACTOR AT ILL, GRENOBLE."
+                " ILL high-flux reactor"
               ]
             }
           ],
@@ -117,7 +109,7 @@
                 "reaction": null
               },
               "free_text": [
-                " THE H22 THERMAL NEUTRON GUIDE AT THE REACTOR."
+                " H22 thermal neutron guide at the reactor"
               ]
             }
           ],
@@ -126,8 +118,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "THE THERMAL NEUTRON FLUX AT THE SAMPLE WAS",
-                " 2.6E+09 +- 0.1E+09 NEUTRONS/S."
+                "Total flux of 2.6E+09 +/- 0.1E+09 neutrons/s (thermal",
+                " equivalent)."
               ]
             }
           ],
@@ -136,20 +128,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                ".PURE HE-3 GAS IN A 90 MM LONG GAS TARGET WITH A",
-                " PRESSURE OF 2 BAR."
-              ]
-            }
-          ],
-          "METHOD": [
-            {
-              "pointer": "",
-              "coded_information": [
-                "COINC"
-              ],
-              "free_text": [
-                " A STANDARD FAST-SLOW COINCIDENCE ELECTRONIC",
-                " SYSTEM WAS USED."
+                "Pure helium-3 gas in a 90 mm long gas target at 2 bar"
               ]
             }
           ],
@@ -160,20 +139,22 @@
                 "NAICR"
               ],
               "free_text": [
-                " TWO NAI(TL) DETECTORS, 25 CM IN DIA. AND 30",
-                " CM LONG, EACH SURROUNDED,EXCEPT FOR THE FRONT SIDE,BY",
-                " A THICK PLASTIC SCINTILLATOR.",
-                ".THE NAI(TL) DETECTORS WERE PEAK EFFICIENCY CALIBRATED",
-                " BY MEANS OF THE H-3(P,G)HE-4 REACTION AT EP=1.0 MEV."
+                " Two NaI(Tl) detectors (25 cm diam. and 30 cm",
+                " long), each surrounded, except for the front side,",
+                " by a thick plastic scintillator.",
+                "The NaI(Tl) detectors were peak efficiency calibrated",
+                " by means of the 3H(p,g)4He reaction at Ep=1.0 MeV."
               ]
             }
           ],
-          "STATUS": [
+          "METHOD": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": [
+                "COINC"
+              ],
               "free_text": [
-                ".DATA TAKEN FROM REFERENCE."
+                " Standard slow-fast coincidence arrangement"
               ]
             }
           ],
@@ -181,7 +162,7 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 800206,
+                "date": 19800206,
                 "history": "C"
               },
               "free_text": [
@@ -191,11 +172,21 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 800213,
+                "date": 19800213,
                 "history": "E"
               },
               "free_text": [
                 ""
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260311,
+                "history": "A"
+              },
+              "free_text": [
+                " On. Major revisions in 002-003."
               ]
             }
           ],
@@ -203,23 +194,7 @@
             "N1": 0,
             "N2": 0
           },
-          "COMMON": {
-            "N1": 1,
-            "N2": 0,
-            "pointer": [
-              ""
-            ],
-            "heading": [
-              "EN-DUMMY"
-            ],
-            "unit": [
-              "EV"
-            ],
-            "value": [
-              0.0253
-            ]
-          },
-          "ENDCOMMON": {
+          "NOCOMMON": {
             "N1": 0,
             "N2": 0
           },
@@ -231,32 +206,32 @@
         {
           "SUBENT": {
             "N1": "21311002",
-            "N2": 19801103,
+            "N2": 20260311,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "2324"
           },
           "BIB": {
-            "N1": 6,
+            "N1": 5,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "2-HE-3(N,G)2-HE-4,,SIG,,MXW",
+                "code": "2-HE-3(N,G)2-HE-4,,DA,,4PI/SPA",
                 "code_unit": [
                   {
-                    "unit": "2-HE-3(N,G)2-HE-4,,SIG,,MXW",
+                    "unit": "2-HE-3(N,G)2-HE-4,,DA,,4PI/SPA",
                     "field": {
                       "reaction": "2-HE-3(N,G)2-HE-4",
                       "target": "2-HE-3",
                       "projectile": "N",
                       "process": "G",
                       "product": "2-HE-4",
-                      "quantity": ",SIG",
+                      "quantity": ",DA,,4PI",
                       "data_type": null,
-                      "general_quantity_modifier": "MXW",
-                      "quantity_236": ",SIG"
+                      "general_quantity_modifier": "SPA",
+                      "quantity_236": ",DA,,4PI"
                     }
                   }
                 ],
@@ -272,17 +247,52 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                ".THE MEASUREMENT WAS DONE AT AN ANGLE OF 45 DEGREES,",
-                " AND INTEGRATED ASSUMING ISOTROPY."
+                "Detection of 20.6 MeV gamma-rays"
+              ]
+            }
+          ],
+          "ERR-ANALYS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
+              "free_text": [
+                " Mainly due to detection geometry chosen for",
+                " maximum efficiency"
               ]
             }
           ],
           "STATUS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "M.Suffert+",
+                "reference": {
+                  "code": "J,NP/A,318,54,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "318",
+                      "part": null,
+                      "issue": null,
+                      "page": "54"
+                    },
+                    "date": 1979
+                  }
+                }
+              },
               "free_text": [
-                ".DATA TAKEN FROM TEXT."
+                " Text (p.56)"
               ]
             }
           ],
@@ -290,31 +300,11 @@
             {
               "pointer": "",
               "coded_information": {
-                "date": 800206,
-                "history": "C"
+                "date": 20260311,
+                "history": "A"
               },
               "free_text": [
-                ""
-              ]
-            }
-          ],
-          "CORRECTION": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                ".NO INFORMATION GIVEN."
-              ]
-            }
-          ],
-          "ERR-ANALYS": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                ".THE MAIN ERROR IN THE RESULT STEMS FROM THE ILL-",
-                " DEFINED DETECTION GEOMETRY CHOSE TO GIVE MAXIMUM",
-                " EFFICIENCY."
+                " On. REACTION updated."
               ]
             }
           ],
@@ -327,26 +317,30 @@
             "N2": 0
           },
           "DATA": {
-            "N1": 3,
+            "N1": 4,
             "N2": 1,
             "pointer": [
+              "",
               "",
               "",
               ""
             ],
             "heading": [
-              "E",
+              "EN-DUMMY",
+              "ANG",
               "DATA",
               "DATA-ERR"
             ],
             "unit": [
-              "MEV",
+              "EV",
+              "ADEG",
               "MICRO-B",
               "MICRO-B"
             ],
             "value": [
               [
-                20.6,
+                0.0253,
+                45.0,
                 60.0,
                 12.0
               ]
@@ -364,9 +358,9 @@
         {
           "SUBENT": {
             "N1": "21311003",
-            "N2": 19801103,
+            "N2": 20260311,
             "alteration_flag": " ",
-            "transmission_identification": "0000"
+            "transmission_identification": "2324"
           },
           "BIB": {
             "N1": 6,
@@ -376,19 +370,19 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "2-HE-3(N,2G)2-HE-4,,SIG,,MXW",
+                "code": "2-HE-3(N,G)2-HE-4,,SIG,,SPA/MSC",
                 "code_unit": [
                   {
-                    "unit": "2-HE-3(N,2G)2-HE-4,,SIG,,MXW",
+                    "unit": "2-HE-3(N,G)2-HE-4,,SIG,,SPA/MSC",
                     "field": {
-                      "reaction": "2-HE-3(N,2G)2-HE-4",
+                      "reaction": "2-HE-3(N,G)2-HE-4",
                       "target": "2-HE-3",
                       "projectile": "N",
-                      "process": "2G",
+                      "process": "G",
                       "product": "2-HE-4",
                       "quantity": ",SIG",
                       "data_type": null,
-                      "general_quantity_modifier": "MXW",
+                      "general_quantity_modifier": "SPA/MSC",
                       "quantity_236": ",SIG"
                     }
                   }
@@ -405,30 +399,9 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                ".THE TWO GAMMA-RAYS WERE MEASURED WITH AN ANGLE OF 90",
-                " DEGREES BETWEEN THE DETECTORS AND ASSUMING AN ANGULAR",
-                " CORRELATION OF 1+(COS)**2 BETWEEN THE TWO GAMMA-RAYS."
-              ]
-            }
-          ],
-          "STATUS": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                ".DATA TAKEN FROM TEXT."
-              ]
-            }
-          ],
-          "HISTORY": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "date": 800206,
-                "history": "C"
-              },
-              "free_text": [
-                ""
+                "Detection of two gamma-rays with an angle of 90 deg",
+                " between the detectors and assuming an angular",
+                " correlation of 1+(cos)**2 between the two gamma-rays."
               ]
             }
           ],
@@ -437,20 +410,66 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                ".THE NUMBER OF MEASURED COUNTS WAS CORRECTED FOR,",
-                " - COINCIDENCE EFFICIENCY,",
-                " - BACKGROUND,",
-                " - COUNTS LOST DUE TO THE LOW-ENERGY CUT-OFF AT 2.6",
-                "   MEV GAMMA-RAY ENERGY."
+                "Corrected for",
+                " - coincidence efficiency,",
+                " - background,",
+                " - count loss due to low-energy cutoff at Eg=2.6 MeV"
               ]
             }
           ],
           "ERR-ANALYS": [
             {
               "pointer": "",
-              "coded_information": null,
+              "coded_information": {
+                "heading": "DATA-ERR",
+                "minimum_value": null,
+                "maximum_value": null,
+                "correlation_property": null
+              },
               "free_text": [
-                ".NO INFORMATION GIVEN."
+                " No information on the source of uncertainty"
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "M.Suffert+",
+                "reference": {
+                  "code": "J,NP/A,318,54,1979",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "NP/A",
+                      "number": null,
+                      "volume": "318",
+                      "part": null,
+                      "issue": null,
+                      "page": "54"
+                    },
+                    "date": 1979
+                  }
+                }
+              },
+              "free_text": [
+                " Text (p.61)"
+              ]
+            }
+          ],
+          "HISTORY": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20260311,
+                "history": "A"
+              },
+              "free_text": [
+                " On. REACTION updated. E-MAX deleted."
               ]
             }
           ],
@@ -471,18 +490,18 @@
               ""
             ],
             "heading": [
-              "E-MAX",
+              "EN-DUMMY",
               "DATA",
               "DATA-ERR"
             ],
             "unit": [
-              "MEV",
+              "EV",
               "MICRO-B",
               "MICRO-B"
             ],
             "value": [
               [
-                20.6,
+                0.0253,
                 17.0,
                 5.0
               ]
