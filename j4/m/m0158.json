@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-11-24T15:19:01+0000",
+  "time_stamp": "2026-11-27T18:23:52+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0158",
-        "N2": 20220131,
+        "N2": 20261016,
         "alteration_flag": " ",
-        "transmission_identification": "M119"
+        "transmission_identification": "M149"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0158001",
-            "N2": 20220131,
+            "N2": 20261016,
             "alteration_flag": " ",
-            "transmission_identification": "M119"
+            "transmission_identification": "M149"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 13,
             "N2": 0
           },
           "TITLE": [
@@ -51,34 +51,6 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,YF,44,(5),1145,1986",
-                "code_unit": [
-                  {
-                    "unit": "J,YF,44,(5),1145,1986",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "YF",
-                        "number": null,
-                        "volume": "44",
-                        "part": null,
-                        "issue": "5",
-                        "page": "1145"
-                      },
-                      "date": 1986
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
                 "code": "J,SNP,44,741,1986",
                 "code_unit": [
                   {
@@ -101,7 +73,36 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                " - Eng.trans.of YF,44,(5),1145,1986"
+                "",
+                " Eng.trans.of YF,44,(5),1145,1986"
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,YF,44,1145,1986",
+                "code_unit": [
+                  {
+                    "unit": "J,YF,44,1145,1986",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "YF",
+                        "number": null,
+                        "volume": "44",
+                        "part": null,
+                        "issue": null,
+                        "page": "1145"
+                      },
+                      "date": 1986
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -164,6 +165,17 @@
               ],
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "PART-DET": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "G"
+              ],
+              "free_text": [
+                " Gamma detection at 140 deg."
               ]
             }
           ],
@@ -267,6 +279,17 @@
               "free_text": [
                 " Corrected by V.Varlamov: STATUS."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20261016,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REFERENCE,",
+                " PART-DET, REACTION, DATA, STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -305,9 +328,9 @@
         {
           "SUBENT": {
             "N1": "M0158002",
-            "N2": 20220131,
+            "N2": 20261016,
             "alteration_flag": " ",
-            "transmission_identification": "M119"
+            "transmission_identification": "M149"
           },
           "BIB": {
             "N1": 3,
@@ -317,10 +340,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "11-NA-23(G,P)10-NE-22,PAR,INT/DA,G,BRA",
+                "code": "11-NA-23(G,P)10-NE-22,PAR,INT/DA,G,BRA/MSC",
                 "code_unit": [
                   {
-                    "unit": "11-NA-23(G,P)10-NE-22,PAR,INT/DA,G,BRA",
+                    "unit": "11-NA-23(G,P)10-NE-22,PAR,INT/DA,G,BRA/MSC",
                     "field": {
                       "reaction": "11-NA-23(G,P)10-NE-22",
                       "target": "11-NA-23",
@@ -329,7 +352,7 @@
                       "product": "10-NE-22",
                       "quantity": "PAR,INT/DA,G",
                       "data_type": null,
-                      "general_quantity_modifier": "BRA",
+                      "general_quantity_modifier": "BRA/MSC",
                       "quantity_236": "PAR,INT/DA,*"
                     }
                   }
@@ -337,7 +360,10 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "Integrated cross section for 140 deg gammas",
+                " deexcitating the initially formed 22Ne to its final",
+                " level."
               ]
             }
           ],
@@ -349,12 +375,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "A.S.Gabelko+",
+                "reference": {
+                  "code": "J,SNP,44,741,1986",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "44",
+                      "part": null,
+                      "issue": null,
+                      "page": "741"
+                    },
+                    "date": 1986
+                  }
+                }
               },
               "free_text": [
-                " Data from authors presented in table of",
-                " Sov.Nucl.Phys.,44(1986)741."
+                "",
+                " Data presented in table II."
               ]
             }
           ],
@@ -378,6 +418,17 @@
               "free_text": [
                 " Corrected by V.Varlamov: STATUS."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20261016,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " DATA (E-LVL-FIN), STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -397,7 +448,7 @@
               ""
             ],
             "heading": [
-              "E-LVL",
+              "E-LVL-FIN",
               "DATA",
               "ERR-S"
             ],
@@ -461,22 +512,22 @@
         {
           "SUBENT": {
             "N1": "M0158003",
-            "N2": 20121102,
+            "N2": 20261016,
             "alteration_flag": " ",
-            "transmission_identification": "M065"
+            "transmission_identification": "M149"
           },
           "BIB": {
-            "N1": 2,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "11-NA-23(G,N)11-NA-22,PAR,INT/DA,G,BRA",
+                "code": "11-NA-23(G,N)11-NA-22,PAR,INT/DA,G,BRA/MSC",
                 "code_unit": [
                   {
-                    "unit": "11-NA-23(G,N)11-NA-22,PAR,INT/DA,G,BRA",
+                    "unit": "11-NA-23(G,N)11-NA-22,PAR,INT/DA,G,BRA/MSC",
                     "field": {
                       "reaction": "11-NA-23(G,N)11-NA-22",
                       "target": "11-NA-23",
@@ -485,7 +536,7 @@
                       "product": "11-NA-22",
                       "quantity": "PAR,INT/DA,G",
                       "data_type": null,
-                      "general_quantity_modifier": "BRA",
+                      "general_quantity_modifier": "BRA/MSC",
                       "quantity_236": "PAR,INT/DA,*"
                     }
                   }
@@ -493,7 +544,41 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "Integrated cross section for 140 deg gammas",
+                " deexcitating the initially formed 22Na to its final",
+                " level."
+              ]
+            }
+          ],
+          "STATUS": [
+            {
+              "pointer": "",
+              "coded_information": {
+                "status": [
+                  "TABLE"
+                ],
+                "subentry_number": null,
+                "author": "A.S.Gabelko+",
+                "reference": {
+                  "code": "J,SNP,44,741,1986",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "44",
+                      "part": null,
+                      "issue": null,
+                      "page": "741"
+                    },
+                    "date": 1986
+                  }
+                }
+              },
+              "free_text": [
+                "",
+                " Data presented in table III."
               ]
             }
           ],
@@ -506,6 +591,17 @@
               },
               "free_text": [
                 " VV: REACTION code: BRS -> BRA."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20261016,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " DATA (E-LVL-FIN), STATUS."
               ]
             }
           ],
@@ -526,7 +622,7 @@
               ""
             ],
             "heading": [
-              "E-LVL",
+              "E-LVL-FIN",
               "DATA",
               "ERR-S"
             ],

@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-11-24T15:18:41+0000",
+  "time_stamp": "2026-11-27T18:23:51+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0094",
-        "N2": 20220429,
+        "N2": 20261015,
         "alteration_flag": " ",
-        "transmission_identification": "M119"
+        "transmission_identification": "M149"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0094001",
-            "N2": 20220429,
+            "N2": 20261015,
             "alteration_flag": " ",
-            "transmission_identification": "M119"
+            "transmission_identification": "M149"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 14,
             "N2": 0
           },
           "TITLE": [
@@ -27,8 +27,8 @@
               "coded_information": null,
               "free_text": [
                 "Partial photonucleon cross sections and the",
-                " probabilities of semi-direct processes in",
-                " photodisintegration of nucleus 16-S-32."
+                " probability of semidirect processes in",
+                " photodisintegration of the S-32 nucleus."
               ]
             }
           ],
@@ -75,6 +75,35 @@
             {
               "pointer": "",
               "coded_information": {
+                "code": "J,SNP,44,727,1986",
+                "code_unit": [
+                  {
+                    "unit": "J,SNP,44,727,1986",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "SNP",
+                        "number": null,
+                        "volume": "44",
+                        "part": null,
+                        "issue": null,
+                        "page": "727"
+                      },
+                      "date": 1986
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                "",
+                " Eng. trans. of YF,44,(5),1124,1986."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
                 "code": "J,YF,44,1124,1986",
                 "code_unit": [
                   {
@@ -98,35 +127,6 @@
               },
               "free_text": [
                 ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "J,SNP,44,727,1986",
-                "code_unit": [
-                  {
-                    "unit": "J,SNP,44,727,1986",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "SNP",
-                        "number": null,
-                        "volume": "44",
-                        "part": null,
-                        "issue": null,
-                        "page": "727"
-                      },
-                      "date": 1986
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                " -",
-                " Eng.trans.of YF,44,(5),1124,1986."
               ]
             }
           ],
@@ -153,6 +153,17 @@
               ]
             }
           ],
+          "PART-DET": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "G"
+              ],
+              "free_text": [
+                " Gamma detection at 140 deg."
+              ]
+            }
+          ],
           "INC-SOURCE": [
             {
               "pointer": "",
@@ -164,6 +175,19 @@
               },
               "free_text": [
                 ""
+              ]
+            }
+          ],
+          "ANALYSIS": [
+            {
+              "pointer": "",
+              "coded_information": null,
+              "free_text": [
+                "Determination  of  the  nature  of  gamma line, i.e.",
+                " identification of transitions between levels of the",
+                " final nuclei leading to appearance of maxima in the",
+                " spectrum,   was   achieved   taking   into  account",
+                " information for cascade gamma transitions."
               ]
             }
           ],
@@ -302,6 +326,18 @@
               "free_text": [
                 " Corrected by V.Varlamov: REACTION."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20261015,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: TITLE,",
+                " REFERENCE, PART-DET, ANALYSIS, COMMENT, REACTION,",
+                " LEVEL-PROP, DATA, STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -340,22 +376,22 @@
         {
           "SUBENT": {
             "N1": "M0094002",
-            "N2": 20220429,
+            "N2": 20261015,
             "alteration_flag": " ",
-            "transmission_identification": "M119"
+            "transmission_identification": "M149"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "16-S-32(G,P)15-P-31,PAR,INT/DA,G,BRA,DERIV",
+                "code": "16-S-32(G,P)15-P-31,PAR,INT/DA,G,BRA/MSC",
                 "code_unit": [
                   {
-                    "unit": "16-S-32(G,P)15-P-31,PAR,INT/DA,G,BRA,DERIV",
+                    "unit": "16-S-32(G,P)15-P-31,PAR,INT/DA,G,BRA/MSC",
                     "field": {
                       "reaction": "16-S-32(G,P)15-P-31",
                       "target": "16-S-32",
@@ -363,8 +399,8 @@
                       "process": "P",
                       "product": "15-P-31",
                       "quantity": "PAR,INT/DA,G",
-                      "data_type": "DERIV",
-                      "general_quantity_modifier": "BRA",
+                      "data_type": null,
+                      "general_quantity_modifier": "BRA/MSC",
                       "quantity_236": "PAR,INT/DA,*"
                     }
                   }
@@ -373,464 +409,9 @@
               },
               "free_text": [
                 "",
-                " Angle dependent integrated cross section."
-              ]
-            }
-          ],
-          "LEVEL-PROP": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "15-P-31",
-                "level_identification": {
-                  "field_identifier": "E-LVL",
-                  "value": 1.27
-                },
-                "level_properties": [
-                  {
-                    "field_identifier": "SPIN",
-                    "value": [
-                      1.5
-                    ]
-                  },
-                  {
-                    "field_identifier": "PARITY",
-                    "value": [
-                      1.0
-                    ]
-                  }
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "15-P-31",
-                "level_identification": {
-                  "field_identifier": "E-LVL",
-                  "value": 2.23
-                },
-                "level_properties": [
-                  {
-                    "field_identifier": "SPIN",
-                    "value": [
-                      2.5
-                    ]
-                  },
-                  {
-                    "field_identifier": "PARITY",
-                    "value": [
-                      1.0
-                    ]
-                  }
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "15-P-31",
-                "level_identification": {
-                  "field_identifier": "E-LVL",
-                  "value": 3.13
-                },
-                "level_properties": [
-                  {
-                    "field_identifier": "SPIN",
-                    "value": [
-                      0.5
-                    ]
-                  },
-                  {
-                    "field_identifier": "PARITY",
-                    "value": [
-                      1.0
-                    ]
-                  }
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "15-P-31",
-                "level_identification": {
-                  "field_identifier": "E-LVL",
-                  "value": 3.3
-                },
-                "level_properties": [
-                  {
-                    "field_identifier": "SPIN",
-                    "value": [
-                      2.5
-                    ]
-                  },
-                  {
-                    "field_identifier": "PARITY",
-                    "value": [
-                      1.0
-                    ]
-                  }
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "15-P-31",
-                "level_identification": {
-                  "field_identifier": "E-LVL",
-                  "value": 3.41
-                },
-                "level_properties": [
-                  {
-                    "field_identifier": "SPIN",
-                    "value": [
-                      3.5
-                    ]
-                  },
-                  {
-                    "field_identifier": "PARITY",
-                    "value": [
-                      1.0
-                    ]
-                  }
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "15-P-31",
-                "level_identification": {
-                  "field_identifier": "E-LVL",
-                  "value": 3.51
-                },
-                "level_properties": [
-                  {
-                    "field_identifier": "SPIN",
-                    "value": [
-                      1.5
-                    ]
-                  },
-                  {
-                    "field_identifier": "PARITY",
-                    "value": [
-                      1.0
-                    ]
-                  }
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "15-P-31",
-                "level_identification": {
-                  "field_identifier": "E-LVL",
-                  "value": 4.19
-                },
-                "level_properties": [
-                  {
-                    "field_identifier": "SPIN",
-                    "value": [
-                      2.5
-                    ]
-                  },
-                  {
-                    "field_identifier": "PARITY",
-                    "value": [
-                      1.0
-                    ]
-                  }
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "15-P-31",
-                "level_identification": {
-                  "field_identifier": "E-LVL",
-                  "value": 4.26
-                },
-                "level_properties": [
-                  {
-                    "field_identifier": "SPIN",
-                    "value": [
-                      1.5
-                    ]
-                  },
-                  {
-                    "field_identifier": "PARITY",
-                    "value": [
-                      1.0
-                    ]
-                  }
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "15-P-31",
-                "level_identification": {
-                  "field_identifier": "E-LVL",
-                  "value": 4.59
-                },
-                "level_properties": [
-                  {
-                    "field_identifier": "SPIN",
-                    "value": [
-                      1.5
-                    ]
-                  },
-                  {
-                    "field_identifier": "PARITY",
-                    "value": [
-                      1.0
-                    ]
-                  }
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "15-P-31",
-                "level_identification": {
-                  "field_identifier": "E-LVL",
-                  "value": 4.78
-                },
-                "level_properties": [
-                  {
-                    "field_identifier": "SPIN",
-                    "value": [
-                      2.5
-                    ]
-                  },
-                  {
-                    "field_identifier": "PARITY",
-                    "value": [
-                      1.0
-                    ]
-                  }
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "15-P-31",
-                "level_identification": {
-                  "field_identifier": "E-LVL",
-                  "value": 5.01
-                },
-                "level_properties": [
-                  {
-                    "field_identifier": "SPIN",
-                    "value": [
-                      1.5
-                    ]
-                  }
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "15-P-31",
-                "level_identification": {
-                  "field_identifier": "E-LVL",
-                  "value": 5.26
-                },
-                "level_properties": [
-                  {
-                    "field_identifier": "SPIN",
-                    "value": [
-                      0.5
-                    ]
-                  },
-                  {
-                    "field_identifier": "PARITY",
-                    "value": [
-                      1.0
-                    ]
-                  }
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "15-P-31",
-                "level_identification": {
-                  "field_identifier": "E-LVL",
-                  "value": 5.56
-                },
-                "level_properties": [
-                  {
-                    "field_identifier": "SPIN",
-                    "value": [
-                      1.5
-                    ]
-                  },
-                  {
-                    "field_identifier": "PARITY",
-                    "value": [
-                      1.0
-                    ]
-                  }
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "15-P-31",
-                "level_identification": {
-                  "field_identifier": "E-LVL",
-                  "value": 5.99
-                },
-                "level_properties": [
-                  {
-                    "field_identifier": "SPIN",
-                    "value": [
-                      1.5
-                    ]
-                  },
-                  {
-                    "field_identifier": "PARITY",
-                    "value": [
-                      1.0
-                    ]
-                  }
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "15-P-31",
-                "level_identification": {
-                  "field_identifier": "E-LVL",
-                  "value": 6.34
-                },
-                "level_properties": [
-                  {
-                    "field_identifier": "SPIN",
-                    "value": [
-                      0.5
-                    ]
-                  },
-                  {
-                    "field_identifier": "PARITY",
-                    "value": [
-                      1.0
-                    ]
-                  }
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "15-P-31",
-                "level_identification": {
-                  "field_identifier": "E-LVL",
-                  "value": 6.91
-                },
-                "level_properties": [
-                  {
-                    "field_identifier": "SPIN",
-                    "value": [
-                      1.5
-                    ]
-                  },
-                  {
-                    "field_identifier": "PARITY",
-                    "value": [
-                      1.0
-                    ]
-                  }
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "COMMENT": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Determination  of  the  nature  of  gamma line, i.e.",
-                " identification of transitions between levels of the",
-                " final nuclei leading to appearance of maxima in the",
-                " spectrum,   was   achieved   taking   into  account",
-                " information as cascade gamma transitions."
+                "Integrated cross section for 140 deg gammas",
+                " deexcitating the initially formed 31P to its final",
+                " level."
               ]
             }
           ],
@@ -842,12 +423,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "U.R.Arzibekov+",
+                "reference": {
+                  "code": "J,SNP,44,727,1986",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "44",
+                      "part": null,
+                      "issue": null,
+                      "page": "727"
+                    },
+                    "date": 1986
+                  }
+                }
               },
               "free_text": [
-                " Data presented in Table 1",
-                " of Sov.Nucl.Phys.,44(1986)727."
+                "",
+                " Data presented in Table 1."
               ]
             }
           ],
@@ -883,6 +478,17 @@
               "free_text": [
                 " Corrected by V.Varlamov: REACTION."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20261015,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: COMMENT,",
+                " REACTION, LEVEL-PROP, DATA (E-LVL-FIN), STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -902,7 +508,7 @@
               ""
             ],
             "heading": [
-              "E-LVL",
+              "E-LVL-FIN",
               "DATA",
               "ERR-S"
             ],
@@ -1006,22 +612,22 @@
         {
           "SUBENT": {
             "N1": "M0094003",
-            "N2": 20220429,
+            "N2": 20261015,
             "alteration_flag": " ",
-            "transmission_identification": "M119"
+            "transmission_identification": "M149"
           },
           "BIB": {
-            "N1": 5,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "16-S-32(G,N)16-S-31,PAR,INT/DA,G,BRA,DERIV",
+                "code": "16-S-32(G,N)16-S-31,PAR,INT/DA,G,BRA/MSC",
                 "code_unit": [
                   {
-                    "unit": "16-S-32(G,N)16-S-31,PAR,INT/DA,G,BRA,DERIV",
+                    "unit": "16-S-32(G,N)16-S-31,PAR,INT/DA,G,BRA/MSC",
                     "field": {
                       "reaction": "16-S-32(G,N)16-S-31",
                       "target": "16-S-32",
@@ -1029,8 +635,8 @@
                       "process": "N",
                       "product": "16-S-31",
                       "quantity": "PAR,INT/DA,G",
-                      "data_type": "DERIV",
-                      "general_quantity_modifier": "BRA",
+                      "data_type": null,
+                      "general_quantity_modifier": "BRA/MSC",
                       "quantity_236": "PAR,INT/DA,*"
                     }
                   }
@@ -1039,108 +645,9 @@
               },
               "free_text": [
                 "",
-                " Angle dependent integrated cross section."
-              ]
-            }
-          ],
-          "LEVEL-PROP": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "16-S-31",
-                "level_identification": {
-                  "field_identifier": "E-LVL",
-                  "value": 1.25
-                },
-                "level_properties": [
-                  {
-                    "field_identifier": "SPIN",
-                    "value": [
-                      1.5
-                    ]
-                  },
-                  {
-                    "field_identifier": "PARITY",
-                    "value": [
-                      1.0
-                    ]
-                  }
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "16-S-31",
-                "level_identification": {
-                  "field_identifier": "E-LVL",
-                  "value": 2.24
-                },
-                "level_properties": [
-                  {
-                    "field_identifier": "SPIN",
-                    "value": [
-                      2.5
-                    ]
-                  },
-                  {
-                    "field_identifier": "PARITY",
-                    "value": [
-                      1.0
-                    ]
-                  }
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "flag": null,
-                "nuclide": "16-S-31",
-                "level_identification": {
-                  "field_identifier": "E-LVL",
-                  "value": 3.35
-                },
-                "level_properties": [
-                  {
-                    "field_identifier": "SPIN",
-                    "value": [
-                      1.5,
-                      3.5
-                    ]
-                  },
-                  {
-                    "field_identifier": "PARITY",
-                    "value": [
-                      1.0,
-                      -1.0
-                    ]
-                  }
-                ]
-              },
-              "free_text": [
-                ""
-              ]
-            }
-          ],
-          "COMMENT": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Determination  of  the  nature  of  gamma line, i.e.",
-                " identification of transitions between levels of the",
-                " final nuclei leading to appearance of maxima in the",
-                " spectrum,   was   achieved   taking   into  account",
-                " information as cascade gamma transitions."
+                "Integrated cross section for 140 deg gammas",
+                " deexcitating the initially formed 31S to its final",
+                " level."
               ]
             }
           ],
@@ -1152,12 +659,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "U.R.Arzibekov+",
+                "reference": {
+                  "code": "J,SNP,44,727,1986",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "44",
+                      "part": null,
+                      "issue": null,
+                      "page": "727"
+                    },
+                    "date": 1986
+                  }
+                }
               },
               "free_text": [
-                " Data presented in Table 2",
-                " of Sov.Nucl.Phys.,44(1986)727."
+                "",
+                " Data presented in Table 2."
               ]
             }
           ],
@@ -1193,6 +714,17 @@
               "free_text": [
                 " Corrected by V.Varlamov: REACTION."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20261015,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: COMMENT,",
+                " REACTION, LEVEL-PROP, DATA (E-LVL-FIN), STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -1212,7 +744,7 @@
               ""
             ],
             "heading": [
-              "E-LVL",
+              "E-LVL-FIN",
               "DATA",
               "ERR-S"
             ],

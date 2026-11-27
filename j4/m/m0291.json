@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-11-24T15:20:34+0000",
+  "time_stamp": "2026-11-27T18:23:52+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0291",
-        "N2": 20220201,
+        "N2": 20261016,
         "alteration_flag": " ",
-        "transmission_identification": "M119"
+        "transmission_identification": "M149"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0291001",
-            "N2": 20220201,
+            "N2": 20261016,
             "alteration_flag": " ",
-            "transmission_identification": "M119"
+            "transmission_identification": "M149"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 13,
             "N2": 0
           },
           "TITLE": [
@@ -26,7 +26,7 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Partial channels in the reaction 31p(gamma,x gamma')."
+                "Partial channels of the reaction 31p(gamma,x gamma')."
               ]
             }
           ],
@@ -47,34 +47,6 @@
             }
           ],
           "REFERENCE": [
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "J,YF,45,907,1987",
-                "code_unit": [
-                  {
-                    "unit": "J,YF,45,907,1987",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "YF",
-                        "number": null,
-                        "volume": "45",
-                        "part": null,
-                        "issue": null,
-                        "page": "907"
-                      },
-                      "date": 1987
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            },
             {
               "pointer": "",
               "coded_information": {
@@ -102,6 +74,34 @@
               "free_text": [
                 "",
                 " English translation of YF,45,907,1987."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,YF,45,907,1987",
+                "code_unit": [
+                  {
+                    "unit": "J,YF,45,907,1987",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "YF",
+                        "number": null,
+                        "volume": "45",
+                        "part": null,
+                        "issue": null,
+                        "page": "907"
+                      },
+                      "date": 1987
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -150,6 +150,17 @@
               ],
               "free_text": [
                 " 100cm**3"
+              ]
+            }
+          ],
+          "PART-DET": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "G"
+              ],
+              "free_text": [
+                " Gamma detection at 140 deg."
               ]
             }
           ],
@@ -267,6 +278,17 @@
                 " Corrected by V.Varlamov: EN-SEC, STATUS,",
                 " DATA in SUBENT 003."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20261016,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: TITLE, REFERENCE,",
+                " PART-DET, REACTION, DATA, STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -305,9 +327,9 @@
         {
           "SUBENT": {
             "N1": "M0291002",
-            "N2": 20220201,
+            "N2": 20261016,
             "alteration_flag": " ",
-            "transmission_identification": "M119"
+            "transmission_identification": "M149"
           },
           "BIB": {
             "N1": 3,
@@ -317,10 +339,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "15-P-31(G,P)14-SI-30,PAR,INT/DA,G,BRA",
+                "code": "15-P-31(G,P)14-SI-30,PAR,INT/DA,G,BRA/MSC",
                 "code_unit": [
                   {
-                    "unit": "15-P-31(G,P)14-SI-30,PAR,INT/DA,G,BRA",
+                    "unit": "15-P-31(G,P)14-SI-30,PAR,INT/DA,G,BRA/MSC",
                     "field": {
                       "reaction": "15-P-31(G,P)14-SI-30",
                       "target": "15-P-31",
@@ -329,7 +351,7 @@
                       "product": "14-SI-30",
                       "quantity": "PAR,INT/DA,G",
                       "data_type": null,
-                      "general_quantity_modifier": "BRA",
+                      "general_quantity_modifier": "BRA/MSC",
                       "quantity_236": "PAR,INT/DA,*"
                     }
                   }
@@ -337,7 +359,10 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "Integrated cross section for 140 deg gammas",
+                " deexcitating the initially formed 30Si to its final",
+                " level."
               ]
             }
           ],
@@ -349,12 +374,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "U.R.Arzibekov+",
+                "reference": {
+                  "code": "J,SNP,45,562,1987",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "45",
+                      "part": null,
+                      "issue": null,
+                      "page": "562"
+                    },
+                    "date": 1987
+                  }
+                }
               },
               "free_text": [
-                " Data from authors presented in Table 1",
-                " of Sov.Nucl.Phys.,45(1987)562."
+                "",
+                " Data presented in Table 1."
               ]
             }
           ],
@@ -367,6 +406,17 @@
               },
               "free_text": [
                 " Corrected by V.Varlamov: EN-SEC, STATUS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20261016,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " DATA (E-LVL-FIN), STATUS."
               ]
             }
           ],
@@ -387,7 +437,7 @@
               ""
             ],
             "heading": [
-              "E-LVL",
+              "E-LVL-FIN",
               "DATA",
               "ERR-S"
             ],
@@ -491,9 +541,9 @@
         {
           "SUBENT": {
             "N1": "M0291003",
-            "N2": 20220201,
+            "N2": 20261016,
             "alteration_flag": " ",
-            "transmission_identification": "M119"
+            "transmission_identification": "M149"
           },
           "BIB": {
             "N1": 3,
@@ -503,10 +553,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "15-P-31(G,N)15-P-30,PAR,INT/DA,G,BRA",
+                "code": "15-P-31(G,N)15-P-30,PAR,INT/DA,G,BRA/MSC",
                 "code_unit": [
                   {
-                    "unit": "15-P-31(G,N)15-P-30,PAR,INT/DA,G,BRA",
+                    "unit": "15-P-31(G,N)15-P-30,PAR,INT/DA,G,BRA/MSC",
                     "field": {
                       "reaction": "15-P-31(G,N)15-P-30",
                       "target": "15-P-31",
@@ -515,7 +565,7 @@
                       "product": "15-P-30",
                       "quantity": "PAR,INT/DA,G",
                       "data_type": null,
-                      "general_quantity_modifier": "BRA",
+                      "general_quantity_modifier": "BRA/MSC",
                       "quantity_236": "PAR,INT/DA,*"
                     }
                   }
@@ -523,7 +573,10 @@
                 "unit_combination": "(%)"
               },
               "free_text": [
-                ""
+                "",
+                "Integrated cross section for 140 deg gammas",
+                " deexcitating the initially formed 30P to its final",
+                " level."
               ]
             }
           ],
@@ -535,12 +588,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "U.R.Arzibekov+",
+                "reference": {
+                  "code": "J,SNP,45,562,1987",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "SNP",
+                      "number": null,
+                      "volume": "45",
+                      "part": null,
+                      "issue": null,
+                      "page": "562"
+                    },
+                    "date": 1987
+                  }
+                }
               },
               "free_text": [
-                " Data from authors presented in Table 1",
-                " of Sov.Nucl.Phys.,45(1987)562."
+                "",
+                " Data presented in Table 1."
               ]
             }
           ],
@@ -554,6 +621,17 @@
               "free_text": [
                 " Corrected by V.Varlamov: EN-SEC, FLAG",
                 " deleted, DATA, STATUS."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20261016,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " DATA (E-LVL-FIN), STATUS."
               ]
             }
           ],
@@ -576,7 +654,7 @@
               ""
             ],
             "heading": [
-              "E-LVL",
+              "E-LVL-FIN",
               "DATA",
               "ERR-S",
               "DATA-MIN",

@@ -1,24 +1,24 @@
 {
   "title": "J4 - EXFOR in JSON",
-  "time_stamp": "2026-11-24T15:19:02+0000",
+  "time_stamp": "2026-11-27T18:23:52+0000",
   "entries": [
     {
       "ENTRY": {
         "N1": "M0162",
-        "N2": 20220425,
+        "N2": 20261016,
         "alteration_flag": " ",
-        "transmission_identification": "M119"
+        "transmission_identification": "M149"
       },
       "subentries": [
         {
           "SUBENT": {
             "N1": "M0162001",
-            "N2": 20220425,
+            "N2": 20261016,
             "alteration_flag": " ",
-            "transmission_identification": "M119"
+            "transmission_identification": "M149"
           },
           "BIB": {
-            "N1": 12,
+            "N1": 13,
             "N2": 0
           },
           "TITLE": [
@@ -26,7 +26,8 @@
               "pointer": "",
               "coded_information": null,
               "free_text": [
-                "Decay characteristics of K-39 giant dipole resonance."
+                "Decay characteristics of the giant dipole resonance",
+                " in K-39."
               ]
             }
           ],
@@ -39,6 +40,7 @@
                 "M.Kh.Zhalilov",
                 "K.M.Irgashev",
                 "B.S.Ishkhanov",
+                "I.M.Kapitonov",
                 "I.M.Piskarev"
               ],
               "free_text": [
@@ -50,38 +52,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "J,IZV,51,(1),134,1987",
+                "code": "J,BAS,51,124,1987",
                 "code_unit": [
                   {
-                    "unit": "J,IZV,51,(1),134,1987",
-                    "doi": null,
-                    "field": {
-                      "reference_type": "J",
-                      "reference": {
-                        "code": "IZV",
-                        "number": null,
-                        "volume": "51",
-                        "part": null,
-                        "issue": "1",
-                        "page": "134"
-                      },
-                      "date": 1987
-                    }
-                  }
-                ],
-                "unit_combination": "(%)"
-              },
-              "free_text": [
-                ""
-              ]
-            },
-            {
-              "pointer": "",
-              "coded_information": {
-                "code": "J,BAS,51,(1),124,1987",
-                "code_unit": [
-                  {
-                    "unit": "J,BAS,51,(1),124,1987",
+                    "unit": "J,BAS,51,124,1987",
                     "doi": null,
                     "field": {
                       "reference_type": "J",
@@ -90,7 +64,7 @@
                         "number": null,
                         "volume": "51",
                         "part": null,
-                        "issue": "1",
+                        "issue": null,
                         "page": "124"
                       },
                       "date": 1987
@@ -101,7 +75,35 @@
               },
               "free_text": [
                 "",
-                " English translation of IZV,51,(1),134,1987."
+                " English translation of IZV,51,134,1987."
+              ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "code": "J,IZV,51,134,1987",
+                "code_unit": [
+                  {
+                    "unit": "J,IZV,51,134,1987",
+                    "doi": null,
+                    "field": {
+                      "reference_type": "J",
+                      "reference": {
+                        "code": "IZV",
+                        "number": null,
+                        "volume": "51",
+                        "part": null,
+                        "issue": null,
+                        "page": "134"
+                      },
+                      "date": 1987
+                    }
+                  }
+                ],
+                "unit_combination": "(%)"
+              },
+              "free_text": [
+                ""
               ]
             }
           ],
@@ -167,6 +169,17 @@
               ]
             }
           ],
+          "PART-DET": [
+            {
+              "pointer": "",
+              "coded_information": [
+                "G"
+              ],
+              "free_text": [
+                " Gamma detection at 140 deg."
+              ]
+            }
+          ],
           "ERR-ANALYS": [
             {
               "pointer": "",
@@ -195,7 +208,12 @@
                 " experimental data.",
                 "It is found that  for  this  nuclei  the  semi-direct",
                 " decay  probability  for GDR in the (gamma,p) channel",
-                " amounts to 0.46 - 0.56 and the (gamma,n) it is 0.95."
+                " amounts to 0.46 - 0.56 and the (gamma,n) it is 0.95.",
+                "Determination  of  the  nature  of  gamma line, i.e.",
+                " identification of transitions between levels of the",
+                " final nuclei leading to appearance of maxima in the",
+                " spectrum,   was   achieved   taking   into  account",
+                " information as cascade gamma transitions."
               ]
             }
           ],
@@ -269,6 +287,17 @@
               "free_text": [
                 " Corrected by V.Varlamov: REACTION."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20261016,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: TITLE, AUTHOR,",
+                " REFERENCE, PART-DET, COMMENT, REACTION, DATA, STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -307,22 +336,22 @@
         {
           "SUBENT": {
             "N1": "M0162002",
-            "N2": 20220425,
+            "N2": 20261016,
             "alteration_flag": " ",
-            "transmission_identification": "M119"
+            "transmission_identification": "M149"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "19-K-39(G,P)18-AR-38,PAR,INT/DA,G,BRA,DERIV",
+                "code": "19-K-39(G,P)18-AR-38,PAR,INT/DA,G,BRA/MSC",
                 "code_unit": [
                   {
-                    "unit": "19-K-39(G,P)18-AR-38,PAR,INT/DA,G,BRA,DERIV",
+                    "unit": "19-K-39(G,P)18-AR-38,PAR,INT/DA,G,BRA/MSC",
                     "field": {
                       "reaction": "19-K-39(G,P)18-AR-38",
                       "target": "19-K-39",
@@ -330,8 +359,8 @@
                       "process": "P",
                       "product": "18-AR-38",
                       "quantity": "PAR,INT/DA,G",
-                      "data_type": "DERIV",
-                      "general_quantity_modifier": "BRA",
+                      "data_type": null,
+                      "general_quantity_modifier": "BRA/MSC",
                       "quantity_236": "PAR,INT/DA,*"
                     }
                   }
@@ -340,7 +369,9 @@
               },
               "free_text": [
                 "",
-                "Angle dependent integrated cross section."
+                "Integrated cross section for 140 deg gammas",
+                " deexcitating the initially formed 38Ar to its final",
+                " level."
               ]
             }
           ],
@@ -352,25 +383,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "U.R.Arzibekov+",
+                "reference": {
+                  "code": "J,BAS,51,124,1987",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "51",
+                      "part": null,
+                      "issue": null,
+                      "page": "124"
+                    },
+                    "date": 1987
+                  }
+                }
               },
               "free_text": [
-                " Data presented in table 1 of",
-                " Bull.Russ.Acad.Sci.:Phys.,51(1987)124."
-              ]
-            }
-          ],
-          "COMMENT": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Determination  of  the  nature  of  gamma line, i.e.",
-                " identification of transitions between levels of the",
-                " final nuclei leading to appearance of maxima in the",
-                " spectrum,   was   achieved   taking   into  account",
-                " information as cascade gamma transitions."
+                "",
+                " Data presented in table 1."
               ]
             }
           ],
@@ -404,6 +436,17 @@
               "free_text": [
                 " Corrected by V.Varlamov: REACTION."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20261016,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " DATA (E-LVL-FIN), STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -423,7 +466,7 @@
               ""
             ],
             "heading": [
-              "E-LVL",
+              "E-LVL-FIN",
               "DATA",
               "ERR-S"
             ],
@@ -497,22 +540,22 @@
         {
           "SUBENT": {
             "N1": "M0162003",
-            "N2": 20220425,
+            "N2": 20261016,
             "alteration_flag": " ",
-            "transmission_identification": "M119"
+            "transmission_identification": "M149"
           },
           "BIB": {
-            "N1": 4,
+            "N1": 3,
             "N2": 0
           },
           "REACTION": [
             {
               "pointer": "",
               "coded_information": {
-                "code": "19-K-39(G,N)19-K-38,PAR,INT/DA,G,BRA,DERIV",
+                "code": "19-K-39(G,N)19-K-38,PAR,INT/DA,G,BRA/MSC",
                 "code_unit": [
                   {
-                    "unit": "19-K-39(G,N)19-K-38,PAR,INT/DA,G,BRA,DERIV",
+                    "unit": "19-K-39(G,N)19-K-38,PAR,INT/DA,G,BRA/MSC",
                     "field": {
                       "reaction": "19-K-39(G,N)19-K-38",
                       "target": "19-K-39",
@@ -520,8 +563,8 @@
                       "process": "N",
                       "product": "19-K-38",
                       "quantity": "PAR,INT/DA,G",
-                      "data_type": "DERIV",
-                      "general_quantity_modifier": "BRA",
+                      "data_type": null,
+                      "general_quantity_modifier": "BRA/MSC",
                       "quantity_236": "PAR,INT/DA,*"
                     }
                   }
@@ -530,7 +573,9 @@
               },
               "free_text": [
                 "",
-                "Angle dependent integrated cross section."
+                "Integrated cross section for 140 deg gammas",
+                " deexcitating the initially formed 38K to its final",
+                " level."
               ]
             }
           ],
@@ -542,25 +587,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "U.R.Arzibekov+",
+                "reference": {
+                  "code": "J,BAS,51,124,1987",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "51",
+                      "part": null,
+                      "issue": null,
+                      "page": "124"
+                    },
+                    "date": 1987
+                  }
+                }
               },
               "free_text": [
-                " Data presented in table 1 of",
-                " Bull.Russ.Acad.Sci.:Phys.,51(1987)124."
-              ]
-            }
-          ],
-          "COMMENT": [
-            {
-              "pointer": "",
-              "coded_information": null,
-              "free_text": [
-                "Determination  of  the  nature  of  gamma line, i.e.",
-                " identification of transitions between levels of the",
-                " final nuclei leading to appearance of maxima in the",
-                " spectrum,   was   achieved   taking   into  account",
-                " information as cascade gamma transitions."
+                "",
+                " Data presented in table 1."
               ]
             }
           ],
@@ -594,6 +640,17 @@
               "free_text": [
                 " Corrected by V.Varlamov: REACTION."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20261016,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " DATA (E-LVL-FIN), STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -613,7 +670,7 @@
               ""
             ],
             "heading": [
-              "E-LVL",
+              "E-LVL-FIN",
               "DATA",
               "ERR-S"
             ],
@@ -657,9 +714,9 @@
         {
           "SUBENT": {
             "N1": "M0162004",
-            "N2": 20220425,
+            "N2": 20261016,
             "alteration_flag": " ",
-            "transmission_identification": "M119"
+            "transmission_identification": "M149"
           },
           "BIB": {
             "N1": 3,
@@ -669,10 +726,10 @@
             {
               "pointer": "",
               "coded_information": {
-                "code": "19-K-39(G,A)17-CL-35,PAR,INT/DA,G,BRA,DERIV",
+                "code": "19-K-39(G,A)17-CL-35,PAR,INT/DA,G,BRA/MSC",
                 "code_unit": [
                   {
-                    "unit": "19-K-39(G,A)17-CL-35,PAR,INT/DA,G,BRA,DERIV",
+                    "unit": "19-K-39(G,A)17-CL-35,PAR,INT/DA,G,BRA/MSC",
                     "field": {
                       "reaction": "19-K-39(G,A)17-CL-35",
                       "target": "19-K-39",
@@ -680,8 +737,8 @@
                       "process": "A",
                       "product": "17-CL-35",
                       "quantity": "PAR,INT/DA,G",
-                      "data_type": "DERIV",
-                      "general_quantity_modifier": "BRA",
+                      "data_type": null,
+                      "general_quantity_modifier": "BRA/MSC",
                       "quantity_236": "PAR,INT/DA,*"
                     }
                   }
@@ -690,7 +747,9 @@
               },
               "free_text": [
                 "",
-                "Angle dependent integrated cross section."
+                "Integrated cross section for 140 deg gammas",
+                " deexcitating the initially formed 35Cl to its final",
+                " level."
               ]
             }
           ],
@@ -702,12 +761,26 @@
                   "TABLE"
                 ],
                 "subentry_number": null,
-                "author": null,
-                "reference": null
+                "author": "U.R.Arzibekov+",
+                "reference": {
+                  "code": "J,BAS,51,124,1987",
+                  "field": {
+                    "reference_type": "J",
+                    "reference": {
+                      "code": "BAS",
+                      "number": null,
+                      "volume": "51",
+                      "part": null,
+                      "issue": null,
+                      "page": "124"
+                    },
+                    "date": 1987
+                  }
+                }
               },
               "free_text": [
-                " Data presented in table 1 of",
-                " Bull.Russ.Acad.Sci.:Phys.,51(1987)124."
+                "",
+                " Data presented in table 1."
               ]
             }
           ],
@@ -741,6 +814,17 @@
               "free_text": [
                 " Corrected by V.Varlamov: REACTION."
               ]
+            },
+            {
+              "pointer": "",
+              "coded_information": {
+                "date": 20261016,
+                "history": "A"
+              },
+              "free_text": [
+                " Corrected by V.Varlamov: REACTION,",
+                " DATA (E-LVL-FIN), STATUS."
+              ]
             }
           ],
           "ENDBIB": {
@@ -760,7 +844,7 @@
               ""
             ],
             "heading": [
-              "E-LVL",
+              "E-LVL-FIN",
               "DATA",
               "ERR-S"
             ],
